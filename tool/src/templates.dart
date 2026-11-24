@@ -16,9 +16,9 @@ File createSolution(Problem problem, String user) {
 void describe(Problem p, File file, {required bool created}) {
   final rel = file.path.substring(repoRoot.path.length + 1);
   stdout.writeln('${p.category} → ${p.level} ${p.number}. ${p.title}');
-  stdout.writeln('  Problem:  ${p.path}/README.md');
+  stdout.writeln('  Problem:   ${p.path}/README.md');
   stdout.writeln('  ${created ? 'Created:  ' : 'Your file:'} $rel');
-  if (!p.isConcept) stdout.writeln('  Run:      $dsa run        Test: $dsa test');
+  if (!p.isConcept) stdout.writeln('  Run:       $dsa run        Test: $dsa test');
 }
 
 String dartTemplate(Problem p, String user) {
