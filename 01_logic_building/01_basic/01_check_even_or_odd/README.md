@@ -54,5 +54,5 @@ Test it on your computer first: `./dsa test logic_building basic 1`
 
 | # | Contributor | Result | Time | Extra memory | Points |
 |---|---|---|---|---|---|
-| – | Technophyle-0926 | ❌ not tested yet | – | – | 0.0 |
+| 1 | Technophyle-0926 | ✅ 41/41 | 0.00 ms | 0.0 MB | 100.0 |
 <!-- results:end -->

@@ -10,13 +10,13 @@ submits it, so they are compared on the same machine. 123 problems have tests so
 
 | Rank | Contributor | Points | Passing tests | Not passing |
 |---|---|---|---|---|
-| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 100.0 | 1 | 2 |
+| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 300.0 | 3 | 0 |
 
 ## Points by category
 
 | Category | Tested problems | Technophyle-0926 |
 |---|---|---|
-| [Logic Building](01_logic_building/README.md) | 50 | 0.0 |
+| [Logic Building](01_logic_building/README.md) | 50 | 200.0 |
 | [Array](03_array/README.md) | 50 | 100.0 |
 | [Binary Indexed Tree](19_binary_indexed_tree/README.md) | 8 | 0.0 |
 | [Trie](20_trie/README.md) | 13 | 0.0 |
