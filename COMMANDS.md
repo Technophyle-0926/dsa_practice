@@ -9,6 +9,7 @@ Every command you need, run from the repository folder. For the full workflow, s
 | [`next`](#next-pick-your-next-problem) | open your next problem |
 | [`start`](#start-open-a-specific-problem) | open a specific problem |
 | `dart run <your file>` | run your solution |
+| [`test`](#test-check-your-solution) | check your solution against the tests |
 | [`submit`](#submit-send-your-solutions) | send your solutions to GitHub |
 | [`submit --status`](#check-your-submission) | see if they were merged, then return to `main` |
 | [`progress --me`](#progress-see-your-progress) | see your progress |
@@ -79,7 +80,8 @@ Your file is `<problem>/solutions/<you>.dart`. It contains:
 
 - the required function signature: keep its name, parameters and return type, the leaderboard will call it;
 - `throw UnimplementedError();`: replace it with your solution. The problem counts as **solved** once
-  `UnimplementedError` no longer appears in the file. Your own `// TODO` comments don't matter;
+  `UnimplementedError` no longer appears in the file and, if the problem has tests, your solution passes
+  them on GitHub. Your own `// TODO` comments don't matter;
 - a `main()` that prints the README example, with the expected output in a comment.
 
 ```sh
@@ -88,6 +90,36 @@ dart run 03_array/01_basic/05_reverse_an_array/solutions/<you>.dart
 
 Reading items create `solutions/<you>.md` instead. Write your notes and delete the placeholder line to
 mark it done.
+
+## `test`: check your solution
+
+```sh
+dart run tool/test.dart
+```
+
+Tests the problem you edited most recently against its test cases, on your computer. It shows whether
+you passed, your time and how much extra memory you used. If a case fails, it shows that case's input and
+what you returned (the expected answer is never stored, so it can't be shown).
+
+| Variation | What it does |
+| --- | --- |
+| `test.dart array basic 5` | a specific problem (same ways to name it as `start`) |
+| `test.dart --all` | every finished solution of yours that has tests |
+
+Only problems with a `tests.dart` file have tests (Array first, more categories later). The first run
+takes a few seconds because the tests are compiled to native code, the same way GitHub runs them.
+
+What can go wrong:
+
+| Result | Meaning |
+| --- | --- |
+| ❌ wrong answer | your answer differs on that case |
+| 💥 threw | your code threw an exception (the input and stack trace are shown) |
+| ⏱️ too slow | all cases together took longer than 30 seconds |
+| 🧠 memory limit | your code used more than 256 MB on top of the input |
+| 🛠️ signature | your function's name, parameters or return type differ from the required signature |
+
+Your times differ from GitHub's; the leaderboard only uses times measured on GitHub.
 
 ## `submit`: send your solutions
 
@@ -121,7 +153,8 @@ dart run tool/submit.dart --status
 
 Shows your last submission and whether GitHub's check and merge passed, with a link if something failed.
 
-Once it says **merged**, it also switches you back to an up-to-date `main` and deletes your finished
+Once it says **merged**, it lists each submitted problem's test result (✅ with your time, or ❌ with
+the reason) and switches you back to an up-to-date `main` and deletes your finished
 local branch. The next `submit` creates a fresh one. It stays on your branch, and says why, if you have
 uncommitted changes or commits that aren't merged yet.
 
@@ -131,9 +164,11 @@ uncommitted changes or commits that aren't merged yet.
 dart run tool/progress.dart --me
 ```
 
-Prints how many problems you've solved, overall and per category. Everyone's progress is in
-[PROGRESS.md](PROGRESS.md) and `progress/<user>.md`, and the "Solved by" columns are in each README. GitHub
-updates those after every merge, so don't edit or commit them yourself.
+Prints how many problems you've solved and your points, overall and per category, and lists solutions
+that don't pass their tests. Everyone's progress is in [PROGRESS.md](PROGRESS.md) and `progress/<user>.md`,
+the points ranking in [LEADERBOARD.md](LEADERBOARD.md), and each problem's README has a "Solved by" column
+and, for tested problems, a leaderboard table. GitHub updates those after every merge, so don't edit or
+commit them yourself.
 
 ## Common situations
 
@@ -152,6 +187,12 @@ on your machine. Undo them with `git checkout -- <file>` if they were accidental
 
 **It says generated progress files were ignored.** You probably ran the progress generator. Discard them
 with `git checkout -- PROGRESS.md progress "*/README.md"`.
+
+**My solution is marked ❌.** It was merged but doesn't pass the tests. Run
+`dart run tool/test.dart <problem>` to see the failing case, fix it and `submit` again.
+
+**Someone is faster than me.** Make your solution faster and `submit` again: all solutions to that problem
+are re-timed together, so the comparison stays fair.
 
 **I want to redo a problem.** Edit your file and `submit` again. Your latest version is what counts.
 

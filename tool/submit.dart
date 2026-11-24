@@ -304,11 +304,12 @@ String _describe(Map<String, dynamic> run) {
 }
 
 void _warnOthers(List<String> all) {
-  final generated = RegExp(r'^(PROGRESS\.md|progress/.*|\d\d_[^/]+/README\.md|\d\d_[^/]+/\d\d_[^/]+/README\.md)$');
+  final generated = RegExp(r'^(PROGRESS\.md|LEADERBOARD\.md|progress/.*|\d\d_[^/]+/README\.md|'
+      r'\d\d_[^/]+/\d\d_[^/]+/README\.md|\d\d_[^/]+/\d\d_[^/]+/\d\d_[^/]+/(README\.md|results\.json))$');
   final others = all.where((f) => !generated.hasMatch(f)).toList();
   if (others.length < all.length) {
     stdout.writeln('\nIgnored ${all.length - others.length} generated progress file(s); GitHub updates those. '
-        'Discard them with: git checkout -- PROGRESS.md progress "*/README.md"');
+        'Discard them with: git checkout -- PROGRESS.md LEADERBOARD.md progress "*/README.md" "*/results.json"');
   }
   if (others.isEmpty) return;
   stdout.writeln('\nNot submitted (only your own solution files are sent):');

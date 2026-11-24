@@ -54,7 +54,8 @@ It contains the **required function signature** (from `problem.json`) and a `mai
 example. Keep the function name and parameters as they are; the leaderboard will call that function.
 
 A problem counts as **solved** when your file no longer contains `UnimplementedError` (the template's
-placeholder). Your own `TODO` comments are fine. Reading items in `00_basics` use a `.md` notes file instead;
+placeholder) **and**, if the problem has tests, it passes them on GitHub. Your own `TODO` comments are fine.
+Test before you submit with `dart run tool/test.dart`. Reading items in `00_basics` use a `.md` notes file instead;
 they count once the template's placeholder line is deleted.
 
 Some signatures have a **note** above them (e.g. how operations are encoded, or "return -1 if not found").
@@ -96,7 +97,16 @@ Check your own progress at any time:
 dart run tool/progress.dart --me
 ```
 
-## Correctness
+## Tests and the leaderboard
 
-Right now "solved" means "submitted and compiles". Test cases and a leaderboard (correctness + execution
-time) are planned: solutions will still be merged when tests fail, but marked as failing and not counted.
+Problems with a `tests.dart` file have tests (Array first; more categories follow). After every merge,
+GitHub runs everyone's solution to the problems you submitted:
+
+- **passing** solutions are timed and get points: **100 × fastest time / your time** per problem
+  (see [LEADERBOARD.md](LEADERBOARD.md));
+- **failing** solutions (wrong answer, error, too slow, over the memory limit) are still merged, but are
+  marked ❌ and score nothing until you fix them and submit again;
+- `dart run tool/submit.dart --status` tells you how each submitted problem did.
+
+The tests use generated inputs; only fingerprints of the expected answers are stored, so the repo never
+shows them. Run `dart run tool/test.dart` to see which case fails and what you returned.
