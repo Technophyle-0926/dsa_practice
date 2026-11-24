@@ -8,13 +8,13 @@ Speed ranking: [LEADERBOARD.md](LEADERBOARD.md).
 
 | Rank | Contributor | Solved | % of 1048 |
 |---|---|---|---|
-| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 3 | 0.3% |
+| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 1 | 0.1% |
 
 ## By category
 
 | Category | Total | Technophyle-0926 |
 |---|---|---|
-| [Logic Building](01_logic_building/README.md) | 50 | 2 |
+| [Logic Building](01_logic_building/README.md) | 50 | 0 |
 | [Analysis of Algorithms](02_analysis_of_algorithms/README.md) | 13 | 0 |
 | [Array](03_array/README.md) | 52 | 1 |
 | [String](04_string/README.md) | 53 | 0 |

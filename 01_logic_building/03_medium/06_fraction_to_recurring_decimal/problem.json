@@ -19,7 +19,8 @@
       }
     ],
     "returns": "String",
-    "verified": true
+    "verified": true,
+    "note": "Format: \"-\" only if the value is negative, the integer part, then \".\" and the fractional digits only if there are any; the repeating part goes in parentheses. Examples: 4/2 → \"2\", 0/5 → \"0\", -1/6 → \"-0.1(6)\", 50/22 → \"2.(27)\"."
   },
   "example": {
     "call": "fractionRecurringDecimal(1, 2)",

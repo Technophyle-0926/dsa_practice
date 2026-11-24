@@ -25,6 +25,8 @@ Explanation: 50/22 = 2.27272727... Since fractional part (27) is repeating, it i
 String fractionRecurringDecimal(int a, int b)
 ```
 
+> **Note:** Format: "-" only if the value is negative, the integer part, then "." and the fractional digits only if there are any; the repeating part goes in parentheses. Examples: 4/2 → "2", 0/5 → "0", -1/6 → "-0.1(6)", 50/22 → "2.(27)".
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
 
 **Example:** `fractionRecurringDecimal(1, 2)` → `"0.5"`
@@ -44,3 +46,11 @@ Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `./dsa test logic_building medium 6`
+
+_No solutions yet._
+<!-- results:end -->

@@ -36,6 +36,8 @@ Explanation: The value of 6C3 is (6 × 5 × 4) / (3 × 2 × 1) = 20.
 int binomialCoefficient(int n, int k)
 ```
 
+> **Note:** Return 0 when k > n.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
 
 **Example:** `binomialCoefficient(4, 2)` → `6`
@@ -55,3 +57,11 @@ Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `./dsa test logic_building medium 16`
+
+_No solutions yet._
+<!-- results:end -->
