@@ -1,0 +1,36 @@
+# 3. Largest pair sum
+
+**Category:** Searching → Medium
+
+## Problem
+
+Given an unsorted array arr[] of distinct integers, find the largest pair sum in it. If there are less than 2 elements, then we need to return -1.
+
+```
+Input :  arr[] =  [12, 34, 10, 6, 40]
+Output :  74
+Explanation : The two largest elements are `40` and `34`. Their sum is `74`.
+```
+
+```
+Input : arr[]  = [10, 10, 10]
+Output : 20
+Explanation : Any two `10'`s give the maximum sum.
+```
+
+```
+Input  arr[]  = [10]
+Output :  -1
+Explanation : At least two elements are required to form a pair.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-largest-pair-sum-in-an-unsorted-array/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/pair-sum--120604/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

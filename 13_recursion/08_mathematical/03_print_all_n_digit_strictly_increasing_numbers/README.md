@@ -1,0 +1,32 @@
+# 3. Print all n-digit strictly increasing numbers
+
+**Category:** Recursion → Mathematical
+
+## Problem
+
+Given an integer **n**, return all the **n** digit numbers in increasing order, such that their digits are in strictly increasing order(from left to right).
+
+**Examples:**
+
+```
+Input: n = 1
+Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Explanation: Single digit numbers are considered to be strictly increasing order.
+```
+
+```
+Input: n = 2
+Output: [12, 13, 14, 15, 16, 17, 18, 19, 23....79, 89]
+Explanation: For n = 2, the correct sequence is 12 13 14 15 16 17 18 19 23 and so on up to 89.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/print-all-n-digit-strictly-increasing-numbers/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

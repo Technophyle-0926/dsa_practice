@@ -1,0 +1,55 @@
+# 9. Nth Node from End
+
+**Category:** Linked List → Operations
+
+## Problem
+
+Given the **head** of a linked list and an integer **k**, return the kth node from the end of the linked list. If k is greater than the number of nodes in the list, return -1.
+
+**Examples:**
+
+```
+Input: k = 2
+```
+
+```
+Output: 8
+Explanation:
+```
+
+```
+The 2nd node from end is 8.
+```
+
+```
+Input: k = 3
+```
+
+```
+Output: 40
+Explanation:
+```
+
+```
+The 3rd node from the end is 40.
+```
+
+```
+Input: k = 5
+```
+
+```
+Output: -1
+Explanation: The given linked list is 10 -> 5 -> 100 -> 5. Since 'k' is more than the number of nodes, the output is -1.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/nth-node-from-the-end-of-a-linked-list/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

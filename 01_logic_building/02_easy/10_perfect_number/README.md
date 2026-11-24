@@ -1,0 +1,30 @@
+# 10. Perfect Number
+
+**Category:** Logic Building → Easy
+
+## Problem
+
+Given a number **n,** check if the number is **perfect** or not. A number is said to be perfect if sum of all its factors excluding the number itself is equal to the number.
+
+**Examples:**
+
+```
+Input: n = 15
+Output: false
+Explanation: Divisors of 15 are 1, 3 and 5. Sum of divisors is 9 which is not equal to 15.
+
+Input: n = 6
+Output: true
+Explanation: Divisors of 6 are 1, 2 and 3. Sum of divisors is 6.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/perfect-number/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/perfect-numbers3207/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

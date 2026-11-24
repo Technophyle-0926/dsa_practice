@@ -1,0 +1,38 @@
+# 3. Clock Angle
+
+**Category:** Logic Building → Hard
+
+## Problem
+
+Given a string s represents time in 24-hour format ("HH:MM"), determine the minimum angle between the hour and minute hands of an analog clock.
+
+**Examples:**
+
+```
+Input: s = "06:00"
+Output: 180.000
+Explanation: When the time is 06:00, the angle between the hour and minute hands of the clock is 180.000 degrees.
+```
+
+```
+Input: s = "03:15"
+Output: 7.500
+Explanation: When the time is 03:15, the angle between the hour and minute hands of the clock is 7.500 degrees.
+```
+
+```
+Input: s = "00:00"
+Output: 0.000
+Explanation: When the time is 00:00, the angle between the hour and minute hands of the clock is 0.000 degrees.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/calculate-angle-hour-hand-minute-hand/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/angle-between-hour-and-minute-hand0545/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

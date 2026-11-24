@@ -1,0 +1,60 @@
+# 4. BFS for a Graph
+
+**Category:** Queue → Easy
+
+## Problem
+
+Breadth First Search (BFS) is a graph traversal algorithm that starts from a source node and explores the graph level by level. First, it visits all nodes directly adjacent to the source. Then, it moves on to visit the adjacent nodes of those nodes, and this process continues until all reachable nodes are visited.
+
+- BFS is different from DFS in a way that closest vertices are visited before others. We mainly traverse vertices level by level.
+- Popular graph algorithms like Dijkstra's shortest path, Kahn's Algorithm, and Prim's algorithm are based on BFS.
+- BFS itself can be used to detect cycle in a directed and undirected graph, find shortest path in an unweighted graph and many more problems.
+
+**Examples:**
+
+```
+Input: adj[][] = [[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]]
+```
+
+```
+Output: [0, 1, 2, 3, 4]
+Explanation: Starting from 0, the BFS traversal proceeds as follows:
+Visit 0 - Print: 0
+Visit 1 (neighbor of 0) - Print: 1
+Visit 2 (next neighbor of 0) - Print: 2
+Visit 3 (first neighbor of 2 that hasn't been visited yet) - Print: 3
+Visit 4 (next neighbor of 2) - Print: 4
+```
+
+```
+Input: adj[][] = [[2, 3], [2], [0, 1], [0], [5], [4]]
+```
+
+```
+Output: [0, 2, 3, 1, 4, 5]
+Explanation: Starting from 0, the BFS traversal proceeds as follows:
+Visit 0 - Print: 0
+Visit 2 (first neighbor of 0) - Print: 2
+Visit 3 (next neighbor of 0) - Print: 3
+Visit 1 (neighbor of 2 that hasn't been visited yet) - Print: 1
+```
+
+```
+Start another BFS traversal with source as 4:
+```
+
+```
+Visit 4 - Print: 4
+Visit 5 (neighbor of 4) - Print: 5
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

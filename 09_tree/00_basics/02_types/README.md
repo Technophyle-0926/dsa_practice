@@ -1,0 +1,97 @@
+# 2. Types
+
+**Category:** Tree → Basics
+
+## Problem
+
+A tree is a hierarchical data structure that consists of nodes connected by edges. It is used to represent relationships between elements, where each node holds data and is connected to other nodes with edges.
+
+### 1. Binary Tree
+
+```
+A binary tree is a tree data structure where each node has at most two children. These two children are usually referred to as the left child and right child.
+```
+
+**Example:** Consider the tree below. Since each node of this tree has at most 2 children, it can be said that this tree is a Binary Tree.
+
+### Types of Binary Tree:
+
+- **Binary Search Tree (BST) and its Variations**: A BST is a binary tree where each node has at most two children, and for each node, the left child’s value is smaller than the node’s value, and the right child’s value is greater.
+- **Binary Indexed Tree (**Fenwick Tree): A data structure that uses a binary tree to efficiently compute and update prefix sums in an array.
+- **Balanced Binary Tree**: A binary tree where the difference in heights between the left and right subtrees of any node is minimal (often defined as at most 1). Examples of Balanced Binary Tree are AVL Tree, Red Black Tree and Splay Tree.
+
+### 2. Ternary Tree
+
+```
+A Ternary Tree is a tree data structure in which each node has at most three children. These three children are usually referred to as the left child, mid child and right child.
+```
+
+**Example:** Consider the tree below. Since each node of this tree has only 3 children, it can be said that this tree is a Ternary Tree.
+
+### Examples of Ternary Tree:
+
+- **Ternary Search Tree**: A ternary search tree is a special trie data structure where the child nodes of a standard trie are ordered as a binary search tree.
+- **Ternary Heap**: A type of heap where each node can have up to three children, though less common than binary heaps.
+
+### 3. N-ary Tree (Generic Tree)
+
+```
+An N-ary tree is a generalization of a binary tree, such that each node can have at most N children.
+```
+
+**Example**: Consider the tree below. Here, n=5, since each node of this tree has less than or equal to 5 children, it can be said that this tree is a n-ary tree for n = 5.
+
+### Examples of N-ary Trees:
+
+- **B-tree**: A self-balancing search tree where nodes can have multiple children, usually used for indexing large databases.
+- **B+ Tree**: A B+ tree is a variation of the B-tree that only stores data in the leaf nodes, making range queries more efficient.
+- **Trie (Prefix Tree)**: A tree where each node represents a character, and paths from the root to leaves represent strings. It can have a variable number of children for each node, making it an N-ary tree.
+- Company
+- About Us
+- Legal
+- Privacy Policy
+- Careers
+- Contact Us
+- Corporate Solution
+- Campus Training Program
+- Explore
+- POTD
+- Practice Problems
+- Blogs
+- Upskill Courses
+- Connect
+- Tutorials
+- Programming Languages
+- DSA
+- Web Technology
+- AI, ML & Data Science
+- DevOps
+- CS Core Subjects
+- GATE
+- School Subjects
+- Software and Tools
+- Courses
+- ML and Data Science
+- DSA and Placements
+- Web Development
+- Data Science
+- Programming Languages
+- DevOps & Cloud
+- GATE
+- MongoDB Certifications
+- Preparation Corner
+- Interview Corner
+- Aptitude
+- Puzzles
+- GfG 160
+- System Design
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/types-of-trees-in-data-structures/
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

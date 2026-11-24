@@ -1,0 +1,7 @@
+// 1. AVL Tree Data Structure
+// Problem: see README.md in this folder
+// Run: dart run 09_tree/03_avl_tree/01_avl_tree_data_structure/solution.dart
+
+void main() {
+  // TODO: implement the solution and test it with the examples from README.md
+}

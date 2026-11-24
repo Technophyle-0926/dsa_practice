@@ -1,0 +1,33 @@
+# 11. Booth’s Multiplication Algorithm
+
+**Category:** Bitwise Algorithms → Hard
+
+## Problem
+
+Booth's algorithm is a multiplication algorithm that multiplies two signed binary numbers in 2's complement notation.
+Booth used desk calculators that were faster at shifting than adding and created the algorithm to increase their speed. Booth’s algorithm is of interest in the study of computer architecture. Here's the implementation of the algorithm.
+**Examples:**
+
+```
+Input : 0110, 0010
+Output :  qn      q[n+1]                  AC      QR     sc(step count)
+                          initial         0000   0010        4
+          0       0       rightShift      0000   0001        3
+          1       0       A = A - BR      1010
+                          rightShift      1101   0000        2
+          0       1       A = A + BR      0011
+                          rightShift      0001   1000        1
+          0       0       rightShift      0000   1100        0
+
+Result=1100
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/booths-multiplication-algorithm/
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

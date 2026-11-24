@@ -1,0 +1,33 @@
+# 7. Min and Max Amount to Buy All
+
+**Category:** Sorting → Medium
+
+## Problem
+
+Given an array **prices[]** of n different candies, where prices[i] represents the price of the ith candy and all prices are distinct. The store has an offer where for every candy you buy, you can get **up to k** other different candies for free. Find the minimum and maximum amount of money needed to buy all the candies.
+**Note:** In both cases, you must take the maximum number of free candies possible during each purchase.
+
+**Examples:**
+
+```
+Input: prices[] = [3, 2, 1, 4], k = 2
+Output: [3, 7]
+Explanation: For minimum cost, buy the candies costing 1 and 2. for maximum cost, buy the candies costing 4 and 3.
+```
+
+```
+Input: prices[] = [3, 2, 1, 4, 5], k = 4
+Output: [1, 5]
+Explanation: For minimum cost, buy the candy costing 1. for maximum cost, buy the candy costing 5.
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/find-minimum-maximum-amount-buy-n-candies/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/shop-in-candy-store1145/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

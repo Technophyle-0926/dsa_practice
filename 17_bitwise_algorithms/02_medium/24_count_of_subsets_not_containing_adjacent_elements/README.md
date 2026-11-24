@@ -1,0 +1,29 @@
+# 24. Count of subsets not containing adjacent elements
+
+**Category:** Bitwise Algorithms → Medium
+
+## Problem
+
+Given an array **arr[]** of **N** integers, the task is to find the count of all the subsets which do not contain adjacent elements from the given array.
+**Examples:**
+
+```
+Input: arr[] = {2, 7}
+Output: 3
+All possible subsets are {}, {2} and {7}.
+```
+
+```
+Input: arr[] = {3, 5, 7}
+Output: 5
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/count-of-subsets-not-containing-adjacent-elements/
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

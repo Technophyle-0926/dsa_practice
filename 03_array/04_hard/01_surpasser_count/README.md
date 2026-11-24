@@ -1,0 +1,39 @@
+# 1. Surpasser Count
+
+**Category:** Array → Hard
+
+## Problem
+
+Given an array of distinct integers arr[], a **surpasser** of an element arr[i] is any element arr[j] such that j > i and arr[j] > arr[i]. Find the number of surpassers for each element in the array.
+
+**Examples:**
+
+```
+Input: arr[] = [2, 7, 5, 3, 8, 1]
+Output: [4, 1, 1, 1, 0, 0]
+Explanation:  For 2, there are 4 greater elements to its right: [7, 5, 3, 8]
+For 7, there is 1 greater element to its right: [8]
+For 5, there is 1 greater element to its right: [8]
+For 3, there is 1 greater element to its right: [8]
+For 8, there is no greater element to its right: [0]
+For 1, there is no greater element to its right: [0]
+```
+
+```
+Input: arr[] = [4, 5, 1]
+Output: [1, 0, 0]
+Explanation: For 4, there is 1 greater element to its right: [5]
+For 5, there is no greater element to its right: [0]
+For 1, there is no greater element to its right: [0]
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/find-surpasser-count-of-each-element-in-array/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/surpasser-count0615/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

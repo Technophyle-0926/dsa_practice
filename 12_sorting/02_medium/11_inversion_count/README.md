@@ -1,0 +1,40 @@
+# 11. Inversion count
+
+**Category:** Sorting → Medium
+
+## Problem
+
+Given an integer array **arr[]** of size **n**, find the inversion count in the array. Two array elements arr[i] and arr[j] form an inversion if arr[i] > arr[j] and i < j.
+
+**Note:** Inversion Count for an array indicates that how far (or close) the array is from being sorted. If the array is already sorted, then the inversion count is 0, but if the array is sorted in reverse order, the inversion count is maximum.
+
+**Examples:**
+
+```
+Input: arr[] = [4, 3, 2, 1]
+Output: 6
+Explanation:
+```
+
+```
+Input: arr[] = [1, 2, 3, 4, 5]
+Output: 0
+Explanation: There is no pair of indexes (i, j) exists in the given array such that arr[i] > arr[j] and i < j
+```
+
+```
+Input: arr[] = [10, 10, 10]
+Output: 0
+Explanation: There is no pair of indexes (i, j) exists in the given array such that arr[i] > arr[j] and i < j
+```
+
+## Links
+
+- 📖 Article: https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/
+- 💻 Practice: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
+
+## My Notes
+
+- **Approach:**
+- **Time Complexity:**
+- **Space Complexity:**

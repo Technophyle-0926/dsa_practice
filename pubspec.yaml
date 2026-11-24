@@ -1,0 +1,6 @@
+name: dsa_practice
+description: GeeksforGeeks DSA practice in Dart.
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
