@@ -19,7 +19,8 @@
       }
     ],
     "returns": "List<String>",
-    "verified": true
+    "verified": true,
+    "note": "Match words whose uppercase letters START with the pattern (e.g. pattern \"HA\" matches \"HappyAt\" and \"HiAllYou\"); return them in any order."
   },
   "example": {
     "call": "camelcasePatternMatching([\"WelcomeGeek\", \"WelcomeToGeeksForGeeks\", \"GeeksForGeeks\", \"WayToGo\"], \"WTG\")",

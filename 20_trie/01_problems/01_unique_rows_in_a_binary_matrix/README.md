@@ -49,3 +49,11 @@ Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `./dsa test trie problems 1`
+
+_No solutions yet._
+<!-- results:end -->

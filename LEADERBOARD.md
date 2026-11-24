@@ -6,7 +6,7 @@ For every problem with tests that you pass, you get **100 × fastest time / your
 the fastest solution gets 100, one taking twice as long gets 50. Failing solutions get 0.
 Times under 1 ms count as 1 ms (smaller differences are just measurement noise).
 Times are measured on GitHub; all solutions to a problem are re-run together whenever someone
-submits it, so they are compared on the same machine. 50 problems have tests so far.
+submits it, so they are compared on the same machine. 73 problems have tests so far.
 
 | Rank | Contributor | Points | Passing tests | Not passing |
 |---|---|---|---|---|
@@ -17,3 +17,6 @@ submits it, so they are compared on the same machine. 50 problems have tests so 
 | Category | Tested problems | Technophyle-0926 |
 |---|---|---|
 | [Array](03_array/README.md) | 50 | 100.0 |
+| [Binary Indexed Tree](19_binary_indexed_tree/README.md) | 8 | 0.0 |
+| [Trie](20_trie/README.md) | 13 | 0.0 |
+| [Sqrt Decomposition](21_sqrt_decomposition/README.md) | 2 | 0.0 |

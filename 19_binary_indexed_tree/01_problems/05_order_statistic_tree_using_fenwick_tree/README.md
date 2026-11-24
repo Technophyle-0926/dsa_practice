@@ -42,3 +42,11 @@ Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `./dsa test binary_indexed_tree problems 5`
+
+_No solutions yet._
+<!-- results:end -->
