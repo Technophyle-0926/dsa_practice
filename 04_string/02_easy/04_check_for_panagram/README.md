@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/02_easy/04_check_for_panagram
+./dsa start string easy 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 11_searching/02_easy/09_kth_smallest_in_row_and_column_wise_sorted
+./dsa start searching easy 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

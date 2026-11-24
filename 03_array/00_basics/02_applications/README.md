@@ -30,7 +30,7 @@ Below are some applications of arrays.
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/00_basics/02_applications
+./dsa start array basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

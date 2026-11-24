@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/01_easy/12_sort_strings_by_lengths
+./dsa start sorting easy 12
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

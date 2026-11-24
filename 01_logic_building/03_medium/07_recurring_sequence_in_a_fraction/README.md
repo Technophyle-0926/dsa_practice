@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 01_logic_building/03_medium/07_recurring_sequence_in_a_fraction
+./dsa start logic_building medium 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

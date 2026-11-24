@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/02_easy/03_count_occurrences_in_a_linked_list
+./dsa start linked_list easy 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

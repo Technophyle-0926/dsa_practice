@@ -126,7 +126,7 @@ Future<void> main(List<String> args) async {
   // 5. GitHub takes over.
   final repo = _repoSlug();
   stdout.writeln('\nGitHub is now checking your files and will merge them into $mainBranch (about a minute).\n'
-      'Check with: dart run tool/submit.dart --status'
+      'Check with: $dsa status'
       '${repo == null ? '' : '\nOr watch:   https://github.com/$repo/actions'}');
 
   if (unfinished.isNotEmpty) {
@@ -251,7 +251,7 @@ void _testSummary(String user, String sha, String mainBranch) {
     } else {
       failing++;
       stdout.writeln('  ❌ $name: ${statusLabel(r)}');
-      stdout.writeln('     check it with: dart run tool/test.dart ${shortcut(p)}');
+      stdout.writeln('     check it with: $dsa test ${shortcut(p)}');
     }
   }
   if (failing > 0) stdout.writeln('Failing solutions are merged but score nothing until they pass.');

@@ -62,7 +62,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 01_logic_building/01_basic/02_multiplication_table
+./dsa start logic_building basic 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/02_medium/09_sort_an_array_of_0s_1s_and_2s
+./dsa start sorting medium 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

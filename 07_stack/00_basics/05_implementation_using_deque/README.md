@@ -59,7 +59,7 @@ In the below implementation, we use back (or rear) of stack to do both insertion
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/00_basics/05_implementation_using_deque
+./dsa start stack basics 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/05_ternary_search_tree/04_longest_word_in_ternary_search_tree
+./dsa start tree ternary_search_tree 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -38,7 +38,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/16_power_set_in_lexicographic_order
+./dsa start recursion strings 16
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

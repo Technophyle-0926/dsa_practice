@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/06_channel_assignment_problem
+./dsa start graph_algorithms maximum_flow_in_graph 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

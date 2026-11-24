@@ -20,7 +20,7 @@ Here are the two most common ways to represent a graph:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/00_basics/02_representations
+./dsa start graph basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

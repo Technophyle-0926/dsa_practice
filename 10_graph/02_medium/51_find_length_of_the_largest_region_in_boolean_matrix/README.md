@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/51_find_length_of_the_largest_region_in_boolean_matrix
+./dsa start graph medium 51
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

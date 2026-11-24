@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/03_hard/02_karatsuba_algorithm_for_fast_multiplication
+./dsa start bitwise_algorithms hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

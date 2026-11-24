@@ -30,7 +30,7 @@ Let us have a look at the complete implementation:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/03_efficient_implementation
+./dsa start segment_tree basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

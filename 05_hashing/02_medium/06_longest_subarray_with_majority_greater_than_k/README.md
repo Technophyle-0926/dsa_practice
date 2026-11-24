@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/02_medium/06_longest_subarray_with_majority_greater_than_k
+./dsa start hashing medium 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

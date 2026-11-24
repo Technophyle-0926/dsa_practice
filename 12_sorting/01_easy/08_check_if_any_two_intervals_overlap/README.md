@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/01_easy/08_check_if_any_two_intervals_overlap
+./dsa start sorting easy 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

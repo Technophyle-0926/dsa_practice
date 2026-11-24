@@ -79,7 +79,7 @@ A Queue is a linear data structure. This data structure follows a particular ord
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/00_basics/02_applications
+./dsa start queue basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

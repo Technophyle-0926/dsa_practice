@@ -22,7 +22,7 @@ A stack can be implemented using an array where we maintain:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/00_basics/03_array_implementation
+./dsa start stack basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

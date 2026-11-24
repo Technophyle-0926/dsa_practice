@@ -52,7 +52,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/03_medium/03_longest_increasing_subsequence
+./dsa start dynamic_programming medium 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

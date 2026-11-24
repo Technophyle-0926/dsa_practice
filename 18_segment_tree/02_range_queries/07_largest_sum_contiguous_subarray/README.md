@@ -61,7 +61,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/02_range_queries/07_largest_sum_contiguous_subarray
+./dsa start segment_tree range_queries 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

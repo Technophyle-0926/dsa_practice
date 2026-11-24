@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/03_print_all_n_digit_strictly_increasing_numbers
+./dsa start recursion mathematical 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

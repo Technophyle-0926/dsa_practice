@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/31_reverse_delete_algorithm_for_minimum_spanning_tree
+./dsa start graph medium 31
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

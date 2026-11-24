@@ -45,7 +45,7 @@ A tree can be represented using a collection of nodes. Each of the nodes can be 
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/00_basics/01_introduction
+./dsa start tree basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

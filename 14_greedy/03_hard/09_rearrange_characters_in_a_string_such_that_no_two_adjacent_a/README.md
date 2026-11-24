@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/09_rearrange_characters_in_a_string_such_that_no_two_adjacent_a
+./dsa start greedy hard 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

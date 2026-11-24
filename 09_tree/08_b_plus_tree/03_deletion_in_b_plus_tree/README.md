@@ -68,7 +68,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/08_b_plus_tree/03_deletion_in_b_plus_tree
+./dsa start tree b_plus_tree 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

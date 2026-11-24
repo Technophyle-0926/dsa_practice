@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/05_advanced_concepts/02_traveling_salesman_problem
+./dsa start dynamic_programming advanced_concepts 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

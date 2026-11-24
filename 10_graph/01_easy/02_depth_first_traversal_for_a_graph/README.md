@@ -76,7 +76,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/01_easy/02_depth_first_traversal_for_a_graph
+./dsa start graph easy 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

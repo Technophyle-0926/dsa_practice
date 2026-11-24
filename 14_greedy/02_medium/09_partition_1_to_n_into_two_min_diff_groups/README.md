@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/09_partition_1_to_n_into_two_min_diff_groups
+./dsa start greedy medium 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

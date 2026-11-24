@@ -19,7 +19,7 @@ A Segment Tree is used to store information about array intervals in its nodes.
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/01_introduction
+./dsa start segment_tree basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

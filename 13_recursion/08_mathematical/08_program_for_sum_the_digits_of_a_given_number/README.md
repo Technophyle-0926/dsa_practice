@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/08_program_for_sum_the_digits_of_a_given_number
+./dsa start recursion mathematical 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

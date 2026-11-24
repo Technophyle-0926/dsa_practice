@@ -38,7 +38,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/03_medium/13_merge_sort_for_doubly_linked_list
+./dsa start linked_list medium 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

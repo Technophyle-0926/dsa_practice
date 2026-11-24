@@ -47,7 +47,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/04_hard/14_max_height_of_tree_when_any_node_can_be_root
+./dsa start dynamic_programming hard 14
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

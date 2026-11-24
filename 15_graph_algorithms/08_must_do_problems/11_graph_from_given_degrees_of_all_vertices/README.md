@@ -57,7 +57,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/11_graph_from_given_degrees_of_all_vertices
+./dsa start graph_algorithms must_do_problems 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

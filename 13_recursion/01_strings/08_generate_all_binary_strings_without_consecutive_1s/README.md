@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/08_generate_all_binary_strings_without_consecutive_1s
+./dsa start recursion strings 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

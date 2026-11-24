@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/07_find_itinerary_from_a_given_list_of_tickets
+./dsa start graph_algorithms topological_sorting 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

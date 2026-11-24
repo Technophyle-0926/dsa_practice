@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/02_range_queries/13_minimum_distance_between_two_zeros
+./dsa start segment_tree range_queries 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

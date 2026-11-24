@@ -137,7 +137,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/04_red_black_tree/05_applications_advantages_and_disadvantages
+./dsa start tree red_black_tree 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

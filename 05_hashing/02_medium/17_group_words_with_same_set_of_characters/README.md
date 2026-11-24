@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/02_medium/17_group_words_with_same_set_of_characters
+./dsa start hashing medium 17
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

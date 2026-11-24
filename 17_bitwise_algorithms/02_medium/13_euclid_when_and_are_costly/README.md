@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/02_medium/13_euclid_when_and_are_costly
+./dsa start bitwise_algorithms medium 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

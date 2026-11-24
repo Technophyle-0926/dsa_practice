@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/03_medium/10_split_a_circular_linked_list_into_two_halves
+./dsa start linked_list medium 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

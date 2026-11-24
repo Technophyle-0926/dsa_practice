@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/02_medium/06_chocolate_distribution_problem
+./dsa start sorting medium 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

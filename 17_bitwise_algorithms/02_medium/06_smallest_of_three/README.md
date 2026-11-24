@@ -47,7 +47,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/02_medium/06_smallest_of_three
+./dsa start bitwise_algorithms medium 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

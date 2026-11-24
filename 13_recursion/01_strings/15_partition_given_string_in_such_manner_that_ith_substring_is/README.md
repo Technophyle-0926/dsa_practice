@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/15_partition_given_string_in_such_manner_that_ith_substring_is
+./dsa start recursion strings 15
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

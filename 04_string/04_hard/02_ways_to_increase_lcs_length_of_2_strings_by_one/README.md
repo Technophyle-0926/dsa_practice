@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/04_hard/02_ways_to_increase_lcs_length_of_2_strings_by_one
+./dsa start string hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

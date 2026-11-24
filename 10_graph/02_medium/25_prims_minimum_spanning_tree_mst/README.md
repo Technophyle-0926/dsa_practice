@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/25_prims_minimum_spanning_tree_mst
+./dsa start graph medium 25
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

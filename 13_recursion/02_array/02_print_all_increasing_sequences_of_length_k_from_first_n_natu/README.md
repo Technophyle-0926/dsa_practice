@@ -56,7 +56,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/02_array/02_print_all_increasing_sequences_of_length_k_from_first_n_natu
+./dsa start recursion array 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

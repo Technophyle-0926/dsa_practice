@@ -59,7 +59,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/03_shortest_path/03_floyd_warshall
+./dsa start graph_algorithms shortest_path 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

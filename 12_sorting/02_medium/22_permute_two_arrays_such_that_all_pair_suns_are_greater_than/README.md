@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/02_medium/22_permute_two_arrays_such_that_all_pair_suns_are_greater_than
+./dsa start sorting medium 22
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/03_medium/18_split_string_into_four_distinct_strings
+./dsa start string medium 18
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

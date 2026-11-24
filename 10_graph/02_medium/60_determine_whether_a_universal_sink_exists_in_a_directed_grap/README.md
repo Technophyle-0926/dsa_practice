@@ -92,7 +92,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/60_determine_whether_a_universal_sink_exists_in_a_directed_grap
+./dsa start graph medium 60
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/06_min_time_to_finish_all_jobs_with_given_constraints
+./dsa start greedy hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

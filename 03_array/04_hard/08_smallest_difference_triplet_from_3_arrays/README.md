@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/04_hard/08_smallest_difference_triplet_from_3_arrays
+./dsa start array hard 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -50,7 +50,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array hard 8`
+Test it on your computer first: `./dsa test array hard 8`
 
 _No solutions yet._
 <!-- results:end -->

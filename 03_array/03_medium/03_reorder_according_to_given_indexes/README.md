@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/03_medium/03_reorder_according_to_given_indexes
+./dsa start array medium 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -54,7 +54,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array medium 3`
+Test it on your computer first: `./dsa test array medium 3`
 
 _No solutions yet._
 <!-- results:end -->

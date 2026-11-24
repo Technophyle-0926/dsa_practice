@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/04_hard/08_word_search_4_directions_and_zig_zag_allowed
+./dsa start string hard 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

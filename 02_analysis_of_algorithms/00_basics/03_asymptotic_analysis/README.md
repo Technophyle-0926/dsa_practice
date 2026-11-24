@@ -15,7 +15,7 @@
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/00_basics/03_asymptotic_analysis
+./dsa start analysis_of_algorithms basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

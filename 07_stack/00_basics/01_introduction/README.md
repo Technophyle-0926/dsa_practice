@@ -33,7 +33,7 @@ The LIFO principle means that the last element added to a stack is the first one
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/00_basics/01_introduction
+./dsa start stack basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

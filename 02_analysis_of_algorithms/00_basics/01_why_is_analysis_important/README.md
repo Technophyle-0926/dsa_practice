@@ -71,7 +71,7 @@ Algorithm analysis is an important part of computational complexity theory, whic
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/00_basics/01_why_is_analysis_important
+./dsa start analysis_of_algorithms basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

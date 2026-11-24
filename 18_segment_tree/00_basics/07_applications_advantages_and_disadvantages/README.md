@@ -75,7 +75,7 @@ Query: output the sum from i=1 to i=5
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/07_applications_advantages_and_disadvantages
+./dsa start segment_tree basics 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

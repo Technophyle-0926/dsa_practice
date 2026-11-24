@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/03_check_if_k_th_bit_set
+./dsa start bitwise_algorithms easy 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

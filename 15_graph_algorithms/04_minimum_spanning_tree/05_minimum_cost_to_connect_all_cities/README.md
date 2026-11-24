@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/04_minimum_spanning_tree/05_minimum_cost_to_connect_all_cities
+./dsa start graph_algorithms minimum_spanning_tree 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

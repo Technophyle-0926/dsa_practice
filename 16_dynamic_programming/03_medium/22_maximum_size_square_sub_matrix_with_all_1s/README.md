@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/03_medium/22_maximum_size_square_sub_matrix_with_all_1s
+./dsa start dynamic_programming medium 22
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

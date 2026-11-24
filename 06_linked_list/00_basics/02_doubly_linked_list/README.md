@@ -28,7 +28,7 @@ Here is how a node in a Doubly Linked List is typically represented:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/00_basics/02_doubly_linked_list
+./dsa start linked_list basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

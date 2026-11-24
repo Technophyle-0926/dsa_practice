@@ -39,7 +39,7 @@ Sum of values in the range 2 to 6 after update is 21 + 23 + 35 + 27 + 8 = 114.
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/05_range_sum_and_update_in_array
+./dsa start segment_tree basics 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

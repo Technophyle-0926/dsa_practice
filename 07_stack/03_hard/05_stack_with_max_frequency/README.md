@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/03_hard/05_stack_with_max_frequency
+./dsa start stack hard 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

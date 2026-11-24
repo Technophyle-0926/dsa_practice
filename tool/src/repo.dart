@@ -200,10 +200,13 @@ ProcessResult git(List<String> args, {bool check = true}) {
   return r;
 }
 
+/// How to call the short command on this system (`./dsa next`, or `dsa next` on Windows).
+String get dsa => Platform.isWindows ? 'dsa' : './dsa';
+
 String requireUser() {
   final u = readUser();
   if (u == null) {
-    stderr.writeln('Set your GitHub username first:\n  dart run tool/start.dart --user <github-username>');
+    stderr.writeln('Set your GitHub username first:\n  $dsa user <github-username>');
     exit(1);
   }
   return u;

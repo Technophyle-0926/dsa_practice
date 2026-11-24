@@ -1,0 +1,28 @@
+#!/bin/sh
+# Short command for the repo tools. Try: ./dsa help
+#
+# The tools are compiled once into .dart_tool/dsa/ (not committed) so commands start instantly.
+# They are rebuilt automatically when anything in tool/, lib/ or pubspec.yaml changes (e.g. after git pull).
+set -e
+root=$(cd "$(dirname "$0")" && pwd)
+out="$root/.dart_tool/dsa"
+bin="$out/dsa"
+
+# Fingerprint of the tool sources; a change triggers a rebuild.
+stamp=$(cd "$root" && { find tool lib -name '*.dart' -type f; echo pubspec.yaml; } | LC_ALL=C sort | xargs cksum | cksum)
+
+if [ ! -x "$bin" ] || [ "$(cat "$out/stamp" 2>/dev/null)" != "$stamp" ]; then
+  if [ ! -f "$root/.dart_tool/package_config.json" ]; then
+    (cd "$root" && dart pub get >/dev/null)
+  fi
+  echo "Building the dsa tool (only after updates, takes a few seconds)…" >&2
+  mkdir -p "$out"
+  if ! (cd "$root" && dart compile exe tool/dsa.dart -o "$bin.tmp" >"$out/build.log" 2>&1); then
+    cat "$out/build.log" >&2
+    echo "Build failed; running without compiling instead." >&2
+    exec dart run "$root/tool/dsa.dart" "$@"
+  fi
+  mv "$bin.tmp" "$bin"
+  echo "$stamp" > "$out/stamp"
+fi
+exec "$bin" "$@"

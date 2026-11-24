@@ -59,7 +59,7 @@ Learn more about Bitwise Operators in this article. Below are some common bit op
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/00_basics/02_all_about_bit_manipulation
+./dsa start bitwise_algorithms basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

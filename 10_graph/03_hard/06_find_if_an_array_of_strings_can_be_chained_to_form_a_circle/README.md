@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/03_hard/06_find_if_an_array_of_strings_can_be_chained_to_form_a_circle
+./dsa start graph hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 20_trie/01_problems/01_unique_rows_in_a_binary_matrix
+./dsa start trie problems 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

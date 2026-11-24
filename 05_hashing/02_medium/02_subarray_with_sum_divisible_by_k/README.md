@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/02_medium/02_subarray_with_sum_divisible_by_k
+./dsa start hashing medium 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -26,7 +26,7 @@ However, it's important to note that not all problems are suitable for greedy al
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/00_basics/01_introduction
+./dsa start greedy basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

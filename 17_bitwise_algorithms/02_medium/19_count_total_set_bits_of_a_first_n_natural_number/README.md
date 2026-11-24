@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/02_medium/19_count_total_set_bits_of_a_first_n_natural_number
+./dsa start bitwise_algorithms medium 19
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

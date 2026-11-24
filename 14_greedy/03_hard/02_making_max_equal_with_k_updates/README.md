@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/02_making_max_equal_with_k_updates
+./dsa start greedy hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

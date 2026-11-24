@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/03_medium/21_string_to_mobile_numeric_keypad_sequence
+./dsa start string medium 21
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

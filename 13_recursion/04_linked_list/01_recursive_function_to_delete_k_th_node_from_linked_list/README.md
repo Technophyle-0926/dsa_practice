@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/04_linked_list/01_recursive_function_to_delete_k_th_node_from_linked_list
+./dsa start recursion linked_list 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/02_print_all_non_increasing_sequences_of_sum_equal_to_a_given_n
+./dsa start recursion mathematical 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

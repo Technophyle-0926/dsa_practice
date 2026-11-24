@@ -91,7 +91,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/50_dinics_algorithm_for_maximum_flow
+./dsa start graph medium 50
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

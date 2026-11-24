@@ -39,7 +39,7 @@ Create the third node
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/00_basics/01_singly_linked_list
+./dsa start linked_list basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

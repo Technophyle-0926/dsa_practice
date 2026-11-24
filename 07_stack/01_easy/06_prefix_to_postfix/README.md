@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/01_easy/06_prefix_to_postfix
+./dsa start stack easy 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/40_count_all_possible_walks_from_a_source_to_a_destination_with
+./dsa start graph medium 40
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

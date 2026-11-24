@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/03_boruvkas_minimum_spanning_tree
+./dsa start greedy greedy_problems_on_graph 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -30,7 +30,7 @@ void main(List<String> args) {
   if (args.contains('--me')) {
     final me = readUser();
     if (me == null) {
-      stderr.writeln('No username yet. Run: dart run tool/start.dart --user <github-username>');
+      stderr.writeln('No username yet. Run: $dsa user <github-username>');
       exit(1);
     }
     _printUser(me, problems, standings);
@@ -98,7 +98,7 @@ String _overall(List<String> users, List<Problem> problems, Map<String, List<Pro
     ..writeln('Speed ranking: [LEADERBOARD.md](LEADERBOARD.md).')
     ..writeln();
   if (users.isEmpty) {
-    b.writeln('No solutions yet. Start one with `dart run tool/start.dart <problem folder>`.');
+    b.writeln('No solutions yet. Start one with `./dsa start <problem>`.');
     return b.toString();
   }
   b
@@ -279,7 +279,7 @@ void _printUser(String me, List<Problem> problems, Map<String, ProblemStanding> 
     for (final p in failing) {
       stdout.writeln('  ${shortcut(p).padRight(28)} ${statusLabel(standings[p.path]!.results[me])}');
     }
-    stdout.writeln('  Check one with: dart run tool/test.dart <problem>');
+    stdout.writeln('  Check one with: $dsa test <problem>');
   }
   final started = problems.where((p) => p.solutionFile(me).existsSync() && !standings[p.path]!.implemented.contains(me));
   if (started.isNotEmpty) {
@@ -344,7 +344,7 @@ String _resultsSection(ProblemStanding st) {
   final b = StringBuffer()
     ..writeln('## Leaderboard')
     ..writeln()
-    ..writeln('Test it on your computer first: `dart run tool/test.dart ${shortcut(st.problem)}`')
+    ..writeln('Test it on your computer first: `./dsa test ${shortcut(st.problem)}`')
     ..writeln();
   final users = [...st.implemented]..sort((a, c) {
       final pa = st.points[a] ?? -1, pc = st.points[c] ?? -1;

@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/01_easy/15_2_sum_pair_in_a_sorted_array
+./dsa start sorting easy 15
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 20_trie/01_problems/10_most_frequent_word
+./dsa start trie problems 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

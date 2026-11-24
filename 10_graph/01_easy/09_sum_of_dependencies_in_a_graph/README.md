@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/01_easy/09_sum_of_dependencies_in_a_graph
+./dsa start graph easy 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

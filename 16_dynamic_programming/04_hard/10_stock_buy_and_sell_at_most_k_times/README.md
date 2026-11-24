@@ -52,7 +52,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/04_hard/10_stock_buy_and_sell_at_most_k_times
+./dsa start dynamic_programming hard 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

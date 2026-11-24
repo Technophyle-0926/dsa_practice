@@ -31,7 +31,7 @@ We have an array, and we would like to:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 19_binary_indexed_tree/00_basics/01_binary_indexed_tree_fenwick_tree
+./dsa start binary_indexed_tree basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

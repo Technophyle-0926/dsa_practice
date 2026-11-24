@@ -53,7 +53,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/04_hard/10_rotate_linked_list_block_wise
+./dsa start linked_list hard 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

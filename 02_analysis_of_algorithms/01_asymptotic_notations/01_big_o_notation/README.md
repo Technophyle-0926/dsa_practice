@@ -19,7 +19,7 @@ Big O notation is used to describe the time or space complexity of algorithms. B
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/01_asymptotic_notations/01_big_o_notation
+./dsa start analysis_of_algorithms asymptotic_notations 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

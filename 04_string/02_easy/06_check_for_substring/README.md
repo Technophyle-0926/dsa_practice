@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/02_easy/06_check_for_substring
+./dsa start string easy 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

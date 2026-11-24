@@ -47,7 +47,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/05_expert/10_max_value_of_sum_i_arr_i_with_only_rotations
+./dsa start array expert 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -55,7 +55,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array expert 10`
+Test it on your computer first: `./dsa test array expert 10`
 
 _No solutions yet._
 <!-- results:end -->

@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/04_minimum_spanning_tree/06_total_spanning_trees
+./dsa start graph_algorithms minimum_spanning_tree 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

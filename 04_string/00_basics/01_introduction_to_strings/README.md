@@ -29,7 +29,7 @@ Strings are sequences of characters. The differences between a character array a
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/00_basics/01_introduction_to_strings
+./dsa start string basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/01_easy/05_count_number_of_trees_in_a_forest
+./dsa start graph easy 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

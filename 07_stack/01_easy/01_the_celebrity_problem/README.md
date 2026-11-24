@@ -59,7 +59,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/01_easy/01_the_celebrity_problem
+./dsa start stack easy 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/01_basic_operations/08_reverse_a_string
+./dsa start string basic_operations 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

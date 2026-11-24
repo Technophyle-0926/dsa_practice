@@ -55,7 +55,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/08_max_trains
+./dsa start greedy medium 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -60,7 +60,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/04_mnimum_s_t_cut_in_a_flow_network
+./dsa start graph_algorithms maximum_flow_in_graph 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

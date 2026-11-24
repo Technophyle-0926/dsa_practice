@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/03_shortest_path/01_dijkstras_shortest_path
+./dsa start graph_algorithms shortest_path 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/17_function_to_copy_string_iterative_and_recursive
+./dsa start recursion strings 17
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

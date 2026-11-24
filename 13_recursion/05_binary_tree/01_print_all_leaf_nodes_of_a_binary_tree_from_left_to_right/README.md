@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/05_binary_tree/01_print_all_leaf_nodes_of_a_binary_tree_from_left_to_right
+./dsa start recursion binary_tree 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -27,7 +27,7 @@ Complexity classes are useful in organizing similar types of problems.
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/03_advanced_topics/01_p_np_conp_np_hard_and_np_complete
+./dsa start analysis_of_algorithms advanced_topics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

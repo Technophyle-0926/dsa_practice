@@ -37,7 +37,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/10_misc/06_practice_questions_for_recursion_set_1
+./dsa start recursion misc 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

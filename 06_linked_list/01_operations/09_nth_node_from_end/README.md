@@ -67,7 +67,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/01_operations/09_nth_node_from_end
+./dsa start linked_list operations 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

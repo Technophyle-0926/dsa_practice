@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/02_easy/02_camel_case_conversion
+./dsa start string easy 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

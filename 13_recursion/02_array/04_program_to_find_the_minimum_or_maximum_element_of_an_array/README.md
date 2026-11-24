@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/02_array/04_program_to_find_the_minimum_or_maximum_element_of_an_array
+./dsa start recursion array 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

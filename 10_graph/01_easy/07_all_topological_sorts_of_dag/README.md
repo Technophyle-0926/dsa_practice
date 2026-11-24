@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/01_easy/07_all_topological_sorts_of_dag
+./dsa start graph easy 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

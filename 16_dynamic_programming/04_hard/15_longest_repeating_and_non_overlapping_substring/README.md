@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/04_hard/15_longest_repeating_and_non_overlapping_substring
+./dsa start dynamic_programming hard 15
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

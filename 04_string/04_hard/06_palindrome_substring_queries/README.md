@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/04_hard/06_palindrome_substring_queries
+./dsa start string hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

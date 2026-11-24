@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/02_easy/02_make_even_positioned_greater
+./dsa start array easy 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -59,7 +59,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array easy 2`
+Test it on your computer first: `./dsa test array easy 2`
 
 _No solutions yet._
 <!-- results:end -->

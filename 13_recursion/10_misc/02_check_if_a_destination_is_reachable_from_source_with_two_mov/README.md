@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/10_misc/02_check_if_a_destination_is_reachable_from_source_with_two_mov
+./dsa start recursion misc 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

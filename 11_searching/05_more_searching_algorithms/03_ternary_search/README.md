@@ -56,7 +56,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 11_searching/05_more_searching_algorithms/03_ternary_search
+./dsa start searching more_searching_algorithms 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

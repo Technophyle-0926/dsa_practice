@@ -5,7 +5,7 @@ Notes for the repo owner: one-time GitHub setup, how the automation works, and r
 ## How submissions flow
 
 ```
-friend: dart run tool/submit.dart
+friend: ./dsa submit
    │  pushes <friend>/solutions
    ▼
 "Submission" workflow  (runs from the friend's branch, NO secrets)
@@ -80,8 +80,8 @@ Do these in order (Settings = the repository's Settings tab).
 
 6. **Check it works**:
    - Actions → *Update progress* → **Run workflow** on `main` → it should finish green.
-   - From your own clone: `dart run tool/start.dart --user Technophyle-0926`, `dart run tool/next.dart`,
-     solve it, `dart run tool/submit.dart`, then `dart run tool/submit.dart --status` after a minute.
+   - From your own clone: `./dsa user Technophyle-0926`, `./dsa next`,
+     solve it, `./dsa submit`, then `./dsa status` after a minute.
      You should see your name in `PROGRESS.md`.
 
 7. **Invite friends**: Settings → Collaborators → **Add people** (role: Write). Send them `CONTRIBUTING.md`.
@@ -96,7 +96,7 @@ Friends get an email when their submission fails, as long as GitHub's default
   changed; tell whoever already solved it.
 - **A friend's submission failed and they're stuck**: open the failed run under Actions; the error says why
   (wrong files, analyzer error, or username capitalisation).
-- **Someone changed their GitHub username**: they run `dart run tool/start.dart --user <new>`, which renames
+- **Someone changed their GitHub username**: they run `./dsa user <new>`, which renames
   their files, then `submit`. Their old files stay on `main` under the old name until you delete them.
 - **Remove a contributor**: Settings → Collaborators. Their solutions stay; delete their files from `main`
   if wanted (progress updates on the next run).
@@ -120,7 +120,7 @@ with the same folder layout: `reference.dart` (efficient) and `brute.dart` (simp
   brute force agrees on all small cases, and rewrites `expected.json`. Push both files to `main`;
   *Retest* re-runs those problems for everyone.
 - **A friend says a test is wrong**: run their solution and the reference on the failing case
-  (`dart run tool/test.dart` shows the input) and compare.
+  (`./dsa test` shows the input) and compare.
 - **Limits**: 30 s per solution locally and 60 s on GitHub in total, 256 MB extra memory (per problem
   via `memoryLimitMb` in `tests.dart`).
 - **Retest everything** (e.g. after changing the harness): Actions → *Retest* → Run workflow.

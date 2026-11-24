@@ -101,7 +101,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/03_avl_tree/01_avl_tree_data_structure
+./dsa start tree avl_tree 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

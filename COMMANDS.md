@@ -1,23 +1,32 @@
 # Commands
 
-Every command you need, run from the repository folder. For the full workflow, see
-[CONTRIBUTING.md](CONTRIBUTING.md).
+Everything goes through one short command, run from the repository folder (or any folder inside it).
+For the full workflow, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-| Command | What it's for |
-| --- | --- |
-| [`start --user`](#set-your-username) | tell the tools who you are (once) |
-| [`next`](#next-pick-your-next-problem) | open your next problem |
-| [`start`](#start-open-a-specific-problem) | open a specific problem |
-| `dart run <your file>` | run your solution |
-| [`test`](#test-check-your-solution) | check your solution against the tests |
-| [`submit`](#submit-send-your-solutions) | send your solutions to GitHub |
-| [`submit --status`](#check-your-submission) | see if they were merged, then return to `main` |
-| [`progress --me`](#progress-see-your-progress) | see your progress |
+| Command | Short | What it's for |
+| --- | --- | --- |
+| [`./dsa user <name>`](#set-your-username) | `u` | tell the tools who you are (once) |
+| [`./dsa next`](#next-pick-your-next-problem) | `n` | open your next problem |
+| [`./dsa start <problem>`](#start-open-a-specific-problem) | `s` | open a specific problem |
+| [`./dsa run`](#run-run-your-solution) | `r` | run your solution |
+| [`./dsa test`](#test-check-your-solution) | `t` | check your solution against the tests |
+| [`./dsa submit`](#submit-send-your-solutions) | `sub` | send your solutions to GitHub |
+| [`./dsa status`](#check-your-submission) | `st` | see if they were merged and passed, then return to `main` |
+| [`./dsa me`](#me-see-your-progress) | `p` | see your progress and points |
+| `./dsa help` | `h` | list all commands |
+
+So `./dsa n`, `./dsa t`, `./dsa sub`, `./dsa st` is a whole round.
+
+- **Windows:** use `dsa next` (Command Prompt) or `.\dsa next` (PowerShell); `dsa.bat` does the rest.
+- **Shorter still:** add `alias dsa=./dsa` to your `~/.zshrc` or `~/.bashrc`, then type `dsa n`, `dsa t`, …
+- **First run, and after updates:** `./dsa` compiles the tools once (a few seconds); after that, commands
+  start instantly.
+- The long forms (`dart run tool/next.dart`, …) still work and do exactly the same.
 
 ## Set your username
 
 ```sh
-dart run tool/start.dart --user <your-github-username>
+./dsa user <your-github-username>
 ```
 
 Do this once after cloning. Your solution files are named after this username, and GitHub only accepts
@@ -32,7 +41,7 @@ files that match the account you push with.
 ## `next`: pick your next problem
 
 ```sh
-dart run tool/next.dart
+./dsa next
 ```
 
 Opens the problem you started but haven't finished. If there is none, opens the next problem you haven't
@@ -40,18 +49,18 @@ touched, in course order. It creates your solution file and prints where it is a
 
 | Variation | What it does |
 | --- | --- |
-| `next.dart array` | stay within one category |
-| `next.dart array easy` | stay within one level of a category |
-| `next.dart --new` | skip your unfinished problem and give a new one |
-| `next.dart --reading` | also include reading items (`00_basics`, Analysis of Algorithms); they're skipped by default |
-| `next.dart --peek` | only show which problem is next; don't create the file |
+| `next array` | stay within one category |
+| `next array easy` | stay within one level of a category |
+| `next --new` | skip your unfinished problem and give a new one |
+| `next --reading` | also include reading items (`00_basics`, Analysis of Algorithms); they're skipped by default |
+| `next --peek` | only show which problem is next; don't create the file |
 
-Flags can be combined: `dart run tool/next.dart dp --new --peek`.
+Flags can be combined: `./dsa next dp --new --peek`.
 
 ## `start`: open a specific problem
 
 ```sh
-dart run tool/start.dart array basic 5
+./dsa start array basic 5
 ```
 
 Creates your solution file for that problem, or shows where it is if you already started it. Ways to
@@ -59,11 +68,11 @@ name a problem:
 
 | Form | Example |
 | --- | --- |
-| category, level, number (as in the README tables) | `start.dart array basic 5` |
-| levels and categories by number | `start.dart array 1 5`, `start.dart 3 1 5` |
-| words from the title | `start.dart reverse array` |
-| category, then title words | `start.dart string palindrome` |
-| the folder path (tab-completes) | `start.dart 03_array/01_basic/05_reverse_an_array` |
+| category, level, number (as in the README tables) | `start array basic 5` |
+| levels and categories by number | `start array 1 5`, `start 3 1 5` |
+| words from the title | `start reverse array` |
+| category, then title words | `start string palindrome` |
+| the folder path (tab-completes) | `start 03_array/01_basic/05_reverse_an_array` |
 
 If several problems match, it lists them (up to 15) with the exact command for each, so you can copy one.
 
@@ -85,16 +94,25 @@ Your file is `<problem>/solutions/<you>.dart`. It contains:
 - a `main()` that prints the README example, with the expected output in a comment.
 
 ```sh
-dart run 03_array/01_basic/05_reverse_an_array/solutions/<you>.dart
+./dsa run        # or: dart run 03_array/01_basic/05_reverse_an_array/solutions/<you>.dart
 ```
 
 Reading items create `solutions/<you>.md` instead. Write your notes and delete the placeholder line to
 mark it done.
 
+## `run`: run your solution
+
+```sh
+./dsa run
+```
+
+Runs the solution you edited most recently (its `main()` prints the README example, with the expected
+output in a comment). `./dsa run array basic 5` runs a specific one.
+
 ## `test`: check your solution
 
 ```sh
-dart run tool/test.dart
+./dsa test
 ```
 
 Tests the problem you edited most recently against its test cases, on your computer. It shows whether
@@ -103,8 +121,8 @@ what you returned (the expected answer is never stored, so it can't be shown).
 
 | Variation | What it does |
 | --- | --- |
-| `test.dart array basic 5` | a specific problem (same ways to name it as `start`) |
-| `test.dart --all` | every finished solution of yours that has tests |
+| `test array basic 5` | a specific problem (same ways to name it as `start`) |
+| `test --all` | every finished solution of yours that has tests |
 
 Only problems with a `tests.dart` file have tests (Array first, more categories later). The first run
 takes a few seconds because the tests are compiled to native code, the same way GitHub runs them.
@@ -124,7 +142,7 @@ Your times differ from GitHub's; the leaderboard only uses times measured on Git
 ## `submit`: send your solutions
 
 ```sh
-dart run tool/submit.dart
+./dsa submit
 ```
 
 Sends every solution file of yours that changed since your last submit, in one step:
@@ -139,8 +157,8 @@ request. If a check fails, nothing is merged and GitHub emails you the reason.
 
 | Variation | What it does |
 | --- | --- |
-| `submit.dart -m "Array basics"` | use your own commit message instead of the automatic one |
-| `submit.dart --force` | submit even though the analyzer reports errors (GitHub will still reject code that doesn't compile) |
+| `submit -m "Array basics"` | use your own commit message instead of the automatic one |
+| `submit --force` | submit even though the analyzer reports errors (GitHub will still reject code that doesn't compile) |
 
 Unfinished files (still containing `UnimplementedError`) can be submitted. They just don't count as solved
 yet, and `submit` reminds you which ones they are.
@@ -148,7 +166,7 @@ yet, and `submit` reminds you which ones they are.
 ## Check your submission
 
 ```sh
-dart run tool/submit.dart --status
+./dsa status
 ```
 
 Shows your last submission and whether GitHub's check and merge passed, with a link if something failed.
@@ -158,10 +176,10 @@ the reason) and switches you back to an up-to-date `main` and deletes your finis
 local branch. The next `submit` creates a fresh one. It stays on your branch, and says why, if you have
 uncommitted changes or commits that aren't merged yet.
 
-## `progress`: see your progress
+## `me`: see your progress
 
 ```sh
-dart run tool/progress.dart --me
+./dsa me
 ```
 
 Prints how many problems you've solved and your points, overall and per category, and lists solutions
@@ -172,12 +190,12 @@ commit them yourself.
 
 ## Common situations
 
-**My submission failed.** Run `submit --status` and open the link. Usual causes:
+**My submission failed.** Run `status` and open the link. Usual causes:
 
 - you changed a file that isn't yours (only `solutions/<you>.*` is allowed);
 - your code doesn't compile;
 - the capitalisation of your username doesn't match GitHub. Fix it with
-  `dart run tool/start.dart --user <your-github-username>`, then `submit` again.
+  `./dsa user <your-github-username>`, then `submit` again.
 
 **`submit` says "Nothing to submit".** None of your solution files changed since the last submit. Did you
 save the file, and is it under `solutions/<you>.dart`?
@@ -189,7 +207,7 @@ on your machine. Undo them with `git checkout -- <file>` if they were accidental
 with `git checkout -- PROGRESS.md progress "*/README.md"`.
 
 **My solution is marked ❌.** It was merged but doesn't pass the tests. Run
-`dart run tool/test.dart <problem>` to see the failing case, fix it and `submit` again.
+`./dsa test <problem>` to see the failing case, fix it and `submit` again.
 
 **Someone is faster than me.** Make your solution faster and `submit` again: all solutions to that problem
 are re-timed together, so the comparison stays fair.
@@ -199,4 +217,4 @@ are re-timed together, so the comparison stays fair.
 **I want to start over on a problem.** Delete your file and run `start` for it again to get a fresh
 template.
 
-**Help for `start`:** `dart run tool/start.dart --help`.
+**Help for `start`:** `./dsa start --help`.

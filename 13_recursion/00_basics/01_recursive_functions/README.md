@@ -18,7 +18,7 @@ The process in which a function calls itself directly or indirectly is called re
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/00_basics/01_recursive_functions
+./dsa start recursion basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

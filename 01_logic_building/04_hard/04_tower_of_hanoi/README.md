@@ -65,7 +65,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 01_logic_building/04_hard/04_tower_of_hanoi
+./dsa start logic_building hard 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -67,7 +67,7 @@ T(n) = aT(n/b) + f(n).
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/02_analysis_examples/02_analyzing_recursive_functions
+./dsa start analysis_of_algorithms analysis_examples 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

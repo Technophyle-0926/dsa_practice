@@ -73,7 +73,7 @@ Look at the below function :
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 02_analysis_of_algorithms/01_asymptotic_notations/05_space_complexity
+./dsa start analysis_of_algorithms asymptotic_notations 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

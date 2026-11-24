@@ -53,7 +53,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/10_rearrange_a_string_so_that_all_same_characters_become_d_dist
+./dsa start greedy hard 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

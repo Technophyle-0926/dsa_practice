@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/01_easy/06_duplicate_within_k_distance
+./dsa start hashing easy 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

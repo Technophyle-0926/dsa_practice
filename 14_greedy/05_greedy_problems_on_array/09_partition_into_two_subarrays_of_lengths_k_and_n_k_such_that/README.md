@@ -55,7 +55,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/09_partition_into_two_subarrays_of_lengths_k_and_n_k_such_that
+./dsa start greedy greedy_problems_on_array 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

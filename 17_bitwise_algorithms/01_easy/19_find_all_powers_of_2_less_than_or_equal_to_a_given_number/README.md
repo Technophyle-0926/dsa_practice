@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/19_find_all_powers_of_2_less_than_or_equal_to_a_given_number
+./dsa start bitwise_algorithms easy 19
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

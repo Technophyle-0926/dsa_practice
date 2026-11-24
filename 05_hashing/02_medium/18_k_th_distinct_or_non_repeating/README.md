@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/02_medium/18_k_th_distinct_or_non_repeating
+./dsa start hashing medium 18
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/03_medium/20_segregate_even_and_odd_nodes
+./dsa start linked_list medium 20
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

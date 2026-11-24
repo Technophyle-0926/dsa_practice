@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/11_min_diff_groups_of_size_two
+./dsa start greedy medium 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

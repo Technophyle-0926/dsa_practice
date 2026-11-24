@@ -58,7 +58,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/02_range_queries/11_chessboard_pieces
+./dsa start segment_tree range_queries 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

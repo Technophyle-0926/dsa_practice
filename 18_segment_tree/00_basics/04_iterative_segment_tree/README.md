@@ -39,7 +39,7 @@ Since there are (log n) levels in the worst case, so querying takes log n time. 
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/04_iterative_segment_tree
+./dsa start segment_tree basics 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

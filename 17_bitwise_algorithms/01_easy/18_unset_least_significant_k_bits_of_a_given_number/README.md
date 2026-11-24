@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/18_unset_least_significant_k_bits_of_a_given_number
+./dsa start bitwise_algorithms easy 18
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

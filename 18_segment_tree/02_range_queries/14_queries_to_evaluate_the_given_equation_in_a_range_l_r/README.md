@@ -52,7 +52,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/02_range_queries/14_queries_to_evaluate_the_given_equation_in_a_range_l_r
+./dsa start segment_tree range_queries 14
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -61,7 +61,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/38_fleurys_algorithm_for_printing_eulerian_path_or_circuit
+./dsa start graph medium 38
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

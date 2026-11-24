@@ -64,7 +64,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/06_n_ary_or_generic_tree/07_level_order_traversal_of_n_ary_tree
+./dsa start tree n_ary_or_generic_tree 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

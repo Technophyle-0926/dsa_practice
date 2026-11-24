@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 04_string/02_easy/05_check_for_palindrome
+./dsa start string easy 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

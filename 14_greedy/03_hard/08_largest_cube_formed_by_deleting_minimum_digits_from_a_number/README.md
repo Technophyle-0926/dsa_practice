@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/08_largest_cube_formed_by_deleting_minimum_digits_from_a_number
+./dsa start greedy hard 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

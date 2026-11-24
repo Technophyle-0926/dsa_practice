@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/35_topological_sort_of_a_graph_using_departure_time_of_vertex
+./dsa start graph medium 35
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

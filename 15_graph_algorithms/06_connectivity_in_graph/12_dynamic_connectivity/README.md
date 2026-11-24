@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/06_connectivity_in_graph/12_dynamic_connectivity
+./dsa start graph_algorithms connectivity_in_graph 12
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

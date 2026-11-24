@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/01_easy/18_maximum_points_on_the_same_line
+./dsa start hashing easy 18
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

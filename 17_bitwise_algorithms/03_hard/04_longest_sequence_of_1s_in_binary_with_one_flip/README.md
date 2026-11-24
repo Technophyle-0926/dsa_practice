@@ -59,7 +59,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/03_hard/04_longest_sequence_of_1s_in_binary_with_one_flip
+./dsa start bitwise_algorithms hard 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

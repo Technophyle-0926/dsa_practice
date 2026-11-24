@@ -36,7 +36,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/02_medium/01_k_queues_in_an_array
+./dsa start queue medium 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

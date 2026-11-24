@@ -53,7 +53,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/19_number_of_non_negative_integral_solutions_of_sum_equation
+./dsa start recursion mathematical 19
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

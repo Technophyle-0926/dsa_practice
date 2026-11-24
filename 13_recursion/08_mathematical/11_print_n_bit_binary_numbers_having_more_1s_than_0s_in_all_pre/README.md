@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/11_print_n_bit_binary_numbers_having_more_1s_than_0s_in_all_pre
+./dsa start recursion mathematical 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

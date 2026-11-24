@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/03_interesting_problems/02_longest_subarray_consisting_of_same_elements_by_at_most_k_de
+./dsa start segment_tree interesting_problems 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

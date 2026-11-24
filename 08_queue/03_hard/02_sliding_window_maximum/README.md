@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/03_hard/02_sliding_window_maximum
+./dsa start queue hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

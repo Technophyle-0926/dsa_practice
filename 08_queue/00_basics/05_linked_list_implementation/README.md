@@ -20,7 +20,7 @@ It can be implemented using a linked list, where each element of the queue is re
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/00_basics/05_linked_list_implementation
+./dsa start queue basics 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

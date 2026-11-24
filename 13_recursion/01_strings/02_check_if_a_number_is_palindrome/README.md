@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/02_check_if_a_number_is_palindrome
+./dsa start recursion strings 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

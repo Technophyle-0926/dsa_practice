@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 19_binary_indexed_tree/01_problems/02_range_update_and_range_queries
+./dsa start binary_indexed_tree problems 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

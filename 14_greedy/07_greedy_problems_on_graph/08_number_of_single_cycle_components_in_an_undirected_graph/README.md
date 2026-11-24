@@ -57,7 +57,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/08_number_of_single_cycle_components_in_an_undirected_graph
+./dsa start greedy greedy_problems_on_graph 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -21,7 +21,7 @@ Bitwise operators are special operators in programming that work directly on bin
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/00_basics/01_introduction_to_bitwise_algorithms
+./dsa start bitwise_algorithms basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

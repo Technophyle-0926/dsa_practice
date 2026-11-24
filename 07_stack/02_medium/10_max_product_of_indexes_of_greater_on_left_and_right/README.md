@@ -54,7 +54,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/02_medium/10_max_product_of_indexes_of_greater_on_left_and_right
+./dsa start stack medium 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

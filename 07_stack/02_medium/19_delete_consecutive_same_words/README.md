@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/02_medium/19_delete_consecutive_same_words
+./dsa start stack medium 19
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

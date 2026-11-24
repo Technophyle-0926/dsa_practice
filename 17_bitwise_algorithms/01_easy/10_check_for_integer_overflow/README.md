@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/10_check_for_integer_overflow
+./dsa start bitwise_algorithms easy 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

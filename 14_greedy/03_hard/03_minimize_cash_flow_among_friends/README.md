@@ -53,7 +53,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/03_hard/03_minimize_cash_flow_among_friends
+./dsa start greedy hard 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

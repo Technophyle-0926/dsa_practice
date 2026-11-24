@@ -51,7 +51,7 @@ For the insertion of a node at the beginning, we need to traverse the whole list
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/00_basics/03_circular_linked_list
+./dsa start linked_list basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

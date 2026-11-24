@@ -64,7 +64,7 @@ void main(List<String> args) {
   if (flags.contains('--peek')) {
     stdout.writeln('${pick.category} → ${pick.level} ${pick.number}. ${pick.title}\n'
         '  Problem: ${pick.path}/README.md\n'
-        '  Start:   dart run tool/start.dart ${shortcut(pick)}');
+        '  Start:   $dsa start ${shortcut(pick)}');
     return;
   }
   final existed = started(pick);

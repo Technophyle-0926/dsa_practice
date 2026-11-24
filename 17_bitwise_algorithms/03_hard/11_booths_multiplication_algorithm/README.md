@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/03_hard/11_booths_multiplication_algorithm
+./dsa start bitwise_algorithms hard 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

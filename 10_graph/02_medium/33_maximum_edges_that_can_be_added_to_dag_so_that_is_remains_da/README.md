@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/33_maximum_edges_that_can_be_added_to_dag_so_that_is_remains_da
+./dsa start graph medium 33
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

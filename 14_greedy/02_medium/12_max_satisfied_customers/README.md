@@ -63,7 +63,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/12_max_satisfied_customers
+./dsa start greedy medium 12
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

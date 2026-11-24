@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/03_medium/20_arrange_balls_with_adjacent_of_different_types
+./dsa start dynamic_programming medium 20
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

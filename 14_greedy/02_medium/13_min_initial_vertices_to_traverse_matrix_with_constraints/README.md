@@ -59,7 +59,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/13_min_initial_vertices_to_traverse_matrix_with_constraints
+./dsa start greedy medium 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

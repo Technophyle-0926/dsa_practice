@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/03_hard/13_n_th_number_whose_binary_is_a_palindrome
+./dsa start bitwise_algorithms hard 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

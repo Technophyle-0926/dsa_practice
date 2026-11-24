@@ -50,7 +50,7 @@ getFront will returns the element at the front end of the queue without removing
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/00_basics/03_basic_operations
+./dsa start queue basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

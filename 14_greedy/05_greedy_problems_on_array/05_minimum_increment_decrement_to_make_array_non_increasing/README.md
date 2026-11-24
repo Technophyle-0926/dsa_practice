@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/05_minimum_increment_decrement_to_make_array_non_increasing
+./dsa start greedy greedy_problems_on_array 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

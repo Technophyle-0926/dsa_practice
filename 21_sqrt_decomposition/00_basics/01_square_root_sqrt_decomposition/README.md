@@ -31,7 +31,7 @@ Output: 26
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 21_sqrt_decomposition/00_basics/01_square_root_sqrt_decomposition
+./dsa start sqrt_decomposition basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

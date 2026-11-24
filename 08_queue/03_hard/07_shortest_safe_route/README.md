@@ -52,7 +52,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/03_hard/07_shortest_safe_route
+./dsa start queue hard 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

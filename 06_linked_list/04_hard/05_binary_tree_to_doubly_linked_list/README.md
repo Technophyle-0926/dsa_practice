@@ -54,7 +54,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/04_hard/05_binary_tree_to_doubly_linked_list
+./dsa start linked_list hard 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

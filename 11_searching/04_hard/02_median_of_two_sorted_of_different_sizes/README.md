@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 11_searching/04_hard/02_median_of_two_sorted_of_different_sizes
+./dsa start searching hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

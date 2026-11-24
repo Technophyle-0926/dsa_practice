@@ -31,7 +31,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/17_union_by_rank_and_path_compression_in_union_find_algorithm
+./dsa start graph medium 17
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -51,7 +51,7 @@ Output: 0
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/06_dynamic_segment_trees
+./dsa start segment_tree basics 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/07_min_cost_to_connect_n_ropes
+./dsa start greedy medium 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

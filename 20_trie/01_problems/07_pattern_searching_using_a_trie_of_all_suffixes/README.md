@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 20_trie/01_problems/07_pattern_searching_using_a_trie_of_all_suffixes
+./dsa start trie problems 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

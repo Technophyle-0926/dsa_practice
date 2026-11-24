@@ -100,7 +100,7 @@ Graphs are widely used to model relationships and solve problems involving conne
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/00_basics/01_introduction
+./dsa start graph basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

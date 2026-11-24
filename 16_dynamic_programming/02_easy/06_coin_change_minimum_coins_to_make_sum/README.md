@@ -56,7 +56,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/02_easy/06_coin_change_minimum_coins_to_make_sum
+./dsa start dynamic_programming easy 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

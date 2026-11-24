@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/05_expert/08_minimum_jumps_to_reach_end
+./dsa start array expert 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -56,7 +56,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array expert 8`
+Test it on your computer first: `./dsa test array expert 8`
 
 _No solutions yet._
 <!-- results:end -->

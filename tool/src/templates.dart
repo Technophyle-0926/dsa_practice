@@ -18,7 +18,7 @@ void describe(Problem p, File file, {required bool created}) {
   stdout.writeln('${p.category} → ${p.level} ${p.number}. ${p.title}');
   stdout.writeln('  Problem:  ${p.path}/README.md');
   stdout.writeln('  ${created ? 'Created' : 'Your file'}: $rel');
-  if (!p.isConcept) stdout.writeln('  Run:      dart run $rel');
+  if (!p.isConcept) stdout.writeln('  Run:      $dsa run        Test: $dsa test');
 }
 
 String dartTemplate(Problem p, String user) {

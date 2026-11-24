@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/01_easy/13_only_repetitive_element_from_1_to_n_1
+./dsa start hashing easy 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

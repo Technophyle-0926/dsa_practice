@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 11_searching/04_hard/03_search_in_an_almost_sorted
+./dsa start searching hard 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

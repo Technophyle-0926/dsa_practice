@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/06_snakes_and_ladder
+./dsa start graph medium 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

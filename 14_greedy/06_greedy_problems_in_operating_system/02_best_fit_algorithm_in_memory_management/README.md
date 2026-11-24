@@ -56,7 +56,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/06_greedy_problems_in_operating_system/02_best_fit_algorithm_in_memory_management
+./dsa start greedy greedy_problems_in_operating_system 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

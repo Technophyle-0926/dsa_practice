@@ -47,7 +47,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/01_easy/01_fractional_knapsack
+./dsa start greedy easy 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

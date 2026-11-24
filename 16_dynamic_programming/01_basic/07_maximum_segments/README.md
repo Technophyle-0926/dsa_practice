@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/01_basic/07_maximum_segments
+./dsa start dynamic_programming basic 7
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

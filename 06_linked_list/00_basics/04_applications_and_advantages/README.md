@@ -20,7 +20,7 @@ A Linked List is a linear data structure that is used to store a collection of d
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/00_basics/04_applications_and_advantages
+./dsa start linked_list basics 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

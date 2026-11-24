@@ -20,10 +20,10 @@ Future<void> main(List<String> args) async {
   }
   if (args.isEmpty || args.first == '-h' || args.first == '--help') {
     stdout.writeln('''Usage:
-  dart run tool/start.dart array basic 5      category, level, number
-  dart run tool/start.dart reverse array      search by title
-  dart run tool/start.dart <problem folder>
-  dart run tool/start.dart --user <github-username>''');
+  $dsa start array basic 5      category, level, number
+  $dsa start reverse array      search by title
+  $dsa start <problem folder>
+  $dsa user <github-username>''');
     exit(args.isEmpty ? 64 : 0);
   }
 
@@ -32,13 +32,13 @@ Future<void> main(List<String> args) async {
   final matches = resolveProblems(problems, args);
   if (matches.isEmpty) {
     stderr.writeln('No problem matches "${args.join(' ')}".\n'
-        'Try: dart run tool/start.dart array basic 5   or   dart run tool/start.dart reverse array');
+        'Try: $dsa start array basic 5   or   $dsa start reverse array');
     exit(66);
   }
   if (matches.length > 1) {
     stdout.writeln('${matches.length} problems match "${args.join(' ')}". Pick one:');
     for (final p in matches.take(15)) {
-      stdout.writeln('  dart run tool/start.dart ${shortcut(p)}   # ${p.category}: ${p.title}');
+      stdout.writeln('  $dsa start ${shortcut(p)}   # ${p.category}: ${p.title}');
     }
     if (matches.length > 15) stdout.writeln('  … ${matches.length - 15} more, add more words to narrow it down');
     exit(1);

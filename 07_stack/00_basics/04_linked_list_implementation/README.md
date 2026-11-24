@@ -27,7 +27,7 @@ Initially, top = null to represent an empty stack.
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/00_basics/04_linked_list_implementation
+./dsa start stack basics 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

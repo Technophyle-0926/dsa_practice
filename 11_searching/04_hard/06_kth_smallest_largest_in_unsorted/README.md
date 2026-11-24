@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 11_searching/04_hard/06_kth_smallest_largest_in_unsorted
+./dsa start searching hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

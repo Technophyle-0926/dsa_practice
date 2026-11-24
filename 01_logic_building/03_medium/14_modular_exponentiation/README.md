@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 01_logic_building/03_medium/14_modular_exponentiation
+./dsa start logic_building medium 14
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -8,17 +8,21 @@ Practising the [GeeksforGeeks DSA Tutorial](https://www.geeksforgeeks.org/dsa/ds
 
 ```sh
 dart pub get
-dart run tool/start.dart --user <your-github-username>   # once
+./dsa user <your-github-username>   # once
 
-dart run tool/next.dart                 # opens your next problem (or: next array / next array easy)
-dart run tool/start.dart array basic 5  # or open a specific one (also: start reverse array)
-# ...write the solution, run it with the command it prints...
-dart run tool/test.dart                 # test it (problems with tests: Array so far)
-dart run tool/submit.dart               # sends your solutions; GitHub checks + merges them (~1 min)
-dart run tool/progress.dart --me        # your progress and points (LEADERBOARD.md has everyone's)
+./dsa next              # opens your next problem (or: next array / next array easy)
+./dsa start array basic 5   # or a specific one (also: start reverse array)
+./dsa run               # run your solution
+./dsa test              # test it (problems with tests: Array so far)
+./dsa submit            # sends your solutions; GitHub checks + merges them (~1 min)
+./dsa status            # merged? passed?
+./dsa me                # your progress and points (LEADERBOARD.md has everyone's)
 ```
 
-New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**. All commands and options: **[COMMANDS.md](COMMANDS.md)**.
+Short forms: `n`, `s`, `r`, `t`, `sub`, `st`, `p` (`./dsa help` lists them). On Windows use `dsa next` or
+`.\dsa next`. All commands: **[COMMANDS.md](COMMANDS.md)**.
+
+New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Structure
 
@@ -32,6 +36,7 @@ New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**. All commands and options:
       solutions/
         <github-username>.dart   one file per contributor (.md notes for reading items)
 lib/ds.dart                      ListNode, DListNode, TreeNode helpers
+tool/dsa.dart + ./dsa           the `./dsa` command (see COMMANDS.md)
 tool/start.dart                  creates your solution file from the signature
 tool/next.dart                   opens your next unsolved problem
 tool/submit.dart                 sends your solutions; GitHub checks and merges them automatically

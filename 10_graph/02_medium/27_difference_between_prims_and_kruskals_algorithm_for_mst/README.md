@@ -29,7 +29,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/27_difference_between_prims_and_kruskals_algorithm_for_mst
+./dsa start graph medium 27
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

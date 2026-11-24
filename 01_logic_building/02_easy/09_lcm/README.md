@@ -41,7 +41,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 01_logic_building/02_easy/09_lcm
+./dsa start logic_building easy 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

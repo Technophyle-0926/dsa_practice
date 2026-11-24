@@ -76,7 +76,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/02_binary_search_tree/02_applications
+./dsa start tree binary_search_tree 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

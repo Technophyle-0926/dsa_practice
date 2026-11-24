@@ -50,7 +50,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/06_connectivity_in_graph/01_articulation_points_or_cut_vertices_in_a_graph
+./dsa start graph_algorithms connectivity_in_graph 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

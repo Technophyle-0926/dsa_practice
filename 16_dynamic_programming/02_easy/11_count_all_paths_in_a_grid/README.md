@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/02_easy/11_count_all_paths_in_a_grid
+./dsa start dynamic_programming easy 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

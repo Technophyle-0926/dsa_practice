@@ -20,7 +20,7 @@ Dynamic Programming is a commonly used algorithmic technique used to optimize re
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/00_basics/01_introduction
+./dsa start dynamic_programming basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

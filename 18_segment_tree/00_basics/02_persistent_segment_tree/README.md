@@ -53,7 +53,7 @@ We will create all the versions of the segment tree and keep track of their root
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 18_segment_tree/00_basics/02_persistent_segment_tree
+./dsa start segment_tree basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

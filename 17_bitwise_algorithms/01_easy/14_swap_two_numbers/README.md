@@ -47,7 +47,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/14_swap_two_numbers
+./dsa start bitwise_algorithms easy 14
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

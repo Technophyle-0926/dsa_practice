@@ -27,7 +27,7 @@ The Trie data structure is used to store a set of keys represented as strings. I
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 20_trie/00_basics/01_trie_insert_and_search
+./dsa start trie basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

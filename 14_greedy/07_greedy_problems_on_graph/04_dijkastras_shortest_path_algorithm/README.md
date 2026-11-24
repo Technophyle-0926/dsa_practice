@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/04_dijkastras_shortest_path_algorithm
+./dsa start greedy greedy_problems_on_graph 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

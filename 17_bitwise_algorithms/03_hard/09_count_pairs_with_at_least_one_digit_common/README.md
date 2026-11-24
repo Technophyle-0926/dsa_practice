@@ -35,7 +35,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/03_hard/09_count_pairs_with_at_least_one_digit_common
+./dsa start bitwise_algorithms hard 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

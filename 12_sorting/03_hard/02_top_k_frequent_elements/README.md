@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/03_hard/02_top_k_frequent_elements
+./dsa start sorting hard 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

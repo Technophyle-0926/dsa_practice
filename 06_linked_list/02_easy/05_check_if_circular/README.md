@@ -52,7 +52,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 06_linked_list/02_easy/05_check_if_circular
+./dsa start linked_list easy 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -22,7 +22,7 @@ In this article, only separate chaining is discussed. We will be discussing Open
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/00_basics/03_separate_chaining_for_collision_handling
+./dsa start hashing basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

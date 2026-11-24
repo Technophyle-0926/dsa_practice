@@ -25,7 +25,7 @@ Future<void> main(List<String> args) async {
     if (problems.length > 1) {
       stdout.writeln('${problems.length} problems match "${words.join(' ')}". Pick one:');
       for (final p in problems.take(15)) {
-        stdout.writeln('  dart run tool/test.dart ${shortcut(p)}   # ${p.category}: ${p.title}');
+        stdout.writeln('  $dsa test ${shortcut(p)}   # ${p.category}: ${p.title}');
       }
       exit(1);
     }
@@ -36,7 +36,7 @@ Future<void> main(List<String> args) async {
   }
   if (problems.isEmpty) {
     stdout.writeln(words.isEmpty
-        ? 'You have no solution files yet. Start one with: dart run tool/next.dart'
+        ? 'You have no solution files yet. Start one with: $dsa next'
         : 'No problem matches "${words.join(' ')}".');
     exit(1);
   }
@@ -48,7 +48,7 @@ Future<void> main(List<String> args) async {
     if (p.isConcept) {
       stdout.writeln('$title\n  Reading item: nothing to test.\n');
     } else if (!file.existsSync()) {
-      stdout.writeln('$title\n  You haven\'t started it. Run: dart run tool/start.dart ${shortcut(p)}\n');
+      stdout.writeln('$title\n  You haven\'t started it. Run: $dsa start ${shortcut(p)}\n');
     } else if (!hasTests(p)) {
       stdout.writeln('$title\n  No tests for this problem yet.\n');
     } else if (!Problem.isSolved(file)) {

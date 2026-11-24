@@ -23,7 +23,7 @@ Most of the problems where greedy algorithms work follow these two properties:
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/00_basics/02_general_structure
+./dsa start greedy basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

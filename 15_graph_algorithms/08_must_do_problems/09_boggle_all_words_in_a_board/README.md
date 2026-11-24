@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/09_boggle_all_words_in_a_board
+./dsa start graph_algorithms must_do_problems 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

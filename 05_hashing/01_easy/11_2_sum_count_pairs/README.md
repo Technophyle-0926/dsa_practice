@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/01_easy/11_2_sum_count_pairs
+./dsa start hashing easy 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

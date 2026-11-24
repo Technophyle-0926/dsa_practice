@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/10_misc/03_minimum_steps_to_reach_a_destination
+./dsa start recursion misc 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

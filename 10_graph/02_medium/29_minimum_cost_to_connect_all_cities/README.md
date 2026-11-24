@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/29_minimum_cost_to_connect_all_cities
+./dsa start graph medium 29
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

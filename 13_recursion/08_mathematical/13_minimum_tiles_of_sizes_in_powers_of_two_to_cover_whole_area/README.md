@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/13_minimum_tiles_of_sizes_in_powers_of_two_to_cover_whole_area
+./dsa start recursion mathematical 13
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

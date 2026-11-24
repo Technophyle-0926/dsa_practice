@@ -40,7 +40,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/09_programming_puzzles/01_program_for_chocolate_and_wrapper_puzzle
+./dsa start recursion programming_puzzles 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

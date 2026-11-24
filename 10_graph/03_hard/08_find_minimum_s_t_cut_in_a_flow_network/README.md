@@ -60,7 +60,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/03_hard/08_find_minimum_s_t_cut_in_a_flow_network
+./dsa start graph hard 8
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

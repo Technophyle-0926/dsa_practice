@@ -50,7 +50,7 @@ If all subproblems must be solved, a bottom-up dynamic programming algorithm def
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 16_dynamic_programming/00_basics/02_tabulation_vs_memoization
+./dsa start dynamic_programming basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/04_maximum_edges_that_can_be_added_to_dag_so_that_is_remains_da
+./dsa start graph_algorithms topological_sorting 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

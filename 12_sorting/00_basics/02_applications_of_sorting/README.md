@@ -15,7 +15,7 @@ Sorting algorithms are used to arrange a list of elements in a specific order, s
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/00_basics/02_applications_of_sorting
+./dsa start sorting basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

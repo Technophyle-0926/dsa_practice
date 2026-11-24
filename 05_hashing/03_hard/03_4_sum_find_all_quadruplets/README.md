@@ -57,7 +57,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/03_hard/03_4_sum_find_all_quadruplets
+./dsa start hashing hard 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -15,7 +15,7 @@ A tree is a type of data structure that represents a **hierarchical relationship
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/00_basics/03_applications
+./dsa start tree basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

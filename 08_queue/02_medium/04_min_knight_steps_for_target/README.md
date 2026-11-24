@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/02_medium/04_min_knight_steps_for_target
+./dsa start queue medium 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -55,7 +55,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/06_sorting_array_with_reverse_around_middle
+./dsa start greedy greedy_problems_on_array 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

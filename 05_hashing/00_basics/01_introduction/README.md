@@ -15,7 +15,7 @@
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/00_basics/01_introduction
+./dsa start hashing basics 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

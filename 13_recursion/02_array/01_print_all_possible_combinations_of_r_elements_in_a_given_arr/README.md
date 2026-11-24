@@ -54,7 +54,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/02_array/01_print_all_possible_combinations_of_r_elements_in_a_given_arr
+./dsa start recursion array 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/04_linked_list/06_recursive_approach_for_alternating_split_of_linked_list
+./dsa start recursion linked_list 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

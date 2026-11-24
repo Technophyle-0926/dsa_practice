@@ -247,7 +247,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/11_combinations_in_a_string_of_digits
+./dsa start recursion strings 11
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

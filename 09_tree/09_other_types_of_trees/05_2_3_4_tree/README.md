@@ -31,7 +31,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/09_other_types_of_trees/05_2_3_4_tree
+./dsa start tree other_types_of_trees 5
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

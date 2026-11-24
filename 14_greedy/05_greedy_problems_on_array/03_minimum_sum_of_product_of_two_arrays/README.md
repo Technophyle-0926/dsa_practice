@@ -100,7 +100,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/03_minimum_sum_of_product_of_two_arrays
+./dsa start greedy greedy_problems_on_array 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

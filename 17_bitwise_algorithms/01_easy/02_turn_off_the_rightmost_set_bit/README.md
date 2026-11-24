@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/01_easy/02_turn_off_the_rightmost_set_bit
+./dsa start bitwise_algorithms easy 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

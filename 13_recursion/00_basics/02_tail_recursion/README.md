@@ -89,7 +89,7 @@ static void print(int n)
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/00_basics/02_tail_recursion
+./dsa start recursion basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

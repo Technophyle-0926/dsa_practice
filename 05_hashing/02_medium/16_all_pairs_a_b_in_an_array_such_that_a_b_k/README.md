@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 05_hashing/02_medium/16_all_pairs_a_b_in_an_array_such_that_a_b_k
+./dsa start hashing medium 16
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -44,7 +44,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/02_medium/20_shortest_path_length_between_two_given_nodes
+./dsa start bitwise_algorithms medium 20
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

@@ -15,7 +15,7 @@ Computers operate using binary code, a language made up of **0s** and **1s**. Th
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 17_bitwise_algorithms/00_basics/03_little_and_big_endian_mystery
+./dsa start bitwise_algorithms basics 3
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

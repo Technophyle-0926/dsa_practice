@@ -42,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 20_trie/01_problems/06_auto_complete_feature_using_trie
+./dsa start trie problems 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

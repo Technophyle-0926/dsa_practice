@@ -46,7 +46,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 07_stack/01_easy/12_reverse_a_stack_using_recursion
+./dsa start stack easy 12
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

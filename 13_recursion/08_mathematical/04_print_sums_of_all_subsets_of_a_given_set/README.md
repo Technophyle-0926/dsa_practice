@@ -48,7 +48,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/04_print_sums_of_all_subsets_of_a_given_set
+./dsa start recursion mathematical 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

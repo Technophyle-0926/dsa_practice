@@ -43,7 +43,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 03_array/05_expert/09_space_optimization_using_bit_manipulations
+./dsa start array expert 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
@@ -51,7 +51,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 <!-- results:start -->
 ## Leaderboard
 
-Test it on your computer first: `dart run tool/test.dart array expert 9`
+Test it on your computer first: `./dsa test array expert 9`
 
 _No solutions yet._
 <!-- results:end -->

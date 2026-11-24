@@ -189,7 +189,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/09_other_types_of_trees/04_interval_tree_using_gnu_tree_based_container
+./dsa start tree other_types_of_trees 4
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

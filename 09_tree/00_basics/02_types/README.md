@@ -95,7 +95,7 @@ An N-ary tree is a generalization of a binary tree, such that each node can have
 Write your notes in `solutions/<your-github-username>.md`. Create it with:
 
 ```sh
-dart run tool/start.dart 09_tree/00_basics/02_types
+./dsa start tree basics 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

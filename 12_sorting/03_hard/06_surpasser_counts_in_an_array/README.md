@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 12_sorting/03_hard/06_surpasser_counts_in_an_array
+./dsa start sorting hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

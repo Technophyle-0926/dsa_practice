@@ -45,7 +45,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/09_programming_puzzles/02_n_queen_in_o_n_space
+./dsa start recursion programming_puzzles 2
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

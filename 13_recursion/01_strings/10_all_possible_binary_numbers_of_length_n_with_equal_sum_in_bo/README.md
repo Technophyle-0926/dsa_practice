@@ -38,7 +38,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/01_strings/10_all_possible_binary_numbers_of_length_n_with_equal_sum_in_bo
+./dsa start recursion strings 10
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

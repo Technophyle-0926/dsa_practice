@@ -51,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 13_recursion/08_mathematical/09_count_ways_to_express_a_number_as_sum_of_powers
+./dsa start recursion mathematical 9
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

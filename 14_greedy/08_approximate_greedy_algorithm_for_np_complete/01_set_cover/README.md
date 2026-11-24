@@ -145,7 +145,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/08_approximate_greedy_algorithm_for_np_complete/01_set_cover
+./dsa start greedy approximate_greedy_algorithm_for_np_complete 1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

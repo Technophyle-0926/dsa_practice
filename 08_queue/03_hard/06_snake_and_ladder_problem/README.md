@@ -49,7 +49,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 08_queue/03_hard/06_snake_and_ladder_problem
+./dsa start queue hard 6
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

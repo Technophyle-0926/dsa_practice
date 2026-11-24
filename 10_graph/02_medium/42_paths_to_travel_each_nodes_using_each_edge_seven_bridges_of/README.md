@@ -53,7 +53,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/42_paths_to_travel_each_nodes_using_each_edge_seven_bridges_of
+./dsa start graph medium 42
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
