@@ -1,0 +1,32 @@
+{
+  "title": "Arrange Balls with adjacent of different types",
+  "number": 20,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/ways-to-arrange-balls-such-that-adjacent-balls-are-of-different-types/",
+  "practice": "https://www.geeksforgeeks.org/problems/arrange-balls0052/1",
+  "function": {
+    "name": "arrangeBallsAdjacentDifferentTypes",
+    "params": [
+      {
+        "name": "p",
+        "type": "int"
+      },
+      {
+        "name": "q",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "arrangeBallsAdjacentDifferentTypes(2, 2, 2)",
+    "expected": "30"
+  }
+}

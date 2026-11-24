@@ -1,0 +1,28 @@
+{
+  "title": "Minimum sum of absolute difference of pairs of two arrays",
+  "number": 4,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-sum-absolute-difference-pairs-two-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-sum-of-absolute-differences-of-pairs/1",
+  "function": {
+    "name": "minimumSumAbsoluteDifferencePairs",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumSumAbsoluteDifferencePairs([4, 1, 2], [2, 4, 1])",
+    "expected": "0"
+  }
+}

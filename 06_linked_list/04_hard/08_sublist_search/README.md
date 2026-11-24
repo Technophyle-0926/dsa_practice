@@ -26,12 +26,24 @@ Output: No
 Explanation: List 1 is not present in List 2.
 ```
 
+## Function Signature
+
+```dart
+bool sublistSearch(ListNode? list1, ListNode? list2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sublist-search-search-a-linked-list-in-another-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/08_sublist_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

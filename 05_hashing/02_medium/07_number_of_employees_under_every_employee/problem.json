@@ -1,0 +1,24 @@
+{
+  "title": "Number of Employees Under every Employee",
+  "number": 7,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-number-of-employees-under-every-manager/",
+  "practice": null,
+  "function": {
+    "name": "numberEmployeesUnderEveryEmployee",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<String>>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "numberEmployeesUnderEveryEmployee([[\"A\", \"C\"], [\"B\", \"C\"], [\"C\", \"F\"], [\"D\", \"E\"], [\"E\", \"F\"], [\"F\", \"F\"]])",
+    "expected": "[[A, 0], [B, 0], [C, 2], [D, 0], [E, 1], [F, 5]]"
+  }
+}

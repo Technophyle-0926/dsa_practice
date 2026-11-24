@@ -24,12 +24,24 @@ queries[][] = {{1000, 1400}, {1700, 500}, {2000, 600}}
 Output: [400, 500, 600]
 ```
 
+## Function Signature
+
+```dart
+List<int> maximumWeightGivenPriceRange(List<List<int>> arr, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-element-with-maximum-weight-in-given-price-range-for-q-queries/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/15_maximum_weight_in_given_price_range_for_q_queries
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

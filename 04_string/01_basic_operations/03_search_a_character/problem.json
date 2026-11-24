@@ -1,0 +1,28 @@
+{
+  "title": "Search a Character",
+  "number": 3,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-search-a-character-in-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-a-character-in-a-string/1",
+  "function": {
+    "name": "searchCharacter",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "ch",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "searchCharacter(\"geeksforgeeks\", \"k\")",
+    "expected": "3"
+  }
+}

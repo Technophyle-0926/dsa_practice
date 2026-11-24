@@ -28,12 +28,24 @@ Output: 0 1 3 2 8
 Explanation: Following describes the working of best first search:
 ```
 
+## Function Signature
+
+```dart
+List<int> bestFirstSearchInformedSearch(int source, int target, List<List<int>> edgeList)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/best-first-search-informed-search/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/05_more_searching_algorithms/08_best_first_search_informed_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

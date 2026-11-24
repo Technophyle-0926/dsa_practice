@@ -26,13 +26,25 @@ Output: 0
 Explanation: No element has two occurrence, so maximum distance = 0.
 ```
 
+## Function Signature
+
+```dart
+int maxDistanceBetweenTwoOccurrences(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-distance-two-occurrences-element-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/max-distance-between-same-elements/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/05_max_distance_between_two_occurrences
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

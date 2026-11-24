@@ -1,0 +1,28 @@
+{
+  "title": "Median of two sorted of same sizes",
+  "number": 1,
+  "category": "Searching",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/median-of-two-sorted-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-same-size/1",
+  "function": {
+    "name": "medianTwoSortedSameSizes",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "medianTwoSortedSameSizes([1, 12, 15, 26, 38], [2, 13, 17, 30, 45])",
+    "expected": "16"
+  }
+}

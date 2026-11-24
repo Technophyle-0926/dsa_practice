@@ -1,0 +1,28 @@
+{
+  "title": "Add Two Fractions",
+  "number": 11,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-add-two-fractions/",
+  "practice": "https://www.geeksforgeeks.org/problems/add-two-fractions/1",
+  "function": {
+    "name": "addTwoFractions",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "addTwoFractions([1, 2], [3, 2])",
+    "expected": "[2, 1]"
+  }
+}

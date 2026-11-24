@@ -31,13 +31,25 @@ Explanation: The vertices 3 and 4 have odd degree, so the edge between them must
 The minimum total cost is 8 + 2 = 10.
 ```
 
+## Function Signature
+
+```dart
+dynamic chinesePostmanOrRouteInspection(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/chinese-postman-route-inspection-set-1-introduction/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/chinese-postman/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/07_chinese_postman_or_route_inspection
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

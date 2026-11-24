@@ -1,0 +1,24 @@
+{
+  "title": "Remove Duplicates from Sorted",
+  "number": 3,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-duplicates-sorted-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1",
+  "function": {
+    "name": "removeDuplicatesSorted",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "removeDuplicatesSorted([2, 2, 2, 2, 2])",
+    "expected": "[2]"
+  }
+}

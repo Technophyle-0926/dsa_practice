@@ -1,0 +1,24 @@
+{
+  "title": "Previous Smaller Element",
+  "number": 4,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-nearest-smaller-numbers-on-left-side-in-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/previous-smaller-element/1",
+  "function": {
+    "name": "previousSmallerElement",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "previousSmallerElement([1, 6, 2])",
+    "expected": "[-1, 1, 1]"
+  }
+}

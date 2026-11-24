@@ -1,0 +1,16 @@
+{
+  "title": "Displaying content of Trie",
+  "number": 5,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/trie-display-content/",
+  "practice": null,
+  "function": {
+    "name": "displayingContentTrie",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

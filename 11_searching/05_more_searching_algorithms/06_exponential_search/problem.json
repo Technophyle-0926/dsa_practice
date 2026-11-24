@@ -1,0 +1,28 @@
+{
+  "title": "Exponential Search",
+  "number": 6,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/exponential-search/",
+  "practice": null,
+  "function": {
+    "name": "exponentialSearch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "exponentialSearch([10, 20, 40, 45, 55], 45)",
+    "expected": "Element found at index 3"
+  }
+}

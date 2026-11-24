@@ -1,0 +1,32 @@
+{
+  "title": "Number of sinks in a graph",
+  "number": 13,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-sink-nodes-graph/",
+  "practice": null,
+  "function": {
+    "name": "numberSinksGraph",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "Edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "numberSinksGraph(4, 2, [[2, 3], [4, 3]])",
+    "expected": "2"
+  }
+}

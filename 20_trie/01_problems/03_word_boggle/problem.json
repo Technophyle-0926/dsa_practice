@@ -1,0 +1,28 @@
+{
+  "title": "Word Boggle",
+  "number": 3,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": null,
+  "practice": "https://www.geeksforgeeks.org/problems/word-boggle4143/1",
+  "function": {
+    "name": "wordBoggle",
+    "params": [
+      {
+        "name": "board",
+        "type": "List<List<String>>"
+      },
+      {
+        "name": "dictionary",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "wordBoggle([[\"C\", \"A\", \"P\"], [\"A\", \"N\", \"D\"], [\"T\", \"I\", \"E\"]], [\"CAT\"])",
+    "expected": "[\"CAT\"]"
+  }
+}

@@ -25,13 +25,25 @@ Input: s1 = "gksrek", s2 = "geeksforgeeks"
 Output: true
 ```
 
+## Function Signature
+
+```dart
+bool checkSubsequence(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-two-strings-find-first-string-subsequence-second/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/given-two-strings-find-if-first-string-is-a-subsequence-of-second/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/02_easy/07_check_for_subsequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

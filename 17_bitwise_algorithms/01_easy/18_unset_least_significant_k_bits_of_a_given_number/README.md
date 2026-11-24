@@ -21,12 +21,24 @@ Input: N = 730, K = 3
 Output: 720
 ```
 
+## Function Signature
+
+```dart
+int unsetLeastSignificantKBits(int N, int K)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/unset-least-significant-k-bits-of-a-given-number/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/18_unset_least_significant_k_bits_of_a_given_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Min swaps to reach given array",
+  "number": 8,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-swaps-reach-permuted-array-2-positions-left-swaps-allowed/",
+  "practice": null,
+  "function": {
+    "name": "minSwapsReachGivenArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "minSwapsReachGivenArray([1, 2, 5, 3, 4])",
+    "expected": "2 We can reach to above-permuted array in total 2 swaps as shown below, [1, 2, 3, 4, 5] -> [1, 2, 3, 5, 4] -> [1, 2, 5, 3, 4]"
+  }
+}

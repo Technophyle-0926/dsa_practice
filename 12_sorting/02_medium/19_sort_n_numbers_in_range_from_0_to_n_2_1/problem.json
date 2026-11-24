@@ -1,0 +1,24 @@
+{
+  "title": "Sort n numbers in range from 0 to n^2 – 1",
+  "number": 19,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-n-numbers-range-0-n2-1-linear-time/",
+  "practice": "https://www.geeksforgeeks.org/problems/efficiently-sorting-number-from-0-to-n2-15444/1",
+  "function": {
+    "name": "sortNNumbersRange0",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortNNumbersRange0([40, 12, 45, 32, 33, 1, 22])",
+    "expected": "[1, 12, 22, 32, 33, 40, 45]"
+  }
+}

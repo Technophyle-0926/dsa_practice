@@ -24,12 +24,24 @@ Input: arr[] = {3, 2, 1}
 Output: 3
 ```
 
+## Function Signature
+
+```dart
+int countNumberIncreasingSubSequences(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-number-of-increasing-sub-sequences-onlogn/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/03_interesting_problems/06_count_number_of_increasing_sub_sequences_o_nlogn
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

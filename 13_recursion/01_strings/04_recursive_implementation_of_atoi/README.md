@@ -42,13 +42,25 @@ Output: -12
 Explanation: Nothing is read after -12 as a non-digit character 'g' was encountered.
 ```
 
+## Function Signature
+
+```dart
+int recursiveImplementationAtoi(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-implementation-of-atoi/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implement-atoi/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/04_recursive_implementation_of_atoi
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

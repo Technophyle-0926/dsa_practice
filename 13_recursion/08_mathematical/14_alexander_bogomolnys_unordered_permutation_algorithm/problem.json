@@ -1,0 +1,24 @@
+{
+  "title": "Alexander Bogomolny’s UnOrdered Permutation Algorithm",
+  "number": 14,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/alexander-bogomolnys-unordered-permutation-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "alexanderBogomolnysUnorderedPermutationAlgorithm",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "alexanderBogomolnysUnorderedPermutationAlgorithm(2)",
+    "expected": "1 2"
+  }
+}

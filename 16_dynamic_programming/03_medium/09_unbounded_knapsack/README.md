@@ -28,13 +28,25 @@ Output: 0
 Explanation: We can't pick any element. Hence, total profit is 0.
 ```
 
+## Function Signature
+
+```dart
+int unboundedKnapsack(List<int> val, List<int> wt, int capacity)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/unbounded-knapsack-repetition-items-allowed/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/09_unbounded_knapsack
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

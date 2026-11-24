@@ -27,12 +27,24 @@ gcd(a, b) = gcd(a/2, b) if a is even and b is odd.
 gcd(a, b) = gcd(a, b/2) if a is odd and b is even.
 Below is C++ implementation.
 
+## Function Signature
+
+```dart
+dynamic euclidWhenAreCostly(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/euclids-algorithm-when-and-operations-are-costly/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/13_euclid_when_and_are_costly
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

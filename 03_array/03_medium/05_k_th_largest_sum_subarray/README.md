@@ -20,13 +20,25 @@ Output: -10
 Explanation: The 6th largest sum among sum of all contiguous subarrays is -10.
 ```
 
+## Function Signature
+
+```dart
+int kThLargestSumSubarray(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-th-largest-sum-contiguous-subarray/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-th-largest-sum-contiguous-subarray/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/05_k_th_largest_sum_subarray
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

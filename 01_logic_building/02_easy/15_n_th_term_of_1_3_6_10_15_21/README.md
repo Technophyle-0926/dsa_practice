@@ -20,12 +20,24 @@ Output  10
 
 The given series represent triangular numbers which are sums of natural numbers.
 
+## Function Signature
+
+```dart
+dynamic nThTerm13()
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-nth-term-series-136101521/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/15_n_th_term_of_1_3_6_10_15_21
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

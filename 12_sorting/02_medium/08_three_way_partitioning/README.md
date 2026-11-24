@@ -28,13 +28,25 @@ Output: true
 Explanation: One possible arrangement is: {1, 3, 2, 1, 4, 6}. If you return a valid arrangement, output will be true.
 ```
 
+## Function Signature
+
+```dart
+bool threeWayPartitioning(List<int> arr, int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/three-way-partitioning-of-an-array-around-a-given-range/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/three-way-partitioning/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/08_three_way_partitioning
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

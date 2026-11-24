@@ -20,13 +20,25 @@ Output: 4
 Explanation: The points in straight line are- (3, 2),(4, 1),(2, 3),(1, 4)
 ```
 
+## Function Signature
+
+```dart
+int maximumPointsSameLine(List<int> x, List<int> y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-maximum-points-on-same-line/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/points-in-straight-line/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/18_maximum_points_on_the_same_line
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

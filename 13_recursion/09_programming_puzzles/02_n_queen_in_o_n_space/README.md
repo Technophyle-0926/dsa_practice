@@ -24,12 +24,24 @@ Output: [1]
 Explanation: Only one queen can be placed in the single cell available.
 ```
 
+## Function Signature
+
+```dart
+List<int> nQueenONSpace(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/n-queen-in-on-space/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/09_programming_puzzles/02_n_queen_in_o_n_space
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

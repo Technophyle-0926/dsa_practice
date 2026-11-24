@@ -1,0 +1,16 @@
+{
+  "title": "Bridges in a graph",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bridge-in-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/critical-connections/1",
+  "function": {
+    "name": "bridgesGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

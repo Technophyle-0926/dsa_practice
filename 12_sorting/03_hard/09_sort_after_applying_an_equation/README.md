@@ -25,13 +25,25 @@ Input: arr[] = [-1, 0, 1, 2, 3, 4], A = -1, B = 2, C = -1
 Output: [-9, -4, -4, -1, -1, 0]
 ```
 
+## Function Signature
+
+```dart
+List<int> sortAfterApplyingEquation(List<int> arr, int A, int B, int C)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-array-applying-given-equation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sort-the-given-array-after-applying-the-given-equation0304/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/09_sort_after_applying_an_equation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

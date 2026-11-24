@@ -1,0 +1,24 @@
+{
+  "title": "n-th number whose binary is a palindrome",
+  "number": 13,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-n-th-number-whose-binary-representation-palindrome/",
+  "practice": null,
+  "function": {
+    "name": "nThNumberWhoseBinary",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "nThNumberWhoseBinary(1)",
+    "expected": "1"
+  }
+}

@@ -26,13 +26,25 @@ Output: 0
 Explanation: Given string is already a palindrome hence no insertions are required.
 ```
 
+## Function Signature
+
+```dart
+int minimumInsertionsPalindrome(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-insertions-to-form-a-palindrome-dp-28/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/form-a-palindrome2544/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/18_minimum_insertions_for_palindrome
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

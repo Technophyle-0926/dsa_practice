@@ -1,0 +1,16 @@
+{
+  "title": "Roman to Integer",
+  "number": 11,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/roman-number-to-integer/",
+  "practice": "https://www.geeksforgeeks.org/problems/roman-number-to-integer3201/1",
+  "function": {
+    "name": "romanInteger",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

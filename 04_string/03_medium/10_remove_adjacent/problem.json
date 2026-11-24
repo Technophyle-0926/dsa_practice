@@ -1,0 +1,24 @@
+{
+  "title": "Remove Adjacent",
+  "number": 10,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursively-remove-adjacent-duplicates-given-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/recursively-remove-all-adjacent-duplicates0744/1",
+  "function": {
+    "name": "removeAdjacent",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "removeAdjacent(\"geeksforgeek\")",
+    "expected": "\"gksforgk\""
+  }
+}

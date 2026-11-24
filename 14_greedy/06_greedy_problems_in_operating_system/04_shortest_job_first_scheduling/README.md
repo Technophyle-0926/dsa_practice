@@ -14,13 +14,25 @@ The shortest job first (SJF) or shortest job next, is a scheduling policy that s
 - It is practically infeasible as Operating System may not know burst times and therefore may not sort them. While it is not possible to predict execution time, several methods can be used to estimate the execution time for a job, such as a weighted average of previous execution times.
 - SJF can be used in specialized environments where accurate estimates of running time are available.
 
+## Function Signature
+
+```dart
+dynamic shortestJobFirstScheduling(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/calculate-the-average-waiting-time-and-turnaround-time-using-shortest-job-first/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/06_greedy_problems_in_operating_system/04_shortest_job_first_scheduling
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

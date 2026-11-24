@@ -18,12 +18,24 @@ Input: arr[] = {3, 5, 7}
 Output: 5
 ```
 
+## Function Signature
+
+```dart
+int countSubsetsNotContainingAdjacent(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-of-subsets-not-containing-adjacent-elements/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/24_count_of_subsets_not_containing_adjacent_elements
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

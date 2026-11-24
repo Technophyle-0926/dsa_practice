@@ -20,13 +20,25 @@ Output: false
 Explanation: Word "GEEK" cannot be found in the given grid.
 ```
 
+## Function Signature
+
+```dart
+bool wordSearch4DirectionsZig(List<List<String>> mat, String word)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-a-word-exists-in-a-grid-or-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-search/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/08_word_search_4_directions_and_zig_zag_allowed
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

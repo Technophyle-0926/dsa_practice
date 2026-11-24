@@ -1,0 +1,24 @@
+{
+  "title": "Lexicographically next string",
+  "number": 17,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lexicographically-next-string/",
+  "practice": null,
+  "function": {
+    "name": "lexicographicallyNextString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "lexicographicallyNextString(\"geeks\")",
+    "expected": "\"geekt\""
+  }
+}

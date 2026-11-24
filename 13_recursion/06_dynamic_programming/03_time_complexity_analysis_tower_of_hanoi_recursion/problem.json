@@ -1,0 +1,16 @@
+{
+  "title": "Time Complexity Analysis | Tower Of Hanoi (Recursion)",
+  "number": 3,
+  "category": "Recursion",
+  "level": "Dynamic Programming",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/time-complexity-analysis-tower-hanoi-recursion/",
+  "practice": null,
+  "function": {
+    "name": "timeComplexityAnalysisTowerHanoi",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

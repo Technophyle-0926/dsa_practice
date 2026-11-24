@@ -1,0 +1,24 @@
+{
+  "title": "Count Valid Parenthesis",
+  "number": 10,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-number-valid-parentheses-expressions-given-length/",
+  "practice": null,
+  "function": {
+    "name": "countValidParenthesis",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countValidParenthesis(2)",
+    "expected": "1"
+  }
+}

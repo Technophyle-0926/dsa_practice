@@ -1,0 +1,28 @@
+{
+  "title": "Stock Buy and Sell - At Most K Transactions",
+  "number": 5,
+  "category": "Array",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-profit4657/1",
+  "function": {
+    "name": "stockBuySellAtMost",
+    "params": [
+      {
+        "name": "prices",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "stockBuySellAtMost([10, 22, 5, 80], 2)",
+    "expected": "87"
+  }
+}

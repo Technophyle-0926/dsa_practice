@@ -1,0 +1,16 @@
+{
+  "title": "Pascal’s Triangle",
+  "number": 10,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/pascal-triangle/",
+  "practice": null,
+  "function": {
+    "name": "pascalsTriangle",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -19,12 +19,24 @@ Input : N = 10, M = 5.
 Output : 14
 ```
 
+## Function Signature
+
+```dart
+int minimumTilesSizesPowersTwo(int N, int M)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-tiles-of-sizes-in-powers-of-two-to-cover-whole-area/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/13_minimum_tiles_of_sizes_in_powers_of_two_to_cover_whole_area
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

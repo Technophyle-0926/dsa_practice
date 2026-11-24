@@ -1,0 +1,24 @@
+{
+  "title": "Ways to Partition a Set",
+  "number": 14,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bell-numbers-number-of-ways-to-partition-a-set/",
+  "practice": "https://www.geeksforgeeks.org/problems/bell-numbers2108/1",
+  "function": {
+    "name": "waysPartition",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "waysPartition(2)",
+    "expected": "2"
+  }
+}

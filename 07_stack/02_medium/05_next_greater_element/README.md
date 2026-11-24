@@ -23,13 +23,25 @@ Output: [8, -1, 1, 3, -1]
 Explanation: The next larger element to 6 is 8, for 8 there is no larger elements hence it is -1, for 0 it is 1 , for 1 it is 3 and then for 3 there is no larger element on right and hence -1.
 ```
 
+## Function Signature
+
+```dart
+List<int> nextGreaterElement(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/next-greater-element/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/05_next_greater_element
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

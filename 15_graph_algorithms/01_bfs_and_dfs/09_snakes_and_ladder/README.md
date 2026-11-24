@@ -27,13 +27,25 @@ Output: 2
 Explanation:  Move from 1 to 2 and take the ladder to 8. Then move from 8 to 9, which is the destination. Therefore, the minimum number of dice throws required is 2.
 ```
 
+## Function Signature
+
+```dart
+int snakesLadder(int n, List<int> lad, List<int> sn)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/snake-ladder-problem-2/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/09_snakes_and_ladder
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

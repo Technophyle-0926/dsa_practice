@@ -9,10 +9,12 @@ Source: [GeeksforGeeks – Square Root (Sqrt) Decomposition Algorithm](https://w
 
 ## All Problems (3)
 
-| Level | # | Problem | GfG | Status |
+<!-- progress:start -->
+| Level | # | Problem | GfG | Solved by |
 |---|---|---|---|---|
-| Basics | 1 | [Square Root (Sqrt) Decomposition](00_basics/01_square_root_sqrt_decomposition/README.md) | [link](https://www.geeksforgeeks.org/dsa/square-root-sqrt-decomposition-algorithm/) | ⬜ |
-| Problems | 1 | [MO’s Algorithm](01_problems/01_mos_algorithm/README.md) | [link](https://www.geeksforgeeks.org/problems/interesting-queries4742/1) | ⬜ |
-| Problems | 2 | [Range Minimum Query](01_problems/02_range_minimum_query/README.md) | [link](https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/) | ⬜ |
+| Basics | 1 | [Square Root (Sqrt) Decomposition](00_basics/01_square_root_sqrt_decomposition/README.md) | [link](https://www.geeksforgeeks.org/dsa/square-root-sqrt-decomposition-algorithm/) |  |
+| Problems | 1 | [MO’s Algorithm](01_problems/01_mos_algorithm/README.md) | [link](https://www.geeksforgeeks.org/problems/interesting-queries4742/1) |  |
+| Problems | 2 | [Range Minimum Query](01_problems/02_range_minimum_query/README.md) | [link](https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/) |  |
+<!-- progress:end -->
 
-> Mark a problem done by changing ⬜ to ✅.
+> The "Solved by" column is updated automatically after every merge to `main`.

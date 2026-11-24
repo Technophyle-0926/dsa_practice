@@ -43,13 +43,25 @@ Output: 0
 Explanation: Total 0 steps will be taken.
 ```
 
+## Function Signature
+
+```dart
+int towerHanoi(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/c-program-for-tower-of-hanoi/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/04_hard/04_tower_of_hanoi
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

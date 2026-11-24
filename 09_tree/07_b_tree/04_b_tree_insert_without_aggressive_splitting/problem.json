@@ -1,0 +1,16 @@
+{
+  "title": "B-Tree Insert without aggressive splitting",
+  "number": 4,
+  "category": "Tree",
+  "level": "B Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/b-tree-insert-without-aggressive-splitting/",
+  "practice": null,
+  "function": {
+    "name": "bTreeInsertWithoutAggressive",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

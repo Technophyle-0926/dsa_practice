@@ -28,13 +28,25 @@ Output: [1, 2]
 Explanation: 1 and 2 occur exactly once.
 ```
 
+## Function Signature
+
+```dart
+List<int> twoNonRepeatingArrayRepeating(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-two-non-repeating-elements-in-an-array-of-repeating-elements/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/14_two_non_repeating_in_an_array_of_repeating
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

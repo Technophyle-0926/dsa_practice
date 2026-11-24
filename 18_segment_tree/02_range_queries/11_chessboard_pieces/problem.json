@@ -1,0 +1,16 @@
+{
+  "title": "Chessboard Pieces",
+  "number": 11,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-update-query-chessboard-pieces/",
+  "practice": null,
+  "function": {
+    "name": "chessboardPieces",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

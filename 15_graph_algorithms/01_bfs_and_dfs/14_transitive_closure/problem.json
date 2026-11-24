@@ -1,0 +1,16 @@
+{
+  "title": "Transitive Closure",
+  "number": 14,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/transitive-closure-of-a-graph-using-dfs/",
+  "practice": "https://www.geeksforgeeks.org/problems/transitive-closure-of-a-graph0930/1",
+  "function": {
+    "name": "transitiveClosure",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Anagram substrings",
+  "number": 15,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-total-anagram-substrings/",
+  "practice": null,
+  "function": {
+    "name": "anagramSubstrings",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "anagramSubstrings(\"xyyx\")",
+    "expected": "4"
+  }
+}

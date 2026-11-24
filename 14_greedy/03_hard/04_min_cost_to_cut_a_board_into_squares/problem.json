@@ -1,0 +1,36 @@
+{
+  "title": "Min Cost to cut a board into squares",
+  "number": 4,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cost-cut-board-squares/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1",
+  "function": {
+    "name": "minCostCutBoardInto",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "List<int>"
+      },
+      {
+        "name": "y",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minCostCutBoardInto(3, 3, [2, 1], [4, 3])",
+    "expected": "16"
+  }
+}

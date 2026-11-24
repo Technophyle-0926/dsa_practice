@@ -1,0 +1,16 @@
+{
+  "title": "Minimum edges to reverse to make path from a source to a destination",
+  "number": 7,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-edges-reverse-make-path-source-destination/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-edges/1",
+  "function": {
+    "name": "minimumEdgesReverseMakePath",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

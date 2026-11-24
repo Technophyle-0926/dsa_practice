@@ -1,0 +1,32 @@
+{
+  "title": "Shortest path in a Binary Maze",
+  "number": 3,
+  "category": "Queue",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/shortest-path-in-a-binary-maze/",
+  "practice": "https://www.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1",
+  "function": {
+    "name": "shortestPathBinaryMaze",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "src",
+        "type": "List<int>"
+      },
+      {
+        "name": "dest",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestPathBinaryMaze([[1, 1, 1, 1], [1, 1, 0, 1], [1, 1, 1, 1], [1, 1, 0, 0], [1, 0, 0, 1]], [0, 1], [2, 2])",
+    "expected": "3"
+  }
+}

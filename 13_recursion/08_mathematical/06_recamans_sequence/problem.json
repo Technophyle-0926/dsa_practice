@@ -1,0 +1,24 @@
+{
+  "title": "Recaman’s sequence",
+  "number": 6,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recamans-sequence/",
+  "practice": "https://www.geeksforgeeks.org/problems/recamans-sequence4856/1",
+  "function": {
+    "name": "recamansSequence",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "recamansSequence(6)",
+    "expected": "0, 1, 3, 6, 2, 7"
+  }
+}

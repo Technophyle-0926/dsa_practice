@@ -16,13 +16,25 @@ Output: /*a+bcd
 Explanation: The infix expression is a*(b+c)/d. First, inside the brackets, b + c becomes +bc. Now the expression looks like a*(+bc)/d. Next, multiply a with (+bc), so it becomes *a+bc. Finally, divide this result by d, so it becomes /*a+bcd.
 ```
 
+## Function Signature
+
+```dart
+dynamic infixPrefix(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/convert-infix-prefix-notation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/infix-to-prefix-notation/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/09_infix_to_prefix
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

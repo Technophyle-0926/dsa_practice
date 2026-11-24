@@ -1,0 +1,28 @@
+{
+  "title": "Represent Fraction as String",
+  "number": 1,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/represent-the-fraction-of-two-numbers-in-the-string-format/",
+  "practice": "https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1",
+  "function": {
+    "name": "representFractionAsString",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "representFractionAsString(1, 2)",
+    "expected": "\"0.5\""
+  }
+}

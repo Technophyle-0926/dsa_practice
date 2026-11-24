@@ -90,12 +90,24 @@ for 5 disks i.e. n=5 It will take 2^5-1=31 moves.
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic timeComplexityAnalysisTowerHanoi(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/time-complexity-analysis-tower-hanoi-recursion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/06_dynamic_programming/03_time_complexity_analysis_tower_of_hanoi_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

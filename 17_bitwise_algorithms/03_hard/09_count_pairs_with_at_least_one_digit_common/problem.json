@@ -1,0 +1,24 @@
+{
+  "title": "Count pairs with at least one digit common",
+  "number": 9,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-pairs-array-least-one-digit-common/",
+  "practice": null,
+  "function": {
+    "name": "countPairsAtLeastOne",
+    "params": [
+      {
+        "name": "A",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countPairsAtLeastOne([10, 12, 24])",
+    "expected": "2"
+  }
+}

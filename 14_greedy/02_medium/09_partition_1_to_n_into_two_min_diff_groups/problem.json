@@ -1,0 +1,24 @@
+{
+  "title": "Partition 1 to n into two min diff groups",
+  "number": 9,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/divide-1-n-two-groups-minimum-sum-difference/",
+  "practice": null,
+  "function": {
+    "name": "partition1NIntoTwo",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "partition1NIntoTwo(5)",
+    "expected": "[ [ 2, 5 ], [ 1, 3, 4 ] ]"
+  }
+}

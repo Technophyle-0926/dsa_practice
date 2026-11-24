@@ -1,0 +1,24 @@
+{
+  "title": "The Celebrity Problem",
+  "number": 1,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/the-celebrity-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/the-celebrity-problem/1",
+  "function": {
+    "name": "celebrityProblem",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "celebrityProblem([[1, 1, 0], [0, 1, 0], [0, 1, 1]])",
+    "expected": "1"
+  }
+}

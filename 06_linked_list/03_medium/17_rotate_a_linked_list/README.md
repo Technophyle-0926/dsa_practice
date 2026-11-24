@@ -26,13 +26,25 @@ Output: 30 -> 40 -> 10 -> 20
 Explanation: After rotating the list left by 6 positions, the node with value 30 becomes the new head, and the node with value 40 points to the node with value 10.
 ```
 
+## Function Signature
+
+```dart
+dynamic rotateLinkedList(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rotate-a-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/17_rotate_a_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -10,12 +10,24 @@ It calculates a*b (a multiplied b).
 
 **Question 2** : In question 1, if we replace + with * and replace return 0 with return 1, then what does the changed function do? Following is the changed function.
 
+## Function Signature
+
+```dart
+dynamic practiceQuestionsRecursion7(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-7/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/10_misc/12_practice_questions_for_recursion_set_7
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

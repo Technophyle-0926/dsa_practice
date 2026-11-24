@@ -1,0 +1,28 @@
+{
+  "title": "Smallest subarray with k distinct numbers",
+  "number": 15,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/smallest-subarray-k-distinct-numbers/",
+  "practice": null,
+  "function": {
+    "name": "smallestSubarrayKDistinctNumbers",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestSubarrayKDistinctNumbers([1, 1, 2, 2, 3, 3, 4, 5], 3)",
+    "expected": "5 7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Erdos Renyl Model (for generating Random Graphs)",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/erdos-renyl-model-generating-random-graphs/",
+  "practice": null,
+  "function": {
+    "name": "erdosRenylModelGeneratingRandom",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

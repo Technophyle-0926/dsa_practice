@@ -1,0 +1,28 @@
+{
+  "title": "Calculate the Sum of GCD over all subarrays",
+  "number": 7,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/calculate-the-sum-of-gcd-over-all-subarrays/",
+  "practice": null,
+  "function": {
+    "name": "calculateSumGcdOverAll",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      },
+      {
+        "name": "A",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "calculateSumGcdOverAll(5, [1, 2, 3, 4, 5])",
+    "expected": "25"
+  }
+}

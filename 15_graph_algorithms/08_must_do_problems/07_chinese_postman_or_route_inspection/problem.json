@@ -1,0 +1,16 @@
+{
+  "title": "Chinese Postman or Route Inspection",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/chinese-postman-route-inspection-set-1-introduction/",
+  "practice": "https://www.geeksforgeeks.org/problems/chinese-postman/1",
+  "function": {
+    "name": "chinesePostmanOrRouteInspection",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

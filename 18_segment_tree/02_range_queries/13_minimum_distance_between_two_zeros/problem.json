@@ -1,0 +1,28 @@
+{
+  "title": "Minimum distance between two Zeros",
+  "number": 13,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-array-range-queries-to-find-the-minimum-distance-between-two-zeros/",
+  "practice": null,
+  "function": {
+    "name": "minimumDistanceBetweenTwoZeros",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "Q",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumDistanceBetweenTwoZeros([1, 0, 0, 1], [[0, 2]])",
+    "expected": "1"
+  }
+}

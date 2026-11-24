@@ -20,12 +20,24 @@ Output : s2 = "geeksforgeeks"
 
 **Iterative:** Copy every character from s1 to s2 starting from index = 0 and in each call increase the index by 1 until s1 doesn't reach to end;
 
+## Function Signature
+
+```dart
+dynamic functionCopyStringIterativeRecursive(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/function-copy-string-iterative-recursive/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/17_function_to_copy_string_iterative_and_recursive
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

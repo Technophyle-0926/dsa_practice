@@ -1,0 +1,24 @@
+{
+  "title": "Longest Palindromic Substring",
+  "number": 14,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string1956/1",
+  "function": {
+    "name": "longestPalindromicSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "longestPalindromicSubstring(\"forgeeksskeegfor\")",
+    "expected": "\"geeksskeeg\""
+  }
+}

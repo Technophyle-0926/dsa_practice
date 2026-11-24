@@ -27,13 +27,25 @@ Output: [10]
 There is only one distinct element
 ```
 
+## Function Signature
+
+```dart
+List<int> largestThreeArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-largest-three-elements-in-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-three-distinct-elements/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/03_largest_three_in_an_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

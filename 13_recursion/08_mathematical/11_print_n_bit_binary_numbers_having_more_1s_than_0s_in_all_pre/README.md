@@ -29,13 +29,25 @@ Explanation: Valid numbers are those where each prefix has more 1s than 0s.
 So, the output is "111, 110, 101".
 ```
 
+## Function Signature
+
+```dart
+List<String> printNBitBinaryNumbers(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-n-bit-binary-numbers-1s-0s-prefixes/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/11_print_n_bit_binary_numbers_having_more_1s_than_0s_in_all_pre
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

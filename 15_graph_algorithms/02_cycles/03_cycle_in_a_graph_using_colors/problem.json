@@ -1,0 +1,16 @@
+{
+  "title": "Cycle in a graph using colors",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Cycles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-direct-graph-using-colors/",
+  "practice": null,
+  "function": {
+    "name": "cycleGraphColors",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

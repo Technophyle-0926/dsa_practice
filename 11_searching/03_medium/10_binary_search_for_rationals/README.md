@@ -26,12 +26,24 @@ Output: 0
 Explanation: The given rational number 1/2 is present at index 0 in the array.
 ```
 
+## Function Signature
+
+```dart
+dynamic binarySearchRationals(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-search-for-rational-numbers-without-using-floating-point-arithmetic/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/10_binary_search_for_rationals
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

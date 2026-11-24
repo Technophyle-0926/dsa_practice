@@ -1,0 +1,16 @@
+{
+  "title": "Applications of Minimum Spanning Tree",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Minimum Spanning Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/applications-of-minimum-spanning-tree/",
+  "practice": null,
+  "function": {
+    "name": "applicationsMinimumSpanningTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

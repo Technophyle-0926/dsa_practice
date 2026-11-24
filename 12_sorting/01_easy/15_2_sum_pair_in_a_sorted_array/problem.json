@@ -1,0 +1,28 @@
+{
+  "title": "2 Sum - Pair in a Sorted Array",
+  "number": 15,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/pair-with-given-sum-in-sorted-array-two-sum-ii/",
+  "practice": "https://www.geeksforgeeks.org/problems/two-sum-in-sorted-array/1",
+  "function": {
+    "name": "solve2SumPairSortedArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve2SumPairSortedArray([2, 7, 11, 15], 9)",
+    "expected": "1 2"
+  }
+}

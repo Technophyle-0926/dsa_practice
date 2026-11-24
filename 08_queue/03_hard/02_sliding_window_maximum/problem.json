@@ -1,0 +1,28 @@
+{
+  "title": "Sliding Window Maximum",
+  "number": 2,
+  "category": "Queue",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1",
+  "function": {
+    "name": "slidingWindowMaximum",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "slidingWindowMaximum([1, 2, 3, 1, 4, 5, 2, 3, 6], 3)",
+    "expected": "[3, 3, 4, 5, 5, 5, 6]"
+  }
+}

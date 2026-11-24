@@ -90,8 +90,12 @@ An N-ary tree is a generalization of a binary tree, such that each node can have
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/types-of-trees-in-data-structures/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/00_basics/02_types
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

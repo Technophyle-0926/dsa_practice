@@ -1,0 +1,24 @@
+{
+  "title": "Power Set",
+  "number": 17,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/power-set/",
+  "practice": "https://www.geeksforgeeks.org/problems/power-set-using-recursion/1",
+  "function": {
+    "name": "power",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "power(\"ab\")",
+    "expected": "[\"\", \"a\", \"b\", \"ab\"]"
+  }
+}

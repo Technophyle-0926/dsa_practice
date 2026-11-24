@@ -1,0 +1,28 @@
+{
+  "title": "Reorder according to given indexes",
+  "number": 3,
+  "category": "Array",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reorder-a-array-according-to-given-indexes/",
+  "practice": null,
+  "function": {
+    "name": "reorderAccordingGivenIndexes",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "index",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "reorderAccordingGivenIndexes([10, 11, 12], [1, 0, 2])",
+    "expected": "11 10 12"
+  }
+}

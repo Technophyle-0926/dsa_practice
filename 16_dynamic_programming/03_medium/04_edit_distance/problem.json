@@ -1,0 +1,28 @@
+{
+  "title": "Edit Distance",
+  "number": 4,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/edit-distance-dp-5/",
+  "practice": "https://www.geeksforgeeks.org/problems/edit-distance3702/1",
+  "function": {
+    "name": "editDistance",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "editDistance(\"geek\", \"gesek\")",
+    "expected": "1"
+  }
+}

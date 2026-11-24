@@ -1,0 +1,16 @@
+{
+  "title": "Eulerian path and circuit",
+  "number": 37,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/eulerian-path-and-circuit/",
+  "practice": "https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1",
+  "function": {
+    "name": "eulerianPathCircuit",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

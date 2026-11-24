@@ -20,12 +20,24 @@ Number of elements less than or equal to
 2 in arr[0..2] is 1 (only 2)
 ```
 
+## Function Signature
+
+```dart
+dynamic countElementsXSubarray(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-elements-less-equal-given-number-given-subarray/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/01_problems/07_count_elements_x_in_a_subarray
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

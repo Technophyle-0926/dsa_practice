@@ -1,0 +1,24 @@
+{
+  "title": "Longest Increasing Subsequences (LIS)",
+  "number": 1,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/length-of-longest-increasing-subsequences-lis-using-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "longestIncreasingSubsequencesLis",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestIncreasingSubsequencesLis([2, 2, 2, 2, 2])",
+    "expected": "5"
+  }
+}

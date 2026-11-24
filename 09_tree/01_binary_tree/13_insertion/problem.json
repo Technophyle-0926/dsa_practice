@@ -1,0 +1,16 @@
+{
+  "title": "Insertion",
+  "number": 13,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insertion-in-a-binary-tree-in-level-order/",
+  "practice": null,
+  "function": {
+    "name": "insertion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

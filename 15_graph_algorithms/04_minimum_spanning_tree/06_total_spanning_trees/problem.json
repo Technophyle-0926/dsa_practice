@@ -1,0 +1,16 @@
+{
+  "title": "Total Spanning Trees",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Minimum Spanning Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/total-number-spanning-trees-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/1",
+  "function": {
+    "name": "totalSpanningTrees",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

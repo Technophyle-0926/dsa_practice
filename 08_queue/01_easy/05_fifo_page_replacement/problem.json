@@ -1,0 +1,16 @@
+{
+  "title": "FIFO Page Replacement",
+  "number": 5,
+  "category": "Queue",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-page-replacement-algorithms-set-2-fifo/",
+  "practice": null,
+  "function": {
+    "name": "fifoPageReplacement",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

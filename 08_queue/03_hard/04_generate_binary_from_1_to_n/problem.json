@@ -1,0 +1,24 @@
+{
+  "title": "Generate Binary from 1 to n",
+  "number": 4,
+  "category": "Queue",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/interesting-method-generate-binary-numbers-1-n/",
+  "practice": "https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1",
+  "function": {
+    "name": "generateBinary1N",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "generateBinary1N(4)",
+    "expected": "[\"1\", \"10\", \"11\", \"100\"]"
+  }
+}

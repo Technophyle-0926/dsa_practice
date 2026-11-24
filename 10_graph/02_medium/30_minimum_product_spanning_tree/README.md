@@ -153,12 +153,24 @@ int main()
 }
 ```
 
+## Function Signature
+
+```dart
+dynamic minimumProductSpanningTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-product-spanning-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/30_minimum_product_spanning_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

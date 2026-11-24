@@ -1,0 +1,16 @@
+{
+  "title": "Merge Sort Tree for Range Order Statistics",
+  "number": 7,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-sort-tree-for-range-order-statistics/",
+  "practice": null,
+  "function": {
+    "name": "mergeSortTreeRangeOrder",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

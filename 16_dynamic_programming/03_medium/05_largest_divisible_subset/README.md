@@ -22,13 +22,25 @@ Output : [2, 4,  8]
 Explanation: In the output subset, for every pair either the first element divides second or second divides first.
 ```
 
+## Function Signature
+
+```dart
+List<int> largestDivisibleSubset(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-divisible-subset-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-divisible-subset--170643/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/05_largest_divisible_subset
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

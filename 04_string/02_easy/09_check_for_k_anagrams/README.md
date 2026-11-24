@@ -25,13 +25,25 @@ Output: No
 Explanation: We can update or modify only 1 value but there is a need of modifying 2 characters. i.e. g and f in str 2.
 ```
 
+## Function Signature
+
+```dart
+bool checkKAnagrams(String str1, String str2, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-two-strings-k-anagrams-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/02_easy/09_check_for_k_anagrams
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

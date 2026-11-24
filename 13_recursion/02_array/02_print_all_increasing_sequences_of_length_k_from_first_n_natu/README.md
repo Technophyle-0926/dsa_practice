@@ -33,12 +33,24 @@ Output: 1 2 3
 **We strongly recommend minimizing the browser and trying this yourself first.**
 It's a good recursion question. The idea is to create an array of lengths k. The array stores the current sequence. For every position in the array, we check the previous element and one by one put all elements greater than the previous element. If there is no previous element (first position), we put all numbers from 1 to n.
 
+## Function Signature
+
+```dart
+List<int> printAllIncreasingSequencesLength(int k, int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-increasing-sequences-length-k-first-n-natural-numbers/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/02_array/02_print_all_increasing_sequences_of_length_k_from_first_n_natu
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

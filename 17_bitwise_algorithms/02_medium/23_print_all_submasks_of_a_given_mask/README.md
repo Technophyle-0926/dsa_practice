@@ -22,12 +22,24 @@ Explanation:
 Binary representation of N is "11001". Therefore, all the required subsets are {"11001", "11000", "10001", "10000", "01001", "01000", "0001", "0000"}.
 ```
 
+## Function Signature
+
+```dart
+List<int> printAllSubmasksGivenMask(int N)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-all-submasks-of-a-given-mask/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/23_print_all_submasks_of_a_given_mask
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

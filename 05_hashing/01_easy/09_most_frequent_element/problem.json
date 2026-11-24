@@ -1,0 +1,24 @@
+{
+  "title": "Most Frequent Element",
+  "number": 9,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/frequent-element-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/most-frequent-element-in-an-array/1",
+  "function": {
+    "name": "mostFrequentElement",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "mostFrequentElement([1, 3, 2, 1, 4, 1])",
+    "expected": "1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Palindrome Partitioning",
+  "number": 3,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-palindrome-sub-strings-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string0652/1",
+  "function": {
+    "name": "palindromePartitioning",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "palindromePartitioning(\"abaab\")",
+    "expected": "3"
+  }
+}

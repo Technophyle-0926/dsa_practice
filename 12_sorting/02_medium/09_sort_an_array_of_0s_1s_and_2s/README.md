@@ -24,13 +24,25 @@ Output: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
 Explanation: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2} has all 0s first, then all 1s and all 2s in last.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortArray0s1s2s(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/09_sort_an_array_of_0s_1s_and_2s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

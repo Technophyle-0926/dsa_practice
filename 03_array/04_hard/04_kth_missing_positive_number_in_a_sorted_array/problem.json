@@ -1,0 +1,28 @@
+{
+  "title": "Kth Missing Positive Number in a Sorted Array",
+  "number": 4,
+  "category": "Array",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/k-th-missing-element-in-sorted-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1",
+  "function": {
+    "name": "kthMissingPositiveNumberSorted",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kthMissingPositiveNumberSorted([2, 3, 4, 7, 11], 5)",
+    "expected": "9"
+  }
+}

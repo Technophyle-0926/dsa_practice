@@ -1,0 +1,16 @@
+{
+  "title": "Modulus division by 2's Power",
+  "number": 5,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/compute-modulus-division-by-a-power-of-2-number/",
+  "practice": null,
+  "function": {
+    "name": "modulusDivision2sPower",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

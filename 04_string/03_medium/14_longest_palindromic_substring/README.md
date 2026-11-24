@@ -26,13 +26,25 @@ Output: "a"
 Explanation: No multi-letter palindromes exist. So the first character "a" is returned as the longest palindromic substring.
 ```
 
+## Function Signature
+
+```dart
+String longestPalindromicSubstring(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-palindromic-substring/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string1956/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/14_longest_palindromic_substring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

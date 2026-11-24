@@ -30,13 +30,25 @@ The pair "aaa" and "aab" suggests 'a' appear before 'b' in the alien dictionary.
 So, 'c' -> 'a' -> 'b' is a valid ordering.
 ```
 
+## Function Signature
+
+```dart
+String alienDictionary(List<String> words)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-sorted-dictionary-find-precedence-characters/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/alien-dictionary/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/03_alien_dictionary
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

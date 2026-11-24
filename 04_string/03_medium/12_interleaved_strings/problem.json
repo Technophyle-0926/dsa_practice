@@ -1,0 +1,32 @@
+{
+  "title": "Interleaved Strings",
+  "number": 12,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-if-a-string-is-interleaved-of-two-other-strings-dp-33/",
+  "practice": "https://www.geeksforgeeks.org/problems/interleaved-strings/1",
+  "function": {
+    "name": "interleavedStrings",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      },
+      {
+        "name": "s3",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "interleavedStrings(\"AAB\", \"AAC\", \"AAAABC\")",
+    "expected": "true"
+  }
+}

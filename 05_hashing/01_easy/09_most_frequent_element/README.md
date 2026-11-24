@@ -25,13 +25,25 @@ Output: 2
 Explanation: 1 and 2 both appear two times, so return 2 as it's value is bigger.
 ```
 
+## Function Signature
+
+```dart
+int mostFrequentElement(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/frequent-element-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/most-frequent-element-in-an-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/09_most_frequent_element
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

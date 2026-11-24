@@ -1,0 +1,28 @@
+{
+  "title": "Stack Permutations",
+  "number": 8,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/stack-permutations-check-if-an-array-is-stack-permutation-of-other/",
+  "practice": "https://www.geeksforgeeks.org/problems/stack-permutations/1",
+  "function": {
+    "name": "stackPermutations",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "stackPermutations([1, 2, 3], [2, 1, 3])",
+    "expected": "true"
+  }
+}

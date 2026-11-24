@@ -1,0 +1,16 @@
+{
+  "title": "Check for Bipartite",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bipartite-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/bipartite-graph/1",
+  "function": {
+    "name": "checkBipartite",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

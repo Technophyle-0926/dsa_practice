@@ -27,13 +27,25 @@ Output: 3
 Explanation: The sum of dependencies: 3 + 0 + 0 + 0 = 3.
 ```
 
+## Function Signature
+
+```dart
+int sumDependenciesGraph(int V, int E, List<List<int>> edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sum-dependencies-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sum-of-dependencies-in-a-graph5311/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/01_easy/09_sum_of_dependencies_in_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -24,12 +24,24 @@ Explanation: All possible unique sub-array with their sum are as:
 (2), (4), (2), (2+4), (4+2), (2+4+2). Here only (4) and (2+4+2) are unique.
 ```
 
+## Function Signature
+
+```dart
+int sumAllUniqueSubArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-sum-unique-sub-array-sum-given-array/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/10_sum_of_all_unique_sub_array_sums
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

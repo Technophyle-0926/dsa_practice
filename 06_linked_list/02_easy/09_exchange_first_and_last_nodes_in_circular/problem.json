@@ -1,0 +1,16 @@
+{
+  "title": "Exchange first and last nodes in Circular",
+  "number": 9,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/exchange-first-last-node-circular-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "exchangeFirstLastNodesCircular",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

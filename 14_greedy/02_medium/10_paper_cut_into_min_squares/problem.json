@@ -1,0 +1,16 @@
+{
+  "title": "Paper cut into min squares",
+  "number": 10,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/paper-cut-minimum-number-squares/",
+  "practice": "https://www.geeksforgeeks.org/problems/min-cut-square3303/1",
+  "function": {
+    "name": "paperCutIntoMinSquares",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -62,8 +62,12 @@ T(n) = aT(n/b) + f(n).
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/how-to-analyse-complexity-of-recurrence-relation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/02_analysis_examples/02_analyzing_recursive_functions
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

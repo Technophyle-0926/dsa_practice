@@ -1,0 +1,24 @@
+{
+  "title": "Max A's using Special Keyboard",
+  "number": 14,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/how-to-print-maximum-number-of-a-using-given-four-keys/",
+  "practice": "https://www.geeksforgeeks.org/problems/special-keyboard3018/1",
+  "function": {
+    "name": "maxAsSpecialKeyboard",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxAsSpecialKeyboard(3)",
+    "expected": "3"
+  }
+}

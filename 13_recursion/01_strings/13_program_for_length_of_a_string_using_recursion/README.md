@@ -23,12 +23,24 @@ We have also covered this topic—feel free to check it out as well
 How to find length of a string without string.h and loop in C?
 ```
 
+## Function Signature
+
+```dart
+int programLengthStringRecursion(String str)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-for-length-of-a-string-using-recursion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/13_program_for_length_of_a_string_using_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -24,13 +24,25 @@ Output: 5
 Explanation: After removing [1, 2, 3, 4] from the natural numbers, the remaining sequence is: 5, 6, 7, .... and so on. The 1st number in the sequence is 5, so the answer is 5.
 ```
 
+## Function Signature
+
+```dart
+int kThSmallestAfterRemoving(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-th-smallest-element-removing-integers-natural-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/18_k_th_smallest_after_removing_given_set
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

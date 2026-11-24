@@ -1,0 +1,28 @@
+{
+  "title": "Policemen catch thieves",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/policemen-catch-thieves/",
+  "practice": "https://www.geeksforgeeks.org/problems/police-and-thieves--141631/1",
+  "function": {
+    "name": "policemenCatchThieves",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "policemenCatchThieves([\"P\", \"T\", \"T\", \"P\", \"T\"], 1)",
+    "expected": "2."
+  }
+}

@@ -24,13 +24,25 @@ Output: true
 Explanation:  s when divided by 11 gives 0 as remainder.
 ```
 
+## Function Signature
+
+```dart
+bool divisibility11(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-large-number-divisible-11-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-divisible-by-114724/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/03_divisibility_by_11
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

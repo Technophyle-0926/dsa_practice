@@ -1,0 +1,16 @@
+{
+  "title": "Arrays.binarySearch() in Java for Search in subarray",
+  "number": 3,
+  "category": "Searching",
+  "level": "Binary Search Implementations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/java/arrays-binarysearch-in-java-with-examples-set-2-search-in-subarray/",
+  "practice": null,
+  "function": {
+    "name": "arraysBinarysearchJavaSearchSubarray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

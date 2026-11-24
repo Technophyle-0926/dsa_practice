@@ -1,0 +1,28 @@
+{
+  "title": "Auto-complete feature using Ternary Search Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "Ternary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/how-to-implement-text-auto-complete-feature-using-ternary-search-tree/",
+  "practice": null,
+  "function": {
+    "name": "autoCompleteFeatureTernarySearch",
+    "params": [
+      {
+        "name": "S",
+        "type": "List<String>"
+      },
+      {
+        "name": "patt",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "autoCompleteFeatureTernarySearch([\"wallstreet\", \"geeksforgeeks\", \"wallmart\", \"walmart\", \"waldomort\", \"word\"], \"wall\")",
+    "expected": "wallstreet"
+  }
+}

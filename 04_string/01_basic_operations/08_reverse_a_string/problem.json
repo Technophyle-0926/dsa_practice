@@ -1,0 +1,24 @@
+{
+  "title": "Reverse a string",
+  "number": 8,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-a-string/1",
+  "function": {
+    "name": "reverseString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "reverseString(\"GeeksforGeeks\")",
+    "expected": "\"skeeGrofskeeG\""
+  }
+}

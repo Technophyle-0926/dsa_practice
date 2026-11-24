@@ -17,12 +17,24 @@ Each query should be one of the following 4 operations.
 Prerequisite: Binary Indexed Tree or Fenwick Tree
 The idea is to create a BIT of size with maximum limit. We insert an element in BIT using it as an index. When we insert an element x, we increment values of all ancestors of x by 1. To delete an element, we decrement values of ancestors by 1. We basically call standard function update() of BIT for both insert and delete. To find rank, we simply call standard function sum() of BIT. To find k-th smallest element, we do binary search in BIT.
 
+## Function Signature
+
+```dart
+dynamic orderStatisticTreeFenwickTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/order-statistic-tree-using-fenwick-tree-bit/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/01_problems/05_order_statistic_tree_using_fenwick_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

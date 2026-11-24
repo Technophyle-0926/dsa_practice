@@ -21,13 +21,25 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum sets.
 ```
 
+## Function Signature
+
+```dart
+bool partitionProblem(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/partition-problem-dp-18/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/13_partition_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

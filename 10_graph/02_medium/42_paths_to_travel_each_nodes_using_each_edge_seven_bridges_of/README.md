@@ -30,12 +30,24 @@ This is one of the most famous problems in **Graph Theory**, known as the **"Sev
 The original problem asked: Given **seven bridges** connecting **four land masses** in the city of Königsberg (then in Prussia), is it possible to start from any land area and **cross each bridge exactly once** without repeating?
 To address this, Euler abstracted the land masses as **nodes** and the bridges as **edges** of a graph. He then examined whether an **Eulerian Path** existed, a path that visits every edge **exactly once**. Euler proved that such a path is only possible under specific conditions regarding the degrees of the nodes (land masses). The problem we're dealing with here is a **generalized version** of Euler’s original problem, where the graph can have any number of nodes and edges. The goal remains the same: **determine whether there is an Eulerian path that uses each edge exactly once**. If such a path exists, output the sequence of nodes visited; otherwise, report that no such path is possible.
 
+## Function Signature
+
+```dart
+ListNode? pathsTravelEachNodesEach(List<List<int>> adj)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/paths-travel-nodes-using-edgeseven-bridges-konigsberg/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/42_paths_to_travel_each_nodes_using_each_edge_seven_bridges_of
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

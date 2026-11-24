@@ -1,0 +1,16 @@
+{
+  "title": "Huffman Coding",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/huffman-coding-greedy-algo-3/",
+  "practice": "https://www.geeksforgeeks.org/problems/huffman-encoding3345/1",
+  "function": {
+    "name": "huffmanCoding",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

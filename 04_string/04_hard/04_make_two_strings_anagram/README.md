@@ -22,13 +22,25 @@ Output: 0
 Explanation: Strings are already anagrams.
 ```
 
+## Function Signature
+
+```dart
+int makeTwoStringsAnagram(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-minimum-number-characters-two-strings-become-anagram/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/anagram-of-string/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/04_make_two_strings_anagram
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

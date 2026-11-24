@@ -1,0 +1,16 @@
+{
+  "title": "Min Cost Path",
+  "number": 2,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/min-cost-path-dp-6/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-cost-to-destination/1",
+  "function": {
+    "name": "minCostPath",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Maximum Sum Increasing Subsequence using BIT",
+  "number": 8,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-sum-increasing-subsequence-using-binary-indexed-tree/",
+  "practice": null,
+  "function": {
+    "name": "maximumSumIncreasingSubsequenceBit",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumSumIncreasingSubsequenceBit([1, 20, 4, 2, 5])",
+    "expected": "Maximum sum of increasing subsequence is = 21"
+  }
+}

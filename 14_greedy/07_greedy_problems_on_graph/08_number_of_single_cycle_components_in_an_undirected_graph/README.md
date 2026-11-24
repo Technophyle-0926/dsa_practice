@@ -34,12 +34,24 @@ respectively.
 Now we can easily see that a single-cycle-component is a connected component where every vertex has the degree as two.
 Therefore, in order to solve this problem we first identify all the connected components of the disconnected graph. For this, we use a depth-first search algorithm. For the DFS algorithm to work, it is required to maintain an array 'found' to keep an account of all the vertices that have been discovered by the recursive function DFS. Once all the elements of a particular connected component are discovered (like vertices(9, 2, 15, 12) form a connected graph component ), we check if all the vertices in the component are having a degree equal to two. If yes, we increase the counter variable 'count' which denotes the number of single-cycle components found in the given graph. To keep an account of the component we are presently dealing with, we may use a vector array 'curr_graph' as well.
 
+## Function Signature
+
+```dart
+dynamic numberSingleCycleComponentsUndirected(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-of-simple-cyclic-components-in-an-undirected-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/08_number_of_single_cycle_components_in_an_undirected_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

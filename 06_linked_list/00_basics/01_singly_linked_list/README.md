@@ -34,8 +34,12 @@ Create the third node
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/singly-linked-list-tutorial/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/00_basics/01_singly_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

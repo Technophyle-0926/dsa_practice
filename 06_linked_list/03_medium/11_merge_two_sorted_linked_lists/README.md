@@ -26,13 +26,25 @@ Output: 1 -> 1 -> 2 -> 4
 Explanation: Merging [1 ,1] and [2, 4] in order gives 1 -> 1 -> 2 -> 4.
 ```
 
+## Function Signature
+
+```dart
+dynamic mergeTwoSortedLinkedLists(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-two-sorted-linked-lists/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/11_merge_two_sorted_linked_lists
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -25,8 +25,12 @@ Let us have a look at the complete implementation:
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/segment-tree-efficient-implementation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/03_efficient_implementation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

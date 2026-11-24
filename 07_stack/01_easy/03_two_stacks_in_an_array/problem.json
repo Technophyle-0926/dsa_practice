@@ -1,0 +1,16 @@
+{
+  "title": "Two stacks in an array",
+  "number": 3,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/implement-two-stacks-in-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1",
+  "function": {
+    "name": "twoStacksArray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

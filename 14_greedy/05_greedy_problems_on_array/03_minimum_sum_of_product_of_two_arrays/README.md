@@ -79,12 +79,24 @@ Just think in the way that if applying an operation on any element decreases you
 
 Based on this observation, we consider every element as the element on which we apply all k operations and keep track of the element that reduces the result to a minimum.
 
+## Function Signature
+
+```dart
+int minimumSumProductTwoArrays(List<int> a, List<int> b, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-sum-product-two-arrays/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/03_minimum_sum_of_product_of_two_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

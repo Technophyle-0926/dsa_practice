@@ -1,0 +1,16 @@
+{
+  "title": "Transitive Closure",
+  "number": 1,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/transitive-closure-of-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/transitive-closure-of-a-graph0930/1",
+  "function": {
+    "name": "transitiveClosure",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

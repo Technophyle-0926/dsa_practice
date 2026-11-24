@@ -1,0 +1,24 @@
+{
+  "title": "Sort even and odd placed in different orders",
+  "number": 11,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-even-placed-elements-increasing-odd-placed-decreasing-order/",
+  "practice": "https://www.geeksforgeeks.org/problems/bitonic-generator-sort3343/1",
+  "function": {
+    "name": "sortEvenOddPlacedDifferent",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortEvenOddPlacedDifferent([1, 8, 2, 3, 4, 5, 6, 7])",
+    "expected": "[1, 2, 4, 6, 8, 7, 5, 3]"
+  }
+}

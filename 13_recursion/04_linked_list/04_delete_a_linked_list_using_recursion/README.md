@@ -20,12 +20,24 @@ Output: NULL
 Explanation:  Linked List is Deleted
 ```
 
+## Function Signature
+
+```dart
+String deleteLinkedListRecursion(ListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/delete-linked-list-using-recursion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/04_linked_list/04_delete_a_linked_list_using_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

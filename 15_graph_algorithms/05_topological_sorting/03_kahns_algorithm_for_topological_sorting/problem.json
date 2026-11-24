@@ -1,0 +1,16 @@
+{
+  "title": "Kahn’s Algorithm for Topological Sorting",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Topological Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/topological-sorting-indegree-based-solution/",
+  "practice": "https://www.geeksforgeeks.org/problems/topological-sort/1",
+  "function": {
+    "name": "kahnsAlgorithmTopologicalSorting",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

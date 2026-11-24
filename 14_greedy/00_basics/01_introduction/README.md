@@ -21,8 +21,12 @@ However, it's important to note that not all problems are suitable for greedy al
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-greedy-algorithm-data-structures-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

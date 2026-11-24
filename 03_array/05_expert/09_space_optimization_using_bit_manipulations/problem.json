@@ -1,0 +1,28 @@
+{
+  "title": "Space optimization using bit manipulations",
+  "number": 9,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/competitive-programming/space-optimization-using-bit-manipulations/",
+  "practice": null,
+  "function": {
+    "name": "spaceOptimizationBitManipulations",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "spaceOptimizationBitManipulations(2, 10)",
+    "expected": "2 4 5 6 8 10"
+  }
+}

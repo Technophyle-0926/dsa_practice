@@ -14,12 +14,24 @@ Input:  N= 9, Source = 0, Edges: [ [0, 1, 0], [0, 7, 1], [1, 2, 1], [1, 7, 1], [
 Output:   [0, 0, 1, 1, 2, 1, 2, 1, 2]
 ```
 
+## Function Signature
+
+```dart
+List<int> shortestPathBinaryGraph(int N, int Source, List<List<int>> Edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/0-1-bfs-shortest-path-binary-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/10_shortest_path_in_a_binary_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

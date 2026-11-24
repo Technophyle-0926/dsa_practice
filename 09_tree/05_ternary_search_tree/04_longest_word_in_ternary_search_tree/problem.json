@@ -1,0 +1,24 @@
+{
+  "title": "Longest word in ternary search tree",
+  "number": 4,
+  "category": "Tree",
+  "level": "Ternary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-word-ternary-search-tree/",
+  "practice": null,
+  "function": {
+    "name": "longestWordTernarySearchTree",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "longestWordTernarySearchTree([\"Prakriti\", \"Raghav\", \"Rashi\", \"Sunidhi\"])",
+    "expected": "Length of largest word in"
+  }
+}

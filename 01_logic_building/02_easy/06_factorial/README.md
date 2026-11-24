@@ -28,13 +28,25 @@ Input: n = 1
 Output: 1
 ```
 
+## Function Signature
+
+```dart
+int factorial(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-for-factorial-of-a-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/factorial5739/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/06_factorial
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

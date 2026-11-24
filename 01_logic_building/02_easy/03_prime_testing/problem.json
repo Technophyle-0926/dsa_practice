@@ -1,0 +1,16 @@
+{
+  "title": "Prime Testing",
+  "number": 3,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-primality-test-and-school-method/",
+  "practice": "https://www.geeksforgeeks.org/problems/prime-number2314/1",
+  "function": {
+    "name": "primeTesting",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

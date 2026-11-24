@@ -1,0 +1,16 @@
+{
+  "title": "Deletion",
+  "number": 3,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-in-an-avl-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/avl-tree-deletion/1",
+  "function": {
+    "name": "deletion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

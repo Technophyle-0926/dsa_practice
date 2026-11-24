@@ -1,0 +1,24 @@
+{
+  "title": "Trapping Rain Water",
+  "number": 2,
+  "category": "Array",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/trapping-rain-water/",
+  "practice": "https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1",
+  "function": {
+    "name": "trappingRainWater",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "trappingRainWater([3, 0, 1, 0, 4, 0, 2])",
+    "expected": "10"
+  }
+}

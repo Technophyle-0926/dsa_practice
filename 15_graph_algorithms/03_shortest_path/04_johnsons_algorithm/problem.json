@@ -1,0 +1,16 @@
+{
+  "title": "Johnson’s algorithm",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/johnsons-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "johnsonsAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

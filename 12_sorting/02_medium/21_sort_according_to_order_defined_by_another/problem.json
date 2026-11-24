@@ -1,0 +1,28 @@
+{
+  "title": "Sort according to order defined by another",
+  "number": 21,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-according-order-defined-another-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/relative-sorting4323/1",
+  "function": {
+    "name": "sortAccordingOrderDefinedAnother",
+    "params": [
+      {
+        "name": "a1",
+        "type": "List<int>"
+      },
+      {
+        "name": "a2",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortAccordingOrderDefinedAnother([2, 1, 2, 3, 4], [2, 1, 2])",
+    "expected": "[2, 2, 1, 3, 4]"
+  }
+}

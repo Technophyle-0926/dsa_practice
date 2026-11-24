@@ -1,0 +1,28 @@
+{
+  "title": "Min and Max Costs to buy all",
+  "number": 9,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-minimum-maximum-amount-buy-n-candies/",
+  "practice": "https://www.geeksforgeeks.org/problems/shop-in-candy-store1145/1",
+  "function": {
+    "name": "minMaxCostsBuyAll",
+    "params": [
+      {
+        "name": "prices",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "minMaxCostsBuyAll([3, 2, 1, 4], 2)",
+    "expected": "[3, 7]"
+  }
+}

@@ -23,13 +23,25 @@ Input: s1 = "GeeksforGeeks", s2 = "Geeks"
 Output: No
 ```
 
+## Function Signature
+
+```dart
+bool checkSame(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-to-check-if-two-strings-are-same-or-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/01_basic_operations/02_check_for_same
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

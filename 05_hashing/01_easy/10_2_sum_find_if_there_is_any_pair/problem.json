@@ -1,0 +1,28 @@
+{
+  "title": "2 Sum - Find if there is any pair",
+  "number": 10,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-pair-with-given-sum-exists-in-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/key-pair5616/1",
+  "function": {
+    "name": "solve2SumFindIfThere",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "solve2SumFindIfThere([0, -1, 2, -3, 1], -2)",
+    "expected": "true"
+  }
+}

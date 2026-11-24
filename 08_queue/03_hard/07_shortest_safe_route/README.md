@@ -28,13 +28,25 @@ Output: -1
 Explanation: There is no possible path from first column to last column.
 ```
 
+## Function Signature
+
+```dart
+dynamic shortestSafeRoute(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-shortest-safe-route-in-a-path-with-landmines/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-shortest-safe-route-in-a-matrix/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/03_hard/07_shortest_safe_route
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

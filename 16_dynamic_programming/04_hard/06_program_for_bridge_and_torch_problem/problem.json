@@ -1,0 +1,24 @@
+{
+  "title": "Program for Bridge and Torch problem",
+  "number": 6,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-bridge-torch-problem/",
+  "practice": null,
+  "function": {
+    "name": "programBridgeTorchProblem",
+    "params": [
+      {
+        "name": "times",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "programBridgeTorchProblem([10, 20, 30])",
+    "expected": "60"
+  }
+}

@@ -29,13 +29,25 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 For Visual: Prime Number Checker Utility
 ```
 
+## Function Signature
+
+```dart
+dynamic primeTesting(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-primality-test-and-school-method/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/prime-number2314/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/03_prime_testing
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

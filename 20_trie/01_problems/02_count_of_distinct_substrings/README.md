@@ -25,12 +25,24 @@ Explanation: The distinct substrings of "aaa" are: "a", "aa", "aaa".
 **Constraints:**
 1 ≤ s.size() ≤ 3000
 
+## Function Signature
+
+```dart
+int countDistinctSubstrings(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/02_count_of_distinct_substrings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

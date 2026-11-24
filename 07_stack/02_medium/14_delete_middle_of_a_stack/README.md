@@ -22,13 +22,25 @@ Output: [40, 30, 10]
 Explanation: The bottom-most element will be 10 and the top-most element will be 40. Middle element will be element at index 2 from bottom, which is 20. Deleting 20, stack will look like [10, 30, 40].
 ```
 
+## Function Signature
+
+```dart
+List<int> deleteMiddleStack(List<int> s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/delete-middle-element-stack/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/14_delete_middle_of_a_stack
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

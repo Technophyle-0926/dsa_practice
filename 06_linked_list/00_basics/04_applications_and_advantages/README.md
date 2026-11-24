@@ -15,8 +15,12 @@ A Linked List is a linear data structure that is used to store a collection of d
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/00_basics/04_applications_and_advantages
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,40 @@
+{
+  "title": "Maximum Cost Path",
+  "number": 5,
+  "category": "Queue",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-cost-path-from-source-node-to-destination-node-via-at-most-k-intermediate-nodes/",
+  "practice": null,
+  "function": {
+    "name": "maximumCostPath",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      },
+      {
+        "name": "Edges",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "src",
+        "type": "int"
+      },
+      {
+        "name": "dst",
+        "type": "int"
+      },
+      {
+        "name": "K",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumCostPath(3, [[0, 1, 100], [1, 2, 100], [0, 2, 500]], 0, 2, 0)",
+    "expected": "500"
+  }
+}

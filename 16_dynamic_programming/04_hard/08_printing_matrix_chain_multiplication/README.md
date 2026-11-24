@@ -33,13 +33,25 @@ Explanation: There are five possible ways to multiply four matrices:
 So, the minimum costs will be occurred in the arrangement ((A(BC))D).
 ```
 
+## Function Signature
+
+```dart
+dynamic printingMatrixChainMultiplication(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/printing-brackets-matrix-chain-multiplication-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/brackets-in-matrix-chain-multiplication1024/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/08_printing_matrix_chain_multiplication
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

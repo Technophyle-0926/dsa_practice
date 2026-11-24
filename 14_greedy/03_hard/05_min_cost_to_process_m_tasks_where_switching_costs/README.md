@@ -35,12 +35,24 @@ There are 2 cores — A and B.
 Total cost: 1 + 1 + 0 + 1 + 0 + 1 = 4 units.
 ```
 
+## Function Signature
+
+```dart
+int minCostProcessMTasks(int n, List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-cost-to-process-m-tasks-where-switching-costs/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/05_min_cost_to_process_m_tasks_where_switching_costs
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

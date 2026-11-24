@@ -29,13 +29,25 @@ Output: 3
 Explanation: The possible decodings are "ABCD", "LCD", "AWD"
 ```
 
+## Function Signature
+
+```dart
+int decodeWays(String digits)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-possible-decodings-given-digit-sequence/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/total-decoding-messages1235/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/03_decode_ways
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

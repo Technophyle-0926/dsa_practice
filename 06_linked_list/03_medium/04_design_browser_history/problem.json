@@ -1,0 +1,16 @@
+{
+  "title": "Design Browser History",
+  "number": 4,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/design-custom-browser-history-based-on-given-operations/",
+  "practice": "https://www.geeksforgeeks.org/problems/design-browser-history/1",
+  "function": {
+    "name": "designBrowserHistory",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

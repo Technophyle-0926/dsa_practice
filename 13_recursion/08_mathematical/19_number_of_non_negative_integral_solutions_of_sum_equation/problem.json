@@ -1,0 +1,28 @@
+{
+  "title": "Number of non-negative integral solutions of sum equation",
+  "number": 19,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-of-non-negative-integral-solutions-of-sum-equation/",
+  "practice": null,
+  "function": {
+    "name": "numberNonNegativeIntegralSolutions",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "numberNonNegativeIntegralSolutions(5, 1)",
+    "expected": "5"
+  }
+}

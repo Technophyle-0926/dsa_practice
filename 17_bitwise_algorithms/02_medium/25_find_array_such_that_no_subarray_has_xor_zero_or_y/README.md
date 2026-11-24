@@ -17,12 +17,24 @@ Input: X = 1, Y = 1
 Output: -1
 ```
 
+## Function Signature
+
+```dart
+List<int> findArraySuchThatNo(int X, int Y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-array-such-that-no-subarray-has-xor-zero-or-y/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/25_find_array_such_that_no_subarray_has_xor_zero_or_y
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

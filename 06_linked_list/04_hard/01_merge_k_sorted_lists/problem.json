@@ -1,0 +1,16 @@
+{
+  "title": "Merge K Sorted Lists",
+  "number": 1,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-k-sorted-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1",
+  "function": {
+    "name": "mergeKSortedLists",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

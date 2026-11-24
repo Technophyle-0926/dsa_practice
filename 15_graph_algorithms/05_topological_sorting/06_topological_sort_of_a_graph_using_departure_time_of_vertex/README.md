@@ -17,12 +17,24 @@ We have already discussed a DFS-based algorithm using stack and Kahn’s Algorit
 **What is Arrival Time & Departure Time of Vertices in DFS?**
 In DFS, **Arrival Time** is the time at which the vertex was explored for the first time and **Departure Time** is the time at which we have explored all the neighbors of the vertex and we are ready to backtrack.
 
+## Function Signature
+
+```dart
+dynamic topologicalSortGraphDepartureTime(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/topological-sorting-using-departure-time-of-vertex/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/06_topological_sort_of_a_graph_using_departure_time_of_vertex
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

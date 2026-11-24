@@ -1,0 +1,28 @@
+{
+  "title": "Recursive function to delete k-th node from linked list",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-function-delete-k-th-node-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "recursiveFunctionDeleteKTh",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "recursiveFunctionDeleteKTh(ListNode.fromList([9, 8, 3, 5, 2, 1]), 4)",
+    "expected": "9->8->3->2->1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Print all leaf nodes of a Binary Tree from left to right",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-leaf-nodes-left-right-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "printAllLeafNodesBinary",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

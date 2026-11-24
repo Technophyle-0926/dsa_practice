@@ -1,0 +1,16 @@
+{
+  "title": "Sum of all elements of N-ary Tree",
+  "number": 8,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-elements-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "sumAllElementsNAry",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

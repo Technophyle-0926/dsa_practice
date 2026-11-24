@@ -23,12 +23,24 @@ Tries are suitable when there is a proper distribution of words over the alphabe
 **1.** Ternary search trees are efficient for queries like "Given a word, find the next word in dictionary(near-neighbor lookups)" or "Find all telephone numbers starting with 9342 or "typing few starting characters in a web browser displays all website names with this prefix"(Auto complete feature)".
 **2.** Used in spell checks: Ternary search trees can be used as a dictionary to store all the words. Once the word is typed in an editor, the word can be parallelly searched in the ternary search tree to check for correct spelling.
 
+## Function Signature
+
+```dart
+dynamic ternarySearchTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/ternary-search-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/05_ternary_search_tree/01_ternary_search_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

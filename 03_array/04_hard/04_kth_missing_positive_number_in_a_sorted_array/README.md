@@ -26,13 +26,25 @@ Output: 2
 Explanation: Missing are 1, 2, 4, 6, 7, 8, 13,...  and 2nd missing number is 2.
 ```
 
+## Function Signature
+
+```dart
+int kthMissingPositiveNumberSorted(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-th-missing-element-in-sorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/04_kth_missing_positive_number_in_a_sorted_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

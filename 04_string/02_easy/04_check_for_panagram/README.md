@@ -20,13 +20,25 @@ Output: false
 Explanation: The input string does not contain all characters from 'a' to 'z', as 'l', 'z', 'y' are missing
 ```
 
+## Function Signature
+
+```dart
+bool checkPanagram(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/pangram-checking/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/pangram-checking-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/02_easy/04_check_for_panagram
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

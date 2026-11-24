@@ -33,13 +33,25 @@ Output: 1
 Explanation:  The value of  ^5C_0 is calculated as 5!/(5−0)!*0! = 5!/5!*0! = 1.
 ```
 
+## Function Signature
+
+```dart
+int computeNcr(int n, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-calculate-value-ncr/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/ncr1019/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/09_compute_ncr
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

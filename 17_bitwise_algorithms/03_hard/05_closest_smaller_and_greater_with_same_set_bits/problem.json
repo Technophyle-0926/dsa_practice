@@ -1,0 +1,24 @@
+{
+  "title": "Closest Smaller and greater with same set bits",
+  "number": 5,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/closest-next-smaller-greater-numbers-number-set-bits/",
+  "practice": null,
+  "function": {
+    "name": "closestSmallerGreaterSameBits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "closestSmallerGreaterSameBits(5)",
+    "expected": "Closest Greater = 6"
+  }
+}

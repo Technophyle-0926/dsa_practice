@@ -22,12 +22,24 @@ Output: 3
 Explanation: The one possible combination of groups are [11, 1], [3, 7] and [4, 5], with the sum of their elements 12, 10, and 9 respectively.
 ```
 
+## Function Signature
+
+```dart
+int minDiffGroupsSizeTwo(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-difference-between-groups-of-size-two/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/11_min_diff_groups_of_size_two
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

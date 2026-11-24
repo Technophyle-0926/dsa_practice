@@ -1,0 +1,16 @@
+{
+  "title": "Mergable Stack",
+  "number": 2,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/create-mergable-stack/",
+  "practice": null,
+  "function": {
+    "name": "mergableStack",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

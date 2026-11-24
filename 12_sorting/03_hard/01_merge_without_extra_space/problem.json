@@ -1,0 +1,28 @@
+{
+  "title": "Merge Without Extra Space",
+  "number": 1,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-two-sorted-arrays-o1-extra-space/",
+  "practice": "https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1",
+  "function": {
+    "name": "mergeWithoutExtraSpace",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "mergeWithoutExtraSpace([2, 4, 7, 10], [2, 3])",
+    "expected": "a[] = [2, 2, 3, 4], b[] = [7, 10]"
+  }
+}

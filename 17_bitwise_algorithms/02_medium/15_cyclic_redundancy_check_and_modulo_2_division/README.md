@@ -83,12 +83,24 @@ Let there be an error and code word received at the receiver side  100000001.
 As the remainder is not 0, hence there is some error detected in the receiver side.
 ```
 
+## Function Signature
+
+```dart
+dynamic cyclicRedundancyCheckModulo2(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/modulo-2-binary-division/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/15_cyclic_redundancy_check_and_modulo_2_division
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Dinic’s algorithm for Maximum Flow",
+  "number": 9,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/dinics-algorithm-maximum-flow/",
+  "practice": null,
+  "function": {
+    "name": "dinicsAlgorithmMaximumFlow",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

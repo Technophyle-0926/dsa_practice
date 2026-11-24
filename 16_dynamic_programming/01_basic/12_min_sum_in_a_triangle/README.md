@@ -28,13 +28,25 @@ Output: 15
 Explanation: The path is 3 -> 9 -> 1 -> 2, which results in a minimum sum of 3 + 9 + 1 + 2 = 15.
 ```
 
+## Function Signature
+
+```dart
+int minSumTriangle(List<List<int>> triangle)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-sum-path-triangle/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/triangle-path-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/12_min_sum_in_a_triangle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -28,13 +28,25 @@ Output: false
 Explanation:  No triplet in the array sums to 24.
 ```
 
+## Function Signature
+
+```dart
+bool solve3SumFindAny(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-a-triplet-that-sum-to-a-given-value/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/13_3_sum_find_any
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

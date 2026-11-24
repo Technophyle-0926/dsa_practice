@@ -1,0 +1,24 @@
+{
+  "title": "URLify a given string",
+  "number": 10,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/urlify-a-given-string-replace-spaces/",
+  "practice": "https://www.geeksforgeeks.org/problems/urlify-a-given-string--141625/1",
+  "function": {
+    "name": "urlifyGivenString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "urlifyGivenString(\"i love programming\")",
+    "expected": "i%20love%20programming"
+  }
+}

@@ -26,12 +26,24 @@ Input: arr[] = [10, 1, 2, 7, 9, 3]
 Output: 105
 ```
 
+## Function Signature
+
+```dart
+int maxValueSumIArr(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-maximum-value-of-sum-iarri-with-only-rotations-on-given-array-allowed/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/05_expert/10_max_value_of_sum_i_arr_i_with_only_rotations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

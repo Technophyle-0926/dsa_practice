@@ -23,12 +23,24 @@ Output : 4
 Explanation : (4, 1), (1, 4), (6, 1) and (1, 6) are the pairs
 ```
 
+## Function Signature
+
+```dart
+int countPairsAiAj0(List<int> A)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-ordered-pairs-ai-aj-0/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/16_count_pairs_with_ai_aj_0
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -28,13 +28,25 @@ Output: false
 Explanation: s cannot be formed using dictionary[] words.
 ```
 
+## Function Signature
+
+```dart
+bool wordBreakProblem(String s, List<String> dictionary)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/word-break-problem-dp-32/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-break1352/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/10_word_break_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

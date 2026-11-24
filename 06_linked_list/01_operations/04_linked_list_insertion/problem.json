@@ -1,0 +1,16 @@
+{
+  "title": "Linked List Insertion",
+  "number": 4,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insertion-in-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1",
+  "function": {
+    "name": "linkedListInsertion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

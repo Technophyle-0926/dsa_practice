@@ -1,0 +1,24 @@
+{
+  "title": "Count Unique BSTs",
+  "number": 9,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-of-unique-bst-with-a-given-key-dynamic-programming/",
+  "practice": "https://www.geeksforgeeks.org/problems/unique-bsts-1587115621/1",
+  "function": {
+    "name": "countUniqueBsts",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countUniqueBsts(2)",
+    "expected": "2"
+  }
+}

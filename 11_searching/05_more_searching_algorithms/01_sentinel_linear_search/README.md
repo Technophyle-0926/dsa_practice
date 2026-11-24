@@ -13,12 +13,24 @@ Although in worst-case time complexity both algorithms are O(n). Only the number
 
 The basic idea of Sentinel Linear Search is to add an extra element at the end of the array (i.e., the sentinel value) that matches the search key. By doing so, we can avoid the conditional check for the end of the array in the loop and terminate the search early, as soon as we find the sentinel element. This eliminates the need for a separate check for the end of the array, resulting in a slight improvement in the average case performance of the algorithm.
 
+## Function Signature
+
+```dart
+dynamic sentinelLinearSearch(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sentinel-linear-search/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/05_more_searching_algorithms/01_sentinel_linear_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

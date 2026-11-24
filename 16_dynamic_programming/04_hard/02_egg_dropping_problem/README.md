@@ -36,13 +36,25 @@ Output: 4
 Explanation: In all the situations, 4 maximum moves are required to find the maximum floor. Following is the strategy to do so:
 ```
 
+## Function Signature
+
+```dart
+int eggDroppingProblem(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/egg-dropping-puzzle-dp-11/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/02_egg_dropping_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

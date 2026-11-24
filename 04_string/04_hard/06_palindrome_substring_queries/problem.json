@@ -1,0 +1,28 @@
+{
+  "title": "Palindrome Substring Queries",
+  "number": 6,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/palindrome-substring-queries/",
+  "practice": "https://www.geeksforgeeks.org/problems/palindrome-substring-queries/1",
+  "function": {
+    "name": "palindromeSubstringQueries",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "palindromeSubstringQueries(\"abaaabaaaba\", [[0, 10], [5, 8], [2, 5], [5, 9]])",
+    "expected": "[1, 0, 0, 1]"
+  }
+}

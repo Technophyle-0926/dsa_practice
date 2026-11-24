@@ -36,13 +36,25 @@ Line number 3: From word no. 3 to 3
 Same explanation as above total cost = (4 - 3)^2 + (4 - 2)^2 = 5.
 ```
 
+## Function Signature
+
+```dart
+int wordWrapProblem(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/word-wrap-problem-dp-19/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-wrap1646/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/10_word_wrap_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "Sublist Search",
+  "number": 8,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sublist-search-search-a-linked-list-in-another-list/",
+  "practice": null,
+  "function": {
+    "name": "sublistSearch",
+    "params": [
+      {
+        "name": "list1",
+        "type": "ListNode?"
+      },
+      {
+        "name": "list2",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "sublistSearch(ListNode.fromList([10, 20]), ListNode.fromList([5, 10, 20]))",
+    "expected": "Yes"
+  }
+}

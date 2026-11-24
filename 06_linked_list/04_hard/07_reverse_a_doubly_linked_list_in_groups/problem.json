@@ -1,0 +1,28 @@
+{
+  "title": "Reverse a Doubly Linked List in Groups",
+  "number": 7,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-doubly-linked-list-groups-given-size/",
+  "practice": null,
+  "function": {
+    "name": "reverseDoublyLinkedListGroups",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "reverseDoublyLinkedListGroups(DListNode.fromList([1, 2, 3, 4, 5, 6]), 2)",
+    "expected": "2 <-> 1 <-> 4 <-> 3 <-> 6 <-> 5 <-> NULL."
+  }
+}

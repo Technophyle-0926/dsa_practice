@@ -1,0 +1,36 @@
+{
+  "title": "Set Bits in a Range",
+  "number": 16,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/copy-set-bits-in-a-range/",
+  "practice": "https://www.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1",
+  "function": {
+    "name": "bitsRange",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "l",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "bitsRange(10, 13, 2, 3)",
+    "expected": "14"
+  }
+}

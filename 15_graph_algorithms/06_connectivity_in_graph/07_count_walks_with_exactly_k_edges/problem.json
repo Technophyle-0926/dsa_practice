@@ -1,0 +1,16 @@
+{
+  "title": "Count walks with exactly k edges",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-possible-paths-source-destination-exactly-k-edges/",
+  "practice": "https://www.geeksforgeeks.org/problems/possible-paths3834/1",
+  "function": {
+    "name": "countWalksExactlyKEdges",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

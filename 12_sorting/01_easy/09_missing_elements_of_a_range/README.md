@@ -18,13 +18,25 @@ Output: [50, 52, 53, 54, 55]
 Explanation: Numbers 50, 52, 53, 54 and 55 lie in the range [50, 55] but are not present in the array.
 ```
 
+## Function Signature
+
+```dart
+List<int> missingElementsRange(List<int> arr, int low, int high)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-missing-elements-of-a-range/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/missing-element-in-range/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/09_missing_elements_of_a_range
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

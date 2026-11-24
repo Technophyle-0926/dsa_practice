@@ -1,0 +1,16 @@
+{
+  "title": "Count Elements <= X in a Subarray",
+  "number": 7,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-elements-less-equal-given-number-given-subarray/",
+  "practice": null,
+  "function": {
+    "name": "countElementsXSubarray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

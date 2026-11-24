@@ -1,0 +1,28 @@
+{
+  "title": "Unset least significant K bits of a given number",
+  "number": 18,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/unset-least-significant-k-bits-of-a-given-number/",
+  "practice": null,
+  "function": {
+    "name": "unsetLeastSignificantKBits",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      },
+      {
+        "name": "K",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "unsetLeastSignificantKBits(200, 5)",
+    "expected": "192"
+  }
+}

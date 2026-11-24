@@ -1,0 +1,24 @@
+{
+  "title": "Max Diff between nearest left and right smaller",
+  "number": 18,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-maximum-difference-between-nearest-left-and-right-smaller-elements/",
+  "practice": null,
+  "function": {
+    "name": "maxDiffBetweenNearestLeft",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxDiffBetweenNearestLeft([2, 1, 8])",
+    "expected": "1"
+  }
+}

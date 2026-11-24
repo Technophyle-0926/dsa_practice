@@ -34,12 +34,24 @@ arr[0] + arr[2] + arr[3] + arr[4] = 4
 arr[1] + arr[2] + arr[3] + arr[4] = 4
 ```
 
+## Function Signature
+
+```dart
+List<int> solve4SumFindAllQuadruplets(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-all-distinct-quadruplets-in-an-array-that-sum-up-to-a-given-value/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/03_4_sum_find_all_quadruplets
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

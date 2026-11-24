@@ -1,0 +1,16 @@
+{
+  "title": "Minimum AND Operations",
+  "number": 28,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-bitwise-and-operations-to-make-any-two-array-elements-equal/",
+  "practice": null,
+  "function": {
+    "name": "minimumOperations",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

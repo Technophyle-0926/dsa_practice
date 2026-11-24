@@ -24,13 +24,25 @@ Output: [1, 2, 4, 5, 3, 6]
 Explanation: Preorder Traversal (Root -> Left -> Right). Visit 1 -> 2 -> 4 -> 5 -> 3 -> 6, resulting in 1 2 4 5 3 6.
 ```
 
+## Function Signature
+
+```dart
+dynamic preorderTraversal(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/preorder-traversal-of-binary-tree/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/preorder-traversal/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/01_binary_tree/06_preorder_traversal
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

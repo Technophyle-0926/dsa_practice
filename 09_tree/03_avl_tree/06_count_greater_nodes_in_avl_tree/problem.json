@@ -1,0 +1,16 @@
+{
+  "title": "Count greater nodes in AVL tree",
+  "number": 6,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-greater-nodes-in-avl-tree/",
+  "practice": null,
+  "function": {
+    "name": "countGreaterNodesAvlTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -28,12 +28,24 @@ Count substrings with same first and last characters
 
 In this article, a simple recursive solution is discussed.
 
+## Function Signature
+
+```dart
+int recursiveSolutionCountSubstringsSame(String S)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-solution-count-substrings-first-last-characters/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/09_recursive_solution_to_count_substrings_with_same_first_and_l
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

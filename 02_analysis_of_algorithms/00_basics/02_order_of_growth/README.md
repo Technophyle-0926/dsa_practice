@@ -91,8 +91,12 @@ Here c is a constant
 
 - 📖 Article: https://www.geeksforgeeks.org/gate/order-o-f-growth/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/00_basics/02_order_of_growth
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

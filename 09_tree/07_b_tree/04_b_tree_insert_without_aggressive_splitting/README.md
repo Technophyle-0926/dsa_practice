@@ -34,12 +34,24 @@ Note that now the root is full. If we insert 17 now, the root is not split as th
 But if we insert 31, the leaf node splits, which recursively adds new entry to root. But as root is full, it needs to be split. The tree now becomes.
 ```
 
+## Function Signature
+
+```dart
+dynamic bTreeInsertWithoutAggressive(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/b-tree-insert-without-aggressive-splitting/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/07_b_tree/04_b_tree_insert_without_aggressive_splitting
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

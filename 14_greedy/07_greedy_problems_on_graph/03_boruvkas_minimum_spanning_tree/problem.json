@@ -1,0 +1,16 @@
+{
+  "title": "Boruvka’s Minimum Spanning Tree",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Greedy Problems on Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/boruvkas-algorithm-greedy-algo-9/",
+  "practice": null,
+  "function": {
+    "name": "boruvkasMinimumSpanningTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

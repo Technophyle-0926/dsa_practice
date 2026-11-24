@@ -1,0 +1,24 @@
+{
+  "title": "Sort a String",
+  "number": 3,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-string-characters/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-a-string2943/1",
+  "function": {
+    "name": "sortString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "sortString(\"edcab\")",
+    "expected": "\"abcde\""
+  }
+}

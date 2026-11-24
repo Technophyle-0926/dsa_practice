@@ -1,0 +1,24 @@
+{
+  "title": "Fixed Point",
+  "number": 7,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-a-fixed-point-in-a-given-array/",
+  "practice": null,
+  "function": {
+    "name": "fixedPoint",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "fixedPoint([-10, -5, 0, 3, 7])",
+    "expected": "3"
+  }
+}

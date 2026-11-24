@@ -1,0 +1,28 @@
+{
+  "title": "Search in an almost sorted",
+  "number": 3,
+  "category": "Searching",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/search-almost-sorted-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-in-an-almost-sorted-array/1",
+  "function": {
+    "name": "searchAlmostSorted",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "searchAlmostSorted([10, 3, 40, 20, 50, 80, 70], 40)",
+    "expected": "2"
+  }
+}

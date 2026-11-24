@@ -26,13 +26,25 @@ Output: 4 -> 3 -> 2 -> 1 -> 6 -> 5 -> NULL
 Explanation: Linked List is reversed in a group of size k = 4.
 ```
 
+## Function Signature
+
+```dart
+dynamic reverseSinglyLinkedListGroups(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reverse-a-linked-list-in-groups-of-given-size-iterative-approach/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/06_reverse_a_singly_linked_list_in_groups
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

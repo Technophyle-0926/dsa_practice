@@ -1,0 +1,16 @@
+{
+  "title": "Insert, delete, search and getRandom",
+  "number": 13,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/",
+  "practice": null,
+  "function": {
+    "name": "insertDeleteSearchGetrandom",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -37,13 +37,25 @@ Vertex 2 can reach 0 directly and 1 through 0 (2 -> 0 -> 1).
 Every vertex can also reach itself. Therefore, every vertex can reach every other vertex.
 ```
 
+## Function Signature
+
+```dart
+dynamic transitiveClosure(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/transitive-closure-of-a-graph-using-dfs/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/transitive-closure-of-a-graph0930/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/14_transitive_closure
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

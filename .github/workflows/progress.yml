@@ -1,0 +1,36 @@
+name: Update progress
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: progress
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Deploy key with write access; it is on the ruleset bypass list so it can push to main.
+          ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
+      - uses: dart-lang/setup-dart@v1
+      - run: dart pub get
+      - run: dart run tool/progress.dart
+      - name: Commit if changed
+        run: |
+          git add -A PROGRESS.md progress '*/README.md'
+          if git diff --cached --quiet; then
+            echo "No progress changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update progress [skip ci]"
+          git push

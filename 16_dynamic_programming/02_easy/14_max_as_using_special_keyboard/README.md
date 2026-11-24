@@ -25,13 +25,25 @@ Output: 9
 Explanation: The best key sequence is key 1, key 1, key 1, key 2, key 3, key4, key 4.
 ```
 
+## Function Signature
+
+```dart
+int maxAsSpecialKeyboard(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/how-to-print-maximum-number-of-a-using-given-four-keys/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/special-keyboard3018/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/14_max_as_using_special_keyboard
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

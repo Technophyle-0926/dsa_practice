@@ -14,12 +14,24 @@ Output: 2
 Explanation: Two valid pairs are (10, 12) and (12, 24) which have atleast one digit common
 ```
 
+## Function Signature
+
+```dart
+int countPairsAtLeastOne(List<int> A)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-pairs-array-least-one-digit-common/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/09_count_pairs_with_at_least_one_digit_common
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

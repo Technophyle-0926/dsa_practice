@@ -30,13 +30,25 @@ Output: 0
 Examples: No triangles are possible.
 ```
 
+## Function Signature
+
+```dart
+int countPossibleTriangles(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-number-of-triangles-possible/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-possible-triangles-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/08_count_possible_triangles
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

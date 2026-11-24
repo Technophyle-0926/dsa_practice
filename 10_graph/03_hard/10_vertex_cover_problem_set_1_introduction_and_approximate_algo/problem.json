@@ -1,0 +1,16 @@
+{
+  "title": "Vertex Cover Problem | Set 1 (Introduction and Approximate Algorithm)",
+  "number": 10,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-and-approximate-solution-for-vertex-cover-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/vertex-cover/1",
+  "function": {
+    "name": "vertexCoverProblem1Introduction",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

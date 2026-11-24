@@ -28,13 +28,25 @@ Output: [[10, 10, 12]]
 Explanation: Triplets with sum 32 are [10, 10, 12].
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> solve3SumDistinctTriplets(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/unique-triplets-sum-given-value/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-all-distinct-triplets-with-given-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/03_3_sum_distinct_triplets
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

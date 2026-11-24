@@ -20,13 +20,25 @@ Output: 0
 Explanation: No pairs give remainder 3.
 ```
 
+## Function Signature
+
+```dart
+int allPairsBArraySuch(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-pairs-b-array-b-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/mr-modulo-and-pairs5610/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/16_all_pairs_a_b_in_an_array_such_that_a_b_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "Print all possible expressions that evaluate to a target",
+  "number": 6,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-possible-expressions-that-evaluate-to-a-target/",
+  "practice": "https://www.geeksforgeeks.org/problems/expression-add-operators/1",
+  "function": {
+    "name": "printAllPossibleExpressionsThat",
+    "params": [
+      {
+        "name": "digits",
+        "type": "String"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllPossibleExpressionsThat(\"124\", 9)",
+    "expected": "[“1+2*4”]"
+  }
+}

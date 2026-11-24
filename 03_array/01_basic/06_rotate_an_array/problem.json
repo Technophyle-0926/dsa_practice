@@ -1,0 +1,16 @@
+{
+  "title": "Rotate an Array",
+  "number": 6,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/complete-guide-on-array-rotations/",
+  "practice": "https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1",
+  "function": {
+    "name": "rotateArray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

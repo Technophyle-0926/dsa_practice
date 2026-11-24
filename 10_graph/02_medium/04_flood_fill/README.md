@@ -32,13 +32,25 @@ Output: [[0, 0, 0],
 Explanation: Starting from pixel (0, 1) which has value 1, flood fill updates all connected pixels (up, down, left, right) with value 1 to 0.
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> floodFill(int sr, int sc, int newColor, List<List<int>> img)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/flood-fill-algorithm/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/04_flood_fill
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

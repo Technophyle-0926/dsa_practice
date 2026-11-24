@@ -1,0 +1,24 @@
+{
+  "title": "Check for Bleak",
+  "number": 17,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-number-is-bleak/",
+  "practice": "https://www.geeksforgeeks.org/problems/bleak-numbers1552/1",
+  "function": {
+    "name": "checkBleak",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkBleak(3)",
+    "expected": "false"
+  }
+}

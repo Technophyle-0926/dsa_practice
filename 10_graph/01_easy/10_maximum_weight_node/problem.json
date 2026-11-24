@@ -1,0 +1,24 @@
+{
+  "title": "Maximum Weight Node",
+  "number": 10,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-weight-node/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-weight-node--170645/1",
+  "function": {
+    "name": "maximumWeightNode",
+    "params": [
+      {
+        "name": "exits",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumWeightNode([2, 0, -1, 2])",
+    "expected": "2"
+  }
+}

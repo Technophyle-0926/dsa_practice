@@ -23,12 +23,24 @@ Output: true false true false true
 Explanation: Initial state: Components = [[0], [1], [2], [3], [4]]
 ```
 
+## Function Signature
+
+```dart
+String dynamicConnectivity1Incremental(int V, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/dynamic-connectivity-set-1-incremental/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/43_dynamic_connectivity_set_1_incremental
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

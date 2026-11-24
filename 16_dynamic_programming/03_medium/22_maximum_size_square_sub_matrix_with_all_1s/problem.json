@@ -1,0 +1,24 @@
+{
+  "title": "Maximum size square sub-matrix with all 1s",
+  "number": 22,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1",
+  "function": {
+    "name": "maximumSizeSquareSubMatrix",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumSizeSquareSubMatrix([[0, 1, 1, 0, 1], [1, 1, 0, 1, 0], [0, 1, 1, 1, 0], [1, 1, 1, 1, 0], [1, 1, 1, 1, 1], [0, 0, 0, 0, 0]])",
+    "expected": "3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Identify all Grand-Parent Nodes of each Node in a Map",
+  "number": 4,
+  "category": "Recursion",
+  "level": "Misc",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/identify-all-grand-parent-nodes-of-each-node-in-a-map/",
+  "practice": null,
+  "function": {
+    "name": "identifyAllGrandParentNodes",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Recursive Bubble Sort",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-bubble-sort/",
+  "practice": null,
+  "function": {
+    "name": "recursiveBubbleSort",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

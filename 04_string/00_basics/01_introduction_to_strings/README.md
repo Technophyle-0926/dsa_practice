@@ -24,8 +24,12 @@ Strings are sequences of characters. The differences between a character array a
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-strings-data-structure-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/00_basics/01_introduction_to_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

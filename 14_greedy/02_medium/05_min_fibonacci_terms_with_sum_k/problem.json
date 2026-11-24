@@ -1,0 +1,24 @@
+{
+  "title": "Min Fibonacci Terms with Sum K",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-fibonacci-terms-sum-equal-k/",
+  "practice": null,
+  "function": {
+    "name": "minFibonacciTermsSumK",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minFibonacciTermsSumK(7)",
+    "expected": "2"
+  }
+}

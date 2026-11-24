@@ -18,12 +18,24 @@ Input: s = "HelloWorld", c = '!', pos = 5
 Output: Hello!World
 ```
 
+## Function Signature
+
+```dart
+String insertCharacter(String s, String c, int pos)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/how-to-insert-a-character-in-a-string/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/01_basic_operations/04_insert_a_character
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

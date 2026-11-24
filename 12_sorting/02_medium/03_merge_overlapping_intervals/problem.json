@@ -1,0 +1,24 @@
+{
+  "title": "Merge Overlapping Intervals",
+  "number": 3,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merging-intervals/",
+  "practice": "https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1",
+  "function": {
+    "name": "mergeOverlappingIntervals",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "mergeOverlappingIntervals([[1, 3], [2, 4], [6, 8], [9, 10]])",
+    "expected": "[[1, 4], [6, 8], [9, 10]]"
+  }
+}

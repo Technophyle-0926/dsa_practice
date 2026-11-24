@@ -26,12 +26,24 @@ Input: "New York" -> "Chicago"
 Output: New York -> Chicago, Chicago -> Denver, Denver -> San Francisco, San Francisco -> Los Angeles
 ```
 
+## Function Signature
+
+```dart
+ListNode? findItineraryGivenListTickets(ListNode? head, ListNode? head2, ListNode? head3, ListNode? head4)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-itinerary-from-a-given-list-of-tickets/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/07_find_itinerary_from_a_given_list_of_tickets
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

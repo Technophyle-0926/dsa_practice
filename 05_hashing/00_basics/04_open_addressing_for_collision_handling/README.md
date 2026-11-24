@@ -15,8 +15,12 @@ The insert can insert an item in a deleted slot, but the search doesn't stop at 
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/open-addressing-collision-handling-technique-in-hashing/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/00_basics/04_open_addressing_for_collision_handling
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

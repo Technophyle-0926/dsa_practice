@@ -16,8 +16,12 @@ Bitwise operators are special operators in programming that work directly on bin
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-bitwise-algorithms-data-structures-and-algorithms-tutorial/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/00_basics/01_introduction_to_bitwise_algorithms
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

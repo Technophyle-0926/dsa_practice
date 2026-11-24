@@ -1,0 +1,24 @@
+{
+  "title": "Minimum product subset of an array",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-product-subset-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/max-and-min-products3347/1",
+  "function": {
+    "name": "minimumProductSubsetArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumProductSubsetArray([1, 2, 3])",
+    "expected": "1"
+  }
+}

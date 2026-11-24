@@ -38,13 +38,25 @@ The subtree rooted at node 6
 Both of these subtrees appear more than once in the tree with the same structure and node values.
 ```
 
+## Function Signature
+
+```dart
+dynamic duplicateSubtrees(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-duplicate-subtrees/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/duplicate-subtrees/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/13_duplicate_subtrees
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

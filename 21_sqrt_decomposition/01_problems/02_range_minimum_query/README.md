@@ -18,12 +18,24 @@ Output: Minimum of [0, 4] is 0
 
 Try multiple methods: a 2D lookup table (O(n²) preprocessing), Square Root Decomposition, and Sparse Table (O(1) query).
 
+## Function Signature
+
+```dart
+dynamic rangeMinimumQuery(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 21_sqrt_decomposition/01_problems/02_range_minimum_query
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

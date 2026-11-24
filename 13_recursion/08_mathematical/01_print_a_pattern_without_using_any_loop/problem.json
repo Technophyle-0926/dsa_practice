@@ -1,0 +1,24 @@
+{
+  "title": "Print a pattern without using any loop",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-a-pattern-without-using-any-loop/",
+  "practice": null,
+  "function": {
+    "name": "printPatternWithoutAnyLoop",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printPatternWithoutAnyLoop(16)",
+    "expected": "16, 11, 6, 1, -4, 1, 6, 11, 16"
+  }
+}

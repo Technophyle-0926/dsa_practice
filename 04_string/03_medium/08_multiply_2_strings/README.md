@@ -27,13 +27,25 @@ Output: "0"
 Explanation: Anything multiplied by 0 is equal to 0.
 ```
 
+## Function Signature
+
+```dart
+String multiply2Strings(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/multiply-large-numbers-represented-as-strings/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/multiply-two-strings/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/08_multiply_2_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

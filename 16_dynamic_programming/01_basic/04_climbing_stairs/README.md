@@ -26,13 +26,25 @@ Output: 5
 Explanation: There are five ways to reach 4th stair: {1, 1, 1, 1}, {1, 1, 2}, {2, 1, 1}, {1, 2, 1} and {2, 2}.
 ```
 
+## Function Signature
+
+```dart
+int climbingStairs(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/04_climbing_stairs
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Zeroes to End",
+  "number": 7,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/move-zeroes-end-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1",
+  "function": {
+    "name": "zeroesEnd",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "zeroesEnd([1, 2, 0, 4, 3, 0, 5, 0])",
+    "expected": "[1, 2, 4, 3, 5, 0, 0, 0]"
+  }
+}

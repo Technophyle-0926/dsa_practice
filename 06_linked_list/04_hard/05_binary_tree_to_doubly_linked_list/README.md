@@ -32,13 +32,25 @@ Output:
 Explanation: Inorder traversal visits 40, 20, 60, 10, 30. Node 40 becomes the head of the DLL, giving the list 40 <=> 20 <=> 60 <=> 10 <=> 30.
 ```
 
+## Function Signature
+
+```dart
+List<int> binaryTreeDoublyLinkedList(TreeNode? root)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/convert-binary-tree-to-doubly-linked-list-using-inorder-traversal/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/binary-tree-to-dll/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/05_binary_tree_to_doubly_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

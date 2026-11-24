@@ -1,0 +1,24 @@
+{
+  "title": "Gray to Binary and Vice Versa",
+  "number": 18,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/gray-to-binary-and-binary-to-gray-conversion/",
+  "practice": "https://www.geeksforgeeks.org/problems/gray-to-binary-equivalent-1587115620/1",
+  "function": {
+    "name": "grayBinaryViceVersa",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "grayBinaryViceVersa(4)",
+    "expected": "7"
+  }
+}

@@ -22,12 +22,24 @@ Output : ""
 Explanation: Palindrome is not possible.
 ```
 
+## Function Signature
+
+```dart
+String largestPalindromicNumberPermutingDigits(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-palindromic-number-permuting-digits/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/14_largest_palindromic_number_by_permuting_digits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

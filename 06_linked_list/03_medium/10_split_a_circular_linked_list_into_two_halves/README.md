@@ -22,13 +22,25 @@ Output: 10->4 , 9->10
 Explanation: After dividing linked list into 2 parts , the first part contains 10, 4 and second part contain 9, 10.
 ```
 
+## Function Signature
+
+```dart
+ListNode? splitCircularLinkedListInto(ListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/split-a-circular-linked-list-into-two-halves/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/10_split_a_circular_linked_list_into_two_halves
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

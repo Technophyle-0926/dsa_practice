@@ -27,12 +27,24 @@ Output: Invalid k
 Explanation: K Different Number is not present the array.
 ```
 
+## Function Signature
+
+```dart
+List<int> smallestSubarrayKDistinctNumbers(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/smallest-subarray-k-distinct-numbers/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/15_smallest_subarray_with_k_distinct_numbers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

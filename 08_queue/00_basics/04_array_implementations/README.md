@@ -13,8 +13,12 @@ In Queue insertions happen at one end, but removals happen from the other end. S
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-and-array-implementation-of-queue/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/00_basics/04_array_implementations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

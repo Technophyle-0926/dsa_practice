@@ -31,13 +31,25 @@ Second closest element to 25 is 20.
 Third closest element to 25 is 40.
 ```
 
+## Function Signature
+
+```dart
+List<int> kClosest(List<int> arr, int k, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-k-closest-elements-given-value/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-closest-elements3619/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/09_k_closest
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

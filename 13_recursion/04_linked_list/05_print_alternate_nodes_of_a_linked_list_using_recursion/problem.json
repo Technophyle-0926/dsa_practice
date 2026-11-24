@@ -1,0 +1,24 @@
+{
+  "title": "Print alternate nodes of a linked list using recursion",
+  "number": 5,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-alternate-nodes-linked-list-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "printAlternateNodesLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "printAlternateNodesLinkedList(ListNode.fromList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))",
+    "expected": "1 -> 3 -> 5 -> 7 -> 9"
+  }
+}

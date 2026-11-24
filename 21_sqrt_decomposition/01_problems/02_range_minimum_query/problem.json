@@ -1,0 +1,16 @@
+{
+  "title": "Range Minimum Query",
+  "number": 2,
+  "category": "Sqrt Decomposition",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/",
+  "practice": null,
+  "function": {
+    "name": "rangeMinimumQuery",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

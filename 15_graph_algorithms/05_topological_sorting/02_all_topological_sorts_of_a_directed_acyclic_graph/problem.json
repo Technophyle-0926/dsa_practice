@@ -1,0 +1,16 @@
+{
+  "title": "All topological sorts of a Directed Acyclic Graph",
+  "number": 2,
+  "category": "Graph Algorithms",
+  "level": "Topological Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/all-topological-sorts-of-a-directed-acyclic-graph/",
+  "practice": null,
+  "function": {
+    "name": "allTopologicalSortsDirectedAcyclic",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

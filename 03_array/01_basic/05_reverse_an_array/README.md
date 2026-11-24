@@ -20,13 +20,25 @@ Output: [2, 1, 5, 4]
 Explanation: The first element 4 moves to last position, the second element 5 moves to second last and so on.
 ```
 
+## Function Signature
+
+```dart
+List<int> reverseArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-to-reverse-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/reverse-an-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/01_basic/05_reverse_an_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

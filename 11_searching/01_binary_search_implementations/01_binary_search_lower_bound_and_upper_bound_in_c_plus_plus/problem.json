@@ -1,0 +1,16 @@
+{
+  "title": "binary_search, lower_bound and upper_bound in C++",
+  "number": 1,
+  "category": "Searching",
+  "level": "Binary Search Implementations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/cpp/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/",
+  "practice": null,
+  "function": {
+    "name": "binarySearchLowerBoundUpper",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

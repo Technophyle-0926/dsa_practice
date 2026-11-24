@@ -45,12 +45,24 @@ Hence for this case, inside the given range we have to count the leftmost same n
 
 For e.g.
 
+## Function Signature
+
+```dart
+dynamic maximumOccurrenceGivenRange(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-occurrence-given-range/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/09_maximum_occurrence_in_a_given_range
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

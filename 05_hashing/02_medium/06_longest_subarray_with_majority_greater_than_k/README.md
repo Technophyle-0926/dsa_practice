@@ -20,13 +20,25 @@ Output: 4
 Explanation: In the subarray [6, 5, 3, 4], there are 4 elements > 2 and 0 elements <= 2, so it is the longest subarray.
 ```
 
+## Function Signature
+
+```dart
+int longestSubarrayMajorityGreaterThan(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/length-of-longest-subarray-in-which-elements-greater-than-k-are-more-than-elements-not-greater-than-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/06_longest_subarray_with_majority_greater_than_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

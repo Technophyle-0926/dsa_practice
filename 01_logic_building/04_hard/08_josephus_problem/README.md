@@ -23,13 +23,25 @@ Output: 4
 Explanation: The elimination order is 3 -> 6 -> 2 -> 7 -> 5 -> 1, and the person at position 4 survives.
 ```
 
+## Function Signature
+
+```dart
+int josephusProblem(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/josephus-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/josephus-problem/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/04_hard/08_josephus_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

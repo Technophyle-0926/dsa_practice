@@ -65,12 +65,24 @@ Follow the below steps to solve the problem:
 
 The below code takes a string as input, encodes it, and saves it in a variable encoded string. Then it decodes it and prints the original string.
 
+## Function Signature
+
+```dart
+dynamic huffmanDecoding(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/huffman-decoding/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/02_huffman_decoding
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

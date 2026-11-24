@@ -22,13 +22,25 @@ Output: 4433999088
 Explanation: For 'H', press '4' two times. For 'E', press '3' two times. For 'Y', press '9' three times. For the space, press '0' one time. For 'U', press '8' two times.
 ```
 
+## Function Signature
+
+```dart
+int stringMobileNumericKeypadSequence(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/convert-sentence-equivalent-mobile-numeric-keypad-sequence/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence0547/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/21_string_to_mobile_numeric_keypad_sequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

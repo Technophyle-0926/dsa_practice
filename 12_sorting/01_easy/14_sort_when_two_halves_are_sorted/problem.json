@@ -1,0 +1,24 @@
+{
+  "title": "Sort when two halves are sorted",
+  "number": 14,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-two-halves-sorted/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-the-half-sorted2157/1",
+  "function": {
+    "name": "sortWhenTwoHalvesAre",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortWhenTwoHalvesAre([2, 3, 8, -1, 7, 10])",
+    "expected": "[-1, 2, 3, 7, 8, 10]"
+  }
+}

@@ -21,13 +21,25 @@ Output: [2, 127]
 Explanation: Picking the job with profit 100 (deadline 2) and the job with profit 27 (deadline 2); they can occupy the two available slots before deadline 2. Thus 2 jobs are scheduled for a maximum total profit of 127.
 ```
 
+## Function Signature
+
+```dart
+List<int> jobSequencing(List<int> deadline, List<int> profit)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/job-sequencing-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/03_job_sequencing
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

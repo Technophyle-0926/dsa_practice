@@ -1,0 +1,16 @@
+{
+  "title": "Two Clique Problem (Check if Graph can be divided in two Cliques)",
+  "number": 62,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/two-clique-problem-check-graph-can-divided-two-cliques/",
+  "practice": null,
+  "function": {
+    "name": "twoCliqueProblemCheckIf",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

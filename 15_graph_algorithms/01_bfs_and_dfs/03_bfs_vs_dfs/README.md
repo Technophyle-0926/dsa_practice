@@ -48,12 +48,24 @@ Please also see BFS vs DFS for Binary Tree for the differences for a Binary Tree
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic bfsVsDfs(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/difference-between-bfs-and-dfs/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/03_bfs_vs_dfs
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -22,13 +22,25 @@ Output: 3
 Explanation: Only possible way to make sum equals to 6 is [1^2 + 1^2 + 2^2], so minimum square numbers needed is 3.
 ```
 
+## Function Signature
+
+```dart
+int minimumPerfectSquares(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-of-squares-whose-sum-equals-to-given-number-n/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/get-minimum-squares0538/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/13_minimum_perfect_squares
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

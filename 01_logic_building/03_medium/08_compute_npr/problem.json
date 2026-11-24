@@ -1,0 +1,28 @@
+{
+  "title": "Compute nPr",
+  "number": 8,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-calculate-the-value-of-npr/",
+  "practice": "https://www.geeksforgeeks.org/problems/npr4253/1",
+  "function": {
+    "name": "computeNpr",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "computeNpr(5, 2)",
+    "expected": "20"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Rightmost Set Bit",
+  "number": 2,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/position-of-rightmost-set-bit/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-first-set-bit-1587115620/1",
+  "function": {
+    "name": "rightmostBit",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "rightmostBit(18)",
+    "expected": "2"
+  }
+}

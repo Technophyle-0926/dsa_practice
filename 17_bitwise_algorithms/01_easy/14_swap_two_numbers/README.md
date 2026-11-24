@@ -23,13 +23,25 @@ Input: a = 10, b = 10
 Output: 10 10
 ```
 
+## Function Signature
+
+```dart
+List<int> swapTwoNumbers(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/swap-two-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/swap-the-numbers/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/14_swap_two_numbers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

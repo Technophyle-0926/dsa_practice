@@ -1,0 +1,16 @@
+{
+  "title": "Practice questions for Linked List and Recursion",
+  "number": 8,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-linked-list-and-recursion/",
+  "practice": null,
+  "function": {
+    "name": "practiceQuestionsLinkedListRecursion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

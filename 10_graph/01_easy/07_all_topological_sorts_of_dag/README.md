@@ -18,12 +18,24 @@ In a Directed acyclic graph many a times we can have vertices which are unrelate
 We can go through all possible ordering via backtracking , the algorithm step are as follows :
 ```
 
+## Function Signature
+
+```dart
+dynamic allTopologicalSortsDag(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/all-topological-sorts-of-a-directed-acyclic-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/01_easy/07_all_topological_sorts_of_dag
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

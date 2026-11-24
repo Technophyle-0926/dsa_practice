@@ -1,0 +1,16 @@
+{
+  "title": "Applications",
+  "number": 2,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "applications",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

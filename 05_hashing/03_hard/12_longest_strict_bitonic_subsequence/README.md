@@ -24,12 +24,24 @@ Output: 4
 Explanation: The sequence is fully decreasing, which is allowed. Consecutive differences are 1: [10, 9, 8, 7].
 ```
 
+## Function Signature
+
+```dart
+int longestStrictBitonicSubsequence(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/length-longest-strict-bitonic-subsequence/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/12_longest_strict_bitonic_subsequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

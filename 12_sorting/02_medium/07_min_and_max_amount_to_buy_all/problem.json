@@ -1,0 +1,28 @@
+{
+  "title": "Min and Max Amount to Buy All",
+  "number": 7,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-minimum-maximum-amount-buy-n-candies/",
+  "practice": "https://www.geeksforgeeks.org/problems/shop-in-candy-store1145/1",
+  "function": {
+    "name": "minMaxAmountBuyAll",
+    "params": [
+      {
+        "name": "prices",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "minMaxAmountBuyAll([3, 2, 1, 4], 2)",
+    "expected": "[3, 7]"
+  }
+}

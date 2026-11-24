@@ -1,0 +1,28 @@
+{
+  "title": "4 Sum - Find Any",
+  "number": 23,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/4-sum-find-any-quadruplet-having-given-sum/",
+  "practice": null,
+  "function": {
+    "name": "solve4SumFindAny",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve4SumFindAny([2, 4, 6, 8, 1, 3], 15)",
+    "expected": "[2, 4, 6, 3]"
+  }
+}

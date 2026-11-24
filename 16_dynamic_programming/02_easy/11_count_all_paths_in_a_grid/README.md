@@ -20,13 +20,25 @@ Output: 1
 Explanation: There is only one possible path from the top-left cell to the bottom-right cell.
 ```
 
+## Function Signature
+
+```dart
+int countAllPathsGrid(int m, int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-possible-paths-top-left-bottom-right-nxm-matrix/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/number-of-paths0926/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/11_count_all_paths_in_a_grid
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

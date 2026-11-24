@@ -1,0 +1,16 @@
+{
+  "title": "Clone a Directed Acyclic Graph",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Cycles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/clone-directed-acyclic-graph/",
+  "practice": null,
+  "function": {
+    "name": "cloneDirectedAcyclicGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

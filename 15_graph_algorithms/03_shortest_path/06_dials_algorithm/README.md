@@ -27,12 +27,24 @@ The following are important observations.
 - The maximum distance between any two nodes can be at max w(V – 1) (w is maximum edge weight and we can have at max V-1 edges between two vertices).
 - In the Dijkstra algorithm, distances are finalized in non-decreasing, i.e., the distance of the closer (to given source) vertices is finalized before the distant vertices.
 
+## Function Signature
+
+```dart
+dynamic dialsAlgorithm(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/dials-algorithm-optimized-dijkstra-for-small-range-weights/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/06_dials_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

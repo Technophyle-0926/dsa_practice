@@ -1,0 +1,28 @@
+{
+  "title": "Longest Common Subsequence",
+  "number": 2,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-common-subsequence-dp-4/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1",
+  "function": {
+    "name": "longestCommonSubsequence",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestCommonSubsequence(\"ABC\", \"ACD\")",
+    "expected": "2"
+  }
+}

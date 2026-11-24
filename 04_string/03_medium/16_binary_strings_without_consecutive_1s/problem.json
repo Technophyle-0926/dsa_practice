@@ -1,0 +1,24 @@
+{
+  "title": "Binary strings without consecutive 1’s",
+  "number": 16,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-number-binary-strings-without-consecutive-1s/",
+  "practice": "https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1",
+  "function": {
+    "name": "binaryStringsWithoutConsecutive1s",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "binaryStringsWithoutConsecutive1s(3)",
+    "expected": "5"
+  }
+}

@@ -37,12 +37,24 @@ Therefore, the maximum flow from vertex 1 to vertex 5 is: 2 + 3 + 2 = 7.
 
 **Note:** For an introduction to the Max Flow Problem, refer to the Max Flow Problem Introduction article.
 
+## Function Signature
+
+```dart
+int fordFulkersonAlgorithmMaxFlow(int V, List<List<int>> edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/ford-fulkerson-algorithm-for-maximum-flow-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/02_ford_fulkerson_algorithm_for_max_flow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

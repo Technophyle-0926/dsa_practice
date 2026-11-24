@@ -1,0 +1,16 @@
+{
+  "title": "Preorder Traversal",
+  "number": 6,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/preorder-traversal-of-binary-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/preorder-traversal/1",
+  "function": {
+    "name": "preorderTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

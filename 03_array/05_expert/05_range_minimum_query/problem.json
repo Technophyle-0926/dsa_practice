@@ -1,0 +1,16 @@
+{
+  "title": "Range Minimum Query",
+  "number": 5,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-minimum-query-for-static-array/",
+  "practice": null,
+  "function": {
+    "name": "rangeMinimumQuery",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

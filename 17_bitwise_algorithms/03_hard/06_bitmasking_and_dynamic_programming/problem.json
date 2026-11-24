@@ -1,0 +1,16 @@
+{
+  "title": "Bitmasking and Dynamic Programming",
+  "number": 6,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bitmasking-dynamic-programming-set-2-tsp/",
+  "practice": null,
+  "function": {
+    "name": "bitmaskingDynamicProgramming",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

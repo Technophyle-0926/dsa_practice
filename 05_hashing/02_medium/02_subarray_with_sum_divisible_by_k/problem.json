@@ -1,0 +1,28 @@
+{
+  "title": "Subarray with sum divisible by k",
+  "number": 2,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-subarray-sum-divisible-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1",
+  "function": {
+    "name": "subarraySumDivisibleK",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "subarraySumDivisibleK([2, 7, 6, 1, 4, 5], 3)",
+    "expected": "4"
+  }
+}

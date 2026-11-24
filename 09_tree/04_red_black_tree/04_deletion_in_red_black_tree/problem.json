@@ -1,0 +1,16 @@
+{
+  "title": "Deletion in Red-Black Tree",
+  "number": 4,
+  "category": "Tree",
+  "level": "Red-Black Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-in-red-black-tree/",
+  "practice": null,
+  "function": {
+    "name": "deletionRedBlackTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

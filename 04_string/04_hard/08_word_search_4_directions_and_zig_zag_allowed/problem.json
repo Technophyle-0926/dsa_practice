@@ -1,0 +1,28 @@
+{
+  "title": "Word Search - 4 Directions and Zig-Zag Allowed",
+  "number": 8,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-word-exists-in-a-grid-or-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/word-search/1",
+  "function": {
+    "name": "wordSearch4DirectionsZig",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<String>>"
+      },
+      {
+        "name": "word",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "wordSearch4DirectionsZig([[\"T\", \"E\", \"E\"], [\"S\", \"G\", \"K\"], [\"T\", \"E\", \"L\"]], \"GEEK\")",
+    "expected": "true"
+  }
+}

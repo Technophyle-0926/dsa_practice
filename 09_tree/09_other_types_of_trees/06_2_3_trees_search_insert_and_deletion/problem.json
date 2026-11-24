@@ -1,0 +1,16 @@
+{
+  "title": "2-3 Trees | (Search, Insert, and Deletion)",
+  "number": 6,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/2-3-trees-search-and-insert/",
+  "practice": null,
+  "function": {
+    "name": "solve23TreesSearchInsert",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

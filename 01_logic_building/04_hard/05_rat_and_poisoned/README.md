@@ -26,12 +26,24 @@ Output: 10
 Explanation: The minimum number of rats required is 10, as 2^10 = 1024 can uniquely identify one poisoned bottle among 1000.
 ```
 
+## Function Signature
+
+```dart
+int ratPoisoned(int N)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rat-and-poisoned-bottle-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/04_hard/05_rat_and_poisoned
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

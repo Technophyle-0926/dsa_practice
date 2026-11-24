@@ -1,0 +1,28 @@
+{
+  "title": "Word Search - 8 Directions and Straight Movement",
+  "number": 7,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/search-a-word-in-a-2d-grid-of-characters/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-the-string-in-grid0111/1",
+  "function": {
+    "name": "wordSearch8DirectionsStraight",
+    "params": [
+      {
+        "name": "grid",
+        "type": "List<List<String>>"
+      },
+      {
+        "name": "word",
+        "type": "String"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "wordSearch8DirectionsStraight([[\"G\", \"E\", \"E\", \"K\", \"S\", \"F\", \"O\", \"R\", \"G\", \"E\", \"E\", \"K\", \"S\"], [\"G\", \"E\", \"E\", \"K\", \"S\", \"Q\", \"U\", \"I\", \"Z\", \"G\", \"E\", \"E\", \"K\"], [\"I\", \"D\", \"E\", \"Q\", \"A\", \"P\", \"R\", \"A\", \"C\", \"T\", \"I\", \"C\", \"E\"]], \"GEEKS\")",
+    "expected": "[[0, 0], [0, 8], [1, 0]]"
+  }
+}

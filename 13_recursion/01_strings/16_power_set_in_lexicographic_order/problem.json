@@ -1,0 +1,24 @@
+{
+  "title": "Power Set in Lexicographic order",
+  "number": 16,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/powet-set-lexicographic-order/",
+  "practice": null,
+  "function": {
+    "name": "powerLexicographicOrder",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "powerLexicographicOrder(\"abc\")",
+    "expected": "a ab abc ac b bc c"
+  }
+}

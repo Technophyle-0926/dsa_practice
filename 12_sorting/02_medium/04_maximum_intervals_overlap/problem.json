@@ -1,0 +1,28 @@
+{
+  "title": "Maximum intervals overlap",
+  "number": 4,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-point-where-maximum-intervals-overlap/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-intervals-overlap5708/1",
+  "function": {
+    "name": "maximumIntervalsOverlap",
+    "params": [
+      {
+        "name": "Entry",
+        "type": "List<int>"
+      },
+      {
+        "name": "Exit",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumIntervalsOverlap([1, 2, 9, 5, 5], [4, 5, 12, 9, 12])",
+    "expected": "3 5"
+  }
+}

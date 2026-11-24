@@ -23,13 +23,25 @@ Input: n = 11
 Output: 20
 ```
 
+## Function Signature
+
+```dart
+int countTotalBitsFirstN(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-total-set-bits-in-all-numbers-from-1-to-n/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/19_count_total_set_bits_of_a_first_n_natural_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

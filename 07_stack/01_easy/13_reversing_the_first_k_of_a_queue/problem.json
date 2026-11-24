@@ -1,0 +1,28 @@
+{
+  "title": "Reversing the first K of a Queue",
+  "number": 13,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reversing-first-k-elements-queue/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1",
+  "function": {
+    "name": "reversingFirstKQueue",
+    "params": [
+      {
+        "name": "q",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "reversingFirstKQueue([1, 2, 3, 4, 5], 3)",
+    "expected": "[3, 2, 1, 4, 5]"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Different shapes of AVL possible at height h",
+  "number": 10,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/different-shapes-of-avl-possible-at-height-h/",
+  "practice": null,
+  "function": {
+    "name": "differentShapesAvlPossibleAt",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

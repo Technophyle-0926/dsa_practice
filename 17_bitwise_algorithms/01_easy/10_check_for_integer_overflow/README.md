@@ -27,12 +27,24 @@ Output: 0
 Explanation: The sum -100 + 100 = 0 is within the valid integer range, so no overflow occurs, and the function stores the result successfully.
 ```
 
+## Function Signature
+
+```dart
+int checkIntegerOverflow(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-for-integer-overflow/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/10_check_for_integer_overflow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

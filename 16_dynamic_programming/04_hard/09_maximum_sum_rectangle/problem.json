@@ -1,0 +1,24 @@
+{
+  "title": "Maximum sum rectangle",
+  "number": 9,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-sum-rectangle-in-a-2d-matrix/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1",
+  "function": {
+    "name": "maximumSumRectangle",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumSumRectangle([[1, 2, -1, -4, -20], [-8, -3, 4, 2, 1], [3, 8, 10, 1, 3], [-4, -1, 1, 7, -6]])",
+    "expected": "29"
+  }
+}

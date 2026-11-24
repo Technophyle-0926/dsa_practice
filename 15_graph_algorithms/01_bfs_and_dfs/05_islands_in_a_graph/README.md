@@ -26,13 +26,25 @@ Output: 2
 Explanation: The image below shows all the 2 islands in the graph
 ```
 
+## Function Signature
+
+```dart
+int islandsGraph(List<List<String>> grid)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-number-of-islands-using-dfs/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/05_islands_in_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

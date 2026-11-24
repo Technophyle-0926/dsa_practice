@@ -54,8 +54,12 @@ In the below implementation, we use back (or rear) of stack to do both insertion
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/stack-implementation-using-deque/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/00_basics/05_implementation_using_deque
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

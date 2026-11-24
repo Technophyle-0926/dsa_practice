@@ -18,12 +18,24 @@ Output : 2
 Explanation : We need to create two subsets {1, 2, 3} and {3} [or {1, 3} and {2, 3}] such that both subsets have distinct elements.
 ```
 
+## Function Signature
+
+```dart
+int minimumSubsetsDistinct(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-subsets-distinct-elements/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/16_minimum_subsets_with_distinct
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

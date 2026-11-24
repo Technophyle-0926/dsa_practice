@@ -22,13 +22,25 @@ Output: 1000
 Explanation: Multiplication of 100 and 10 gives 1000.
 ```
 
+## Function Signature
+
+```dart
+int multiplyTwoNumbersAsLists(ListNode? L1, int L2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/multiply-two-numbers-represented-linked-lists/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/11_multiply_two_numbers_as_lists
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

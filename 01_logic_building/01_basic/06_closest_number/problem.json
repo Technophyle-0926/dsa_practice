@@ -1,0 +1,28 @@
+{
+  "title": "Closest Number",
+  "number": 6,
+  "category": "Logic Building",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-number-closest-n-divisible-m/",
+  "practice": "https://www.geeksforgeeks.org/problems/closest-number5728/1",
+  "function": {
+    "name": "closestNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "closestNumber(13, 4)",
+    "expected": "12"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Dynamic Connectivity",
+  "number": 12,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/dynamic-connectivity-set-1-incremental/",
+  "practice": null,
+  "function": {
+    "name": "dynamicConnectivity",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "dynamicConnectivity(5, [[1, 0, 1], [2, 0, 1], [2, 1, 2], [1, 0, 2], [2, 1, 2], [1, 3, 4], [2, 2, 4], [1, 1, 3], [2, 2, 4]])",
+    "expected": "true false true false true"
+  }
+}

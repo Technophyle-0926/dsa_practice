@@ -29,13 +29,25 @@ For 4, the previous smaller element is 3
 For the last 5, the previous smaller element is 4
 ```
 
+## Function Signature
+
+```dart
+List<int> previousSmallerElement(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-nearest-smaller-numbers-on-left-side-in-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/previous-smaller-element/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/04_previous_smaller_element
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

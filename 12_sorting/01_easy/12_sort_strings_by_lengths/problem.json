@@ -1,0 +1,24 @@
+{
+  "title": "Sort strings by lengths",
+  "number": 12,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-strings-according-string-lengths/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-an-array-of-strings-according-to-string-lengths/1",
+  "function": {
+    "name": "sortStringsLengths",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortStringsLengths([\"GeeksforGeeeks\", \"I\", \"from\", \"am\"])",
+    "expected": "[\"I\", \"am\", \"from\", \"GeeksforGeeks\"]"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Recurring Sequence in a Fraction",
+  "number": 7,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-recurring-sequence-fraction/",
+  "practice": "https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1",
+  "function": {
+    "name": "recurringSequenceFraction",
+    "params": [
+      {
+        "name": "Numerator",
+        "type": "int"
+      },
+      {
+        "name": "Denominator",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "recurringSequenceFraction(8, 3)",
+    "expected": "Recurring sequence is 6"
+  }
+}

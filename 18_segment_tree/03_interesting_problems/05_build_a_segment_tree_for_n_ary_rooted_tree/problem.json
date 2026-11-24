@@ -1,0 +1,16 @@
+{
+  "title": "Build a segment tree for N-ary rooted tree",
+  "number": 5,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/build-a-segment-tree-for-n-ary-rooted-tree/",
+  "practice": null,
+  "function": {
+    "name": "buildSegmentTreeNAry",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Coin Change – Minimum Coins to Make Sum",
+  "number": 6,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-minimum-number-of-coins-that-make-a-change/",
+  "practice": "https://www.geeksforgeeks.org/problems/number-of-coins1824/1",
+  "function": {
+    "name": "coinChangeMinimumCoinsMake",
+    "params": [
+      {
+        "name": "coins",
+        "type": "List<int>"
+      },
+      {
+        "name": "sum",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "coinChangeMinimumCoinsMake([25, 10, 5], 30)",
+    "expected": "2"
+  }
+}

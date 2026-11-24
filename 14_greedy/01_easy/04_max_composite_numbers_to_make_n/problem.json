@@ -1,0 +1,24 @@
+{
+  "title": "Max Composite Numbers to Make n",
+  "number": 4,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/split-n-maximum-composite-numbers/",
+  "practice": null,
+  "function": {
+    "name": "maxCompositeNumbersMakeN",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxCompositeNumbersMakeN(90)",
+    "expected": "22"
+  }
+}

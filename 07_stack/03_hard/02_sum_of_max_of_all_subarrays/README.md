@@ -26,13 +26,25 @@ Output: 26
 Explanation: All possible non-empty subarrays of [8, 0, 1] are {8}, {0}, {1}, {8, 0}, {0, 1} and {8, 0, 1}. The maximum elements of the subarrays are 8, 0, 1, 8, 1, 8 respectively. The sum will be 26.
 ```
 
+## Function Signature
+
+```dart
+int sumMaxAllSubarrays(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sum-of-maximum-elements-of-all-possible-sub-arrays-of-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sum-of-max-of-subarrays/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/02_sum_of_max_of_all_subarrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

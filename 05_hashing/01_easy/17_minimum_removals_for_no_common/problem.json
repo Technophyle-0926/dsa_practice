@@ -1,0 +1,28 @@
+{
+  "title": "Minimum Removals for No Common",
+  "number": 17,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-minimum-number-elements-no-common-element-exist-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/remove-minimum-number-of-elements4032/1",
+  "function": {
+    "name": "minimumRemovalsNoCommon",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "arr2",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumRemovalsNoCommon([2, 3, 4, 5, 8], [1, 2, 3, 4])",
+    "expected": "3"
+  }
+}

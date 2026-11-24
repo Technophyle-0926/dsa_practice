@@ -1,0 +1,16 @@
+{
+  "title": "Applications, Advantages, and Disadvantages",
+  "number": 5,
+  "category": "Tree",
+  "level": "Red-Black Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-red-black-tree/",
+  "practice": null,
+  "function": {
+    "name": "applicationsAdvantagesDisadvantages",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

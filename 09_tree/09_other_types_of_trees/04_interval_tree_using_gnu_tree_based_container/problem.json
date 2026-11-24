@@ -1,0 +1,16 @@
+{
+  "title": "Interval Tree using GNU Tree-based container",
+  "number": 4,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/interval-tree-using-gnu-tree-based-container/",
+  "practice": null,
+  "function": {
+    "name": "intervalTreeGnuTreeBased",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

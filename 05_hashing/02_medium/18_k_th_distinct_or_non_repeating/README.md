@@ -23,13 +23,25 @@ Input: arr[] = {1, 2, 50, 10, 20, 2}, k = 3
 Output: TheFirst non-repeating element is 1 and the Second non-repeating element is 10.
 ```
 
+## Function Signature
+
+```dart
+int kThDistinctOrNon(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-th-distinct-or-non-repeating-element-in-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-th-distinct-element4510/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/18_k_th_distinct_or_non_repeating
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

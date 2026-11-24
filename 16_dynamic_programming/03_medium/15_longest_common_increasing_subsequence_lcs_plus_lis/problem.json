@@ -1,0 +1,28 @@
+{
+  "title": "Longest Common Increasing Subsequence (LCS + LIS)",
+  "number": 15,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-common-increasing-subsequence-lcs-lis/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-common-increasing-subsequence1437/1",
+  "function": {
+    "name": "longestCommonIncreasingSubsequenceLcs",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestCommonIncreasingSubsequenceLcs([3, 4, 9, 1], [5, 3, 8, 9, 10, 2, 1])",
+    "expected": "2"
+  }
+}

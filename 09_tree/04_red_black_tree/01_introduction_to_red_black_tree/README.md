@@ -23,12 +23,24 @@ These properties (no two consecutive reds and same black height) ensure that the
 
 ### Balancing
 
+## Function Signature
+
+```dart
+dynamic introductionRedBlackTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-red-black-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/04_red_black_tree/01_introduction_to_red_black_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

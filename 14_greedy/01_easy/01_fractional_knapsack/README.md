@@ -23,13 +23,25 @@ Output: 166.667
 Explanation: The capacity is 10kg, so we will take 1/3 fraction of the 30kg item. Hence, total value will be (1/3) * 500 = 166.667.
 ```
 
+## Function Signature
+
+```dart
+int fractionalKnapsack(List<int> val, List<int> wt, int capacity)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/fractional-knapsack-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/01_fractional_knapsack
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -25,13 +25,25 @@ Output: [1, 2, 3]
 Explanation : No change as all elements are distinct.
 ```
 
+## Function Signature
+
+```dart
+List<int> removeDuplicatesSorted(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-duplicates-sorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/01_basic/03_remove_duplicates_from_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

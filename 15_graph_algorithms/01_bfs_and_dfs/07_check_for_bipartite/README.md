@@ -31,13 +31,25 @@ Output: false
 Explanation: The vertices form a triangle, so it is not possible to color them using two colors without two adjacent vertices having the same color.
 ```
 
+## Function Signature
+
+```dart
+dynamic checkBipartite(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/bipartite-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/bipartite-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/07_check_for_bipartite
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

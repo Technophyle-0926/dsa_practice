@@ -1,0 +1,24 @@
+{
+  "title": "Inversion count",
+  "number": 11,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/",
+  "practice": "https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1",
+  "function": {
+    "name": "inversionCount",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "inversionCount([4, 3, 2, 1])",
+    "expected": "6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Floyd Warshall Algorithm",
+  "number": 24,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/",
+  "practice": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+  "function": {
+    "name": "floydWarshallAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

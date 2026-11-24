@@ -22,13 +22,25 @@ Output: 0
 Explanation: We can not assign cookies to children.
 ```
 
+## Function Signature
+
+```dart
+int assignCookies(List<int> greed, List<int> cookie)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/assign-cookies/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/assign-cookies/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/06_assign_cookies
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

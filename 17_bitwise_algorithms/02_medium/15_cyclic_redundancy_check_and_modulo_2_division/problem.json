@@ -1,0 +1,16 @@
+{
+  "title": "Cyclic Redundancy Check and Modulo-2 Division",
+  "number": 15,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/modulo-2-binary-division/",
+  "practice": null,
+  "function": {
+    "name": "cyclicRedundancyCheckModulo2",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

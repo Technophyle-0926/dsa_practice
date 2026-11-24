@@ -28,13 +28,25 @@ Output: [1, 3]
 Explanation: 3 equal sum segments are: arr[0...1], arr[2...3] and arr[4...7] each having sum = 0.
 ```
 
+## Function Signature
+
+```dart
+List<int> splitArrayIntoThreeEquals(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/split-array-three-equal-sum-subarrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/split-array-in-three-equal-sum-subarrays/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/12_split_array_into_three_equals
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

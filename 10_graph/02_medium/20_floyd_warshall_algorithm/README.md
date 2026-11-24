@@ -35,13 +35,25 @@ Explanation:
 Each cell dist[i][i] in the output shows the shortest distance from node `i` to node `j`, computed by considering all possible intermediate nodes using the Floyd-Warshall algorithm.
 ```
 
+## Function Signature
+
+```dart
+dynamic floydWarshallAlgorithm(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/20_floyd_warshall_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

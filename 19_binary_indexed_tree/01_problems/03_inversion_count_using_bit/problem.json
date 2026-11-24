@@ -1,0 +1,24 @@
+{
+  "title": "Inversion Count using BIT",
+  "number": 3,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-bit/",
+  "practice": null,
+  "function": {
+    "name": "inversionCountBit",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "inversionCountBit([8, 4, 2, 1])",
+    "expected": "6"
+  }
+}

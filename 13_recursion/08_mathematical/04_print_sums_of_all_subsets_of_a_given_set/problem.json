@@ -1,0 +1,24 @@
+{
+  "title": "Print sums of all subsets of a given set",
+  "number": 4,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-sums-subsets-given-set/",
+  "practice": "https://www.geeksforgeeks.org/problems/subset-sums2234/1",
+  "function": {
+    "name": "printSumsAllSubsetsGiven",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printSumsAllSubsetsGiven([2, 3])",
+    "expected": "[0, 2, 3, 5]"
+  }
+}

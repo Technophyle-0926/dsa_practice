@@ -23,13 +23,25 @@ Explanation : Prefix to Infix :  (A-(B/C))*((A/K)-L)
                          Infix to Postfix : ABC/-AK/L-*
 ```
 
+## Function Signature
+
+```dart
+dynamic prefixPostfix(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/prefix-postfix-conversion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/06_prefix_to_postfix
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

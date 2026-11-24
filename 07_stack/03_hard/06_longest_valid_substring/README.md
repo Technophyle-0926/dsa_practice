@@ -31,13 +31,25 @@ Output: 2
 Explanation: The longest valid parenthesis substring is "()".
 ```
 
+## Function Signature
+
+```dart
+int longestValidSubstring(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/length-of-the-longest-valid-substring/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/06_longest_valid_substring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

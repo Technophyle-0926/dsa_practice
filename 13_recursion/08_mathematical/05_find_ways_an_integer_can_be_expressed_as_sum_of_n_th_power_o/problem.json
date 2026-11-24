@@ -1,0 +1,28 @@
+{
+  "title": "Find ways an Integer can be expressed as sum of n-th power of unique natural numbers",
+  "number": 5,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-ways-integer-can-expressed-sum-n-th-power-unique-natural-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/express-as-sum-of-power-of-natural-numbers5647/1",
+  "function": {
+    "name": "findWaysIntegerCanBe",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "findWaysIntegerCanBe(10, 2)",
+    "expected": "1"
+  }
+}

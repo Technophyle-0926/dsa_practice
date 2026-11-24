@@ -22,13 +22,25 @@ Output: [5, 11, 7, 10]
 Explanation: Frequency of 5 is 3, frequency of 11 is 2, frequency of 7 is 2, and frequency of rest is 1  but 10 is largest .
 ```
 
+## Function Signature
+
+```dart
+List<int> kMostFrequent(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-k-numbers-occurrences-given-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/08_k_most_frequent
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

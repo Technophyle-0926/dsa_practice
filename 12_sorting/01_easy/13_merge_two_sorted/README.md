@@ -20,13 +20,25 @@ Output: arr1[] = [4, 5, 7], arr2[] = [8, 8, 9]
 Explanation: Combined sorted array = [4, 5, 7, 8, 8, 9], array arr1[] contains smallest 3 elements: 4, 5, 7, and array arr2[] contains the remaining 3 elements: 8, 8, 9.
 ```
 
+## Function Signature
+
+```dart
+dynamic mergeTwoSorted(List<int> arr1, List<int> arr2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-two-sorted-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/13_merge_two_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

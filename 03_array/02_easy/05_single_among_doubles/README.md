@@ -20,13 +20,25 @@ Output: 20
 Explanation: Since 20 occurs once, while other numbers occur twice, 20 is the answer.
 ```
 
+## Function Signature
+
+```dart
+int singleAmongDoubles(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-element-appears-array-every-element-appears-twice/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-unique-number/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/05_single_among_doubles
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

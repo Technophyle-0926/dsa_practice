@@ -23,12 +23,24 @@ We have discussed Bellman Ford Algorithm based solution for this problem.
 In this post, Floyd Warshall Algorithm based solution is discussed that works for both connected and disconnected graphs.
 Distance of any node from itself is always zero. But in some cases, as in this example, when we traverse further from 4 to 1, the distance comes out to be -2, i.e. distance of 1 from 1 will become -2. This is our catch, we just have to check the nodes distance from itself and if it comes out to be negative, we will detect the required negative cycle.
 
+## Function Signature
+
+```dart
+dynamic detectingNegativeCycleFloydWarshall(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/detecting-negative-cycle-using-floyd-warshall/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/14_detecting_negative_cycle_using_floyd_warshall
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -16,12 +16,24 @@ This problem can be solved by reducing it to maximum flow problem. Following are
 
 When we run Ford-Fulkerson, we reduce the capacity by a unit. Therefore, the edge can not be used again. So the maximum flow is equal to the maximum number of edge-disjoint paths.
 
+## Function Signature
+
+```dart
+dynamic findMaximumNumberEdgeDisjoint(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-edge-disjoint-paths-two-vertices/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/46_find_maximum_number_of_edge_disjoint_paths_between_two_verti
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "3 Sum - Closest Triplet",
+  "number": 14,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-a-triplet-in-an-array-whose-sum-is-closest-to-a-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/three-sum-closest/1",
+  "function": {
+    "name": "solve3SumClosestTriplet",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3SumClosestTriplet([-1, 2, 2, 4], 4)",
+    "expected": "5"
+  }
+}

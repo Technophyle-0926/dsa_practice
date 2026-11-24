@@ -1,0 +1,24 @@
+{
+  "title": "First Non-Repeating Character",
+  "number": 2,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-a-string-find-its-first-non-repeating-character/",
+  "practice": "https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/1",
+  "function": {
+    "name": "firstNonRepeatingCharacter",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "firstNonRepeatingCharacter(\"geeksforgeeks\")",
+    "expected": "'f'"
+  }
+}

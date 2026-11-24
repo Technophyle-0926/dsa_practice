@@ -1,0 +1,16 @@
+{
+  "title": "Max Height of Tree when any Node can be Root",
+  "number": 14,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-height-of-tree-when-any-node-can-be-considered-as-root/",
+  "practice": null,
+  "function": {
+    "name": "maxHeightTreeWhenAny",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

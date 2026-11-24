@@ -1,0 +1,28 @@
+{
+  "title": "Search in a sorted infinite",
+  "number": 4,
+  "category": "Searching",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/",
+  "practice": null,
+  "function": {
+    "name": "searchSortedInfinite",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "searchSortedInfinite([3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170], 10)",
+    "expected": "4"
+  }
+}

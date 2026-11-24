@@ -1,0 +1,28 @@
+{
+  "title": "Index of closing bracket for a given opening bracket",
+  "number": 17,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-index-closing-bracket-given-opening-bracket-expression/",
+  "practice": "https://www.geeksforgeeks.org/problems/closing-bracket-index5900/1",
+  "function": {
+    "name": "indexClosingBracketGivenOpening",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "indexClosingBracketGivenOpening(\"[ABC[23]][89]\", 0)",
+    "expected": "8"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Generic Trees(N-ary Trees)",
+  "number": 1,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generic-treesn-array-trees/",
+  "practice": null,
+  "function": {
+    "name": "genericTreesNAryTrees",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

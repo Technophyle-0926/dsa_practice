@@ -34,12 +34,24 @@ In this problem, we should divide the array of N numbers into two subsets of k a
 
 Now, Let's think about which of the two above cases actually gives the answer. We can easily see that a larger difference would be when more numbers are included in the group of largest numbers. Hence we could set M = max(k, N - k), find the sum of M largest numbers (let it be S1) and then the answer is S1 - (S - S1), where S is the sum of all numbers.
 
+## Function Signature
+
+```dart
+int partitionIntoTwoSubarraysLengths(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/partition-into-two-subarrays-of-lengths-k-and-n-k-such-that-the-difference-of-sums-is-maximum/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/09_partition_into_two_subarrays_of_lengths_k_and_n_k_such_that
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

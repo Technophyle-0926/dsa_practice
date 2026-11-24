@@ -1,0 +1,16 @@
+{
+  "title": "Check whether a given graph is Bipartite or not",
+  "number": 57,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bipartite-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/bipartite-graph/1",
+  "function": {
+    "name": "checkWhetherGivenGraphBipartite",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

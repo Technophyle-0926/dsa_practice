@@ -1,0 +1,16 @@
+{
+  "title": "K Queues in an array",
+  "number": 1,
+  "category": "Queue",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/efficiently-implement-k-queues-single-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/1",
+  "function": {
+    "name": "kQueuesArray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Find duplicate rows",
+  "number": 8,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-duplicate-rows-binary-matrix/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-duplicate-rows-in-a-binary-matrix/1",
+  "function": {
+    "name": "findDuplicateRows",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "findDuplicateRows([[1, 1, 0, 1, 0, 1], [0, 0, 1, 0, 0, 1], [1, 0, 1, 1, 0, 0], [1, 1, 0, 1, 0, 1], [0, 0, 1, 0, 0, 1], [0, 0, 1, 0, 0, 1]])",
+    "expected": "[4, 5, 6]"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Sum of Max of all Subarrays",
+  "number": 2,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-of-maximum-elements-of-all-possible-sub-arrays-of-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/sum-of-max-of-subarrays/1",
+  "function": {
+    "name": "sumMaxAllSubarrays",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumMaxAllSubarrays([1, 3, 2])",
+    "expected": "15"
+  }
+}

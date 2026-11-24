@@ -22,13 +22,25 @@ Output: 6
 Explanation: ABC[58] The closing bracket corresponding to the opening bracket at index 3 is at index 6.
 ```
 
+## Function Signature
+
+```dart
+int indexClosingBracketGivenOpening(String s, int pos)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-index-closing-bracket-given-opening-bracket-expression/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/closing-bracket-index5900/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/17_index_of_closing_bracket_for_a_given_opening_bracket
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

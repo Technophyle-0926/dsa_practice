@@ -1,0 +1,16 @@
+{
+  "title": "Queries for any non-repeating element",
+  "number": 1,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/queries-to-check-if-any-non-repeating-element-exists-within-range-l-r-of-an-array/",
+  "practice": null,
+  "function": {
+    "name": "queriesAnyNonRepeatingElement",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

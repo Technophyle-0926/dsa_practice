@@ -22,13 +22,25 @@ Output: abc*+d+
 Explanation: The expression a + b * c + d is converted by first doing b * c → bc*, then adding a → abc*+, and finally adding d → abc*+d+.
 ```
 
+## Function Signature
+
+```dart
+dynamic infixPostfix(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/convert-infix-expression-to-postfix-expression/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/04_infix_to_postfix
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -28,13 +28,25 @@ Output: []
 Explanation: There is no triplet with sum 0.
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> solve3SumFindAllTriplets(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-triplets-array-whose-sum-equal-zero/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-all-triplets-with-zero-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/04_3_sum_find_all_triplets_with_zero_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Circular Linked List Traversal",
+  "number": 4,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/traversal-of-circular-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/circular-linked-list-traversal/1",
+  "function": {
+    "name": "circularLinkedListTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Swap Two Numbers",
+  "number": 5,
+  "category": "Logic Building",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/swap-two-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/swap-the-numbers/1",
+  "function": {
+    "name": "swapTwoNumbers",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "swapTwoNumbers(2, 3)",
+    "expected": "3 2"
+  }
+}

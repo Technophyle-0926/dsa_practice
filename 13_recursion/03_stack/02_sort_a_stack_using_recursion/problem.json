@@ -1,0 +1,24 @@
+{
+  "title": "Sort a stack using recursion",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Stack",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-a-stack/1",
+  "function": {
+    "name": "sortStackRecursion",
+    "params": [
+      {
+        "name": "st",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortStackRecursion([41, 3, 32, 2, 11])",
+    "expected": "[41, 32, 11, 3, 2]"
+  }
+}

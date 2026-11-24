@@ -23,13 +23,25 @@ Input: s = "AAA"
 Output: "AAA", "AAA", "AAA", "AAA", "AAA", "AAA"
 ```
 
+## Function Signature
+
+```dart
+List<String> permutationsString(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/permutations-of-a-given-string-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/13_permutations_of_a_string
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

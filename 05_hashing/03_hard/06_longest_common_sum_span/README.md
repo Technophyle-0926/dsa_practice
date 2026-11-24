@@ -27,13 +27,25 @@ Output: 0
 Explanation: There is no span where the sum of the elements in a1[] and a2[] is equal.
 ```
 
+## Function Signature
+
+```dart
+int longestCommonSumSpan(List<int> a1, List<int> a2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-span-sum-two-binary-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/06_longest_common_sum_span
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

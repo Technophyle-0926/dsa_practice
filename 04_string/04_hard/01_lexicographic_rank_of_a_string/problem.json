@@ -1,0 +1,24 @@
+{
+  "title": "Lexicographic Rank of a String",
+  "number": 1,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lexicographic-rank-of-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/rank-the-permutations2229/1",
+  "function": {
+    "name": "lexicographicRankString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "lexicographicRankString(\"acb\")",
+    "expected": "2"
+  }
+}

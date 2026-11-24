@@ -21,12 +21,24 @@ Output: 8
 Explanation: Deleting '7' and '6' from 876 forms 8, the largest perfect cube.
 ```
 
+## Function Signature
+
+```dart
+int largestCubeFormedDeletingMinimum(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-largest-cube-formed-deleting-minimum-digits-number/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/08_largest_cube_formed_by_deleting_minimum_digits_from_a_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

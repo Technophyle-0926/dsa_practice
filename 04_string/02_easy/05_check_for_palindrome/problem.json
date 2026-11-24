@@ -1,0 +1,24 @@
+{
+  "title": "Check for Palindrome",
+  "number": 5,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/palindrome-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/palindrome-string0817/1",
+  "function": {
+    "name": "checkPalindrome",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkPalindrome(\"abba\")",
+    "expected": "true"
+  }
+}

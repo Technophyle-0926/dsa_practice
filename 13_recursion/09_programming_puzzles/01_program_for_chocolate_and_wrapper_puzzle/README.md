@@ -19,12 +19,24 @@ Output: 22
 Explanation: The price of a chocolate is 1. You can buy 15 chocolates for the amount 15. Then return 15 wrappers and get 5 more chocolates. Then you can return 3 wrappers and get 1 more chocolates. Finally, you can return 3 wrappers to get 1 more chocolate. So the total chocolates you eat will be 15 + 5 + 1  + 1 = 22.
 ```
 
+## Function Signature
+
+```dart
+int programChocolateWrapperPuzzle(int money, int price, int wrap)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-chocolate-wrapper-puzzle/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/09_programming_puzzles/01_program_for_chocolate_and_wrapper_puzzle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

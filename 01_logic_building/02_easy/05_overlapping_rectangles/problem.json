@@ -1,0 +1,36 @@
+{
+  "title": "Overlapping Rectangles",
+  "number": 5,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-two-rectangles-overlap/",
+  "practice": "https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1",
+  "function": {
+    "name": "overlappingRectangles",
+    "params": [
+      {
+        "name": "l1",
+        "type": "List<int>"
+      },
+      {
+        "name": "r1",
+        "type": "List<int>"
+      },
+      {
+        "name": "l2",
+        "type": "List<int>"
+      },
+      {
+        "name": "r2",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "overlappingRectangles([0, 10], [10, 0], [5, 5], [15, 0])",
+    "expected": "true"
+  }
+}

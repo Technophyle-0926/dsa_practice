@@ -1,0 +1,16 @@
+{
+  "title": "Tyes of Binary Tree",
+  "number": 4,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/types-of-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "tyesBinaryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

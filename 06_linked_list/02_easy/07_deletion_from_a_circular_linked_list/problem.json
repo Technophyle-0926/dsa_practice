@@ -1,0 +1,16 @@
+{
+  "title": "Deletion from a Circular Linked List",
+  "number": 7,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-circular-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1",
+  "function": {
+    "name": "deletionCircularLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

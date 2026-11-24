@@ -1,0 +1,16 @@
+{
+  "title": "Detect cycle in Undirected",
+  "number": 11,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-undirected-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+  "function": {
+    "name": "detectCycleUndirected",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

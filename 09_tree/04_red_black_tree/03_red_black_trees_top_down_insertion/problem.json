@@ -1,0 +1,16 @@
+{
+  "title": "Red-Black Trees | Top-Down Insertion",
+  "number": 3,
+  "category": "Tree",
+  "level": "Red-Black Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/red-black-trees-top-down-insertion/",
+  "practice": null,
+  "function": {
+    "name": "redBlackTreesTopDown",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

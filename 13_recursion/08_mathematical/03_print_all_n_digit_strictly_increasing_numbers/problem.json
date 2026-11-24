@@ -1,0 +1,24 @@
+{
+  "title": "Print all n-digit strictly increasing numbers",
+  "number": 3,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-n-digit-strictly-increasing-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1",
+  "function": {
+    "name": "printAllNDigitStrictly",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllNDigitStrictly(1)",
+    "expected": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]"
+  }
+}

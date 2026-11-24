@@ -1,0 +1,16 @@
+{
+  "title": "Dijkstra’s shortest path algorithm",
+  "number": 18,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+  "practice": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+  "function": {
+    "name": "dijkstrasShortestPathAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

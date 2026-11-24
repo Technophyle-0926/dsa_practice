@@ -1,0 +1,24 @@
+{
+  "title": "3 Divisors",
+  "number": 2,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/numbers-exactly-3-divisors/",
+  "practice": "https://www.geeksforgeeks.org/problems/3-divisors3942/1",
+  "function": {
+    "name": "solve3Divisors",
+    "params": [
+      {
+        "name": "queries",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3Divisors([6])",
+    "expected": "[1]"
+  }
+}

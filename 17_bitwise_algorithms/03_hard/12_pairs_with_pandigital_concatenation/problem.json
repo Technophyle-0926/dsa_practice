@@ -1,0 +1,24 @@
+{
+  "title": "Pairs with Pandigital Concatenation",
+  "number": 12,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-pairs-pandigital-concatenation/",
+  "practice": null,
+  "function": {
+    "name": "pairsPandigitalConcatenation",
+    "params": [
+      {
+        "name": "numValue",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "pairsPandigitalConcatenation([\"123567\", \"098234\", \"14765\", \"19804\"])",
+    "expected": "3"
+  }
+}

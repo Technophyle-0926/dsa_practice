@@ -26,13 +26,25 @@ Output: [-1, -1]
 Explanation: There is no subarray with the given sum
 ```
 
+## Function Signature
+
+```dart
+dynamic subarrayGivenSum(List<int> arr, int sum)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-subarray-with-given-sum-in-array-of-integers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/hopscotch4857/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/09_subarray_with_given_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

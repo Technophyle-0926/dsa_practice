@@ -1,0 +1,28 @@
+{
+  "title": "Multiply two numbers as Lists",
+  "number": 11,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/multiply-two-numbers-represented-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1",
+  "function": {
+    "name": "multiplyTwoNumbersAsLists",
+    "params": [
+      {
+        "name": "L1",
+        "type": "ListNode?"
+      },
+      {
+        "name": "L2",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "multiplyTwoNumbersAsLists(ListNode.fromList([3, 2]), 2)",
+    "expected": "64"
+  }
+}

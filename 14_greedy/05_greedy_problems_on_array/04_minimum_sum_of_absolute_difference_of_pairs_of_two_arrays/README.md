@@ -22,13 +22,25 @@ the sum will be S = |1 - 2| + |4 - 3| + |7 - 5| + |8 - 6| = 6.
 It can be shown that this is the minimum sum we can get.
 ```
 
+## Function Signature
+
+```dart
+int minimumSumAbsoluteDifferencePairs(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-sum-absolute-difference-pairs-two-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-sum-of-absolute-differences-of-pairs/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/04_minimum_sum_of_absolute_difference_of_pairs_of_two_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

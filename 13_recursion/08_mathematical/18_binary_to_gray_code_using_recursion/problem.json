@@ -1,0 +1,24 @@
+{
+  "title": "Binary to Gray code using recursion",
+  "number": 18,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-convert-binary-code-equivalent-gray-code-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "binaryGrayCodeRecursion",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "binaryGrayCodeRecursion(1001)",
+    "expected": "1101"
+  }
+}

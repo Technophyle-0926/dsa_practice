@@ -1,0 +1,16 @@
+{
+  "title": "Introduction",
+  "number": 1,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "introduction",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

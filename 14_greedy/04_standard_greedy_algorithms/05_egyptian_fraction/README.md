@@ -10,12 +10,24 @@ Following are a few examples:
 
 We can generate Egyptian Fractions using Greedy Algorithm. For a given number of the form 'nr/dr' where dr > nr, first find the greatest possible unit fraction, then recur for the remaining part. For example, consider 6/14, we first find ceiling of 14/6, i.e., 3. So the first unit fraction becomes 1/3, then recur for (6/14 - 1/3) i.e., 4/42.
 
+## Function Signature
+
+```dart
+dynamic egyptianFraction(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/greedy-algorithm-egyptian-fraction/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/05_egyptian_fraction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

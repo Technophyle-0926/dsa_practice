@@ -21,13 +21,25 @@ Input: arr[] = [4, 3, 2, 1]
 Output: No such triplet exists.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortedSubsequenceSize3(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-a-sorted-subsequence-of-size-3-in-linear-time/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/09_sorted_subsequence_of_size_3
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

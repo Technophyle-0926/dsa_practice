@@ -34,12 +34,24 @@ So the sum is -15
 - Segment tree
 - Lazy propagation in segment tree
 
+## Function Signature
+
+```dart
+dynamic flippingSignProblem(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/flipping-sign-problem-lazy-propagation-segment-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/01_lazy_propagation/03_flipping_sign_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

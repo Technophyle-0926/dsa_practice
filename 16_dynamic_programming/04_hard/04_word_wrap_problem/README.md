@@ -21,13 +21,25 @@ Output: 22
 Explanation: We collects the maximum value as 22 (7 + 15).
 ```
 
+## Function Signature
+
+```dart
+int wordWrapProblem(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/optimal-strategy-for-a-game-dp-31/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/04_word_wrap_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

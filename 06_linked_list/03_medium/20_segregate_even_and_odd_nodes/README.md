@@ -28,12 +28,24 @@ Explanation: There is no even number, so no modification is needed.
 1 ≤ number of nodes ≤ 10^5
 1 ≤ node->data ≤ 10^5
 
+## Function Signature
+
+```dart
+ListNode? segregateEvenOddNodes()
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 💻 Practice: https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/20_segregate_even_and_odd_nodes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

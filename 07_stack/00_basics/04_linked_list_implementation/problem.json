@@ -1,0 +1,9 @@
+{
+  "title": "Linked List Implementation",
+  "number": 4,
+  "category": "Stack",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/implement-a-stack-using-singly-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1"
+}

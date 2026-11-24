@@ -1,0 +1,28 @@
+{
+  "title": "Longest Common Sum Span",
+  "number": 6,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-span-sum-two-binary-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-span-with-same-sum-in-two-binary-arrays5142/1",
+  "function": {
+    "name": "longestCommonSumSpan",
+    "params": [
+      {
+        "name": "a1",
+        "type": "List<int>"
+      },
+      {
+        "name": "a2",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestCommonSumSpan([0, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 1])",
+    "expected": "4"
+  }
+}

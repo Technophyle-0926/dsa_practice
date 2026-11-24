@@ -1,0 +1,28 @@
+{
+  "title": "Count Numbers with Three Set Bits",
+  "number": 20,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-numbers-in-the-range-l-r-having-only-three-set-bits/",
+  "practice": "https://www.geeksforgeeks.org/problems/akku-and-binary-numbers0902/1",
+  "function": {
+    "name": "countNumbersThreeBits",
+    "params": [
+      {
+        "name": "l",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countNumbersThreeBits(11, 19)",
+    "expected": "4"
+  }
+}

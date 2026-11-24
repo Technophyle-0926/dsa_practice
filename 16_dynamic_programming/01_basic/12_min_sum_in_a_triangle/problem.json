@@ -1,0 +1,24 @@
+{
+  "title": "Min Sum in a Triangle",
+  "number": 12,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-sum-path-triangle/",
+  "practice": "https://www.geeksforgeeks.org/problems/triangle-path-sum/1",
+  "function": {
+    "name": "minSumTriangle",
+    "params": [
+      {
+        "name": "triangle",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minSumTriangle([[2], [3, 7], [8, 5, 6], [6, 1, 9, 3]])",
+    "expected": "11"
+  }
+}

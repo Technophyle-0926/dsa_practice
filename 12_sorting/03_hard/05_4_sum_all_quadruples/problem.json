@@ -1,0 +1,28 @@
+{
+  "title": "4 Sum - All Quadruples",
+  "number": 5,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/4-sum-find-a-quadruplet-with-closest-sum/",
+  "practice": null,
+  "function": {
+    "name": "solve4SumAllQuadruples",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve4SumAllQuadruples([4, 5, 3, 4, 1, 2], 13)",
+    "expected": "{4, 5, 3, 1}"
+  }
+}

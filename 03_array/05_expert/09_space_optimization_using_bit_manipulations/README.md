@@ -20,12 +20,24 @@ Input: a = 60, b = 95
 Output: 60 62 64 65 66 68 70 72 74 75 76 78 80 82 84 85 86 88 90 92 94 95
 ```
 
+## Function Signature
+
+```dart
+List<int> spaceOptimizationBitManipulations(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/competitive-programming/space-optimization-using-bit-manipulations/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/05_expert/09_space_optimization_using_bit_manipulations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

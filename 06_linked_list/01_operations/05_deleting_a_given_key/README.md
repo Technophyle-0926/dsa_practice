@@ -87,12 +87,24 @@ To read more about Deletion at the end Refer, Deletion at end (Removal of last n
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic deletingGivenKey(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/deletion-in-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/01_operations/05_deleting_a_given_key
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -21,13 +21,25 @@ Explanation: Numbers having maximum occurrence i.e., 2 are
 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. The smallest number among all are 5.
 ```
 
+## Function Signature
+
+```dart
+int maxOccurredNRanges(List<int> l, List<int> r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-occurred-integer-n-ranges/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-occured-integer4602/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/09_max_occurred_in_n_ranges
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

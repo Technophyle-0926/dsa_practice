@@ -1,0 +1,28 @@
+{
+  "title": "Subset Sum Problem",
+  "number": 4,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/subset-sum-problem-dp-25/",
+  "practice": "https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1",
+  "function": {
+    "name": "subsetSumProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "sum",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "subsetSumProblem([3, 34, 4, 12, 5, 2], 9)",
+    "expected": "True"
+  }
+}

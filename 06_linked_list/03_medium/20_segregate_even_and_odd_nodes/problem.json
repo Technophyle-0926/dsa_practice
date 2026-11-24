@@ -1,0 +1,19 @@
+{
+  "title": "Segregate even and odd nodes",
+  "number": 20,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": null,
+  "practice": "https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1",
+  "function": {
+    "name": "segregateEvenOddNodes",
+    "params": [],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "segregateEvenOddNodes()",
+    "expected": "8 -> 2 -> 4 -> 6 -> 17 -> 15 -> 9"
+  }
+}

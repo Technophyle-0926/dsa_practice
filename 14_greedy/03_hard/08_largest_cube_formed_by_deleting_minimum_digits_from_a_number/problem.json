@@ -1,0 +1,24 @@
+{
+  "title": "Largest Cube formed by Deleting minimum Digits from a number",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-largest-cube-formed-deleting-minimum-digits-number/",
+  "practice": null,
+  "function": {
+    "name": "largestCubeFormedDeletingMinimum",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "largestCubeFormedDeletingMinimum(4125)",
+    "expected": "125"
+  }
+}

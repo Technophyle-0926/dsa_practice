@@ -1,0 +1,28 @@
+{
+  "title": "Print all possible combinations of r elements in a given array of size n",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/",
+  "practice": null,
+  "function": {
+    "name": "printAllPossibleCombinationsR",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllPossibleCombinationsR([1, 2, 3, 4], 2)",
+    "expected": "1 2"
+  }
+}

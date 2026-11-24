@@ -1,0 +1,16 @@
+{
+  "title": "Find all Leaf nodes",
+  "number": 16,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-leaf-nodes-left-right-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "findAllLeafNodes",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

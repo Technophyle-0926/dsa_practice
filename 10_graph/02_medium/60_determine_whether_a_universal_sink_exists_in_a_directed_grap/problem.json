@@ -1,0 +1,16 @@
+{
+  "title": "Determine whether a universal sink exists in a directed graph",
+  "number": 60,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/determine-whether-universal-sink-exists-directed-graph/",
+  "practice": null,
+  "function": {
+    "name": "determineWhetherUniversalSinkExists",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

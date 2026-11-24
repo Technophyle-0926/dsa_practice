@@ -1,0 +1,24 @@
+{
+  "title": "Equilibrium index",
+  "number": 11,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/equilibrium-index-of-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1",
+  "function": {
+    "name": "equilibriumIndex",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "equilibriumIndex([1, 2, 0, 3])",
+    "expected": "2"
+  }
+}

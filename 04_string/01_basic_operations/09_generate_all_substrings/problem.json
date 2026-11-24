@@ -1,0 +1,24 @@
+{
+  "title": "Generate all Substrings",
+  "number": 9,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-print-substrings-given-string/",
+  "practice": null,
+  "function": {
+    "name": "generateAllSubstrings",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "generateAllSubstrings(\"abc\")",
+    "expected": "\"a\", \"ab\", \"abc\", \"b\", \"bc\", \"c\""
+  }
+}

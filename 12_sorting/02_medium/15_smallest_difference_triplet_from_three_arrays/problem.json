@@ -1,0 +1,32 @@
+{
+  "title": "Smallest Difference Triplet from Three arrays",
+  "number": 15,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/smallest-difference-triplet-from-three-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/happiest-triplet2921/1",
+  "function": {
+    "name": "smallestDifferenceTripletThreeArrays",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      },
+      {
+        "name": "c",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestDifferenceTripletThreeArrays([5, 2, 8], [10, 7, 12], [9, 14, 6])",
+    "expected": "[7, 6, 5]"
+  }
+}

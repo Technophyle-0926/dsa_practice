@@ -24,12 +24,24 @@ Output : 12
 
 **2. Recursive Method**
 
+## Function Signature
+
+```dart
+int countConsonantsStringIterativeRecursive(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-consonants-string-iterative-recursive-methods/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/12_count_consonants_in_a_string_iterative_and_recursive_methods
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

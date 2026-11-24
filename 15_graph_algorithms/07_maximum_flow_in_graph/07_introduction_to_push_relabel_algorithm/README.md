@@ -90,12 +90,24 @@ to one edge shown above.
 
 _…continued in the article (see link below)._
 
+## Function Signature
+
+```dart
+dynamic introductionPushRelabelAlgorithm(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-push-relabel-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/07_introduction_to_push_relabel_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

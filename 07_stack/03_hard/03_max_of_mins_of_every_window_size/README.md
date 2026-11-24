@@ -27,13 +27,25 @@ Window size 2: minimums of [10, 20], [20,30], maximum of minimums is 20.
 Window size 3: minimums of [10,20,30], maximum of minimums is 10.
 ```
 
+## Function Signature
+
+```dart
+List<int> maxMinsEveryWindowSize(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-of-minimum-for-every-window-size3453/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/03_max_of_mins_of_every_window_size
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

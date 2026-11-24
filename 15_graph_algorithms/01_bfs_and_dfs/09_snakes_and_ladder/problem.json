@@ -1,0 +1,32 @@
+{
+  "title": "Snakes and Ladder",
+  "number": 9,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/snake-ladder-problem-2/",
+  "practice": "https://www.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1",
+  "function": {
+    "name": "snakesLadder",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "lad",
+        "type": "List<int>"
+      },
+      {
+        "name": "sn",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "snakesLadder(6, [3, 22, 5, 8, 11, 35, 20, 32], [17, 4, 19, 7, 34, 1, 21, 9])",
+    "expected": "3"
+  }
+}

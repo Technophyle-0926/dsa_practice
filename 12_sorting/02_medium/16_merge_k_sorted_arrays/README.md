@@ -26,13 +26,25 @@ Output: [1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 8, 9, 9]
 Explanation: Merging all elements from the 4 sorted arrays and sorting them results in:[1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 8, 9, 9] .
 ```
 
+## Function Signature
+
+```dart
+dynamic mergeKSortedArrays(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-k-sorted-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/16_merge_k_sorted_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -21,13 +21,25 @@ Output: 1
 Explanation: A person can perform at most one activity.
 ```
 
+## Function Signature
+
+```dart
+int activitySelection(List<int> start, List<int> finish)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/activity-selection-problem-greedy-algo-1/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/01_activity_selection
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

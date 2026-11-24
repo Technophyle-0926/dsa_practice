@@ -69,12 +69,24 @@ j exceeds number of vertices - stop scanning. Candidate sink = vertex 1 (0-based
 - Column of v2 - all 1s except diagonal
 - v2 is the universal sink.
 
+## Function Signature
+
+```dart
+dynamic universalSink(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/determine-whether-universal-sink-exists-directed-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/12_universal_sink
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

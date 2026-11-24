@@ -1,0 +1,32 @@
+{
+  "title": "Mnimum s-t cut in a flow network",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cut-in-a-directed-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-minimum-s-t-cut-in-a-flow-network2902/1",
+  "function": {
+    "name": "mnimumSTCutFlow",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "s",
+        "type": "int"
+      },
+      {
+        "name": "t",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "mnimumSTCutFlow([[0, 16, 13, 0, 0, 0], [0, 0, 10, 12, 0, 0], [0, 4, 0, 0, 14, 0], [0, 0, 9, 0, 0, 20], [0, 0, 0, 7, 0, 4], [0, 0, 0, 0, 0, 0]], 0, 5)",
+    "expected": "23"
+  }
+}

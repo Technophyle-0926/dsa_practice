@@ -1,0 +1,24 @@
+{
+  "title": "A Peterson Graph Problem",
+  "number": 52,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/peterson-graph/",
+  "practice": null,
+  "function": {
+    "name": "petersonGraphProblem",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "petersonGraphProblem(\"ABB\")",
+    "expected": "016"
+  }
+}

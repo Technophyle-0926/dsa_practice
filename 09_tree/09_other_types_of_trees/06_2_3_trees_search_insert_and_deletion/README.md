@@ -118,12 +118,24 @@ As internal node cannot be empty. So now pull down the lowest data value from th
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic solve23TreesSearchInsert(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/2-3-trees-search-and-insert/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/09_other_types_of_trees/06_2_3_trees_search_insert_and_deletion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

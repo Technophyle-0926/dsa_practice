@@ -14,8 +14,12 @@ A Segment Tree is used to store information about array intervals in its nodes.
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-segment-trees-2/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

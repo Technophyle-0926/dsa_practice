@@ -28,13 +28,25 @@ Output:  false
 Explanation: Removing any parentheses would change the order of evaluation, so none of them are redundant.
 ```
 
+## Function Signature
+
+```dart
+bool checkRedundantBracket(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/expression-contains-redundant-bracket-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/07_check_redundant_bracket
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

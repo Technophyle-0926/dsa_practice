@@ -1,0 +1,28 @@
+{
+  "title": "Insert in sorted way in doubly linked list",
+  "number": 15,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insert-value-sorted-way-sorted-doubly-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1",
+  "function": {
+    "name": "insertSortedWayDoublyLinked",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "insertSortedWayDoublyLinked(DListNode.fromList([3, 5, 8, 10, 12]), 9)",
+    "expected": "3<->5<->8<->9<->10<->12"
+  }
+}

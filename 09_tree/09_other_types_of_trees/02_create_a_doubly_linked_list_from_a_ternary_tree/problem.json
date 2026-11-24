@@ -1,0 +1,16 @@
+{
+  "title": "Create a Doubly Linked List from a Ternary Tree",
+  "number": 2,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/create-doubly-linked-list-ternary-ree/",
+  "practice": null,
+  "function": {
+    "name": "createDoublyLinkedListTernary",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

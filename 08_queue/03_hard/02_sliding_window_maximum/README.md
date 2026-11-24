@@ -29,13 +29,25 @@ Output: [5, 1, 3, 4, 2, 6]
 Explanation: When k = 1, each element in the array is its own subarray, so the output is simply the same array.
 ```
 
+## Function Signature
+
+```dart
+List<int> slidingWindowMaximum(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/03_hard/02_sliding_window_maximum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

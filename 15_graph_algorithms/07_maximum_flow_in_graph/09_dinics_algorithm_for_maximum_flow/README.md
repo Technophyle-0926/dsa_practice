@@ -68,12 +68,24 @@ The new residual graph is
 
 **Third Iteration :** We run BFS and create a level graph. We also check if more flow is possible and proceed only if possible. This time there is no s-t path in residual graph, so we terminate the algorithm.
 
+## Function Signature
+
+```dart
+dynamic dinicsAlgorithmMaximumFlow(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/dinics-algorithm-maximum-flow/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/09_dinics_algorithm_for_maximum_flow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

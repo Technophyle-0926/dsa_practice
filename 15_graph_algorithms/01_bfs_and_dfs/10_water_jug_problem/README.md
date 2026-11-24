@@ -40,13 +40,25 @@ Output: -1
 Explanation: Not possible since gcd(2, 4) = 2 does not divide 3.
 ```
 
+## Function Signature
+
+```dart
+int waterJugProblem(int m, int n, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/water-jug-problem-using-bfs/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/two-water-jug-problem3402/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/10_water_jug_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

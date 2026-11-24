@@ -124,12 +124,24 @@ This structure enables efficient operations for searching, insertion, and deleti
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic moreProblemsBinarySearchTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/02_binary_search_tree/07_more_problems_on_binary_search_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

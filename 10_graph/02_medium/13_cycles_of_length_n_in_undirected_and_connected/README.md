@@ -31,12 +31,24 @@ For above example, all the cycles of length 4 can be searched using only 5-(4-1)
 
 One more thing to notice is that, every vertex finds 2 duplicate cycles for every cycle that it forms. For above example 0^th vertex finds two duplicate cycle namely **0 -> 3 -> 2 -> 1 -> 0** and **0 -> 1 -> 2 -> 3 -> 0**. Hence the total count must be divided by 2 because every cycle is counted twice.
 
+## Function Signature
+
+```dart
+dynamic cyclesLengthNUndirectedConnected(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/cycles-of-length-n-in-an-undirected-and-connected-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/13_cycles_of_length_n_in_undirected_and_connected
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

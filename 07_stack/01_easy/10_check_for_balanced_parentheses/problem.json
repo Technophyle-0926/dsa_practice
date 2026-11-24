@@ -1,0 +1,24 @@
+{
+  "title": "Check for balanced parentheses",
+  "number": 10,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/",
+  "practice": "https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1",
+  "function": {
+    "name": "checkBalancedParentheses",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkBalancedParentheses(\"[[()]]\")",
+    "expected": "true"
+  }
+}

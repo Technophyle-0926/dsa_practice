@@ -1,0 +1,16 @@
+{
+  "title": "Delete a node with only its pointer given",
+  "number": 19,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1",
+  "function": {
+    "name": "deleteNodeOnlyPointerGiven",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

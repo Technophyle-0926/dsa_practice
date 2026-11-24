@@ -1,0 +1,24 @@
+{
+  "title": "Stock Span Problem",
+  "number": 6,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/the-stock-span-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1",
+  "function": {
+    "name": "stockSpanProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "stockSpanProblem([100, 80, 90, 120])",
+    "expected": "[1, 1, 2, 4]"
+  }
+}

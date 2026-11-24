@@ -1,0 +1,24 @@
+{
+  "title": "Largest in an Array",
+  "number": 1,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-find-largest-element-in-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1",
+  "function": {
+    "name": "largestArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "largestArray([10, 20, 4])",
+    "expected": "20"
+  }
+}

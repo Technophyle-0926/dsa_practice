@@ -28,12 +28,24 @@ Let us understand with a simple example with 3 disks:
 
 After all iterations, the destination pole holds the disks in order of size. Each time a disk (other than the smallest) is moved, the next move must involve the smallest disk, as it remains on top of the spare pole with no other options available.
 
+## Function Signature
+
+```dart
+dynamic iterativeTowerHanoi(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/iterative-tower-of-hanoi/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/11_iterative_tower_of_hanoi
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

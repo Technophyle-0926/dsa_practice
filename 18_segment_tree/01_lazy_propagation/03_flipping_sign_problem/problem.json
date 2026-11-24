@@ -1,0 +1,16 @@
+{
+  "title": "Flipping Sign Problem",
+  "number": 3,
+  "category": "Segment Tree",
+  "level": "Lazy Propagation",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/flipping-sign-problem-lazy-propagation-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "flippingSignProblem",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

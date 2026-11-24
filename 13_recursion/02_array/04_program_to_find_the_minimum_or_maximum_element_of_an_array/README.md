@@ -20,13 +20,25 @@ Output: Minimum element of array: 2
                Maximum element of array: 11
 ```
 
+## Function Signature
+
+```dart
+dynamic programFindMinimumOrMaximum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-find-minimum-maximum-element-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/02_array/04_program_to_find_the_minimum_or_maximum_element_of_an_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

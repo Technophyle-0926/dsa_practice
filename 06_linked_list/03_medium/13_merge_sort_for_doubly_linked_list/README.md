@@ -16,13 +16,25 @@ Input: 5 <-> 3 <-> 2
 Output: 2 <-> 3 <-> 5
 ```
 
+## Function Signature
+
+```dart
+DListNode? mergeSortDoublyLinkedList(DListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-sort-for-doubly-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-sort-on-doubly-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/13_merge_sort_for_doubly_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

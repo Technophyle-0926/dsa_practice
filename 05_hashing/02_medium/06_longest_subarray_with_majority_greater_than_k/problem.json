@@ -1,0 +1,28 @@
+{
+  "title": "Longest Subarray with Majority Greater Than K",
+  "number": 6,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/length-of-longest-subarray-in-which-elements-greater-than-k-are-more-than-elements-not-greater-than-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1",
+  "function": {
+    "name": "longestSubarrayMajorityGreaterThan",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestSubarrayMajorityGreaterThan([1, 2, 3, 4, 1], 2)",
+    "expected": "3"
+  }
+}

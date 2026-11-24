@@ -28,13 +28,25 @@ Output: false
 Explanation: There is no cycle in the given graph.
 ```
 
+## Function Signature
+
+```dart
+dynamic cycleUndirectedGraph(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/detect-cycle-undirected-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/02_cycles/02_cycle_in_an_undirected_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

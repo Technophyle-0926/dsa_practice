@@ -1,0 +1,24 @@
+{
+  "title": "Largest Prime factor",
+  "number": 13,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-largest-prime-factor-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-prime-factor2601/1",
+  "function": {
+    "name": "largestPrimeFactor",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "largestPrimeFactor(6)",
+    "expected": "3"
+  }
+}

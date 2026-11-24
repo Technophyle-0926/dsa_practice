@@ -23,12 +23,24 @@ Prerequisite : Ternary Search Tree
 The idea is to recursively search the max of left subtree, right subtree and equal tree.
 If the current character is same as the root's character increment with 1.
 
+## Function Signature
+
+```dart
+String longestWordTernarySearchTree(List<String> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-word-ternary-search-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/05_ternary_search_tree/04_longest_word_in_ternary_search_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

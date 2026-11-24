@@ -24,13 +24,25 @@ Output :  -1
 Explanation : At least two elements are required to form a pair.
 ```
 
+## Function Signature
+
+```dart
+int largestPairSum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-largest-pair-sum-in-an-unsorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/pair-sum--120604/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/03_largest_pair_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

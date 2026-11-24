@@ -1,0 +1,24 @@
+{
+  "title": "Next Permutation",
+  "number": 10,
+  "category": "Array",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/next-permutation/",
+  "practice": "https://www.geeksforgeeks.org/problems/next-permutation5226/1",
+  "function": {
+    "name": "nextPermutation",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "nextPermutation([2, 4, 1, 7, 5, 0])",
+    "expected": "[2, 4, 5, 0, 1, 7]"
+  }
+}

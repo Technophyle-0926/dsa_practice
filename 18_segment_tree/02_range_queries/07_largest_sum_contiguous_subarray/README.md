@@ -39,13 +39,25 @@ The range is [3, -1].
 The maximum subarray sum is 3, obtained from subarray [3].
 ```
 
+## Function Signature
+
+```dart
+List<int> largestSumContiguousSubarray(List<int> arr, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-query-largest-sum-contiguous-subarray/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-sum-contiguous-subarray-in-range-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/07_largest_sum_contiguous_subarray
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -28,13 +28,25 @@ Output: 5
 Explanation: 5 is common in all the arrays.
 ```
 
+## Function Signature
+
+```dart
+List<int> commonElements3Sorted(List<int> a, List<int> b, List<int> c)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-common-elements-three-sorted-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/common-elements1132/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/10_common_elements_in_3_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

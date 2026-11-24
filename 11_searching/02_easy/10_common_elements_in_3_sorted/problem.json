@@ -1,0 +1,32 @@
+{
+  "title": "Common elements in 3 sorted",
+  "number": 10,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-common-elements-three-sorted-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/common-elements1132/1",
+  "function": {
+    "name": "commonElements3Sorted",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      },
+      {
+        "name": "c",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "commonElements3Sorted([1, 5, 10, 20, 30], [5, 13, 15, 20], [5, 20])",
+    "expected": "5 20"
+  }
+}

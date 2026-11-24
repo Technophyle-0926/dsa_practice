@@ -224,12 +224,24 @@ public static void Main(String[] args)
 // This code is contributed by 29AjayKumar
 ```
 
+## Function Signature
+
+```dart
+List<int> combinationsStringDigits(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/combinations-string-digits/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/11_combinations_in_a_string_of_digits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

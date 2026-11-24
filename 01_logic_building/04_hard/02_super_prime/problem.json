@@ -1,0 +1,24 @@
+{
+  "title": "Super Prime",
+  "number": 2,
+  "category": "Logic Building",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/super-prime/",
+  "practice": "https://www.geeksforgeeks.org/problems/super-primes2443/1",
+  "function": {
+    "name": "superPrime",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "superPrime(5)",
+    "expected": "[3, 5]"
+  }
+}

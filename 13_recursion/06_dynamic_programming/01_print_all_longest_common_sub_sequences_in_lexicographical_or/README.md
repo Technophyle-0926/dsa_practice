@@ -20,13 +20,25 @@ Output: ["a"]
 Explanation: Every subsequence common to `"`baaa and `"ca"` of maximum length 1, is `["a"]`.
 ```
 
+## Function Signature
+
+```dart
+List<String> printAllLongestCommonSub(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-longest-common-sub-sequences-lexicographical-order/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/06_dynamic_programming/01_print_all_longest_common_sub_sequences_in_lexicographical_or
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

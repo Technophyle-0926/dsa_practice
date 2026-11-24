@@ -1,0 +1,16 @@
+{
+  "title": "BFS for a Graph",
+  "number": 4,
+  "category": "Queue",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+  "function": {
+    "name": "bfsGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

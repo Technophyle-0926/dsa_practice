@@ -25,13 +25,25 @@ Output: "ababab"
 Explanation: The substring "ab" is repeated 3 times giving "ababab".
 ```
 
+## Function Signature
+
+```dart
+String decodeStringEncodedRecursiveSubstring(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/decode-string-recursively-encoded-count-followed-substring/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/decode-the-string2444/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/11_decode_a_string_encoded_with_recursive_substring_counts
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

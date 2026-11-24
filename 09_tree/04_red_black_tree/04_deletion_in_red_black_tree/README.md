@@ -55,12 +55,24 @@ In this case, if parent was red, then we didn't need to recur for parent, we can
 **3.3)** If u is root, make it single black and return (Black height of complete tree reduces by 1).
 below is the C++ implementation of above approach:
 
+## Function Signature
+
+```dart
+dynamic deletionRedBlackTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/deletion-in-red-black-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/04_red_black_tree/04_deletion_in_red_black_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

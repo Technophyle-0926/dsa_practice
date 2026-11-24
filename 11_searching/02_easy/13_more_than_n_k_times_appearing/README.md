@@ -20,13 +20,25 @@ Output: 1
 Explanation: Both 2 and 3 appear 2 times in the array, which is more than n/k.
 ```
 
+## Function Signature
+
+```dart
+int moreThanNKTimes(List<int> arr_, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-element-occurences/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/13_more_than_n_k_times_appearing
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Min diff groups of size two",
+  "number": 11,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-difference-between-groups-of-size-two/",
+  "practice": null,
+  "function": {
+    "name": "minDiffGroupsSizeTwo",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minDiffGroupsSizeTwo([2, 6, 4, 3])",
+    "expected": "1"
+  }
+}

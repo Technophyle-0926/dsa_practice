@@ -34,13 +34,25 @@ Day 6 (80): Span = 1 because the previous price (120) is greater than 80.
 Hence, the output is [1, 1, 2, 4, 5, 1].
 ```
 
+## Function Signature
+
+```dart
+List<int> stockSpanProblem(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/the-stock-span-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/06_stock_span_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

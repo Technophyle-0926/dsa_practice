@@ -1,0 +1,24 @@
+{
+  "title": "Sort an array of 0s, 1s and 2s",
+  "number": 9,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1",
+  "function": {
+    "name": "sortArray0s1s2s",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortArray0s1s2s([0, 1, 2, 0, 1, 2])",
+    "expected": "[0, 0, 1, 1, 2, 2]"
+  }
+}

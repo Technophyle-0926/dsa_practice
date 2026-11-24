@@ -26,13 +26,25 @@ Output: 30
 Explanation: The sorted order is [10, 15, 20, 24, 25, 29, 30, ...]; the 7th element is 30.
 ```
 
+## Function Signature
+
+```dart
+dynamic kthSmallestRowColumnWise(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/kth-smallest-element-in-a-row-wise-and-column-wise-sorted-2d-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kth-element-in-matrix/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/09_kth_smallest_in_row_and_column_wise_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

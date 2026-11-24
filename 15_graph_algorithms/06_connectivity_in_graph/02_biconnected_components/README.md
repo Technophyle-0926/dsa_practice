@@ -18,12 +18,24 @@ In above graph, following are the biconnected components:
 
 Algorithm is based on Disc and Low Values discussed in Strongly Connected Components Article.
 
+## Function Signature
+
+```dart
+dynamic biconnectedComponents(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/biconnected-components/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/06_connectivity_in_graph/02_biconnected_components
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

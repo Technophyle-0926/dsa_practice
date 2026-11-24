@@ -21,13 +21,25 @@ Output: 5
 Explanation: Only one Spanning Tree is possible which has a weight of 5.
 ```
 
+## Function Signature
+
+```dart
+int primsMinimumSpanningTree(List<List<List<int>>> adj)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/02_prims_minimum_spanning_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

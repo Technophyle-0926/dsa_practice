@@ -1,0 +1,24 @@
+{
+  "title": "All Factor (Or Divisors)",
+  "number": 11,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-all-factors-of-a-natural-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/all-divisors-of-a-number/1",
+  "function": {
+    "name": "allFactorOrDivisors",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "allFactorOrDivisors(10)",
+    "expected": "[1, 2, 5, 10]"
+  }
+}

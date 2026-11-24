@@ -29,8 +29,12 @@ The time complexity is defined as an algorithm whose performance is directly pro
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/how-to-analyse-loops-for-complexity-analysis-of-algorithms/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/02_analysis_examples/01_analyzing_loops
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

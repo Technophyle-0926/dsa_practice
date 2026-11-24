@@ -1,0 +1,24 @@
+{
+  "title": "Longest Subsequence with 1 adjacent difference",
+  "number": 21,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-subsequence-such-that-difference-between-adjacents-is-one/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-sub-sequence-such-that-difference-between-adjacents-is-one2558/1",
+  "function": {
+    "name": "longestSubsequence1AdjacentDifference",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestSubsequence1AdjacentDifference([10, 9, 4, 5, 4, 8, 6])",
+    "expected": "3"
+  }
+}

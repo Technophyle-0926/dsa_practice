@@ -1,0 +1,28 @@
+{
+  "title": "Maximum array from two arrays",
+  "number": 9,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-array-from-two-given-arrays-keeping-order-same/",
+  "practice": null,
+  "function": {
+    "name": "maximumArrayTwoArrays",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumArrayTwoArrays([9, 7, 2, 3, 6], [7, 4, 8, 0, 1])",
+    "expected": "[9, 7, 6, 4, 8]"
+  }
+}

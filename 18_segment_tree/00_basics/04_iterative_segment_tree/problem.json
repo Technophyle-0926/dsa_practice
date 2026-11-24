@@ -1,0 +1,9 @@
+{
+  "title": "Iterative Segment Tree",
+  "number": 4,
+  "category": "Segment Tree",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/iterative-segment-tree-range-maximum-query-with-node-update/",
+  "practice": null
+}

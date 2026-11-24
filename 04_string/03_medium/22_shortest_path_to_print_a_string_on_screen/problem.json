@@ -1,0 +1,24 @@
+{
+  "title": "Shortest path to print a string on screen",
+  "number": 22,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-shortest-path-print-string-screen/",
+  "practice": "https://www.geeksforgeeks.org/problems/primitive-typing5427/1",
+  "function": {
+    "name": "shortestPathPrintStringScreen",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestPathPrintStringScreen(\"abc\")",
+    "expected": "5"
+  }
+}

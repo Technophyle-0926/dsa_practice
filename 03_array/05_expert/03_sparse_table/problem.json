@@ -1,0 +1,28 @@
+{
+  "title": "Sparse Table",
+  "number": 3,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sparse-table/",
+  "practice": null,
+  "function": {
+    "name": "sparseTable",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sparseTable([7, 2, 3, 0, 5, 10, 3, 12, 18], [[0, 4], [4, 7], [7, 8]])",
+    "expected": "0 3 12"
+  }
+}

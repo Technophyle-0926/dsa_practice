@@ -98,12 +98,24 @@ This algorithm runs in O(n^2   ) time. For sparse graphs (that is, for small val
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic erdosRenylModelGeneratingRandom(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/erdos-renyl-model-generating-random-graphs/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/54_erdos_renyl_model_for_generating_random_graphs
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

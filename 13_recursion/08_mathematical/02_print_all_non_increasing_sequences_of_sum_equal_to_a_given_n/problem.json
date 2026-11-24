@@ -1,0 +1,24 @@
+{
+  "title": "Print all non-increasing sequences of sum equal to a given number x",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-non-increasing-sequences-of-sum-equal-to-a-given-number/",
+  "practice": null,
+  "function": {
+    "name": "printAllNonIncreasingSequences",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllNonIncreasingSequences(3)",
+    "expected": "1 1 1"
+  }
+}

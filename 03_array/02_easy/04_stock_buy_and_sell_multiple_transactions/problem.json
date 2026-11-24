@@ -1,0 +1,24 @@
+{
+  "title": "Stock Buy and Sell – Multiple Transactions",
+  "number": 4,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/stock-buy-sell/",
+  "practice": "https://www.geeksforgeeks.org/problems/stock-buy-and-sell2615/1",
+  "function": {
+    "name": "stockBuySellMultipleTransactions",
+    "params": [
+      {
+        "name": "prices",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "stockBuySellMultipleTransactions([100, 180, 260, 310, 40, 535, 695])",
+    "expected": "865"
+  }
+}

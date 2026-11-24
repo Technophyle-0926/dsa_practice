@@ -15,12 +15,24 @@ Input : abc
 Output : a ab abc ac b bc c
 ```
 
+## Function Signature
+
+```dart
+String powerLexicographicOrder(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/powet-set-lexicographic-order/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/16_power_set_in_lexicographic_order
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

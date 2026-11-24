@@ -1,0 +1,24 @@
+{
+  "title": "Rotten Tomatoes",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-time-required-so-that-all-oranges-become-rotten/",
+  "practice": "https://www.geeksforgeeks.org/problems/rotten-oranges2536/1",
+  "function": {
+    "name": "rottenTomatoes",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "rottenTomatoes([[2, 1, 0, 2, 1], [1, 0, 1, 2, 1], [1, 0, 0, 2, 1]])",
+    "expected": "2"
+  }
+}

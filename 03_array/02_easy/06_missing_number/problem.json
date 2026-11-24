@@ -1,0 +1,24 @@
+{
+  "title": "Missing Number",
+  "number": 6,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-missing-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1",
+  "function": {
+    "name": "missingNumber",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "missingNumber([8, 2, 4, 5, 3, 7, 1])",
+    "expected": "6"
+  }
+}

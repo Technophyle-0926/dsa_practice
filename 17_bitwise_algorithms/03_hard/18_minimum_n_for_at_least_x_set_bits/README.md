@@ -21,12 +21,24 @@ Input: x = 20
 Output: 11
 ```
 
+## Function Signature
+
+```dart
+int minimumNAtLeastX(int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-n-such-that-total-set-bits-of-all-numbers-from-1-to-n-is-at-least-x/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/18_minimum_n_for_at_least_x_set_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

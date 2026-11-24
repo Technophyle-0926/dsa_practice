@@ -1,0 +1,16 @@
+{
+  "title": "Cycles of length n",
+  "number": 5,
+  "category": "Graph Algorithms",
+  "level": "Cycles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/cycles-of-length-n-in-an-undirected-and-connected-graph/",
+  "practice": null,
+  "function": {
+    "name": "cyclesLengthN",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

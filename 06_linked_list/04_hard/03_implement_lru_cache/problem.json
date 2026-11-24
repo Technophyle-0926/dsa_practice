@@ -1,0 +1,16 @@
+{
+  "title": "Implement LRU Cache",
+  "number": 3,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/system-design/lru-cache-implementation/",
+  "practice": null,
+  "function": {
+    "name": "implementLruCache",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

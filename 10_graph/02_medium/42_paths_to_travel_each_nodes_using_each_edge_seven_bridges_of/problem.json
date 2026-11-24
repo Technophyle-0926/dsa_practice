@@ -1,0 +1,24 @@
+{
+  "title": "Paths to travel each nodes using each edge (Seven Bridges of Königsberg)",
+  "number": 42,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/paths-travel-nodes-using-edgeseven-bridges-konigsberg/",
+  "practice": null,
+  "function": {
+    "name": "pathsTravelEachNodesEach",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "pathsTravelEachNodesEach([[0, 1, 0, 0, 1], [1, 0, 1, 1, 0], [0, 1, 0, 1, 0], [0, 1, 1, 0, 0], [1, 0, 0, 0, 0]])",
+    "expected": "5 -> 1 -> 2 -> 3 -> 4 -> 2"
+  }
+}

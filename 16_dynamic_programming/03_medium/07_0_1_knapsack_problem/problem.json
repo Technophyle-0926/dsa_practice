@@ -1,0 +1,32 @@
+{
+  "title": "0-1 Knapsack Problem",
+  "number": 7,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/",
+  "practice": "https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+  "function": {
+    "name": "solve01KnapsackProblem",
+    "params": [
+      {
+        "name": "W",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "List<int>"
+      },
+      {
+        "name": "wt",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "solve01KnapsackProblem(4, [1, 2, 3], [4, 5, 1])",
+    "expected": "3"
+  }
+}

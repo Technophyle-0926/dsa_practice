@@ -10,8 +10,12 @@ Computers operate using binary code, a language made up of **0s** and **1s**. Th
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/little-and-big-endian-mystery/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/00_basics/03_little_and_big_endian_mystery
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

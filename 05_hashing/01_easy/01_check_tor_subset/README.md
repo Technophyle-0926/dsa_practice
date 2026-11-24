@@ -23,13 +23,25 @@ Input: a[] = [10, 5, 2, 23, 19], b = [19, 5, 3]
 Output: false
 ```
 
+## Function Signature
+
+```dart
+bool checkTorSubset(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-whether-an-array-is-subset-of-another-array-set-1/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/01_check_tor_subset
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

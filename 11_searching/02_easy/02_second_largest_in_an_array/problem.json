@@ -1,0 +1,24 @@
+{
+  "title": "Second Largest in an array",
+  "number": 2,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-second-largest-element-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/second-largest3735/1",
+  "function": {
+    "name": "secondLargestArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "secondLargestArray([12, 35, 1, 10, 34, 1])",
+    "expected": "34"
+  }
+}

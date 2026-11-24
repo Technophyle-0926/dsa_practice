@@ -17,12 +17,24 @@ Explanation : There are 2 trees
                  1   2       4
 ```
 
+## Function Signature
+
+```dart
+dynamic countTreesForest(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-number-trees-forest/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/02_count_trees_in_a_forest
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

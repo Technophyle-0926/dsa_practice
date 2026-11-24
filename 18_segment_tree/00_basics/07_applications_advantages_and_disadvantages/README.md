@@ -70,8 +70,12 @@ Query: output the sum from i=1 to i=5
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-segment-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/07_applications_advantages_and_disadvantages
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Deleting at given position",
+  "number": 6,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-a-linked-list-node-at-a-given-position/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1",
+  "function": {
+    "name": "deletingAtGivenPosition",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

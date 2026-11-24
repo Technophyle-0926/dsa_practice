@@ -1,0 +1,16 @@
+{
+  "title": "Bisect in Python",
+  "number": 5,
+  "category": "Searching",
+  "level": "Binary Search Implementations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/python/bisect-algorithm-functions-in-python/",
+  "practice": null,
+  "function": {
+    "name": "bisectPython",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

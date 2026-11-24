@@ -27,13 +27,25 @@ For i = 2, `arr[i] >= arr[i-1]`. So, `3 >= 1`.
 For i = 3, `arr[i] <= arr[i-1]`. So, `2 <= 3`.
 ```
 
+## Function Signature
+
+```dart
+dynamic makeEvenPositionedGreater(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rearrange-array-such-that-even-positioned-are-greater-than-odd/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/rearrange-array-such-that-even-positioned-are-greater-than-odd4804/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/02_make_even_positioned_greater
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "Product of 2 Numbers using Recursion",
+  "number": 20,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/product-2-numbers-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "product2NumbersRecursion",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "product2NumbersRecursion(5, 2)",
+    "expected": "10"
+  }
+}

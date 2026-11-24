@@ -22,13 +22,25 @@ Output: [3, 3, 1, 2, 4]
 Explanation: Elements 3 and 1 come first as per a2. Others (2, 4) are sorted and placed after.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortAccordingOrderDefinedAnother(List<int> a1, List<int> a2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-array-according-order-defined-another-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/relative-sorting4323/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/21_sort_according_to_order_defined_by_another
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

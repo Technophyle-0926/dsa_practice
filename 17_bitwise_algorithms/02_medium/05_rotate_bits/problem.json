@@ -1,0 +1,28 @@
+{
+  "title": "Rotate Bits",
+  "number": 5,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rotate-bits-of-an-integer/",
+  "practice": "https://www.geeksforgeeks.org/problems/rotate-bits4524/1",
+  "function": {
+    "name": "rotateBits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "rotateBits(28, 2)",
+    "expected": "[112, 7]"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Russian Peasant",
+  "number": 15,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/russian-peasant-multiply-two-numbers-using-bitwise-operators/",
+  "practice": null,
+  "function": {
+    "name": "russianPeasant",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "russianPeasant(2, 5)",
+    "expected": "10"
+  }
+}

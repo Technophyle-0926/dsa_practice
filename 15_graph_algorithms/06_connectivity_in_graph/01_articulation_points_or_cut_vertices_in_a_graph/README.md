@@ -28,13 +28,25 @@ Output: [0]
 Explanation: Removing the vertex 0 will increase the number of disconnected components to 3.
 ```
 
+## Function Signature
+
+```dart
+List<int> articulationPointsOrCutVertices(int V, List<List<int>> edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/articulation-points-or-cut-vertices-in-a-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/articulation-point2616/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/06_connectivity_in_graph/01_articulation_points_or_cut_vertices_in_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

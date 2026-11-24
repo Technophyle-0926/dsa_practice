@@ -1,0 +1,24 @@
+{
+  "title": "Minimum insertions for palindrome",
+  "number": 18,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-insertions-to-form-a-palindrome-dp-28/",
+  "practice": "https://www.geeksforgeeks.org/problems/form-a-palindrome2544/1",
+  "function": {
+    "name": "minimumInsertionsPalindrome",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumInsertionsPalindrome(\"geeks\")",
+    "expected": "3"
+  }
+}

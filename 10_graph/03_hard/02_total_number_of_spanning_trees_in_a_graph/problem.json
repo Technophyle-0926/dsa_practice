@@ -1,0 +1,16 @@
+{
+  "title": "Total number of Spanning Trees in a Graph",
+  "number": 2,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/total-number-spanning-trees-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/1",
+  "function": {
+    "name": "totalNumberSpanningTreesGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

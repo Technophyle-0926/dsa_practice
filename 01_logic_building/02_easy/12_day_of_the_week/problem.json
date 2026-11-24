@@ -1,0 +1,32 @@
+{
+  "title": "Day of the Week",
+  "number": 12,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-day-of-the-week-for-a-given-date/",
+  "practice": "https://www.geeksforgeeks.org/problems/day-of-the-week1637/1",
+  "function": {
+    "name": "dayWeek",
+    "params": [
+      {
+        "name": "d",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "dayWeek(30, 8, 2010)",
+    "expected": "1"
+  }
+}

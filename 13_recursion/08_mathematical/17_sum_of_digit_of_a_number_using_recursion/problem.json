@@ -1,0 +1,24 @@
+{
+  "title": "Sum of digit of a number using recursion",
+  "number": 17,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-digit-number-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "sumDigitNumberRecursion",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumDigitNumberRecursion(12345)",
+    "expected": "15"
+  }
+}

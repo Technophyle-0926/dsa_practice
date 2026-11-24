@@ -27,12 +27,24 @@ Two strings are overlapping if prefix of one string is same suffix of other stri
 
 **Working of above Algorithm:**
 
+## Function Signature
+
+```dart
+String shortestSuperstring(List<String> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/shortest-superstring-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/08_approximate_greedy_algorithm_for_np_complete/05_shortest_superstring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

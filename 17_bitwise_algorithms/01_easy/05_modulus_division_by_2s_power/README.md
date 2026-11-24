@@ -20,12 +20,24 @@ Output: 0
 Explanation: As 10%2 = 0
 ```
 
+## Function Signature
+
+```dart
+dynamic modulusDivision2sPower(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/compute-modulus-division-by-a-power-of-2-number/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/05_modulus_division_by_2s_power
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

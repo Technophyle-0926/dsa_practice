@@ -27,13 +27,25 @@ Output: 0
 Explanation: There is no possible path to reach the end.
 ```
 
+## Function Signature
+
+```dart
+int pathsGridObstacles(List<List<int>> grid)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/unique-paths-in-a-grid-with-obstacles/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/unique-paths-in-a-grid--170647/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/12_paths_in_a_grid_with_obstacles
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

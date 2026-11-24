@@ -1,0 +1,24 @@
+{
+  "title": "Remove duplicates from a sorted linked list",
+  "number": 5,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-duplicates-from-a-sorted-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1",
+  "function": {
+    "name": "removeDuplicatesSortedLinkedList",
+    "params": [
+      {
+        "name": "Head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "removeDuplicatesSortedLinkedList(ListNode.fromList([2, 2, 4, 5]))",
+    "expected": "2 -> 4 -> 5"
+  }
+}

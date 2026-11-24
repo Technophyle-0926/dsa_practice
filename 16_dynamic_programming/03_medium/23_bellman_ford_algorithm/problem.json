@@ -1,0 +1,16 @@
+{
+  "title": "Bellman–Ford Algorithm",
+  "number": 23,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/",
+  "practice": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+  "function": {
+    "name": "bellmanFordAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

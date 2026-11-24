@@ -22,13 +22,25 @@ Output : 0
 Explanation : The string is already balanced.
 ```
 
+## Function Signature
+
+```dart
+int minimumSwapsBracketBalancing(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-swaps-bracket-balancing/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing2704/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/20_minimum_swaps_for_bracket_balancing
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

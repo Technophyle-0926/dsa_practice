@@ -1,0 +1,24 @@
+{
+  "title": "First Repeating",
+  "number": 5,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-first-repeating-element-array-integers/",
+  "practice": "https://www.geeksforgeeks.org/problems/first-repeating-element4018/1",
+  "function": {
+    "name": "firstRepeating",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "firstRepeating([10, 5, 3, 4, 3, 5, 6])",
+    "expected": "5"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Substrings with Corners as 1s",
+  "number": 3,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-binary-string-count-number-substrings-start-end-1/",
+  "practice": "https://www.geeksforgeeks.org/problems/binary-string-1587115620/1",
+  "function": {
+    "name": "substringsCornersAs1s",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "substringsCornersAs1s(\"00100101\")",
+    "expected": "3"
+  }
+}

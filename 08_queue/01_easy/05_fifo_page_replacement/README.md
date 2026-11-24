@@ -22,12 +22,24 @@ So total page faults = **5**.
 
 So, total number of page faults = 9. Given memory capacity (as number of pages it can hold) and a string representing pages to be referred, write a function to find number of page faults.
 
+## Function Signature
+
+```dart
+dynamic fifoPageReplacement(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-page-replacement-algorithms-set-2-fifo/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/01_easy/05_fifo_page_replacement
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

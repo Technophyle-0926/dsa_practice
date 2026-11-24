@@ -1,0 +1,16 @@
+{
+  "title": "What is Ternary Tree",
+  "number": 1,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/what-is-ternary-tree/",
+  "practice": null,
+  "function": {
+    "name": "whatTernaryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

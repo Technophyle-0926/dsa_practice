@@ -1,0 +1,16 @@
+{
+  "title": "Wildcard Pattern Matching",
+  "number": 19,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/implementing-regular-expression-matching/",
+  "practice": null,
+  "function": {
+    "name": "wildcardPatternMatching",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

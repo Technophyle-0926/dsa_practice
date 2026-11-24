@@ -1,0 +1,16 @@
+{
+  "title": "Strongly Connected Components",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/strongly-connected-components/",
+  "practice": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+  "function": {
+    "name": "stronglyConnectedComponents",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

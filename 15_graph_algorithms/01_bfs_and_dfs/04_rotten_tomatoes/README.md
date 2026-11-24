@@ -28,13 +28,25 @@ Output: -1
 Explanation:
 ```
 
+## Function Signature
+
+```dart
+int rottenTomatoes(List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-time-required-so-that-all-oranges-become-rotten/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/rotten-oranges2536/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/01_bfs_and_dfs/04_rotten_tomatoes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

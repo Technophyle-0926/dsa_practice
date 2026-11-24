@@ -1,0 +1,24 @@
+{
+  "title": "Buildings Facing Sun",
+  "number": 7,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-buildings-facing-sun/",
+  "practice": "https://www.geeksforgeeks.org/problems/buildings-receiving-sunlight3032/1",
+  "function": {
+    "name": "buildingsFacingSun",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "buildingsFacingSun([6, 2, 8, 4, 11, 13])",
+    "expected": "4"
+  }
+}

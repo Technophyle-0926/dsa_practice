@@ -35,13 +35,25 @@ Explanation:
 So, the total cost = 3 + 3 + 3 = 9.
 ```
 
+## Function Signature
+
+```dart
+int minCostCutBoardInto(int n, int m, List<int> x, List<int> y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-cost-cut-board-squares/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/04_min_cost_to_cut_a_board_into_squares
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

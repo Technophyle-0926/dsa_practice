@@ -1,0 +1,24 @@
+{
+  "title": "Single Among Doubles",
+  "number": 5,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-element-appears-array-every-element-appears-twice/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-unique-number/1",
+  "function": {
+    "name": "singleAmongDoubles",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "singleAmongDoubles([2, 3, 5, 4, 5, 3, 4])",
+    "expected": "2"
+  }
+}

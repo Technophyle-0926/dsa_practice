@@ -26,13 +26,25 @@ Output: 1<->4<->10<->11<->15
 Explanation: Here node 15 is inserted at end in the Doubly Linked-List.
 ```
 
+## Function Signature
+
+```dart
+DListNode? insertSortedWayDoublyLinked(DListNode? head, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/insert-value-sorted-way-sorted-doubly-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/15_insert_in_sorted_way_in_doubly_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

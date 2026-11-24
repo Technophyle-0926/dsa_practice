@@ -26,12 +26,24 @@ T3 -> R1
 
 Note that the maximum number of packets that can be transferred in any slot is min(M, N).
 
+## Function Signature
+
+```dart
+dynamic channelAssignmentProblem(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/channel-assignment-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/48_channel_assignment_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

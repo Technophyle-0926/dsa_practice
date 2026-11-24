@@ -20,12 +20,24 @@ Output:
 110110 100100
 ```
 
+## Function Signature
+
+```dart
+List<int> findAllEvenLengthBinary(int N)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-all-even-length-binary-sequences-with-same-sum-of-first-and-second-half-bits/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/05_find_all_even_length_binary_sequences_with_same_sum_of_first
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

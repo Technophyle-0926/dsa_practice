@@ -10,8 +10,12 @@
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/asymptotic-notation-and-analysis-based-on-input-size-of-algorithms/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/00_basics/03_asymptotic_analysis
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

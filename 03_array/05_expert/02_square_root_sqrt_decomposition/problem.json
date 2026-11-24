@@ -1,0 +1,16 @@
+{
+  "title": "Square Root (Sqrt) Decomposition",
+  "number": 2,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/square-root-sqrt-decomposition-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "squareRootSqrtDecomposition",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

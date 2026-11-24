@@ -18,8 +18,12 @@ FIFO Principle states that the first element added to the Queue will be the firs
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-queue-data-structure-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

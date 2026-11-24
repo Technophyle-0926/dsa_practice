@@ -1,0 +1,28 @@
+{
+  "title": "Remove all occurrences",
+  "number": 6,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-all-occurrences-of-a-character-in-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1",
+  "function": {
+    "name": "removeAllOccurrences",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "c",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "removeAllOccurrences(\"geeksforgeeks\", \"e\")",
+    "expected": "s = \"gksforgks\""
+  }
+}

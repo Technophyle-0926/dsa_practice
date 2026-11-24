@@ -28,13 +28,25 @@ Output: "abcd"
 Explanation: There are no adjacent duplicate characters
 ```
 
+## Function Signature
+
+```dart
+String removeAdjacent(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursively-remove-adjacent-duplicates-given-string/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/recursively-remove-all-adjacent-duplicates0744/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/10_remove_adjacent
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

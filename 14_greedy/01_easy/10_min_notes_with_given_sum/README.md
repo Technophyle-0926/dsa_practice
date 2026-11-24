@@ -26,12 +26,24 @@ Output : Currency  Count
 This problem is a simple variation of coin change problem. Here Greedy approach works as the given system is canonical (Please refer this and this for details)
 Below is the program implementation to find the number of notes:
 
+## Function Signature
+
+```dart
+String minNotesGivenSum(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-number-currency-notes-sum-upto-given-amount/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/10_min_notes_with_given_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Max product of indexes of greater on left and right",
+  "number": 10,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-product-of-indexes-of-next-greater-on-left-and-right/",
+  "practice": null,
+  "function": {
+    "name": "maxProductIndexesGreaterLeft",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxProductIndexesGreaterLeft([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])",
+    "expected": "24"
+  }
+}

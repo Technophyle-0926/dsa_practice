@@ -1,0 +1,24 @@
+{
+  "title": "Count consonants in a string (Iterative and recursive methods)",
+  "number": 12,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-consonants-string-iterative-recursive-methods/",
+  "practice": null,
+  "function": {
+    "name": "countConsonantsStringIterativeRecursive",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countConsonantsStringIterativeRecursive(\"abc de\")",
+    "expected": "3"
+  }
+}

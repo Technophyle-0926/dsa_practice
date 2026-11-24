@@ -37,13 +37,25 @@ Output: 5
 Explanation: We can cut the paper into 5 squares: 1 square of size 4x4, 2 squares of size 3x3 and 2 squares of size 3x3.
 ```
 
+## Function Signature
+
+```dart
+dynamic paperCutIntoMinSquares(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/paper-cut-minimum-number-squares/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/min-cut-square3303/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/10_paper_cut_into_min_squares
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

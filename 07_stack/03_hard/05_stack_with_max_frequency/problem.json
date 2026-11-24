@@ -1,0 +1,16 @@
+{
+  "title": "Stack with max frequency",
+  "number": 5,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/design-a-stack-which-can-give-maximum-frequency-element/",
+  "practice": null,
+  "function": {
+    "name": "stackMaxFrequency",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

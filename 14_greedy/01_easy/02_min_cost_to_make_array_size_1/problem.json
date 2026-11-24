@@ -1,0 +1,24 @@
+{
+  "title": "Min Cost to Make Array Size 1",
+  "number": 2,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cost-make-array-size-1-removing-larger-pairs/",
+  "practice": "https://www.geeksforgeeks.org/problems/min-cost-to-make-size-1/1",
+  "function": {
+    "name": "minCostMakeArraySize",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minCostMakeArraySize([4, 3, 2])",
+    "expected": "4"
+  }
+}

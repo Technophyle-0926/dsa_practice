@@ -1,0 +1,16 @@
+{
+  "title": "Array Implementation",
+  "number": 17,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-tree-array-implementation/",
+  "practice": null,
+  "function": {
+    "name": "arrayImplementation",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

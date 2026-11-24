@@ -22,13 +22,25 @@ Output: [4, 2, 8, 7, 10, 9]
 Explanation: Array elements after sorting it in the waveform are 4, 2, 8, 7, 10, 9.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortWaveForm(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-array-wave-form-2/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/wave-array-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/06_sort_in_wave_form
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

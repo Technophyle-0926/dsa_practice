@@ -27,12 +27,24 @@ What we first do is iterate through the given integers counting the number of oc
 Now we maintain a queue for each possible level of the segment tree. We put the initial root of the tree (array index 0) into the queue for the max level. We then insert the smallest element into the leftmost nodes. We then detach these nodes from the main tree. As we detach a node, we create a new tree of height h - 1, where h is the height of the current node. We can see this in figure 2. We insert the root node of this new tree into the appropriate queue based on its height.
 We go through each element, getting a tree of the appropriate height based on the number of occurrences of that element. If at any point such a tree does not exist, then it is not possible to create a segment tree.
 
+## Function Signature
+
+```dart
+dynamic reconstructingSegmentTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reconstructing-segment-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/03_interesting_problems/10_reconstructing_segment_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

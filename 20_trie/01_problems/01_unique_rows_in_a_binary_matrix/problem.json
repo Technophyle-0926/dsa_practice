@@ -1,0 +1,24 @@
+{
+  "title": "Unique rows in a binary matrix",
+  "number": 1,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": null,
+  "practice": "https://www.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1",
+  "function": {
+    "name": "uniqueRowsBinaryMatrix",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "uniqueRowsBinaryMatrix([[1, 1, 0, 1], [1, 0, 0, 1], [1, 1, 0, 1]])",
+    "expected": "[[1, 1, 0, 1], [1, 0, 0, 1]]"
+  }
+}

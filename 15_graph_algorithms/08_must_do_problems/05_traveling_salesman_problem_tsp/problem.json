@@ -1,0 +1,24 @@
+{
+  "title": "Traveling Salesman Problem (TSP)",
+  "number": 5,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/traveling-salesman-problem-tsp-implementation/",
+  "practice": "https://www.geeksforgeeks.org/problems/travelling-salesman-problem2732/1",
+  "function": {
+    "name": "travelingSalesmanProblemTsp",
+    "params": [
+      {
+        "name": "cost",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "travelingSalesmanProblemTsp([[0, 111], [112, 0]])",
+    "expected": "223"
+  }
+}

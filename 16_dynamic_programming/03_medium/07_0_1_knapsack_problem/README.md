@@ -22,13 +22,25 @@ Output: 0
 Explanation: All the item weights are greater than the knapsack capacity.
 ```
 
+## Function Signature
+
+```dart
+int solve01KnapsackProblem(int W, List<int> val, List<int> wt)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/07_0_1_knapsack_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

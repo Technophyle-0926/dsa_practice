@@ -1,0 +1,28 @@
+{
+  "title": "Assign Cookies",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/assign-cookies/",
+  "practice": "https://www.geeksforgeeks.org/problems/assign-cookies/1",
+  "function": {
+    "name": "assignCookies",
+    "params": [
+      {
+        "name": "greed",
+        "type": "List<int>"
+      },
+      {
+        "name": "cookie",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "assignCookies([1, 10, 3], [1, 2, 3])",
+    "expected": "2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Search a Node",
+  "number": 11,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/search-a-node-in-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "searchNode",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Josephus Problem",
+  "number": 8,
+  "category": "Logic Building",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/josephus-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/josephus-problem/1",
+  "function": {
+    "name": "josephusProblem",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "josephusProblem(5, 2)",
+    "expected": "3"
+  }
+}

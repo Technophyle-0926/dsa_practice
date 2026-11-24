@@ -1,0 +1,36 @@
+{
+  "title": "Sort after applying an equation",
+  "number": 9,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-applying-given-equation/",
+  "practice": "https://www.geeksforgeeks.org/problems/sort-the-given-array-after-applying-the-given-equation0304/1",
+  "function": {
+    "name": "sortAfterApplyingEquation",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "A",
+        "type": "int"
+      },
+      {
+        "name": "B",
+        "type": "int"
+      },
+      {
+        "name": "C",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortAfterApplyingEquation([-4, -2, 0, 2, 4], 1, 3, 5)",
+    "expected": "[3, 5, 9, 15, 33]"
+  }
+}

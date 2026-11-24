@@ -1,0 +1,24 @@
+{
+  "title": "Count of subsets not containing adjacent elements",
+  "number": 24,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-of-subsets-not-containing-adjacent-elements/",
+  "practice": null,
+  "function": {
+    "name": "countSubsetsNotContainingAdjacent",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countSubsetsNotContainingAdjacent([2, 7])",
+    "expected": "3"
+  }
+}

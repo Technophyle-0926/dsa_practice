@@ -1,0 +1,24 @@
+{
+  "title": "Nth Node from Start",
+  "number": 8,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/write-a-function-to-get-nth-node-in-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1",
+  "function": {
+    "name": "nthNodeStart",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "nthNodeStart(6)",
+    "expected": "-1"
+  }
+}

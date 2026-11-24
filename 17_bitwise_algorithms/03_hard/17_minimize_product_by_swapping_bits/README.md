@@ -28,12 +28,24 @@ Step 2: In elements 3 = (0011) and 4 = (0100), swap 1th bit. Therefore, replace 
 Hence, the minimum product = 1*1*1*6*6*6*7 = 1512 % 1e9+7 = 1512.
 ```
 
+## Function Signature
+
+```dart
+int minimizeProductSwappingBits(int N)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimize-product-of-first-n-1-natural-numbers-by-swapping-same-positioned-bits-of-pairs/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/17_minimize_product_by_swapping_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

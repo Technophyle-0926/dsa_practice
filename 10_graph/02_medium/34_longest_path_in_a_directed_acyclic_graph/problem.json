@@ -1,0 +1,16 @@
+{
+  "title": "Longest Path in a Directed Acyclic Graph",
+  "number": 34,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-longest-path-directed-acyclic-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-path-in-a-directed-acyclic-graph/1",
+  "function": {
+    "name": "longestPathDirectedAcyclicGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Remove every k-th node",
+  "number": 1,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-every-k-th-node-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/remove-every-kth-node/1",
+  "function": {
+    "name": "removeEveryKThNode",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

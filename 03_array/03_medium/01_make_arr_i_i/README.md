@@ -20,13 +20,25 @@ Output: [0, 1, 2, 3, 4, 5]
 Explanation: In range 0 to 5, all number are present.
 ```
 
+## Function Signature
+
+```dart
+List<int> makeArrII(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rearrange-array-arri/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/rearrange-an-array-such-that-arri-i3618/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/01_make_arr_i_i
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

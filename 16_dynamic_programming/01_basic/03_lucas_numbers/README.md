@@ -20,13 +20,25 @@ Input : 7
 Output : 29
 ```
 
+## Function Signature
+
+```dart
+int lucasNumbers(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/lucas-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/lucas-number4515/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/03_lucas_numbers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

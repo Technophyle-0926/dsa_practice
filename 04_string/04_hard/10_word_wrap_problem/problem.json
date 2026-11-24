@@ -1,0 +1,28 @@
+{
+  "title": "Word Wrap problem",
+  "number": 10,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/word-wrap-problem-dp-19/",
+  "practice": "https://www.geeksforgeeks.org/problems/word-wrap1646/1",
+  "function": {
+    "name": "wordWrapProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "wordWrapProblem([3, 2, 2, 5], 6)",
+    "expected": "10"
+  }
+}

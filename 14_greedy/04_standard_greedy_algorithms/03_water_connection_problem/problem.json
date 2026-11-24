@@ -1,0 +1,40 @@
+{
+  "title": "Water Connection Problem",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/water-connection-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/water-connection-problem5822/1",
+  "function": {
+    "name": "waterConnectionProblem",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "p",
+        "type": "int"
+      },
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      },
+      {
+        "name": "d",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "waterConnectionProblem(9, 6, [7, 5, 4, 2, 9, 3], [4, 9, 6, 8, 7, 1], [98, 72, 10, 22, 17, 66])",
+    "expected": "[[2, 8, 22], [3, 1, 66], [5, 6, 10]]"
+  }
+}

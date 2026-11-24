@@ -22,13 +22,25 @@ Output: 3000
 Explanation: We can visit 0->1->2->0 and cost = 1000 + 1000 + 1000 = 3000.
 ```
 
+## Function Signature
+
+```dart
+int travelingSalesmanProblemTspImplementation(List<List<int>> cost)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/traveling-salesman-problem-tsp-implementation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/travelling-salesman-problem2732/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/03_hard/09_traveling_salesman_problem_tsp_implementation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

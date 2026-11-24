@@ -1,0 +1,16 @@
+{
+  "title": "Level of a Given Node in Tree",
+  "number": 10,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/get-level-of-a-node-in-a-binary-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/level-of-a-node-in-binary-tree/1",
+  "function": {
+    "name": "levelGivenNodeTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

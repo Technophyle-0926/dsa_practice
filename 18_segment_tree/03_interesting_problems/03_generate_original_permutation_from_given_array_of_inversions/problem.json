@@ -1,0 +1,24 @@
+{
+  "title": "Generate original permutation from given array of inversions",
+  "number": 3,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generate-original-permutation-from-given-array-of-inversions/",
+  "practice": null,
+  "function": {
+    "name": "generateOriginalPermutationGivenArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "generateOriginalPermutationGivenArray([0, 1, 1, 0, 3])",
+    "expected": "4 1 3 5 2"
+  }
+}

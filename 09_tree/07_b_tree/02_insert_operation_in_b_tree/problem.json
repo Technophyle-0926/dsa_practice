@@ -1,0 +1,16 @@
+{
+  "title": "Insert Operation in B-Tree",
+  "number": 2,
+  "category": "Tree",
+  "level": "B Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insert-operation-in-b-tree/",
+  "practice": null,
+  "function": {
+    "name": "insertOperationBTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

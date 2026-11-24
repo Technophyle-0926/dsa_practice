@@ -1,0 +1,24 @@
+{
+  "title": "Check for Sparse",
+  "number": 12,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-given-number-is-sparse-or-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/number-is-sparse-or-not-1587115620/1",
+  "function": {
+    "name": "checkSparse",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkSparse(72)",
+    "expected": "true"
+  }
+}

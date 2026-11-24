@@ -24,13 +24,25 @@ Output: 0
 Explanation: It is not possible to make the sums of all three stacks equal by removing elements from their tops.
 ```
 
+## Function Signature
+
+```dart
+int maxEqualSumThreeStacks(List<int> s1, List<int> s2, List<int> s3)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-maximum-sum-possible-equal-sum-three-stacks/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-maximum-equal-sum-of-three-stacks/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/11_max_equal_sum_of_three_stacks
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

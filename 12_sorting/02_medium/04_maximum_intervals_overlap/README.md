@@ -44,13 +44,25 @@ Output: 2 5
 Explanation: Maximum guests are 2 at time 5
 ```
 
+## Function Signature
+
+```dart
+List<int> maximumIntervalsOverlap(List<int> Entry, List<int> Exit)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-point-where-maximum-intervals-overlap/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-intervals-overlap5708/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/04_maximum_intervals_overlap
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -25,12 +25,24 @@ Input: arr[] = [50, 40, 70, 60, 90], index[] = [3,  0,  4,  1,  2]
 Output: 40 60 90 50 70
 ```
 
+## Function Signature
+
+```dart
+List<int> reorderAccordingGivenIndexes(List<int> arr, List<int> index)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reorder-a-array-according-to-given-indexes/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/03_reorder_according_to_given_indexes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

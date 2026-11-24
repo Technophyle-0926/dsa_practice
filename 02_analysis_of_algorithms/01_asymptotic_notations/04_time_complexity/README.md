@@ -161,8 +161,12 @@ So, the time complexity is **linear: O(n)** i.e. every time, a linear amount of 
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/understanding-time-complexity-simple-examples/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/01_asymptotic_notations/04_time_complexity
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Mirror of n-ary Tree",
+  "number": 5,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/mirror-of-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "mirrorNAryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -26,13 +26,25 @@ Output: '$'
 Explanation: All the characters in the given string are repeating.
 ```
 
+## Function Signature
+
+```dart
+String firstNonRepeatingCharacter(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-a-string-find-its-first-non-repeating-character/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/02_first_non_repeating_character
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Check if a destination is reachable from source with two movements allowed",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Misc",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-destination-reachable-source-two-movements-allowed/",
+  "practice": null,
+  "function": {
+    "name": "checkIfDestinationReachableSource",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

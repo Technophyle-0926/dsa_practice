@@ -31,12 +31,24 @@ Given a text **t** and a pattern **p** where t consists of only lowercase Englis
 `Explanation: ``Note that * can match 0 occurrences also.`
 ```
 
+## Function Signature
+
+```dart
+dynamic wildcardPatternMatching(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/implementing-regular-expression-matching/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/19_wildcard_pattern_matching
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

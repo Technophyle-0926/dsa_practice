@@ -28,13 +28,25 @@ Output: 2
 Explanation: The subarray is [2, -2] has sum = 0, which is divisible by 2.
 ```
 
+## Function Signature
+
+```dart
+int subarraySumDivisibleK(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-subarray-sum-divisible-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-subarray-with-sum-divisible-by-k1259/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/02_subarray_with_sum_divisible_by_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

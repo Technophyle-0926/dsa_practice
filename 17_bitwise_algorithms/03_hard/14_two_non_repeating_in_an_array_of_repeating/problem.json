@@ -1,0 +1,24 @@
+{
+  "title": "Two non-repeating in an array of repeating",
+  "number": 14,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-two-non-repeating-elements-in-an-array-of-repeating-elements/",
+  "practice": "https://www.geeksforgeeks.org/problems/finding-the-numbers0215/1",
+  "function": {
+    "name": "twoNonRepeatingArrayRepeating",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "twoNonRepeatingArrayRepeating([1, 2, 3, 2, 1, 4])",
+    "expected": "[3, 4]"
+  }
+}

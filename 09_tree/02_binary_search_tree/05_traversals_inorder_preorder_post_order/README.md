@@ -28,12 +28,24 @@ Preorder Traversal: 22 12 8 20 30 25 40
 Postorder Traversal: 8 20 12 25 40 30 22
 ```
 
+## Function Signature
+
+```dart
+dynamic traversalsInorderPreorderPostOrder(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-search-tree-traversal-inorder-preorder-post-order/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/02_binary_search_tree/05_traversals_inorder_preorder_post_order
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

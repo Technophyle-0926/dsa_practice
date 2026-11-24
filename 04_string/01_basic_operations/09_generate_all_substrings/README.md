@@ -23,12 +23,24 @@ Input :  s = "a"
 Output :  "a"
 ```
 
+## Function Signature
+
+```dart
+dynamic generateAllSubstrings(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-print-substrings-given-string/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/01_basic_operations/09_generate_all_substrings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

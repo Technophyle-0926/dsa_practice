@@ -1,0 +1,24 @@
+{
+  "title": "Longest Palindromic-Rearrangeable Substring",
+  "number": 15,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-substring-whose-characters-can-be-rearranged-to-form-a-palindrome/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-substring-whose-character-rearranged-can-form-a-palindrome/1",
+  "function": {
+    "name": "longestPalindromicRearrangeableSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestPalindromicRearrangeableSubstring(\"aabe\")",
+    "expected": "3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Alien Dictionary",
+  "number": 3,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-sorted-dictionary-find-precedence-characters/",
+  "practice": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+  "function": {
+    "name": "alienDictionary",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "alienDictionary([\"baa\", \"abcd\", \"abca\", \"cab\", \"cad\"])",
+    "expected": "\"bdac\""
+  }
+}

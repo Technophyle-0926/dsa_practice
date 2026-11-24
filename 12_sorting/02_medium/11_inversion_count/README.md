@@ -28,13 +28,25 @@ Output: 0
 Explanation: There is no pair of indexes (i, j) exists in the given array such that arr[i] > arr[j] and i < j
 ```
 
+## Function Signature
+
+```dart
+int inversionCount(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/inversion-count-in-array-using-merge-sort/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/11_inversion_count
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

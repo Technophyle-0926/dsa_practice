@@ -1,0 +1,24 @@
+{
+  "title": "Find middle of singly linked list Recursively",
+  "number": 7,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-middle-singly-linked-list-recursively/",
+  "practice": null,
+  "function": {
+    "name": "findMiddleSinglyLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "findMiddleSinglyLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "3"
+  }
+}

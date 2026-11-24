@@ -1,0 +1,16 @@
+{
+  "title": "Disjoint Set Data Structure",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Cycles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/",
+  "practice": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
+  "function": {
+    "name": "disjointDataStructure",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

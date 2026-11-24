@@ -18,13 +18,25 @@ Output: 120
 Explanation: ^6P_3 = 6! / (6 - 3)!  = 120
 ```
 
+## Function Signature
+
+```dart
+int computeNpr(int n, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-to-calculate-the-value-of-npr/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/npr4253/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/08_compute_npr
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

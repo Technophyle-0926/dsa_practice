@@ -1,0 +1,32 @@
+{
+  "title": "MO’s Algorithm",
+  "number": 1,
+  "category": "Sqrt Decomposition",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/mos-algorithm-query-square-root-decomposition-set-1-introduction/",
+  "practice": "https://www.geeksforgeeks.org/problems/interesting-queries4742/1",
+  "function": {
+    "name": "mosAlgorithm",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "mosAlgorithm([1, 1, 2, 1, 3], [[1, 5], [2, 4]], 1)",
+    "expected": "[3, 2]"
+  }
+}

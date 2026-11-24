@@ -26,13 +26,25 @@ Output: ((A-(B/C))*((A/K)-L))
 Explanation: The prefix expression starts with '*', so the final operation is multiplication.  The left subexpression '-A/BC' converts to '(A-(B/C))', and the right subexpression '-/AKL' converts to '((A/K)-L)'.  Combining these two subexpressions with '*' gives the fully parenthesized infix expression: ((A-(B/C))*((A/K)-L))
 ```
 
+## Function Signature
+
+```dart
+dynamic prefixInfix(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/prefix-infix-conversion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/05_prefix_to_infix
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

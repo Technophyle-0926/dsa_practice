@@ -1,0 +1,24 @@
+{
+  "title": "Largest palindromic number by permuting digits",
+  "number": 14,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/largest-palindromic-number-permuting-digits/",
+  "practice": null,
+  "function": {
+    "name": "largestPalindromicNumberPermutingDigits",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "largestPalindromicNumberPermutingDigits(\"313551\")",
+    "expected": "\"531135\""
+  }
+}

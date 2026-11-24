@@ -1,0 +1,24 @@
+{
+  "title": "Binary Representation",
+  "number": 1,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-representation-of-a-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/binary-representation5003/1",
+  "function": {
+    "name": "binaryRepresentation",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "binaryRepresentation(2)",
+    "expected": "00000000000000000000000000000010"
+  }
+}

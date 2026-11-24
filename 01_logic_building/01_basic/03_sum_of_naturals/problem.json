@@ -1,0 +1,24 @@
+{
+  "title": "Sum of Naturals",
+  "number": 3,
+  "category": "Logic Building",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-find-sum-first-n-natural-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-coding2452/1",
+  "function": {
+    "name": "sumNaturals",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumNaturals(3)",
+    "expected": "6"
+  }
+}

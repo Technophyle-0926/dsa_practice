@@ -20,13 +20,25 @@ Output: [3, 2, 1]
 Explanation: The stack is already sorted in ascending order.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortStackRecursion(List<int> st)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-a-stack-using-recursion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sort-a-stack/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/03_stack/02_sort_a_stack_using_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

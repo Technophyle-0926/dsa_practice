@@ -28,13 +28,25 @@ Output: [[1, 2, 60], [3, 4, 50]]
 Explanation: There are two separate chains: 1 -> 2 and 3 -> 4. Each chain has only one pipe, so its minimum diameter is just that pipe's diameter: 60 and 50 respectively.
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> waterConnectionProblem(int n, int p, List<int> a, List<int> b, List<int> d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/water-connection-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/water-connection-problem5822/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/03_water_connection_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

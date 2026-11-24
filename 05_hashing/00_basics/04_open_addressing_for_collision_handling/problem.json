@@ -1,0 +1,9 @@
+{
+  "title": "Open Addressing for Collision Handling",
+  "number": 4,
+  "category": "Hashing",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/open-addressing-collision-handling-technique-in-hashing/",
+  "practice": null
+}

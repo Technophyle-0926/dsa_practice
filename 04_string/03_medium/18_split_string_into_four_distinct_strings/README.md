@@ -19,13 +19,25 @@ Output: false
 Explanation: There is no way to split the string into four non-empty substrings such that all four substrings are distinct. Therefore, the output is false.
 ```
 
+## Function Signature
+
+```dart
+bool splitStringIntoFourDistinct(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-given-string-can-split-four-distinct-strings/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/split-the-string2424/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/18_split_string_into_four_distinct_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "K Most Frequent",
+  "number": 8,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-k-numbers-occurrences-given-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1",
+  "function": {
+    "name": "kMostFrequent",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "kMostFrequent([3, 1, 4, 4, 5, 2, 6, 1], 2)",
+    "expected": "[4, 1]"
+  }
+}

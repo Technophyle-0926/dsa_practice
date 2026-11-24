@@ -1,0 +1,28 @@
+{
+  "title": "Check Power",
+  "number": 4,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-number-is-power-of-another-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1",
+  "function": {
+    "name": "checkPower",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkPower(2, 8)",
+    "expected": "true"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Turn off the rightmost set bit",
+  "number": 2,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/turn-off-the-rightmost-set-bit/",
+  "practice": null,
+  "function": {
+    "name": "turnOffRightmostBit",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "turnOffRightmostBit(12)",
+    "expected": "8"
+  }
+}

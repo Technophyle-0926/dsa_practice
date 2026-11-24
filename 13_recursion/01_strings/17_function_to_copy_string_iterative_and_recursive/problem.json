@@ -1,0 +1,28 @@
+{
+  "title": "Function to copy string (Iterative and Recursive)",
+  "number": 17,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/function-copy-string-iterative-recursive/",
+  "practice": null,
+  "function": {
+    "name": "functionCopyStringIterativeRecursive",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "functionCopyStringIterativeRecursive(\"hello\", \"geeksforgeeks\")",
+    "expected": "s2 = \"hello\""
+  }
+}

@@ -117,12 +117,24 @@ key = 5 to be searched between the range 0 to 4 in specified array.
 Output: -1
 ```
 
+## Function Signature
+
+```dart
+dynamic arraysBinarysearchJavaSearchSubarray(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/java/arrays-binarysearch-in-java-with-examples-set-2-search-in-subarray/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/01_binary_search_implementations/03_arrays_binarysearch_in_java_for_search_in_subarray
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

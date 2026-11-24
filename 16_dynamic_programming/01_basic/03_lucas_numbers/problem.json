@@ -1,0 +1,24 @@
+{
+  "title": "Lucas Numbers",
+  "number": 3,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lucas-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/lucas-number4515/1",
+  "function": {
+    "name": "lucasNumbers",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "lucasNumbers(3)",
+    "expected": "4"
+  }
+}

@@ -26,13 +26,25 @@ Output: 3 4
 Explanation: After each insertion, there is at least 1 element, so the 1st largest elements are 3 and then 4.
 ```
 
+## Function Signature
+
+```dart
+List<int> kthLargestStream(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/kth-largest-element-in-a-stream/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/04_hard/07_kth_largest_in_a_stream
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

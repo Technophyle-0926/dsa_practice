@@ -114,12 +114,24 @@ Notwithstanding, because of their qualities, we can likewise utilize RB trees as
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic applicationsAdvantagesDisadvantages(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-red-black-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/04_red_black_tree/05_applications_advantages_and_disadvantages
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

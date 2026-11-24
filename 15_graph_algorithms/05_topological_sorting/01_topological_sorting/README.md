@@ -77,12 +77,24 @@ Refer to this article to read more.
 - Task scheduling and project management. For example, course scheduling in universities.
 - Detects cycles in a directed graph. For example,  Deadlock detection in operating systems
 
+## Function Signature
+
+```dart
+dynamic topologicalSorting(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/topological-sorting/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/01_topological_sorting
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

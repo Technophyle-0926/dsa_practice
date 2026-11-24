@@ -18,13 +18,25 @@ Output : [“1*2+5”, “12-5”]
 Explanation: The two valid expressions that evaluate to 7 are (1 * 2 + 5) and (12 - 5).
 ```
 
+## Function Signature
+
+```dart
+dynamic printAllPossibleExpressionsThat(String digits, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-all-possible-expressions-that-evaluate-to-a-target/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/expression-add-operators/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/06_print_all_possible_expressions_that_evaluate_to_a_target
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

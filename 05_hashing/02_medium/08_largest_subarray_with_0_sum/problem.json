@@ -1,0 +1,24 @@
+{
+  "title": "Largest subarray with 0 sum",
+  "number": 8,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-largest-subarray-with-0-sum/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1",
+  "function": {
+    "name": "largestSubarray0Sum",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "largestSubarray0Sum([15, -2, 2, -8, 1, 7, 10])",
+    "expected": "5"
+  }
+}

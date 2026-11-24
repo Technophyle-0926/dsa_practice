@@ -22,13 +22,25 @@ Output: 2
 Explanation: There are two common subsequences {1, 4} and {1, 3} both of length 2.
 ```
 
+## Function Signature
+
+```dart
+int longestCommonIncreasingSubsequenceLcs(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-common-increasing-subsequence-lcs-lis/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-common-increasing-subsequence1437/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/15_longest_common_increasing_subsequence_lcs_plus_lis
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

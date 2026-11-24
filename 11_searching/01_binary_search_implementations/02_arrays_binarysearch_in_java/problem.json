@@ -1,0 +1,16 @@
+{
+  "title": "Arrays.binarySearch() in Java",
+  "number": 2,
+  "category": "Searching",
+  "level": "Binary Search Implementations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/java/arrays-binarysearch-java-examples-set-1/",
+  "practice": null,
+  "function": {
+    "name": "arraysBinarysearchJava",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

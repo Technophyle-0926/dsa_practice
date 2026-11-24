@@ -1,0 +1,28 @@
+{
+  "title": "Calculate Bitwise OR of two integers",
+  "number": 17,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/calculate-bitwise-or-of-two-integers-from-their-given-bitwise-and-and-bitwise-xor-values/",
+  "practice": null,
+  "function": {
+    "name": "calculateBitwiseOrTwoIntegers",
+    "params": [
+      {
+        "name": "X",
+        "type": "int"
+      },
+      {
+        "name": "Y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "calculateBitwiseOrTwoIntegers(5, 2)",
+    "expected": "7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Combinations in a String of Digits",
+  "number": 11,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/combinations-string-digits/",
+  "practice": null,
+  "function": {
+    "name": "combinationsStringDigits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "combinationsStringDigits(123)",
+    "expected": "1 2 3"
+  }
+}

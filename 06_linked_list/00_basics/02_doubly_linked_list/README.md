@@ -23,8 +23,12 @@ Here is how a node in a Doubly Linked List is typically represented:
 - 📖 Article: https://www.geeksforgeeks.org/dsa/doubly-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/display-doubly-linked-list--154650/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/00_basics/02_doubly_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

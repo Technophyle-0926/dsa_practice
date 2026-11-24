@@ -1,0 +1,24 @@
+{
+  "title": "Longest Palindromic Subsequence",
+  "number": 14,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-palindromic-subsequence-dp-12/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1",
+  "function": {
+    "name": "longestPalindromicSubsequence",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestPalindromicSubsequence(\"bbabcbcab\")",
+    "expected": "7"
+  }
+}

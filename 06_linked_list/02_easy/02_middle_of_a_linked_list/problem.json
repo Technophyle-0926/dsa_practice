@@ -1,0 +1,16 @@
+{
+  "title": "Middle of a Linked List",
+  "number": 2,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/write-a-c-function-to-print-the-middle-of-the-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1",
+  "function": {
+    "name": "middleLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

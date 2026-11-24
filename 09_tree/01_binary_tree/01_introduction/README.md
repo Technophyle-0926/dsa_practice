@@ -38,12 +38,24 @@ Syntax to declare a Node of Binary Tree in different languages:
 
 In this example, we will explore how to create a Binary Tree with four nodes 2, 3, 4, 5.
 
+## Function Signature
+
+```dart
+dynamic introduction(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-binary-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/01_binary_tree/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Find the Parent",
+  "number": 12,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-parent-of-a-node-in-the-given-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "findParent",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

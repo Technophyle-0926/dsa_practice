@@ -1,0 +1,24 @@
+{
+  "title": "Powers-2-required-sum",
+  "number": 21,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/powers-2-required-sum/",
+  "practice": null,
+  "function": {
+    "name": "powers2RequiredSum",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "powers2RequiredSum(71307)",
+    "expected": "0, 1, 3, 7, 9, 10, 12, 16"
+  }
+}

@@ -22,12 +22,24 @@ Explanation: [2, 5, 1, 8] is the range 2..5 and 2 is the 2nd smallest number in 
 [3, 2, 5, 1, 8, 9] is the range 1..6 and 5 is the 4th smallest number in it.
 ```
 
+## Function Signature
+
+```dart
+dynamic mergeSortTreeRangeOrder(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-sort-tree-for-range-order-statistics/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/05_expert/07_merge_sort_tree_for_range_order_statistics
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

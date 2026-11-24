@@ -29,13 +29,25 @@ Output: 20
 Explanation: The value of 6C3 is (6 × 5 × 4) / (3 × 2 × 1) = 20.
 ```
 
+## Function Signature
+
+```dart
+int binomialCoefficient(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binomial-coefficient-dp-9/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/ncr1019/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/15_binomial_coefficient
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

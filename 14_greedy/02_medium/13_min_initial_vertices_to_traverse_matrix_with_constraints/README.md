@@ -36,12 +36,24 @@ satisfies all the conditions stated above.
 From the above examples, we can easily identify that in order to use a minimum number of positions, we have to start from the positions having the highest cell value. Therefore, we pick the positions that contain the highest value in the matrix. We take the vertices having the highest value in a separate array. We perform DFS at every vertex starting from the
 highest value. If we encounter any unvisited vertex during dfs then we have to include this vertex in our set. When all the cells have been processed, then the set contains the required vertices.
 
+## Function Signature
+
+```dart
+dynamic minInitialVerticesTraverseMatrix(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-initial-vertices-traverse-whole-matrix-given-conditions/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/13_min_initial_vertices_to_traverse_matrix_with_constraints
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

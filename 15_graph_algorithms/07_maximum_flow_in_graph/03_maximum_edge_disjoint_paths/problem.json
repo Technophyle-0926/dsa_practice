@@ -1,0 +1,16 @@
+{
+  "title": "Maximum edge disjoint paths",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-edge-disjoint-paths-two-vertices/",
+  "practice": null,
+  "function": {
+    "name": "maximumEdgeDisjointPaths",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

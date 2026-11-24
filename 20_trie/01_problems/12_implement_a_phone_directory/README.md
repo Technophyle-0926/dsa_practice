@@ -39,13 +39,25 @@ For the prefix "a", the matching contacts are "alex" and "alice".
 For the prefix "al", both contacts still match. They are returned in lexicographical increasing order.
 ```
 
+## Function Signature
+
+```dart
+List<List<String>> implementPhoneDirectory(List<String> contact, String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/implement-a-phone-directory/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/phone-directory4628/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/12_implement_a_phone_directory
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

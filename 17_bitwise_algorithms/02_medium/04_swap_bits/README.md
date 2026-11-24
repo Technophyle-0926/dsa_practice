@@ -25,13 +25,25 @@ Output: 7
 Explanation: The binary representation of 28 is 11100. The 2 bits starting at position 0 are 00, and the 2 starting at position 3 are 11. After swapping these two, the binary representation becomes 00111, which is 7 in decimal.
 ```
 
+## Function Signature
+
+```dart
+int swapBits(int x, int p1, int p2, int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/swap-bits-in-a-given-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/swap-bits5726/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/04_swap_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

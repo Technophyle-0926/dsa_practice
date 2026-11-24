@@ -32,13 +32,25 @@ Output: [1, 1, 1]
 Explanation: Every window of size 3 in the array [1, 1, 1, 1, 1], contains only the element 1, so the number of distinct elements in each window is 1.
 ```
 
+## Function Signature
+
+```dart
+List<int> distinctsEveryWindowSizeK(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-distinct-elements-in-every-window-of-size-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/12_distincts_in_every_window_of_size_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

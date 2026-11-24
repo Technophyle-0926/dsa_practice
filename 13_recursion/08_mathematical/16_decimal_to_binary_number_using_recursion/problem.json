@@ -1,0 +1,24 @@
+{
+  "title": "Decimal to binary number using recursion",
+  "number": 16,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/decimal-binary-number-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "decimalBinaryNumberRecursion",
+    "params": [
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "decimalBinaryNumberRecursion(7)",
+    "expected": "111"
+  }
+}

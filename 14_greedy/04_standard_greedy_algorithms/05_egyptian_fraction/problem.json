@@ -1,0 +1,16 @@
+{
+  "title": "Egyptian Fraction",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/greedy-algorithm-egyptian-fraction/",
+  "practice": null,
+  "function": {
+    "name": "egyptianFraction",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -32,13 +32,25 @@ Explanation: One possible arrangement of the boxes from bottom to top is shown b
 Hence, the total height of this stack is 4 + 6 + 1 + 1 + 3 = 15. No other combination of boxes produces a height greater than this.
 ```
 
+## Function Signature
+
+```dart
+int boxStackingProblem(List<int> height, List<int> width, List<int> length)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/box-stacking-problem-dp-22/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/box-stacking/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/12_box_stacking_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

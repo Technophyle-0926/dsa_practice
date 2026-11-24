@@ -1,0 +1,16 @@
+{
+  "title": "Searching in BIT using Binary Lifting",
+  "number": 6,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/searching-in-binary-indexed-tree-using-binary-lifting-in-ologn/",
+  "practice": null,
+  "function": {
+    "name": "searchingBitBinaryLifting",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

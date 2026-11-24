@@ -25,12 +25,24 @@ Output : 5, 3, 2, 1, 1
 
 **Optimized Approach :** In this greedy approach, first find the largest element present in the array which is greater than(if the 1st position element is not the greatest) the 1st position and which can be placed at the 1st position with at-most K swaps. After finding that element, note its index. Then, swap elements of the array and update K value. Apply this procedure for other positions till k is non-zero or array becomes lexicographically largest.
 
+## Function Signature
+
+```dart
+List<int> largestLexicographicArrayAtMost(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-lexicographic-array-with-at-most-k-consecutive-swaps/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/08_largest_lexicographic_array_with_at_most_k_consecutive_swaps
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

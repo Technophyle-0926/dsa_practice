@@ -1,0 +1,28 @@
+{
+  "title": "Minimum tiles of sizes in powers of two to cover whole area",
+  "number": 13,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-tiles-of-sizes-in-powers-of-two-to-cover-whole-area/",
+  "practice": null,
+  "function": {
+    "name": "minimumTilesSizesPowersTwo",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      },
+      {
+        "name": "M",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumTilesSizesPowersTwo(5, 6)",
+    "expected": "9"
+  }
+}

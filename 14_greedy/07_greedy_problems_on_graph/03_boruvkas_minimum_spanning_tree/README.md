@@ -22,12 +22,24 @@ In this post, Boruvka's algorithm is discussed. Like Prim's and Kruskal's, Boruv
 5) Return MST.
 ```
 
+## Function Signature
+
+```dart
+dynamic boruvkasMinimumSpanningTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/boruvkas-algorithm-greedy-algo-9/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/07_greedy_problems_on_graph/03_boruvkas_minimum_spanning_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

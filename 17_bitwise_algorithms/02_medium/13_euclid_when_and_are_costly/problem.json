@@ -1,0 +1,16 @@
+{
+  "title": "Euclid when % and / are costly",
+  "number": 13,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/euclids-algorithm-when-and-operations-are-costly/",
+  "practice": null,
+  "function": {
+    "name": "euclidWhenAreCostly",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

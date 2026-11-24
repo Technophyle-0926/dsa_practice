@@ -43,13 +43,25 @@ Output: -1
 Explanation: The given linked list is 10 -> 5 -> 100 -> 5. Since 'k' is more than the number of nodes, the output is -1.
 ```
 
+## Function Signature
+
+```dart
+dynamic nthNodeEnd(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/nth-node-from-the-end-of-a-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/01_operations/09_nth_node_from_end
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

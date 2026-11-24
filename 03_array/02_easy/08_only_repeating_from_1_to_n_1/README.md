@@ -20,13 +20,25 @@ Output: 1
 Explanation: The number 1 is the only repeating element.
 ```
 
+## Function Signature
+
+```dart
+int onlyRepeating1N1(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-repetitive-element-1-n-1/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-repetitive-element-from-1-to-n-1/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/08_only_repeating_from_1_to_n_1
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

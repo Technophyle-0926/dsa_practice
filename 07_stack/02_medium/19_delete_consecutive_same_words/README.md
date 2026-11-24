@@ -27,13 +27,25 @@ Output: 0
 Explanation: After the first iteration, we'll have: [tom, tom]. After the second iteration: 'empty-array' . Hence, the result is 0.
 ```
 
+## Function Signature
+
+```dart
+int deleteConsecutiveSameWords(List<String> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/delete-consecutive-words-sequence/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/string-manipulation3706/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/19_delete_consecutive_same_words
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

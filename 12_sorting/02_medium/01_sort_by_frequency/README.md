@@ -20,13 +20,25 @@ Output: [9, 9, 9, 2, 5]
 Explanation: The highest frequency here is 3. Element 9 has the highest frequency So 9 comes first. Now both 2 and 5 have the same frequency. So we print smaller elements first. The output is 9 9 9 2 5.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortFrequency(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-elements-by-frequency/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/01_sort_by_frequency
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

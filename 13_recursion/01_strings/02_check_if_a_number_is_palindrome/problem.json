@@ -1,0 +1,24 @@
+{
+  "title": "Check if a number is Palindrome",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-number-is-palindrome/",
+  "practice": "https://www.geeksforgeeks.org/problems/palindrome0746/1",
+  "function": {
+    "name": "checkIfNumberPalindrome",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkIfNumberPalindrome(12321)",
+    "expected": "true"
+  }
+}

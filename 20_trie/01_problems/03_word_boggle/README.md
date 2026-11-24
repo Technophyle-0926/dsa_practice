@@ -33,12 +33,24 @@ Explanation: "GEEKS" and "QUIZ" can be formed by traversing adjacent cells (8 di
 1 ≤ |dictionary[i]| ≤ 60
 Each dictionary[i] may contain both lowercase and uppercase English letters.
 
+## Function Signature
+
+```dart
+List<String> wordBoggle(List<List<String>> board, List<String> dictionary)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-boggle4143/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/03_word_boggle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

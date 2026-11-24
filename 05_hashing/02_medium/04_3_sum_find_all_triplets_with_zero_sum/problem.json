@@ -1,0 +1,24 @@
+{
+  "title": "3 Sum – Find All Triplets with Zero Sum",
+  "number": 4,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-triplets-array-whose-sum-equal-zero/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-all-triplets-with-zero-sum/1",
+  "function": {
+    "name": "solve3SumFindAllTriplets",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3SumFindAllTriplets([0, -1, 2, -3, 1])",
+    "expected": "[[0, 1, 4], [2, 3, 4]]"
+  }
+}

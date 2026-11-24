@@ -1,0 +1,16 @@
+{
+  "title": "Program for Optimal Page Replacement Algorithm",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Greedy Problems in Operating System",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/optimal-page-replacement-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "programOptimalPageReplacementAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

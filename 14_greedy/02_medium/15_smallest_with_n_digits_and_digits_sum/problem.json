@@ -1,0 +1,28 @@
+{
+  "title": "Smallest with n digits and digits sum",
+  "number": 15,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-smallest-number-with-given-number-of-digits-and-digit-sum/",
+  "practice": "https://www.geeksforgeeks.org/problems/smallest-number5829/1",
+  "function": {
+    "name": "smallestNDigitsDigitsSum",
+    "params": [
+      {
+        "name": "s",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestNDigitsDigitsSum(9, 2)",
+    "expected": "18"
+  }
+}

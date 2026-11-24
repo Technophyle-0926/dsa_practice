@@ -1,0 +1,16 @@
+{
+  "title": "Validate IP Address",
+  "number": 6,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-validate-an-ip-address/",
+  "practice": "https://www.geeksforgeeks.org/problems/validate-an-ip-address-1587115621/1",
+  "function": {
+    "name": "validateIpAddress",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

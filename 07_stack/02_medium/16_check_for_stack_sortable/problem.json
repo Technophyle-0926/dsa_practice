@@ -1,0 +1,24 @@
+{
+  "title": "Check for stack sortable",
+  "number": 16,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-array-stack-sortable/",
+  "practice": null,
+  "function": {
+    "name": "checkStackSortable",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkStackSortable([4, 1, 3, 2])",
+    "expected": "Yes"
+  }
+}

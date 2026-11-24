@@ -18,13 +18,25 @@ Output : 0
 Explanation: There are no common elements between the arrays.
 ```
 
+## Function Signature
+
+```dart
+int minimumRemovalsNoCommon(List<int> arr, List<int> arr2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-minimum-number-elements-no-common-element-exist-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/remove-minimum-number-of-elements4032/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/17_minimum_removals_for_no_common
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

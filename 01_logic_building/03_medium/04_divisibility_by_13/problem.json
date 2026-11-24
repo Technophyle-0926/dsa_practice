@@ -1,0 +1,24 @@
+{
+  "title": "Divisibility by 13",
+  "number": 4,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-large-number-divisible-13-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/divisible-by-13/1",
+  "function": {
+    "name": "divisibility13",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "divisibility13(\"2911285\")",
+    "expected": "true"
+  }
+}

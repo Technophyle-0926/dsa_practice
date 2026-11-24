@@ -1,0 +1,16 @@
+{
+  "title": "BFS vs DFS",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/difference-between-bfs-and-dfs/",
+  "practice": null,
+  "function": {
+    "name": "bfsVsDfs",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -26,13 +26,25 @@ Output: 0 ->1 -> 2 -> 2
 Explanation: After arranging all the 0s, 1s and 2s in the given format, the output will be 0 -> 1 -> 2 -> 2.
 ```
 
+## Function Signature
+
+```dart
+dynamic sortLinkedList0s1s(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-a-linked-list-of-0s-1s-or-2s/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/10_sort_a_linked_list_of_0s_1s_and_2s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

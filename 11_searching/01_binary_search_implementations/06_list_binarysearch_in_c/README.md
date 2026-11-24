@@ -55,12 +55,24 @@ Below programs illustrate the use of the above-discussed method:
 
 **Example 2:** In this example, the List is created with some integer values and to insert a new integer using BinarySearch(T, Comparer <T>) method in the List by using a user defined function.
 
+## Function Signature
+
+```dart
+dynamic listBinarysearchC(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/c-sharp/list-binarysearch-method-in-c-sharp/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/01_binary_search_implementations/06_list_binarysearch_in_c
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

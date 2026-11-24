@@ -1,0 +1,16 @@
+{
+  "title": "Insertion",
+  "number": 2,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insertion-in-an-avl-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/avl-tree-insertion/1",
+  "function": {
+    "name": "insertion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -26,8 +26,12 @@ In the previous post, we discussed how Asymptotic analysis overcomes the problem
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/worst-average-and-best-case-analysis-of-algorithms/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/00_basics/04_worst_average_and_best_cases
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

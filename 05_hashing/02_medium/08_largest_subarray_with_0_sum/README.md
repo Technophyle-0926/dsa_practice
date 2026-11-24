@@ -27,13 +27,25 @@ Output:  1
 Explanation: The longest sub-array with sum equal to 0 is [0].
 ```
 
+## Function Signature
+
+```dart
+int largestSubarray0Sum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-largest-subarray-with-0-sum/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/08_largest_subarray_with_0_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

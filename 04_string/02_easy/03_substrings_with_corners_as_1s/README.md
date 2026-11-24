@@ -26,13 +26,25 @@ Output: 3
 Explanation: Valid substrings are "11" (first and second), "11" (second and third), and "111" (entire string).
 ```
 
+## Function Signature
+
+```dart
+int substringsCornersAs1s(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-binary-string-count-number-substrings-start-end-1/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/binary-string-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/02_easy/03_substrings_with_corners_as_1s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

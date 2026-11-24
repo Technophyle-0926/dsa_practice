@@ -1,0 +1,16 @@
+{
+  "title": "Recursive Insertion Sort",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-insertion-sort/",
+  "practice": null,
+  "function": {
+    "name": "recursiveInsertionSort",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

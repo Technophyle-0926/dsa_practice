@@ -29,13 +29,25 @@ Input: arr[] = [1, 1, 1, 1, 1, 1], target = 4
 Output: [[1, 1, 1, 1]]
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> solve4SumDistinctQuadruples(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-four-elements-that-sum-to-a-given-value-set-2/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/04_4_sum_distinct_quadruples
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

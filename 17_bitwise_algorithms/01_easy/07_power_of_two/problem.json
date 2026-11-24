@@ -1,0 +1,24 @@
+{
+  "title": "Power of two",
+  "number": 7,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-find-whether-a-given-number-is-power-of-2/",
+  "practice": "https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1",
+  "function": {
+    "name": "powerTwo",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "powerTwo(16)",
+    "expected": "true"
+  }
+}

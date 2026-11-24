@@ -24,13 +24,25 @@ Explanation:  Shortest Paths:
 0 -> 4 = 10: Path 0 -> 1 -> 4 gives total cost 4 + 6 = 10.
 ```
 
+## Function Signature
+
+```dart
+dynamic dijkstrasShortestPath(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/01_dijkstras_shortest_path
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

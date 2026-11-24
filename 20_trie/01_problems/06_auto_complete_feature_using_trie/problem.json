@@ -1,0 +1,16 @@
+{
+  "title": "Auto-complete feature using Trie",
+  "number": 6,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/auto-complete-feature-using-trie/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-query-auto-complete/1",
+  "function": {
+    "name": "autoCompleteFeatureTrie",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

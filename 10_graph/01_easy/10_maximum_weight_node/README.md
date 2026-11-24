@@ -29,13 +29,25 @@ Output: 1
 Explanation: Node 1 receives exits from nodes 0, 1, and 2. Its weight is 0 + 1 + 2 = 3, which is the maximum among all nodes.
 ```
 
+## Function Signature
+
+```dart
+int maximumWeightNode(List<int> exits)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-weight-node/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-weight-node--170645/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/01_easy/10_maximum_weight_node
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

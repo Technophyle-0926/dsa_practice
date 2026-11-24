@@ -1,0 +1,24 @@
+{
+  "title": "Minimum consecutive number subsets",
+  "number": 7,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-minimum-number-subsets-subsequences-consecutive-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/split-array-into-minimum-subsets/1",
+  "function": {
+    "name": "minimumConsecutiveNumberSubsets",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumConsecutiveNumberSubsets([100, 56, 5, 6, 102, 58, 101, 57, 7, 103, 59])",
+    "expected": "3"
+  }
+}

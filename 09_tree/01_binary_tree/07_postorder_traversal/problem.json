@@ -1,0 +1,16 @@
+{
+  "title": "Postorder Traversal",
+  "number": 7,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/postorder-traversal-of-binary-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/postorder-traversal/1",
+  "function": {
+    "name": "postorderTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

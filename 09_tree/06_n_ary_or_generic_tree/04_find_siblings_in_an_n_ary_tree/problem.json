@@ -1,0 +1,16 @@
+{
+  "title": "Find Siblings in an N-ary Tree",
+  "number": 4,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-siblings-of-given-node-in-an-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "findSiblingsNAryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "K-th smallest after removing given Set",
+  "number": 18,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/k-th-smallest-element-removing-integers-natural-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-th-missing-element-in-natural-numbers/1",
+  "function": {
+    "name": "kThSmallestAfterRemoving",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kThSmallestAfterRemoving([1, 9, 5, 2], 6)",
+    "expected": "10"
+  }
+}

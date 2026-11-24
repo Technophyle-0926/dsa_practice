@@ -1,0 +1,16 @@
+{
+  "title": "Lazy Propagation",
+  "number": 1,
+  "category": "Segment Tree",
+  "level": "Lazy Propagation",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lazy-propagation-in-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "lazyPropagation",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

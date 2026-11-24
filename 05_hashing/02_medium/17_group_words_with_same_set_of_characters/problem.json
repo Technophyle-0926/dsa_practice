@@ -1,0 +1,24 @@
+{
+  "title": "Group words with same set of characters",
+  "number": 17,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-words-together-set-characters/",
+  "practice": null,
+  "function": {
+    "name": "groupWordsSameCharacters",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "groupWordsSameCharacters([\"may\", \"student\", \"students\", \"dog\", \"studentssess\", \"god\", \"cat\", \"act\", \"tab\", \"bat\", \"flow\", \"wolf\", \"lambs\", \"amy\", \"yam\", \"balms\", \"looped\", \"poodle\"])",
+    "expected": "looped, poodle,"
+  }
+}

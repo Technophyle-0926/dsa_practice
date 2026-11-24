@@ -1,0 +1,16 @@
+{
+  "title": "Recursive approach for alternating split of Linked List",
+  "number": 6,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-approach-alternating-split-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "recursiveApproachAlternatingSplitLinked",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

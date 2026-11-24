@@ -1,0 +1,16 @@
+{
+  "title": "Floyd Warshall",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/",
+  "practice": "https://www.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1",
+  "function": {
+    "name": "floydWarshall",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

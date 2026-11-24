@@ -1,0 +1,16 @@
+{
+  "title": "Reverse a Singly Linked List in Groups",
+  "number": 6,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-a-linked-list-in-groups-of-given-size-iterative-approach/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1",
+  "function": {
+    "name": "reverseSinglyLinkedListGroups",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

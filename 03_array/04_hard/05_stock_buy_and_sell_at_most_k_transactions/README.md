@@ -22,13 +22,25 @@ Output: 0
 Explanation: Not possible to earn.
 ```
 
+## Function Signature
+
+```dart
+int stockBuySellAtMost(List<int> prices, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-profit4657/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/05_stock_buy_and_sell_at_most_k_transactions
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

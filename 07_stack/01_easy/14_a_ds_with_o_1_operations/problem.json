@@ -1,0 +1,16 @@
+{
+  "title": "A DS with O(1) Operations",
+  "number": 14,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/create-customized-data-structure-evaluates-functions-o1/",
+  "practice": null,
+  "function": {
+    "name": "dsO1Operations",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

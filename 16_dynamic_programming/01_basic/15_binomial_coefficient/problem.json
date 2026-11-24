@@ -1,0 +1,28 @@
+{
+  "title": "Binomial Coefficient",
+  "number": 15,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binomial-coefficient-dp-9/",
+  "practice": "https://www.geeksforgeeks.org/problems/ncr1019/1",
+  "function": {
+    "name": "binomialCoefficient",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "binomialCoefficient(4, 2)",
+    "expected": "6"
+  }
+}

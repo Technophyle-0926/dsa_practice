@@ -18,12 +18,24 @@ Input: [[0, 1, 1], [0, 2, 10], [1, 2, 3], [2, 3, 2], [3, 1, 0], [3, 0, 8]]
 Output: 1.66667
 ```
 
+## Function Signature
+
+```dart
+dynamic minimumMeanWeightCycleAlgorithm(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/karps-minimum-mean-average-weight-cycle-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/09_minimum_mean_weight_cycle_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

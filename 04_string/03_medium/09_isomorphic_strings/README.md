@@ -34,13 +34,25 @@ Output: false
 Explanation: Two different characters 'a' and 'b' in s1 maps with same character 'x' in s2.
 ```
 
+## Function Signature
+
+```dart
+bool isomorphicStrings(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-two-given-strings-are-isomorphic-to-each-other/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/09_isomorphic_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

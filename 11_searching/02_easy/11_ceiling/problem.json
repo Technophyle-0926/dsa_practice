@@ -1,0 +1,28 @@
+{
+  "title": "Ceiling",
+  "number": 11,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/ceiling-in-a-sorted-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1",
+  "function": {
+    "name": "ceiling",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "ceiling([1, 2, 8, 10, 11, 12, 19], 5)",
+    "expected": "2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Hierholzer’s Algorithm for directed graph",
+  "number": 8,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/hierholzers-algorithm-directed-graph/",
+  "practice": null,
+  "function": {
+    "name": "hierholzersAlgorithmDirectedGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

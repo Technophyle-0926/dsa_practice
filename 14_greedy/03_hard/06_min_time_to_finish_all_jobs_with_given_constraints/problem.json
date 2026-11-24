@@ -1,0 +1,32 @@
+{
+  "title": "Min time to finish all jobs with given constraints",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-minimum-time-to-finish-all-jobs-with-given-constraints/",
+  "practice": null,
+  "function": {
+    "name": "minTimeFinishAllJobs",
+    "params": [
+      {
+        "name": "job",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "t",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minTimeFinishAllJobs([10, 7, 8, 12, 6, 8], 4, 5)",
+    "expected": "75"
+  }
+}

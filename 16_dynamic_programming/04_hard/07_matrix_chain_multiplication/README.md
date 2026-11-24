@@ -33,13 +33,25 @@ Output: 0
 Explanation: As there is only one matrix so, there is no cost of multiplication.
 ```
 
+## Function Signature
+
+```dart
+int matrixChainMultiplication(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/matrix-chain-multiplication-dp-8/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/07_matrix_chain_multiplication
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

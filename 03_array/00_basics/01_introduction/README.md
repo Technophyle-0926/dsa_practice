@@ -77,8 +77,12 @@ Assume there is a class of five students and if we have to keep records of their
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-arrays-data-structure-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

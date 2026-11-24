@@ -20,13 +20,25 @@ Output: 4
 Explanation: 2^6 % 10 = 64 % 10 = 4.
 ```
 
+## Function Signature
+
+```dart
+int modularExponentiation(int x, int n, int M)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/modular-exponentiation-power-in-modular-arithmetic/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/14_modular_exponentiation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

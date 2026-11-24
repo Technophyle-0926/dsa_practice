@@ -25,13 +25,25 @@ Input: s1 = "abc", s2 = ""
 Output : 0
 ```
 
+## Function Signature
+
+```dart
+int longestCommonSubstring(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-common-substring-dp-29/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-common-substring1452/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/10_longest_common_substring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -26,13 +26,25 @@ Output: [23]
 Explanation: 1st Largest element in the array is 23.
 ```
 
+## Function Signature
+
+```dart
+List<int> kLargestOrSmallestElements(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-largestor-smallest-elements-in-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-largest-elements4206/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/08_k_largest_or_smallest_elements
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

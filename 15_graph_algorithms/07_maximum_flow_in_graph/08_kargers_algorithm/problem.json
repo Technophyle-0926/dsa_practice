@@ -1,0 +1,16 @@
+{
+  "title": "Karger’s Algorithm",
+  "number": 8,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-and-implementation-of-kargers-algorithm-for-minimum-cut/",
+  "practice": null,
+  "function": {
+    "name": "kargersAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

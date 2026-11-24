@@ -1,0 +1,24 @@
+{
+  "title": "Print N-bit binary numbers having more 1’s than 0’s in all prefixes",
+  "number": 11,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-n-bit-binary-numbers-1s-0s-prefixes/",
+  "practice": "https://www.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1",
+  "function": {
+    "name": "printNBitBinaryNumbers",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "printNBitBinaryNumbers(2)",
+    "expected": "[\"11\", \"10\"]"
+  }
+}

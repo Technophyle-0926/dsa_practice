@@ -1,0 +1,16 @@
+{
+  "title": "Ternary Search Tree (Deletion)",
+  "number": 2,
+  "category": "Tree",
+  "level": "Ternary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/ternary-search-tree-deletion/",
+  "practice": null,
+  "function": {
+    "name": "ternarySearchTreeDeletion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

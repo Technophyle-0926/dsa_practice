@@ -34,13 +34,25 @@ Output: 130
 Explanation: The first and third jobs with the time range [1, 3] and [4, 6] can be chosen to give maximum profit of 60 + 70 = 130.
 ```
 
+## Function Signature
+
+```dart
+int weightedJobSchedulling(List<List<int>> jobs)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/weighted-job-scheduling/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/weighted-job-scheduling/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/06_weighted_job_schedulling
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

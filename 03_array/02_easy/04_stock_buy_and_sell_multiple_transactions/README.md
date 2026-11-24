@@ -22,13 +22,25 @@ Output: 0
 Explanation: Stock prices keep decreasing, there is no chance to sell at a higher price after buying, so no profit can be made.
 ```
 
+## Function Signature
+
+```dart
+int stockBuySellMultipleTransactions(List<int> prices)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/stock-buy-sell/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/stock-buy-and-sell2615/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/04_stock_buy_and_sell_multiple_transactions
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

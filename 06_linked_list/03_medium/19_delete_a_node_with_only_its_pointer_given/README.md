@@ -28,13 +28,25 @@ Output: 10->4->30
 Explanation: After deleting 20 from the linked list, we have remaining nodes as 10, 4, 30.
 ```
 
+## Function Signature
+
+```dart
+dynamic deleteNodeOnlyPointerGiven(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/19_delete_a_node_with_only_its_pointer_given
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

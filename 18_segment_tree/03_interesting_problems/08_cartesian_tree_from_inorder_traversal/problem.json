@@ -1,0 +1,24 @@
+{
+  "title": "Cartesian tree from inorder traversal",
+  "number": 8,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/cartesian-tree-from-inorder-traversal-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "cartesianTreeInorderTraversal",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "cartesianTreeInorderTraversal([1, 5, 3])",
+    "expected": "1 5 3"
+  }
+}

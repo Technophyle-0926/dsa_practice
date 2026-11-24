@@ -28,13 +28,25 @@ Input: n = 20
 Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"]
 ```
 
+## Function Signature
+
+```dart
+List<String> fizzBuzz(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/fizz-buzz/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/04_fizz_buzz
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

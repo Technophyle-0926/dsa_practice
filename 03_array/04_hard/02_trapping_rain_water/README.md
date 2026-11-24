@@ -26,13 +26,25 @@ Output: 0
 Explanation: We cannot trap water as there is no height bound on both sides
 ```
 
+## Function Signature
+
+```dart
+int trappingRainWater(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/trapping-rain-water/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/02_trapping_rain_water
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

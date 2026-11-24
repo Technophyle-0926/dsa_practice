@@ -20,13 +20,25 @@ Output: 6
 Explanation: The whole string "adbabd" can be rearranged to form a palindromic substring. One possible arrangement is "abddba". Thus, output length of the string is 6.
 ```
 
+## Function Signature
+
+```dart
+int longestPalindromicRearrangeableSubstring(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-substring-whose-characters-can-be-rearranged-to-form-a-palindrome/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-substring-whose-character-rearranged-can-form-a-palindrome/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/15_longest_palindromic_rearrangeable_substring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

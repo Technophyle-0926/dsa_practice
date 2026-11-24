@@ -22,13 +22,25 @@ Output: 6
 Explanation: The valid arrangements are PQR, PRQ, QPR, QRP, RPQ, and RQP.
 ```
 
+## Function Signature
+
+```dart
+int arrangeBallsAdjacentDifferentTypes(int p, int q, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/ways-to-arrange-balls-such-that-adjacent-balls-are-of-different-types/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/arrange-balls0052/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/20_arrange_balls_with_adjacent_of_different_types
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

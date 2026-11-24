@@ -1,0 +1,24 @@
+{
+  "title": "Min Unsorted Subarray to make array sorted",
+  "number": 17,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/",
+  "practice": "https://www.geeksforgeeks.org/problems/length-unsorted-subarray3022/1",
+  "function": {
+    "name": "minUnsortedSubarrayMakeArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "minUnsortedSubarrayMakeArray([10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60])",
+    "expected": "[3, 8]"
+  }
+}

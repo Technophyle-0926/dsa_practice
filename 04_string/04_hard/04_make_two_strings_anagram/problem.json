@@ -1,0 +1,28 @@
+{
+  "title": "Make two strings Anagram",
+  "number": 4,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-minimum-number-characters-two-strings-become-anagram/",
+  "practice": "https://www.geeksforgeeks.org/problems/anagram-of-string/1",
+  "function": {
+    "name": "makeTwoStringsAnagram",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "makeTwoStringsAnagram(\"bcadeh\", \"hea\")",
+    "expected": "3"
+  }
+}

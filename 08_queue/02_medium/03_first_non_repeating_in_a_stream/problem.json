@@ -1,0 +1,24 @@
+{
+  "title": "First non-repeating in a stream",
+  "number": 3,
+  "category": "Queue",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-first-non-repeating-character-stream-characters/",
+  "practice": "https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1",
+  "function": {
+    "name": "firstNonRepeatingStream",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "firstNonRepeatingStream(\"aabc\")",
+    "expected": "a#bb"
+  }
+}

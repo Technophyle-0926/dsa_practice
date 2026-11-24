@@ -1,0 +1,28 @@
+{
+  "title": "K’th largest in a stream",
+  "number": 7,
+  "category": "Searching",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/kth-largest-element-in-a-stream/",
+  "practice": "https://www.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1",
+  "function": {
+    "name": "kthLargestStream",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "kthLargestStream([1, 2, 3, 4, 5, 6], 4)",
+    "expected": "-1 -1 -1 1 2 3"
+  }
+}

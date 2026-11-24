@@ -1,0 +1,28 @@
+{
+  "title": "All pairs (a, b) in an array such that a % b = k",
+  "number": 16,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-pairs-b-array-b-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/mr-modulo-and-pairs5610/1",
+  "function": {
+    "name": "allPairsBArraySuch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "allPairsBArraySuch([2, 3, 5, 4, 7], 3)",
+    "expected": "4"
+  }
+}

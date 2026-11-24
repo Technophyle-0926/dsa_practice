@@ -20,13 +20,25 @@ Output: 2
 Explanation: 1^3 + 3^3 = 28 and 3^3 + 1^3 = 28
 ```
 
+## Function Signature
+
+```dart
+int pairCubeCount(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-pairs-a-b-whose-sum-of-cubes-is-n-a3-b3-n/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/pair-cube-count4132/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/07_pair_cube_count
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

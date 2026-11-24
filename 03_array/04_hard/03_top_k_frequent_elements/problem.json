@@ -1,0 +1,28 @@
+{
+  "title": "Top K Frequent Elements",
+  "number": 3,
+  "category": "Array",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-k-numbers-occurrences-given-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1",
+  "function": {
+    "name": "topKFrequentElements",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "topKFrequentElements([3, 1, 4, 4, 5, 2, 6, 1], 2)",
+    "expected": "[4, 1]"
+  }
+}

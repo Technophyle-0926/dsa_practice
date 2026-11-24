@@ -1,0 +1,28 @@
+{
+  "title": "Making max equal with k updates",
+  "number": 2,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-elements-can-made-equal-k-updates/",
+  "practice": null,
+  "function": {
+    "name": "makingMaxEqualKUpdates",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "makingMaxEqualKUpdates([2, 4, 9], 3)",
+    "expected": "2"
+  }
+}

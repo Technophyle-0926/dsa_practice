@@ -38,12 +38,24 @@ Examples that are not valid:
 The total count of numbers containing digit 3 exactly once in the range [100, 500] is 135.
 ```
 
+## Function Signature
+
+```dart
+int digitDp(int a, int b, int d, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/digit-dp-introduction/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/05_advanced_concepts/03_digit_dp
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

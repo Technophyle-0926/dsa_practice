@@ -1,0 +1,24 @@
+{
+  "title": "Camel Case Conversion",
+  "number": 2,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/camel-case-given-sentence/",
+  "practice": "https://www.geeksforgeeks.org/problems/convert-sentence-to-camel-case/1",
+  "function": {
+    "name": "camelCaseConversion",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "camelCaseConversion(\"i got intern at geeksforgeeks\")",
+    "expected": "\"iGotInternAtGeeksforgeeks\""
+  }
+}

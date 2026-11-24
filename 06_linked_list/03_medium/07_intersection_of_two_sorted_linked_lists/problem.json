@@ -1,0 +1,28 @@
+{
+  "title": "Intersection of two Sorted Linked Lists",
+  "number": 7,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/intersection-of-two-sorted-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1",
+  "function": {
+    "name": "intersectionTwoSortedLinkedLists",
+    "params": [
+      {
+        "name": "head1",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head2",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "intersectionTwoSortedLinkedLists(ListNode.fromList([1, 2, 3, 4, 6]), ListNode.fromList([2, 4, 6, 8]))",
+    "expected": "2 -> 4-> 6"
+  }
+}

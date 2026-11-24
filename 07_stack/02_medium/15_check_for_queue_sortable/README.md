@@ -39,12 +39,24 @@ Also, observe, that the stack must also be sorted at each instance i.e the eleme
 Algorithm:
 ```
 
+## Function Signature
+
+```dart
+bool checkQueueSortable(List<int> Queue)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-queue-can-sorted-another-queue-using-stack/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/15_check_for_queue_sortable
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

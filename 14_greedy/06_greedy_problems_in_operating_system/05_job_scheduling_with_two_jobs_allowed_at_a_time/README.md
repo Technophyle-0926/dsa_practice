@@ -22,12 +22,24 @@ Output: False
 Explanation: All four jobs overlap at time segment [2, 5], and can't be completed together.
 ```
 
+## Function Signature
+
+```dart
+bool jobSchedulingTwoJobsAllowed(List<List<int>> jobs)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/job-scheduling-two-jobs-allowed-time/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/06_greedy_problems_in_operating_system/05_job_scheduling_with_two_jobs_allowed_at_a_time
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

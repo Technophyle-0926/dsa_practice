@@ -26,13 +26,25 @@ Output:  0
 Explanation: There is no pair with sum = target
 ```
 
+## Function Signature
+
+```dart
+int solve2SumCountPairs(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-pairs-with-given-sum/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum--150253/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/11_2_sum_count_pairs
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

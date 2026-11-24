@@ -20,12 +20,24 @@ Output: "GoodMorning"
 Explanation: Joining "Good" and "Morning" results in "GoodMorning"
 ```
 
+## Function Signature
+
+```dart
+String concatenatingTwoStrings(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/computer-science-fundamentals/concatenation-of-two-strings/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/01_basic_operations/07_concatenating_two_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

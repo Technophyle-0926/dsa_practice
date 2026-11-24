@@ -44,13 +44,25 @@ Node 4 points to Node 5 as its NEXT and Node 3 as its RANDOM.
 Node 5 points to NULL as its NEXT and Node 2 as its RANDOM.
 ```
 
+## Function Signature
+
+```dart
+dynamic cloneLinkedListRandomPointer(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/a-linked-list-with-next-and-arbit-pointer/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/04_clone_a_linked_list_with_random_pointer
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

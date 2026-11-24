@@ -1,0 +1,24 @@
+{
+  "title": "Word Wrap Problem",
+  "number": 4,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/optimal-strategy-for-a-game-dp-31/",
+  "practice": "https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1",
+  "function": {
+    "name": "wordWrapProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "wordWrapProblem([5, 3, 7, 10])",
+    "expected": "15"
+  }
+}

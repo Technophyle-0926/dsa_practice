@@ -1,0 +1,24 @@
+{
+  "title": "Palindrome Number",
+  "number": 17,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-number-is-palindrome/",
+  "practice": "https://www.geeksforgeeks.org/problems/palindrome0746/1",
+  "function": {
+    "name": "palindromeNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "palindromeNumber(12321)",
+    "expected": "true"
+  }
+}

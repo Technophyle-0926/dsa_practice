@@ -1,0 +1,24 @@
+{
+  "title": "Fizz Buzz",
+  "number": 4,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/fizz-buzz-implementation/",
+  "practice": "https://www.geeksforgeeks.org/problems/fizz-buzz/1",
+  "function": {
+    "name": "fizzBuzz",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "fizzBuzz(3)",
+    "expected": "[\"1\", \"2\", \"Fizz\"]"
+  }
+}

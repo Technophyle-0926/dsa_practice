@@ -1,0 +1,16 @@
+{
+  "title": "Next higher with same set bits",
+  "number": 1,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/next-higher-number-with-same-number-of-set-bits/",
+  "practice": null,
+  "function": {
+    "name": "nextHigherSameBits",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

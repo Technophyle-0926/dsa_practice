@@ -21,12 +21,24 @@ Input: n = 4, m = 2
 Output: 3
 ```
 
+## Function Signature
+
+```dart
+int numberSinksGraph(int n, int m, List<List<int>> Edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-sink-nodes-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/13_number_of_sinks_in_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

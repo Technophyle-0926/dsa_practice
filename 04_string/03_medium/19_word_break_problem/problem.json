@@ -1,0 +1,28 @@
+{
+  "title": "Word Break Problem",
+  "number": 19,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/word-break-problem-dp-32/",
+  "practice": "https://www.geeksforgeeks.org/problems/word-break1352/1",
+  "function": {
+    "name": "wordBreakProblem",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "dictionary",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "wordBreakProblem(\"ilike\", [\"i\", \"like\", \"gfg\"])",
+    "expected": "true"
+  }
+}

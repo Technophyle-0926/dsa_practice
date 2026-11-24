@@ -1,0 +1,16 @@
+{
+  "title": "Delete Operation in B-Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "B Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-operation-in-b-tree/",
+  "practice": null,
+  "function": {
+    "name": "deleteOperationBTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

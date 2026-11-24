@@ -12,12 +12,24 @@ The two basic operations to perform for fixing violations and balancing are-
 - Recoloring
 - Rotation
 
+## Function Signature
+
+```dart
+dynamic redBlackTreesTopDown(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/red-black-trees-top-down-insertion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/04_red_black_tree/03_red_black_trees_top_down_insertion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

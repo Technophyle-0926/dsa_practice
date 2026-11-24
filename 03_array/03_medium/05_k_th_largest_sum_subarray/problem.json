@@ -1,0 +1,28 @@
+{
+  "title": "K-th Largest Sum Subarray",
+  "number": 5,
+  "category": "Array",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/k-th-largest-sum-contiguous-subarray/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-th-largest-sum-contiguous-subarray/1",
+  "function": {
+    "name": "kThLargestSumSubarray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kThLargestSumSubarray([20, -5, -1], 3)",
+    "expected": "14"
+  }
+}

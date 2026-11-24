@@ -35,13 +35,25 @@ After reading 3rd element of stream - 2, 2, 2 -> median = 2
 After reading 4th element of stream - 2, 2, 2, 2 ->  median = (2+2)/2 = 2
 ```
 
+## Function Signature
+
+```dart
+List<double> medianStream(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/median-of-stream-of-integers-running-integers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/07_median_in_a_stream
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

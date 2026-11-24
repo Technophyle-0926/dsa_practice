@@ -26,13 +26,25 @@ Output: false
 Explanation: There is no pair with sum 45.
 ```
 
+## Function Signature
+
+```dart
+bool pairSumSortedRotated(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/pair-sum-in-a-sorted-and-rotated-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/04_hard/05_pair_sum_in_a_sorted_and_rotated
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

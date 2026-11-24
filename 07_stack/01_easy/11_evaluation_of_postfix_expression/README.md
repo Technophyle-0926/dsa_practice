@@ -26,13 +26,25 @@ Output: 9
 Explanation: If the expression is converted into an infix expression, it will be 2 ^ 3 + 1 = 8 + 1 = 9
 ```
 
+## Function Signature
+
+```dart
+int evaluationPostfixExpression(List<String> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/evaluation-of-postfix-expression/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/11_evaluation_of_postfix_expression
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

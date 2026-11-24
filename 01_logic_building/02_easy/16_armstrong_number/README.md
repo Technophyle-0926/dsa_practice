@@ -28,13 +28,25 @@ Output: false
 Explanation: 1³ + 2³ + 3³ = 1 + 8 + 27 = 36
 ```
 
+## Function Signature
+
+```dart
+bool armstrongNumber(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-for-armstrong-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/16_armstrong_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

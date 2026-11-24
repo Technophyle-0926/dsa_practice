@@ -1,0 +1,32 @@
+{
+  "title": "Check for K-Anagrams",
+  "number": 9,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-two-strings-k-anagrams-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-k-anagrams-or-not/1",
+  "function": {
+    "name": "checkKAnagrams",
+    "params": [
+      {
+        "name": "str1",
+        "type": "String"
+      },
+      {
+        "name": "str2",
+        "type": "String"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkKAnagrams(\"anagram\", \"grammar\", 3)",
+    "expected": "Yes"
+  }
+}

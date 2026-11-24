@@ -28,12 +28,24 @@ From b[], add remaining top element: 9.
 Resulting array: [6, 7, 5, 9].
 ```
 
+## Function Signature
+
+```dart
+List<int> maximumArrayTwoArrays(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-array-from-two-given-arrays-keeping-order-same/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/09_maximum_array_from_two_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

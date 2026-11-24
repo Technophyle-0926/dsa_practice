@@ -1,0 +1,24 @@
+{
+  "title": "First uppercase letter in a string (Iterative and Recursive)",
+  "number": 14,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/first-uppercase-letter-in-a-string-iterative-and-recursive/",
+  "practice": null,
+  "function": {
+    "name": "firstUppercaseLetterStringIterative",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "firstUppercaseLetterStringIterative(\"geeksforgeeKs\")",
+    "expected": "K"
+  }
+}

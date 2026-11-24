@@ -30,13 +30,25 @@ Output: [-1]
 Explanation: The graph contains a negative weight cycle formed by the path 1 → 2 → 3 → 1, where the total weight of the cycle is negative.
 ```
 
+## Function Signature
+
+```dart
+dynamic bellmanFord(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/02_bellman_ford
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

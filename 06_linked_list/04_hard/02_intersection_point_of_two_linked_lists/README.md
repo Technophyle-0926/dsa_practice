@@ -17,13 +17,25 @@ Output: 8
 Explanation: 8 is the first common node where both linked lists start sharing the same sequence of nodes.
 ```
 
+## Function Signature
+
+```dart
+dynamic intersectionPointTwoLinkedLists(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/02_intersection_point_of_two_linked_lists
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

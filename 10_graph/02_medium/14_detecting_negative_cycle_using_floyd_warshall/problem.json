@@ -1,0 +1,16 @@
+{
+  "title": "Detecting negative cycle using Floyd Warshall",
+  "number": 14,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detecting-negative-cycle-using-floyd-warshall/",
+  "practice": null,
+  "function": {
+    "name": "detectingNegativeCycleFloydWarshall",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

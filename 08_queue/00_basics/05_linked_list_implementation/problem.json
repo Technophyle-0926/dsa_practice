@@ -1,0 +1,9 @@
+{
+  "title": "Linked List Implementation",
+  "number": 5,
+  "category": "Queue",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/queue-linked-list-implementation/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/1"
+}

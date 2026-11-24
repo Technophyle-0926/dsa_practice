@@ -1,0 +1,24 @@
+{
+  "title": "Reverse Digits",
+  "number": 2,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/write-a-program-to-reverse-digits-of-a-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-digit0316/1",
+  "function": {
+    "name": "reverseDigits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "reverseDigits(122)",
+    "expected": "221"
+  }
+}

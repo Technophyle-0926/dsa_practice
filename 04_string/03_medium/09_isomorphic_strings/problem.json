@@ -1,0 +1,28 @@
+{
+  "title": "Isomorphic Strings",
+  "number": 9,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-two-given-strings-are-isomorphic-to-each-other/",
+  "practice": "https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1",
+  "function": {
+    "name": "isomorphicStrings",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "isomorphicStrings(\"aab\", \"xxy\")",
+    "expected": "true"
+  }
+}

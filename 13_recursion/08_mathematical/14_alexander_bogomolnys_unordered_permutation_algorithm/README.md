@@ -22,12 +22,24 @@ Output : 1 2 3
          3 2 1
 ```
 
+## Function Signature
+
+```dart
+List<int> alexanderBogomolnysUnorderedPermutationAlgorithm(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/alexander-bogomolnys-unordered-permutation-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/14_alexander_bogomolnys_unordered_permutation_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

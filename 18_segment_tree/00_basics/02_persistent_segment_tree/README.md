@@ -48,8 +48,12 @@ We will create all the versions of the segment tree and keep track of their root
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/persistent-segment-tree-set-1-introduction/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/02_persistent_segment_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

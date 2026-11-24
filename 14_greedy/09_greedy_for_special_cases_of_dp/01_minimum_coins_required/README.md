@@ -20,13 +20,25 @@ Output: 13
 Explanation: 121 can be formed using 12 coins of 10 rupees and 1 coin  of 1 rupees.
 ```
 
+## Function Signature
+
+```dart
+int minimumCoinsRequired(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/greedy-algorithm-to-find-minimum-number-of-coins/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/09_greedy_for_special_cases_of_dp/01_minimum_coins_required
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

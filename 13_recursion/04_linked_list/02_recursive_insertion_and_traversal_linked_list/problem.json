@@ -1,0 +1,16 @@
+{
+  "title": "Recursive insertion and traversal linked list",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-insertion-and-traversal-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "recursiveInsertionTraversalLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

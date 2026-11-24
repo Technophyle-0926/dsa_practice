@@ -1,0 +1,24 @@
+{
+  "title": "Max in a Bitonic",
+  "number": 12,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/1",
+  "function": {
+    "name": "maxBitonic",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxBitonic([1, 2, 4, 5, 7, 8, 3])",
+    "expected": "8"
+  }
+}

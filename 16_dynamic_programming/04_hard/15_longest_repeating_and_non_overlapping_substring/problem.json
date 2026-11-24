@@ -1,0 +1,24 @@
+{
+  "title": "Longest repeating and non-overlapping substring",
+  "number": 15,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-repeating-and-non-overlapping-substring/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-repeating-and-non-overlapping-substring3421/1",
+  "function": {
+    "name": "longestRepeatingNonOverlappingSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "longestRepeatingNonOverlappingSubstring(\"acdcdacdc\")",
+    "expected": "\"acdc\""
+  }
+}

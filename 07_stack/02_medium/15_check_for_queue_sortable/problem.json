@@ -1,0 +1,24 @@
+{
+  "title": "Check for queue sortable",
+  "number": 15,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-queue-can-sorted-another-queue-using-stack/",
+  "practice": null,
+  "function": {
+    "name": "checkQueueSortable",
+    "params": [
+      {
+        "name": "Queue",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkQueueSortable([5, 1, 2, 3, 4])",
+    "expected": "Yes"
+  }
+}

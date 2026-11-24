@@ -1,0 +1,36 @@
+{
+  "title": "Flood Fill",
+  "number": 4,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/flood-fill-algorithm/",
+  "practice": "https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1",
+  "function": {
+    "name": "floodFill",
+    "params": [
+      {
+        "name": "sr",
+        "type": "int"
+      },
+      {
+        "name": "sc",
+        "type": "int"
+      },
+      {
+        "name": "newColor",
+        "type": "int"
+      },
+      {
+        "name": "img",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "floodFill(0, 1, 0, [[0, 1, 0], [0, 1, 0]])",
+    "expected": "[[0, 0, 0], [0, 0, 0]]"
+  }
+}

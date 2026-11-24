@@ -1,0 +1,16 @@
+{
+  "title": "2D Binary Indexed Tree",
+  "number": 4,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/two-dimensional-binary-indexed-tree-or-fenwick-tree/",
+  "practice": null,
+  "function": {
+    "name": "solve2dBinaryIndexedTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

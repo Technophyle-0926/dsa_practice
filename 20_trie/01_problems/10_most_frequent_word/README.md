@@ -18,13 +18,25 @@ Output: "this 1"
 Explanation: Every word has the frequency of "1", so we return "this 1" as this occurs first in the sentence.
 ```
 
+## Function Signature
+
+```dart
+String mostFrequentWord(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/frequent-word-array-strings/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-with-maximum-frequency0120/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/10_most_frequent_word
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

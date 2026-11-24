@@ -18,13 +18,25 @@ Output: 1
 Explanation: Policeman of 2th index catches thief  at index 1.
 ```
 
+## Function Signature
+
+```dart
+int policemenCatchThieves(List<String> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/policemen-catch-thieves/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/police-and-thieves--141631/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/06_policemen_catch_thieves
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

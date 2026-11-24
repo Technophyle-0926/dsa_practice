@@ -1,0 +1,16 @@
+{
+  "title": "Dial’s Algorithm",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/dials-algorithm-optimized-dijkstra-for-small-range-weights/",
+  "practice": null,
+  "function": {
+    "name": "dialsAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

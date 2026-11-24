@@ -11,12 +11,24 @@ We introduced graph coloring and applications in previous post. As discussed in 
 - Color first vertex with first color.
 - Do following for remaining **V-1** vertices. Consider the currently picked vertex and color it with the lowest numbered color that has not been used on any previously colored vertices adjacent to it. If all previously used colors appear on vertices adjacent to **v**, assign a new color to it.
 
+## Function Signature
+
+```dart
+dynamic graphColoring(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/graph-coloring-set-2-greedy-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/08_approximate_greedy_algorithm_for_np_complete/03_graph_coloring
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

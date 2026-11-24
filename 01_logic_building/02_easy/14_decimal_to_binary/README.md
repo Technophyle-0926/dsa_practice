@@ -20,13 +20,25 @@ Output: "100001"
 Explanation: the binary representation of 33 is "100001", since  1×2^5 + 0×2^4 + 0×2^3 + 0×2^2 + 0×2^1 + 1×2^0  = 33
 ```
 
+## Function Signature
+
+```dart
+String decimalBinary(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-decimal-binary-conversion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/decimal-to-binary-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/14_decimal_to_binary
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

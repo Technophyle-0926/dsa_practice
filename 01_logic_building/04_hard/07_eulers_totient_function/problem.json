@@ -1,0 +1,24 @@
+{
+  "title": "Euler's Totient Function",
+  "number": 7,
+  "category": "Logic Building",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/eulers-totient-function/",
+  "practice": "https://www.geeksforgeeks.org/problems/euler-totient-function4604/1",
+  "function": {
+    "name": "eulersTotientFunction",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "eulersTotientFunction(11)",
+    "expected": "10"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Find array such that no subarray has xor zero or Y",
+  "number": 25,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-array-such-that-no-subarray-has-xor-zero-or-y/",
+  "practice": null,
+  "function": {
+    "name": "findArraySuchThatNo",
+    "params": [
+      {
+        "name": "X",
+        "type": "int"
+      },
+      {
+        "name": "Y",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "findArraySuchThatNo(3, 5)",
+    "expected": "1 3 1"
+  }
+}

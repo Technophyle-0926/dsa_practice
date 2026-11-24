@@ -1,0 +1,24 @@
+{
+  "title": "Climbing Stairs with 3 Moves",
+  "number": 5,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-ways-reach-nth-stair-using-step-1-2-3/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-number-of-hops-1587115620/1",
+  "function": {
+    "name": "climbingStairs3Moves",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "climbingStairs3Moves(4)",
+    "expected": "7"
+  }
+}

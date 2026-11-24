@@ -1,0 +1,16 @@
+{
+  "title": "Pattern Searching using a Trie of all Suffixes",
+  "number": 7,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/pattern-searching-using-trie-suffixes/",
+  "practice": null,
+  "function": {
+    "name": "patternSearchingTrieAllSuffixes",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

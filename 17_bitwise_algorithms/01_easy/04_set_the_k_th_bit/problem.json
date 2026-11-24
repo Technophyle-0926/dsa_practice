@@ -1,0 +1,28 @@
+{
+  "title": "Set the K-th Bit",
+  "number": 4,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/set-k-th-bit-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/set-kth-bit3724/1",
+  "function": {
+    "name": "kThBit",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kThBit(10, 2)",
+    "expected": "14"
+  }
+}

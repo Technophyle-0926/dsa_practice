@@ -30,12 +30,24 @@ We use recursion to solve the problem. We first check one by one that the number
 **Time Complexity:** O(2 ^ pow(x^(1/n)))
 **Auxiliary Space:** O(pow(x^(1/n))
 
+## Function Signature
+
+```dart
+int countWaysExpressNumberAs(int x, int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-ways-express-number-sum-powers/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/09_count_ways_to_express_a_number_as_sum_of_powers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

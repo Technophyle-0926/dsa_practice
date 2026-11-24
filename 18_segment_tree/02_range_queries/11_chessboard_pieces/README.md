@@ -35,12 +35,24 @@ Output : 0
 - Query4 : Change the color to its opposite color in [0, 3], A[] = { 1, 0, 0, 1 }
 - Query5 : Number of black pieces in [0, 3] = 2
 
+## Function Signature
+
+```dart
+dynamic chessboardPieces(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-update-query-chessboard-pieces/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/11_chessboard_pieces
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

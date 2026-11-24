@@ -1,0 +1,24 @@
+{
+  "title": "Sum of natural numbers using recursion",
+  "number": 15,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-of-natural-numbers-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "sumNaturalNumbersRecursion",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumNaturalNumbersRecursion(3)",
+    "expected": "6"
+  }
+}

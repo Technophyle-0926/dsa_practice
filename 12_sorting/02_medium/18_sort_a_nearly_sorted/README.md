@@ -24,13 +24,25 @@ Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Explanation:  The sorted array will be 1 2 3 4 5 6 7 8 9 10.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortNearlySorted(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/nearly-sorted-algorithm/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/nearly-sorted-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/18_sort_a_nearly_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

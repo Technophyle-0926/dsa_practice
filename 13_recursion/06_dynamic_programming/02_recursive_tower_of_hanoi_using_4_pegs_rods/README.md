@@ -34,12 +34,24 @@ Move disk 2 from rod C to rod D
 Move disk 1 from rod A to rod D
 ```
 
+## Function Signature
+
+```dart
+dynamic recursiveTowerHanoi4Pegs(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-tower-hanoi-using-4-pegs-rods/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/06_dynamic_programming/02_recursive_tower_of_hanoi_using_4_pegs_rods
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

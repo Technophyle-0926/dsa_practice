@@ -26,13 +26,25 @@ Explanation: Frequencies: 1 → 2, 2 → 1.
  2→1 (higher freq), others have no higher freq on right → [-1, 1, -1]
 ```
 
+## Function Signature
+
+```dart
+List<int> nextGreaterFrequency(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/next-greater-frequency-element/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/next-element-with-greater-frequency--170637/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/09_next_greater_frequency
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

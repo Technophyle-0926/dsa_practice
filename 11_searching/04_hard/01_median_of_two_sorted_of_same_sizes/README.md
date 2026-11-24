@@ -20,13 +20,25 @@ Output : 15.5
 Explanation : The merged sorted array is [10, 21]. The middle two elements are 10 and 21, so median = (10 + 21)/2 = 15.5
 ```
 
+## Function Signature
+
+```dart
+int medianTwoSortedSameSizes(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/median-of-two-sorted-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-same-size/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/04_hard/01_median_of_two_sorted_of_same_sizes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

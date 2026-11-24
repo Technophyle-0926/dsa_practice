@@ -1,0 +1,16 @@
+{
+  "title": "Properties of Binary Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/properties-of-binary-tree/",
+  "practice": null,
+  "function": {
+    "name": "propertiesBinaryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

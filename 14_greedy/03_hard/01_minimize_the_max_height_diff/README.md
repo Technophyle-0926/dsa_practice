@@ -22,13 +22,25 @@ Output: 11
 Explanation: The array can be modified as [3+k, 9+k, 12-k, 16-k, 20-k] = [6, 12, 9, 13, 17]. The difference between the largest and the smallest is 17 - 6 = 11.
 ```
 
+## Function Signature
+
+```dart
+int minimizeMaxHeightDiff(int k, List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimize-the-maximum-difference-between-the-heights/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/01_minimize_the_max_height_diff
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

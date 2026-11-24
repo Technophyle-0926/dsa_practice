@@ -1,0 +1,24 @@
+{
+  "title": "Paths in a Grid with Obstacles",
+  "number": 12,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/unique-paths-in-a-grid-with-obstacles/",
+  "practice": "https://www.geeksforgeeks.org/problems/unique-paths-in-a-grid--170647/1",
+  "function": {
+    "name": "pathsGridObstacles",
+    "params": [
+      {
+        "name": "grid",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "pathsGridObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]])",
+    "expected": "2"
+  }
+}

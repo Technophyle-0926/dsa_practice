@@ -1,0 +1,28 @@
+{
+  "title": "Count Occurrences in a Linked List",
+  "number": 3,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/write-a-function-that-counts-the-number-of-times-a-given-int-occurs-in-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1",
+  "function": {
+    "name": "countOccurrencesLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countOccurrencesLinkedList(ListNode.fromList([1, 2, 1, 2, 1, 3, 1]), 1)",
+    "expected": "4"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dynamic Segment Trees",
+  "number": 6,
+  "category": "Segment Tree",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/dynamic-segment-trees-online-queries-for-range-sum-with-point-updates/",
+  "practice": null
+}

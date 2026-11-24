@@ -1,0 +1,24 @@
+{
+  "title": "Bitmasking and DP1",
+  "number": 1,
+  "category": "Dynamic Programming",
+  "level": "Advanced Concepts",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person/",
+  "practice": null,
+  "function": {
+    "name": "bitmaskingDp1",
+    "params": [
+      {
+        "name": "caps",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "bitmaskingDp1([[3, 4], [4, 5], [5]])",
+    "expected": "1"
+  }
+}

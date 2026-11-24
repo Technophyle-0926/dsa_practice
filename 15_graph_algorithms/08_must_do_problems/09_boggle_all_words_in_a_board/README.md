@@ -27,13 +27,25 @@ Output: ["GEEKS","QUIZ"]
 Explanation: "GEEKS" and "QUIZ" can be formed by traversing adjacent cells (8 directions) without reusing any cell.
 ```
 
+## Function Signature
+
+```dart
+List<String> boggleAllWordsBoard(List<List<String>> board, List<String> dictionary)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/boggle-find-possible-words-board-characters/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-boggle4143/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/08_must_do_problems/09_boggle_all_words_in_a_board
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

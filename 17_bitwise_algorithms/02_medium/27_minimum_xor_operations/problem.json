@@ -1,0 +1,28 @@
+{
+  "title": "Minimum XOR Operations",
+  "number": 27,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-bitwise-xor-operations-to-make-any-two-array-elements-equal/",
+  "practice": null,
+  "function": {
+    "name": "minimumXorOperations",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "K",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumXorOperations([1, 9, 4, 3], 3)",
+    "expected": "-1"
+  }
+}

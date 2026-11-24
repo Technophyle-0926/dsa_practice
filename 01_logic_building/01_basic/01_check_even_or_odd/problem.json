@@ -1,0 +1,24 @@
+{
+  "title": "Check Even or Odd",
+  "number": 1,
+  "category": "Logic Building",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-whether-given-number-even-odd/",
+  "practice": "https://www.geeksforgeeks.org/problems/odd-or-even3618/1",
+  "function": {
+    "name": "checkEvenOrOdd",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkEvenOrOdd(15)",
+    "expected": "false"
+  }
+}

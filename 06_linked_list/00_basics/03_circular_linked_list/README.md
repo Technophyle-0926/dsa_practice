@@ -46,8 +46,12 @@ For the insertion of a node at the beginning, we need to traverse the whole list
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/circular-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/00_basics/03_circular_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

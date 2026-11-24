@@ -22,13 +22,25 @@ Output: 2
 Explanation: Two additional edges (0 -> 3, 1 -> 3) can be added without forming cycles.
 ```
 
+## Function Signature
+
+```dart
+dynamic maximumEdgesThatCanBe(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-edges-can-added-dag-remains-dag/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/max-dag-edges/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/33_maximum_edges_that_can_be_added_to_dag_so_that_is_remains_da
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

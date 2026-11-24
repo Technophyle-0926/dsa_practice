@@ -65,12 +65,24 @@ Now Dequeue the vertex 4 from the queue and following are the adjacent vertices 
 Similarly Dequeue the vertex 3 from the Queue and update the values for adjacent vertex. Adjacent vertices of the vertex 3 is vertex 4 and vertex 2.
 ```
 
+## Function Signature
+
+```dart
+dynamic desopoPapeAlgorithm(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/desopo-pape-algorithm-single-source-shortest-path/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/12_desopo_pape_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

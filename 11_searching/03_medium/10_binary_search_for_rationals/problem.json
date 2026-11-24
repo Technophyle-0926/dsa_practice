@@ -1,0 +1,16 @@
+{
+  "title": "Binary Search for Rationals",
+  "number": 10,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-search-for-rational-numbers-without-using-floating-point-arithmetic/",
+  "practice": null,
+  "function": {
+    "name": "binarySearchRationals",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

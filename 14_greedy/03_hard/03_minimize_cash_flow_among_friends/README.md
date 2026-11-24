@@ -31,13 +31,25 @@ Output: 0
 Explanation: The debts form a cycle: friend 0 owes 100 to friend 1, friend 1 owes 100 to friend 2, and friend 2 owes 100 to friend 0. The net balance of every friend is 0, so the settlement [[0, 0, 0], [0, 0, 0], [0, 0, 0]] is valid, and its total cash flow is 0.
 ```
 
+## Function Signature
+
+```dart
+int minimizeCashFlowAmongFriends(List<List<int>> transaction)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimize-cash-flow-among-given-set-friends-borrowed-money/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimize-cash-flow/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/03_minimize_cash_flow_among_friends
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

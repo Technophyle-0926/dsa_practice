@@ -1,0 +1,16 @@
+{
+  "title": "Rotate Doubly linked list by N nodes",
+  "number": 18,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rotate-doubly-linked-list-n-nodes/",
+  "practice": "https://www.geeksforgeeks.org/problems/rotate-doubly-linked-list-by-p-nodes/1",
+  "function": {
+    "name": "rotateDoublyLinkedListN",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -60,12 +60,24 @@ Note: Before using binarySearch() with a Comparator, the list must be sorted usi
 
 **Auxiliary Space:** O(1) (no extra data structures used)
 
+## Function Signature
+
+```dart
+dynamic collectionsBinarysearchJava(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/java/collections-binarysearch-java-examples/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/01_binary_search_implementations/04_collections_binarysearch_in_java
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

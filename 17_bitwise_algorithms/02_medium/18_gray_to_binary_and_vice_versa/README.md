@@ -20,13 +20,25 @@ Output: 5
 Explanation: The binary representation of 7 is 111. Treating 111 as a Gray code, its corresponding binary representation is 101, whose decimal value is 5.
 ```
 
+## Function Signature
+
+```dart
+int grayBinaryViceVersa(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/gray-to-binary-and-binary-to-gray-conversion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/gray-to-binary-equivalent-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/18_gray_to_binary_and_vice_versa
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Decode a string encoded with recursive substring counts",
+  "number": 11,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/decode-string-recursively-encoded-count-followed-substring/",
+  "practice": "https://www.geeksforgeeks.org/problems/decode-the-string2444/1",
+  "function": {
+    "name": "decodeStringEncodedRecursiveSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "decodeStringEncodedRecursiveSubstring(\"3[b2[ca]]\")",
+    "expected": "\"bcacabcacabcaca\""
+  }
+}

@@ -20,12 +20,24 @@ If we take a closer look at Insertion Sort algorithm, we keep processed elements
 - Recursively sort first n-1 elements.
 - Insert last element at its correct position in sorted array.
 
+## Function Signature
+
+```dart
+dynamic recursiveInsertionSort(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-insertion-sort/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/07_sorting/02_recursive_insertion_sort
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

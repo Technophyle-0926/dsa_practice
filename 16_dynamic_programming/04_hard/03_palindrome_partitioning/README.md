@@ -27,13 +27,25 @@ Output: 4
 Explanation: Palindromic substrings with length greater than 1, are "bb" , "abba" , "aea", "eae".
 ```
 
+## Function Signature
+
+```dart
+int palindromePartitioning(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-palindrome-sub-strings-string/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-palindrome-sub-strings-of-a-string0652/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/03_palindrome_partitioning
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

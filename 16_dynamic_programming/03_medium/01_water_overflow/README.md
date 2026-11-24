@@ -22,13 +22,25 @@ Output: 0.5
 Explanation: After the first glass, 1 units of water will remain and they will spread equally on the two glasses on the second row. Therefore, the glass on the 2nd row and 2nd column will have half unit of water.
 ```
 
+## Function Signature
+
+```dart
+double waterOverflow(int k, int r, int c)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-water-in-a-glass/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/champagne-overflow2636/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/01_water_overflow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

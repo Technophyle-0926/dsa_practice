@@ -1,0 +1,28 @@
+{
+  "title": "Print all possible strings of length k that can be formed from a set of n characters",
+  "number": 3,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-combinations-of-given-length/",
+  "practice": null,
+  "function": {
+    "name": "printAllPossibleStringsLength",
+    "params": [
+      {
+        "name": "setValue",
+        "type": "List<String>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllPossibleStringsLength([\"a\", \"b\"], 3)",
+    "expected": "aaa"
+  }
+}

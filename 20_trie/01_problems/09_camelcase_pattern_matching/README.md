@@ -21,13 +21,25 @@ Output: []
 Explanation: None of the words matches the given pattern.
 ```
 
+## Function Signature
+
+```dart
+List<String> camelcasePatternMatching(List<String> arr, String pat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/camelcase-pattern-matching/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/camelcase-pattern-matching2259/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/09_camelcase_pattern_matching
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

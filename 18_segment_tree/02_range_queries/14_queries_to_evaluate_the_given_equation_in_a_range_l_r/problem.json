@@ -1,0 +1,28 @@
+{
+  "title": "Queries to evaluate the given equation in a range [L, R]",
+  "number": 14,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/queries-to-evaluate-the-given-equation-in-a-range-l-r/",
+  "practice": null,
+  "function": {
+    "name": "queriesEvaluateGivenEquationRange",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "Q",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "queriesEvaluateGivenEquationRange([5, 2, 3, 0], [[1, 3], [0, 2]])",
+    "expected": "3 7"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "CamelCase Pattern Matching",
+  "number": 9,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/camelcase-pattern-matching/",
+  "practice": "https://www.geeksforgeeks.org/problems/camelcase-pattern-matching2259/1",
+  "function": {
+    "name": "camelcasePatternMatching",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      },
+      {
+        "name": "pat",
+        "type": "String"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "camelcasePatternMatching([\"WelcomeGeek\", \"WelcomeToGeeksForGeeks\", \"GeeksForGeeks\", \"WayToGo\"], \"WTG\")",
+    "expected": "[ \"WelcomeToGeeksForGeeks\", \"WayToGo\" ]"
+  }
+}

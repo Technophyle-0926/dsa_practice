@@ -1,0 +1,28 @@
+{
+  "title": "Painting Fence Algorithm",
+  "number": 7,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/painting-fence-algorithm/",
+  "practice": "https://www.geeksforgeeks.org/problems/painting-the-fence3727/1",
+  "function": {
+    "name": "paintingFenceAlgorithm",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "paintingFenceAlgorithm(2, 4)",
+    "expected": "16"
+  }
+}

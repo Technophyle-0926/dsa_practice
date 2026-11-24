@@ -1,0 +1,16 @@
+{
+  "title": "Deleting a given key",
+  "number": 5,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-in-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "deletingGivenKey",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

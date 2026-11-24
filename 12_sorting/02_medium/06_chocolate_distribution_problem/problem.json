@@ -1,0 +1,28 @@
+{
+  "title": "Chocolate Distribution Problem",
+  "number": 6,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/chocolate-distribution-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1",
+  "function": {
+    "name": "chocolateDistributionProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "chocolateDistributionProblem([7, 3, 2, 4, 9, 12, 56], 3)",
+    "expected": "2"
+  }
+}

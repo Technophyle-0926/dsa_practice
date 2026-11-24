@@ -25,12 +25,24 @@ Output: -1
 Explanation: No combination of reversals can make the array sorted in lexicographic order. Even reversing all strings results in ["abc", "acb", "aaa"], which is also not sorted. Hence, the output is -1.
 ```
 
+## Function Signature
+
+```dart
+int minCostSortStringsReversals(List<String> arr, List<int> cost)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-cost-sort-strings-using-reversal-operations-different-costs/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/11_min_cost_to_sort_strings_using_reversals
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

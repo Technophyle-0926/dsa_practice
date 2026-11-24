@@ -29,12 +29,24 @@ Input: s = "xxyyzz", k = 2
 Output: "zz"
 ```
 
+## Function Signature
+
+```dart
+String lexicographicallyLargestSubsequence(String s, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/lexicographically-largest-subsequence-every-character-occurs-least-k-times/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/16_lexicographically_largest_subsequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

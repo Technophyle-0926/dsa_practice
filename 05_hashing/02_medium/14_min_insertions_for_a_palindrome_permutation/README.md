@@ -18,12 +18,24 @@ Output: 0
 Explanation: aabbc can be changed as: abcba or bacab without any insertion
 ```
 
+## Function Signature
+
+```dart
+int minInsertionsPalindromePermutation(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-insertions-to-form-a-palindrome-with-permutations-allowed/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/14_min_insertions_for_a_palindrome_permutation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

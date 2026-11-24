@@ -20,13 +20,25 @@ Output: 3
 Explanation: 3 strings are ("00", "01", "10").
 ```
 
+## Function Signature
+
+```dart
+int binaryStringsWithoutConsecutive1s(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-number-binary-strings-without-consecutive-1s/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/consecutive-1s-not-allowed1912/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/16_binary_strings_without_consecutive_1s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Sentinel Linear Search",
+  "number": 1,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sentinel-linear-search/",
+  "practice": null,
+  "function": {
+    "name": "sentinelLinearSearch",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

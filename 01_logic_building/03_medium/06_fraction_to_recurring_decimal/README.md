@@ -18,13 +18,25 @@ Output: "2.(27)"
 Explanation: 50/22 = 2.27272727... Since fractional part (27) is repeating, it is enclosed in parentheses.
 ```
 
+## Function Signature
+
+```dart
+String fractionRecurringDecimal(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/represent-the-fraction-of-two-numbers-in-the-string-format/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/06_fraction_to_recurring_decimal
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

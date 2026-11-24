@@ -1,0 +1,16 @@
+{
+  "title": "LIS using Segment Tree",
+  "number": 9,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lis-using-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "lisSegmentTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

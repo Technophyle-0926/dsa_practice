@@ -1,0 +1,16 @@
+{
+  "title": "Program to find parity",
+  "number": 9,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-find-parity/",
+  "practice": null,
+  "function": {
+    "name": "programFindParity",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

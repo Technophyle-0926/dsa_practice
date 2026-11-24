@@ -1,0 +1,16 @@
+{
+  "title": "Minimum mean weight cycle algorithm",
+  "number": 9,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/karps-minimum-mean-average-weight-cycle-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "minimumMeanWeightCycleAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

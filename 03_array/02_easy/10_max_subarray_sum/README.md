@@ -26,13 +26,25 @@ Output: 25
 Explanation: The subarray [5, 4, 1, 7, 8] has the largest sum 25.
 ```
 
+## Function Signature
+
+```dart
+int maxSubarraySum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-sum-contiguous-subarray/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/10_max_subarray_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

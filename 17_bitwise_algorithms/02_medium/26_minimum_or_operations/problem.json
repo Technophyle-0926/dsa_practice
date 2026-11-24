@@ -1,0 +1,28 @@
+{
+  "title": "Minimum OR Operations",
+  "number": 26,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-bitwise-or-operations-to-make-any-two-array-elements-equal/",
+  "practice": null,
+  "function": {
+    "name": "minimumOrOperations",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "K",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumOrOperations([1, 9, 4, 3], 3)",
+    "expected": "1 We can OR a[0] with x, which makes it 3 which is equal to a[3]"
+  }
+}

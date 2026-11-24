@@ -1,0 +1,28 @@
+{
+  "title": "Job Sequencing",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/job-sequencing-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1",
+  "function": {
+    "name": "jobSequencing",
+    "params": [
+      {
+        "name": "deadline",
+        "type": "List<int>"
+      },
+      {
+        "name": "profit",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "jobSequencing([4, 1, 1, 1], [20, 10, 40, 30])",
+    "expected": "[2, 60]"
+  }
+}

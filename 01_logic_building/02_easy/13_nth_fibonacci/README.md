@@ -22,13 +22,25 @@ Output: 5
 Explanation: 5 is the 5th number of Fibonacci series.
 ```
 
+## Function Signature
+
+```dart
+int nthFibonacci(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-for-nth-fibonacci-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/13_nth_fibonacci
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

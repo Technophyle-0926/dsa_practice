@@ -22,12 +22,24 @@ Let us consider an example text "banana\0" where '\0' is string termination char
 
 If we consider all of the above suffixes as individual words and build a Trie, we get following.
 
+## Function Signature
+
+```dart
+dynamic patternSearchingTrieAllSuffixes(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/pattern-searching-using-trie-suffixes/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/07_pattern_searching_using_a_trie_of_all_suffixes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Sort a linked list of 0s, 1s and 2s",
+  "number": 10,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-a-linked-list-of-0s-1s-or-2s/",
+  "practice": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1",
+  "function": {
+    "name": "sortLinkedList0s1s",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

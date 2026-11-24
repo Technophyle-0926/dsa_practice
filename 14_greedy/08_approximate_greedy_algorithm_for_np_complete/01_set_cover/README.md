@@ -122,12 +122,24 @@ This algorithm provides an approximate solution to the Set Cover problem. The ap
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic cover(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/greedy-approximate-algorithm-for-set-cover-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/08_approximate_greedy_algorithm_for_np_complete/01_set_cover
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

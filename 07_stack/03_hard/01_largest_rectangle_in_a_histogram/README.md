@@ -20,13 +20,25 @@ Output: 15
 Explanation:  We get the maximum are by picking bars 7, 5 and 9. The area is computed (smallest height) * (no. of the picked bars) = 5 * 3 = 15.
 ```
 
+## Function Signature
+
+```dart
+int largestRectangleHistogram(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-rectangular-area-in-a-histogram-using-stack/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/01_largest_rectangle_in_a_histogram
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

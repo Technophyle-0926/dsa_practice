@@ -18,12 +18,24 @@ Input : n = 3
 Output : 000 001 010 100 101
 ```
 
+## Function Signature
+
+```dart
+List<int> generateAllBinaryStringsWithout(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/generate-binary-strings-without-consecutive-1s/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/08_generate_all_binary_strings_without_consecutive_1s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

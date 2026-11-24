@@ -1,0 +1,24 @@
+{
+  "title": "Min Notes with Given Sum",
+  "number": 10,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-number-currency-notes-sum-upto-given-amount/",
+  "practice": null,
+  "function": {
+    "name": "minNotesGivenSum",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "minNotesGivenSum(800)",
+    "expected": "Currency  Count"
+  }
+}

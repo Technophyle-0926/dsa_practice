@@ -1,0 +1,24 @@
+{
+  "title": "Prime Factorization",
+  "number": 12,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/prime-factor/",
+  "practice": "https://www.geeksforgeeks.org/problems/prime-factors5052/1",
+  "function": {
+    "name": "primeFactorization",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "primeFactorization(100)",
+    "expected": "[2, 5]"
+  }
+}

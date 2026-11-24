@@ -1,0 +1,16 @@
+{
+  "title": "Maximum Occurrence in a Given Range",
+  "number": 9,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-occurrence-given-range/",
+  "practice": null,
+  "function": {
+    "name": "maximumOccurrenceGivenRange",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

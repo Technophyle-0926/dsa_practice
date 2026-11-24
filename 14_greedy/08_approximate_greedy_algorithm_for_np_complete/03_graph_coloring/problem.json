@@ -1,0 +1,16 @@
+{
+  "title": "Graph Coloring",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Approximate Greedy Algorithm for NP Complete",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/graph-coloring-set-2-greedy-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "graphColoring",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

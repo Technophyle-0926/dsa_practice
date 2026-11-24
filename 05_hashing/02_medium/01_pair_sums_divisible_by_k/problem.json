@@ -1,0 +1,28 @@
+{
+  "title": "Pair Sums Divisible by k",
+  "number": 1,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-an-array-can-be-divided-into-pairs-whose-sum-is-divisible-by-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1",
+  "function": {
+    "name": "pairSumsDivisibleK",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "pairSumsDivisibleK([9, 7, 5, 3], 6)",
+    "expected": "true"
+  }
+}

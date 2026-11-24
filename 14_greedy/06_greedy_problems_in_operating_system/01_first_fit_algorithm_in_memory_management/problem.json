@@ -1,0 +1,28 @@
+{
+  "title": "First Fit algorithm in Memory Management",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Greedy Problems in Operating System",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-first-fit-algorithm-memory-management/",
+  "practice": null,
+  "function": {
+    "name": "firstFitAlgorithmMemoryManagement",
+    "params": [
+      {
+        "name": "blockSize",
+        "type": "List<int>"
+      },
+      {
+        "name": "processSize",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "firstFitAlgorithmMemoryManagement([100, 500, 200, 300, 600], [212, 417, 112, 426])",
+    "expected": "Process No.    Process Size    Block no."
+  }
+}

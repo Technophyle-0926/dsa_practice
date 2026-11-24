@@ -1,0 +1,24 @@
+{
+  "title": "Cutting a Rod",
+  "number": 8,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/cutting-a-rod-dp-13/",
+  "practice": "https://www.geeksforgeeks.org/problems/rod-cutting0840/1",
+  "function": {
+    "name": "cuttingRod",
+    "params": [
+      {
+        "name": "price",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "cuttingRod([1, 5, 8, 9, 10, 17, 17, 20])",
+    "expected": "22"
+  }
+}

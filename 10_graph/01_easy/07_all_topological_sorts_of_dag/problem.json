@@ -1,0 +1,16 @@
+{
+  "title": "All Topological Sorts of DAG",
+  "number": 7,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/all-topological-sorts-of-a-directed-acyclic-graph/",
+  "practice": null,
+  "function": {
+    "name": "allTopologicalSortsDag",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

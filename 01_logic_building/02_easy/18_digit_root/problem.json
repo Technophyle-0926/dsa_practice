@@ -1,0 +1,24 @@
+{
+  "title": "Digit Root",
+  "number": 18,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/digital-rootrepeated-digital-sum-given-integer/",
+  "practice": "https://www.geeksforgeeks.org/problems/digital-root/1",
+  "function": {
+    "name": "digitRoot",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "digitRoot(1)",
+    "expected": "1"
+  }
+}

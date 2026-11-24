@@ -17,13 +17,25 @@ Output: 29
 Explanation: The matrix is as follows and the green rectangle denotes the maximum sum rectangle which is equal to 29.
 ```
 
+## Function Signature
+
+```dart
+int maximumSumRectangle(List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-sum-rectangle-in-a-2d-matrix/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/09_maximum_sum_rectangle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

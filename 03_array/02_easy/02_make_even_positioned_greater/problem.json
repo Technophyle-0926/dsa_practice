@@ -1,0 +1,24 @@
+{
+  "title": "Make Even Positioned Greater",
+  "number": 2,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rearrange-array-such-that-even-positioned-are-greater-than-odd/",
+  "practice": "https://www.geeksforgeeks.org/problems/rearrange-array-such-that-even-positioned-are-greater-than-odd4804/1",
+  "function": {
+    "name": "makeEvenPositionedGreater",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "makeEvenPositionedGreater([1, 2, 2, 1])",
+    "expected": "[1 2 1 2]"
+  }
+}

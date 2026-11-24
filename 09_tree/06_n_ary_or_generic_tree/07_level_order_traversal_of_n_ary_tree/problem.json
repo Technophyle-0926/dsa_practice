@@ -1,0 +1,16 @@
+{
+  "title": "Level Order Traversal of N-ary Tree",
+  "number": 7,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/level-order-traversal-of-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "levelOrderTraversalNAry",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

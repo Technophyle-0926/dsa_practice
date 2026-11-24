@@ -20,13 +20,25 @@ Output : 2
 Explanation: 5^2 = 25 for k = 2. First digit is 2 in 25
 ```
 
+## Function Signature
+
+```dart
+int kThDigitB(int a, int b, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/k-th-digit-raised-power-b/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/print-the-kth-digit3520/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/05_k_th_digit_in_a_b
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

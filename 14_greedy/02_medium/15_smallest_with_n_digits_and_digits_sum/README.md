@@ -27,13 +27,25 @@ Output: 1
 Explanation: 1 is the smallest number possible with the sum of digits = 1 and total digits = 1.
 ```
 
+## Function Signature
+
+```dart
+int smallestNDigitsDigitsSum(int s, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-smallest-number-with-given-number-of-digits-and-digit-sum/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/smallest-number5829/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/15_smallest_with_n_digits_and_digits_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -30,12 +30,24 @@ Output : 6 0 0
 24 - 24 = 0
 ```
 
+## Function Signature
+
+```dart
+dynamic fittingShelvesProblem(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/fitting-shelves-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/07_fitting_shelves_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

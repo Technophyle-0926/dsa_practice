@@ -39,13 +39,25 @@ Explanation: The integers in their binary representation are:
 hence the non-increasing sorted order is {3, 5, 6}, {1, 2, 4}.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortBitsCounts(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-array-according-count-set-bits/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/sort-by-set-bit-count1153/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/10_sort_by_set_bits_counts
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

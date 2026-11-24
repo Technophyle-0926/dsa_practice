@@ -1,0 +1,16 @@
+{
+  "title": "Querying maximum number of divisors",
+  "number": 3,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/querying-maximum-number-divisors-number-given-range/",
+  "practice": null,
+  "function": {
+    "name": "queryingMaximumNumberDivisors",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

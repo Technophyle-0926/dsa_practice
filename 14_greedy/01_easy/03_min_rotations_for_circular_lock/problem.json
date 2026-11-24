@@ -1,0 +1,28 @@
+{
+  "title": "Min Rotations for Circular Lock",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-rotations-unlock-circular-lock/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-rotations-to-unlock-a-circular-lock1001/1",
+  "function": {
+    "name": "minRotationsCircularLock",
+    "params": [
+      {
+        "name": "r",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minRotationsCircularLock(222, 333)",
+    "expected": "3"
+  }
+}

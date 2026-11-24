@@ -1,0 +1,28 @@
+{
+  "title": "Min cost to process m tasks where switching costs",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cost-to-process-m-tasks-where-switching-costs/",
+  "practice": null,
+  "function": {
+    "name": "minCostProcessMTasks",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minCostProcessMTasks(3, [1, 2, 1, 3, 4, 1])",
+    "expected": "4"
+  }
+}

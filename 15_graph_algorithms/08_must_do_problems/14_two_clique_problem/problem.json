@@ -1,0 +1,16 @@
+{
+  "title": "Two Clique Problem",
+  "number": 14,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/two-clique-problem-check-graph-can-divided-two-cliques/",
+  "practice": null,
+  "function": {
+    "name": "twoCliqueProblem",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

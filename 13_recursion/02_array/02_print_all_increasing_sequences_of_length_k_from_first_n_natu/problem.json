@@ -1,0 +1,28 @@
+{
+  "title": "Print all increasing sequences of length k from first n natural numbers",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-increasing-sequences-length-k-first-n-natural-numbers/",
+  "practice": null,
+  "function": {
+    "name": "printAllIncreasingSequencesLength",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllIncreasingSequencesLength(2, 3)",
+    "expected": "1 2"
+  }
+}

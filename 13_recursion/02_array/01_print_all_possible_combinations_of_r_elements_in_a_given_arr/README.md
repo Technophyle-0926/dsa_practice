@@ -31,12 +31,24 @@ Explanation: We need to generate all possible combinations of size 3 from an arr
 ^4C_3 = 4! / [(4 - 3)! × 3!] = 4 combinations.
 ```
 
+## Function Signature
+
+```dart
+List<int> printAllPossibleCombinationsR(List<int> arr, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/02_array/01_print_all_possible_combinations_of_r_elements_in_a_given_arr
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Channel Assignment Problem",
+  "number": 48,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/channel-assignment-problem/",
+  "practice": null,
+  "function": {
+    "name": "channelAssignmentProblem",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

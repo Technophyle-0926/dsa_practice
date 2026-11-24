@@ -18,13 +18,25 @@ Output: true
 Explanation: Divisors of 6 are 1, 2 and 3. Sum of divisors is 6.
 ```
 
+## Function Signature
+
+```dart
+bool perfectNumber(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/perfect-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/perfect-numbers3207/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/10_perfect_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

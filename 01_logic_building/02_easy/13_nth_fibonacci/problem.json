@@ -1,0 +1,24 @@
+{
+  "title": "Nth Fibonacci",
+  "number": 13,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-nth-fibonacci-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1",
+  "function": {
+    "name": "nthFibonacci",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "nthFibonacci(2)",
+    "expected": "1"
+  }
+}

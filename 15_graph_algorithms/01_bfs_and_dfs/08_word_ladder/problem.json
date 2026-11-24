@@ -1,0 +1,32 @@
+{
+  "title": "Word Ladder",
+  "number": 8,
+  "category": "Graph Algorithms",
+  "level": "BFS and DFS",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/word-ladder-length-of-shortest-chain-to-reach-a-target-word/",
+  "practice": "https://www.geeksforgeeks.org/problems/word-ladder/1",
+  "function": {
+    "name": "wordLadder",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      },
+      {
+        "name": "start",
+        "type": "String"
+      },
+      {
+        "name": "end",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "wordLadder([\"des\", \"der\", \"dfr\", \"dgt\", \"dfs\"], \"der\", \"dfs\")",
+    "expected": "3"
+  }
+}

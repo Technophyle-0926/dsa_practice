@@ -15,12 +15,24 @@ Input : arr[] = {13, 26, 21, 15}, K = 13
 Output : -1
 ```
 
+## Function Signature
+
+```dart
+dynamic minimumOrOperations(List<int> arr, int K)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-bitwise-or-operations-to-make-any-two-array-elements-equal/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/26_minimum_or_operations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

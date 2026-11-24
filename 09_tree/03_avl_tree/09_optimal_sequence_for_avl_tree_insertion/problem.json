@@ -1,0 +1,24 @@
+{
+  "title": "Optimal sequence for AVL tree insertion",
+  "number": 9,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/optimal-sequence-for-avl-tree-insertion-without-any-rotations/",
+  "practice": null,
+  "function": {
+    "name": "optimalSequenceAvlTreeInsertion",
+    "params": [
+      {
+        "name": "array",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "optimalSequenceAvlTreeInsertion([1, 2, 3])",
+    "expected": "2 1 3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Count of distinct substrings",
+  "number": 2,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": null,
+  "practice": "https://www.geeksforgeeks.org/problems/count-of-distinct-substrings/1",
+  "function": {
+    "name": "countDistinctSubstrings",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countDistinctSubstrings(\"ababa\")",
+    "expected": "9"
+  }
+}

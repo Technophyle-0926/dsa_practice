@@ -1,0 +1,24 @@
+{
+  "title": "Pacific Atlantic Water Flow",
+  "number": 1,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/signal-propagation/",
+  "practice": "https://www.geeksforgeeks.org/problems/geeks-island--170646/1",
+  "function": {
+    "name": "pacificAtlanticWaterFlow",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "pacificAtlanticWaterFlow([[1, 2, 2, 3, 5], [3, 2, 3, 4, 4], [2, 4, 5, 3, 1], [6, 7, 1, 4, 5], [5, 1, 1, 2, 4]])",
+    "expected": "7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Count Nodes in Circular List",
+  "number": 6,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-nodes-circular-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "countNodesCircularList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

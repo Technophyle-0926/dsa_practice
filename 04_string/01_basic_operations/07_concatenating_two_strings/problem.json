@@ -1,0 +1,28 @@
+{
+  "title": "Concatenating Two Strings",
+  "number": 7,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/computer-science-fundamentals/concatenation-of-two-strings/",
+  "practice": null,
+  "function": {
+    "name": "concatenatingTwoStrings",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "concatenatingTwoStrings(\"Hello\", \"World\")",
+    "expected": "\"HelloWorld\""
+  }
+}

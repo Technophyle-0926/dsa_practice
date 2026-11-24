@@ -26,13 +26,25 @@ Output: 54321
 Explanation: By reversing the digits of number, number will change into 54321.
 ```
 
+## Function Signature
+
+```dart
+int reverseDigits(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-a-program-to-reverse-digits-of-a-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/reverse-digit0316/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/02_reverse_digits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

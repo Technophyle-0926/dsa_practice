@@ -65,12 +65,24 @@ Please refer Add two binary strings for detailed explanation and solution.
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+int addBitStrings(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/add-two-bit-strings/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/09_add_bit_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

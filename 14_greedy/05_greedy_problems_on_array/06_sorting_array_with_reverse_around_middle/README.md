@@ -34,12 +34,24 @@ If array has n elements then 2^n combinations possible thus running time would b
 
 **Another solution** can be make copy of the array and sort the copied array. Then compare each element of the sorted array with equivalent element of original array and its mirror image when pivot around center. Sorting the array takes O(n*logn) and 2n comparisons be required thus running time would be O(n*logn).
 
+## Function Signature
+
+```dart
+dynamic sortingArrayReverseAroundMiddle(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sorting-array-reverse-around-middle/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/06_sorting_array_with_reverse_around_middle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

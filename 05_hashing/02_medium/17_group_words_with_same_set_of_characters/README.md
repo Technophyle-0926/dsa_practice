@@ -27,12 +27,24 @@ Explanation :
 All words with same set of characters are printed together in a line.
 ```
 
+## Function Signature
+
+```dart
+dynamic groupWordsSameCharacters(List<String> words)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-words-together-set-characters/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/17_group_words_with_same_set_of_characters
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

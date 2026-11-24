@@ -26,12 +26,24 @@ Output:
 Explanation: Singly linked list is converted to circular by pointing last node to head.
 ```
 
+## Function Signature
+
+```dart
+dynamic singlyCircularConversion(ListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/convert-singly-linked-list-circular-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/02_easy/08_singly_to_circular_conversion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

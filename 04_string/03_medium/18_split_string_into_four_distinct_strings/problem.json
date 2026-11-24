@@ -1,0 +1,24 @@
+{
+  "title": "Split String into four distinct strings",
+  "number": 18,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-given-string-can-split-four-distinct-strings/",
+  "practice": "https://www.geeksforgeeks.org/problems/split-the-string2424/1",
+  "function": {
+    "name": "splitStringIntoFourDistinct",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "splitStringIntoFourDistinct(\"geeksforgeeks\")",
+    "expected": "true"
+  }
+}

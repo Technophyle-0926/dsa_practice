@@ -1,0 +1,16 @@
+{
+  "title": "Union and Intersection",
+  "number": 12,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/union-and-intersection-of-two-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1",
+  "function": {
+    "name": "unionIntersection",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

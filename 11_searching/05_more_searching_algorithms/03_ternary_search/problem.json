@@ -1,0 +1,28 @@
+{
+  "title": "Ternary Search",
+  "number": 3,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/ternary-search/",
+  "practice": "https://www.geeksforgeeks.org/problems/searching-an-element-in-a-sorted-array-ternary-search--141631/1",
+  "function": {
+    "name": "ternarySearch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "ternarySearch([1, 2, 3, 4, 6], 6)",
+    "expected": "true"
+  }
+}

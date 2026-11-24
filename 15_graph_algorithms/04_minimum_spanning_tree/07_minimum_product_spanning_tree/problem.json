@@ -1,0 +1,16 @@
+{
+  "title": "Minimum Product Spanning Tree",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Minimum Spanning Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-product-spanning-tree/",
+  "practice": null,
+  "function": {
+    "name": "minimumProductSpanningTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

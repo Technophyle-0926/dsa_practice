@@ -27,13 +27,25 @@ Output: [1, 4, 2, 3, 5]
 Explanation: The next lexicographically greater arrangement of the elements in the array arr[] is [1, 4, 2, 3, 5].
 ```
 
+## Function Signature
+
+```dart
+List<int> nextPermutation(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/next-permutation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/next-permutation5226/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/10_next_permutation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

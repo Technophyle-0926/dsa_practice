@@ -27,12 +27,24 @@ Note: father, left_son and right_son are the values of indices of the array.
 
 **Case 2:** 1---n
 
+## Function Signature
+
+```dart
+dynamic arrayImplementation(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-tree-array-implementation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/01_binary_tree/17_array_implementation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

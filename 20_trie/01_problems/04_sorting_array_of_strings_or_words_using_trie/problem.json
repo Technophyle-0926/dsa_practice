@@ -1,0 +1,32 @@
+{
+  "title": "Sorting array of strings (or words) using Trie",
+  "number": 4,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sorting-array-strings-words-using-trie/",
+  "practice": null,
+  "function": {
+    "name": "sortingArrayStringsOrWords",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      },
+      {
+        "name": "s3",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "sortingArrayStringsOrWords(\"abc\", \"xy\", \"bcd\")",
+    "expected": "abc bcd xy"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Depth First Traversal for a Graph",
+  "number": 2,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
+  "function": {
+    "name": "depthFirstTraversalGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

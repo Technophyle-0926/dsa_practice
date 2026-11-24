@@ -1,0 +1,16 @@
+{
+  "title": "Kruskal’s Minimum Spanning Tree",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Greedy Problems on Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree-kruskals-algorithm/1",
+  "function": {
+    "name": "kruskalsMinimumSpanningTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

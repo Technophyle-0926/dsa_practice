@@ -26,13 +26,25 @@ Output: -1
 Explanation: We cannot go anywhere from the 1st element.
 ```
 
+## Function Signature
+
+```dart
+int jumpGame(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-jumps-reach-endset-2on-solution/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/02_jump_game
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

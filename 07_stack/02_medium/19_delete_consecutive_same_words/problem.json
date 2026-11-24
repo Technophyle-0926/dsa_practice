@@ -1,0 +1,24 @@
+{
+  "title": "Delete consecutive same words",
+  "number": 19,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-consecutive-words-sequence/",
+  "practice": "https://www.geeksforgeeks.org/problems/string-manipulation3706/1",
+  "function": {
+    "name": "deleteConsecutiveSameWords",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "deleteConsecutiveSameWords([\"gfg\", \"for\", \"geeks\", \"geeks\", \"for\"])",
+    "expected": "1"
+  }
+}

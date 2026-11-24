@@ -1,0 +1,28 @@
+{
+  "title": "Fibonacci Search",
+  "number": 7,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/fibonacci-search/",
+  "practice": null,
+  "function": {
+    "name": "fibonacciSearch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "fibonacciSearch([2, 3, 4, 10, 40], 10)",
+    "expected": "3"
+  }
+}

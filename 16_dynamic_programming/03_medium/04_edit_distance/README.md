@@ -35,13 +35,25 @@ Explanation: Operation 1: Replace 'X' to 'K'
 Refer the below image for better understanding.
 ```
 
+## Function Signature
+
+```dart
+int editDistance(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/edit-distance-dp-5/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/edit-distance3702/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/04_edit_distance
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

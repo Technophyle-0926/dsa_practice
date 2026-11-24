@@ -1,0 +1,28 @@
+{
+  "title": "Minimize the Max Height Diff",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimize-the-maximum-difference-between-the-heights/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimize-the-heights3351/1",
+  "function": {
+    "name": "minimizeMaxHeightDiff",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimizeMaxHeightDiff(2, [1, 5, 8, 10])",
+    "expected": "5"
+  }
+}

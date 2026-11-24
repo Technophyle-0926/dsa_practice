@@ -28,12 +28,24 @@ Below are some important observations.
 So the main observation is to make n such that is composes of maximum no of 4’s and the remaining can be made up by 6 and 9. We won’t need composite numbers more than that, as the composite numbers above 9 can be made up of 4, 6, and 9 if it is possible to make them up with composite numbers.
 Below is the implementation of the above approach
 
+## Function Signature
+
+```dart
+int maxCompositeNumbersMakeN(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/split-n-maximum-composite-numbers/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/04_max_composite_numbers_to_make_n
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Topological Sorting",
+  "number": 6,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/topological-sorting/",
+  "practice": null,
+  "function": {
+    "name": "topologicalSorting",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

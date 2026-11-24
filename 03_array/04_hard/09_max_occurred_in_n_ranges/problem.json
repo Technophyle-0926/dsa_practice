@@ -1,0 +1,28 @@
+{
+  "title": "Max occurred in n ranges",
+  "number": 9,
+  "category": "Array",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-occurred-integer-n-ranges/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-occured-integer4602/1",
+  "function": {
+    "name": "maxOccurredNRanges",
+    "params": [
+      {
+        "name": "l",
+        "type": "List<int>"
+      },
+      {
+        "name": "r",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxOccurredNRanges([1, 2, 4, 3], [6, 4, 8, 5])",
+    "expected": "4"
+  }
+}

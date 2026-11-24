@@ -20,12 +20,24 @@ Output : 3
 Explanation: You can increment the first element by 2 (to make it 3) and the second element by 1 (to make it 3). This results in the array [3,3,3,4], where 3 elements are equal.
 ```
 
+## Function Signature
+
+```dart
+int makingMaxEqualKUpdates(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-elements-can-made-equal-k-updates/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/02_making_max_equal_with_k_updates
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "Search",
+  "number": 5,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/search-an-element-in-a-sorted-and-pivoted-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1",
+  "function": {
+    "name": "search",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "search([5, 6, 7, 8, 9, 10, 1, 2, 3], 3)",
+    "expected": "8"
+  }
+}

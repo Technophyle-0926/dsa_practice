@@ -20,13 +20,25 @@ Output: 4
 Explanation: No need of rearrangement. Sum of absolute difference between consecutive elements = |10 - 12| + |12 - 10| = 2 + 2 = 4.
 ```
 
+## Function Signature
+
+```dart
+int maxConsecutiveDiffSum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximize-sum-consecutive-differences-circular-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/swap-and-maximize5859/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/08_max_consecutive_diff_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

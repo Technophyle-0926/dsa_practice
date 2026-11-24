@@ -1,0 +1,28 @@
+{
+  "title": "Smallest subarray with sum greater than x",
+  "number": 6,
+  "category": "Array",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-length-subarray-sum-greater-given-value/",
+  "practice": "https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1",
+  "function": {
+    "name": "smallestSubarraySumGreaterThan",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestSubarraySumGreaterThan(51, [1, 4, 45, 6, 0, 19])",
+    "expected": "3"
+  }
+}

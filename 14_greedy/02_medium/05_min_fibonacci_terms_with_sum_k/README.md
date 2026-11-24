@@ -32,12 +32,24 @@ Like Binary Representation where we represent every number as sum  of powers of 
 Firstly we calculate Fibonacci terms till less than or equal to k. then start from the last term and keep subtracting that term from k until k >(nth term). Also along with this keep increasing the count of the number of terms.
 ```
 
+## Function Signature
+
+```dart
+int minFibonacciTermsSumK(int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-fibonacci-terms-sum-equal-k/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/05_min_fibonacci_terms_with_sum_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

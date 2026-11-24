@@ -1,0 +1,24 @@
+{
+  "title": "The only set bit",
+  "number": 8,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-position-of-the-only-set-bit/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-position-of-set-bit3706/1",
+  "function": {
+    "name": "onlyBit",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "onlyBit(2)",
+    "expected": "2"
+  }
+}

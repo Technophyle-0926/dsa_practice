@@ -1,0 +1,16 @@
+{
+  "title": "Sort an array of two types",
+  "number": 2,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-containing-two-types-elements/",
+  "practice": "https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1",
+  "function": {
+    "name": "sortArrayTwoTypes",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

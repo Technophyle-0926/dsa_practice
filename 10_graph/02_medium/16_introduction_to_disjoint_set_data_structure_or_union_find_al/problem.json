@@ -1,0 +1,16 @@
+{
+  "title": "Introduction to Disjoint Set Data Structure or Union-Find Algorithm",
+  "number": 16,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/",
+  "practice": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
+  "function": {
+    "name": "introductionDisjointDataStructureOr",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

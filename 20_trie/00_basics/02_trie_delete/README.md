@@ -31,8 +31,12 @@ Explanation: The word "can" is not present in the Trie, so the Trie remains unch
 - 📖 Article: https://www.geeksforgeeks.org/dsa/trie-delete/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/trie-delete/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/00_basics/02_trie_delete
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

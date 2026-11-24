@@ -1,0 +1,16 @@
+{
+  "title": "Max trains",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-trains-stoppage-can-provided/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-trains-for-which-stoppage-can-be-provided/1",
+  "function": {
+    "name": "maxTrains",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

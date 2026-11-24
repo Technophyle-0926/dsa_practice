@@ -1,0 +1,32 @@
+{
+  "title": "Box-Stacking Problem",
+  "number": 12,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/box-stacking-problem-dp-22/",
+  "practice": "https://www.geeksforgeeks.org/problems/box-stacking/1",
+  "function": {
+    "name": "boxStackingProblem",
+    "params": [
+      {
+        "name": "height",
+        "type": "List<int>"
+      },
+      {
+        "name": "width",
+        "type": "List<int>"
+      },
+      {
+        "name": "length",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "boxStackingProblem([4, 1, 4, 10], [6, 2, 5, 12], [7, 3, 6, 32])",
+    "expected": "60"
+  }
+}

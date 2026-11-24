@@ -22,13 +22,25 @@ Output : No recurring sequence
 Explanation : 11/2 = 5.5
 ```
 
+## Function Signature
+
+```dart
+dynamic recurringSequenceFraction(int Numerator, int Denominator)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-recurring-sequence-fraction/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/07_recurring_sequence_in_a_fraction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

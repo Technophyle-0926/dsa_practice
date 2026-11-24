@@ -1,0 +1,16 @@
+{
+  "title": "Breadth First Traversal for a Graph",
+  "number": 1,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
+  "function": {
+    "name": "breadthFirstTraversalGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

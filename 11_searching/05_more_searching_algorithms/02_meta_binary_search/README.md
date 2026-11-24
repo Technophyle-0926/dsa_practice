@@ -31,12 +31,24 @@ The exact implementation varies, but the basic algorithm has two parts:
 - Figure out how many bits are necessary to store the largest array index.
 - Incrementally construct the index of the target value in the array by determining whether each bit in the index should be set to 1 or 0.
 
+## Function Signature
+
+```dart
+int metaBinarySearch(List<int> arr, int key_to_search)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/meta-binary-search-one-sided-binary-search/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/05_more_searching_algorithms/02_meta_binary_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

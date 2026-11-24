@@ -37,13 +37,25 @@ pop1() the popped element will be 3
 pop1() the stack1 is now empty hence returned -1
 ```
 
+## Function Signature
+
+```dart
+dynamic twoStacksArray(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/implement-two-stacks-in-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/03_two_stacks_in_an_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "AVL with duplicate keys",
+  "number": 5,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/avl-with-duplicate-keys/",
+  "practice": null,
+  "function": {
+    "name": "avlDuplicateKeys",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

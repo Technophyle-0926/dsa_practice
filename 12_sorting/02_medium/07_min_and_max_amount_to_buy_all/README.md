@@ -21,13 +21,25 @@ Output: [1, 5]
 Explanation: For minimum cost, buy the candy costing 1. for maximum cost, buy the candy costing 5.
 ```
 
+## Function Signature
+
+```dart
+List<int> minMaxAmountBuyAll(List<int> prices, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-minimum-maximum-amount-buy-n-candies/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/shop-in-candy-store1145/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/07_min_and_max_amount_to_buy_all
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -12,12 +12,24 @@ A great example of mutual recursion would be implementing the Hofstadter Sequenc
 
 In mathematics, a Hofstadter sequence is a member of a family of related integer sequences defined by **non-linear** recurrence relations. In this example we are going to focus on **Hofstadter Female and Male sequences:**
 
+## Function Signature
+
+```dart
+dynamic mutualRecursionExampleHofstadterFemale(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/mutual-recursion-example-hofstadter-female-male-sequences/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/10_misc/01_mutual_recursion_with_example_of_hofstadter_female_and_male
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

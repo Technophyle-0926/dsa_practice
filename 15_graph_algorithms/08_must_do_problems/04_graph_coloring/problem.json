@@ -1,0 +1,16 @@
+{
+  "title": "Graph Coloring",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/graph-coloring-applications/",
+  "practice": null,
+  "function": {
+    "name": "graphColoring",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

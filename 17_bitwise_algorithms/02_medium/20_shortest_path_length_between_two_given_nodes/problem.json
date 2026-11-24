@@ -1,0 +1,32 @@
+{
+  "title": "Shortest path length between two given nodes",
+  "number": 20,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/shortest-path-length-between-two-given-nodes-such-that-adjacent-nodes-are-at-bit-difference-2/",
+  "practice": null,
+  "function": {
+    "name": "shortestPathLengthBetweenTwo",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      },
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestPathLengthBetweenTwo(15, 15, 3)",
+    "expected": "1"
+  }
+}

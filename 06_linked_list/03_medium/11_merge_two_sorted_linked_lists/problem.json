@@ -1,0 +1,16 @@
+{
+  "title": "Merge Two Sorted Linked Lists",
+  "number": 11,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-two-sorted-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1",
+  "function": {
+    "name": "mergeTwoSortedLinkedLists",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

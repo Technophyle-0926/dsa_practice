@@ -1,0 +1,28 @@
+{
+  "title": "Generate all passwords from given character set",
+  "number": 12,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generate-passwords-given-character-set/",
+  "practice": null,
+  "function": {
+    "name": "generateAllPasswordsGivenCharacter",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      },
+      {
+        "name": "len",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "generateAllPasswordsGivenCharacter([\"a\", \"b\"], 2)",
+    "expected": "a b aa ab ba bb"
+  }
+}

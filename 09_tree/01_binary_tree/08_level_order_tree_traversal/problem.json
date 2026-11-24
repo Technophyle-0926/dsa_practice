@@ -1,0 +1,16 @@
+{
+  "title": "Level Order Tree Traversal",
+  "number": 8,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/level-order-tree-traversal/",
+  "practice": "https://www.geeksforgeeks.org/problems/level-order-traversal/1",
+  "function": {
+    "name": "levelOrderTreeTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

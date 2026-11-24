@@ -22,13 +22,25 @@ Output: 1
 Explanation: Already at 'a', only OK press is required.
 ```
 
+## Function Signature
+
+```dart
+int shortestPathPrintStringScreen(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-shortest-path-print-string-screen/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/primitive-typing5427/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/22_shortest_path_to_print_a_string_on_screen
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

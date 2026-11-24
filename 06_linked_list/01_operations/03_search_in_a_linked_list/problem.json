@@ -1,0 +1,16 @@
+{
+  "title": "Search in a Linked List",
+  "number": 3,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/search-an-element-in-a-linked-list-iterative-and-recursive/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
+  "function": {
+    "name": "searchLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Count Total Set Bits of a first N natural number",
+  "number": 19,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-total-set-bits-in-all-numbers-from-1-to-n/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1",
+  "function": {
+    "name": "countTotalBitsFirstN",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countTotalBitsFirstN(3)",
+    "expected": "4"
+  }
+}

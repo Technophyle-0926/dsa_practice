@@ -21,13 +21,25 @@ Output: 7
 Explanation: 3rd smallest element in the given array is 7.
 ```
 
+## Function Signature
+
+```dart
+int kthSmallestUnsortedArray(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/kth-smallest-largest-element-in-unsorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/04_kth_smallest_in_unsorted_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Karp’s minimum mean (or average) weight cycle algorithm",
+  "number": 23,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/karps-minimum-mean-average-weight-cycle-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "karpsMinimumMeanOrAverage",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

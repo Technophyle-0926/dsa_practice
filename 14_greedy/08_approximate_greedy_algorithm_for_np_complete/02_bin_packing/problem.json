@@ -1,0 +1,28 @@
+{
+  "title": "Bin Packing",
+  "number": 2,
+  "category": "Greedy",
+  "level": "Approximate Greedy Algorithm for NP Complete",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bin-packing-problem-minimize-number-of-used-bins/",
+  "practice": null,
+  "function": {
+    "name": "binPacking",
+    "params": [
+      {
+        "name": "weight",
+        "type": "List<int>"
+      },
+      {
+        "name": "c",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "binPacking([4, 8, 1, 4, 2, 1], 10)",
+    "expected": "2"
+  }
+}

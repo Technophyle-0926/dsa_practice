@@ -38,12 +38,24 @@ Find the maximum sum till that position using BIT and then update the BIT with N
 Step 5 :
 Returns the maximum sum which is present at last position in Binary Indexed Tree.
 
+## Function Signature
+
+```dart
+dynamic maximumSumIncreasingSubsequenceBit(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-sum-increasing-subsequence-using-binary-indexed-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/01_problems/08_maximum_sum_increasing_subsequence_using_bit
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Rotate a Linked List",
+  "number": 17,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rotate-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1",
+  "function": {
+    "name": "rotateLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

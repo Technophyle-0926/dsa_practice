@@ -1,0 +1,28 @@
+{
+  "title": "Egg Dropping Problem",
+  "number": 2,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/egg-dropping-puzzle-dp-11/",
+  "practice": "https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1",
+  "function": {
+    "name": "eggDroppingProblem",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "eggDroppingProblem(2, 36)",
+    "expected": "8"
+  }
+}

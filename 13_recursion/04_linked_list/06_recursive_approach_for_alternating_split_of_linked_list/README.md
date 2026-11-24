@@ -20,12 +20,24 @@ Output : 1 5
 
 We have discussed Iterative splitting of linked list.
 
+## Function Signature
+
+```dart
+dynamic recursiveApproachAlternatingSplitLinked(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-approach-alternating-split-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/04_linked_list/06_recursive_approach_for_alternating_split_of_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

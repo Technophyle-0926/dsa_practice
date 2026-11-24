@@ -1,0 +1,16 @@
+{
+  "title": "Karger’s Algorithm- Set 1- Introduction and Implementation",
+  "number": 49,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-and-implementation-of-kargers-algorithm-for-minimum-cut/",
+  "practice": null,
+  "function": {
+    "name": "kargersAlgorithm1IntroductionImplementation",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

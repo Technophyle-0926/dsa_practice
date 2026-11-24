@@ -1,0 +1,16 @@
+{
+  "title": "Delete N nodes after M nodes",
+  "number": 12,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-n-nodes-after-m-nodes-of-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1",
+  "function": {
+    "name": "deleteNNodesAfterM",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

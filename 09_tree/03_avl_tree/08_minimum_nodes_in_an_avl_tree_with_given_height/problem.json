@@ -1,0 +1,24 @@
+{
+  "title": "Minimum nodes in an AVL Tree with given height",
+  "number": 8,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-number-of-nodes-in-an-avl-tree-with-given-height/",
+  "practice": null,
+  "function": {
+    "name": "minimumNodesAvlTreeGiven",
+    "params": [
+      {
+        "name": "H",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumNodesAvlTreeGiven(0)",
+    "expected": "N = 1"
+  }
+}

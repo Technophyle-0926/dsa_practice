@@ -1,0 +1,16 @@
+{
+  "title": "Multistage Graph (Shortest Path)",
+  "number": 22,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/multistage-graph-shortest-path/",
+  "practice": null,
+  "function": {
+    "name": "multistageGraphShortestPath",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

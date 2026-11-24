@@ -26,13 +26,25 @@ Output: false
 Explanation: All elements are distinct, so no duplicate exists.
 ```
 
+## Function Signature
+
+```dart
+bool duplicateWithinKDistance(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-given-array-contains-duplicate-elements-within-k-distance/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/kth-distance3757/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/06_duplicate_within_k_distance
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

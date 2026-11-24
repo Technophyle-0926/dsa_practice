@@ -20,13 +20,25 @@ Output: [[a, b, c, b, a], [a, bcb, a], [abcba]]
 Explanation: [a, b, c, b, a], [a, bcb, a] and [abcba] are the only partitions of "abcba" where each substring is a palindrome.
 ```
 
+## Function Signature
+
+```dart
+List<List<String>> givenStringPrintAllPossible(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-a-string-print-all-possible-palindromic-partition/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/01_given_a_string_print_all_possible_palindromic_partitions
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

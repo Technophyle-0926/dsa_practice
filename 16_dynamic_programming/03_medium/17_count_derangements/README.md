@@ -22,13 +22,25 @@ Output: 2
 Explanation: For [1, 2, 3], there are two possible derangements [3, 1, 2] and [2, 3, 1].
 ```
 
+## Function Signature
+
+```dart
+int countDerangements(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/dearrangement-of-balls0918/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/17_count_derangements
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

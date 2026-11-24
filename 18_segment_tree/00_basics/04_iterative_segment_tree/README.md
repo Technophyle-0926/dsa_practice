@@ -34,8 +34,12 @@ Since there are (log n) levels in the worst case, so querying takes log n time. 
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/iterative-segment-tree-range-maximum-query-with-node-update/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/04_iterative_segment_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

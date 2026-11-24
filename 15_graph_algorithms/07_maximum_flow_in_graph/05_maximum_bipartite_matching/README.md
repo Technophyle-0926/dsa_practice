@@ -47,13 +47,25 @@ First applicant gets the 1st job.
 Second applicant gets the 2nd job
 ```
 
+## Function Signature
+
+```dart
+int maximumBipartiteMatching(List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-bipartite-matching/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximum-bipartite-matching--170646/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/05_maximum_bipartite_matching
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

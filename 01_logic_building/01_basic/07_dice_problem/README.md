@@ -20,13 +20,25 @@ Output: 1
 Explanation: For dice facing number 6 opposite face will have the number 1.
 ```
 
+## Function Signature
+
+```dart
+int diceProblem(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/the-dice-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/the-dice-problem2316/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/01_basic/07_dice_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

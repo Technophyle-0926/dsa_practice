@@ -1,0 +1,24 @@
+{
+  "title": "Ways to Triangulate a Polygon",
+  "number": 11,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-of-ways-a-convex-polygon-of-n2-sides-can-split-into-triangles-by-connecting-vertices/",
+  "practice": null,
+  "function": {
+    "name": "waysTriangulatePolygon",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "waysTriangulatePolygon(3)",
+    "expected": "1"
+  }
+}

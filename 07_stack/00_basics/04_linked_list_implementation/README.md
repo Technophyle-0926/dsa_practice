@@ -22,8 +22,12 @@ Initially, top = null to represent an empty stack.
 - 📖 Article: https://www.geeksforgeeks.org/dsa/implement-a-stack-using-singly-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/00_basics/04_linked_list_implementation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

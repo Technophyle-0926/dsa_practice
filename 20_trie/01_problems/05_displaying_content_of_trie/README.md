@@ -29,12 +29,24 @@ Output: Contents of Trie:
         there
 ```
 
+## Function Signature
+
+```dart
+dynamic displayingContentTrie(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/trie-display-content/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/05_displaying_content_of_trie
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

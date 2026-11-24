@@ -21,13 +21,25 @@ Output: -1
 Explanation: 90 is not present in the array.
 ```
 
+## Function Signature
+
+```dart
+int searchAlmostSorted(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/search-almost-sorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/search-in-an-almost-sorted-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/04_hard/03_search_in_an_almost_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Insertion in Red-Black Tree",
+  "number": 2,
+  "category": "Tree",
+  "level": "Red-Black Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insertion-in-red-black-tree/",
+  "practice": null,
+  "function": {
+    "name": "insertionRedBlackTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

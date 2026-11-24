@@ -1,0 +1,16 @@
+{
+  "title": "Reverse a Singly Linked List",
+  "number": 11,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1",
+  "function": {
+    "name": "reverseSinglyLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "K-centers",
+  "number": 4,
+  "category": "Greedy",
+  "level": "Approximate Greedy Algorithm for NP Complete",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/greedy-approximate-algorithm-for-k-centers-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-centers-problem/1",
+  "function": {
+    "name": "kCenters",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kCenters(1, [[0]])",
+    "expected": "0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Size of Doubly Linked List",
+  "number": 10,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-find-size-doubly-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "sizeDoublyLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

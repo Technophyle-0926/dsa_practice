@@ -1,0 +1,24 @@
+{
+  "title": "Generate n-bit Gray Codes",
+  "number": 11,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generate-n-bit-gray-codes/",
+  "practice": "https://www.geeksforgeeks.org/problems/gray-code-1611215248/1",
+  "function": {
+    "name": "generateNBitGrayCodes",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "generateNBitGrayCodes(2)",
+    "expected": "[\"00\", \"01\", \"11\", \"10\"]"
+  }
+}

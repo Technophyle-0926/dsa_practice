@@ -1,0 +1,28 @@
+{
+  "title": "Largest Sum Contiguous Subarray",
+  "number": 7,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-query-largest-sum-contiguous-subarray/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-sum-contiguous-subarray-in-range-1587115620/1",
+  "function": {
+    "name": "largestSumContiguousSubarray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "largestSumContiguousSubarray([-2, -3, 4, -1, -2, 1, 5, -3], [[2, 4, 7], [1, 0, 10], [2, 0, 2]])",
+    "expected": "[6, 11]"
+  }
+}

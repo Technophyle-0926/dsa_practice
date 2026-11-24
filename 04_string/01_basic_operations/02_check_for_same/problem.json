@@ -1,0 +1,28 @@
+{
+  "title": "Check for Same",
+  "number": 2,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-check-if-two-strings-are-same-or-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-two-strings-are-same-or-not--155406/1",
+  "function": {
+    "name": "checkSame",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkSame(\"abc\", \"abc\")",
+    "expected": "Yes"
+  }
+}

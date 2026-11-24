@@ -1,0 +1,16 @@
+{
+  "title": "String with additive sequence",
+  "number": 7,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/string-with-additive-sequence/",
+  "practice": "https://www.geeksforgeeks.org/problems/additive-sequence/1",
+  "function": {
+    "name": "stringAdditiveSequence",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

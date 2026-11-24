@@ -1,0 +1,16 @@
+{
+  "title": "Serialize and Deserialize an N-ary Tree",
+  "number": 9,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/serialize-deserialize-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "serializeDeserializeNAryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

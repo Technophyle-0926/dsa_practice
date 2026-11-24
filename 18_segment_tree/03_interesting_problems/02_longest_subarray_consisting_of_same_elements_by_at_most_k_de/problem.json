@@ -1,0 +1,28 @@
+{
+  "title": "Longest subarray consisting of same elements by at most K decrements",
+  "number": 2,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximize-length-of-longest-subarray-consisting-of-same-elements-by-at-most-k-decrements/",
+  "practice": null,
+  "function": {
+    "name": "longestSubarrayConsistingSameElements",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "K",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestSubarrayConsistingSameElements([1, 2, 3], 1)",
+    "expected": "2"
+  }
+}

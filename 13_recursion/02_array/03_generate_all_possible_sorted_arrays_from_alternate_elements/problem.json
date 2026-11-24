@@ -1,0 +1,16 @@
+{
+  "title": "Generate all possible sorted arrays from alternate elements of two given sorted arrays",
+  "number": 3,
+  "category": "Recursion",
+  "level": "Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generate-all-possible-sorted-arrays-from-alternate-elements-of-two-given-arrays/",
+  "practice": null,
+  "function": {
+    "name": "generateAllPossibleSortedArrays",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

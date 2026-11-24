@@ -1,0 +1,24 @@
+{
+  "title": "Rearrange characters in a string such that no two adjacent are same",
+  "number": 9,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rearrange-characters-string-no-two-adjacent/",
+  "practice": "https://www.geeksforgeeks.org/problems/rearrange-characters4649/1",
+  "function": {
+    "name": "rearrangeCharactersStringSuchThat",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "rearrangeCharactersStringSuchThat(\"aaabc\")",
+    "expected": "true"
+  }
+}

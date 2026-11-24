@@ -1,0 +1,16 @@
+{
+  "title": "Level Order Traversal",
+  "number": 3,
+  "category": "Queue",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/level-order-tree-traversal/",
+  "practice": "https://www.geeksforgeeks.org/problems/level-order-traversal/1",
+  "function": {
+    "name": "levelOrderTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

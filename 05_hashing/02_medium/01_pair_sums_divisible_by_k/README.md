@@ -26,13 +26,25 @@ Output: false
 Explanation: We cannot divide the array into pairs such that they are multiples of 10.
 ```
 
+## Function Signature
+
+```dart
+bool pairSumsDivisibleK(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-an-array-can-be-divided-into-pairs-whose-sum-is-divisible-by-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/01_pair_sums_divisible_by_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

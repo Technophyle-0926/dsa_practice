@@ -40,8 +40,12 @@ A tree can be represented using a collection of nodes. Each of the nodes can be 
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

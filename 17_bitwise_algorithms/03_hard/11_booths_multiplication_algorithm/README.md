@@ -22,12 +22,24 @@ Output :  qn      q[n+1]                  AC      QR     sc(step count)
 Result=1100
 ```
 
+## Function Signature
+
+```dart
+dynamic boothsMultiplicationAlgorithm(int n, int n2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/booths-multiplication-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/11_booths_multiplication_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Find if an array of strings can be chained to form a circle",
+  "number": 6,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-array-strings-find-strings-can-chained-form-circle/",
+  "practice": "https://www.geeksforgeeks.org/problems/circle-of-strings4530/1",
+  "function": {
+    "name": "findIfArrayStringsCan",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "findIfArrayStringsCan([\"for\", \"geek\", \"rig\", \"kaf\"])",
+    "expected": "true"
+  }
+}

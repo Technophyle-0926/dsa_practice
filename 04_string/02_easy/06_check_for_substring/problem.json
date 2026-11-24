@@ -1,0 +1,28 @@
+{
+  "title": "Check for Substring",
+  "number": 6,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-string-substring-another/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-strstr/1",
+  "function": {
+    "name": "checkSubstring",
+    "params": [
+      {
+        "name": "txt",
+        "type": "String"
+      },
+      {
+        "name": "pat",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "checkSubstring(\"GeeksForGeeks\", \"Fr\")",
+    "expected": "-1"
+  }
+}

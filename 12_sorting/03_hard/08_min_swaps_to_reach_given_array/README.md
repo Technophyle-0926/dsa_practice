@@ -139,12 +139,24 @@ int main()
 }
 ```
 
+## Function Signature
+
+```dart
+ListNode? minSwapsReachGivenArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-swaps-reach-permuted-array-2-positions-left-swaps-allowed/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/08_min_swaps_to_reach_given_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

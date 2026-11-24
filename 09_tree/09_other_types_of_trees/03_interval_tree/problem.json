@@ -1,0 +1,16 @@
+{
+  "title": "Interval Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/interval-tree/",
+  "practice": null,
+  "function": {
+    "name": "intervalTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

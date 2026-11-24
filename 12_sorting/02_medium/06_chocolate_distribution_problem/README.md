@@ -23,13 +23,25 @@ Output: 7
 Explanation: If we distribute chocolate packets {3, 2, 4, 9, 7}, we will get the minimum difference, that is 9 - 2 = 7.
 ```
 
+## Function Signature
+
+```dart
+int chocolateDistributionProblem(List<int> arr, int m)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/chocolate-distribution-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/06_chocolate_distribution_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

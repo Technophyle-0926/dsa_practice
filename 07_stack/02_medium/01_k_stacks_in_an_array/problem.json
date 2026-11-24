@@ -1,0 +1,16 @@
+{
+  "title": "k Stacks in an Array",
+  "number": 1,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/efficiently-implement-k-stacks-single-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-k-stacks-in-an-array/1",
+  "function": {
+    "name": "kStacksArray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

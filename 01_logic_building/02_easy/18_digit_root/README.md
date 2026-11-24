@@ -18,13 +18,25 @@ Output: 9
 Explanation: The sum of digits of 99999 is 45 which is not a single digit number, hence the sum of digits of 45 is 9 which is a single digit number.
 ```
 
+## Function Signature
+
+```dart
+int digitRoot(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/digital-rootrepeated-digital-sum-given-integer/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/digital-root/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/18_digit_root
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

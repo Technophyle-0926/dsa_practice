@@ -1,0 +1,24 @@
+{
+  "title": "Merge Sort for Doubly Linked List",
+  "number": 13,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-sort-for-doubly-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/merge-sort-on-doubly-linked-list/1",
+  "function": {
+    "name": "mergeSortDoublyLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "mergeSortDoublyLinkedList(DListNode.fromList([10, 8, 4, 2]))",
+    "expected": "2 <-> 4 <-> 8 <-> 10"
+  }
+}

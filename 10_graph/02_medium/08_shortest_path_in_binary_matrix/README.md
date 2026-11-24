@@ -25,13 +25,25 @@ Output:-1
 Explanation: From (0,0), the destination (3,4) cannot be reached because all possible paths are blocked by 0 cells, so no valid route exists.
 ```
 
+## Function Signature
+
+```dart
+int shortestPathBinaryMatrix(List<List<int>> mat, List<int> src, List<int> dest)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/shortest-path-in-a-binary-maze/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/08_shortest_path_in_binary_matrix
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

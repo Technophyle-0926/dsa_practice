@@ -1,0 +1,28 @@
+{
+  "title": "Check for Rotation",
+  "number": 3,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/a-program-to-check-if-strings-are-rotations-of-each-other/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1",
+  "function": {
+    "name": "checkRotation",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkRotation(\"abcd\", \"cdab\")",
+    "expected": "true"
+  }
+}

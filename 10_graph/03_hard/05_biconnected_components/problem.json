@@ -1,0 +1,16 @@
+{
+  "title": "Biconnected Components",
+  "number": 5,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/biconnected-components/",
+  "practice": null,
+  "function": {
+    "name": "biconnectedComponents",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

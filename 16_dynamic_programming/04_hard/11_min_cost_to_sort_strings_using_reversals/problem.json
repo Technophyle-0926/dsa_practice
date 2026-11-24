@@ -1,0 +1,28 @@
+{
+  "title": "Min cost to sort strings using Reversals",
+  "number": 11,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cost-sort-strings-using-reversal-operations-different-costs/",
+  "practice": null,
+  "function": {
+    "name": "minCostSortStringsReversals",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      },
+      {
+        "name": "cost",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minCostSortStringsReversals([\"aa\", \"ba\", \"ac\"], [1, 3, 1])",
+    "expected": "1"
+  }
+}

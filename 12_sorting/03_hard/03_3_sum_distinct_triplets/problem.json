@@ -1,0 +1,28 @@
+{
+  "title": "3 Sum - Distinct Triplets",
+  "number": 3,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/unique-triplets-sum-given-value/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-all-distinct-triplets-with-given-sum/1",
+  "function": {
+    "name": "solve3SumDistinctTriplets",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3SumDistinctTriplets([12, 3, 6, 1, 6, 9], 24)",
+    "expected": "[[3, 9, 12], [6, 6, 12]]"
+  }
+}

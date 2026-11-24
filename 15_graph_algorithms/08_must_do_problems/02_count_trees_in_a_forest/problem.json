@@ -1,0 +1,16 @@
+{
+  "title": "Count Trees in a forest",
+  "number": 2,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-number-trees-forest/",
+  "practice": null,
+  "function": {
+    "name": "countTreesForest",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

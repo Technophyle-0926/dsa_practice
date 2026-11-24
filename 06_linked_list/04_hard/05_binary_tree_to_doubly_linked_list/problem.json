@@ -1,0 +1,24 @@
+{
+  "title": "Binary Tree to Doubly Linked List",
+  "number": 5,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/convert-binary-tree-to-doubly-linked-list-using-inorder-traversal/",
+  "practice": "https://www.geeksforgeeks.org/problems/binary-tree-to-dll/1",
+  "function": {
+    "name": "binaryTreeDoublyLinkedList",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "binaryTreeDoublyLinkedList(TreeNode.fromLevelOrder([1, 2, 3]))",
+    "expected": "2 1 3"
+  }
+}

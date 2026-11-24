@@ -1,0 +1,16 @@
+{
+  "title": "List.BinarySearch in C#",
+  "number": 6,
+  "category": "Searching",
+  "level": "Binary Search Implementations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/c-sharp/list-binarysearch-method-in-c-sharp/",
+  "practice": null,
+  "function": {
+    "name": "listBinarysearchC",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

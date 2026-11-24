@@ -1,0 +1,24 @@
+{
+  "title": "Sum of all unique sub-array sums.",
+  "number": 10,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-sum-unique-sub-array-sum-given-array/",
+  "practice": null,
+  "function": {
+    "name": "sumAllUniqueSubArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumAllUniqueSubArray([3, 4, 5])",
+    "expected": "40"
+  }
+}

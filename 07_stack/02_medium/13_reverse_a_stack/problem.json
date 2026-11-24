@@ -1,0 +1,24 @@
+{
+  "title": "Reverse a Stack",
+  "number": 13,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-stack-without-using-extra-space/",
+  "practice": null,
+  "function": {
+    "name": "reverseStack",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "reverseStack(ListNode.fromList([1, 2, 3, 4]))",
+    "expected": "4->3->2->1"
+  }
+}

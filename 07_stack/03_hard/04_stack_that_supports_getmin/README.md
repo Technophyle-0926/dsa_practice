@@ -39,13 +39,25 @@ getMin(): Minimum element is 5
 pop(): Removes 5, stack is [10]
 ```
 
+## Function Signature
+
+```dart
+dynamic stackThatSupportsGetmin(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/get-minimum-element-from-stack/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/04_stack_that_supports_getmin
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

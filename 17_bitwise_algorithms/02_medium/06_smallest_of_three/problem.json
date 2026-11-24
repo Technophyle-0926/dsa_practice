@@ -1,0 +1,32 @@
+{
+  "title": "Smallest of Three",
+  "number": 6,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/smallest-of-three-integers-without-comparison-operators/",
+  "practice": null,
+  "function": {
+    "name": "smallestThree",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      },
+      {
+        "name": "c",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestThree(2, 5, 7)",
+    "expected": "2"
+  }
+}

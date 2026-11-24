@@ -47,12 +47,24 @@ The following describes how to **remove Key** 5 from the B+ tree:
 - Remove all references to the deleted leaf node from the internal nodes of the tree. We must delete the reference to the node [1 3 5] from its parent node [1 3 4 11] because it was merged with the node [5 7]. The node [1 3 4 11] is the consequence of this.
 - The deletion is finished since the root node **[11 14 20]** is not empty.
 
+## Function Signature
+
+```dart
+dynamic deletionBTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/deletion-in-b-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/08_b_plus_tree/03_deletion_in_b_plus_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

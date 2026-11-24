@@ -1,0 +1,24 @@
+{
+  "title": "Program for Sum the digits of a given number",
+  "number": 8,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-sum-of-the-digits-of-a-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/sum-of-digits1742/1",
+  "function": {
+    "name": "programSumDigitsGivenNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "programSumDigitsGivenNumber(687)",
+    "expected": "21"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Job Scheduling with two jobs allowed at a time",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Greedy Problems in Operating System",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/job-scheduling-two-jobs-allowed-time/",
+  "practice": null,
+  "function": {
+    "name": "jobSchedulingTwoJobsAllowed",
+    "params": [
+      {
+        "name": "jobs",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "jobSchedulingTwoJobsAllowed([[1, 2], [2, 3], [4, 5]])",
+    "expected": "True"
+  }
+}

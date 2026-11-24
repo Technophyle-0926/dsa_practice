@@ -1,0 +1,24 @@
+{
+  "title": "Stock Buy and Sell - At-Most k Times",
+  "number": 10,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-profit-by-buying-and-selling-a-share-at-most-twice/",
+  "practice": "https://www.geeksforgeeks.org/problems/buy-and-sell-a-share-at-most-twice/1",
+  "function": {
+    "name": "stockBuySellAtMost",
+    "params": [
+      {
+        "name": "prices",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "stockBuySellAtMost([10, 22, 5, 75, 65, 80])",
+    "expected": "87"
+  }
+}

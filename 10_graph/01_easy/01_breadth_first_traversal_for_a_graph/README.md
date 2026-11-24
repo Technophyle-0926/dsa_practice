@@ -48,13 +48,25 @@ Visit 4 - Print: 4
 Visit 5 (neighbor of 4) - Print: 5
 ```
 
+## Function Signature
+
+```dart
+dynamic breadthFirstTraversalGraph(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/01_easy/01_breadth_first_traversal_for_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

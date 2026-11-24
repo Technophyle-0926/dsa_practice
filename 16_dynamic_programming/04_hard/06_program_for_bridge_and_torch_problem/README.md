@@ -22,12 +22,24 @@ Output: 15
 Explanation: See Torch and Bridge puzzle for full explanation.
 ```
 
+## Function Signature
+
+```dart
+int programBridgeTorchProblem(List<int> times)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-bridge-torch-problem/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/06_program_for_bridge_and_torch_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

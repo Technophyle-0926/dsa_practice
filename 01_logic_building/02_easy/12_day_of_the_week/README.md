@@ -26,13 +26,25 @@ Output: 1
 Explanation: 26th January was a Monday.
 ```
 
+## Function Signature
+
+```dart
+int dayWeek(int d, int m, int y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-day-of-the-week-for-a-given-date/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/day-of-the-week1637/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/12_day_of_the_week
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

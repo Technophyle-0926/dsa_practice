@@ -1,0 +1,24 @@
+{
+  "title": "Minimum coins required",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Greedy for Special cases of DP",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/greedy-algorithm-to-find-minimum-number-of-coins/",
+  "practice": "https://www.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1",
+  "function": {
+    "name": "minimumCoinsRequired",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumCoinsRequired(39)",
+    "expected": "6"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Hopcroft Karp Algorithm for Maximum Matching",
+  "number": 10,
+  "category": "Graph Algorithms",
+  "level": "Must Do Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/hopcroft-karp-algorithm-for-maximum-matching-set-1-introduction/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-bipartite-matching--170646/1",
+  "function": {
+    "name": "hopcroftKarpAlgorithmMaximumMatching",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "hopcroftKarpAlgorithmMaximumMatching([[1, 1, 0, 1, 1], [0, 1, 0, 0, 1], [1, 1, 0, 1, 1]])",
+    "expected": "3"
+  }
+}

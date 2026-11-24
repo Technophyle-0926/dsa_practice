@@ -33,13 +33,25 @@ Output: 1 -> 5 -> 2 -> 4 -> 6 -> 7
 Explanation: All distinct nodes of first list then remaining nodes of the second list.
 ```
 
+## Function Signature
+
+```dart
+dynamic unionIntersection(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/union-and-intersection-of-two-linked-lists/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/12_union_and_intersection
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

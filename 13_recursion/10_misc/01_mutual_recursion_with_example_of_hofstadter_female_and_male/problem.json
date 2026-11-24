@@ -1,0 +1,16 @@
+{
+  "title": "Mutual Recursion with example of Hofstadter Female and Male sequences",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Misc",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/mutual-recursion-example-hofstadter-female-male-sequences/",
+  "practice": null,
+  "function": {
+    "name": "mutualRecursionExampleHofstadterFemale",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

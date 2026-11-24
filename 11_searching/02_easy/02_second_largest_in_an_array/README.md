@@ -28,13 +28,25 @@ Output: -1
 Explanation: The largest element of the array is 10 there is no second largest element.
 ```
 
+## Function Signature
+
+```dart
+int secondLargestArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-second-largest-element-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/second-largest3735/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/02_second_largest_in_an_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

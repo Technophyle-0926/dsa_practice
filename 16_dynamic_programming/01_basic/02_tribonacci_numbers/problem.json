@@ -1,0 +1,24 @@
+{
+  "title": "Tribonacci Numbers",
+  "number": 2,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/tribonacci-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/tribonacci-number/1",
+  "function": {
+    "name": "tribonacciNumbers",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "tribonacciNumbers(5)",
+    "expected": "0, 0, 1, 1, 2"
+  }
+}

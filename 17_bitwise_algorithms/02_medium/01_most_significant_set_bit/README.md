@@ -29,12 +29,24 @@ A **simple solution** is to one by one divide n by 2 until it becomes 0 and incr
 
 An **efficient solution** for a fixed size integer (say 32 bits) is to one by one set bits, then add 1 so that only the bit after MSB is set. Finally right shift by 1 and return the answer. This solution does not require any condition checking.
 
+## Function Signature
+
+```dart
+int mostSignificantBit(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-significant-set-bit-number/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/01_most_significant_set_bit
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

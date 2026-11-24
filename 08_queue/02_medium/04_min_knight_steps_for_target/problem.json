@@ -1,0 +1,32 @@
+{
+  "title": "Min Knight steps for target",
+  "number": 4,
+  "category": "Queue",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-steps-reach-target-knight/",
+  "practice": "https://www.geeksforgeeks.org/problems/steps-by-knight5927/1",
+  "function": {
+    "name": "minKnightStepsTarget",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "knightPos",
+        "type": "List<int>"
+      },
+      {
+        "name": "targetPos",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minKnightStepsTarget(3, [3, 3], [1, 2])",
+    "expected": "1"
+  }
+}

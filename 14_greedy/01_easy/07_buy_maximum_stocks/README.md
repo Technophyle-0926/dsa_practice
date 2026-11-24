@@ -22,13 +22,25 @@ Output: 6
 Explanation: Buy 3 stocks on day 3 for 4 each, 1 stock on day 1 for 7, and 2 stocks on day 2 for 10 each. Hence, the maximum number of stocks purchased is 6.
 ```
 
+## Function Signature
+
+```dart
+int buyMaximumStocks(List<int> price, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/buy-maximum-stocks-stocks-can-bought-th-day/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/buy-maximum-stocks-if-i-stocks-can-be-bought-on-i-th-day/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/07_buy_maximum_stocks
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

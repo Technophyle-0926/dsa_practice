@@ -1,0 +1,24 @@
+{
+  "title": "Count 1’s in a sorted binary array",
+  "number": 7,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-1s-sorted-binary-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-1s-in-binary-array-1587115620/1",
+  "function": {
+    "name": "count1sSortedBinaryArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "count1sSortedBinaryArray([1, 1, 0, 0, 0, 0, 0])",
+    "expected": "2"
+  }
+}

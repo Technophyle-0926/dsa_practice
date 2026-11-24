@@ -25,12 +25,24 @@ Exponential search involves two steps:
 - Find range  of indexes where element is present
 - Do Binary Search in above found range.
 
+## Function Signature
+
+```dart
+dynamic exponentialSearch(List<int> arr, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/exponential-search/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/05_more_searching_algorithms/06_exponential_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

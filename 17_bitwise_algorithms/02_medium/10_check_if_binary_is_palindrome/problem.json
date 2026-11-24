@@ -1,0 +1,16 @@
+{
+  "title": "Check if binary is palindrome",
+  "number": 10,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-binary-representation-number-palindrome/",
+  "practice": "https://www.geeksforgeeks.org/problems/palindrome-numbers0942/1",
+  "function": {
+    "name": "checkIfBinaryPalindrome",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

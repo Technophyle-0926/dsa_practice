@@ -1,0 +1,16 @@
+{
+  "title": "Max Flow Problem Introduction",
+  "number": 44,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/max-flow-problem-introduction/",
+  "practice": null,
+  "function": {
+    "name": "maxFlowProblemIntroduction",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

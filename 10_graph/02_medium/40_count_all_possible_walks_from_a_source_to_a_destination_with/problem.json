@@ -1,0 +1,16 @@
+{
+  "title": "Count all possible walks from a source to a destination with exactly k edges",
+  "number": 40,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-possible-paths-source-destination-exactly-k-edges/",
+  "practice": "https://www.geeksforgeeks.org/problems/possible-paths3834/1",
+  "function": {
+    "name": "countAllPossibleWalksSource",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

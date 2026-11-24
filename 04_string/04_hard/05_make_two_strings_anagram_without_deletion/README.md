@@ -28,13 +28,25 @@ Output: 8
 Explanation: Since the strings have no common characters, delete all characters from both strings. The resulting empty strings are anagrams of each other.
 ```
 
+## Function Signature
+
+```dart
+int makeTwoStringsAnagramWithout(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-of-manipulations-required-to-make-two-strings-anagram-without-deletion-of-character/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/almost-equal-java/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/05_make_two_strings_anagram_without_deletion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,28 @@
+{
+  "title": "Median of two sorted of different sizes",
+  "number": 2,
+  "category": "Searching",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/median-of-two-sorted-arrays-of-different-sizes/",
+  "practice": "https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1",
+  "function": {
+    "name": "medianTwoSortedDifferentSizes",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "medianTwoSortedDifferentSizes([-5, 3, 6, 12, 15], [-12, -10, -6, -3, 4, 10])",
+    "expected": "3"
+  }
+}

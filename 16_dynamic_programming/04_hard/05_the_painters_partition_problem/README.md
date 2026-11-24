@@ -20,13 +20,25 @@ Output: 60
 Explanation: The most optimal way to paint: Painter 1 allocation : [10, 20, 30], Painter 2 allocation : [40], Job will be complete at time = 60
 ```
 
+## Function Signature
+
+```dart
+int paintersPartitionProblem(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/painters-partition-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/05_the_painters_partition_problem
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

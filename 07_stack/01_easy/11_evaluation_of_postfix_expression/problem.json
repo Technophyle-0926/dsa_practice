@@ -1,0 +1,24 @@
+{
+  "title": "Evaluation of Postfix Expression",
+  "number": 11,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/evaluation-of-postfix-expression/",
+  "practice": "https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1",
+  "function": {
+    "name": "evaluationPostfixExpression",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "evaluationPostfixExpression([\"2\", \"3\", \"1\", \"*\", \"+\", \"9\", \"-\"])",
+    "expected": "-4"
+  }
+}

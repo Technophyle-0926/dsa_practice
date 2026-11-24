@@ -1,0 +1,24 @@
+{
+  "title": "Count Set Bits",
+  "number": 3,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-set-bits-in-an-integer/",
+  "practice": "https://www.geeksforgeeks.org/problems/set-bits0143/1",
+  "function": {
+    "name": "countBits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countBits(6)",
+    "expected": "2"
+  }
+}

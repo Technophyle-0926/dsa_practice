@@ -1,0 +1,24 @@
+{
+  "title": "Recursive solution to count substrings with same first and last characters",
+  "number": 9,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-solution-count-substrings-first-last-characters/",
+  "practice": null,
+  "function": {
+    "name": "recursiveSolutionCountSubstringsSame",
+    "params": [
+      {
+        "name": "S",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "recursiveSolutionCountSubstringsSame(\"abcab\")",
+    "expected": "7"
+  }
+}

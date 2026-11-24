@@ -1,0 +1,32 @@
+{
+  "title": "Rotate Linked List block wise",
+  "number": 10,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rotate-linked-list-block-wise/",
+  "practice": null,
+  "function": {
+    "name": "rotateLinkedListBlockWise",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "rotateLinkedListBlockWise(ListNode.fromList([1, 2, 3, 4, 5, 6, 7, 8, 9]), 3, 1)",
+    "expected": "3->1->2->6->4->5->9->7->8->NULL"
+  }
+}

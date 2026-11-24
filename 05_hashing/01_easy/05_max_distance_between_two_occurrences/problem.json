@@ -1,0 +1,24 @@
+{
+  "title": "Max distance between two occurrences",
+  "number": 5,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-distance-two-occurrences-element-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/max-distance-between-same-elements/1",
+  "function": {
+    "name": "maxDistanceBetweenTwoOccurrences",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxDistanceBetweenTwoOccurrences([1, 1, 2, 2, 2, 1])",
+    "expected": "5"
+  }
+}

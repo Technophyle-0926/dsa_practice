@@ -1,0 +1,32 @@
+{
+  "title": "Modular Exponentiation",
+  "number": 14,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/modular-exponentiation-power-in-modular-arithmetic/",
+  "practice": "https://www.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers5537/1",
+  "function": {
+    "name": "modularExponentiation",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "M",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "modularExponentiation(3, 2, 4)",
+    "expected": "1"
+  }
+}

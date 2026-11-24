@@ -20,13 +20,25 @@ Output: 2
 Explanation: By selecting 12 and 18, their sum becomes 12 + 18 = 30, which is greater than the sum of the remaining elements 20 + 4 = 24. Alternatively, selecting 20 and 18 would also satisfy the condition. Thus, the minimum number of elements required is 2.
 ```
 
+## Function Signature
+
+```dart
+int smallestSubsetGreaterSum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/smallest-subset-sum-greater-elements/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/smallest-subset-with-greater-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/05_smallest_subset_greater_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

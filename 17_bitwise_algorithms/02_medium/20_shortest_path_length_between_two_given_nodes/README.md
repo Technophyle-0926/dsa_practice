@@ -21,12 +21,24 @@ Explanation: a = 15 = (1111)_2 and b= 2 = (0010)_2. The bit difference between 1
 from 2.
 ```
 
+## Function Signature
+
+```dart
+int shortestPathLengthBetweenTwo(int N, int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/shortest-path-length-between-two-given-nodes-such-that-adjacent-nodes-are-at-bit-difference-2/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/20_shortest_path_length_between_two_given_nodes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

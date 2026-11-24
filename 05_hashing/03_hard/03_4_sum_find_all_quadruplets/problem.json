@@ -1,0 +1,28 @@
+{
+  "title": "4 Sum – Find all Quadruplets",
+  "number": 3,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-all-distinct-quadruplets-in-an-array-that-sum-up-to-a-given-value/",
+  "practice": null,
+  "function": {
+    "name": "solve4SumFindAllQuadruplets",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "solve4SumFindAllQuadruplets([1, 5, 3, 1, 2, 10], 20)",
+    "expected": "[1, 2, 4, 5]"
+  }
+}

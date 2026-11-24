@@ -1,0 +1,28 @@
+{
+  "title": "3 Sum - Find Any",
+  "number": 13,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-a-triplet-that-sum-to-a-given-value/",
+  "practice": "https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1",
+  "function": {
+    "name": "solve3SumFindAny",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3SumFindAny([1, 4, 45, 6, 10, 8], 13)",
+    "expected": "true"
+  }
+}

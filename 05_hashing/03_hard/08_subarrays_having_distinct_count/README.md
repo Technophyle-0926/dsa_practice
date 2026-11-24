@@ -38,13 +38,25 @@ arr[3..4] = [2, 4]
 Hence, the total number of such subarrays is 9.
 ```
 
+## Function Signature
+
+```dart
+int subarraysHavingDistinctCount(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-subarrays-total-distinct-elements-original-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/equivalent-sub-arrays3731/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/08_subarrays_having_distinct_count
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

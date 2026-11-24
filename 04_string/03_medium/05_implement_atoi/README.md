@@ -42,13 +42,25 @@ Output: -12
 Explanation: Nothing is read after -12 as a non-digit character 'g' was encountered.
 ```
 
+## Function Signature
+
+```dart
+int implementAtoi(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-your-own-atoi/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implement-atoi/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/05_implement_atoi
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

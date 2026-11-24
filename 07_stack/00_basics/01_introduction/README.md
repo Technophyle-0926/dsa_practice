@@ -28,8 +28,12 @@ The LIFO principle means that the last element added to a stack is the first one
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-stack-data-structure-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

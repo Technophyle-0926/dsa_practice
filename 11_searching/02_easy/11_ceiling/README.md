@@ -30,13 +30,25 @@ Output: 0
 Explanation: Smallest number greater than 0 is 1, whose indices are 0 and 1. The index of the first occurrence is 0.
 ```
 
+## Function Signature
+
+```dart
+int ceiling(List<int> arr, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/ceiling-in-a-sorted-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/11_ceiling
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

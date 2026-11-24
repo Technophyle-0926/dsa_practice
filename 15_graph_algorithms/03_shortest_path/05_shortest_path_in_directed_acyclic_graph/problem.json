@@ -1,0 +1,28 @@
+{
+  "title": "Shortest Path in Directed Acyclic Graph",
+  "number": 5,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/",
+  "practice": "https://www.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1",
+  "function": {
+    "name": "shortestPathDirectedAcyclicGraph",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestPathDirectedAcyclicGraph(4, [[0, 1, 2], [0, 2, 1]])",
+    "expected": "[0, 2, 1, -1]"
+  }
+}

@@ -34,12 +34,24 @@ greater than 5 in AVL tree which are 6, 9,
 - **Insertion** - When we insert a node we increment one to child field of every predecessor of the new node. In the leftRotate and rightRotate functions we make appropriate changes in the value of child fields of nodes.
 - **Deletion** - When we delete a node then we decrement one from every predecessor node of deleted node. Again, In the leftRotate and rightRotate functions we make appropriate changes in the value of child fields of nodes.
 
+## Function Signature
+
+```dart
+dynamic countGreaterNodesAvlTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-greater-nodes-in-avl-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/03_avl_tree/06_count_greater_nodes_in_avl_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

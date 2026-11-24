@@ -1,0 +1,16 @@
+{
+  "title": "Number of single cycle components in an undirected graph",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Greedy Problems on Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-of-simple-cyclic-components-in-an-undirected-graph/",
+  "practice": null,
+  "function": {
+    "name": "numberSingleCycleComponentsUndirected",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

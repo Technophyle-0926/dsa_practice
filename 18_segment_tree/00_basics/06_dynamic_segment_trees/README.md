@@ -46,8 +46,12 @@ Output: 0
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/dynamic-segment-trees-online-queries-for-range-sum-with-point-updates/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/06_dynamic_segment_trees
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

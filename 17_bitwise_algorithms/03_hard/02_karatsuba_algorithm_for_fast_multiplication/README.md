@@ -26,12 +26,24 @@ What if the lengths of input strings are different and are not even? To handle t
 
 The above algorithm is called Karatsuba algorithm and it can be used for any base.
 
+## Function Signature
+
+```dart
+dynamic karatsubaAlgorithmFastMultiplication(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/02_karatsuba_algorithm_for_fast_multiplication
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

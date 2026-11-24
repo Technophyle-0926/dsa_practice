@@ -26,13 +26,25 @@ Output: 0
 Explanation: The array contains no 1s.
 ```
 
+## Function Signature
+
+```dart
+int count1sSortedBinaryArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-1s-sorted-binary-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-1s-in-binary-array-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/07_count_1s_in_a_sorted_binary_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

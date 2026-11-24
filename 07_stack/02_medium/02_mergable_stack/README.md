@@ -36,12 +36,24 @@ We can do it with a **circular linked list**. The idea is to keep track of the l
 
 The code for the above is given below:
 
+## Function Signature
+
+```dart
+dynamic mergableStack(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/create-mergable-stack/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/02_mergable_stack
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

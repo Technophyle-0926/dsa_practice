@@ -1,0 +1,32 @@
+{
+  "title": "K Closest",
+  "number": 9,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-k-closest-elements-given-value/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-closest-elements3619/1",
+  "function": {
+    "name": "kClosest",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "kClosest([1, 3, 4, 10, 12], 2, 4)",
+    "expected": "[3, 1]"
+  }
+}

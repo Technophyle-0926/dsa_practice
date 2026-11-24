@@ -32,12 +32,24 @@ Rotate those 3 nodes also by d.
 Prerequisite: Rotate a linked list
 The idea is if the absolute value of d is greater than the value of k, then rotate the link list by d % k times. If d is 0, no need to rotate the linked list at all.
 
+## Function Signature
+
+```dart
+ListNode? rotateLinkedListBlockWise(ListNode? head, int k, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rotate-linked-list-block-wise/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/10_rotate_linked_list_block_wise
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

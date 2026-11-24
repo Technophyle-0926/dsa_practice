@@ -12,12 +12,24 @@ A B-Tree is a specialized m-way tree designed to optimize data access, especiall
 - B Trees allow faster data retrieval and updates, making them an ideal choice for systems requiring efficient and scalable data management. By maintaining a balanced structure at all times,
 - B-Trees deliver consistent and efficient performance for critical operations such as search, insertion, and deletion.
 
+## Function Signature
+
+```dart
+dynamic introductionBTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-of-b-tree-2/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/07_b_tree/01_introduction_of_b_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

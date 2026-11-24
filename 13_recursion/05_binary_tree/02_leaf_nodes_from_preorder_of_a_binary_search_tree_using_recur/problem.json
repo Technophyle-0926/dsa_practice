@@ -1,0 +1,24 @@
+{
+  "title": "Leaf nodes from Preorder of a Binary Search Tree (Using Recursion)",
+  "number": 2,
+  "category": "Recursion",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/leaf-nodes-preorder-binary-search-treeusing-recursion/",
+  "practice": null,
+  "function": {
+    "name": "leafNodesPreorderBinarySearch",
+    "params": [
+      {
+        "name": "preorder",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "leafNodesPreorderBinarySearch([890, 325, 290, 530, 965])",
+    "expected": "290 530 965"
+  }
+}

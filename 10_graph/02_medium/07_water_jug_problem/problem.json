@@ -1,0 +1,32 @@
+{
+  "title": "Water Jug problem",
+  "number": 7,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/two-water-jug-puzzle/",
+  "practice": "https://www.geeksforgeeks.org/problems/two-water-jug-problem3402/1",
+  "function": {
+    "name": "waterJugProblem",
+    "params": [
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "waterJugProblem(2, 3, 1)",
+    "expected": "2"
+  }
+}

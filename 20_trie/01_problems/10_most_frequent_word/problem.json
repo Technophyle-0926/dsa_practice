@@ -1,0 +1,24 @@
+{
+  "title": "Most frequent word",
+  "number": 10,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/frequent-word-array-strings/",
+  "practice": "https://www.geeksforgeeks.org/problems/word-with-maximum-frequency0120/1",
+  "function": {
+    "name": "mostFrequentWord",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "mostFrequentWord(\"the devil in the sky\")",
+    "expected": "\"the 2\""
+  }
+}

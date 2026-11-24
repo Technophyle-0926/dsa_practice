@@ -1,0 +1,16 @@
+{
+  "title": "Weak AVL or Rank Balanced Trees",
+  "number": 4,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/weak-avl-or-rank-balanced-trees/",
+  "practice": null,
+  "function": {
+    "name": "weakAvlOrRankBalanced",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

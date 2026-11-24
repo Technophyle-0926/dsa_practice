@@ -1,0 +1,24 @@
+{
+  "title": "Print Alternates",
+  "number": 1,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-alternate-elements-of-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1",
+  "function": {
+    "name": "printAlternates",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAlternates([10, 20, 30, 40, 50])",
+    "expected": "10 30 50"
+  }
+}

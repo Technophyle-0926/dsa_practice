@@ -1,0 +1,28 @@
+{
+  "title": "Ways to increase LCS length of 2 strings by one",
+  "number": 2,
+  "category": "String",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-ways-increase-lcs-length-two-strings-one/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-ways-to-increase-lcs-length-of-two-strings-by-one2236/1",
+  "function": {
+    "name": "waysIncreaseLcsLength2",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "waysIncreaseLcsLength2(\"abab\", \"abc\")",
+    "expected": "3"
+  }
+}

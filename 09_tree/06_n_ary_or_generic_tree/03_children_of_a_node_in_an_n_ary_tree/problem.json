@@ -1,0 +1,24 @@
+{
+  "title": "Children of a Node in an N-ary Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-children-given-node-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "childrenNodeNAryTree",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "childrenNodeNAryTree(50)",
+    "expected": "3"
+  }
+}

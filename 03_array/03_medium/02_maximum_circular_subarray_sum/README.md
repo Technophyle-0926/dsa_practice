@@ -27,13 +27,25 @@ Output: 12
 Explanation: The circular subarray [3, 4, 5] gives the maximum sum of 12.
 ```
 
+## Function Signature
+
+```dart
+int maximumCircularSubarraySum(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-contiguous-circular-sum/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/02_maximum_circular_subarray_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

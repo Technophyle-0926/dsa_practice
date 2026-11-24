@@ -1,0 +1,24 @@
+{
+  "title": "Sort in Wave Form",
+  "number": 6,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-array-wave-form-2/",
+  "practice": "https://www.geeksforgeeks.org/problems/wave-array-1587115621/1",
+  "function": {
+    "name": "sortWaveForm",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortWaveForm([1, 2, 3, 4, 5])",
+    "expected": "[2, 1, 4, 3, 5]"
+  }
+}

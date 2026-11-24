@@ -29,13 +29,25 @@ Output : 0
 Explanation: The array is already non-increasing.
 ```
 
+## Function Signature
+
+```dart
+int minimumIncrementDecrementMakeArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-incrementdecrement-to-make-array-non-increasing/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-incrementdecrement-to-make-array-non-increasing--170637/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/05_minimum_increment_decrement_to_make_array_non_increasing
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

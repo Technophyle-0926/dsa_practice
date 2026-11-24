@@ -23,13 +23,25 @@ Output: [INF, 0, 9, 10, 4]
 Explanation: The vertex 0 is not reachable from vertex 1 so its distance is INF, for 2 it is 9, for 3 it is 10, and for 4 it is 4.
 ```
 
+## Function Signature
+
+```dart
+dynamic longestPathDirectedAcyclicGraph(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-longest-path-directed-acyclic-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-path-in-a-directed-acyclic-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/05_topological_sorting/05_longest_path_in_a_directed_acyclic_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

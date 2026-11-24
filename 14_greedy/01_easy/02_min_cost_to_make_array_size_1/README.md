@@ -18,13 +18,25 @@ Output: 3
 Explanation: choose (3, 4) so cost is 3.
 ```
 
+## Function Signature
+
+```dart
+int minCostMakeArraySize(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-cost-make-array-size-1-removing-larger-pairs/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/min-cost-to-make-size-1/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/02_min_cost_to_make_array_size_1
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

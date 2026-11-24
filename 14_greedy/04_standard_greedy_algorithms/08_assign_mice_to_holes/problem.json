@@ -1,0 +1,28 @@
+{
+  "title": "Assign Mice to Holes",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/assign-mice-holes/",
+  "practice": "https://www.geeksforgeeks.org/problems/assign-mice-holes3053/1",
+  "function": {
+    "name": "assignMiceHoles",
+    "params": [
+      {
+        "name": "mices",
+        "type": "List<int>"
+      },
+      {
+        "name": "holes",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "assignMiceHoles([4, -4, 2], [4, 0, 5])",
+    "expected": "4"
+  }
+}

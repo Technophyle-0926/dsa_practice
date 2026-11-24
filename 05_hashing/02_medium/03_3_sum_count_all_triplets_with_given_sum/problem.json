@@ -1,0 +1,28 @@
+{
+  "title": "3 Sum - Count all triplets with Given sum",
+  "number": 3,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/3-sum-count-all-triplets-with-given-sum/",
+  "practice": null,
+  "function": {
+    "name": "solve3SumCountAllTriplets",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "solve3SumCountAllTriplets([0, -1, 2, -3, 1], -2)",
+    "expected": "2"
+  }
+}

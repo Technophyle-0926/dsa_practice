@@ -20,13 +20,25 @@ Output: 3->4->20
 Explanation: The above linked list is sorted in non-decreasing order.
 ```
 
+## Function Signature
+
+```dart
+ListNode? sortLinkedList(ListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sorting-a-singly-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/insertion-sort-for-singly-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/05_sort_a_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -20,13 +20,25 @@ Output: -18
 Explanation: Both -12 and -18 are closest to -15, but -18 has the maximum absolute value.
 ```
 
+## Function Signature
+
+```dart
+int closestNumber(int n, int m)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-number-closest-n-divisible-m/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/closest-number5728/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/01_basic/06_closest_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

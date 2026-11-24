@@ -1,0 +1,33 @@
+{
+  "title": "Find Itinerary from a given list of tickets",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Topological Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-itinerary-from-a-given-list-of-tickets/",
+  "practice": null,
+  "function": {
+    "name": "findItineraryGivenListTickets",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head2",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head3",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head4",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": null
+}

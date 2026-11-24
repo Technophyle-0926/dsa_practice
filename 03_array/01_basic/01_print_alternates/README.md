@@ -19,13 +19,25 @@ Input: arr[] = [-5, 1, 4, 2, 12]
 Output: -5 4 12
 ```
 
+## Function Signature
+
+```dart
+List<int> printAlternates(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-alternate-elements-of-an-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/01_basic/01_print_alternates
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

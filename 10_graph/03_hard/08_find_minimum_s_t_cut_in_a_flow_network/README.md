@@ -36,13 +36,25 @@ Output: 0
 Explanation: There is no path from vertex 0 to vertex 2, so the minimum cut has capacity 0 and no edges. The returned list is empty.
 ```
 
+## Function Signature
+
+```dart
+int findMinimumSTCut(List<List<int>> a, int s, int t)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-cut-in-a-directed-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-minimum-s-t-cut-in-a-flow-network2902/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/03_hard/08_find_minimum_s_t_cut_in_a_flow_network
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

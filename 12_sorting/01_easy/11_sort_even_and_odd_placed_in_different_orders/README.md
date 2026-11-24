@@ -23,13 +23,25 @@ Output: [2, 3, 5, 12, 13, 14, 9, 4, 1]
 Explanation: Even-indexed elements are 3, 2, 5, 13, 12, which after sorting become 2, 3, 5, 12, 13. Odd-indexed elements are 1, 4, 9, 14, which after sorting in decreasing order become 14, 9, 4, 1. The final array is formed by placing the sorted even-indexed elements first, followed by the sorted odd-indexed elements.
 ```
 
+## Function Signature
+
+```dart
+List<int> sortEvenOddPlacedDifferent(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-even-placed-elements-increasing-odd-placed-decreasing-order/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/bitonic-generator-sort3343/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/11_sort_even_and_odd_placed_in_different_orders
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

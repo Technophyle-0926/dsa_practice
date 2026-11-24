@@ -1,0 +1,28 @@
+{
+  "title": "XOR without using XOR",
+  "number": 11,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-xor-of-two-number-without-using-xor-operator/",
+  "practice": null,
+  "function": {
+    "name": "xorWithoutXor",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "xorWithoutXor(1, 2)",
+    "expected": "3"
+  }
+}

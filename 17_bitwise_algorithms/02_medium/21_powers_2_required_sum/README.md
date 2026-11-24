@@ -22,12 +22,24 @@ Explanation :
        2^5 + 2^7 + 2^10
 ```
 
+## Function Signature
+
+```dart
+List<int> powers2RequiredSum(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/powers-2-required-sum/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/21_powers_2_required_sum
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Topological Sort of a graph using departure time of vertex",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Topological Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/topological-sorting-using-departure-time-of-vertex/",
+  "practice": null,
+  "function": {
+    "name": "topologicalSortGraphDepartureTime",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

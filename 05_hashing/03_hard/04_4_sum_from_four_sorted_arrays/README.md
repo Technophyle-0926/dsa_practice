@@ -25,12 +25,24 @@ Input : For the same above given fours arrays
 Output : 14
 ```
 
+## Function Signature
+
+```dart
+int solve4SumFourSortedArrays(List<int> arr1, List<int> arr2, List<int> arr3, List<int> arr4, int n, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-quadruples-four-sorted-arrays-whose-sum-equal-given-value-x/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/04_4_sum_from_four_sorted_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

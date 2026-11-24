@@ -1,0 +1,16 @@
+{
+  "title": "Huffman Decoding",
+  "number": 2,
+  "category": "Greedy",
+  "level": "Standard Greedy Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/huffman-decoding/",
+  "practice": null,
+  "function": {
+    "name": "huffmanDecoding",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

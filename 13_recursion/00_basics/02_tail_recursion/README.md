@@ -84,8 +84,12 @@ static void print(int n)
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/tail-recursion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/00_basics/02_tail_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

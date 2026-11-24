@@ -22,12 +22,24 @@ Input: n = 10
 Output: 10, 5, 0, 5, 10
 ```
 
+## Function Signature
+
+```dart
+List<int> printPatternWithoutAnyLoop(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-a-pattern-without-using-any-loop/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/01_print_a_pattern_without_using_any_loop
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

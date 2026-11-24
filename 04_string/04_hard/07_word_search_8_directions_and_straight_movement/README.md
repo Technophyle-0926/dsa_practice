@@ -21,13 +21,25 @@ Input:  grid = [[a, b, a, b], [a, b, e, b], [e, b, e, b]], word = "abe"
 Output:  [[0, 0[, [0, 2], [1, 0]]
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> wordSearch8DirectionsStraight(List<List<String>> grid, String word)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/search-a-word-in-a-2d-grid-of-characters/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-the-string-in-grid0111/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/04_hard/07_word_search_8_directions_and_straight_movement
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

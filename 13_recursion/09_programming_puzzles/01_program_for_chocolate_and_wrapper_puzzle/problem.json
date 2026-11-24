@@ -1,0 +1,32 @@
+{
+  "title": "Program for Chocolate and Wrapper Puzzle",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Programming Puzzles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-chocolate-wrapper-puzzle/",
+  "practice": null,
+  "function": {
+    "name": "programChocolateWrapperPuzzle",
+    "params": [
+      {
+        "name": "money",
+        "type": "int"
+      },
+      {
+        "name": "price",
+        "type": "int"
+      },
+      {
+        "name": "wrap",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "programChocolateWrapperPuzzle(16, 2, 2)",
+    "expected": "15"
+  }
+}

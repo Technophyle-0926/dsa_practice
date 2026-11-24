@@ -1,0 +1,24 @@
+{
+  "title": "Max value of Sum( i*arr[i]) with only rotations",
+  "number": 10,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-maximum-value-of-sum-iarri-with-only-rotations-on-given-array-allowed/",
+  "practice": null,
+  "function": {
+    "name": "maxValueSumIArr",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxValueSumIArr([4, 3, 2, 6, 1, 5])",
+    "expected": "60"
+  }
+}

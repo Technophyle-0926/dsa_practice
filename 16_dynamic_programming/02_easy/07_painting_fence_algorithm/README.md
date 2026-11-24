@@ -22,13 +22,25 @@ Output: 6
 Explanation: The following image depicts the 6 possible ways of painting 3 posts with 2 colors:
 ```
 
+## Function Signature
+
+```dart
+int paintingFenceAlgorithm(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/painting-fence-algorithm/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/painting-the-fence3727/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/07_painting_fence_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

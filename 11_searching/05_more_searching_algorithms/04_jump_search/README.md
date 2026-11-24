@@ -30,12 +30,24 @@ In the worst case, we have to do n/m jumps, and if the last checked value is gre
 Once a value greater than the target is found, perform a linear search starting from the previous step until the target is found or it is clear that the target is not in the array.
 If the target is found, return its index. If not, return -1 to indicate that the target was not found in the array.
 
+## Function Signature
+
+```dart
+dynamic jumpSearch(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/jump-search/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/05_more_searching_algorithms/04_jump_search
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

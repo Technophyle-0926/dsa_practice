@@ -1,0 +1,16 @@
+{
+  "title": "Reverse a Doubly linked list using recursion",
+  "number": 3,
+  "category": "Recursion",
+  "level": "Linked List",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-doubly-linked-list-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "reverseDoublyLinkedListRecursion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

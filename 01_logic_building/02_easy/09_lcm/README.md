@@ -19,13 +19,25 @@ Output :  55
 Explanation : 55 is the smallest number divisible by both 5 and 11
 ```
 
+## Function Signature
+
+```dart
+int lcm(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-to-find-lcm-of-two-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/09_lcm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

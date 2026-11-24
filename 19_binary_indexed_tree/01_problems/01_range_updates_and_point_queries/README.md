@@ -29,12 +29,24 @@ Explanation: Array after first update becomes
               {2, 2, 2, 5, 5}
 ```
 
+## Function Signature
+
+```dart
+dynamic rangeUpdatesPointQueries(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-indexed-tree-range-updates-point-queries/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/01_problems/01_range_updates_and_point_queries
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

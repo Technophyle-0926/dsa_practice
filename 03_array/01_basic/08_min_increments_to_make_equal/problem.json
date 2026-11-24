@@ -1,0 +1,28 @@
+{
+  "title": "Min Increments to Make Equal",
+  "number": 8,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-increment-k-operations-make-elements-equal/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-increment-by-k-operations-to-make-all-equal/1",
+  "function": {
+    "name": "minIncrementsMakeEqual",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minIncrementsMakeEqual([4, 4, 4, 2], 2)",
+    "expected": "1"
+  }
+}

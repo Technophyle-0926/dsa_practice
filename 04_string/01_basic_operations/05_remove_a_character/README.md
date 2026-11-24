@@ -16,13 +16,25 @@ Input : s = "a",  pos = 0
 Output : s = ""
 ```
 
+## Function Signature
+
+```dart
+dynamic removeCharacter(String s, int pos)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-a-character-from-a-given-position/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/remove-a-character-from-a-given-position/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/01_basic_operations/05_remove_a_character
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

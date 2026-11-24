@@ -24,13 +24,25 @@ Output: 0
 Explanation: Since there is only one rope, no connections are needed, so the cost is 0.
 ```
 
+## Function Signature
+
+```dart
+int minCostConnectNRopes(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/connect-n-ropes-minimum-cost/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/07_min_cost_to_connect_n_ropes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

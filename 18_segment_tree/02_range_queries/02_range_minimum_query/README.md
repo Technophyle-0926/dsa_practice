@@ -24,13 +24,25 @@ Query [1, 1]: The subarray arr[1...1] contains only one element, 2. The minimum 
 Query [0, 3]: The elements in arr[0...3] are [7, 2, 9, 4]. The minimum element is 2
 ```
 
+## Function Signature
+
+```dart
+List<int> rangeMinimumQuery(List<int> arr, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/segment-tree-range-minimum-query/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/range-minimum-query/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/02_range_minimum_query
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

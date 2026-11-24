@@ -31,12 +31,24 @@ Input: arr[] = {4, 0, 1, 2}, Q[][] = {{1, 3}}
 Output: 3
 ```
 
+## Function Signature
+
+```dart
+List<int> queriesEvaluateGivenEquationRange(List<int> arr, List<List<int>> Q)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/queries-to-evaluate-the-given-equation-in-a-range-l-r/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/14_queries_to_evaluate_the_given_equation_in_a_range_l_r
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

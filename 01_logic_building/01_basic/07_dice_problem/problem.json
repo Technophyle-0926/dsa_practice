@@ -1,0 +1,24 @@
+{
+  "title": "Dice Problem",
+  "number": 7,
+  "category": "Logic Building",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/the-dice-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/the-dice-problem2316/1",
+  "function": {
+    "name": "diceProblem",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "diceProblem(2)",
+    "expected": "5"
+  }
+}

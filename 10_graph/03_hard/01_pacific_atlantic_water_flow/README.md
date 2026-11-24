@@ -29,13 +29,25 @@ Output: 4
 Explanation: In the following example, all cells allow signals to propagate to both the stations.
 ```
 
+## Function Signature
+
+```dart
+int pacificAtlanticWaterFlow(List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/signal-propagation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/geeks-island--170646/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/03_hard/01_pacific_atlantic_water_flow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Generate all Subarrays",
+  "number": 4,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/generating-subarrays-using-recursion/",
+  "practice": "https://www.geeksforgeeks.org/problems/generating-all-subarrays/1",
+  "function": {
+    "name": "generateAllSubarrays",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true
+  },
+  "example": {
+    "call": "generateAllSubarrays([1, 2, 3])",
+    "expected": "[[1], [1, 2], [1, 2, 3], [2], [2, 3], [3]]"
+  }
+}

@@ -24,12 +24,24 @@ Output:0
 Explanation: There is no rightmost set bit
 ```
 
+## Function Signature
+
+```dart
+int turnOffRightmostBit(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/turn-off-the-rightmost-set-bit/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/02_turn_off_the_rightmost_set_bit
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

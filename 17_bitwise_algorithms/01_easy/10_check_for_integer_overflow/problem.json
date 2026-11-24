@@ -1,0 +1,28 @@
+{
+  "title": "Check for Integer Overflow",
+  "number": 10,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-for-integer-overflow/",
+  "practice": null,
+  "function": {
+    "name": "checkIntegerOverflow",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "checkIntegerOverflow(1000000000, 1000000000)",
+    "expected": "2000000000"
+  }
+}

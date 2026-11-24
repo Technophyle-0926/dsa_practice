@@ -1,0 +1,24 @@
+{
+  "title": "Sum triangle from array",
+  "number": 5,
+  "category": "Recursion",
+  "level": "Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-triangle-from-array/",
+  "practice": null,
+  "function": {
+    "name": "sumTriangleArray",
+    "params": [
+      {
+        "name": "A",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "sumTriangleArray([1, 2, 3, 4, 5])",
+    "expected": "[48] [20, 28] [8, 12, 16] [3, 5, 7, 9] [1, 2, 3, 4, 5]"
+  }
+}

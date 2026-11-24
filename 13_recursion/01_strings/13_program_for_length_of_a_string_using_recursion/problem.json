@@ -1,0 +1,24 @@
+{
+  "title": "Program for length of a string using recursion",
+  "number": 13,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-length-of-a-string-using-recursion/",
+  "practice": null,
+  "function": {
+    "name": "programLengthStringRecursion",
+    "params": [
+      {
+        "name": "str",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "programLengthStringRecursion(\"abcd\")",
+    "expected": "4"
+  }
+}

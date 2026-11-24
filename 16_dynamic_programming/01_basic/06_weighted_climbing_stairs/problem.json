@@ -1,0 +1,24 @@
+{
+  "title": "Weighted Climbing Stairs",
+  "number": 6,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-cost-to-reach-the-top-of-the-floor-by-climbing-stairs/",
+  "practice": "https://www.geeksforgeeks.org/problems/min-cost-climbing-stairs/1",
+  "function": {
+    "name": "weightedClimbingStairs",
+    "params": [
+      {
+        "name": "cost",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "weightedClimbingStairs([10, 15, 20])",
+    "expected": "15"
+  }
+}

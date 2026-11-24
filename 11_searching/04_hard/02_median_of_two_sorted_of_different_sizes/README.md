@@ -22,13 +22,25 @@ Output: 4.5
 Explanation: The merged array is [1, 2, 4, 5, 6, 7]. The total number of elements are even, so there are two middle elements. Take the average between the two: (4 + 5) / 2 = 4.5
 ```
 
+## Function Signature
+
+```dart
+int medianTwoSortedDifferentSizes(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/median-of-two-sorted-arrays-of-different-sizes/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/04_hard/02_median_of_two_sorted_of_different_sizes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

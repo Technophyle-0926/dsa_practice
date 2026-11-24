@@ -22,13 +22,25 @@ Output: 0
 Explanation: No subarray has a sum greater than 100. Hence, the answer is 0.
 ```
 
+## Function Signature
+
+```dart
+int smallestSubarraySumGreaterThan(int x, List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-length-subarray-sum-greater-given-value/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/06_smallest_subarray_with_sum_greater_than_x
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

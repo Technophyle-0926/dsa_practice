@@ -1,0 +1,24 @@
+{
+  "title": "Max Consecutive Diff Sum",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximize-sum-consecutive-differences-circular-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/swap-and-maximize5859/1",
+  "function": {
+    "name": "maxConsecutiveDiffSum",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maxConsecutiveDiffSum([4, 2, 1, 8])",
+    "expected": "18"
+  }
+}

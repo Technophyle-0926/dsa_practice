@@ -23,12 +23,24 @@ Solution: Delete nodes from end of key until first leaf node of longest prefix k
 - Now we want to delete string "CAT", since it is prefix of string "CATS", we cannot delete anything from the string "CAT" and we can only unmark the leaf node which will ensure that "CAT" is no longer a member string of TST.
 - Now we want to delete string "CATS", since it has a prefix string "CAT" which also is a member string of TST so we can only delete last character of string "CATS" which will ensure that string "CAT" still remains the part of TST.
 
+## Function Signature
+
+```dart
+dynamic ternarySearchTreeDeletion(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/ternary-search-tree-deletion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/05_ternary_search_tree/02_ternary_search_tree_deletion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

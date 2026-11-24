@@ -20,13 +20,25 @@ Output: 2
 Explanation: Given linked list elements are 2 -> 2 -> 2 -> 2 -> 2, in which 2 is repeated. So, we will delete the extra repeated elements 2 from the linked list and the resultant linked list will contain only 2.
 ```
 
+## Function Signature
+
+```dart
+ListNode? removeDuplicatesUnsortedLinkedList(ListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-duplicates-from-an-unsorted-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/06_remove_duplicates_from_an_unsorted_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

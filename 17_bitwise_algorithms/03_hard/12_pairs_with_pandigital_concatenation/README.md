@@ -22,12 +22,24 @@ None of the pairs on concatenation result in Pandigital
 Concatenations.
 ```
 
+## Function Signature
+
+```dart
+int pairsPandigitalConcatenation(List<String> numValue)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-pairs-pandigital-concatenation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/12_pairs_with_pandigital_concatenation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

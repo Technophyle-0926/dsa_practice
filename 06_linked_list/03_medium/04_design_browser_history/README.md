@@ -56,13 +56,25 @@ back(2): Moving two steps back, takes us to google.com
 back(7):  We need to move 7 steps back, but only 1 url is available. Therefore we would return geeksforgeeks.org.
 ```
 
+## Function Signature
+
+```dart
+dynamic designBrowserHistory(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/design-custom-browser-history-based-on-given-operations/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/design-browser-history/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/04_design_browser_history
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

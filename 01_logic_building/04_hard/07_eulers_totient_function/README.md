@@ -26,13 +26,25 @@ Output:  8
 Explanation: From 1 to 16, 1,3,5,7,9,11,13,15  are relatively prime to 16.
 ```
 
+## Function Signature
+
+```dart
+int eulersTotientFunction(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/eulers-totient-function/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/euler-totient-function4604/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/04_hard/07_eulers_totient_function
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

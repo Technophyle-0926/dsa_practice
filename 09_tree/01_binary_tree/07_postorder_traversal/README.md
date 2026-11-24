@@ -26,13 +26,25 @@ Output: [4, 5, 2, 6, 3, 1]
 Explanation: Postorder Traversal visits the nodes in the following order: Left, Right, Root. Therefore resulting is 4 , 5, 2, 6, 3, 1.
 ```
 
+## Function Signature
+
+```dart
+dynamic postorderTraversal(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/postorder-traversal-of-binary-tree/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/postorder-traversal/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/01_binary_tree/07_postorder_traversal
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

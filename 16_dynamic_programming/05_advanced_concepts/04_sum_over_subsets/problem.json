@@ -1,0 +1,28 @@
+{
+  "title": "Sum over Subsets",
+  "number": 4,
+  "category": "Dynamic Programming",
+  "level": "Advanced Concepts",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-subsets-dynamic-programming/",
+  "practice": null,
+  "function": {
+    "name": "sumOverSubsets",
+    "params": [
+      {
+        "name": "A",
+        "type": "List<int>"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sumOverSubsets([7, 12, 14, 16], 2)",
+    "expected": "7, 19, 21, 49"
+  }
+}

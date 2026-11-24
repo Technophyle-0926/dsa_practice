@@ -22,13 +22,25 @@ Output: [3, 2, 1]
 Explanation:
 ```
 
+## Function Signature
+
+```dart
+List<int> reverseStackRecursion(List<int> st)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reverse-a-stack/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/01_easy/12_reverse_a_stack_using_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

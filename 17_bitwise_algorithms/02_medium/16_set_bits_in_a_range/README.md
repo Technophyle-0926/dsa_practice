@@ -19,13 +19,25 @@ Output: 11
 Explanation: Binary of x is 1000 and binary of y is 0111. In the range [1, 2], y has set bits at both positions 1 and 2. Copying these bits into x gives 1011, which is 11.
 ```
 
+## Function Signature
+
+```dart
+int bitsRange(int x, int y, int l, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/copy-set-bits-in-a-range/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/16_set_bits_in_a_range
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

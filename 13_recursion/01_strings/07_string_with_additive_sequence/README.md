@@ -25,13 +25,25 @@ Input : s = “12345678”
 Output : false
 ```
 
+## Function Signature
+
+```dart
+dynamic stringAdditiveSequence(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/string-with-additive-sequence/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/additive-sequence/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/07_string_with_additive_sequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

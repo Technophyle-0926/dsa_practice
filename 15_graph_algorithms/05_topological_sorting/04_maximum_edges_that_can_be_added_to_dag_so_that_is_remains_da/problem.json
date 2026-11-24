@@ -1,0 +1,16 @@
+{
+  "title": "Maximum edges that can be added to DAG so that is remains DAG",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Topological Sorting",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-edges-can-added-dag-remains-dag/",
+  "practice": "https://www.geeksforgeeks.org/problems/max-dag-edges/1",
+  "function": {
+    "name": "maximumEdgesThatCanBe",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

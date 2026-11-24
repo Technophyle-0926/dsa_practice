@@ -1,0 +1,24 @@
+{
+  "title": "XOR Encryption by Shifting Plaintext",
+  "number": 8,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/xor-encryption-shifting-plaintext/",
+  "practice": "https://www.geeksforgeeks.org/problems/xor-cipher3009/1",
+  "function": {
+    "name": "xorEncryptionShiftingPlaintext",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "xorEncryptionShiftingPlaintext(\"A1D0A1D\")",
+    "expected": "\"ABCD\""
+  }
+}

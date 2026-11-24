@@ -1,0 +1,24 @@
+{
+  "title": "Check if Sorted",
+  "number": 1,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-check-array-sorted-not-iterative-recursive/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1",
+  "function": {
+    "name": "checkIfSorted",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkIfSorted([10, 20, 30, 40, 50])",
+    "expected": "true"
+  }
+}

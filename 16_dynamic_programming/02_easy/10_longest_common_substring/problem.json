@@ -1,0 +1,28 @@
+{
+  "title": "Longest Common Substring",
+  "number": 10,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/longest-common-substring-dp-29/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-common-substring1452/1",
+  "function": {
+    "name": "longestCommonSubstring",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestCommonSubstring(\"GeeksforGeeks\", \"GeeksQuiz\")",
+    "expected": "5"
+  }
+}

@@ -20,13 +20,25 @@ Output: [12, 13, 14, 15, 16, 17, 18, 19, 23....79, 89]
 Explanation: For n = 2, the correct sequence is 12 13 14 15 16 17 18 19 23 and so on up to 89.
 ```
 
+## Function Signature
+
+```dart
+List<int> printAllNDigitStrictly(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-all-n-digit-strictly-increasing-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/n-digit-numbers-with-digits-in-increasing-order5903/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/03_print_all_n_digit_strictly_increasing_numbers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

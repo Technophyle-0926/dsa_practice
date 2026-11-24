@@ -1,0 +1,9 @@
+{
+  "title": "Separate Chaining for Collision Handling",
+  "number": 3,
+  "category": "Hashing",
+  "level": "Basics",
+  "kind": "concept",
+  "article": "https://www.geeksforgeeks.org/dsa/separate-chaining-collision-handling-technique-in-hashing/",
+  "practice": null
+}

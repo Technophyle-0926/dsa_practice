@@ -34,8 +34,12 @@ Sum of values in the range 2 to 6 after update is 21 + 23 + 35 + 27 + 8 = 114.
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-sum-and-update-in-array-segment-tree-using-stack/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/00_basics/05_range_sum_and_update_in_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

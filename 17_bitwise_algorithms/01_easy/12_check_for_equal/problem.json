@@ -1,0 +1,16 @@
+{
+  "title": "Check for Equal",
+  "number": 12,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-two-numbers-are-equal-without-using-arithmetic-and-comparison-operators/",
+  "practice": null,
+  "function": {
+    "name": "checkEqual",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

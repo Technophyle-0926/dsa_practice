@@ -25,13 +25,25 @@ For the second query, from l=2 to r=4, no number has frequency at least 2.
 For the third query, from l=4 to r=4, no number has frequency at least 2
 ```
 
+## Function Signature
+
+```dart
+List<int> mosAlgorithm(List<int> arr, List<List<int>> queries, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/mos-algorithm-query-square-root-decomposition-set-1-introduction/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/interesting-queries4742/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 21_sqrt_decomposition/01_problems/01_mos_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

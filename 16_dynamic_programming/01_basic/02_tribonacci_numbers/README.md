@@ -26,13 +26,25 @@ Input : 20
 Output : 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1705, 3136,  5768, 10609, 19513
 ```
 
+## Function Signature
+
+```dart
+List<int> tribonacciNumbers(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/tribonacci-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/tribonacci-number/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/02_tribonacci_numbers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

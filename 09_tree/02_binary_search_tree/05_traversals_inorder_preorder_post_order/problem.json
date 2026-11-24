@@ -1,0 +1,16 @@
+{
+  "title": "Traversals – Inorder, Preorder, Post Order",
+  "number": 5,
+  "category": "Tree",
+  "level": "Binary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-traversal-inorder-preorder-post-order/",
+  "practice": null,
+  "function": {
+    "name": "traversalsInorderPreorderPostOrder",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Travelling Salesman Problem using MST",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Approximate Greedy Algorithm for NP Complete",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/approximate-solution-for-travelling-salesman-problem-using-mst/",
+  "practice": null,
+  "function": {
+    "name": "travellingSalesmanProblemMst",
+    "params": [
+      {
+        "name": "cost",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "travellingSalesmanProblemMst([[0, 111], [112, 0]])",
+    "expected": "223"
+  }
+}

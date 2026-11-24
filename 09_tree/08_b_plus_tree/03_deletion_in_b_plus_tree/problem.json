@@ -1,0 +1,16 @@
+{
+  "title": "Deletion in B+ Tree",
+  "number": 3,
+  "category": "Tree",
+  "level": "B+ Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-in-b-tree/",
+  "practice": null,
+  "function": {
+    "name": "deletionBTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

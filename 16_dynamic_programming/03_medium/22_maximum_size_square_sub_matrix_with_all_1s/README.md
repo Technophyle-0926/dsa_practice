@@ -20,13 +20,25 @@ Output: 2
 Explanation: The maximum length of a side of the square sub-matrix is 2. The matrix itself is the maximum sized sub-matrix in this case.
 ```
 
+## Function Signature
+
+```dart
+int maximumSizeSquareSubMatrix(List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/22_maximum_size_square_sub_matrix_with_all_1s
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

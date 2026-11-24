@@ -1,0 +1,24 @@
+{
+  "title": "Prefix to Infix",
+  "number": 5,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/prefix-infix-conversion/",
+  "practice": "https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1",
+  "function": {
+    "name": "prefixInfix",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "prefixInfix(\"+A*BC\")",
+    "expected": "(A+(B*C))"
+  }
+}

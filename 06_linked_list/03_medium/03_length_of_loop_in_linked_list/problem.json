@@ -1,0 +1,16 @@
+{
+  "title": "Length of loop in linked list",
+  "number": 3,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-length-of-loop-in-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
+  "function": {
+    "name": "lengthLoopLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

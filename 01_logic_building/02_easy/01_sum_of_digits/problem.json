@@ -1,0 +1,24 @@
+{
+  "title": "Sum of Digits",
+  "number": 1,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-sum-of-the-digits-of-a-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/sum-of-digits1742/1",
+  "function": {
+    "name": "sumDigits",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumDigits(687)",
+    "expected": "21"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Min initial vertices to traverse matrix with constraints",
+  "number": 13,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-initial-vertices-traverse-whole-matrix-given-conditions/",
+  "practice": null,
+  "function": {
+    "name": "minInitialVerticesTraverseMatrix",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

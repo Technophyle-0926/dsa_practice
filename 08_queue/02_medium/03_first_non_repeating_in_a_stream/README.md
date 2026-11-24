@@ -26,13 +26,25 @@ At i=0 ("b"): First non-repeating character is 'b'.
 At i=1 ("bb"): No non-repeating character, so '#'.
 ```
 
+## Function Signature
+
+```dart
+dynamic firstNonRepeatingStream(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-first-non-repeating-character-stream-characters/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/02_medium/03_first_non_repeating_in_a_stream
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

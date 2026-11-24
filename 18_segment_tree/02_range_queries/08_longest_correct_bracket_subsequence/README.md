@@ -28,13 +28,25 @@ Query [0, 5]: The substring is "(()())". It contains 3 matched pairs, so the ans
 Query [2, 9]: The substring is ")()))()(". It contains 2 matched pairs, so the answer is 4.
 ```
 
+## Function Signature
+
+```dart
+List<int> longestCorrectBracketSubsequence(String s, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-queries-longest-correct-bracket-subsequence/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/range-queries-for-longest-correct-bracket-subsequence4719/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/08_longest_correct_bracket_subsequence
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

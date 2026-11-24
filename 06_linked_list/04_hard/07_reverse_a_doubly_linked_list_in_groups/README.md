@@ -20,12 +20,24 @@ Output: 4 <-> 3 <-> 2 <-> 1 <-> 6 -> 5 -> NULL.
 Explanation : Linked List is reversed in a group of size k = 4.
 ```
 
+## Function Signature
+
+```dart
+DListNode? reverseDoublyLinkedListGroups(DListNode? head, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reverse-doubly-linked-list-groups-given-size/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/04_hard/07_reverse_a_doubly_linked_list_in_groups
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

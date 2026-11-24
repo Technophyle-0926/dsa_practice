@@ -12,12 +12,24 @@ We know that to answer range sum queries on a 1-D array efficiently, binary inde
 
 The answer is **yes**. This is possible using a **2D BIT** which is nothing but an array of 1D BIT.
 
+## Function Signature
+
+```dart
+dynamic solve2dBinaryIndexedTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/two-dimensional-binary-indexed-tree-or-fenwick-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/01_problems/04_2d_binary_indexed_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

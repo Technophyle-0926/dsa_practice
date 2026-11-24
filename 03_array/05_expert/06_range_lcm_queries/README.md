@@ -31,13 +31,25 @@ Explanation: The queries are processed sequentially, updating the array when req
 {2, 0, 1} --> lcm of all numbers within the given range: LCM of [5, 2] = 10
 ```
 
+## Function Signature
+
+```dart
+List<int> rangeLcmQueries(List<int> arr, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-lcm-queries/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/range-lcm-queries3348/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/05_expert/06_range_lcm_queries
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

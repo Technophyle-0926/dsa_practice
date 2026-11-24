@@ -1,0 +1,36 @@
+{
+  "title": "Maximum Tip Calculator",
+  "number": 25,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/max-profit-from-two-machines/",
+  "practice": "https://www.geeksforgeeks.org/problems/max-profit-from-two-machines/1",
+  "function": {
+    "name": "maximumTipCalculator",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      },
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumTipCalculator(3, 3, [1, 2, 3, 4, 5], [5, 4, 3, 2, 1])",
+    "expected": "21"
+  }
+}

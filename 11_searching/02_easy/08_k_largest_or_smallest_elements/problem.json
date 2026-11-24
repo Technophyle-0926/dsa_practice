@@ -1,0 +1,28 @@
+{
+  "title": "k largest(or smallest) Elements",
+  "number": 8,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/k-largestor-smallest-elements-in-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-largest-elements4206/1",
+  "function": {
+    "name": "kLargestOrSmallestElements",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "kLargestOrSmallestElements([12, 5, 787, 1, 23], 2)",
+    "expected": "[787, 23]"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Duplicate Subtrees",
+  "number": 13,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-duplicate-subtrees/",
+  "practice": "https://www.geeksforgeeks.org/problems/duplicate-subtrees/1",
+  "function": {
+    "name": "duplicateSubtrees",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

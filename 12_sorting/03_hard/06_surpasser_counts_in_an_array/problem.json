@@ -1,0 +1,24 @@
+{
+  "title": "Surpasser Counts in an Array",
+  "number": 6,
+  "category": "Sorting",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-surpasser-count-of-each-element-in-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/surpasser-count0615/1",
+  "function": {
+    "name": "surpasserCountsArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "surpasserCountsArray([2, 7, 5, 3, 8, 1])",
+    "expected": "[4, 1, 1, 1, 0, 0]"
+  }
+}

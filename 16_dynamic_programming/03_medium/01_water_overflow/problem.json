@@ -1,0 +1,32 @@
+{
+  "title": "Water Overflow",
+  "number": 1,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-water-in-a-glass/",
+  "practice": "https://www.geeksforgeeks.org/problems/champagne-overflow2636/1",
+  "function": {
+    "name": "waterOverflow",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      },
+      {
+        "name": "c",
+        "type": "int"
+      }
+    ],
+    "returns": "double",
+    "verified": true
+  },
+  "example": {
+    "call": "waterOverflow(3, 2, 1)",
+    "expected": "1.000000"
+  }
+}

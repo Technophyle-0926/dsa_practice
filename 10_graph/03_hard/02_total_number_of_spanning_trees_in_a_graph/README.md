@@ -28,13 +28,25 @@ Output: 3
 Explanation: The graph has one cycle among nodes 0, 1, and 2, so removing one edge forms a spanning tree. Since the cycle has 3 edges, removing any one gives 3 possible spanning trees.
 ```
 
+## Function Signature
+
+```dart
+dynamic totalNumberSpanningTreesGraph(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/total-number-spanning-trees-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/03_hard/02_total_number_of_spanning_trees_in_a_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

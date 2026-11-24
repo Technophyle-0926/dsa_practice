@@ -1,0 +1,32 @@
+{
+  "title": "Minimum sum of product of two arrays",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-sum-product-two-arrays/",
+  "practice": null,
+  "function": {
+    "name": "minimumSumProductTwoArrays",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumSumProductTwoArrays([1, 2, -3], [-2, 3, -5], 5)",
+    "expected": "-31"
+  }
+}

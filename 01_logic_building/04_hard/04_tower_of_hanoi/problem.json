@@ -1,0 +1,24 @@
+{
+  "title": "Tower of Hanoi",
+  "number": 4,
+  "category": "Logic Building",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/c-program-for-tower-of-hanoi/",
+  "practice": "https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1",
+  "function": {
+    "name": "towerHanoi",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "towerHanoi(2)",
+    "expected": "3"
+  }
+}

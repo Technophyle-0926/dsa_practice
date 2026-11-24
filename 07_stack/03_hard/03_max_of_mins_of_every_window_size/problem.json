@@ -1,0 +1,24 @@
+{
+  "title": "Max of Mins of every window size",
+  "number": 3,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-maximum-of-minimums-for-every-window-size-in-a-given-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-of-minimum-for-every-window-size3453/1",
+  "function": {
+    "name": "maxMinsEveryWindowSize",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "maxMinsEveryWindowSize([10, 20, 30, 50, 10, 70, 30])",
+    "expected": "[70, 30, 20, 10, 10, 10, 10]"
+  }
+}

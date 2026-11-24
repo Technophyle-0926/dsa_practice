@@ -43,12 +43,24 @@ For Left Right Case [3.b (ii)]and Right Left Case [3.b (iv)], swap colors of gra
 
 **Example: Creating a red-black tree with elements 3, 21, 32 and 15 in an empty tree.**
 
+## Function Signature
+
+```dart
+dynamic insertionRedBlackTree(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/insertion-in-red-black-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/04_red_black_tree/02_insertion_in_red_black_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

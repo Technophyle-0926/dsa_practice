@@ -1,0 +1,16 @@
+{
+  "title": "Shortest Job First Scheduling",
+  "number": 4,
+  "category": "Greedy",
+  "level": "Greedy Problems in Operating System",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/",
+  "practice": "https://www.geeksforgeeks.org/problems/calculate-the-average-waiting-time-and-turnaround-time-using-shortest-job-first/1",
+  "function": {
+    "name": "shortestJobFirstScheduling",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Count ways to express a number as sum of powers",
+  "number": 9,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-ways-express-number-sum-powers/",
+  "practice": null,
+  "function": {
+    "name": "countWaysExpressNumberAs",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countWaysExpressNumberAs(100, 2)",
+    "expected": "3"
+  }
+}

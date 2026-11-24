@@ -1,0 +1,28 @@
+{
+  "title": "Print all longest common sub-sequences in lexicographical order",
+  "number": 1,
+  "category": "Recursion",
+  "level": "Dynamic Programming",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-longest-common-sub-sequences-lexicographical-order/",
+  "practice": "https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1",
+  "function": {
+    "name": "printAllLongestCommonSub",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllLongestCommonSub(\"abac\", \"aabca\")",
+    "expected": "[\"aac\", \"aba\", \"abc\"]"
+  }
+}

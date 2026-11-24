@@ -1,0 +1,16 @@
+{
+  "title": "Fleury’s Algorithm for printing Eulerian Path or Circuit",
+  "number": 5,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/fleurys-algorithm-for-printing-eulerian-path/",
+  "practice": null,
+  "function": {
+    "name": "fleurysAlgorithmPrintingEulerianPath",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

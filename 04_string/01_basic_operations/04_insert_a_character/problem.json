@@ -1,0 +1,32 @@
+{
+  "title": "Insert a Character",
+  "number": 4,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/how-to-insert-a-character-in-a-string/",
+  "practice": null,
+  "function": {
+    "name": "insertCharacter",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "c",
+        "type": "String"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "insertCharacter(\"Geeks\", \"A\", 3)",
+    "expected": "GeeAks"
+  }
+}

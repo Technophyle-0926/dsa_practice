@@ -1,0 +1,16 @@
+{
+  "title": "Delete in a Doubly Linked List",
+  "number": 10,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-a-node-in-a-doubly-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1",
+  "function": {
+    "name": "deleteDoublyLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

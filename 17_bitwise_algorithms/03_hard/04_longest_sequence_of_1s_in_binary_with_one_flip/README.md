@@ -38,12 +38,24 @@ We update max length by comparing the following two:
 - Current-Length + Previous-Length .
 - **Result = return max-length+1** (// add 1 for flip bit count )
 
+## Function Signature
+
+```dart
+int longestSequence1sBinaryOne(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-longest-sequence-1s-binary-representation-one-flip/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/04_longest_sequence_of_1s_in_binary_with_one_flip
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

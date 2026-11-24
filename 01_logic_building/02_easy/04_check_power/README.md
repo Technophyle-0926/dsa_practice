@@ -25,13 +25,25 @@ Input:  x = 10, y = 1001
 Output: false
 ```
 
+## Function Signature
+
+```dart
+bool checkPower(int x, int y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-a-number-is-power-of-another-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-a-number-is-power-of-another-number5442/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/04_check_power
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

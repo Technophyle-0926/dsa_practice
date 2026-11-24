@@ -1,0 +1,24 @@
+{
+  "title": "Remove duplicates from an unsorted DLL",
+  "number": 16,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-duplicates-unsorted-doubly-linked-list/",
+  "practice": null,
+  "function": {
+    "name": "removeDuplicatesUnsortedDll",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "removeDuplicatesUnsortedDll(DListNode.fromList([1, 2, 3, 2, 4]))",
+    "expected": "Doubly Linked List = 1 <-> 2 <-> 3 <-> 4"
+  }
+}

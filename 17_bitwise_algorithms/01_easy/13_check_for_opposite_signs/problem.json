@@ -1,0 +1,28 @@
+{
+  "title": "Check for opposite signs",
+  "number": 13,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detect-if-two-integers-have-opposite-signs/",
+  "practice": null,
+  "function": {
+    "name": "checkOppositeSigns",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkOppositeSigns(-5, 10)",
+    "expected": "true"
+  }
+}

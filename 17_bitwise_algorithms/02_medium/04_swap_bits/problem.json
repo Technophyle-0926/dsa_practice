@@ -1,0 +1,36 @@
+{
+  "title": "Swap Bits",
+  "number": 4,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/swap-bits-in-a-given-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/swap-bits5726/1",
+  "function": {
+    "name": "swapBits",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "p1",
+        "type": "int"
+      },
+      {
+        "name": "p2",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "swapBits(47, 1, 5, 3)",
+    "expected": "227"
+  }
+}

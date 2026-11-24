@@ -25,12 +25,24 @@ In the range [3, 9], the minimum distance between 0's is 2 (Index 4 and 6).
 In the range [10, 13], the minimum distance between 0's is 3 (Index 10 and 13).
 ```
 
+## Function Signature
+
+```dart
+int minimumDistanceBetweenTwoZeros(List<int> arr, List<List<int>> Q)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-array-range-queries-to-find-the-minimum-distance-between-two-zeros/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/13_minimum_distance_between_two_zeros
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

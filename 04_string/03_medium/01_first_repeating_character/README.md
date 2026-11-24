@@ -20,13 +20,25 @@ Output: l
 Explanation: l is the first element that repeats
 ```
 
+## Function Signature
+
+```dart
+String firstRepeatingCharacter(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-first-repeated-character-in-a-string/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-first-repeated-character4108/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/01_first_repeating_character
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

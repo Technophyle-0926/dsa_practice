@@ -1,0 +1,24 @@
+{
+  "title": "Min Cost to Connect n ropes",
+  "number": 7,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/connect-n-ropes-minimum-cost/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1",
+  "function": {
+    "name": "minCostConnectNRopes",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minCostConnectNRopes([4, 3, 2, 6])",
+    "expected": "29"
+  }
+}

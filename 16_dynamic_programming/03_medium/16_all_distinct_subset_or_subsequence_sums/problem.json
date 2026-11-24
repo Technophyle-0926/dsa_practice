@@ -1,0 +1,24 @@
+{
+  "title": "All distinct subset (or subsequence) sums",
+  "number": 16,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-distinct-subset-subsequence-sums-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-all-distinct-subset-or-subsequence-sums4424/1",
+  "function": {
+    "name": "allDistinctSubsetOrSubsequence",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "allDistinctSubsetOrSubsequence([1, 2])",
+    "expected": "[0, 1, 2, 3]"
+  }
+}

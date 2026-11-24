@@ -20,12 +20,24 @@ Explanation: c - `(d + e),` to get `(c - d - e) `The outer `-` flips the signs, 
 
 The approach uses a stack to track the sign context while processing the expression. Initially, the stack is set to `1` (positive context). When encountering a `-` before a parenthesis, the sign inside the parentheses is toggled by pushing `-1` onto the stack. For each operator (`+` or `-`), the stack’s top determines if the operator should be flipped. When encountering operands, they are directly appended to the result. After processing the entire string, the simplified expression is returned without parentheses and with correct signs.
 
+## Function Signature
+
+```dart
+String removeBracketsContainingOperators(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-brackets-algebraic-string-containing-operators/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/09_remove_brackets_containing_plus_and_operators
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

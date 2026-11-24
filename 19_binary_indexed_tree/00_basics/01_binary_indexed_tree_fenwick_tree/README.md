@@ -26,8 +26,12 @@ We have an array, and we would like to:
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/binary-indexed-tree-or-fenwick-tree-2/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 19_binary_indexed_tree/00_basics/01_binary_indexed_tree_fenwick_tree
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

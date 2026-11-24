@@ -24,12 +24,24 @@ If A and B are two positive integers such that A ^ B = 14, A & B = 1, then the p
 Therefore, (A | B) = (7 | 9) = 15.
 ```
 
+## Function Signature
+
+```dart
+int calculateBitwiseOrTwoIntegers(int X, int Y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/calculate-bitwise-or-of-two-integers-from-their-given-bitwise-and-and-bitwise-xor-values/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/17_calculate_bitwise_or_of_two_integers
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

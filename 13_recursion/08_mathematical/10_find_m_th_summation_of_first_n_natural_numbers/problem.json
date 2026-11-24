@@ -1,0 +1,28 @@
+{
+  "title": "Find m-th summation of first n natural numbers",
+  "number": 10,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-mth-summation-first-n-natural-numbers/",
+  "practice": null,
+  "function": {
+    "name": "findMThSummationFirst",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "findMThSummationFirst(4, 1)",
+    "expected": "SUM(4, 1) = 10"
+  }
+}

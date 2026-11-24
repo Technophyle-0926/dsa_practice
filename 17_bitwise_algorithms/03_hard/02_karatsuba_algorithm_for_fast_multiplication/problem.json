@@ -1,0 +1,16 @@
+{
+  "title": "Karatsuba Algorithm for fast Multiplication",
+  "number": 2,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "karatsubaAlgorithmFastMultiplication",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "K’th Non-repeating Character",
+  "number": 4,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/kth-non-repeating-character/",
+  "practice": null,
+  "function": {
+    "name": "kthNonRepeatingCharacter",
+    "params": [
+      {
+        "name": "str",
+        "type": "String"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "kthNonRepeatingCharacter(\"geeksforgeeks\", 3)",
+    "expected": "r"
+  }
+}

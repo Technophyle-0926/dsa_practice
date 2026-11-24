@@ -1,0 +1,16 @@
+{
+  "title": "Channel Assignment Problem",
+  "number": 6,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/channel-assignment-problem/",
+  "practice": null,
+  "function": {
+    "name": "channelAssignmentProblem",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

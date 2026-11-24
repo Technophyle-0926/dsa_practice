@@ -1,0 +1,16 @@
+{
+  "title": "Diameter of an N-ary Tree",
+  "number": 6,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/diameter-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "diameterNAryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

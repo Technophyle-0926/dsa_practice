@@ -1,0 +1,28 @@
+{
+  "title": "LCM",
+  "number": 9,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-find-lcm-of-two-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1",
+  "function": {
+    "name": "lcm",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "lcm(10, 5)",
+    "expected": "10"
+  }
+}

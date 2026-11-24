@@ -1,0 +1,28 @@
+{
+  "title": "Permutations with K Inversions",
+  "number": 13,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-of-permutation-with-k-inversions/",
+  "practice": "https://www.geeksforgeeks.org/problems/number-of-permutation-with-k-inversions5304/1",
+  "function": {
+    "name": "permutationsKInversions",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "permutationsKInversions(3, 1)",
+    "expected": "2"
+  }
+}

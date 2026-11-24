@@ -1,0 +1,16 @@
+{
+  "title": "Searching",
+  "number": 3,
+  "category": "Tree",
+  "level": "Binary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-set-1-search-and-insertion/",
+  "practice": "https://www.geeksforgeeks.org/problems/search-a-node-in-bst/1",
+  "function": {
+    "name": "searching",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

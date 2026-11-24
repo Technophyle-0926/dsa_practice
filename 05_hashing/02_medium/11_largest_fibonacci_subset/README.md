@@ -20,13 +20,25 @@ Output: [0, 2, 8, 5, 2, 1, 13]
 Explanation: The output numbers are the only Fibonacci numbers in array.
 ```
 
+## Function Signature
+
+```dart
+List<int> largestFibonacciSubset(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/largest-subset-whose-all-elements-are-fibonacci-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-fibonacci-subsequence2206/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/11_largest_fibonacci_subset
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

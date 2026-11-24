@@ -1,0 +1,28 @@
+{
+  "title": "GCD or HCF",
+  "number": 8,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-find-gcd-or-hcf-of-two-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1",
+  "function": {
+    "name": "gcdOrHcf",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "gcdOrHcf(20, 28)",
+    "expected": "4"
+  }
+}

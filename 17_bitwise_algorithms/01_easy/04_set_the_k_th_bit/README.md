@@ -20,13 +20,25 @@ Output: 15
 Explanation: The binary representation of the given number 15 is: 1 1 1 1, number of bits in the binary representation is 4. Thus 3rd bit from the right is 1. The number after changing this bit to 1 is 15(1 1 1 1).
 ```
 
+## Function Signature
+
+```dart
+int kThBit(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/set-k-th-bit-given-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/set-kth-bit3724/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/04_set_the_k_th_bit
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

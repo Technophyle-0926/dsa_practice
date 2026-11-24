@@ -1,0 +1,16 @@
+{
+  "title": "Difference between Prim’s and Kruskal’s algorithm for MST",
+  "number": 27,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/difference-between-prims-and-kruskals-algorithm-for-mst/",
+  "practice": null,
+  "function": {
+    "name": "differenceBetweenPrimsKruskalsAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

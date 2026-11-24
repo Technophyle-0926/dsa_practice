@@ -1,0 +1,16 @@
+{
+  "title": "How to insert Strings into an AVL Tree",
+  "number": 7,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/how-to-insert-strings-into-an-avl-tree/",
+  "practice": null,
+  "function": {
+    "name": "howInsertStringsIntoAvl",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

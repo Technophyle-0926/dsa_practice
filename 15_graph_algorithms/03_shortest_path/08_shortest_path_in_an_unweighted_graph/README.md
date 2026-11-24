@@ -18,12 +18,24 @@ Output: 2 1 0 3 4 6
 Explanation: The shortest path is 2 -> 1 -> 0 -> 3 - > 4 -> 6.
 ```
 
+## Function Signature
+
+```dart
+List<int> shortestPathUnweightedGraph(int V, int E, int S, int D, List<List<int>> edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/shortest-path-unweighted-graph/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/08_shortest_path_in_an_unweighted_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

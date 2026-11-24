@@ -1,0 +1,28 @@
+{
+  "title": "Rearrange a string so that all same characters become d distance away",
+  "number": 10,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/rearrange-a-string-so-that-all-same-characters-become-at-least-d-distance-away/",
+  "practice": null,
+  "function": {
+    "name": "rearrangeStringSoThatAll",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "rearrangeStringSoThatAll(\"abb\", 2)",
+    "expected": "\"bab\""
+  }
+}

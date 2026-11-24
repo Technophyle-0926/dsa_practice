@@ -22,12 +22,24 @@ There are different ways to achieve part A. Right shifting is essentially a divi
 Note that we are adding right most set bit to the bit pattern. The addition operation causes a shift in the bit positions. The weight of binary system is 2, one shift causes an increase by a factor of 2. Since the increased number (rightOnesPattern in the code) being used twice, the error propagates twice. The error needs to be corrected. A right shift by 2 positions will correct the result.
 The popular name for this program is **s**ame **n**umber **o**f **o**ne **b**its.
 
+## Function Signature
+
+```dart
+dynamic nextHigherSameBits(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/next-higher-number-with-same-number-of-set-bits/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/01_next_higher_with_same_set_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

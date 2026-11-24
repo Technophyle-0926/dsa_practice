@@ -28,13 +28,25 @@ Output: [0, 2]
 Explanation: We need to sort the whole array to make it sorted
 ```
 
+## Function Signature
+
+```dart
+List<int> minUnsortedSubarrayMakeArray(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/length-unsorted-subarray3022/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/17_min_unsorted_subarray_to_make_array_sorted
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Interpolation Search",
+  "number": 5,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/interpolation-search/",
+  "practice": null,
+  "function": {
+    "name": "interpolationSearch",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

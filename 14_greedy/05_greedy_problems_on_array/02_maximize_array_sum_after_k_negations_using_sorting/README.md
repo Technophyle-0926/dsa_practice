@@ -20,13 +20,25 @@ Output: 68
 Explanation: Change -12, -4, and -2 to positive values using three operations. The remaining two operations can be performed on the same element, changing its sign twice. Therefore, the maximum sum remains 68.
 ```
 
+## Function Signature
+
+```dart
+int maximizeArraySumAfterK(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximize-array-sum-after-k-negations-using-sorting/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/maximize-sum-after-k-negations1149/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/05_greedy_problems_on_array/02_maximize_array_sum_after_k_negations_using_sorting
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

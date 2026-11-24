@@ -1,0 +1,28 @@
+{
+  "title": "Duplicate within K Distance",
+  "number": 1,
+  "category": "Array",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-given-array-contains-duplicate-elements-within-k-distance/",
+  "practice": "https://www.geeksforgeeks.org/problems/kth-distance3757/1",
+  "function": {
+    "name": "duplicateWithinKDistance",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "duplicateWithinKDistance([1, 5, 4, 5, 1], 3)",
+    "expected": "true"
+  }
+}

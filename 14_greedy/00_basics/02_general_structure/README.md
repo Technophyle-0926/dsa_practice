@@ -18,8 +18,12 @@ Most of the problems where greedy algorithms work follow these two properties:
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/greedy-algorithms-general-structure-and-applications/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/00_basics/02_general_structure
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -24,12 +24,24 @@ Explanation: Left smaller  ls[] = [0, 2, 4, 4, 4, 7, 2], Right smaller  rs[] = [
 Maximum Diff of abs(ls[i] - rs[i]) = 7 - 3 = 4
 ```
 
+## Function Signature
+
+```dart
+int maxDiffBetweenNearestLeft(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-maximum-difference-between-nearest-left-and-right-smaller-elements/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/18_max_diff_between_nearest_left_and_right_smaller
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

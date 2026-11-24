@@ -1,0 +1,24 @@
+{
+  "title": "Largest Fibonacci Subset",
+  "number": 11,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/largest-subset-whose-all-elements-are-fibonacci-numbers/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-fibonacci-subsequence2206/1",
+  "function": {
+    "name": "largestFibonacciSubset",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "largestFibonacciSubset([1, 4, 3, 9, 10, 13, 7])",
+    "expected": "[1, 3, 13]"
+  }
+}

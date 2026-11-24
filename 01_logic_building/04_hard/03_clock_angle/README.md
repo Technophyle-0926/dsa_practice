@@ -26,13 +26,25 @@ Output: 0.000
 Explanation: When the time is 00:00, the angle between the hour and minute hands of the clock is 0.000 degrees.
 ```
 
+## Function Signature
+
+```dart
+double clockAngle(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/calculate-angle-hour-hand-minute-hand/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/angle-between-hour-and-minute-hand0545/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/04_hard/03_clock_angle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

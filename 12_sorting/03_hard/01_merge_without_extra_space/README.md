@@ -26,13 +26,25 @@ Output: a[] = [0, 1], b[] = [2, 3]
 Explanation: Combined sorted array = [0, 1, 2, 3], array a[] contains smallest 2 elements: 0 and 1, and array b[] contains remaining 2 elements: 2 and 3.
 ```
 
+## Function Signature
+
+```dart
+dynamic mergeWithoutExtraSpace(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/merge-two-sorted-arrays-o1-extra-space/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/01_merge_without_extra_space
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

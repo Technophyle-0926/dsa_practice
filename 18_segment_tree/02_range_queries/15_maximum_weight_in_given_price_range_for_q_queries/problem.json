@@ -1,0 +1,28 @@
+{
+  "title": "Maximum weight in given price range for Q queries",
+  "number": 15,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-element-with-maximum-weight-in-given-price-range-for-q-queries/",
+  "practice": null,
+  "function": {
+    "name": "maximumWeightGivenPriceRange",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumWeightGivenPriceRange([[24, 6], [30, 8], [21, 7]], [[10, 24], [20, 30]])",
+    "expected": "[7, 8]"
+  }
+}

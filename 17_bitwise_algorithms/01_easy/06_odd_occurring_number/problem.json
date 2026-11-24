@@ -1,0 +1,24 @@
+{
+  "title": "Odd Occurring Number",
+  "number": 6,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-number-occurring-odd-number-of-times/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-the-odd-occurence4820/1",
+  "function": {
+    "name": "oddOccurringNumber",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "oddOccurringNumber([1, 2, 3, 2, 3, 1, 3])",
+    "expected": "3                                                                                                                                                                                                                Explanation : In the first array, only 3 occurs an odd number of times (3 times), so the answer is 3."
+  }
+}

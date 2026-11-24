@@ -1,0 +1,36 @@
+{
+  "title": "Number of primes in a subarray",
+  "number": 6,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/number-primes-subarray-updates/",
+  "practice": null,
+  "function": {
+    "name": "numberPrimesSubarray",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "q",
+        "type": "int"
+      },
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "numberPrimesSubarray(6, 3, [1, 2, 3, 5, 7, 9], [[1, 0, 4], [2, 3, 6], [1, 0, 4]])",
+    "expected": "4 3"
+  }
+}

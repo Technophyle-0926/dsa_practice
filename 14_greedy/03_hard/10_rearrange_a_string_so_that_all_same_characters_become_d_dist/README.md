@@ -32,12 +32,24 @@ Output: "Cannot be rearranged"
 Explanation: It's impossible to rearrange the characters of the string such that 'a' appears more than once and still respects the required distance of 2.
 ```
 
+## Function Signature
+
+```dart
+String rearrangeStringSoThatAll(String s, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rearrange-a-string-so-that-all-same-characters-become-at-least-d-distance-away/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/10_rearrange_a_string_so_that_all_same_characters_become_d_dist
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

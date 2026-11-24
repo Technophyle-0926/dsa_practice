@@ -18,12 +18,24 @@ Explanation:
 Path 0 → 2: The path with maximum weight and at most 0 intermediate nodes is of weight 500.
 ```
 
+## Function Signature
+
+```dart
+int maximumCostPath(int N, List<List<int>> Edges, int src, int dst, int K)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-cost-path-from-source-node-to-destination-node-via-at-most-k-intermediate-nodes/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/03_hard/05_maximum_cost_path
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

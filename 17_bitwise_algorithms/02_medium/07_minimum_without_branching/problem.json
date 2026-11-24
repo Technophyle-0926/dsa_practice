@@ -1,0 +1,16 @@
+{
+  "title": "Minimum without branching",
+  "number": 7,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/compute-the-minimum-or-maximum-max-of-two-integers-without-branching/",
+  "practice": null,
+  "function": {
+    "name": "minimumWithoutBranching",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

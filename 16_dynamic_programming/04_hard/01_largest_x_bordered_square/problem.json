@@ -1,0 +1,16 @@
+{
+  "title": "Largest X Bordered Square",
+  "number": 1,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-matrix-o-x-find-largest-subsquare-surrounded-x/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-subsquare-surrounded-by-x0558/1",
+  "function": {
+    "name": "largestXBorderedSquare",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

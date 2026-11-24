@@ -1,0 +1,24 @@
+{
+  "title": "Length of a String",
+  "number": 1,
+  "category": "String",
+  "level": "Basic Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-length-of-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/length-of-string/1",
+  "function": {
+    "name": "lengthString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "lengthString(\"abc\")",
+    "expected": "3"
+  }
+}

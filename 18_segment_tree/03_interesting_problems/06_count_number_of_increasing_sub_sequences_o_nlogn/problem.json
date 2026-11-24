@@ -1,0 +1,24 @@
+{
+  "title": "Count number of increasing sub-sequences : O(NlogN)",
+  "number": 6,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-number-of-increasing-sub-sequences-onlogn/",
+  "practice": null,
+  "function": {
+    "name": "countNumberIncreasingSubSequences",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countNumberIncreasingSubSequences([1, 2, 3])",
+    "expected": "7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Print bitwise AND set of a number N",
+  "number": 22,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-bitwise-and-set-of-a-number-n/",
+  "practice": "https://www.geeksforgeeks.org/problems/print-all-bitwise-subsets-of-a-number-n3301/1",
+  "function": {
+    "name": "printBitwiseNumberN",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printBitwiseNumberN(5)",
+    "expected": "[5, 4, 1, 0]"
+  }
+}

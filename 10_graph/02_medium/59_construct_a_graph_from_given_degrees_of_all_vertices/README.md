@@ -34,12 +34,24 @@ Approach :
 
 Based on the above explanation, below are implementations:
 
+## Function Signature
+
+```dart
+dynamic constructGraphGivenDegreesAll(List<int> degrees)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/construct-graph-given-degrees-vertices/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/59_construct_a_graph_from_given_degrees_of_all_vertices
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

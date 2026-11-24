@@ -1,0 +1,16 @@
+{
+  "title": "Print Linked List",
+  "number": 2,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/print-linked-list-elements/1",
+  "function": {
+    "name": "printLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

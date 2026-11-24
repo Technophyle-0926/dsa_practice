@@ -1,0 +1,24 @@
+{
+  "title": "Min insertions for a palindrome permutation",
+  "number": 14,
+  "category": "Hashing",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-insertions-to-form-a-palindrome-with-permutations-allowed/",
+  "practice": null,
+  "function": {
+    "name": "minInsertionsPalindromePermutation",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minInsertionsPalindromePermutation(\"geeksforgeeks\")",
+    "expected": "2"
+  }
+}

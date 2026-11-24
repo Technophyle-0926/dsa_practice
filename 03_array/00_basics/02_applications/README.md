@@ -25,8 +25,12 @@ Below are some applications of arrays.
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-array-data-structure/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/00_basics/02_applications
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

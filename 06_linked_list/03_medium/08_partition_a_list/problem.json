@@ -1,0 +1,28 @@
+{
+  "title": "Partition a List",
+  "number": 8,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/",
+  "practice": "https://www.geeksforgeeks.org/problems/partition-a-linked-list-around-a-given-value/1",
+  "function": {
+    "name": "partitionList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "partitionList(ListNode.fromList([1, 4, 3, 2, 5, 2, 3]), 3)",
+    "expected": "1 -> 2 -> 2 -> 3 -> 3 -> 4 -> 5"
+  }
+}

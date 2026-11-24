@@ -26,12 +26,24 @@ Swapping is done because the last element can be removed in O(1) time.
 - Return the array element at the randomly generated index.
 - **search(x)** Do a lookup for x in hash map.
 
+## Function Signature
+
+```dart
+dynamic insertDeleteSearchGetrandom(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/13_insert_delete_search_and_getrandom
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

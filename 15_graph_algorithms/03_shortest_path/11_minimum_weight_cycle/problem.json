@@ -1,0 +1,16 @@
+{
+  "title": "Minimum weight cycle",
+  "number": 11,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-minimum-weight-cycle-undirected-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1",
+  "function": {
+    "name": "minimumWeightCycle",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Range sum query using Sparse Table",
+  "number": 4,
+  "category": "Array",
+  "level": "Expert",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-sum-query-using-sparse-table/",
+  "practice": null,
+  "function": {
+    "name": "rangeSumQuerySparseTable",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

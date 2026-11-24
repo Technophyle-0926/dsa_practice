@@ -45,8 +45,12 @@ getFront will returns the element at the front end of the queue without removing
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/basic-operations-for-queue-in-data-structure/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/00_basics/03_basic_operations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

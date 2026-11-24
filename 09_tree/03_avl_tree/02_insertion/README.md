@@ -26,13 +26,25 @@ Following are two basic rotation operations that can be performed to balance a B
 
 ### Illustration of Insertion at AVL Tree:
 
+## Function Signature
+
+```dart
+dynamic insertion(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/insertion-in-an-avl-tree/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/avl-tree-insertion/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/03_avl_tree/02_insertion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

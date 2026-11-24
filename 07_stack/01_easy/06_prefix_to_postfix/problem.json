@@ -1,0 +1,16 @@
+{
+  "title": "Prefix to Postfix",
+  "number": 6,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/prefix-postfix-conversion/",
+  "practice": "https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/1",
+  "function": {
+    "name": "prefixPostfix",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

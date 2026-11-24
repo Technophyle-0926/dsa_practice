@@ -22,13 +22,25 @@ Output: 1
 Explanation: Only 1 platform is required for all the three trains because the departure time of each train is less then arrival time of next train.
 ```
 
+## Function Signature
+
+```dart
+int minimumPlatforms(List<int> arr, List<int> dep)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-number-platforms-required-railwaybus-station/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/05_minimum_platforms
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

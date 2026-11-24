@@ -1,0 +1,28 @@
+{
+  "title": "K Centers Problem | Set 1 (Greedy Approximate Algorithm)",
+  "number": 11,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/greedy-approximate-algorithm-for-k-centers-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/k-centers-problem/1",
+  "function": {
+    "name": "kCentersProblem1Greedy",
+    "params": [
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "kCentersProblem1Greedy(1, [[0]])",
+    "expected": "0"
+  }
+}

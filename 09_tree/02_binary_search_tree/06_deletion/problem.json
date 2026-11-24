@@ -1,0 +1,16 @@
+{
+  "title": "Deletion",
+  "number": 6,
+  "category": "Tree",
+  "level": "Binary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/deletion-in-binary-search-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-a-node-from-bst/1",
+  "function": {
+    "name": "deletion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

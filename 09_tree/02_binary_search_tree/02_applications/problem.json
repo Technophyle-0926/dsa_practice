@@ -1,0 +1,16 @@
+{
+  "title": "Applications",
+  "number": 2,
+  "category": "Tree",
+  "level": "Binary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/applications-of-bst/",
+  "practice": null,
+  "function": {
+    "name": "applications",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

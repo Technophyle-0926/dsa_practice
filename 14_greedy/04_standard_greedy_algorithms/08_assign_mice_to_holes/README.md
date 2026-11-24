@@ -19,13 +19,25 @@ Input : mices[] = [1, 2], holes[] = [20, 10]
 Output : 18
 ```
 
+## Function Signature
+
+```dart
+int assignMiceHoles(List<int> mices, List<int> holes)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/assign-mice-holes/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/assign-mice-holes3053/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/04_standard_greedy_algorithms/08_assign_mice_to_holes
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

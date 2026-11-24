@@ -1,0 +1,16 @@
+{
+  "title": "DP on Trees",
+  "number": 13,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-on-trees/",
+  "practice": null,
+  "function": {
+    "name": "dpTrees",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

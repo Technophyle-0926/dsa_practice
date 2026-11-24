@@ -26,13 +26,25 @@ Output: -1
 Explanation: No element appears more than ⌊2/2⌋ = 1 time, so there is no majority element.
 ```
 
+## Function Signature
+
+```dart
+int majorityElement(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/majority-element/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/majority-element-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/07_majority_element
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

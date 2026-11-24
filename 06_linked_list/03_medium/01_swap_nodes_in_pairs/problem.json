@@ -1,0 +1,16 @@
+{
+  "title": "Swap Nodes in Pairs",
+  "number": 1,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/pairwise-swap-elements-of-a-given-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1",
+  "function": {
+    "name": "swapNodesPairs",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

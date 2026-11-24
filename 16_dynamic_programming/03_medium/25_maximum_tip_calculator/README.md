@@ -22,13 +22,25 @@ Output: 110
 Explanation: Machine A will process tasks 8, 19, 18 while  Machine B will process tasks 7, 15, 12 and 31.
 ```
 
+## Function Signature
+
+```dart
+int maximumTipCalculator(int x, int y, List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/max-profit-from-two-machines/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/max-profit-from-two-machines/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/25_maximum_tip_calculator
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

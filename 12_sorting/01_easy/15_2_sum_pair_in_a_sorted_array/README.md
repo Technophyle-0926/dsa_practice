@@ -20,13 +20,25 @@ Output: 3 4
 Explanation: Since the array is 1-indexed, arr[3] + arr[5] = 4 + 6 = 10
 ```
 
+## Function Signature
+
+```dart
+List<int> solve2SumPairSortedArray(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/pair-with-given-sum-in-sorted-array-two-sum-ii/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/two-sum-in-sorted-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/15_2_sum_pair_in_a_sorted_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

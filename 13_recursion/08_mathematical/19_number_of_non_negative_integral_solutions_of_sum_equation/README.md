@@ -32,12 +32,24 @@ Total numbers of possible solutions are 70
 1. Make a recursive function call to countSolutions(int n, int val)
 2. Call this Solution function countSolutions(n-1, val-i) until n = 1 and val >=0 and then return 1.
 
+## Function Signature
+
+```dart
+int numberNonNegativeIntegralSolutions(int n, int val)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-of-non-negative-integral-solutions-of-sum-equation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/19_number_of_non_negative_integral_solutions_of_sum_equation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

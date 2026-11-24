@@ -16,12 +16,24 @@ Output: [[A, 0], [B, 0], [C, 2], [D, 0], [E, 1], [F, 5]]
 Explanation: 'A' and 'B' are reporting to 'C', thus for 'C' the count is 2. And 'D' is reporting to 'E', thus for 'E' the count is 1. 'C' and 'E' reporting to 'F' . Thus count for 'F' is 5 ( 2 under 'C'+ 1 under 'E' + 'C' + 'E' )  . And no employees are reporting 'A', 'B', and 'D', so the count for them is 0.
 ```
 
+## Function Signature
+
+```dart
+dynamic numberEmployeesUnderEveryEmployee(List<List<String>> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-number-of-employees-under-every-manager/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/02_medium/07_number_of_employees_under_every_employee
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -20,12 +20,24 @@ Output : 0->0->6->2->3
 
 We recursively reduce the value of k. When k reaches 1, we delete the current node and return the next current node as a new node. When the function returns, we link the returned node to the next previous node.
 
+## Function Signature
+
+```dart
+ListNode? recursiveFunctionDeleteKTh(ListNode? head, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-function-delete-k-th-node-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/04_linked_list/01_recursive_function_to_delete_k_th_node_from_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

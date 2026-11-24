@@ -11,12 +11,24 @@ If n is negative, the function is returned immediately.
 
 **Question 2 :** Predict the output of the following program. What does the following fun() do in general?
 
+## Function Signature
+
+```dart
+dynamic practiceQuestionsRecursion4(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-4/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/10_misc/09_practice_questions_for_recursion_set_4
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,16 @@
+{
+  "title": "Introduction to Push Relabel Algorithm",
+  "number": 7,
+  "category": "Graph Algorithms",
+  "level": "Maximum Flow in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-push-relabel-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "introductionPushRelabelAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

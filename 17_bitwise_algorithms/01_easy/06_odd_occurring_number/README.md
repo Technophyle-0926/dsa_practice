@@ -18,13 +18,25 @@ Input : arr[] = [5, 7, 2, 7, 5, 2, 5]
 Output : 5                                                                                                                                                                                                                 Explanation : In the second array, only 5 occurs an odd number of times (3 times), so the answer is 5.
 ```
 
+## Function Signature
+
+```dart
+dynamic oddOccurringNumber(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-number-occurring-odd-number-of-times/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-the-odd-occurence4820/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/06_odd_occurring_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

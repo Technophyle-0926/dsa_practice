@@ -1,0 +1,16 @@
+{
+  "title": "Union By Rank and Path Compression in Union-Find Algorithm",
+  "number": 17,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/union-by-rank-and-path-compression-in-union-find-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "unionRankPathCompressionUnion",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

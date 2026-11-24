@@ -28,13 +28,25 @@ Explanation: Lets process all the queries one by one:
 -> [4, 6]: The substring is “aaa” which is a palindrome.
 ```
 
+## Function Signature
+
+```dart
+List<int> palindromeSubstringQueries(String s, List<List<int>> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/palindrome-substring-queries/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/palindrome-substring-queries/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/07_palindrome_substring_queries
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

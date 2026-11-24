@@ -21,13 +21,25 @@ Output: 8
 Explanation: The minimum rotations required for the corresponding digit pairs (2, 5), (3, 4), (4, 3), and (5, 2) are 3, 1, 1, and 3, respectively. Therefore, the minimum total rotations required are 3 + 1 + 1 + 3 = 8.
 ```
 
+## Function Signature
+
+```dart
+int minRotationsCircularLock(int r, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-rotations-unlock-circular-lock/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-rotations-to-unlock-a-circular-lock1001/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/01_easy/03_min_rotations_for_circular_lock
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Recursive Implementation of atoi()",
+  "number": 4,
+  "category": "Recursion",
+  "level": "Strings",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/recursive-implementation-of-atoi/",
+  "practice": "https://www.geeksforgeeks.org/problems/implement-atoi/1",
+  "function": {
+    "name": "recursiveImplementationAtoi",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "recursiveImplementationAtoi(\"-123\")",
+    "expected": "-123"
+  }
+}

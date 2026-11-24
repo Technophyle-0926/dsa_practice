@@ -23,12 +23,24 @@ Output: -1
 Explanation: No such x exists for fulfilling the desired conditions.
 ```
 
+## Function Signature
+
+```dart
+int findXMakeArrayXor(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-a-number-x-such-that-xor-of-given-array-after-adding-x-to-each-element-is-0/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/19_find_x_to_make_array_xor_zero
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

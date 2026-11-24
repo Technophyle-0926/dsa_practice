@@ -42,13 +42,25 @@ Output: Minimum = 1 and Maximum = 3
               Minimum = 2 and Maximum = 5
 ```
 
+## Function Signature
+
+```dart
+dynamic minMaxRangeQueriesArray(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/min-max-range-queries-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/range-min-max-queries4557/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/02_range_queries/04_min_max_range_queries_in_array
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

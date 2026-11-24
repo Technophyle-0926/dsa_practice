@@ -1,0 +1,16 @@
+{
+  "title": "Inorder Traversal",
+  "number": 5,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/inorder-traversal-of-binary-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/inorder-traversal/1",
+  "function": {
+    "name": "inorderTraversal",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

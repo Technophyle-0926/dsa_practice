@@ -1,0 +1,24 @@
+{
+  "title": "Print all combinations of factors (Ways to factorize)",
+  "number": 21,
+  "category": "Recursion",
+  "level": "Mathematical",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-combinations-factors-ways-factorize/",
+  "practice": null,
+  "function": {
+    "name": "printAllCombinationsFactorsWays",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllCombinationsFactorsWays(16)",
+    "expected": "2 2 2 2"
+  }
+}

@@ -45,12 +45,24 @@ This rotates the subtree rooted at 8 to the right, and the subtree rooted at 6 t
 
 Weak AVL trees are similar to regular AVL trees in that they are self-balancing, but they are less strict in their balancing criteria. This can make them faster to insert into and delete from, but at the cost of potentially lower performance for certain operations.
 
+## Function Signature
+
+```dart
+dynamic weakAvlOrRankBalanced(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/weak-avl-or-rank-balanced-trees/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/03_avl_tree/04_weak_avl_or_rank_balanced_trees
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

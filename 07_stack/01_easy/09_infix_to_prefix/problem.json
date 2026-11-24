@@ -1,0 +1,24 @@
+{
+  "title": "Infix To Prefix",
+  "number": 9,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/convert-infix-prefix-notation/",
+  "practice": "https://www.geeksforgeeks.org/problems/infix-to-prefix-notation/1",
+  "function": {
+    "name": "infixPrefix",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "infixPrefix(\"a*(b+c)/d\")",
+    "expected": "/*a+bcd"
+  }
+}

@@ -39,12 +39,24 @@ Our result is sum of above values.
 Notice that it took only 4 actions to compute the result over a subarray of size 13.
 ```
 
+## Function Signature
+
+```dart
+dynamic rangeSumQuerySparseTable(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/range-sum-query-using-sparse-table/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/05_expert/04_range_sum_query_using_sparse_table
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

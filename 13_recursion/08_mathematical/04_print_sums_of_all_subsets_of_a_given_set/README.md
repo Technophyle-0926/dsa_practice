@@ -26,13 +26,25 @@ Output: [0, 5, 6, 7, 11, 12, 13, 18]
 Explanation: The possible subset sums are 0 (no elements), 5, 6, 7, and their combinations.
 ```
 
+## Function Signature
+
+```dart
+List<int> printSumsAllSubsetsGiven(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/print-sums-subsets-given-set/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/subset-sums2234/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/04_print_sums_of_all_subsets_of_a_given_set
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

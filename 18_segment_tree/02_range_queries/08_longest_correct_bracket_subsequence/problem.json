@@ -1,0 +1,28 @@
+{
+  "title": "Longest Correct Bracket Subsequence",
+  "number": 8,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/range-queries-longest-correct-bracket-subsequence/",
+  "practice": "https://www.geeksforgeeks.org/problems/range-queries-for-longest-correct-bracket-subsequence4719/1",
+  "function": {
+    "name": "longestCorrectBracketSubsequence",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "longestCorrectBracketSubsequence(\"())(())(())(\", [[3, 6], [0, 11]])",
+    "expected": "[4, 10]"
+  }
+}

@@ -20,13 +20,25 @@ Output: [0, 2]
 Explanation: For query[0], the answer is 0. For query[1], there are two numbers 4 and 9 having exactly 3 divisors.
 ```
 
+## Function Signature
+
+```dart
+List<int> solve3Divisors(List<int> queries)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/numbers-exactly-3-divisors/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/3-divisors3942/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/02_3_divisors
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

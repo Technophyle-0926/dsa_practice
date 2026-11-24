@@ -1,0 +1,16 @@
+{
+  "title": "Nth Node from End",
+  "number": 9,
+  "category": "Linked List",
+  "level": "Operations",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/nth-node-from-the-end-of-a-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1",
+  "function": {
+    "name": "nthNodeEnd",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

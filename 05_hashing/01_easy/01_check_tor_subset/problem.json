@@ -1,0 +1,28 @@
+{
+  "title": "Check tor Subset",
+  "number": 1,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-whether-an-array-is-subset-of-another-array-set-1/",
+  "practice": "https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1",
+  "function": {
+    "name": "checkTorSubset",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkTorSubset([11, 1, 13, 21, 3, 7], [11, 3, 7, 1])",
+    "expected": "true"
+  }
+}

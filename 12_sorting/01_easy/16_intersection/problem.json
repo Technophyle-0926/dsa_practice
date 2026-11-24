@@ -1,0 +1,28 @@
+{
+  "title": "Intersection",
+  "number": 16,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/intersection-of-two-sorted-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-arrays-with-duplicate-elements/1",
+  "function": {
+    "name": "intersection",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "intersection([1, 1, 2, 2, 2, 4], [2, 2, 4, 4])",
+    "expected": "[2, 4]"
+  }
+}

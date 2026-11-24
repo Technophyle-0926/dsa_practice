@@ -20,13 +20,25 @@ Output: 14
 Explanation: For n = 4, there are 14 distinct valid combinations of balanced parentheses that can be formed.
 ```
 
+## Function Signature
+
+```dart
+int nthCatalanNumber(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-nth-catalan-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/nth-catalan-number0817/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/15_nth_catalan_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

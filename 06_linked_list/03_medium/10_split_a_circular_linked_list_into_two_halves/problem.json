@@ -1,0 +1,24 @@
+{
+  "title": "Split a Circular Linked List into two halves",
+  "number": 10,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/split-a-circular-linked-list-into-two-halves/",
+  "practice": "https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1",
+  "function": {
+    "name": "splitCircularLinkedListInto",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
+  },
+  "example": {
+    "call": "splitCircularLinkedListInto(ListNode.fromList([10, 4, 9]))",
+    "expected": "10->4 , 9"
+  }
+}

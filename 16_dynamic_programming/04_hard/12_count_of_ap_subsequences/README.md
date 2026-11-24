@@ -22,13 +22,25 @@ Output: 4
 Explanation: Arithmetic Progression subsequences from the given array are: [], [10], [20], [10, 20].
 ```
 
+## Function Signature
+
+```dart
+int countApSubsequences(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-arithmetic-progression-subsequences-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-of-ap-subsequences0016/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/04_hard/12_count_of_ap_subsequences
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

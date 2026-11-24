@@ -1,0 +1,16 @@
+{
+  "title": "Order Statistic Tree using Fenwick Tree",
+  "number": 5,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/order-statistic-tree-using-fenwick-tree-bit/",
+  "practice": null,
+  "function": {
+    "name": "orderStatisticTreeFenwickTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

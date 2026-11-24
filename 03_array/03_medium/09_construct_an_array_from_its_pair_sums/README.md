@@ -33,13 +33,25 @@ Output: [1, 2]
 Explanation:  There may be multiple valid original arrays that produce the same pair-sum array, such as `[1, 2]` and `[2, 1]`. Both are considered correct since they yield the same set of pairwise sums.
 ```
 
+## Function Signature
+
+```dart
+List<int> constructArrayPairSums(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/construct-array-pair-sum-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/construct-an-array-from-its-pair-sum-array/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/03_medium/09_construct_an_array_from_its_pair_sums
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

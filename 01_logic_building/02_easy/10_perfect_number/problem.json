@@ -1,0 +1,24 @@
+{
+  "title": "Perfect Number",
+  "number": 10,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/perfect-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/perfect-numbers3207/1",
+  "function": {
+    "name": "perfectNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "perfectNumber(15)",
+    "expected": "false"
+  }
+}

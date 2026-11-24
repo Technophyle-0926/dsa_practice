@@ -1,0 +1,28 @@
+{
+  "title": "Implement a Phone Directory",
+  "number": 12,
+  "category": "Trie",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/implement-a-phone-directory/",
+  "practice": "https://www.geeksforgeeks.org/problems/phone-directory4628/1",
+  "function": {
+    "name": "implementPhoneDirectory",
+    "params": [
+      {
+        "name": "contact",
+        "type": "List<String>"
+      },
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "List<List<String>>",
+    "verified": true
+  },
+  "example": {
+    "call": "implementPhoneDirectory([\"geeikistest\", \"geeksforgeeks\", \"geeksfortest\"], \"geeips\")",
+    "expected": "[[\"geeikistest\", \"geeksforgeeks\", \"geeksfortest\"], [\"geeikistest\", \"geeksforgeeks\", \"geeksfortest\"], [\"geeikistest\", \"geeksforgeeks\", \"geeksfortest\"], [\"geeikistest\"], [\"0\"], [\"0\"]]"
+  }
+}

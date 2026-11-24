@@ -30,13 +30,25 @@ Output: 0
 Explanation: One path already exists between 1 to 4 it is 1->2->3->4.
 ```
 
+## Function Signature
+
+```dart
+dynamic minimumEdgesReverseMakePath(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/minimum-edges-reverse-make-path-source-destination/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-edges/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/03_hard/07_minimum_edges_to_reverse_to_make_path_from_a_source_to_a_des
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

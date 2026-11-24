@@ -27,12 +27,24 @@ and coordinates are positive
 The problem can be solved using simple recursion. Base case would be to check if current x or y coordinate is greater than that of destination, in which case we return false. If it is not the destination point yet we make two calls for both valid movements from that point.
 If any of them yields a path we return true else return false.
 
+## Function Signature
+
+```dart
+dynamic checkIfDestinationReachableSource(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-destination-reachable-source-two-movements-allowed/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/10_misc/02_check_if_a_destination_is_reachable_from_source_with_two_mov
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

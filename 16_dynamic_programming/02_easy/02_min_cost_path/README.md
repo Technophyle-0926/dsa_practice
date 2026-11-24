@@ -31,13 +31,25 @@ Output: 7
 Explanation: The minimum-cost path is (0,0) -> (1,1), with total cost 5 + 2 = 7.
 ```
 
+## Function Signature
+
+```dart
+dynamic minCostPath(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/min-cost-path-dp-6/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-cost-to-destination/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/02_min_cost_path
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

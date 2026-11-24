@@ -15,8 +15,12 @@ In the analysis of algorithms, asymptotic notations are used to denote a lower b
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/analysis-of-algorithms-big-omega-notation/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/01_asymptotic_notations/03_big_big_omega_notation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

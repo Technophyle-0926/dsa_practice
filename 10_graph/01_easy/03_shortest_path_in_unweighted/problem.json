@@ -1,0 +1,40 @@
+{
+  "title": "Shortest Path in Unweighted",
+  "number": 3,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/shortest-path-unweighted-graph/",
+  "practice": null,
+  "function": {
+    "name": "shortestPathUnweighted",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "E",
+        "type": "int"
+      },
+      {
+        "name": "S",
+        "type": "int"
+      },
+      {
+        "name": "D",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestPathUnweighted(8, 10, 0, 7, [[0, 1], [1, 2], [0, 3], [3, 4], [4, 7], [3, 7], [6, 7], [4, 5], [4, 6], [5, 6]])",
+    "expected": "0 3 7"
+  }
+}

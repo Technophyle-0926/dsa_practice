@@ -1,0 +1,24 @@
+{
+  "title": "Decode Ways",
+  "number": 3,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-possible-decodings-given-digit-sequence/",
+  "practice": "https://www.geeksforgeeks.org/problems/total-decoding-messages1235/1",
+  "function": {
+    "name": "decodeWays",
+    "params": [
+      {
+        "name": "digits",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "decodeWays(\"121\")",
+    "expected": "3"
+  }
+}

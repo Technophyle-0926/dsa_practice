@@ -1,0 +1,16 @@
+{
+  "title": "Reverse Delete Algorithm for Minimum Spanning Tree",
+  "number": 31,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reverse-delete-algorithm-minimum-spanning-tree/",
+  "practice": null,
+  "function": {
+    "name": "reverseDeleteAlgorithmMinimumSpanning",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

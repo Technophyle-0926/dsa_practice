@@ -1,0 +1,16 @@
+{
+  "title": "Enumeration of Binary Trees",
+  "number": 15,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/enumeration-of-binary-trees/",
+  "practice": null,
+  "function": {
+    "name": "enumerationBinaryTrees",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

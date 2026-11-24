@@ -1,0 +1,16 @@
+{
+  "title": "Height or Depth",
+  "number": 9,
+  "category": "Tree",
+  "level": "Binary Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/",
+  "practice": "https://www.geeksforgeeks.org/problems/height-of-binary-tree/1",
+  "function": {
+    "name": "heightOrDepth",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -22,13 +22,25 @@ Output: 3
 Explanation: 100 = 10^2, 6^2 + 8^2 and 1^2 + 3^2 + 4^2 + 5^2 + 7^2 Hence total 3 possibilities.
 ```
 
+## Function Signature
+
+```dart
+int findWaysIntegerCanBe(int n, int x)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-ways-integer-can-expressed-sum-n-th-power-unique-natural-numbers/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/express-as-sum-of-power-of-natural-numbers5647/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/05_find_ways_an_integer_can_be_expressed_as_sum_of_n_th_power_o
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

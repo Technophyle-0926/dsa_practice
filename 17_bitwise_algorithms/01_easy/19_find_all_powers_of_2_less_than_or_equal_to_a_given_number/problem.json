@@ -1,0 +1,24 @@
+{
+  "title": "Find all powers of 2 less than or equal to a given number",
+  "number": 19,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-all-powers-of-2-less-than-or-equal-to-a-given-number/",
+  "practice": null,
+  "function": {
+    "name": "findAllPowers2Less",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "findAllPowers2Less(63)",
+    "expected": "32 16 8 4 2 1"
+  }
+}

@@ -23,13 +23,25 @@ Output : 0
 Explanation: key equals to 3 has 0 occurrences.
 ```
 
+## Function Signature
+
+```dart
+int countOccurrencesLinkedList(ListNode? head, int key)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-a-function-that-counts-the-number-of-times-a-given-int-occurs-in-a-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/02_easy/03_count_occurrences_in_a_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

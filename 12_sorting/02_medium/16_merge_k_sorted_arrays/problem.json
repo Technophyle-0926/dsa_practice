@@ -1,0 +1,16 @@
+{
+  "title": "Merge K Sorted Arrays",
+  "number": 16,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/merge-k-sorted-arrays/",
+  "practice": "https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1",
+  "function": {
+    "name": "mergeKSortedArrays",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

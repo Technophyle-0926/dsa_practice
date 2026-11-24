@@ -1,0 +1,24 @@
+{
+  "title": "Partition Point",
+  "number": 2,
+  "category": "Searching",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-element-before-which-all-the-elements-are-smaller-than-it-and-after-which-all-are-greater-than-it/",
+  "practice": "https://www.geeksforgeeks.org/problems/unsorted-array4925/1",
+  "function": {
+    "name": "partitionPoint",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "partitionPoint([5, 1, 4, 3, 6, 8, 10, 7, 9])",
+    "expected": "6"
+  }
+}

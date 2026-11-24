@@ -42,13 +42,25 @@ After a right circular rotation by 10 positions,  it becomes: 0000001011000000,
 which is 704 in decimal.
 ```
 
+## Function Signature
+
+```dart
+List<int> rotateBits(int n, int d)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/rotate-bits-of-an-integer/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/rotate-bits4524/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/05_rotate_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

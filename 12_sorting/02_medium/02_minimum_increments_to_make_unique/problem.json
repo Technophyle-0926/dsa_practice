@@ -1,0 +1,24 @@
+{
+  "title": "Minimum Increments to Make Unique",
+  "number": 2,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-increment-operations-to-make-array-unique/",
+  "practice": "https://www.geeksforgeeks.org/problems/make-array-elements-unique--170645/1",
+  "function": {
+    "name": "minimumIncrementsMakeUnique",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumIncrementsMakeUnique([3, 2, 1, 2, 1, 7])",
+    "expected": "6"
+  }
+}

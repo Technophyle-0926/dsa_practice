@@ -1,0 +1,28 @@
+{
+  "title": "Add Bit Strings",
+  "number": 9,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/add-two-bit-strings/",
+  "practice": null,
+  "function": {
+    "name": "addBitStrings",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "addBitStrings(\"1101\", \"111\")",
+    "expected": "10100"
+  }
+}

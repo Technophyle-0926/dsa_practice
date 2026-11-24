@@ -1,0 +1,16 @@
+{
+  "title": "Euler Circuit in a Directed Graph",
+  "number": 41,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/euler-circuit-directed-graph/",
+  "practice": null,
+  "function": {
+    "name": "eulerCircuitDirectedGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

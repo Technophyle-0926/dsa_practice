@@ -1,0 +1,24 @@
+{
+  "title": "nth Catalan Number",
+  "number": 8,
+  "category": "Dynamic Programming",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-nth-catalan-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/nth-catalan-number0817/1",
+  "function": {
+    "name": "nthCatalanNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "nthCatalanNumber(3)",
+    "expected": "5"
+  }
+}

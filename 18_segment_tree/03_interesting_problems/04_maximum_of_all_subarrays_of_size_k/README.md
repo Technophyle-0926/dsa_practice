@@ -30,12 +30,24 @@ elements (i.e from index 1 to 4) is 10, So the sequence
 generated is 10 10 10 15 15 90 90
 ```
 
+## Function Signature
+
+```dart
+List<int> maximumAllSubarraysSizeK(List<int> arr, int K)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-of-all-subarrays-of-size-k-using-segment-tree/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 18_segment_tree/03_interesting_problems/04_maximum_of_all_subarrays_of_size_k
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

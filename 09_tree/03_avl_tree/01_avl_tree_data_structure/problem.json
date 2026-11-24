@@ -1,0 +1,16 @@
+{
+  "title": "AVL Tree Data Structure",
+  "number": 1,
+  "category": "Tree",
+  "level": "AVL Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/",
+  "practice": null,
+  "function": {
+    "name": "avlTreeDataStructure",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

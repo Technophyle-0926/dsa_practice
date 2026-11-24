@@ -1,0 +1,28 @@
+{
+  "title": "Compute nCr",
+  "number": 9,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-calculate-value-ncr/",
+  "practice": "https://www.geeksforgeeks.org/problems/ncr1019/1",
+  "function": {
+    "name": "computeNcr",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "r",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "computeNcr(5, 2)",
+    "expected": "10"
+  }
+}

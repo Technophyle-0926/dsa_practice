@@ -23,13 +23,25 @@ Output: "even"
 Explanation: (9)_10 = (1001)2  binary representation has two 1-bits , parity is "even".
 ```
 
+## Function Signature
+
+```dart
+String computeParity(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/compute-parity-number-using-xor-table-look/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/parity-of-unsigned-integer4247/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/07_compute_the_parity
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

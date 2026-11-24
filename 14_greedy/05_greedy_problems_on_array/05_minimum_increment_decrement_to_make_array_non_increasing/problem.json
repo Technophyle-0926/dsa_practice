@@ -1,0 +1,24 @@
+{
+  "title": "Minimum increment/decrement to make array non-Increasing",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-incrementdecrement-to-make-array-non-increasing/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-incrementdecrement-to-make-array-non-increasing--170637/1",
+  "function": {
+    "name": "minimumIncrementDecrementMakeArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumIncrementDecrementMakeArray([3, 1, 2, 1])",
+    "expected": "1"
+  }
+}

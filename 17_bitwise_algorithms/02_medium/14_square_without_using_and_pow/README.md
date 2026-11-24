@@ -21,12 +21,24 @@ Output: 144
 
 A **Simple Solution** is to repeatedly add n to result.
 
+## Function Signature
+
+```dart
+int squareWithoutPow(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/calculate-square-of-a-number-without-using-and-pow/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/14_square_without_using_and_pow
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

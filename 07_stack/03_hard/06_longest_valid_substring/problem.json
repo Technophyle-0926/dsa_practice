@@ -1,0 +1,24 @@
+{
+  "title": "Longest valid substring",
+  "number": 6,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/length-of-the-longest-valid-substring/",
+  "practice": "https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1",
+  "function": {
+    "name": "longestValidSubstring",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestValidSubstring(\"((()\")",
+    "expected": "2"
+  }
+}

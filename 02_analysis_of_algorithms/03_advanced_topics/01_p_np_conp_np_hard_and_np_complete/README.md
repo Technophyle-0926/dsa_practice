@@ -22,8 +22,12 @@ Complexity classes are useful in organizing similar types of problems.
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/03_advanced_topics/01_p_np_conp_np_hard_and_np_complete
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

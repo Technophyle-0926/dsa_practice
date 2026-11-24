@@ -1,0 +1,24 @@
+{
+  "title": "First Repeating Character",
+  "number": 1,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-first-repeated-character-in-a-string/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-first-repeated-character4108/1",
+  "function": {
+    "name": "firstRepeatingCharacter",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "firstRepeatingCharacter(\"geeksforgeeks\")",
+    "expected": "e"
+  }
+}

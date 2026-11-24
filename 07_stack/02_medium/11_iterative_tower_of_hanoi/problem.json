@@ -1,0 +1,16 @@
+{
+  "title": "Iterative Tower of Hanoi",
+  "number": 11,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/iterative-tower-of-hanoi/",
+  "practice": null,
+  "function": {
+    "name": "iterativeTowerHanoi",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

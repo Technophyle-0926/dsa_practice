@@ -1,0 +1,28 @@
+{
+  "title": "Articulation Points (or Cut Vertices) in a Graph",
+  "number": 1,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/articulation-points-or-cut-vertices-in-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/articulation-point2616/1",
+  "function": {
+    "name": "articulationPointsOrCutVertices",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "articulationPointsOrCutVertices(4, [[0, 1], [0, 2]])",
+    "expected": "[0]"
+  }
+}

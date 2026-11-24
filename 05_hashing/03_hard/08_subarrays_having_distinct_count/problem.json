@@ -1,0 +1,24 @@
+{
+  "title": "Subarrays having distinct count",
+  "number": 8,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-subarrays-total-distinct-elements-original-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/equivalent-sub-arrays3731/1",
+  "function": {
+    "name": "subarraysHavingDistinctCount",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "subarraysHavingDistinctCount([2, 1, 3, 2, 3])",
+    "expected": "5"
+  }
+}

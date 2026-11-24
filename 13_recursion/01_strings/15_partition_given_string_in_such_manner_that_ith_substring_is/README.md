@@ -28,12 +28,24 @@ Output : []
 - After incrementing third, following cases arise. a) When doesn't match, increment the second offset. b) When doesn't match, increment the first offset. c) **Note:** Once a call to check() is made after incrementing the third offset, do not alter the second or first, as those are already finalized.
 - When the end of the string is reached and the condition is satisfied, add "second" and "third" to the empty list. While rolling back the recursive stack, prepend the "first" to the list so the order is preserved.
 
+## Function Signature
+
+```dart
+List<String> partitionGivenStringSuchManner(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/partition-given-string-manner-ith-substring-sum-1th-2th-substring/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/01_strings/15_partition_given_string_in_such_manner_that_ith_substring_is
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

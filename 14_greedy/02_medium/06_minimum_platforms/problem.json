@@ -1,0 +1,28 @@
+{
+  "title": "Minimum Platforms",
+  "number": 6,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-number-platforms-required-railwaybus-station/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1",
+  "function": {
+    "name": "minimumPlatforms",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "dep",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumPlatforms([1000, 935, 1100], [1200, 1240, 1130])",
+    "expected": "3"
+  }
+}

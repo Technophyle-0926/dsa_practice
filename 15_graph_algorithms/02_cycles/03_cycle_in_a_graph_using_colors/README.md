@@ -28,12 +28,24 @@ Output: false
 Explanation: The diagram clearly shows no cycle.
 ```
 
+## Function Signature
+
+```dart
+dynamic cycleGraphColors(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/detect-cycle-direct-graph-using-colors/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/02_cycles/03_cycle_in_a_graph_using_colors
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

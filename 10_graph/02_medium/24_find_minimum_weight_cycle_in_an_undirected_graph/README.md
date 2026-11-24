@@ -23,13 +23,25 @@ Explanation:
 The minimum-weighted cycle is  `0 -> 1 -> 4 -> 0` with a total weight of `6`(2 + 1 + 3)
 ```
 
+## Function Signature
+
+```dart
+dynamic findMinimumWeightCycleUndirected(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-minimum-weight-cycle-undirected-graph/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/24_find_minimum_weight_cycle_in_an_undirected_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

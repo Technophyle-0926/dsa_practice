@@ -1,0 +1,16 @@
+{
+  "title": "Practice Questions for Recursion | Set 2",
+  "number": 7,
+  "category": "Recursion",
+  "level": "Misc",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-2/",
+  "practice": null,
+  "function": {
+    "name": "practiceQuestionsRecursion2",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

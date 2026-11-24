@@ -20,13 +20,25 @@ Output: ["1", "10", "11", "100", "101", "110"]
 Explanation: Binary numbers from 1 to 6 are 1, 10, 11, 100, 101 and 110.
 ```
 
+## Function Signature
+
+```dart
+List<String> generateBinary1N(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/interesting-method-generate-binary-numbers-1-n/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/03_hard/04_generate_binary_from_1_to_n
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -23,13 +23,25 @@ Output: -1
 Explanation: The linked list contains fewer than 6 nodes, so no node exists at index 6.
 ```
 
+## Function Signature
+
+```dart
+int nthNodeStart(int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/write-a-function-to-get-nth-node-in-a-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/01_operations/08_nth_node_from_start
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

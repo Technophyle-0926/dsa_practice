@@ -1,0 +1,24 @@
+{
+  "title": "An array of strings can be chained to form a circle",
+  "number": 9,
+  "category": "Graph Algorithms",
+  "level": "Connectivity in Graph",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-array-strings-find-strings-can-chained-form-circle/",
+  "practice": "https://www.geeksforgeeks.org/problems/circle-of-strings4530/1",
+  "function": {
+    "name": "arrayStringsCanBeChained",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "arrayStringsCanBeChained([\"for\", \"geek\", \"rig\", \"kaf\"])",
+    "expected": "true"
+  }
+}

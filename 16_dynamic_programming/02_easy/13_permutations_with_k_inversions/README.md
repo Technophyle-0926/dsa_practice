@@ -21,13 +21,25 @@ Output: 1
 Explanation: Permutation with 3 inversions: 321
 ```
 
+## Function Signature
+
+```dart
+int permutationsKInversions(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-of-permutation-with-k-inversions/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/number-of-permutation-with-k-inversions5304/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/13_permutations_with_k_inversions
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -18,13 +18,25 @@ Output: false
 Explanation: (15)_10 = (1111)_2, except first and last there are other bits also which are set.
 ```
 
+## Function Signature
+
+```dart
+bool checkWhetherNumberHasOnly(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-whether-number-first-last-bits-set/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/first-and-last-bit2357/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/16_check_whether_the_number_has_only_first_and_last_bits_set
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

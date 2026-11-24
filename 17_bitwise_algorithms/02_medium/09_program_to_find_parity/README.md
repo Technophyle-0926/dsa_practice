@@ -33,12 +33,24 @@ Above solution can be optimized by using lookup table. Please refer to Bit Twidd
 
 **Another approach:** (Using built-in-function)
 
+## Function Signature
+
+```dart
+dynamic programFindParity(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/program-to-find-parity/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/09_program_to_find_parity
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

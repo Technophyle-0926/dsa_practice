@@ -92,12 +92,24 @@ Let's apply the recurrence to the first few heights and see how the number of po
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic differentShapesAvlPossibleAt(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/different-shapes-of-avl-possible-at-height-h/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/03_avl_tree/10_different_shapes_of_avl_possible_at_height_h
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

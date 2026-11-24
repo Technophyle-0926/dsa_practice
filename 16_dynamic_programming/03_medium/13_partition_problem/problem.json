@@ -1,0 +1,24 @@
+{
+  "title": "Partition Problem",
+  "number": 13,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/partition-problem-dp-18/",
+  "practice": "https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1",
+  "function": {
+    "name": "partitionProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "partitionProblem([1, 5, 11, 5])",
+    "expected": "true"
+  }
+}

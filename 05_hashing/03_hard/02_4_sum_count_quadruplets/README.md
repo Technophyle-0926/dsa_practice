@@ -31,13 +31,25 @@ Output: 1
 Explanation: There is only 1 quadruplet with sum = -3, that is [4, 3, -13, 3].
 ```
 
+## Function Signature
+
+```dart
+int solve4SumCountQuadruplets(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-quadruplets-with-sum-k-from-given-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/count-quadruplets-with-given-sum/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/03_hard/02_4_sum_count_quadruplets
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

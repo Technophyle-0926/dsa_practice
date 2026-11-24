@@ -130,12 +130,24 @@ Maximum flow is used in various real-world and computational problems, such as:
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic maxFlowProblemIntroduction(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/max-flow-problem-introduction/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/07_maximum_flow_in_graph/01_max_flow_problem_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

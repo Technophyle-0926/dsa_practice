@@ -1,0 +1,16 @@
+{
+  "title": "Check if Circular",
+  "number": 5,
+  "category": "Linked List",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-a-linked-list-is-circular-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/circular-linked-list/1",
+  "function": {
+    "name": "checkIfCircular",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

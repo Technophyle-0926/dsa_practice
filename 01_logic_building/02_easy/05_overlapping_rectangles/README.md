@@ -25,13 +25,25 @@ Output: false
 Explanation: The rectangles do not overlap.
 ```
 
+## Function Signature
+
+```dart
+bool overlappingRectangles(List<int> l1, List<int> r1, List<int> l2, List<int> r2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-two-rectangles-overlap/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/overlapping-rectangles1924/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/02_easy/05_overlapping_rectangles
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

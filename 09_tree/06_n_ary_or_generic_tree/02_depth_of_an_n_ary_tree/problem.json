@@ -1,0 +1,16 @@
+{
+  "title": "Depth of an N-ary Tree",
+  "number": 2,
+  "category": "Tree",
+  "level": "n-ary or Generic Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/depth-n-ary-tree/",
+  "practice": null,
+  "function": {
+    "name": "depthNAryTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

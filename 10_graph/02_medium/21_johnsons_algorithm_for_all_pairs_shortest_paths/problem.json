@@ -1,0 +1,16 @@
+{
+  "title": "Johnson’s algorithm for All-pairs shortest paths",
+  "number": 21,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/johnsons-algorithm/",
+  "practice": null,
+  "function": {
+    "name": "johnsonsAlgorithmAllPairsShortest",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

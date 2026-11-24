@@ -1,0 +1,24 @@
+{
+  "title": "Smallest power of 2 greater than or equal to n",
+  "number": 8,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/smallest-power-of-2-greater-than-or-equal-to-n/",
+  "practice": "https://www.geeksforgeeks.org/problems/smallest-power-of-2-greater-than-or-equal-to-n2630/1",
+  "function": {
+    "name": "smallestPower2GreaterThan",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestPower2GreaterThan(5)",
+    "expected": "8"
+  }
+}

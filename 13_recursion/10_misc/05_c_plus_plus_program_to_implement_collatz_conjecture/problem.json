@@ -1,0 +1,24 @@
+{
+  "title": "C++ program to implement Collatz Conjecture",
+  "number": 5,
+  "category": "Recursion",
+  "level": "Misc",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/c-program-implement-collatz-conjecture/",
+  "practice": null,
+  "function": {
+    "name": "cProgramImplementCollatzConjecture",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "cProgramImplementCollatzConjecture(4)",
+    "expected": "YesInput : n = 5"
+  }
+}

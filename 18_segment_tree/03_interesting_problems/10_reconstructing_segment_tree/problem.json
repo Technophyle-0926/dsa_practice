@@ -1,0 +1,16 @@
+{
+  "title": "Reconstructing Segment Tree",
+  "number": 10,
+  "category": "Segment Tree",
+  "level": "Interesting Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/reconstructing-segment-tree/",
+  "practice": null,
+  "function": {
+    "name": "reconstructingSegmentTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

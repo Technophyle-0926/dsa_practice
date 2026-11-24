@@ -1,0 +1,16 @@
+{
+  "title": "Tarjan’s Algorithm to find strongly connected Components",
+  "number": 7,
+  "category": "Graph",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/tarjan-algorithm-find-strongly-connected-components/",
+  "practice": "https://www.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1",
+  "function": {
+    "name": "tarjansAlgorithmFindStronglyConnected",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

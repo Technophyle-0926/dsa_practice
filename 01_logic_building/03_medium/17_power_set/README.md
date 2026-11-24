@@ -26,13 +26,25 @@ Output: ["", "a"]
 Explanation: The power set contains the empty string and the string "a" itself.
 ```
 
+## Function Signature
+
+```dart
+List<String> power(String s)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/power-set/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/power-set-using-recursion/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/17_power_set
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

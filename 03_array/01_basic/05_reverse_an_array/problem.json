@@ -1,0 +1,24 @@
+{
+  "title": "Reverse an Array",
+  "number": 5,
+  "category": "Array",
+  "level": "Basic",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-to-reverse-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/reverse-an-array/1",
+  "function": {
+    "name": "reverseArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "reverseArray([1, 4, 3, 2, 6, 5])",
+    "expected": "[5, 6, 2, 3, 4, 1]"
+  }
+}

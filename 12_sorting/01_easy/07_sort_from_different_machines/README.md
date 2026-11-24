@@ -24,13 +24,25 @@ Output: [1, 5, 10, 30, 35, 45, 90, 130]
 Explanation: Sorted Number from all Machine is [1, 5, 10, 30, 35, 45, 90, 130]
 ```
 
+## Function Signature
+
+```dart
+List<int> sortDifferentMachines(List<int> Machine_M1, List<int> Machine_M2, List<int> Machine_M3)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sort-numbers-stored-on-different-machines/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/01_easy/07_sort_from_different_machines
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

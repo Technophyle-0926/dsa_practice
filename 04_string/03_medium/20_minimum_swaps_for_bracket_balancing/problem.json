@@ -1,0 +1,24 @@
+{
+  "title": "Minimum Swaps for Bracket Balancing",
+  "number": 20,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimum-swaps-bracket-balancing/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing2704/1",
+  "function": {
+    "name": "minimumSwapsBracketBalancing",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimumSwapsBracketBalancing(\"[]][][\")",
+    "expected": "2"
+  }
+}

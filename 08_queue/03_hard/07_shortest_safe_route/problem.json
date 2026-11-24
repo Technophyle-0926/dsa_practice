@@ -1,0 +1,16 @@
+{
+  "title": "Shortest safe route",
+  "number": 7,
+  "category": "Queue",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-shortest-safe-route-in-a-path-with-landmines/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-shortest-safe-route-in-a-matrix/1",
+  "function": {
+    "name": "shortestSafeRoute",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

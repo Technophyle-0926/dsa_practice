@@ -1,0 +1,24 @@
+{
+  "title": "Sieve of Eratosthenes",
+  "number": 1,
+  "category": "Logic Building",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/",
+  "practice": "https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1",
+  "function": {
+    "name": "sieveEratosthenes",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sieveEratosthenes(10)",
+    "expected": "[2, 3, 5, 7]"
+  }
+}

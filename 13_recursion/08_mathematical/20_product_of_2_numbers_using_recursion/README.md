@@ -73,12 +73,24 @@ Optimization : Since the number of recursive calls is proportional to y and x * 
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+int product2NumbersRecursion(int x, int y)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/product-2-numbers-using-recursion/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/08_mathematical/20_product_of_2_numbers_using_recursion
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

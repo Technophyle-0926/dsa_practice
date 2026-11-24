@@ -1,0 +1,24 @@
+{
+  "title": "Factorial",
+  "number": 6,
+  "category": "Logic Building",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/program-for-factorial-of-a-number/",
+  "practice": "https://www.geeksforgeeks.org/problems/factorial5739/1",
+  "function": {
+    "name": "factorial",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "factorial(5)",
+    "expected": "120"
+  }
+}

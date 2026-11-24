@@ -1,0 +1,16 @@
+{
+  "title": "D’Esopo-Pape Algorithm",
+  "number": 12,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/desopo-pape-algorithm-single-source-shortest-path/",
+  "practice": null,
+  "function": {
+    "name": "desopoPapeAlgorithm",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Lexicographically largest subsequence",
+  "number": 16,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/lexicographically-largest-subsequence-every-character-occurs-least-k-times/",
+  "practice": null,
+  "function": {
+    "name": "lexicographicallyLargestSubsequence",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "lexicographicallyLargestSubsequence(\"banana\", 2)",
+    "expected": "\"nn\""
+  }
+}

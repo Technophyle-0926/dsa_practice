@@ -1,0 +1,24 @@
+{
+  "title": "Sort by Frequency",
+  "number": 1,
+  "category": "Sorting",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sort-elements-by-frequency/",
+  "practice": "https://www.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1",
+  "function": {
+    "name": "sortFrequency",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "sortFrequency([5, 5, 4, 6, 4])",
+    "expected": "[4, 4, 5, 5, 6]"
+  }
+}

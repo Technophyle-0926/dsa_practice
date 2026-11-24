@@ -1,0 +1,24 @@
+{
+  "title": "Shortest Superstring",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Approximate Greedy Algorithm for NP Complete",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/shortest-superstring-problem/",
+  "practice": null,
+  "function": {
+    "name": "shortestSuperstring",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "shortestSuperstring([\"geeks\", \"quiz\", \"for\"])",
+    "expected": "geeksquizfor"
+  }
+}

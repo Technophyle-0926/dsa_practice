@@ -31,13 +31,25 @@ Output: [0, 2, 1, -1]
 Explanation: Shortest path from 0 to 1 is 0->1 with edge weight 2. The shortest path from 0 to 2 is 0->2 with edge weight 1. There is no way we can reach 3, so it's -1 for 3.
 ```
 
+## Function Signature
+
+```dart
+List<int> shortestPathDirectedAcyclicGraph(int V, List<List<int>> edges)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/shortest-path-for-directed-acyclic-graphs/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/shortest-path-in-directed-acyclic-graph/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/03_shortest_path/05_shortest_path_in_directed_acyclic_graph
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

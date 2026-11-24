@@ -27,13 +27,25 @@ Output: 0
 Explanation: Place the ATM server in the only available city. The distance from the city to its nearest ATM server is 0.
 ```
 
+## Function Signature
+
+```dart
+int kCentersProblem1Greedy(int k, List<List<int>> mat)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/greedy-approximate-algorithm-for-k-centers-problem/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/k-centers-problem/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/03_hard/11_k_centers_problem_set_1_greedy_approximate_algorithm
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

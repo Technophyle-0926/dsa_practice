@@ -20,13 +20,25 @@ Output: false
 Explanation: There is no pair with sum equals to given target.
 ```
 
+## Function Signature
+
+```dart
+bool solve2SumFindIfThere(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-pair-with-given-sum-exists-in-array/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/key-pair5616/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/10_2_sum_find_if_there_is_any_pair
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

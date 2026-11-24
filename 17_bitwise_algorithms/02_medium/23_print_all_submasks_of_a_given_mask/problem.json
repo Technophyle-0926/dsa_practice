@@ -1,0 +1,24 @@
+{
+  "title": "Print all submasks of a given mask",
+  "number": 23,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/print-all-submasks-of-a-given-mask/",
+  "practice": null,
+  "function": {
+    "name": "printAllSubmasksGivenMask",
+    "params": [
+      {
+        "name": "N",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "printAllSubmasksGivenMask(5)",
+    "expected": "5 4 1"
+  }
+}

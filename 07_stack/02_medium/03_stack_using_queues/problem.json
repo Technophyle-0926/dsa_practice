@@ -1,0 +1,16 @@
+{
+  "title": "Stack using Queues",
+  "number": 3,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/implement-stack-using-queue/",
+  "practice": "https://www.geeksforgeeks.org/problems/stack-using-queue/1",
+  "function": {
+    "name": "stackQueues",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

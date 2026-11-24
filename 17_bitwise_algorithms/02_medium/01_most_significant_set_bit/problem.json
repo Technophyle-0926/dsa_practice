@@ -1,0 +1,24 @@
+{
+  "title": "Most Significant Set Bit",
+  "number": 1,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-significant-set-bit-number/",
+  "practice": null,
+  "function": {
+    "name": "mostSignificantBit",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "mostSignificantBit(10)",
+    "expected": "8"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Range Minimum Query",
+  "number": 2,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/segment-tree-range-minimum-query/",
+  "practice": "https://www.geeksforgeeks.org/problems/range-minimum-query/1",
+  "function": {
+    "name": "rangeMinimumQuery",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "rangeMinimumQuery([1, 2, 3, 4], [[0, 2], [2, 3]])",
+    "expected": "[1, 3]"
+  }
+}

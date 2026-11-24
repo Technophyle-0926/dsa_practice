@@ -236,12 +236,24 @@ if __name__ == "__main__":
 # This code is contributed by ita_c
 ```
 
+## Function Signature
+
+```dart
+dynamic closestSmallerGreaterSameBits(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/closest-next-smaller-greater-numbers-number-set-bits/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/05_closest_smaller_and_greater_with_same_set_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

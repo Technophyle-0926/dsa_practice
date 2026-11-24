@@ -1,0 +1,36 @@
+{
+  "title": "Digit DP",
+  "number": 3,
+  "category": "Dynamic Programming",
+  "level": "Advanced Concepts",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/digit-dp-introduction/",
+  "practice": null,
+  "function": {
+    "name": "digitDp",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "digitDp(50, 250, 2, 2)",
+    "expected": "14"
+  }
+}

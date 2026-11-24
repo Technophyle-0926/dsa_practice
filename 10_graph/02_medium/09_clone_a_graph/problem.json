@@ -1,0 +1,16 @@
+{
+  "title": "Clone a Graph",
+  "number": 9,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/clone-an-undirected-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/clone-graph/1",
+  "function": {
+    "name": "cloneGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Minimize cash flow among friends",
+  "number": 3,
+  "category": "Greedy",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/minimize-cash-flow-among-given-set-friends-borrowed-money/",
+  "practice": "https://www.geeksforgeeks.org/problems/minimize-cash-flow/1",
+  "function": {
+    "name": "minimizeCashFlowAmongFriends",
+    "params": [
+      {
+        "name": "transaction",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "minimizeCashFlowAmongFriends([[0, 100, 0], [0, 0, 200], [0, 0, 0]])",
+    "expected": "200"
+  }
+}

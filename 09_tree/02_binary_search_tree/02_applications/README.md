@@ -53,12 +53,24 @@ A BST supports operations like search, insert, delete, maximum, minimum, floor, 
 - GfG 160
 - System Design
 
+## Function Signature
+
+```dart
+dynamic applications(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-of-bst/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 09_tree/02_binary_search_tree/02_applications
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -30,12 +30,24 @@ Explanation: Product of 8 and 8 is 64.
 The idea is to break multiplication into a series of additions using the Russian Peasant Algorithm. Instead of directly multiplying a and b, we repeatedly halve b and double a, leveraging the fact that multiplication can be rewritten as repeated addition. If b is odd at any step, we add a to the result since that part of the multiplication cannot be handled by doubling alone. This process continues until b becomes zero.
 ```
 
+## Function Signature
+
+```dart
+int russianPeasant(int a, int b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/russian-peasant-multiply-two-numbers-using-bitwise-operators/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/15_russian_peasant
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

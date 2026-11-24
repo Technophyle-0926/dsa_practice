@@ -1,0 +1,24 @@
+{
+  "title": "Check for Panagram",
+  "number": 4,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/pangram-checking/",
+  "practice": "https://www.geeksforgeeks.org/problems/pangram-checking-1587115620/1",
+  "function": {
+    "name": "checkPanagram",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkPanagram(\"The quick brown fox jumps over the lazy dog\")",
+    "expected": "true"
+  }
+}

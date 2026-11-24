@@ -1,0 +1,28 @@
+{
+  "title": "Count all paths in a Grid",
+  "number": 11,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-possible-paths-top-left-bottom-right-nxm-matrix/",
+  "practice": "https://www.geeksforgeeks.org/problems/number-of-paths0926/1",
+  "function": {
+    "name": "countAllPathsGrid",
+    "params": [
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countAllPathsGrid(2, 3)",
+    "expected": "3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Ternary Search Tree",
+  "number": 1,
+  "category": "Tree",
+  "level": "Ternary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/ternary-search-tree/",
+  "practice": null,
+  "function": {
+    "name": "ternarySearchTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

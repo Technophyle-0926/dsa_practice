@@ -25,13 +25,25 @@ Output: false
 Explanation: "XXY " is not interleaved of "YX" and "X".  The strings that can be formed are YXX and XYX.
 ```
 
+## Function Signature
+
+```dart
+bool interleavedStrings(String s1, String s2, String s3)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-if-a-string-is-interleaved-of-two-other-strings-dp-33/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/interleaved-strings/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/12_interleaved_strings
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

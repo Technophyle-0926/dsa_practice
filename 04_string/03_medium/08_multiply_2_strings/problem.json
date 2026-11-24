@@ -1,0 +1,28 @@
+{
+  "title": "Multiply 2 Strings",
+  "number": 8,
+  "category": "String",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/multiply-large-numbers-represented-as-strings/",
+  "practice": "https://www.geeksforgeeks.org/problems/multiply-two-strings/1",
+  "function": {
+    "name": "multiply2Strings",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "multiply2Strings(\"0033\", \"2\")",
+    "expected": "\"66\""
+  }
+}

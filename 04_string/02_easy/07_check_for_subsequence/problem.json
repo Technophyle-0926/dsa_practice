@@ -1,0 +1,28 @@
+{
+  "title": "Check for Subsequence",
+  "number": 7,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/given-two-strings-find-first-string-subsequence-second/",
+  "practice": "https://www.geeksforgeeks.org/problems/given-two-strings-find-if-first-string-is-a-subsequence-of-second/1",
+  "function": {
+    "name": "checkSubsequence",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkSubsequence(\"AXY\", \"ADXCPY\")",
+    "expected": "true"
+  }
+}

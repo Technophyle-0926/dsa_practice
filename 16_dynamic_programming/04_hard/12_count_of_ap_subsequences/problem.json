@@ -1,0 +1,24 @@
+{
+  "title": "Count of AP Subsequences",
+  "number": 12,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-arithmetic-progression-subsequences-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/count-of-ap-subsequences0016/1",
+  "function": {
+    "name": "countApSubsequences",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countApSubsequences([1, 2, 3])",
+    "expected": "8"
+  }
+}

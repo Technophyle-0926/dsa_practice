@@ -22,13 +22,25 @@ Output: 7
 Explanation: Prime factors are 2 and 7. The largest of them is 7.
 ```
 
+## Function Signature
+
+```dart
+int largestPrimeFactor(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-largest-prime-factor-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/largest-prime-factor2601/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 01_logic_building/03_medium/13_largest_prime_factor
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

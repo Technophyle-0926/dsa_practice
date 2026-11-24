@@ -1,0 +1,28 @@
+{
+  "title": "Check for Equal",
+  "number": 3,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-two-arrays-are-equal-or-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1",
+  "function": {
+    "name": "checkEqual",
+    "params": [
+      {
+        "name": "a",
+        "type": "List<int>"
+      },
+      {
+        "name": "b",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkEqual([1, 2, 5, 4, 0], [2, 4, 5, 0, 1])",
+    "expected": "true"
+  }
+}

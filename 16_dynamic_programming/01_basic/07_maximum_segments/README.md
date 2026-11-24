@@ -28,13 +28,25 @@ Output: 0
 Explanation: Here the total length is 7, and the cut lengths are 8, 9, and 10. We cannot cut the segment into lengths that fully utilize the segment, so the output is 0.
 ```
 
+## Function Signature
+
+```dart
+int maximumSegments(int n, int x, int y, int z)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximize-the-number-of-segments-of-length-p-q-and-r/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/cutted-segments1642/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/07_maximum_segments
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

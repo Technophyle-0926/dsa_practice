@@ -28,13 +28,25 @@ Output: 0
 Explanation: Since all coin denominations are greater than sum, no combination can make the target sum.
 ```
 
+## Function Signature
+
+```dart
+int coinChangeProblemCountWays(List<int> coins, int sum)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/coin-change-dp-7/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/coin-change2448/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/02_easy/05_coin_change_problem_count_ways
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

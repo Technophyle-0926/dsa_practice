@@ -15,8 +15,12 @@ It can be implemented using a linked list, where each element of the queue is re
 - 📖 Article: https://www.geeksforgeeks.org/dsa/queue-linked-list-implementation/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/00_basics/05_linked_list_implementation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

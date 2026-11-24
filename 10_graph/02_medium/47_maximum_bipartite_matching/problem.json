@@ -1,0 +1,24 @@
+{
+  "title": "Maximum Bipartite Matching",
+  "number": 47,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-bipartite-matching/",
+  "practice": "https://www.geeksforgeeks.org/problems/maximum-bipartite-matching--170646/1",
+  "function": {
+    "name": "maximumBipartiteMatching",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumBipartiteMatching([[1, 1, 0, 1, 1], [0, 1, 0, 0, 1], [1, 1, 0, 1, 1]])",
+    "expected": "3"
+  }
+}

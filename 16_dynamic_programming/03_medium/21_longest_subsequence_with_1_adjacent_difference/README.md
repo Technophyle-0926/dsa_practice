@@ -20,13 +20,25 @@ Output: 7
 Explanation: The longest subsequence with an absolute difference of 1 between adjacent elements is [1, 2, 3, 2, 3, 2, 1].
 ```
 
+## Function Signature
+
+```dart
+int longestSubsequence1AdjacentDifference(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/longest-subsequence-such-that-difference-between-adjacents-is-one/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/longest-sub-sequence-such-that-difference-between-adjacents-is-one2558/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/21_longest_subsequence_with_1_adjacent_difference
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

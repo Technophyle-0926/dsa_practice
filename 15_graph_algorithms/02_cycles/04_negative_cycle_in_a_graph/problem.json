@@ -1,0 +1,16 @@
+{
+  "title": "Negative cycle in a Graph",
+  "number": 4,
+  "category": "Graph Algorithms",
+  "level": "Cycles",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detect-negative-cycle-graph-bellman-ford/",
+  "practice": "https://www.geeksforgeeks.org/problems/negative-weight-cycle3504/1",
+  "function": {
+    "name": "negativeCycleGraph",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

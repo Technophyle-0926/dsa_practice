@@ -22,13 +22,25 @@ Output: false
 Explanation: a[] and b[] have only one common value, 2. All others elements are different so the arrays cannot be rearranged to become equal. Therefore, the output is false.
 ```
 
+## Function Signature
+
+```dart
+bool checkEqual(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-two-arrays-are-equal-or-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/03_check_for_equal
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

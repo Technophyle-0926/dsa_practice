@@ -1,0 +1,16 @@
+{
+  "title": "Jump Search",
+  "number": 4,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/jump-search/",
+  "practice": null,
+  "function": {
+    "name": "jumpSearch",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

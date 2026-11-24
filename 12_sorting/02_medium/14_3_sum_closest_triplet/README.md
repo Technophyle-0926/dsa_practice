@@ -32,13 +32,25 @@ Explanation: All possible triplets
 Triplet [1, 4, 5] has sum = 10 which is closest to target.
 ```
 
+## Function Signature
+
+```dart
+int solve3SumClosestTriplet(List<int> arr, int target)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-a-triplet-in-an-array-whose-sum-is-closest-to-a-given-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/three-sum-closest/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/02_medium/14_3_sum_closest_triplet
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

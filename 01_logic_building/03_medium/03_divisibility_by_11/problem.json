@@ -1,0 +1,24 @@
+{
+  "title": "Divisibility by 11",
+  "number": 3,
+  "category": "Logic Building",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-large-number-divisible-11-not/",
+  "practice": "https://www.geeksforgeeks.org/problems/check-if-divisible-by-114724/1",
+  "function": {
+    "name": "divisibility11",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "divisibility11(\"76945\")",
+    "expected": "true"
+  }
+}

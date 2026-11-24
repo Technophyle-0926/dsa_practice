@@ -1,0 +1,24 @@
+{
+  "title": "Largest three in an array",
+  "number": 3,
+  "category": "Searching",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-the-largest-three-elements-in-an-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/largest-three-distinct-elements/1",
+  "function": {
+    "name": "largestThreeArray",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "largestThreeArray([10, 4, 3, 50, 23, 90])",
+    "expected": "[90, 50, 23]"
+  }
+}

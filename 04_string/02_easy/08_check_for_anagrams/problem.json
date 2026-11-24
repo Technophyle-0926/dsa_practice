@@ -1,0 +1,16 @@
+{
+  "title": "Check for Anagrams",
+  "number": 8,
+  "category": "String",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-whether-two-strings-are-anagram-of-each-other/",
+  "practice": "https://www.geeksforgeeks.org/problems/anagram-1587115620/1",
+  "function": {
+    "name": "checkAnagrams",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

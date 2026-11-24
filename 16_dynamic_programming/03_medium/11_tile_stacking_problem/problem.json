@@ -1,0 +1,32 @@
+{
+  "title": "Tile Stacking Problem",
+  "number": 11,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/tile-stacking-problem/",
+  "practice": null,
+  "function": {
+    "name": "tileStackingProblem",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "tileStackingProblem(3, 3, 1)",
+    "expected": "1"
+  }
+}

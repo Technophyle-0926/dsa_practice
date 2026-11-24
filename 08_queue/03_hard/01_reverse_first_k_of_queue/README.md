@@ -29,13 +29,25 @@ Output: [1, 2, 3, 4]
 Explanation: After reversing the first 4 elements from the given queue the resultant queue will be [1, 2, 3, 4].
 ```
 
+## Function Signature
+
+```dart
+List<int> reverseFirstKQueue(List<int> q, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/reversing-first-k-elements-queue/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 08_queue/03_hard/01_reverse_first_k_of_queue
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

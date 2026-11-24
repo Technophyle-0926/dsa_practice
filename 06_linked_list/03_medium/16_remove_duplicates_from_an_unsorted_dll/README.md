@@ -18,12 +18,24 @@ Input: Doubly Linked List = 8 <-> 4 <-> 4 <-> 6 <-> 4 <-> 8 <-> 4 <-> 10 <-> 12 
 Output: Doubly Linked List = 8 <-> 4 <-> 6 <-> 10 <-> 12
 ```
 
+## Function Signature
+
+```dart
+DListNode? removeDuplicatesUnsortedDll(DListNode? head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-duplicates-unsorted-doubly-linked-list/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/16_remove_duplicates_from_an_unsorted_dll
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -91,8 +91,12 @@ These applications apply hashing to complex pattern recognition and low-level sy
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-of-hashing/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/00_basics/02_applications
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

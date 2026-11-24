@@ -20,13 +20,25 @@ Output: 16
 Explanation: 16 is already a power of 2. Hence, the answer is 16.
 ```
 
+## Function Signature
+
+```dart
+int smallestPower2GreaterThan(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/smallest-power-of-2-greater-than-or-equal-to-n/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/smallest-power-of-2-greater-than-or-equal-to-n2630/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/08_smallest_power_of_2_greater_than_or_equal_to_n
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

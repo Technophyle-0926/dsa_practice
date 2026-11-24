@@ -1,0 +1,16 @@
+{
+  "title": "Prim’s vs Kruskal’s algorithm for MST",
+  "number": 3,
+  "category": "Graph Algorithms",
+  "level": "Minimum Spanning Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/difference-between-prims-and-kruskals-algorithm-for-mst/",
+  "practice": null,
+  "function": {
+    "name": "primsVsKruskalsAlgorithmMst",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

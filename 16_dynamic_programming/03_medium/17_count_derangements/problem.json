@@ -1,0 +1,24 @@
+{
+  "title": "Count Derangements",
+  "number": 17,
+  "category": "Dynamic Programming",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/",
+  "practice": "https://www.geeksforgeeks.org/problems/dearrangement-of-balls0918/1",
+  "function": {
+    "name": "countDerangements",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countDerangements(2)",
+    "expected": "1"
+  }
+}

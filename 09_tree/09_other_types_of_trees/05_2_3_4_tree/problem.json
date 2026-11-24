@@ -1,0 +1,16 @@
+{
+  "title": "2-3-4 Tree",
+  "number": 5,
+  "category": "Tree",
+  "level": "Other types of Trees",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/2-3-4-tree/",
+  "practice": null,
+  "function": {
+    "name": "solve234Tree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

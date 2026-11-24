@@ -1,0 +1,16 @@
+{
+  "title": "Introduction of B+ Tree",
+  "number": 1,
+  "category": "Tree",
+  "level": "B+ Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dbms/introduction-of-b-tree/",
+  "practice": null,
+  "function": {
+    "name": "introductionBTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

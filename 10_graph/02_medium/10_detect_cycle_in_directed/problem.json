@@ -1,0 +1,16 @@
+{
+  "title": "Detect Cycle in Directed",
+  "number": 10,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-in-a-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+  "function": {
+    "name": "detectCycleDirected",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

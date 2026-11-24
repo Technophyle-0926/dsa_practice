@@ -20,13 +20,25 @@ Output: 4
 Explanation: Here the size of the array is 4, so the range will be [1, 5]. The missing number between 1 to 5 is 4
 ```
 
+## Function Signature
+
+```dart
+int missingNumber(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-the-missing-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/02_easy/04_missing_number
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

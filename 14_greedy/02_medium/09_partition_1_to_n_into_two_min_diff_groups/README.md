@@ -22,12 +22,24 @@ Explanation: The sum of first and second group are 14 and 14 respectively, and t
 
 - It can be observed that numbers 1 to n, can always be divided in to two groups, such that the difference of sum of elements is either 0 or 1.
 
+## Function Signature
+
+```dart
+List<List<int>> partition1NIntoTwo(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/divide-1-n-two-groups-minimum-sum-difference/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 14_greedy/02_medium/09_partition_1_to_n_into_two_min_diff_groups
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

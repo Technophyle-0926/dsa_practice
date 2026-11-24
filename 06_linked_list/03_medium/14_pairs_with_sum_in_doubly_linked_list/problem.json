@@ -1,0 +1,16 @@
+{
+  "title": "Pairs with Sum in doubly linked list",
+  "number": 14,
+  "category": "Linked List",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-pairs-given-sum-doubly-linked-list/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1",
+  "function": {
+    "name": "pairsSumDoublyLinkedList",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

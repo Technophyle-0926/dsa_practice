@@ -95,8 +95,12 @@ Graphs are widely used to model relationships and solve problems involving conne
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-graphs-data-structure-and-algorithm-tutorials/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/00_basics/01_introduction
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

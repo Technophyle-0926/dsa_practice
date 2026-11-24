@@ -20,13 +20,25 @@ Output : [11, 10, 9]
 Explanation: Multiple triplets have the same minimum difference, and among them (11, 10, 9) has the smallest sum, so it is chosen.
 ```
 
+## Function Signature
+
+```dart
+List<int> smallestDifferenceTriplet3Arrays(List<int> a, List<int> b, List<int> c)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/smallest-difference-triplet-from-three-arrays/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/happiest-triplet2921/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/04_hard/08_smallest_difference_triplet_from_3_arrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

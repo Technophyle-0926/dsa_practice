@@ -23,13 +23,25 @@ Output: false
 Explanation: These strings can't form a circle.
 ```
 
+## Function Signature
+
+```dart
+bool arrayStringsCanBeChained(List<String> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/given-array-strings-find-strings-can-chained-form-circle/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/circle-of-strings4530/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 15_graph_algorithms/06_connectivity_in_graph/09_an_array_of_strings_can_be_chained_to_form_a_circle
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

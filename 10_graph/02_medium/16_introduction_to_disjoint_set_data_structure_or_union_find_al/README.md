@@ -35,13 +35,25 @@ g <-> j
 Given queries like whether a is a friend of d or not.
 ```
 
+## Function Signature
+
+```dart
+dynamic introductionDisjointDataStructureOr(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/16_introduction_to_disjoint_set_data_structure_or_union_find_al
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

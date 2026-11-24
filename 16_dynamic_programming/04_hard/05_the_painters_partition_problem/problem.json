@@ -1,0 +1,28 @@
+{
+  "title": "The painter’s partition problem",
+  "number": 5,
+  "category": "Dynamic Programming",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/painters-partition-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1",
+  "function": {
+    "name": "paintersPartitionProblem",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "paintersPartitionProblem([5, 10, 30, 20, 15], 3)",
+    "expected": "35"
+  }
+}

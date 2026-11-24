@@ -24,13 +24,25 @@ Output: 2.236068
 Explanation: The smallest distance is between points (-2, -2) and (-1, 0), which is 2.236068.
 ```
 
+## Function Signature
+
+```dart
+double closestPairPoints(List<List<int>> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/closest-pair-of-points-using-divide-and-conquer-algorithm/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/minimum-distance-between-two-points/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/03_hard/10_closest_pair_of_points
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

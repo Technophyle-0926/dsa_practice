@@ -22,12 +22,24 @@ Output : 200
          30 20 10
 ```
 
+## Function Signature
+
+```dart
+dynamic printingItems01Knapsack(List<int> val, List<int> wt, int W)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/printing-items-01-knapsack/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/03_medium/08_printing_items_in_0_1_knapsack
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

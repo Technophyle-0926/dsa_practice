@@ -1,0 +1,28 @@
+{
+  "title": "Meta Binary Search",
+  "number": 2,
+  "category": "Searching",
+  "level": "More Searching Algorithms",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/meta-binary-search-one-sided-binary-search/",
+  "practice": null,
+  "function": {
+    "name": "metaBinarySearch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "key_to_search",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "metaBinarySearch([-10, -5, 4, 6, 8, 10, 11], 10)",
+    "expected": "5"
+  }
+}

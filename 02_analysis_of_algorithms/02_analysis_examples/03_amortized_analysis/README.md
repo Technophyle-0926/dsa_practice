@@ -172,8 +172,12 @@ Amortized Analysis is useful for designing efficient algorithms for data structu
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/introduction-to-amortized-analysis/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 02_analysis_of_algorithms/02_analysis_examples/03_amortized_analysis
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

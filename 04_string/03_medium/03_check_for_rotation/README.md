@@ -27,13 +27,25 @@ Output: false
 Explanation: Strings are not rotations of each other.
 ```
 
+## Function Signature
+
+```dart
+bool checkRotation(String s1, String s2)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/a-program-to-check-if-strings-are-rotations-of-each-other/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-if-strings-are-rotations-of-each-other-or-not-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 04_string/03_medium/03_check_for_rotation
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

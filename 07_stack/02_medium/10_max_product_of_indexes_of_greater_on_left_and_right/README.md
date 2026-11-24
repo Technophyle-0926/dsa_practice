@@ -31,12 +31,24 @@ LRproduct[] = [0, 5, 8, 5, 0]. The maximum value in LRproduct is 8.
 Please note indexes are considered from 1 to n and 0 is used for filling in cases when left(i) and/or right(i) do not exist.
 ```
 
+## Function Signature
+
+```dart
+int maxProductIndexesGreaterLeft(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/maximum-product-of-indexes-of-next-greater-on-left-and-right/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/02_medium/10_max_product_of_indexes_of_greater_on_left_and_right
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

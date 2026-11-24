@@ -1,0 +1,16 @@
+{
+  "title": "More Problems on Binary Search Tree",
+  "number": 7,
+  "category": "Tree",
+  "level": "Binary Search Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/",
+  "practice": null,
+  "function": {
+    "name": "moreProblemsBinarySearchTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

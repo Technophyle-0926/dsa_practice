@@ -1,0 +1,24 @@
+{
+  "title": "Submatrix with corners as 1",
+  "number": 14,
+  "category": "Hashing",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-rectangle-binary-matrix-corners-1/",
+  "practice": "https://www.geeksforgeeks.org/problems/find-rectangle-with-corners-as-1--141631/1",
+  "function": {
+    "name": "submatrixCornersAs1",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "submatrixCornersAs1([[1, 0, 0, 1, 0], [0, 0, 1, 0, 1], [0, 0, 0, 1, 0], [1, 0, 1, 0, 1]])",
+    "expected": "true"
+  }
+}

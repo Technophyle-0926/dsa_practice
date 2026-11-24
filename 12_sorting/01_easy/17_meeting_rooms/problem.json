@@ -1,0 +1,24 @@
+{
+  "title": "Meeting Rooms",
+  "number": 17,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/meeting-rooms-check-if-a-person-can-attend-all-meetings/",
+  "practice": "https://www.geeksforgeeks.org/problems/attend-all-meetings/1",
+  "function": {
+    "name": "meetingRooms",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "meetingRooms([[2, 4], [1, 2], [7, 8], [5, 6], [6, 8]])",
+    "expected": "false"
+  }
+}

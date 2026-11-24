@@ -29,13 +29,25 @@ Output: [[1], [1, 1], [1]]
 Explanation: Starting with the first element, we generate subarrays [1] and [1, 1] (including both elements). Starting from the second element, we only get the subarray [1].
 ```
 
+## Function Signature
+
+```dart
+List<List<int>> generateAllSubarrays(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/generating-subarrays-using-recursion/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/generating-all-subarrays/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/01_basic/04_generate_all_subarrays
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

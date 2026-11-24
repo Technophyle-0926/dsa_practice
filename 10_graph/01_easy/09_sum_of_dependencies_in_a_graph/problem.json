@@ -1,0 +1,32 @@
+{
+  "title": "Sum of dependencies in a graph",
+  "number": 9,
+  "category": "Graph",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/sum-dependencies-graph/",
+  "practice": "https://www.geeksforgeeks.org/problems/sum-of-dependencies-in-a-graph5311/1",
+  "function": {
+    "name": "sumDependenciesGraph",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "E",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "sumDependenciesGraph(4, 3, [[0, 3], [0, 2], [0, 1]])",
+    "expected": "3"
+  }
+}

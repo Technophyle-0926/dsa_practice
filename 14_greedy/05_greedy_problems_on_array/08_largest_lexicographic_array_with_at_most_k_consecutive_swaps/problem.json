@@ -1,0 +1,28 @@
+{
+  "title": "Largest lexicographic array with at-most K consecutive swaps",
+  "number": 8,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/largest-lexicographic-array-with-at-most-k-consecutive-swaps/",
+  "practice": null,
+  "function": {
+    "name": "largestLexicographicArrayAtMost",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "largestLexicographicArrayAtMost([3, 5, 4, 1, 2], 3)",
+    "expected": "5, 4, 3, 2, 1"
+  }
+}

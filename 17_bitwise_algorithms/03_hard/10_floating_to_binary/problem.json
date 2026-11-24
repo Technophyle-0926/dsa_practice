@@ -1,0 +1,16 @@
+{
+  "title": "Floating to Binary",
+  "number": 10,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/python/python-program-to-convert-floating-to-binary/",
+  "practice": null,
+  "function": {
+    "name": "floatingBinary",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

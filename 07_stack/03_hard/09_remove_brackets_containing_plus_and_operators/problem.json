@@ -1,0 +1,24 @@
+{
+  "title": "Remove brackets containing + and – operators",
+  "number": 9,
+  "category": "Stack",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/remove-brackets-algebraic-string-containing-operators/",
+  "practice": null,
+  "function": {
+    "name": "removeBracketsContainingOperators",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
+  },
+  "example": {
+    "call": "removeBracketsContainingOperators(\"(a - (b + c) + d)\")",
+    "expected": "\"a- b - c + d\""
+  }
+}

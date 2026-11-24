@@ -1,0 +1,16 @@
+{
+  "title": "Insertion in a B+ tree",
+  "number": 2,
+  "category": "Tree",
+  "level": "B+ Tree",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/insertion-in-a-b-tree/",
+  "practice": null,
+  "function": {
+    "name": "insertionBTree",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

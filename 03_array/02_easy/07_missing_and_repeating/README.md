@@ -20,13 +20,25 @@ Output: [1, 5]
 Explanation: 1 is occurs twice and 5 is missing.
 ```
 
+## Function Signature
+
+```dart
+List<int> missingRepeating(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-a-repeating-and-a-missing-number/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 03_array/02_easy/07_missing_and_repeating
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

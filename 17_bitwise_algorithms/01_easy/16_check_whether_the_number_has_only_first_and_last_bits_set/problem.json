@@ -1,0 +1,24 @@
+{
+  "title": "Check whether the number has only first and last bits set",
+  "number": 16,
+  "category": "Bitwise Algorithms",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-whether-number-first-last-bits-set/",
+  "practice": "https://www.geeksforgeeks.org/problems/first-and-last-bit2357/1",
+  "function": {
+    "name": "checkWhetherNumberHasOnly",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkWhetherNumberHasOnly(9)",
+    "expected": "true"
+  }
+}

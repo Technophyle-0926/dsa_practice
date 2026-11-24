@@ -1,0 +1,24 @@
+{
+  "title": "Postfix to Infix",
+  "number": 8,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/postfix-to-infix/",
+  "practice": "https://www.geeksforgeeks.org/problems/postfix-to-infix-conversion/1",
+  "function": {
+    "name": "postfixInfix",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "dynamic",
+    "verified": true
+  },
+  "example": {
+    "call": "postfixInfix(\"ab*c+\")",
+    "expected": "((a*b)+c)"
+  }
+}

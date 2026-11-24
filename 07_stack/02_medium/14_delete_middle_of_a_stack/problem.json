@@ -1,0 +1,24 @@
+{
+  "title": "Delete middle of a stack",
+  "number": 14,
+  "category": "Stack",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/delete-middle-element-stack/",
+  "practice": "https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1",
+  "function": {
+    "name": "deleteMiddleStack",
+    "params": [
+      {
+        "name": "s",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
+  },
+  "example": {
+    "call": "deleteMiddleStack([10, 20, 30, 40, 50])",
+    "expected": "[50, 40, 20, 10]"
+  }
+}

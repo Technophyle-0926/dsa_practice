@@ -26,12 +26,24 @@ Output: 1
 Explanation: The smallest of the 3 integers is b, which is equal to 1.
 ```
 
+## Function Signature
+
+```dart
+int smallestThree(int a, int b, int c)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/smallest-of-three-integers-without-comparison-operators/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/02_medium/06_smallest_of_three
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

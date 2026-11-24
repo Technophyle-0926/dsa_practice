@@ -21,12 +21,24 @@ Output : a be can computer data fire for geeks
 
 Trie is an efficient data structure used for storing data like strings. To print the string in alphabetical order we have to first insert in the trie and then perform preorder traversal to print in alphabetical order.
 
+## Function Signature
+
+```dart
+String sortingArrayStringsOrWords(String s, String s2, String s3)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/sorting-array-strings-words-using-trie/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 20_trie/01_problems/04_sorting_array_of_strings_or_words_using_trie
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

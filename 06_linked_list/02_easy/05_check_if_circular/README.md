@@ -28,13 +28,25 @@ Output: false
 Explanation: As shown in figure this is not a circular linked list.
 ```
 
+## Function Signature
+
+```dart
+dynamic checkIfCircular(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-if-a-linked-list-is-circular-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/circular-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/02_easy/05_check_if_circular
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

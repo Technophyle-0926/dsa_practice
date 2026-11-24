@@ -30,12 +30,24 @@ The above problem is an application of a catalan numbers. The task is to only fi
 **Time Complexity:** O(n), where **n** is nth catalan number.
 **Auxiliary Space:** O(1)
 
+## Function Signature
+
+```dart
+int waysTriangulatePolygon(int n)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/number-of-ways-a-convex-polygon-of-n2-sides-can-split-into-triangles-by-connecting-vertices/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 16_dynamic_programming/01_basic/11_ways_to_triangulate_a_polygon
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -1,0 +1,24 @@
+{
+  "title": "Find length of the largest region in Boolean Matrix",
+  "number": 51,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-length-largest-region-boolean-matrix/",
+  "practice": "https://www.geeksforgeeks.org/problems/length-of-largest-region-of-1s-1587115620/1",
+  "function": {
+    "name": "findLengthLargestRegionBoolean",
+    "params": [
+      {
+        "name": "grid",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "findLengthLargestRegionBoolean([[1, 0, 0, 0, 1, 0, 0], [0, 1, 0, 0, 1, 1, 0], [1, 1, 0, 0, 0, 0, 0], [1, 0, 0, 1, 1, 0, 0], [1, 0, 0, 1, 0, 1, 1]])",
+    "expected": "6"
+  }
+}

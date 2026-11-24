@@ -10,8 +10,12 @@ Sorting algorithms are used to arrange a list of elements in a specific order, s
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-sorting-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 12_sorting/00_basics/02_applications_of_sorting
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

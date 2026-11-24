@@ -1,0 +1,24 @@
+{
+  "title": "Square without using *, / and pow()",
+  "number": 14,
+  "category": "Bitwise Algorithms",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/calculate-square-of-a-number-without-using-and-pow/",
+  "practice": null,
+  "function": {
+    "name": "squareWithoutPow",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "squareWithoutPow(5)",
+    "expected": "25"
+  }
+}

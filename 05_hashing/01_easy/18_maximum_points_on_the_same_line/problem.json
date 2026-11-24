@@ -1,0 +1,28 @@
+{
+  "title": "Maximum points on the same line",
+  "number": 18,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-maximum-points-on-same-line/",
+  "practice": "https://www.geeksforgeeks.org/problems/points-in-straight-line/1",
+  "function": {
+    "name": "maximumPointsSameLine",
+    "params": [
+      {
+        "name": "x",
+        "type": "List<int>"
+      },
+      {
+        "name": "y",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "maximumPointsSameLine([1, 2, 3], [1, 2, 3])",
+    "expected": "3"
+  }
+}

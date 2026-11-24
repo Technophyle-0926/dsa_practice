@@ -20,13 +20,25 @@ Output: 5
 Explanation: There are 5 pairs with absolute difference 4, the pairs are [8, 12], [8, 4], [16, 12], [12, 16], [4, 0].
 ```
 
+## Function Signature
+
+```dart
+int countPairsGivenDiff(List<int> arr, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-pairs-difference-equal-k/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/pairs-with-difference-k1713/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/01_easy/12_count_pairs_with_given_diff
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

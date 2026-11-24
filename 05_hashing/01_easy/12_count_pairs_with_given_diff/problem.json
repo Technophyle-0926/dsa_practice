@@ -1,0 +1,28 @@
+{
+  "title": "Count Pairs with Given Diff",
+  "number": 12,
+  "category": "Hashing",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/count-pairs-difference-equal-k/",
+  "practice": "https://www.geeksforgeeks.org/problems/pairs-with-difference-k1713/1",
+  "function": {
+    "name": "countPairsGivenDiff",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "countPairsGivenDiff([1, 4, 1, 4, 5], 3)",
+    "expected": "4"
+  }
+}

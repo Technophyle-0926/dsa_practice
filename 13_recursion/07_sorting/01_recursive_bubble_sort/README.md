@@ -35,12 +35,24 @@ If we take a closer look at Bubble Sort algorithm, we can notice that in first p
 - Do One Pass of normal Bubble Sort. This pass fixes last element of current subarray.
 - Recur for all elements except last of current subarray.
 
+## Function Signature
+
+```dart
+dynamic recursiveBubbleSort(/* not set yet */)
+```
+
+_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/recursive-bubble-sort/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 13_recursion/07_sorting/01_recursive_bubble_sort
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

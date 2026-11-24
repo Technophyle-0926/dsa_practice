@@ -1,0 +1,16 @@
+{
+  "title": "Intersection point of two Linked Lists.",
+  "number": 2,
+  "category": "Linked List",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/write-a-function-to-get-the-intersection-point-of-two-linked-lists/",
+  "practice": "https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1",
+  "function": {
+    "name": "intersectionPointTwoLinkedLists",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

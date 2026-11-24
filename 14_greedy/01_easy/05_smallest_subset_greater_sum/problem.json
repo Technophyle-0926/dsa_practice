@@ -1,0 +1,24 @@
+{
+  "title": "Smallest Subset Greater Sum",
+  "number": 5,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/smallest-subset-sum-greater-elements/",
+  "practice": "https://www.geeksforgeeks.org/problems/smallest-subset-with-greater-sum/1",
+  "function": {
+    "name": "smallestSubsetGreaterSum",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "smallestSubsetGreaterSum([2, 17, 7, 3])",
+    "expected": "1"
+  }
+}

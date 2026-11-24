@@ -22,13 +22,25 @@ Output:  false
 Explanation: 5 is represented as 101 in binary and bit at position 1 is not set.
 ```
 
+## Function Signature
+
+```dart
+bool checkIfKThBit(int n, int k)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/check-whether-k-th-bit-set-not/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/01_easy/03_check_if_k_th_bit_set
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

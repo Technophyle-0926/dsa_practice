@@ -17,8 +17,12 @@ In this article, only separate chaining is discussed. We will be discussing Open
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/separate-chaining-collision-handling-technique-in-hashing/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 05_hashing/00_basics/03_separate_chaining_for_collision_handling
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

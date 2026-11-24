@@ -1,0 +1,28 @@
+{
+  "title": "Partition into two subarrays of lengths k and (N – k) such that the difference of sums is maximum",
+  "number": 9,
+  "category": "Greedy",
+  "level": "Greedy Problems on Array",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/partition-into-two-subarrays-of-lengths-k-and-n-k-such-that-the-difference-of-sums-is-maximum/",
+  "practice": null,
+  "function": {
+    "name": "partitionIntoTwoSubarraysLengths",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "partitionIntoTwoSubarraysLengths([8, 4, 5, 2, 10], 2)",
+    "expected": "17"
+  }
+}

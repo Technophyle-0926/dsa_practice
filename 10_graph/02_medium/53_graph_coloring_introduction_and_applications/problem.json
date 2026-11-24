@@ -1,0 +1,16 @@
+{
+  "title": "Graph Coloring (Introduction and Applications)",
+  "number": 53,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/graph-coloring-applications/",
+  "practice": null,
+  "function": {
+    "name": "graphColoringIntroductionApplications",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

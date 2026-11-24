@@ -28,13 +28,25 @@ Output: 2
 Explanation: In the given linked list  2 -> 2 -> 2 -> 2, 2 is the only element and is repeated 5 times. So we need to remove any four 2.
 ```
 
+## Function Signature
+
+```dart
+ListNode? removeDuplicatesSortedLinkedList(ListNode? Head)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/remove-duplicates-from-a-sorted-linked-list/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 06_linked_list/03_medium/05_remove_duplicates_from_a_sorted_linked_list
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

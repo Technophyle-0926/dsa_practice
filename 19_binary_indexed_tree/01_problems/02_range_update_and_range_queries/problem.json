@@ -1,0 +1,16 @@
+{
+  "title": "Range Update and Range Queries",
+  "number": 2,
+  "category": "Binary Indexed Tree",
+  "level": "Problems",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/binary-indexed-tree-range-update-range-queries/",
+  "practice": null,
+  "function": {
+    "name": "rangeUpdateRangeQueries",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

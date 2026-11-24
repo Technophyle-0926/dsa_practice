@@ -20,13 +20,25 @@ Output: 26
 Explanation: In this case, the common difference is 5, and 26 is missing between 21 and 31.
 ```
 
+## Function Signature
+
+```dart
+int missingAp(List<int> arr)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/find-missing-number-arithmetic-progression/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/missing-element-of-ap2228/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 11_searching/03_medium/11_missing_in_ap
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

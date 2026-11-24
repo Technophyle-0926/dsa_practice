@@ -1,0 +1,24 @@
+{
+  "title": "Check if any two intervals overlap",
+  "number": 8,
+  "category": "Sorting",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/check-if-any-two-intervals-overlap-among-a-given-set-of-intervals/",
+  "practice": "https://www.geeksforgeeks.org/problems/overlapping-intervals--174556/1",
+  "function": {
+    "name": "checkIfAnyTwoIntervals",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
+  },
+  "example": {
+    "call": "checkIfAnyTwoIntervals([[1, 3], [5, 7], [2, 4], [6, 8]])",
+    "expected": "true"
+  }
+}

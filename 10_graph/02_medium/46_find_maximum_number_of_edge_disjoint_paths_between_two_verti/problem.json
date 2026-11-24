@@ -1,0 +1,16 @@
+{
+  "title": "Find maximum number of edge disjoint paths between two vertices",
+  "number": 46,
+  "category": "Graph",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-edge-disjoint-paths-two-vertices/",
+  "practice": null,
+  "function": {
+    "name": "findMaximumNumberEdgeDisjoint",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

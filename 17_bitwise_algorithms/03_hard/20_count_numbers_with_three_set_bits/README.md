@@ -25,13 +25,25 @@ Output: 3
 Explanation: There are 3 such numbers with 3 set bits in range 25 to 29. 25 -> 11001, 26 -> 11010, 28 -> 11100. So answer for this test case is 3
 ```
 
+## Function Signature
+
+```dart
+int countNumbersThreeBits(int l, int r)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/count-numbers-in-the-range-l-r-having-only-three-set-bits/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/akku-and-binary-numbers0902/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 17_bitwise_algorithms/03_hard/20_count_numbers_with_three_set_bits
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

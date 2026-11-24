@@ -1,0 +1,16 @@
+{
+  "title": "Max Satisfied Customers",
+  "number": 12,
+  "category": "Greedy",
+  "level": "Medium",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/maximum-number-customers-can-satisfied-given-quantity/",
+  "practice": null,
+  "function": {
+    "name": "maxSatisfiedCustomers",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

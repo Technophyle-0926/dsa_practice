@@ -1,0 +1,32 @@
+{
+  "title": "Fractional Knapsack",
+  "number": 1,
+  "category": "Greedy",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/fractional-knapsack-problem/",
+  "practice": "https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1",
+  "function": {
+    "name": "fractionalKnapsack",
+    "params": [
+      {
+        "name": "val",
+        "type": "List<int>"
+      },
+      {
+        "name": "wt",
+        "type": "List<int>"
+      },
+      {
+        "name": "capacity",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "fractionalKnapsack([60, 100, 120], [10, 20, 30], 50)",
+    "expected": "240"
+  }
+}

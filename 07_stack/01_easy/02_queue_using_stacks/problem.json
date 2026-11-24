@@ -1,0 +1,16 @@
+{
+  "title": "Queue using Stacks",
+  "number": 2,
+  "category": "Stack",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/queue-using-stacks/",
+  "practice": "https://www.geeksforgeeks.org/problems/queue-using-stack/1",
+  "function": {
+    "name": "queueStacks",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

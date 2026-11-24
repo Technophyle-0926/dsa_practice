@@ -34,13 +34,25 @@ Output: false
 Explanation: After pushing 1, 2, and 3, we can pop 3 as required. But the next element in b[] is 1, while the stack top is 2. Since 1 is blocked under 2, this order cannot be achieved.
 ```
 
+## Function Signature
+
+```dart
+bool stackPermutations(List<int> a, List<int> b)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/stack-permutations-check-if-an-array-is-stack-permutation-of-other/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/stack-permutations/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 07_stack/03_hard/08_stack_permutations
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

@@ -26,8 +26,12 @@ Output: 26
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/square-root-sqrt-decomposition-algorithm/
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your notes in `solutions/<your-github-username>.md`. Create it with:
+
+```sh
+dart run tool/start.dart 21_sqrt_decomposition/00_basics/01_square_root_sqrt_decomposition
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

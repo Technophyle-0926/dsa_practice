@@ -29,13 +29,25 @@ Output: 7
 Explanation: The length of the smallest transformation sequence from "toon" to "plea" is 7 i.e toon -> poon -> poin -> poie -> plie -> plee -> plea.
 ```
 
+## Function Signature
+
+```dart
+int checkBipartite(List<String> words, String start, String end)
+```
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
 ## Links
 
 - 📖 Article: https://www.geeksforgeeks.org/dsa/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
 - 💻 Practice: https://www.geeksforgeeks.org/problems/word-ladder/1
 
-## My Notes
+## Solutions
 
-- **Approach:**
-- **Time Complexity:**
-- **Space Complexity:**
+Write your solution in `solutions/<your-github-username>.dart`. Create it with:
+
+```sh
+dart run tool/start.dart 10_graph/02_medium/05_check_for_bipartite
+```
+
+See the [solutions/](solutions/) folder for everyone's solutions.

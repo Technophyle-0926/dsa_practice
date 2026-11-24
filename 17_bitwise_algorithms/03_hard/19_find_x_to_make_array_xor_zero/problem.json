@@ -1,0 +1,24 @@
+{
+  "title": "Find X to Make Array XOR Zero",
+  "number": 19,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-a-number-x-such-that-xor-of-given-array-after-adding-x-to-each-element-is-0/",
+  "practice": null,
+  "function": {
+    "name": "findXMakeArrayXor",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "findXMakeArrayXor([2, 4, 5])",
+    "expected": "1"
+  }
+}

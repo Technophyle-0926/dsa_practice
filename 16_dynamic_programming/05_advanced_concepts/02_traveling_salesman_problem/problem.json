@@ -1,0 +1,16 @@
+{
+  "title": "Traveling Salesman Problem",
+  "number": 2,
+  "category": "Dynamic Programming",
+  "level": "Advanced Concepts",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bitmasking-dynamic-programming-set-2-tsp/",
+  "practice": null,
+  "function": {
+    "name": "travelingSalesmanProblem",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Min-Max Range Queries in Array",
+  "number": 4,
+  "category": "Segment Tree",
+  "level": "Range Queries",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/min-max-range-queries-array/",
+  "practice": "https://www.geeksforgeeks.org/problems/range-min-max-queries4557/1",
+  "function": {
+    "name": "minMaxRangeQueriesArray",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

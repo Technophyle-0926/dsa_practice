@@ -1,0 +1,28 @@
+{
+  "title": "Coin change problem - Count Ways",
+  "number": 5,
+  "category": "Dynamic Programming",
+  "level": "Easy",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/coin-change-dp-7/",
+  "practice": "https://www.geeksforgeeks.org/problems/coin-change2448/1",
+  "function": {
+    "name": "coinChangeProblemCountWays",
+    "params": [
+      {
+        "name": "coins",
+        "type": "List<int>"
+      },
+      {
+        "name": "sum",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "coinChangeProblemCountWays([1, 2, 3], 4)",
+    "expected": "4"
+  }
+}

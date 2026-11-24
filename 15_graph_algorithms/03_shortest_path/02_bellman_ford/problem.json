@@ -1,0 +1,16 @@
+{
+  "title": "Bellman–Ford",
+  "number": 2,
+  "category": "Graph Algorithms",
+  "level": "Shortest Path",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/",
+  "practice": "https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1",
+  "function": {
+    "name": "bellmanFord",
+    "params": [],
+    "returns": "dynamic",
+    "verified": false
+  },
+  "example": null
+}

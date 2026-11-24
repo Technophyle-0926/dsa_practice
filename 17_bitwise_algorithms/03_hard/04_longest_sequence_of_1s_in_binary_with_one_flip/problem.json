@@ -1,0 +1,24 @@
+{
+  "title": "Longest Sequence of 1’s in Binary with One Flip",
+  "number": 4,
+  "category": "Bitwise Algorithms",
+  "level": "Hard",
+  "kind": "problem",
+  "article": "https://www.geeksforgeeks.org/dsa/find-longest-sequence-1s-binary-representation-one-flip/",
+  "practice": null,
+  "function": {
+    "name": "longestSequence1sBinaryOne",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
+  },
+  "example": {
+    "call": "longestSequence1sBinaryOne(1775)",
+    "expected": "8"
+  }
+}
