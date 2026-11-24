@@ -30,7 +30,11 @@ Future<void> main(List<String> args) async {
   }
 
   final all = loadProblems();
-  final scope = filters.isEmpty ? all : resolveProblems(all, filters);
+  final scope = filters.isEmpty
+      ? all
+      : filters.every((f) => f.contains('/'))
+          ? [for (final f in filters) ...resolveProblems(all, [f])]
+          : resolveProblems(all, filters);
   final problems = scope.where((p) => !p.isConcept && File('${repoRoot.path}/${p.path}/$testsFileName').existsSync()).toList();
   if (problems.isEmpty) {
     stdout.writeln('No problems with $testsFileName in that selection.');
