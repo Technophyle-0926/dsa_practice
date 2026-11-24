@@ -65,6 +65,11 @@ void main(List<String> args) {
       if (r != null) clean[user] = r;
     }
     final out = File('${repoRoot.path}/${problem.path}/$resultsFileName');
+    if (clean.isEmpty) {
+      // Nobody has a finished solution: no file needed (remove a stale one).
+      if (out.existsSync()) out.deleteSync();
+      continue;
+    }
     final sorted = Map.fromEntries(clean.entries.toList()..sort((a, b) => a.key.compareTo(b.key)));
     out.writeAsStringSync('${const JsonEncoder.withIndent('  ').convert({'users': sorted})}\n');
     applied++;
