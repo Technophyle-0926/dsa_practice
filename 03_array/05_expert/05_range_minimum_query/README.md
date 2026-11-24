@@ -45,3 +45,11 @@ dart run tool/start.dart 03_array/05_expert/05_range_minimum_query
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array expert 5`
+
+_No solutions yet._
+<!-- results:end -->

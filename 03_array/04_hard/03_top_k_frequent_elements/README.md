@@ -48,3 +48,11 @@ dart run tool/start.dart 03_array/04_hard/03_top_k_frequent_elements
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 3`
+
+_No solutions yet._
+<!-- results:end -->

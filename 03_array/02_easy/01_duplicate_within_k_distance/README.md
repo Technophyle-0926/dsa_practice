@@ -52,3 +52,11 @@ dart run tool/start.dart 03_array/02_easy/01_duplicate_within_k_distance
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array easy 1`
+
+_No solutions yet._
+<!-- results:end -->

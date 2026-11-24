@@ -54,3 +54,11 @@ dart run tool/start.dart 03_array/02_easy/12_split_array_into_three_equals
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array easy 12`
+
+_No solutions yet._
+<!-- results:end -->

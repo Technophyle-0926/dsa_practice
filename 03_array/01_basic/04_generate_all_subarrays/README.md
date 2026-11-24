@@ -55,3 +55,11 @@ dart run tool/start.dart 03_array/01_basic/04_generate_all_subarrays
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array basic 4`
+
+_No solutions yet._
+<!-- results:end -->

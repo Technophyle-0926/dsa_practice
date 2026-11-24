@@ -53,3 +53,11 @@ dart run tool/start.dart 03_array/03_medium/10_next_permutation
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array medium 10`
+
+_No solutions yet._
+<!-- results:end -->

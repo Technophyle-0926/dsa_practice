@@ -46,3 +46,11 @@ dart run tool/start.dart 03_array/02_easy/07_missing_and_repeating
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array easy 7`
+
+_No solutions yet._
+<!-- results:end -->

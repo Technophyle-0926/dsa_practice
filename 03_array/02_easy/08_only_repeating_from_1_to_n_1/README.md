@@ -46,3 +46,11 @@ dart run tool/start.dart 03_array/02_easy/08_only_repeating_from_1_to_n_1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array easy 8`
+
+_No solutions yet._
+<!-- results:end -->

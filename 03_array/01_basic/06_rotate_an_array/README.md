@@ -44,3 +44,11 @@ dart run tool/start.dart 03_array/01_basic/06_rotate_an_array
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array basic 6`
+
+_No solutions yet._
+<!-- results:end -->

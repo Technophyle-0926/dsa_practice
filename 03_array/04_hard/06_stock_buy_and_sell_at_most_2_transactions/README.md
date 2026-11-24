@@ -56,3 +56,11 @@ dart run tool/start.dart 03_array/04_hard/06_stock_buy_and_sell_at_most_2_transa
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 6`
+
+_No solutions yet._
+<!-- results:end -->

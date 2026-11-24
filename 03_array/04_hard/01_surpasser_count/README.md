@@ -53,3 +53,11 @@ dart run tool/start.dart 03_array/04_hard/01_surpasser_count
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 1`
+
+_No solutions yet._
+<!-- results:end -->

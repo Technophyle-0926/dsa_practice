@@ -59,3 +59,11 @@ dart run tool/start.dart 03_array/03_medium/09_construct_an_array_from_its_pair_
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array medium 9`
+
+_No solutions yet._
+<!-- results:end -->

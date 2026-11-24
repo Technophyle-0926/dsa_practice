@@ -51,3 +51,11 @@ dart run tool/start.dart 03_array/05_expert/10_max_value_of_sum_i_arr_i_with_onl
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array expert 10`
+
+_No solutions yet._
+<!-- results:end -->

@@ -52,3 +52,11 @@ dart run tool/start.dart 03_array/03_medium/07_majority_element
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array medium 7`
+
+_No solutions yet._
+<!-- results:end -->

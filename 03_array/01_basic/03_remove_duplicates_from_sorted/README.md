@@ -53,3 +53,11 @@ dart run tool/start.dart 03_array/01_basic/03_remove_duplicates_from_sorted
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array basic 3`
+
+_No solutions yet._
+<!-- results:end -->

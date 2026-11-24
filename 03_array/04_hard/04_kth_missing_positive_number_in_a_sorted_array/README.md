@@ -52,3 +52,11 @@ dart run tool/start.dart 03_array/04_hard/04_kth_missing_positive_number_in_a_so
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 4`
+
+_No solutions yet._
+<!-- results:end -->

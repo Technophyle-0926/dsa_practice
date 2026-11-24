@@ -54,3 +54,11 @@ dart run tool/start.dart 03_array/02_easy/11_equilibrium_index
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array easy 11`
+
+_No solutions yet._
+<!-- results:end -->

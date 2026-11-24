@@ -46,3 +46,11 @@ dart run tool/start.dart 03_array/04_hard/08_smallest_difference_triplet_from_3_
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 8`
+
+_No solutions yet._
+<!-- results:end -->
