@@ -8,7 +8,7 @@ Speed ranking: [LEADERBOARD.md](LEADERBOARD.md).
 
 | Rank | Contributor | Solved | % of 1048 |
 |---|---|---|---|
-| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 2 | 0.2% |
+| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 3 | 0.3% |
 
 ## By category
 
@@ -16,7 +16,7 @@ Speed ranking: [LEADERBOARD.md](LEADERBOARD.md).
 |---|---|---|
 | [Logic Building](01_logic_building/README.md) | 50 | 2 |
 | [Analysis of Algorithms](02_analysis_of_algorithms/README.md) | 13 | 0 |
-| [Array](03_array/README.md) | 52 | 0 |
+| [Array](03_array/README.md) | 52 | 1 |
 | [String](04_string/README.md) | 53 | 0 |
 | [Hashing](05_hashing/README.md) | 54 | 0 |
 | [Linked List](06_linked_list/README.md) | 58 | 0 |

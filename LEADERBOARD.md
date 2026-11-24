@@ -10,10 +10,10 @@ submits it, so they are compared on the same machine. 50 problems have tests so 
 
 | Rank | Contributor | Points | Passing tests | Not passing |
 |---|---|---|---|---|
-| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 0.0 | 0 | 0 |
+| 1 | [Technophyle-0926](progress/Technophyle-0926.md) | 100.0 | 1 | 0 |
 
 ## Points by category
 
 | Category | Tested problems | Technophyle-0926 |
 |---|---|---|
-| [Array](03_array/README.md) | 50 | 0.0 |
+| [Array](03_array/README.md) | 50 | 100.0 |

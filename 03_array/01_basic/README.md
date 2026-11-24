@@ -3,7 +3,7 @@
 <!-- progress:start -->
 | # | Problem | GfG | Solved by |
 |---|---|---|---|
-| 1 | [Print Alternates](01_print_alternates/README.md) | [link](https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1) |  |
+| 1 | [Print Alternates](01_print_alternates/README.md) | [link](https://www.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1) | [Technophyle-0926](01_print_alternates/solutions/Technophyle-0926.dart) 40.6 ms |
 | 2 | [Leaders in an array](02_leaders_in_an_array/README.md) | [link](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1) |  |
 | 3 | [Remove Duplicates from Sorted](03_remove_duplicates_from_sorted/README.md) | [link](https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1) |  |
 | 4 | [Generate all Subarrays](04_generate_all_subarrays/README.md) | [link](https://www.geeksforgeeks.org/problems/generating-all-subarrays/1) |  |
