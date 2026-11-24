@@ -97,7 +97,7 @@ jobs:
             fi
             dart run tool/ci/apply_results.dart "$RUNNER_TEMP/results"
             dart run tool/progress.dart
-            git add -A PROGRESS.md LEADERBOARD.md progress '*/README.md' '*/results.json'
+            git add -A  # only our tools changed files here (no contributor code runs in this job)
             if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
             git commit -q -m "chore: update test results [skip ci]"
             if git push -q origin main; then exit 0; fi

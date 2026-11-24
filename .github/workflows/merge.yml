@@ -101,7 +101,7 @@ jobs:
             git merge -q --no-ff --no-edit -m "Merge solutions from $ACTOR [skip ci]" "$HEAD_SHA"
             dart run tool/ci/apply_results.dart "$RUNNER_TEMP/results" --only "$BASE_SHA" "$HEAD_SHA"
             dart run tool/progress.dart
-            git add -A PROGRESS.md LEADERBOARD.md progress '*/README.md' '*/results.json'
+            git add -A  # only our tools changed files here (no contributor code runs in this job)
             git diff --cached --quiet || git commit -q -m "chore: update progress [skip ci]"
             if git push -q origin main; then
               echo "Merged $BRANCH ($HEAD_SHA) into main."; exit 0
