@@ -3,6 +3,8 @@
 Each person works only on **their own files**: `solutions/<your-github-username>.dart`
 inside a problem folder. Progress is calculated from those files, so there is nothing else to update.
 
+Every command and option is explained in [COMMANDS.md](COMMANDS.md).
+
 ## One-time setup
 
 1. Install the Dart SDK (Flutter includes it) and git.

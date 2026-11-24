@@ -17,7 +17,7 @@ dart run tool/submit.dart               # sends your solutions; GitHub checks + 
 dart run tool/progress.dart --me        # your progress
 ```
 
-New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**. All commands and options: **[COMMANDS.md](COMMANDS.md)**.
 
 ## Structure
 
