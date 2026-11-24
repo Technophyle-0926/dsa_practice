@@ -75,6 +75,7 @@ Then GitHub takes over, no pull request needed:
 - it checks that the branch is yours, that you only changed your own solution files, and that they compile;
 - if everything passes, it merges your work into `main` and updates `PROGRESS.md`, `progress/<you>.md`
   and the "Solved by" columns (about a minute);
+  then it deletes `<you>/solutions` on GitHub (your local branch stays; the next `submit` recreates it);
 - if something fails, nothing is merged and GitHub emails you the reason.
 
 Check what happened with:

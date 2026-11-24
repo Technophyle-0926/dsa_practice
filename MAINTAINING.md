@@ -15,6 +15,7 @@ friend: dart run tool/submit.dart
 "Merge submission" workflow  (workflow_run: always the version on main, environment main-writer)
    │  repeats every check with main's scripts against the pushed commit
    │  merges into main, runs tool/progress.dart, pushes with the deploy key
+   │  deletes <friend>/solutions on GitHub (only if nothing newer was pushed to it)
    ▼
 main updated: solutions + PROGRESS.md + progress/<user>.md + README "Solved by" columns
 ```

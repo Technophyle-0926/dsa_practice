@@ -49,9 +49,15 @@ Future<void> main(List<String> args) async {
   }
 
   final current = (git(['rev-parse', '--abbrev-ref', 'HEAD']).stdout as String).trim();
-  final hasUnpushed = current == branch &&
-      git(['rev-parse', '--verify', '--quiet', '@{u}'], check: false).exitCode == 0 &&
-      (git(['rev-list', '--count', '@{u}..HEAD']).stdout as String).trim() != '0';
+  // GitHub deletes origin/<you>/solutions after merging, so compare with main when the upstream is gone.
+  bool unpushed() {
+    final hasUpstream = git(['rev-parse', '--verify', '--quiet', '@{u}'], check: false).exitCode == 0;
+    if (!hasUpstream) git(['fetch', '-q', 'origin', mainBranch], check: false);
+    final base = hasUpstream ? '@{u}' : 'origin/$mainBranch';
+    final r = git(['rev-list', '--count', '$base..HEAD'], check: false);
+    return r.exitCode == 0 && (r.stdout as String).trim() != '0';
+  }
+  final hasUnpushed = current == branch && unpushed();
 
   if (own.isEmpty && !hasUnpushed) {
     stdout.writeln('Nothing to submit: no changes in your solutions/$user files.');
