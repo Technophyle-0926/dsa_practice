@@ -1,0 +1,106 @@
+# Re-runs the tests and updates results + leaderboard on main.
+# Runs automatically when tests or the test harness change on main, or manually from the Actions tab
+# ("Retest" → Run workflow). Same split as "Merge submission": the test job runs contributor code
+# without secrets; the merge job only validates the result files and pushes.
+name: Retest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/tests.dart'
+      - '**/expected.json'
+      - 'lib/testing.dart'
+      - 'lib/src/**'
+      - 'tool/src/test_build.dart'
+  workflow_dispatch:
+    inputs:
+      problems:
+        description: 'Problem folders separated by spaces (empty = every problem with tests)'
+        required: false
+        default: ''
+
+# No concurrency group on purpose: GitHub cancels all but one waiting run in a group, which would
+# drop submissions. Runs that race for main retry the push instead (results are merged per user).
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.sha.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - id: sha
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: dart-lang/setup-dart@v1
+      - run: dart pub get
+      - name: Run the tests
+        env:
+          PROBLEMS: ${{ github.event.inputs.problems }}
+          BEFORE: ${{ github.event.before }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          OUT="$RUNNER_TEMP/results"
+          if [ "$EVENT" = "push" ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null \
+             && ! git diff --name-only "$BEFORE" HEAD | grep -qE '^(lib/|tool/src/test_build\.dart)'; then
+            # Only tests of some problems changed: retest just those.
+            dart run tool/ci/run_tests.dart --out "$OUT" --changed "$BEFORE" HEAD
+          elif [ -n "$PROBLEMS" ]; then
+            # shellcheck disable=SC2086
+            dart run tool/ci/run_tests.dart --out "$OUT" $PROBLEMS
+          else
+            dart run tool/ci/run_tests.dart --out "$OUT" --all
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: ${{ runner.temp }}/results
+          if-no-files-found: ignore
+          retention-days: 3
+
+  merge:
+    needs: test
+    runs-on: ubuntu-latest
+    environment: main-writer
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
+      - uses: dart-lang/setup-dart@v1
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: results
+          path: ${{ runner.temp }}/results
+      - run: dart pub get
+      - name: Apply results, update progress, push
+        env:
+          TESTED_SHA: ${{ needs.test.outputs.sha }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5 6; do
+            git fetch -q origin main
+            git checkout -q -B main origin/main
+            if [ "$(git rev-parse HEAD)" != "$TESTED_SHA" ] && \
+               git diff --name-only "$TESTED_SHA" HEAD | grep -qE '/(solutions/|tests\.dart$|expected\.json$)'; then
+              echo "::warning::main changed while testing; results may be stale. Run Retest again."
+            fi
+            dart run tool/ci/apply_results.dart "$RUNNER_TEMP/results"
+            dart run tool/progress.dart
+            git add -A PROGRESS.md LEADERBOARD.md progress '*/README.md' '*/results.json'
+            if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+            git commit -q -m "chore: update test results [skip ci]"
+            if git push -q origin main; then exit 0; fi
+            echo "Push failed (main moved?), retrying…"; sleep $((RANDOM % 10 + 3))
+          done
+          exit 1

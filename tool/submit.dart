@@ -19,6 +19,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'src/repo.dart';
+import 'src/results.dart';
 
 Future<void> main(List<String> args) async {
   final user = requireUser();
@@ -196,6 +197,7 @@ Future<void> _status(String user) async {
       final merged = git(['merge-base', '--is-ancestor', sha, 'origin/${_mainBranch()}'], check: false).exitCode == 0;
       if (merged) {
         stdout.writeln('  Merge: ✅ merged\n\nMerged into main ✅  Progress is updated.');
+        _testSummary(user, sha, _mainBranch());
         _backToMain(branch, _mainBranch());
         return;
       }
@@ -214,6 +216,45 @@ Future<void> _status(String user) async {
   } finally {
     client.close(force: true);
   }
+}
+
+/// Test results (from main) for the problems in the merged submission [sha].
+void _testSummary(String user, String sha, String mainBranch) {
+  final upstream = 'origin/$mainBranch';
+  final merges = (git(['rev-list', '--merges', '--parents', '-n', '300', upstream], check: false).stdout as String).split('\n');
+  final merge = merges.map((l) => l.split(' ')).where((p) => p.length >= 3 && p[2] == sha).firstOrNull;
+  if (merge == null) return;
+  final changed = (git(['diff', '--name-only', merge[1], merge[0]], check: false).stdout as String)
+      .split('\n')
+      .where((f) => f.contains('/solutions/$user.dart'))
+      .map((f) => f.split('/solutions/').first)
+      .toSet();
+  if (changed.isEmpty) return;
+  final all = {for (final p in loadProblems()) p.path: p};
+  stdout.writeln('\nTests:');
+  var failing = 0;
+  for (final path in changed.toList()..sort()) {
+    final p = all[path];
+    if (p == null) continue;
+    final name = '${p.category} ${p.level} ${p.number}. ${p.title}';
+    final shown = git(['show', '$upstream:$path/$resultsFileName'], check: false);
+    if (shown.exitCode != 0) {
+      stdout.writeln('  ·  $name: no tests yet');
+      continue;
+    }
+    Map<String, Object?>? r;
+    try {
+      r = (((jsonDecode(shown.stdout as String) as Map)['users'] as Map)[user] as Map?)?.cast<String, Object?>();
+    } catch (_) {}
+    if (r?['status'] == 'pass') {
+      stdout.writeln('  ✅ $name: ${formatMs(r!['timeUs'])}');
+    } else {
+      failing++;
+      stdout.writeln('  ❌ $name: ${statusLabel(r)}');
+      stdout.writeln('     check it with: dart run tool/test.dart ${shortcut(p)}');
+    }
+  }
+  if (failing > 0) stdout.writeln('Failing solutions are merged but score nothing until they pass.');
 }
 
 /// After a merge: switch to main, fast-forward it, and delete the finished local branch.
