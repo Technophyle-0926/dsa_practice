@@ -38,23 +38,26 @@ read **repository** secrets. So:
 
 Do these in order (Settings = the repository's Settings tab).
 
-1. **Merge the `contributors-setup` branch into `main`** (before the ruleset exists, you can push directly):
-   ```sh
-   git checkout main && git merge contributors-setup && git push
-   ```
-
-2. **Create the deploy key** (lets the bot push to the protected `main`):
+1. **Create the deploy key** (lets the bot push to the protected `main`):
    ```sh
    ssh-keygen -t ed25519 -f progress_key -N "" -C dsa-practice-bot
    ```
    - Settings → Deploy keys → **Add deploy key**: title `dsa-practice-bot`, paste `progress_key.pub`,
      tick **Allow write access**.
 
-3. **Create the environment and put the private key in it**:
+2. **Create the environment and put the private key in it**:
    - Settings → Environments → **New environment** → name `main-writer`.
    - Deployment branches and tags → **Selected branches and tags** → add rule → `main`.
    - Environment secrets → **Add secret** → name `PROGRESS_DEPLOY_KEY`, value = contents of `progress_key`.
    - Do **not** add it as a repository secret. Then delete `progress_key` and `progress_key.pub` locally.
+   - Do this *before* step 3: if a workflow that names `main-writer` runs first, GitHub creates the
+     environment automatically with no branch restriction.
+
+3. **Merge the `contributors-setup` branch into `main`** (before the ruleset exists, you can push directly):
+   ```sh
+   git checkout main && git merge contributors-setup && git push
+   ```
+   This triggers *Update progress* once; it should finish green.
 
 4. **Allow the actions used**: Settings → Actions → General → Actions permissions → allow all actions,
    or "Allow … and select non-…" with `actions/checkout@*` and `dart-lang/setup-dart@*`.
