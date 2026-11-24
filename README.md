@@ -13,11 +13,12 @@ dart run tool/start.dart --user <your-github-username>   # once
 dart run tool/next.dart                 # opens your next problem (or: next array / next array easy)
 dart run tool/start.dart array basic 5  # or open a specific one (also: start reverse array)
 # ...write the solution, run it with the command it prints...
+dart run tool/test.dart                 # test it (problems with tests: Array so far)
 dart run tool/submit.dart               # sends your solutions; GitHub checks + merges them (~1 min)
-dart run tool/progress.dart --me        # your progress
+dart run tool/progress.dart --me        # your progress and points (LEADERBOARD.md has everyone's)
 ```
 
-New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**. All commands and options: **[COMMANDS.md](COMMANDS.md)**.
 
 ## Structure
 

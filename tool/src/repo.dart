@@ -35,7 +35,7 @@ class Problem {
   File solutionFile(String user) =>
       File('${solutionsDir.path}/$user.${isConcept ? 'md' : 'dart'}');
 
-  /// Users that have *solved* this problem (file exists, no TODO left).
+  /// Users that have *solved* this problem (file exists, no [TODO] left).
   List<String> solvedBy() {
     if (!solutionsDir.existsSync()) return const [];
     final users = <String>[];

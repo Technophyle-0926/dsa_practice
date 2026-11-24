@@ -27,7 +27,7 @@ jobs:
       - run: dart run tool/progress.dart
       - name: Commit if changed
         run: |
-          git add -A PROGRESS.md progress '*/README.md'
+          git add -A  # only our tools changed files here (no contributor code runs in this job)
           if git diff --cached --quiet; then
             echo "No progress changes."
             exit 0

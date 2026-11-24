@@ -1,8 +1,12 @@
-# Merges a checked submission into main and updates progress.
+# Tests a checked submission, merges it into main and updates progress + leaderboard.
 #
-# Security: workflow_run always uses THIS file from main (contributors can't change it), the checks
-# below run main's scripts against the pushed commit, and the deploy key lives in the "main-writer"
-# environment, which only runs on main. Contributor code is analyzed, never executed.
+# Security: workflow_run always uses THIS file from main (contributors can't change it), and the checks
+# run main's scripts against the pushed commit. The work is split in two jobs:
+#   test  - no secrets, read-only token. Runs contributor code (the tests) and hands over plain
+#           result files as an artifact.
+#   merge - environment "main-writer" (deploy key, main only). Never runs contributor code; it only
+#           validates the result files (tool/ci/apply_results.dart), merges and pushes.
+# Failing solutions are merged too; they are marked as failing and score nothing.
 name: Merge submission
 
 on:
@@ -10,29 +14,28 @@ on:
     workflows: [Submission]
     types: [completed]
 
-concurrency:
-  group: main-writer
-  cancel-in-progress: false
+# No concurrency group on purpose: GitHub cancels all but one waiting run in a group, which would
+# drop submissions. Runs that race for main retry the push instead (results are merged per user).
 
 permissions:
   contents: read
 
+env:
+  ACTOR: ${{ github.event.workflow_run.actor.login }}
+  BRANCH: ${{ github.event.workflow_run.head_branch }}
+  HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+  OWNER: ${{ github.repository_owner }}
+
 jobs:
-  merge:
+  test:
     if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
     runs-on: ubuntu-latest
-    environment: main-writer
-    env:
-      ACTOR: ${{ github.event.workflow_run.actor.login }}
-      BRANCH: ${{ github.event.workflow_run.head_branch }}
-      HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
-      OWNER: ${{ github.repository_owner }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-          ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
+          persist-credentials: false
       - uses: dart-lang/setup-dart@v1
       - name: Re-check branch owner
         run: |
@@ -48,26 +51,62 @@ jobs:
           BASE_SHA=$(git merge-base origin/main "$HEAD_SHA")
           git worktree add -q ../submission "$HEAD_SHA"
           cp tool/ci/analyze_changed.sh ../analyze_changed.sh
-          cd ../submission && BASE_SHA="$BASE_SHA" bash ../analyze_changed.sh
+          (cd ../submission && BASE_SHA="$BASE_SHA" bash ../analyze_changed.sh)
+          git worktree remove --force ../submission
+      - name: Run the tests on main + this submission
+        run: |
+          BASE_SHA=$(git merge-base origin/main "$HEAD_SHA")
+          # Test runner and harness come from main; only solution files come from the submission
+          # (check_submission.sh guaranteed nothing else changed).
+          git config user.name ci && git config user.email ci@localhost
+          git merge -q --no-ff --no-edit "$HEAD_SHA"
+          dart pub get
+          dart run tool/ci/run_tests.dart --out "$RUNNER_TEMP/results" --changed "$BASE_SHA" "$HEAD_SHA"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: ${{ runner.temp }}/results
+          if-no-files-found: ignore
+          retention-days: 3
+
+  merge:
+    needs: test
+    runs-on: ubuntu-latest
+    environment: main-writer
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
+      - uses: dart-lang/setup-dart@v1
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: results
+          path: ${{ runner.temp }}/results
       - run: dart pub get
-      - name: Merge into main, update progress, push
+      - name: Merge into main, apply test results, update progress, push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for attempt in 1 2 3; do
+          git fetch -q origin "$HEAD_SHA"
+          for attempt in 1 2 3 4 5 6; do
             git fetch -q origin main
             git checkout -q -B main origin/main
             if git merge-base --is-ancestor "$HEAD_SHA" HEAD; then
               echo "Already merged."; exit 0
             fi
+            BASE_SHA=$(git merge-base HEAD "$HEAD_SHA")
             git merge -q --no-ff --no-edit -m "Merge solutions from $ACTOR [skip ci]" "$HEAD_SHA"
+            dart run tool/ci/apply_results.dart "$RUNNER_TEMP/results" --only "$BASE_SHA" "$HEAD_SHA"
             dart run tool/progress.dart
-            git add -A PROGRESS.md progress '*/README.md'
+            git add -A  # only our tools changed files here (no contributor code runs in this job)
             git diff --cached --quiet || git commit -q -m "chore: update progress [skip ci]"
             if git push -q origin main; then
               echo "Merged $BRANCH ($HEAD_SHA) into main."; exit 0
             fi
-            echo "Push failed (main moved?), retrying…"; sleep 5
+            echo "Push failed (main moved?), retrying…"; sleep $((RANDOM % 10 + 3))
           done
           exit 1
       - name: Delete the merged branch

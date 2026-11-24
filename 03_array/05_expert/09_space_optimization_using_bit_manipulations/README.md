@@ -47,3 +47,11 @@ dart run tool/start.dart 03_array/05_expert/09_space_optimization_using_bit_mani
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array expert 9`
+
+_No solutions yet._
+<!-- results:end -->

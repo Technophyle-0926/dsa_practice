@@ -66,3 +66,11 @@ dart run tool/start.dart 03_array/05_expert/04_range_sum_query_using_sparse_tabl
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array expert 4`
+
+_No solutions yet._
+<!-- results:end -->

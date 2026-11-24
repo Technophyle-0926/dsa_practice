@@ -3,6 +3,8 @@
 Each person works only on **their own files**: `solutions/<your-github-username>.dart`
 inside a problem folder. Progress is calculated from those files, so there is nothing else to update.
 
+Every command and option is explained in [COMMANDS.md](COMMANDS.md).
+
 ## One-time setup
 
 1. Install the Dart SDK (Flutter includes it) and git.
@@ -52,7 +54,8 @@ It contains the **required function signature** (from `problem.json`) and a `mai
 example. Keep the function name and parameters as they are; the leaderboard will call that function.
 
 A problem counts as **solved** when your file no longer contains `UnimplementedError` (the template's
-placeholder). Your own `TODO` comments are fine. Reading items in `00_basics` use a `.md` notes file instead;
+placeholder) **and**, if the problem has tests, it passes them on GitHub. Your own `TODO` comments are fine.
+Test before you submit with `dart run tool/test.dart`. Reading items in `00_basics` use a `.md` notes file instead;
 they count once the template's placeholder line is deleted.
 
 Some signatures have a **note** above them (e.g. how operations are encoded, or "return -1 if not found").
@@ -75,7 +78,9 @@ Then GitHub takes over, no pull request needed:
 - it checks that the branch is yours, that you only changed your own solution files, and that they compile;
 - if everything passes, it merges your work into `main` and updates `PROGRESS.md`, `progress/<you>.md`
   and the "Solved by" columns (about a minute);
-  then it deletes `<you>/solutions` on GitHub (your local branch stays; the next `submit` recreates it);
+  then it deletes `<you>/solutions` on GitHub. Run `dart run tool/submit.dart --status`: once it
+  says merged, it switches you back to an up-to-date `main` and removes the finished local branch
+  (the next `submit` creates a fresh one);
 - if something fails, nothing is merged and GitHub emails you the reason.
 
 Check what happened with:
@@ -92,7 +97,16 @@ Check your own progress at any time:
 dart run tool/progress.dart --me
 ```
 
-## Correctness
+## Tests and the leaderboard
 
-Right now "solved" means "submitted and compiles". Test cases and a leaderboard (correctness + execution
-time) are planned: solutions will still be merged when tests fail, but marked as failing and not counted.
+Problems with a `tests.dart` file have tests (Array first; more categories follow). After every merge,
+GitHub runs everyone's solution to the problems you submitted:
+
+- **passing** solutions are timed and get points: **100 × fastest time / your time** per problem
+  (see [LEADERBOARD.md](LEADERBOARD.md));
+- **failing** solutions (wrong answer, error, too slow, over the memory limit) are still merged, but are
+  marked ❌ and score nothing until you fix them and submit again;
+- `dart run tool/submit.dart --status` tells you how each submitted problem did.
+
+The tests use generated inputs; only fingerprints of the expected answers are stored, so the repo never
+shows them. Run `dart run tool/test.dart` to see which case fails and what you returned.

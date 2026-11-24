@@ -50,3 +50,11 @@ dart run tool/start.dart 03_array/03_medium/03_reorder_according_to_given_indexe
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array medium 3`
+
+_No solutions yet._
+<!-- results:end -->

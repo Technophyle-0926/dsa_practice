@@ -44,3 +44,11 @@ dart run tool/start.dart 03_array/01_basic/09_min_cost_to_make_size_1
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array basic 9`
+
+_No solutions yet._
+<!-- results:end -->

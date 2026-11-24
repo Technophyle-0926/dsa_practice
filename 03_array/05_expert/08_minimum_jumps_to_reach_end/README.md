@@ -52,3 +52,11 @@ dart run tool/start.dart 03_array/05_expert/08_minimum_jumps_to_reach_end
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array expert 8`
+
+_No solutions yet._
+<!-- results:end -->

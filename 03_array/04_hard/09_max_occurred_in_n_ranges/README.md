@@ -47,3 +47,11 @@ dart run tool/start.dart 03_array/04_hard/09_max_occurred_in_n_ranges
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 9`
+
+_No solutions yet._
+<!-- results:end -->

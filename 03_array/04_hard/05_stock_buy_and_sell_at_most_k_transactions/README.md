@@ -48,3 +48,11 @@ dart run tool/start.dart 03_array/04_hard/05_stock_buy_and_sell_at_most_k_transa
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.
+
+<!-- results:start -->
+## Leaderboard
+
+Test it on your computer first: `dart run tool/test.dart array hard 5`
+
+_No solutions yet._
+<!-- results:end -->
