@@ -70,3 +70,11 @@ jobs:
             echo "Push failed (main moved?), retrying…"; sleep 5
           done
           exit 1
+      - name: Delete the merged branch
+        # Only if it still points at the merged commit; a newer push keeps it (and gets merged by its own run).
+        run: |
+          if git push -q --force-with-lease="refs/heads/$BRANCH:$HEAD_SHA" origin --delete "$BRANCH"; then
+            echo "Deleted $BRANCH."
+          else
+            echo "::notice::$BRANCH has newer commits; kept it."
+          fi

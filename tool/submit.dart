@@ -49,9 +49,15 @@ Future<void> main(List<String> args) async {
   }
 
   final current = (git(['rev-parse', '--abbrev-ref', 'HEAD']).stdout as String).trim();
-  final hasUnpushed = current == branch &&
-      git(['rev-parse', '--verify', '--quiet', '@{u}'], check: false).exitCode == 0 &&
-      (git(['rev-list', '--count', '@{u}..HEAD']).stdout as String).trim() != '0';
+  // GitHub deletes origin/<you>/solutions after merging, so compare with main when the upstream is gone.
+  bool unpushed() {
+    final hasUpstream = git(['rev-parse', '--verify', '--quiet', '@{u}'], check: false).exitCode == 0;
+    if (!hasUpstream) git(['fetch', '-q', 'origin', mainBranch], check: false);
+    final base = hasUpstream ? '@{u}' : 'origin/$mainBranch';
+    final r = git(['rev-list', '--count', '$base..HEAD'], check: false);
+    return r.exitCode == 0 && (r.stdout as String).trim() != '0';
+  }
+  final hasUnpushed = current == branch && unpushed();
 
   if (own.isEmpty && !hasUnpushed) {
     stdout.writeln('Nothing to submit: no changes in your solutions/$user files.');
@@ -184,11 +190,19 @@ Future<void> _status(String user) async {
     stdout.writeln('Last submission: ${(check['head_commit']?['message'] as String? ?? '').split('\n').first} (${sha.substring(0, 7)})');
     stdout.writeln('  Check: ${_describe(check)}');
     if (check['conclusion'] == 'success') {
+      // The most reliable signal: is the pushed commit part of main now?
+      git(['fetch', '-q', 'origin', _mainBranch()], check: false);
+      final merged = git(['merge-base', '--is-ancestor', sha, 'origin/${_mainBranch()}'], check: false).exitCode == 0;
+      if (merged) {
+        stdout.writeln('  Merge: ✅ merged\n\nMerged into main ✅  Progress is updated (run git pull to see it).');
+        return;
+      }
+      // Merge runs are labelled with main's commit, not yours, so match the first one started after your check.
+      final checkStarted = DateTime.parse(check['created_at'] as String);
       final merge = (await runs('event=workflow_run'))
-          .where((r) => r['name'] == 'Merge submission' && r['head_sha'] == sha)
-          .firstOrNull;
+          .where((r) => r['name'] == 'Merge submission' && !DateTime.parse(r['created_at'] as String).isBefore(checkStarted))
+          .lastOrNull;
       stdout.writeln('  Merge: ${merge == null ? 'not started yet' : _describe(merge)}');
-      if (merge?['conclusion'] == 'success') stdout.writeln('\nMerged into main ✅  Progress is updated.');
     } else if (check['conclusion'] != null) {
       stdout.writeln('\nNot merged. See why: ${check['html_url']}');
     }
