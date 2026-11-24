@@ -23,11 +23,14 @@ Map<String, Map<String, Object?>> loadResults(Problem p) {
   }
 }
 
+/// Times below this count as equal: below ~1 ms, differences are measurement noise.
+const timeFloorUs = 1000;
+
 /// Points for each passing user of one problem: 100 × fastest time / their time.
 Map<String, double> pointsFor(Map<String, Map<String, Object?>> results) {
   final times = {
     for (final e in results.entries)
-      if (e.value['status'] == 'pass') e.key: ((e.value['timeUs'] as num?)?.toInt() ?? 0).clamp(1, 1 << 40),
+      if (e.value['status'] == 'pass') e.key: ((e.value['timeUs'] as num?)?.toInt() ?? 0).clamp(timeFloorUs, 1 << 40),
   };
   if (times.isEmpty) return {};
   final fastest = times.values.reduce((a, b) => a < b ? a : b);

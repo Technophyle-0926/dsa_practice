@@ -307,6 +307,7 @@ String _leaderboard(List<String> users, Map<String, List<Problem>> categories, M
     ..writeln()
     ..writeln('For every problem with tests that you pass, you get **100 × fastest time / your time** points:')
     ..writeln('the fastest solution gets 100, one taking twice as long gets 50. Failing solutions get 0.')
+    ..writeln('Times under 1 ms count as 1 ms (smaller differences are just measurement noise).')
     ..writeln('Times are measured on GitHub; all solutions to a problem are re-run together whenever someone')
     ..writeln('submits it, so they are compared on the same machine. '
         '$tested problem${tested == 1 ? ' has' : 's have'} tests so far.')
