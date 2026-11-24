@@ -75,7 +75,9 @@ Then GitHub takes over, no pull request needed:
 - it checks that the branch is yours, that you only changed your own solution files, and that they compile;
 - if everything passes, it merges your work into `main` and updates `PROGRESS.md`, `progress/<you>.md`
   and the "Solved by" columns (about a minute);
-  then it deletes `<you>/solutions` on GitHub (your local branch stays; the next `submit` recreates it);
+  then it deletes `<you>/solutions` on GitHub. Run `dart run tool/submit.dart --status`: once it
+  says merged, it switches you back to an up-to-date `main` and removes the finished local branch
+  (the next `submit` creates a fresh one);
 - if something fails, nothing is merged and GitHub emails you the reason.
 
 Check what happened with:

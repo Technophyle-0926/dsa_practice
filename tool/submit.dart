@@ -4,7 +4,8 @@
 //   dart run tool/submit.dart                    commit + push your solution files
 //   dart run tool/submit.dart -m "Array basics"  with your own commit message
 //   dart run tool/submit.dart --force            submit even if the analyzer reports errors
-//   dart run tool/submit.dart --status           show whether your last submission was merged
+//   dart run tool/submit.dart --status           show whether your last submission was merged;
+//                                                once it is, switches you back to an up-to-date main
 //
 // What it does:
 //   1. Picks up only YOUR files (…/solutions/<you>.dart or .md); anything else is left alone.
@@ -194,7 +195,8 @@ Future<void> _status(String user) async {
       git(['fetch', '-q', 'origin', _mainBranch()], check: false);
       final merged = git(['merge-base', '--is-ancestor', sha, 'origin/${_mainBranch()}'], check: false).exitCode == 0;
       if (merged) {
-        stdout.writeln('  Merge: ✅ merged\n\nMerged into main ✅  Progress is updated (run git pull to see it).');
+        stdout.writeln('  Merge: ✅ merged\n\nMerged into main ✅  Progress is updated.');
+        _backToMain(branch, _mainBranch());
         return;
       }
       // Merge runs are labelled with main's commit, not yours, so match the first one started after your check.
@@ -212,6 +214,42 @@ Future<void> _status(String user) async {
   } finally {
     client.close(force: true);
   }
+}
+
+/// After a merge: switch to main, fast-forward it, and delete the finished local branch.
+/// Does nothing risky: stays put with uncommitted changes or commits that aren't merged yet.
+void _backToMain(String branch, String mainBranch) {
+  final current = (git(['rev-parse', '--abbrev-ref', 'HEAD']).stdout as String).trim();
+  if (current != branch && current != mainBranch) return; // somewhere else on purpose; leave it
+  final upstream = 'origin/$mainBranch';
+  if (current == branch) {
+    if (git(['merge-base', '--is-ancestor', 'HEAD', upstream], check: false).exitCode != 0) {
+      stdout.writeln('\nYou have newer commits on $branch that aren\'t merged yet, so you stay on it.');
+      return;
+    }
+    final dirty = (git(['status', '--porcelain', '--untracked-files=no']).stdout as String).trim().isNotEmpty;
+    if (dirty) {
+      stdout.writeln('\nYou have uncommitted changes, so you stay on $branch. '
+          'Run submit when they\'re ready (or git stash them) and check again.');
+      return;
+    }
+    final sw = git(['switch', '-q', mainBranch], check: false);
+    if (sw.exitCode != 0) {
+      stdout.writeln('\nCould not switch to $mainBranch:\n${sw.stderr}');
+      return;
+    }
+  }
+  final ff = git(['merge', '-q', '--ff-only', upstream], check: false);
+  if (ff.exitCode != 0) {
+    stdout.writeln('\nCould not update $mainBranch:\n${ff.stderr}${ff.stdout}');
+    return;
+  }
+  final hasLocal = git(['rev-parse', '--verify', '--quiet', 'refs/heads/$branch'], check: false).exitCode == 0;
+  if (hasLocal && git(['merge-base', '--is-ancestor', branch, upstream], check: false).exitCode == 0) {
+    git(['branch', '-q', '-D', branch], check: false);
+  }
+  git(['remote', 'prune', 'origin'], check: false);
+  stdout.writeln('You are on $mainBranch, up to date with everyone\'s work.');
 }
 
 String _describe(Map<String, dynamic> run) {
