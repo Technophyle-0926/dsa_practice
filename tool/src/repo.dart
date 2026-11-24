@@ -100,3 +100,105 @@ String? readUser() {
 }
 
 final validUser = RegExp(r'^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$');
+
+// ---------------------------------------------------------------------------
+// Problem lookup shortcuts
+// ---------------------------------------------------------------------------
+
+String _norm(String s) => s.toLowerCase().replaceAll(RegExp(r'[^a-z0-9]'), '');
+
+/// Matches a category from a word like `array`, `3`, `03`, `linked-list`, `dp`.
+String? matchCategory(List<Problem> all, String token) {
+  const aliases = {'dp': 'dynamicprogramming', 'll': 'linkedlist', 'bits': 'bitwisealgorithms', 'bit': 'binaryindexedtree'};
+  final t = aliases[_norm(token)] ?? _norm(token);
+  if (t.isEmpty) return null;
+  final cats = <String>{for (final p in all) p.categoryDir}.toList()..sort();
+  final n = int.tryParse(token);
+  if (n != null) {
+    return cats.where((c) => int.parse(c.substring(0, 2)) == n).firstOrNull;
+  }
+  String name(String dir) => _norm(dir.substring(3));
+  return cats.where((c) => name(c) == t).firstOrNull ??
+      cats.where((c) => _norm(all.firstWhere((p) => p.categoryDir == c).category) == t).firstOrNull ??
+      (() {
+        final starts = cats.where((c) => name(c).startsWith(t)).toList();
+        return starts.length == 1 ? starts.first : null;
+      })();
+}
+
+/// Matches a level inside a category from `basic`, `easy`, `1`, `01`, `00`.
+String? matchLevel(List<Problem> all, String categoryDir, String token) {
+  final levels = <String>{for (final p in all.where((p) => p.categoryDir == categoryDir)) p.levelDir}.toList()..sort();
+  final n = int.tryParse(token);
+  if (n != null) return levels.where((l) => int.parse(l.substring(0, 2)) == n).firstOrNull;
+  final t = _norm(token);
+  return levels.where((l) => _norm(l.substring(3)) == t).firstOrNull ??
+      (() {
+        final starts = levels.where((l) => _norm(l.substring(3)).startsWith(t)).toList();
+        return starts.length == 1 ? starts.first : null;
+      })();
+}
+
+/// Resolves what a user typed into problems. Accepted forms:
+///   03_array/01_basic/05_reverse_an_array      (folder path)
+///   array basic 5   |   array 1 5   |   3 1 5   (category, level, number)
+///   reverse array   |   array reverse            (words from the title, optionally after a category)
+List<Problem> resolveProblems(List<Problem> all, List<String> input) {
+  final args = input.expand((a) => a.trim().split(RegExp(r'\s+'))).where((a) => a.isNotEmpty).toList();
+  if (args.isEmpty) return const [];
+  if (args.length == 1 && args.first.contains('/')) {
+    final p = findProblem(all, args.first);
+    return p == null ? const [] : [p];
+  }
+  var pool = all;
+  var words = args;
+  final cat = matchCategory(all, args.first);
+  if (cat != null) {
+    pool = all.where((p) => p.categoryDir == cat).toList();
+    words = args.sublist(1);
+    if (words.length == 2) {
+      final lvl = matchLevel(all, cat, words[0]);
+      final n = int.tryParse(words[1]);
+      if (lvl != null && n != null) {
+        return pool.where((p) => p.levelDir == lvl && p.number == n).toList();
+      }
+    }
+    if (words.length == 1) {
+      final lvl = matchLevel(all, cat, words[0]);
+      if (lvl != null) return pool.where((p) => p.levelDir == lvl).toList();
+    }
+    if (words.isEmpty) return pool;
+  }
+  final needles = words.map(_norm).where((w) => w.isNotEmpty).toList();
+  final hits = pool.where((p) {
+    final hay = _norm(p.title);
+    return needles.every(hay.contains);
+  }).toList();
+  final exact = hits.where((p) => _norm(p.title) == needles.join()).toList();
+  return exact.length == 1 ? exact : hits;
+}
+
+/// Short command a person can type to reach [p], e.g. `array basic 5`.
+String shortcut(Problem p) => '${p.categoryDir.substring(3)} ${p.levelDir.substring(3)} ${p.number}';
+
+// ---------------------------------------------------------------------------
+// Process helpers
+// ---------------------------------------------------------------------------
+
+ProcessResult git(List<String> args, {bool check = true}) {
+  final r = Process.runSync('git', args, workingDirectory: repoRoot.path);
+  if (check && r.exitCode != 0) {
+    stderr.writeln('git ${args.join(' ')} failed:\n${r.stderr}${r.stdout}');
+    exit(1);
+  }
+  return r;
+}
+
+String requireUser() {
+  final u = readUser();
+  if (u == null) {
+    stderr.writeln('Set your GitHub username first:\n  dart run tool/start.dart --user <github-username>');
+    exit(1);
+  }
+  return u;
+}

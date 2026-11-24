@@ -8,10 +8,13 @@ Practising the [GeeksforGeeks DSA Tutorial](https://www.geeksforgeeks.org/dsa/ds
 
 ```sh
 dart pub get
-dart run tool/start.dart --user <your-github-username>     # once
-dart run tool/start.dart 03_array/01_basic/05_reverse_an_array
-dart run 03_array/01_basic/05_reverse_an_array/solutions/<your-github-username>.dart
-dart run tool/progress.dart --me                           # your progress
+dart run tool/start.dart --user <your-github-username>   # once
+
+dart run tool/next.dart                 # opens your next problem (or: next array / next array easy)
+dart run tool/start.dart array basic 5  # or open a specific one (also: start reverse array)
+# ...write the solution, run it with the command it prints...
+dart run tool/submit.dart               # sends your solutions to GitHub
+dart run tool/progress.dart --me        # your progress
 ```
 
 New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
@@ -29,6 +32,8 @@ New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
         <github-username>.dart   one file per contributor (.md notes for reading items)
 lib/ds.dart                      ListNode, DListNode, TreeNode helpers
 tool/start.dart                  creates your solution file from the signature
+tool/next.dart                   opens your next unsolved problem
+tool/submit.dart                 commits + pushes your solutions and opens the pull request
 tool/progress.dart               builds PROGRESS.md, progress/<user>.md and the "Solved by" columns
 ```
 
