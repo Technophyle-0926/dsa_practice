@@ -14,13 +14,19 @@ Output : 3
 Explanation : 50 has 3 children having values 40, 100 and 20.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int childrenNodeNAryTree(int x)
+int childrenNodeNAryTree(int root, Map<int, List<int>> children, int x)
 ```
 
+> **Note:** Return 0 if x is a leaf or absent. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `childrenNodeNAryTree(50, {50: [40, 100, 20], 40: [70]}, 50)` → `3`
+<!-- signature:end -->
 
 ## Links
 

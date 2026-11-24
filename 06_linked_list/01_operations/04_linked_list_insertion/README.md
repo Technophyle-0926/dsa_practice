@@ -16,13 +16,17 @@ Insertion in a linked list involves adding a new node at a specified position in
 
 To insert a new node at the front, we create a new node and point its next reference to the current head of the linked list. Then, we update the head to be this new node. This operation is efficient because it only requires adjusting a few pointers.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic linkedListInsertion(/* not set yet */)
+ListNode? insertAtPosition(ListNode? head, int pos, int val)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert val so it becomes the node at 1-based position pos (1 = front, length+1 = end) and return the head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

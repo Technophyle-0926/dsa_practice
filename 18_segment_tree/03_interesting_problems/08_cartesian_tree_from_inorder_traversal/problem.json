@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/cartesian-tree-from-inorder-traversal-segment-tree/",
   "practice": null,
   "function": {
-    "name": "cartesianTreeInorderTraversal",
+    "name": "cartesianTreeFromInorder",
     "params": [
       {
         "name": "arr",
         "type": "List<int>"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "Build the max-heap Cartesian tree whose inorder traversal is arr; expected shown in level order."
   },
   "example": {
-    "call": "cartesianTreeInorderTraversal([1, 5, 3])",
-    "expected": "1 5 3"
+    "call": "cartesianTreeFromInorder([1, 5, 3])",
+    "expected": "[5, 1, 3]"
   }
 }

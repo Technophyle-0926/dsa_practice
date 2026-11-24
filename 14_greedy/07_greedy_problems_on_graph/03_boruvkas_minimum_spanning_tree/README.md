@@ -22,13 +22,17 @@ In this post, Boruvka's algorithm is discussed. Like Prim's and Kruskal's, Boruv
 5) Return MST.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic boruvkasMinimumSpanningTree(/* not set yet */)
+int boruvkasMST(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v, w] with vertices 0..V-1 (connected graph); return the total MST weight.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

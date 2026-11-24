@@ -19,6 +19,7 @@ Input: 10 -> 4 -> 20 -> 10 -> 3, x = 3
 Output: 3 -> 10 -> 4 -> 20 -> 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ ListNode? partitionList(ListNode? head, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partitionList(ListNode.fromList([1, 4, 3, 2, 5, 2, 3]), 3)` → `1 -> 2 -> 2 -> 3 -> 3 -> 4 -> 5`
+<!-- signature:end -->
 
 ## Links
 

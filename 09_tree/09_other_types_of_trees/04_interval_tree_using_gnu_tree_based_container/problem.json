@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/interval-tree-using-gnu-tree-based-container/",
   "practice": null,
   "function": {
-    "name": "intervalTreeGnuTreeBased",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "intervalTreeOps",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "ops[i] is 'add', 'remove' or 'overlap' with args[i] = [low, high] (closed intervals); returns, for each 'overlap', whether it overlaps any stored interval."
   },
-  "example": null
+  "example": {
+    "call": "intervalTreeOps([\"add\", \"add\", \"overlap\", \"remove\", \"overlap\"], [[15, 20], [10, 30], [25, 26], [10, 30], [25, 26]])",
+    "expected": "[true, false]"
+  }
 }

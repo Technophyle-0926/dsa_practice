@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-circular-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/deletion-and-reverse-in-linked-list/1",
   "function": {
-    "name": "deletionCircularLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteFromCircularList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "The input is a circular list: the harness links the tail back to head before calling. Delete the node at 1-based position pos and return the remaining values traversed once from the (new) head."
   },
   "example": null
 }

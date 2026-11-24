@@ -38,6 +38,7 @@ Examples that are not valid:
 The total count of numbers containing digit 3 exactly once in the range [100, 500] is 135.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -45,6 +46,9 @@ int digitDp(int a, int b, int d, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `digitDp(50, 250, 2, 2)` → `14`
+<!-- signature:end -->
 
 ## Links
 

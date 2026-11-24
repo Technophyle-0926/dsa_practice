@@ -20,6 +20,7 @@ Output: ["a"]
 Explanation: Every subsequence common to `"`baaa and `"ca"` of maximum length 1, is `["a"]`.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<String> printAllLongestCommonSub(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printAllLongestCommonSub("abac", "aabca")` → `["aac", "aba", "abc"]`
+<!-- signature:end -->
 
 ## Links
 

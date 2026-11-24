@@ -114,13 +114,19 @@ Notwithstanding, because of their qualities, we can likewise utilize RB trees as
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic applicationsAdvantagesDisadvantages(/* not set yet */)
+int blackHeight(TreeNode? root, Map<int, String> colors)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; colors maps node value to "R"/"B"; return the number of black nodes on any root-to-NIL path (NIL not counted), or -1 if paths disagree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `blackHeight(TreeNode.fromLevelOrder([10, 5, 20]), {10: "B", 5: "R", 20: "R"})` → `1`
+<!-- signature:end -->
 
 ## Links
 

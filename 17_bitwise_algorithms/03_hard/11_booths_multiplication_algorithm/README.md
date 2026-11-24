@@ -22,13 +22,19 @@ Output :  qn      q[n+1]                  AC      QR     sc(step count)
 Result=1100
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic boothsMultiplicationAlgorithm(int n, int n2)
+String boothsMultiplicationAlgorithm(String multiplicand, String multiplier)
 ```
 
+> **Note:** Inputs are n-bit two's complement strings (multiplicand BR, multiplier QR); return the 2n-bit product AC+QR.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `boothsMultiplicationAlgorithm("0110", "0010")` → `"00001100"`
+<!-- signature:end -->
 
 ## Links
 

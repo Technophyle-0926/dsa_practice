@@ -23,13 +23,19 @@ Output: true false true false true
 Explanation: Initial state: Components = [[0], [1], [2], [3], [4]]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String dynamicConnectivity1Incremental(int V, List<List<int>> queries)
+List<bool> dynamicConnectivity1Incremental(int V, List<List<int>> queries)
 ```
 
+> **Note:** Query [1, u, v] adds an edge, [2, u, v] asks connectivity; returns the answers of type-2 queries.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dynamicConnectivity1Incremental(5, [[1, 0, 1], [2, 0, 1], [2, 1, 2], [1, 0, 2], [2, 1, 2], [1, 3, 4], [2, 2, 4], [1, 1, 3], [2, 2, 4]])` → `[true, false, true, false, true]`
+<!-- signature:end -->
 
 ## Links
 

@@ -16,13 +16,19 @@ fun1() prints the given Linked List in the reverse way. For Linked List 1->2->3-
 
 fun2() prints alternate nodes of the given Linked List, first from head to end, and then from end to head. If Linked List has even number of nodes, then fun2() skips the last node. For Linked List 1->2->3->4->5, fun2() prints 1 3 5 5 3 1. For Linked List 1->2->3->4->5->6, fun2() prints 1 3 5 5 3 1.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsLinkedListRecursion(/* not set yet */)
+List<int> alternateForwardBackward(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implements fun2: values of alternate nodes from head to end, then the same nodes from end to head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `alternateForwardBackward(ListNode.fromList([1, 2, 3, 4, 5]))` → `[1, 3, 5, 5, 3, 1]`
+<!-- signature:end -->
 
 ## Links
 

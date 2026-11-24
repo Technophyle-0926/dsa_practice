@@ -22,13 +22,19 @@ Explanation: [2, 5, 1, 8] is the range 2..5 and 2 is the 2nd smallest number in 
 [3, 2, 5, 1, 8, 9] is the range 1..6 and 5 is the 4th smallest number in it.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mergeSortTreeRangeOrder(/* not set yet */)
+List<int> kthSmallestInRange(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query is [start, end, k] with 1-based inclusive indices; return the k-th smallest in each range.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthSmallestInRange([3, 2, 5, 1, 8, 9], [[2, 5, 2], [1, 6, 4]])` → `[2, 5]`
+<!-- signature:end -->
 
 ## Links
 

@@ -6,13 +6,19 @@
 
 Given two sorted arrays A and B, generate all possible arrays such that the first element is taken from A then from B then from A, and so on in increasing order till the arrays are exhausted. The generated arrays should end with an element from B.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic generateAllPossibleSortedArrays(/* not set yet */)
+List<List<int>> sortedArraysFromAlternate(List<int> a, List<int> b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Arrays alternate a, b, a, b, ... strictly increasing and end with an element of b; listed in DFS order as in the example.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortedArraysFromAlternate([10, 15, 25], [1, 5, 20, 30])` → `[[10, 20], [10, 20, 25, 30], [10, 30], [15, 20], [15, 20, 25, 30], [15, 30], [25, 30]]`
+<!-- signature:end -->
 
 ## Links
 

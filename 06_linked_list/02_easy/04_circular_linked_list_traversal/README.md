@@ -26,13 +26,19 @@ Output: 2 5 7 8 10
 Explanation: The traversal begins at head node 2, then subsequent nodes 5, 7, 8, and 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic circularLinkedListTraversal(/* not set yet */)
+List<int> circularListTraversal(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The input is a circular list: the harness links the tail back to head before calling. Return the values visited once starting at head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `circularListTraversal(ListNode.fromList([1, 7, 8, 10]))` → `[1, 7, 8, 10]`
+<!-- signature:end -->
 
 ## Links
 

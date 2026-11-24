@@ -21,6 +21,7 @@ Output: 6
 Explanation: The cheapest option is to start from step with index 1on cost[0], and only step on 1s, skipping cost[3].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int weightedClimbingStairs(List<int> cost)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `weightedClimbingStairs([10, 15, 20])` → `15`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,6 +22,7 @@ Output: 0.5
 Explanation: After the first glass, 1 units of water will remain and they will spread equally on the two glasses on the second row. Therefore, the glass on the 2nd row and 2nd column will have half unit of water.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ double waterOverflow(int k, int r, int c)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waterOverflow(3, 2, 1)` → `1.000000`
+<!-- signature:end -->
 
 ## Links
 

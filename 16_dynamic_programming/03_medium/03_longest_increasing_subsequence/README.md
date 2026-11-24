@@ -30,6 +30,7 @@ Output: 4
 Explanation: The longest strictly increasing subsequence is `[1, 2, 3, 4]`, which gives a maximum length of 4. (Note: `[3, 4, 5]` is also an increasing subsequence, but its length is only 3).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ int longestIncreasingSubsequence(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestIncreasingSubsequence([3, 10, 2, 1, 20])` → `3`
+<!-- signature:end -->
 
 ## Links
 

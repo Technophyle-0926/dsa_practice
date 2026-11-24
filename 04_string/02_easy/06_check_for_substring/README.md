@@ -26,6 +26,7 @@ Output: -1
 Explanation: "gr" is not present in the string "GeeksForGeeks" as substring.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int checkSubstring(String txt, String pat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkSubstring("GeeksForGeeks", "Fr")` → `-1`
+<!-- signature:end -->
 
 ## Links
 

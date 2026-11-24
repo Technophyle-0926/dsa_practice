@@ -24,6 +24,7 @@ Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Explanation:  The sorted array will be 1 2 3 4 5 6 7 8 9 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> sortNearlySorted(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortNearlySorted([2, 3, 1, 4], 2)` → `[1, 2, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

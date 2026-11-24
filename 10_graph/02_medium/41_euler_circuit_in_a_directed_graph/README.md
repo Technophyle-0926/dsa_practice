@@ -10,13 +10,19 @@ A graph is said to be eulerian if it has a eulerian cycle. We have discussed eul
 
 For example, the following graph has eulerian cycle as {1, 0, 3, 4, 0, 2, 1}
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic eulerCircuitDirectedGraph(/* not set yet */)
+bool isEulerianDirected(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** adj[u] lists directed edges u -> v; vertices with no edges may be ignored for connectivity.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isEulerianDirected([[2, 3], [0], [1], [4], [0]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,6 +26,7 @@ Output: 2
 Explanation: Missing are 1, 2, 4, 6, 7, 8, 13,...  and 2nd missing number is 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int kthMissingPositiveNumberSorted(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthMissingPositiveNumberSorted([2, 3, 4, 7, 11], 5)` → `9`
+<!-- signature:end -->
 
 ## Links
 

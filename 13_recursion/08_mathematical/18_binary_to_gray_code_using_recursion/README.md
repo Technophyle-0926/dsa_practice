@@ -22,6 +22,7 @@ Output: 10
 Explanation: The Gray Code for binary 11 is 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int binaryGrayCodeRecursion(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryGrayCodeRecursion(1001)` → `1101`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,13 +26,17 @@ Output: [4, 2, 5, 1, 3, 6]
 Explanation: Inorder Traversal (Left -> Root -> Right). Visit 4 -> 2 -> 5 -> 1 -> 3 -> 6, resulting in 4 2 5 1 3 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic inorderTraversal(/* not set yet */)
+List<int> inorderTraversal(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `inorderTraversal(TreeNode.fromLevelOrder([1, 2, 3]))` → `[2, 1, 3]`
+<!-- signature:end -->
 
 ## Links
 

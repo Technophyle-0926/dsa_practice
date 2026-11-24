@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/reverse-doubly-linked-list-using-recursion/",
   "practice": null,
   "function": {
-    "name": "reverseDoublyLinkedListRecursion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "reverseDoublyLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "reverseDoublyLinkedList(DListNode.fromList([1, 2, 3, 4]))",
+    "expected": "4 <-> 3 <-> 2 <-> 1"
+  }
 }

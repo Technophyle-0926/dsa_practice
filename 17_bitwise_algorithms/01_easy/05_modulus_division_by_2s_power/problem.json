@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/compute-modulus-division-by-a-power-of-2-number/",
   "practice": null,
   "function": {
-    "name": "modulusDivision2sPower",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "modulusPowerOfTwo",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "d",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "modulusPowerOfTwo(6, 4)",
+    "expected": "2"
+  }
 }

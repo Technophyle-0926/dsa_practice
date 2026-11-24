@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/k-largestor-smallest-elements-in-an-array/",
   "practice": "https://www.geeksforgeeks.org/problems/k-largest-elements4206/1",
   "function": {
-    "name": "kThSmallest",
+    "name": "kLargestElements",
     "params": [
       {
         "name": "arr",
@@ -19,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Returns the k largest elements in decreasing order."
   },
   "example": {
-    "call": "kThSmallest([12, 5, 787, 1, 23], 2)",
+    "call": "kLargestElements([12, 5, 787, 1, 23], 2)",
     "expected": "[787, 23]"
   }
 }

@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/graph-coloring-set-2-greedy-algorithm/",
   "practice": null,
   "function": {
-    "name": "graphColoring",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "greedyColoring",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Undirected edges; color vertices 0..V-1 in order, each with the smallest color (starting at 0) not used by an already-colored neighbour; return the colors."
   },
   "example": null
 }

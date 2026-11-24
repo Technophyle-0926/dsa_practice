@@ -34,13 +34,19 @@ So the sum is -15
 - Segment tree
 - Lazy propagation in segment tree
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic flippingSignProblem(/* not set yet */)
+List<int> flipSignRangeSum(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Query [1, l, r] negates arr[l..r]; [2, l, r] asks the sum of arr[l..r] (0-based); return answers of type-2 queries.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `flipSignRangeSum([1, 2, 3, 4, 5], [[1, 0, 2], [2, 0, 4]])` → `[3]`
+<!-- signature:end -->
 
 ## Links
 

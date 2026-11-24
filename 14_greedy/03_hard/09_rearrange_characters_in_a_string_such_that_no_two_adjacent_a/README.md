@@ -26,6 +26,7 @@ Output: false
 Explanation: No combinations possible such that two adjacent characters are different.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool rearrangeCharactersStringSuchThat(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rearrangeCharactersStringSuchThat("aaabc")` → `true`
+<!-- signature:end -->
 
 ## Links
 

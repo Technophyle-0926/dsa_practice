@@ -22,6 +22,7 @@ Output: 6
 Explanation: Buy 3 stocks on day 3 for 4 each, 1 stock on day 1 for 7, and 2 stocks on day 2 for 10 each. Hence, the maximum number of stocks purchased is 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int buyMaximumStocks(List<int> price, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `buyMaximumStocks([10, 7, 19], 45)` → `4`
+<!-- signature:end -->
 
 ## Links
 

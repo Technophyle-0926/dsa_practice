@@ -29,13 +29,19 @@ Output: [[0, 1], [1, 2], [2, 3]]
 Explanation: If we disconnect the edges (0, 1) or (1, 2)  or (3, 4), the graph gets divided into multiple disconnected components. Hence, these edges are bridges.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bridgesGraph(/* not set yet */)
+List<List<int>> findBridges(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each bridge as [u, v] with u < v; list sorted ascending.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findBridges([[1, 2, 3], [0, 2], [0, 1], [0, 4], [3]])` → `[[0, 3], [3, 4]]`
+<!-- signature:end -->
 
 ## Links
 

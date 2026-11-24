@@ -7,10 +7,30 @@
   "article": "https://www.geeksforgeeks.org/dsa/check-destination-reachable-source-two-movements-allowed/",
   "practice": null,
   "function": {
-    "name": "checkIfDestinationReachableSource",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isReachable",
+    "params": [
+      {
+        "name": "x1",
+        "type": "int"
+      },
+      {
+        "name": "y1",
+        "type": "int"
+      },
+      {
+        "name": "x2",
+        "type": "int"
+      },
+      {
+        "name": "y2",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "isReachable(2, 10, 26, 12)",
+    "expected": "true"
+  }
 }

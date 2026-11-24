@@ -34,13 +34,17 @@ greater than 5 in AVL tree which are 6, 9,
 - **Insertion** - When we insert a node we increment one to child field of every predecessor of the new node. In the leftRotate and rightRotate functions we make appropriate changes in the value of child fields of nodes.
 - **Deletion** - When we delete a node then we decrement one from every predecessor node of deleted node. Again, In the leftRotate and rightRotate functions we make appropriate changes in the value of child fields of nodes.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic countGreaterNodesAvlTree(/* not set yet */)
+int countGreaterNodes(TreeNode? root, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countGreaterNodes(TreeNode.fromLevelOrder([9, 1, 10, 0, 5, null, 11, -1, null, 2, 6]), 5)` → `4`
+<!-- signature:end -->
 
 ## Links
 

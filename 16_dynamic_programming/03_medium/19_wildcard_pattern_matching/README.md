@@ -31,13 +31,19 @@ Given a text **t** and a pattern **p** where t consists of only lowercase Englis
 `Explanation: ``Note that * can match 0 occurrences also.`
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic wildcardPatternMatching(/* not set yet */)
+bool wildcardPatternMatching(String t, String p)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** '.' matches any single char, '*' matches zero or more of the preceding char; match the whole text.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wildcardPatternMatching("aaa", "a")` → `false`
+<!-- signature:end -->
 
 ## Links
 

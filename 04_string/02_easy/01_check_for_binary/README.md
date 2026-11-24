@@ -18,6 +18,7 @@ Input: s = "geeks101"
 Output: false
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ bool checkBinary(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkBinary("01010101010")` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,31 @@
   "article": "https://www.geeksforgeeks.org/dsa/efficiently-implement-k-stacks-single-array/",
   "practice": "https://www.geeksforgeeks.org/problems/implement-k-stacks-in-an-array/1",
   "function": {
-    "name": "kStacksArray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kStacks",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'push' (args[i] = [x, i]) or 'pop' (args[i] = [i]) with 0-based stack index i; returns every popped value in order, -1 if that stack is empty (a push into a full array is ignored)."
   },
-  "example": null
+  "example": {
+    "call": "kStacks(6, 3, [\"push\", \"push\", \"push\", \"pop\", \"pop\", \"pop\"], [[15, 0], [45, 0], [17, 1], [0], [1], [2]])",
+    "expected": "[45, 17, -1]"
+  }
 }

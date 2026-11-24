@@ -10,16 +10,17 @@
     "name": "calculateBitwiseOrTwoIntegers",
     "params": [
       {
-        "name": "X",
+        "name": "x",
         "type": "int"
       },
       {
-        "name": "Y",
+        "name": "y",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "x is A ^ B and y is A & B; return A | B."
   },
   "example": {
     "call": "calculateBitwiseOrTwoIntegers(5, 2)",

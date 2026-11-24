@@ -28,13 +28,17 @@ Count substrings with same first and last characters
 
 In this article, a simple recursive solution is discussed.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int recursiveSolutionCountSubstringsSame(String S)
+int countSubstringsSameFirstLast(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countSubstringsSameFirstLast("abcab")` → `7`
+<!-- signature:end -->
 
 ## Links
 

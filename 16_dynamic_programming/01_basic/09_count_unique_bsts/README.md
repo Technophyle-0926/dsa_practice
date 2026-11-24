@@ -20,6 +20,7 @@ Output: 5
 Explanation: for n = 3, there are 5 possible BSTs.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int countUniqueBsts(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countUniqueBsts(2)` → `2`
+<!-- signature:end -->
 
 ## Links
 

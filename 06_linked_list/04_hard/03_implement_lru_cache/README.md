@@ -13,13 +13,19 @@ Least Recently Used (LRU) is a cache eviction policy that keeps track of how rec
 Example: If a cache can store 3 pages and the access sequence is A -> B -> C -> A -> D, page B is evicted because it is the least recently used (LRU) item.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic implementLruCache(/* not set yet */)
+List<int> lruCache(int capacity, List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'put' (args[i] = [key, value]) or 'get' (args[i] = [key]); returns the result of each get (-1 if missing).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lruCache(2, ["put", "put", "put", "put", "put", "get", "put", "get"], [[1, 2], [2, 3], [1, 5], [4, 5], [6, 7], [4], [1, 2], [3]])` → `[5, -1]`
+<!-- signature:end -->
 
 ## Links
 

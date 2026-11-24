@@ -27,13 +27,19 @@ Output: 1
 Explanation: 1 is the smallest number possible with the sum of digits = 1 and total digits = 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int smallestNDigitsDigitsSum(int s, int d)
+String smallestNDigitsDigitsSum(int s, int d)
 ```
 
+> **Note:** Return the number as a string, or "-1" if no such number exists.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestNDigitsDigitsSum(9, 2)` → `"18"`
+<!-- signature:end -->
 
 ## Links
 

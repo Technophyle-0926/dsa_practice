@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/check-binary-representation-number-palindrome/",
   "practice": "https://www.geeksforgeeks.org/problems/palindrome-numbers0942/1",
   "function": {
-    "name": "checkIfBinaryPalindrome",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isBinaryPalindrome",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Binary representation without leading zeros."
   },
-  "example": null
+  "example": {
+    "call": "isBinaryPalindrome(9)",
+    "expected": "true"
+  }
 }

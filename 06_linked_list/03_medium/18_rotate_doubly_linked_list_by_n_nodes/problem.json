@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/rotate-doubly-linked-list-n-nodes/",
   "practice": "https://www.geeksforgeeks.org/problems/rotate-doubly-linked-list-by-p-nodes/1",
   "function": {
-    "name": "rotateDoublyLinkedListN",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "rotateDoublyLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      },
+      {
+        "name": "p",
+        "type": "int"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true,
+    "note": "Rotate counter-clockwise (left) by p nodes."
   },
-  "example": null
+  "example": {
+    "call": "rotateDoublyLinkedList(DListNode.fromList([1, 2, 3, 4, 5, 6]), 2)",
+    "expected": "3 <-> 4 <-> 5 <-> 6 <-> 1 <-> 2"
+  }
 }

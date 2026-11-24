@@ -26,13 +26,17 @@ Output: 4
 Explanation: The below diagram represents a tree with 11 nodes and 10 edges and the path that gives us the maximum height when node 2 is considered as a root.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maxHeightTreeWhenAny(/* not set yet */)
+int maxHeightAnyRoot(int n, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tree with nodes 1..n, edges[i] = [u, v]; height is counted in edges; return the max height over all choices of root.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

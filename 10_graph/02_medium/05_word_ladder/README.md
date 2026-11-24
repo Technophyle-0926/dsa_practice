@@ -1,4 +1,4 @@
-# 5. Check for Bipartite
+# 5. Word Ladder
 
 **Category:** Graph → Medium
 
@@ -29,13 +29,17 @@ Output: 7
 Explanation: The length of the smallest transformation sequence from "toon" to "plea" is 7 i.e toon -> poon -> poin -> poie -> plie -> plee -> plea.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int checkBipartite(List<String> words, String start, String end)
+int wordLadder(List<String> words, String start, String end)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordLadder(["des", "der", "dfr", "dgt", "dfs"], "der", "dfs")` → `3`
+<!-- signature:end -->
 
 ## Links
 
@@ -47,7 +51,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 10_graph/02_medium/05_check_for_bipartite
+dart run tool/start.dart 10_graph/02_medium/05_word_ladder
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

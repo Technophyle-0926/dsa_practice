@@ -56,13 +56,19 @@ back(2): Moving two steps back, takes us to google.com
 back(7):  We need to move 7 steps back, but only 1 url is available. Therefore we would return geeksforgeeks.org.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic designBrowserHistory(/* not set yet */)
+List<String> browserHistory(String homepage, List<String> ops, List<String> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'visit' (args[i] = url), 'back' or 'forward' (args[i] = steps as a decimal string); returns the current URL after each back/forward.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `browserHistory("geeksforgeeks.org", ["visit", "back"], ["amazon.com", "2"])` → `["geeksforgeeks.org"]`
+<!-- signature:end -->
 
 ## Links
 

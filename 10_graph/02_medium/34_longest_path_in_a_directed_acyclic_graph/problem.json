@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-longest-path-directed-acyclic-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/longest-path-in-a-directed-acyclic-graph/1",
   "function": {
-    "name": "longestPathDirectedAcyclicGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "longestPathDag",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<List<int>>>"
+      },
+      {
+        "name": "src",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "adj[u] holds [v, w] pairs; unreachable vertices get INT_MIN = -2147483648."
   },
-  "example": null
+  "example": {
+    "call": "longestPathDag([[[1, 1], [2, 1]], [[2, 5]], [], [[1, 2], [2, -1]]], 0)",
+    "expected": "[0, 1, 6, -2147483648]"
+  }
 }

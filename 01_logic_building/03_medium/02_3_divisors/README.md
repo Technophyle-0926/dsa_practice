@@ -20,6 +20,7 @@ Output: [0, 2]
 Explanation: For query[0], the answer is 0. For query[1], there are two numbers 4 and 9 having exactly 3 divisors.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> solve3Divisors(List<int> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve3Divisors([6])` → `[1]`
+<!-- signature:end -->
 
 ## Links
 

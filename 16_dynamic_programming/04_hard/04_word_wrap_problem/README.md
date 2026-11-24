@@ -21,6 +21,7 @@ Output: 22
 Explanation: We collects the maximum value as 22 (7 + 15).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int wordWrapProblem(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordWrapProblem([5, 3, 7, 10])` → `15`
+<!-- signature:end -->
 
 ## Links
 

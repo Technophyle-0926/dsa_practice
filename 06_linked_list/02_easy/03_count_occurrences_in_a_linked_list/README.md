@@ -23,6 +23,7 @@ Output : 0
 Explanation: key equals to 3 has 0 occurrences.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int countOccurrencesLinkedList(ListNode? head, int key)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countOccurrencesLinkedList(ListNode.fromList([1, 2, 1, 2, 1, 3, 1]), 1)` → `4`
+<!-- signature:end -->
 
 ## Links
 

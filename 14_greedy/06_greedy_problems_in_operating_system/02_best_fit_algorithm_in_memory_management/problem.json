@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-best-fit-algorithm-memory-management/",
   "practice": null,
   "function": {
-    "name": "bestFitAlgorithmMemoryManagement",
+    "name": "bestFitAllocation",
     "params": [
       {
         "name": "blockSize",
@@ -18,11 +18,12 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return the 1-based block number allocated to each process, or -1 if not allocated."
   },
   "example": {
-    "call": "bestFitAlgorithmMemoryManagement([100, 500, 200, 300, 600], [212, 417, 112, 426])",
-    "expected": "Process No.    Process Size    Block no."
+    "call": "bestFitAllocation([100, 500, 200, 300, 600], [212, 417, 112, 426])",
+    "expected": "[4, 2, 3, 5]"
   }
 }

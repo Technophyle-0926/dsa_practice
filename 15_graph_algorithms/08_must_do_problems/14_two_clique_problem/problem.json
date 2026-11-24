@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/two-clique-problem-check-graph-can-divided-two-cliques/",
   "practice": null,
   "function": {
-    "name": "twoCliqueProblem",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "canDivideIntoTwoCliques",
+    "params": [
+      {
+        "name": "g",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "canDivideIntoTwoCliques([[0, 1, 1, 1, 0], [1, 0, 1, 0, 0], [1, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 0, 0, 1, 0]])",
+    "expected": "true"
+  }
 }

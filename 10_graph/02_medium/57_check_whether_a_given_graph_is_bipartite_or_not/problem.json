@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/bipartite-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/bipartite-graph/1",
   "function": {
-    "name": "checkWhetherGivenGraphBipartite",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isBipartite",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "isBipartite([[1], [0, 2], [1]])",
+    "expected": "true"
+  }
 }

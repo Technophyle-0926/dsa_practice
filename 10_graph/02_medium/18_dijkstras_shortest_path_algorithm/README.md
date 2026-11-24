@@ -24,13 +24,19 @@ Explanation:  Shortest Paths:
 0 -> 4 = 10: Path 0 -> 1 -> 4 gives total cost 4 + 6 = 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic dijkstrasShortestPathAlgorithm(/* not set yet */)
+List<int> dijkstra(List<List<List<int>>> adj, int src)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** adj[u] holds [v, w] pairs.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dijkstra([[[1, 4], [2, 8]], [[0, 4], [4, 6], [2, 3]], [[0, 8], [3, 2], [1, 3]], [[2, 2], [4, 10]], [[1, 6], [3, 10]]], 0)` → `[0, 4, 7, 9, 10]`
+<!-- signature:end -->
 
 ## Links
 

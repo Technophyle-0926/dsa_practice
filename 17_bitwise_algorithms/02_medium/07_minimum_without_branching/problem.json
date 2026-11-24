@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/compute-the-minimum-or-maximum-max-of-two-integers-without-branching/",
   "practice": null,
   "function": {
-    "name": "minimumWithoutBranching",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minWithoutBranching",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return min(x, y) using bitwise operations, without branching."
   },
   "example": null
 }

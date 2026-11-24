@@ -24,6 +24,7 @@ Input: n = 1
 Output: [1, 0]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> printBitwiseNumberN(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printBitwiseNumberN(5)` → `[5, 4, 1, 0]`
+<!-- signature:end -->
 
 ## Links
 

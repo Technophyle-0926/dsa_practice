@@ -27,6 +27,7 @@ Output: 0
 Explanation: There is no span where the sum of the elements in a1[] and a2[] is equal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int longestCommonSumSpan(List<int> a1, List<int> a2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestCommonSumSpan([0, 1, 0, 0, 0, 0], [1, 0, 1, 0, 0, 1])` → `4`
+<!-- signature:end -->
 
 ## Links
 

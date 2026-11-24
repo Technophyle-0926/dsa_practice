@@ -29,6 +29,7 @@ Output: 20
 Explanation: The value of 6C3 is (6 × 5 × 4) / (3 × 2 × 1) = 20.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int binomialCoefficient(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binomialCoefficient(4, 2)` → `6`
+<!-- signature:end -->
 
 ## Links
 

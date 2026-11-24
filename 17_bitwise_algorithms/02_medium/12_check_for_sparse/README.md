@@ -24,6 +24,7 @@ Explanation:  Binary representation of 12 is 1100.
 Third and fourth bits (from end) are set.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ bool checkSparse(int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkSparse(72)` → `true`
+<!-- signature:end -->
 
 ## Links
 

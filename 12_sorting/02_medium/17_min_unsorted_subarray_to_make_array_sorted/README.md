@@ -28,6 +28,7 @@ Output: [0, 2]
 Explanation: We need to sort the whole array to make it sorted
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> minUnsortedSubarrayMakeArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minUnsortedSubarrayMakeArray([10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60])` → `[3, 8]`
+<!-- signature:end -->
 
 ## Links
 

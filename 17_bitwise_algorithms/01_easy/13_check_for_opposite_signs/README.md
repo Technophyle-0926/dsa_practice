@@ -26,6 +26,7 @@ Output: true
 Explanation: One number is negative and the other is positive, so their signs are different.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool checkOppositeSigns(int a, int b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkOppositeSigns(-5, 10)` → `true`
+<!-- signature:end -->
 
 ## Links
 

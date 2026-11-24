@@ -29,13 +29,17 @@ Explanation: 1 has only one divisor (1 itself), which is not sufficient for it t
 For Visual: Prime Number Checker Utility
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic primeTesting(/* not set yet */)
+bool isPrime(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isPrime(7)` → `true`
+<!-- signature:end -->
 
 ## Links
 

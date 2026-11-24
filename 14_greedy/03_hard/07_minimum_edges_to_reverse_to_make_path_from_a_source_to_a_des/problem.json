@@ -7,10 +7,31 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-edges-reverse-make-path-source-destination/",
   "practice": "https://www.geeksforgeeks.org/problems/minimum-edges/1",
   "function": {
-    "name": "minimumEdgesReverseMakePath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minEdgesToReverse",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "src",
+        "type": "int"
+      },
+      {
+        "name": "dst",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Vertices are 1-based; return -1 if no path is possible."
   },
-  "example": null
+  "example": {
+    "call": "minEdgesToReverse(3, [[1, 2], [3, 2]], 1, 3)",
+    "expected": "1"
+  }
 }

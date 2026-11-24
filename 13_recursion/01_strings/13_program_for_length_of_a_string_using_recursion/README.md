@@ -23,6 +23,7 @@ We have also covered this topic—feel free to check it out as well
 How to find length of a string without string.h and loop in C?
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int programLengthStringRecursion(String str)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `programLengthStringRecursion("abcd")` → `4`
+<!-- signature:end -->
 
 ## Links
 

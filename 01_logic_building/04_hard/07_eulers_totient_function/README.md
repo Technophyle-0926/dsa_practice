@@ -26,6 +26,7 @@ Output:  8
 Explanation: From 1 to 16, 1,3,5,7,9,11,13,15  are relatively prime to 16.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int eulersTotientFunction(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `eulersTotientFunction(11)` → `10`
+<!-- signature:end -->
 
 ## Links
 

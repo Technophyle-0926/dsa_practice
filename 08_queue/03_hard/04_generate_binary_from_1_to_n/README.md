@@ -20,6 +20,7 @@ Output: ["1", "10", "11", "100", "101", "110"]
 Explanation: Binary numbers from 1 to 6 are 1, 10, 11, 100, 101 and 110.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<String> generateBinary1N(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `generateBinary1N(4)` → `["1", "10", "11", "100"]`
+<!-- signature:end -->
 
 ## Links
 

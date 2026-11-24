@@ -43,6 +43,7 @@ Output: 0
 Explanation: Total 0 steps will be taken.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -50,6 +51,9 @@ int towerHanoi(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `towerHanoi(2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -8,13 +8,17 @@ On some rare machines where branching is expensive, the below obvious approach t
 
 Below are the methods to get minimum(or maximum) without using branching. Typically, the obvious approach is best, though.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumWithoutBranching(/* not set yet */)
+int minWithoutBranching(int x, int y)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return min(x, y) using bitwise operations, without branching.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/union-by-rank-and-path-compression-in-union-find-algorithm/",
   "practice": null,
   "function": {
-    "name": "unionRankPathCompressionUnion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "unionFindByRank",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Elements are 0..n-1; ops[i] is 'union' or 'connected' on args[i] = [x, y]; returns the result of each 'connected' (use union by rank + path compression)."
   },
-  "example": null
+  "example": {
+    "call": "unionFindByRank(5, [\"union\", \"union\", \"connected\", \"connected\"], [[0, 1], [1, 2], [0, 2], [3, 4]])",
+    "expected": "[true, false]"
+  }
 }

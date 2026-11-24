@@ -90,13 +90,19 @@ to one edge shown above.
 
 _…continued in the article (see link below)._
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introductionPushRelabelAlgorithm(/* not set yet */)
+int pushRelabelMaxFlow(int V, List<List<int>> edges, int s, int t)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** edges[i] = [u, v, capacity], directed, 0-based.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pushRelabelMaxFlow(6, [[0, 1, 16], [0, 2, 13], [1, 2, 10], [1, 3, 12], [2, 1, 4], [2, 4, 14], [3, 2, 9], [3, 5, 20], [4, 3, 7], [4, 5, 4]], 0, 5)` → `23`
+<!-- signature:end -->
 
 ## Links
 

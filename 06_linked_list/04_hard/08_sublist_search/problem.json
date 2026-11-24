@@ -19,10 +19,11 @@
       }
     ],
     "returns": "bool",
-    "verified": true
+    "verified": true,
+    "note": "Returns true if list1 appears as a contiguous run of nodes inside list2."
   },
   "example": {
     "call": "sublistSearch(ListNode.fromList([10, 20]), ListNode.fromList([5, 10, 20]))",
-    "expected": "Yes"
+    "expected": "true"
   }
 }

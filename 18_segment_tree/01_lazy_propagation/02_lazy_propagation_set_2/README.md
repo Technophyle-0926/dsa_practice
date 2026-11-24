@@ -25,13 +25,19 @@ Query(0, 4)
 Output: 11
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic lazyPropagation2(/* not set yet */)
+List<int> rangeAddMaxQueries(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Query [1, l, r, x] adds x to arr[l..r]; [2, l, r] asks the max of arr[l..r] (0-based); return answers of type-2 queries.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeAddMaxQueries([1, 2, 3, 4, 5], [[1, 0, 3, 4], [2, 1, 4]])` → `[8]`
+<!-- signature:end -->
 
 ## Links
 

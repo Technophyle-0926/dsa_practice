@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/hierholzers-algorithm-directed-graph/",
   "practice": null,
   "function": {
-    "name": "hierholzersAlgorithmDirectedGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "eulerCircuitDirected",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "adj[u] lists directed edges; return the circuit's vertex sequence starting and ending at 0 (any valid Euler circuit is accepted)."
   },
-  "example": null
+  "example": {
+    "call": "eulerCircuitDirected([[2, 3], [0], [1], [4], [0]])",
+    "expected": "[0, 3, 4, 0, 2, 1, 0]"
+  }
 }

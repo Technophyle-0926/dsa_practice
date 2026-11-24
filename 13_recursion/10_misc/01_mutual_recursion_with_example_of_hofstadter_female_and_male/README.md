@@ -12,13 +12,19 @@ A great example of mutual recursion would be implementing the Hofstadter Sequenc
 
 In mathematics, a Hofstadter sequence is a member of a family of related integer sequences defined by **non-linear** recurrence relations. In this example we are going to focus on **Hofstadter Female and Male sequences:**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mutualRecursionExampleHofstadterFemale(/* not set yet */)
+List<List<int>> hofstadterFemaleMale(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return [F(0..n-1), M(0..n-1)] where F(0)=1, M(0)=0, F(n)=n-M(F(n-1)), M(n)=n-F(M(n-1)).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `hofstadterFemaleMale(5)` → `[[1, 1, 2, 2, 3], [0, 0, 1, 2, 2]]`
+<!-- signature:end -->
 
 ## Links
 

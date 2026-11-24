@@ -24,6 +24,7 @@ Output: []
 Explanation: No common element in both the arrays.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> intersectionTwoArrays(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `intersectionTwoArrays([1, 2, 1, 3, 1], [3, 1, 3, 4, 1])` → `[1, 3]`
+<!-- signature:end -->
 
 ## Links
 

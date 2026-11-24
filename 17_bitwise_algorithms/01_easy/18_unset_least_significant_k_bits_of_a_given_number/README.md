@@ -21,13 +21,17 @@ Input: N = 730, K = 3
 Output: 720
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int unsetLeastSignificantKBits(int N, int K)
+int unsetLeastSignificantKBits(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `unsetLeastSignificantKBits(200, 5)` → `192`
+<!-- signature:end -->
 
 ## Links
 

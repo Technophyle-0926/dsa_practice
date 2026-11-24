@@ -28,6 +28,7 @@ Output: 120
 Explanation: 120 is the maximum element in the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int maxBitonic(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxBitonic([1, 2, 4, 5, 7, 8, 3])` → `8`
+<!-- signature:end -->
 
 ## Links
 

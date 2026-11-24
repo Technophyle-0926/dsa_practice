@@ -36,6 +36,7 @@ Output: 4
 Explanation: In all the situations, 4 maximum moves are required to find the maximum floor. Following is the strategy to do so:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -43,6 +44,9 @@ int eggDroppingProblem(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `eggDroppingProblem(2, 36)` → `8`
+<!-- signature:end -->
 
 ## Links
 

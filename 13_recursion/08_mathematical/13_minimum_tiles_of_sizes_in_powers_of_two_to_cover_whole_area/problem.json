@@ -10,11 +10,11 @@
     "name": "minimumTilesSizesPowersTwo",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       },
       {
-        "name": "M",
+        "name": "m",
         "type": "int"
       }
     ],

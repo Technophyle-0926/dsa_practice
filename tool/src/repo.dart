@@ -51,9 +51,12 @@ class Problem {
     return users;
   }
 
+  /// Dart: solved once `UnimplementedError` (the template's placeholder) is gone.
+  /// Notes (.md): solved once the template's placeholder line is gone.
+  /// Your own `TODO` comments don't matter.
   static bool isSolved(File f) {
     final text = f.readAsStringSync();
-    return !text.contains('TODO') && !text.contains('UnimplementedError');
+    return f.path.endsWith('.md') ? !text.contains(notesPlaceholder) : !text.contains('UnimplementedError');
   }
 }
 
@@ -98,6 +101,9 @@ String? readUser() {
   final u = f.readAsStringSync().trim();
   return u.isEmpty ? null : u;
 }
+
+/// Placeholder line in a new notes file; deleting it marks the reading item as done.
+const notesPlaceholder = '- TODO: write what you learned, then delete this line to mark it done.';
 
 final validUser = RegExp(r'^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$');
 

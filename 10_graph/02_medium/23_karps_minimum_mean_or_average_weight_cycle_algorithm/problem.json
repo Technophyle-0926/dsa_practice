@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/karps-minimum-mean-average-weight-cycle-algorithm/",
   "practice": null,
   "function": {
-    "name": "karpsMinimumMeanOrAverage",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minMeanCycle",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "double",
+    "verified": true,
+    "note": "Compared with a tolerance of 1e-5."
   },
-  "example": null
+  "example": {
+    "call": "minMeanCycle(4, [[0, 1, 1], [0, 2, 10], [1, 2, 3], [2, 3, 2], [3, 1, 0], [3, 0, 8]])",
+    "expected": "1.66667"
+  }
 }

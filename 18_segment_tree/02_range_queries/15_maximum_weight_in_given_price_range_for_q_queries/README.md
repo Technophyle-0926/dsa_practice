@@ -24,6 +24,7 @@ queries[][] = {{1000, 1400}, {1700, 500}, {2000, 600}}
 Output: [400, 500, 600]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> maximumWeightGivenPriceRange(List<List<int>> arr, List<List<int>> quer
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumWeightGivenPriceRange([[24, 6], [30, 8], [21, 7]], [[10, 24], [20, 30]])` → `[7, 8]`
+<!-- signature:end -->
 
 ## Links
 

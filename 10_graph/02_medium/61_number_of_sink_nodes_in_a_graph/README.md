@@ -21,13 +21,19 @@ Input: n = 4, m = 2
 Output: 3
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int numberSinkNodesGraph(int n, int m, List<List<int>> Edges)
+int numberSinkNodesGraph(int n, int m, List<List<int>> edges)
 ```
 
+> **Note:** Nodes are 1-based.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `numberSinkNodesGraph(4, 2, [[2, 3], [4, 3]])` → `2`
+<!-- signature:end -->
 
 ## Links
 

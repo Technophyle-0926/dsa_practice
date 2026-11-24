@@ -20,6 +20,7 @@ Output: 7
 Explanation: The longest subsequence with an absolute difference of 1 between adjacent elements is [1, 2, 3, 2, 3, 2, 1].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int longestSubsequence1AdjacentDifference(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestSubsequence1AdjacentDifference([10, 9, 4, 5, 4, 8, 6])` → `3`
+<!-- signature:end -->
 
 ## Links
 

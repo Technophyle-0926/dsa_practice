@@ -26,6 +26,7 @@ Output: 10
 Explanation: The minimum number of rats required is 10, as 2^10 = 1024 can uniquely identify one poisoned bottle among 1000.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int ratPoisoned(int N)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ratPoisoned(4)` → `2`
+<!-- signature:end -->
 
 ## Links
 

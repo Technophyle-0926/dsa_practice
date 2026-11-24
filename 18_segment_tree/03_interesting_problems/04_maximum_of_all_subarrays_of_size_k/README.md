@@ -30,13 +30,17 @@ elements (i.e from index 1 to 4) is 10, So the sequence
 generated is 10 10 10 15 15 90 90
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> maximumAllSubarraysSizeK(List<int> arr, int K)
+List<int> maximumAllSubarraysSizeK(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumAllSubarraysSizeK([1, 2, 3, 1, 4, 5, 2, 3, 6], 3)` → `[3, 3, 4, 5, 5, 5, 6]`
+<!-- signature:end -->
 
 ## Links
 

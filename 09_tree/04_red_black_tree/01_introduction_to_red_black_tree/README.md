@@ -23,13 +23,19 @@ These properties (no two consecutive reds and same black height) ensure that the
 
 ### Balancing
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introductionRedBlackTree(/* not set yet */)
+bool isRedBlackTree(TreeNode? root, Map<int, String> colors)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; colors maps each node value to "R" or "B"; check BST order, black root, no red node with a red child, and equal black count on every root-to-NIL path.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isRedBlackTree(TreeNode.fromLevelOrder([10, 5, 20]), {10: "B", 5: "R", 20: "R"})` → `true`
+<!-- signature:end -->
 
 ## Links
 

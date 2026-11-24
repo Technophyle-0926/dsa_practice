@@ -20,6 +20,7 @@ Output: 3 4
 Explanation: Since the array is 1-indexed, arr[3] + arr[5] = 4 + 6 = 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> solve2SumPairSortedArray(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve2SumPairSortedArray([2, 7, 11, 15], 9)` → `1 2`
+<!-- signature:end -->
 
 ## Links
 

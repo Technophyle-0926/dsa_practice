@@ -20,6 +20,7 @@ Output: 16
 Explanation: 16 is already a power of 2. Hence, the answer is 16.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int smallestPower2GreaterThan(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestPower2GreaterThan(5)` → `8`
+<!-- signature:end -->
 
 ## Links
 

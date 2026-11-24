@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-in-a-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
   "function": {
-    "name": "cycleDirectedGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isCyclicDirected",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "isCyclicDirected([[1], [2], [0, 3], []])",
+    "expected": "true"
+  }
 }

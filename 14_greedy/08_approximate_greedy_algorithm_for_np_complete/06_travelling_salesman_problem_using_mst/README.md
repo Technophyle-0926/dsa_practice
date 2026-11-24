@@ -36,6 +36,7 @@ The least distant path to reach a vertex j from i is always to reach j directly 
 When the cost function satisfies the triangle inequality, we can design an approximate algorithm for TSP that returns a tour whose cost is never more than twice the cost of an optimal tour. The idea is to use Minimum Spanning Tree (MST). Following is the MST based algorithm.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -43,6 +44,9 @@ int travellingSalesmanProblemMst(List<List<int>> cost)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `travellingSalesmanProblemMst([[0, 111], [112, 0]])` → `223`
+<!-- signature:end -->
 
 ## Links
 

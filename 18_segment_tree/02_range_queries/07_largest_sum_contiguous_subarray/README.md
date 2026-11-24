@@ -39,6 +39,7 @@ The range is [3, -1].
 The maximum subarray sum is 3, obtained from subarray [3].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -46,6 +47,9 @@ List<int> largestSumContiguousSubarray(List<int> arr, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestSumContiguousSubarray([-2, -3, 4, -1, -2, 1, 5, -3], [[2, 4, 7], [1, 0, 10], [2, 0, 2]])` → `[6, 11]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/merge-two-sorted-linked-lists/",
   "practice": "https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1",
   "function": {
-    "name": "mergeTwoSortedLinkedLists",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "mergeTwoSortedLists",
+    "params": [
+      {
+        "name": "head1",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head2",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "mergeTwoSortedLists(ListNode.fromList([5, 10, 15, 40]), ListNode.fromList([2, 3, 20]))",
+    "expected": "2 -> 3 -> 5 -> 10 -> 15 -> 20 -> 40"
+  }
 }

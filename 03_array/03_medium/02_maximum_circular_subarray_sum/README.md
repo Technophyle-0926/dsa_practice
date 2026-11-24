@@ -27,6 +27,7 @@ Output: 12
 Explanation: The circular subarray [3, 4, 5] gives the maximum sum of 12.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int maximumCircularSubarraySum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumCircularSubarraySum([8, -8, 9, -9, 10, -11, 12])` → `22`
+<!-- signature:end -->
 
 ## Links
 

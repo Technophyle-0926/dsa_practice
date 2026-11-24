@@ -22,6 +22,7 @@ Output: 6
 Explanation: 6 is the first element that repeats
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int firstRepeating(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstRepeating([10, 5, 3, 4, 3, 5, 6])` → `5`
+<!-- signature:end -->
 
 ## Links
 

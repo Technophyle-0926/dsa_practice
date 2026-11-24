@@ -20,6 +20,7 @@ Output: [5, 4, 3, 2, 1]
 Explanation: The queue is reversed completely: 1 goes to the rear, and 5 moves to the front, with all intermediate elements rearranged accordingly.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> reverseQueue(List<int> q)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseQueue([5, 10, 15, 20, 25])` → `[25, 20, 15, 10, 5]`
+<!-- signature:end -->
 
 ## Links
 

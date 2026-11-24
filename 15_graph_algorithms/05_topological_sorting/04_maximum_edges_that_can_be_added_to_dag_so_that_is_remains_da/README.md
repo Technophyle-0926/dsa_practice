@@ -22,13 +22,17 @@ Output: 2
 Explanation: Two additional edges (0 -> 3, 1 -> 3) can be added without forming cycles.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maximumEdgesThatCanBe(/* not set yet */)
+int maxEdgesToAddInDag(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxEdgesToAddInDag([[1], [2], []])` → `1`
+<!-- signature:end -->
 
 ## Links
 

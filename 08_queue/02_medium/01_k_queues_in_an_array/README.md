@@ -12,13 +12,19 @@ dequeue(qn): Removes the front element from the qn-th queue and return it. If th
 isEmpty(qn): Checks if the qn-th queue is empty.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic kQueuesArray(/* not set yet */)
+List<int> kQueues(int n, int k, List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'enqueue' (args[i] = [qn, x]), 'dequeue' or 'isEmpty' (args[i] = [qn]) with 0-based queue index qn; returns every dequeue result (-1 if empty) and isEmpty result (1 = true, 0 = false) in order.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kQueues(6, 2, ["enqueue", "enqueue", "dequeue", "isEmpty", "dequeue"], [[0, 5], [1, 7], [0], [0], [1]])` → `[5, 1, 7]`
+<!-- signature:end -->
 
 ## Links
 

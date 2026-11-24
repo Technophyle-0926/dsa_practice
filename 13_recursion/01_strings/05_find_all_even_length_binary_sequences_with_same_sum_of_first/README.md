@@ -20,13 +20,19 @@ Output:
 110110 100100
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> findAllEvenLengthBinary(int N)
+List<String> evenLengthBinarySequences(int n)
 ```
 
+> **Note:** Returns all sequences of length 2n in ascending lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `evenLengthBinarySequences(2)` → `[0000, 0101, 0110, 1001, 1010, 1111]`
+<!-- signature:end -->
 
 ## Links
 

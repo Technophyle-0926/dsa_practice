@@ -26,6 +26,7 @@ Explanation: Frequencies: 1 → 2, 2 → 1.
  2→1 (higher freq), others have no higher freq on right → [-1, 1, -1]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> nextGreaterFrequency(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nextGreaterFrequency([2, 1, 1, 3, 2, 1])` → `[1, -1, -1, 2, 1, -1]`
+<!-- signature:end -->
 
 ## Links
 

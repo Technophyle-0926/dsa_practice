@@ -37,13 +37,19 @@ pop1() the popped element will be 3
 pop1() the stack1 is now empty hence returned -1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic twoStacksArray(/* not set yet */)
+List<int> twoStacks(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'push1'/'push2' (args[i] = [x]) or 'pop1'/'pop2' (args[i] = []); returns every popped value in order, -1 when that stack is empty.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `twoStacks(["push1", "push1", "push2", "pop1", "pop2", "pop2"], [[2], [3], [4], [], [], []])` → `[3, 4, -1]`
+<!-- signature:end -->
 
 ## Links
 

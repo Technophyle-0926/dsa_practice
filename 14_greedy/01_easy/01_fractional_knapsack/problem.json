@@ -22,11 +22,12 @@
         "type": "int"
       }
     ],
-    "returns": "int",
-    "verified": true
+    "returns": "double",
+    "verified": true,
+    "note": "Returns a double; compared with a small tolerance (e.g. 1e-3)."
   },
   "example": {
     "call": "fractionalKnapsack([60, 100, 120], [10, 20, 30], 50)",
-    "expected": "240"
+    "expected": "240.0"
   }
 }

@@ -28,6 +28,7 @@ Output: [1, 2]
 Explanation: 1 and 2 occur exactly once.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> twoNonRepeatingArrayRepeating(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `twoNonRepeatingArrayRepeating([1, 2, 3, 2, 1, 4])` → `[3, 4]`
+<!-- signature:end -->
 
 ## Links
 

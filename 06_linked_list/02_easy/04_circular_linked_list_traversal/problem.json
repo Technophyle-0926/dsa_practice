@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/traversal-of-circular-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/circular-linked-list-traversal/1",
   "function": {
-    "name": "circularLinkedListTraversal",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "circularListTraversal",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "The input is a circular list: the harness links the tail back to head before calling. Return the values visited once starting at head."
   },
-  "example": null
+  "example": {
+    "call": "circularListTraversal(ListNode.fromList([1, 7, 8, 10]))",
+    "expected": "[1, 7, 8, 10]"
+  }
 }

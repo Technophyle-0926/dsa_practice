@@ -20,6 +20,7 @@ Output: True
 Explanation: There is no common element in both the arrays.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool checkDisjoint(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkDisjoint([12, 34, 11, 9, 3], [2, 1, 3, 5])` → `false`
+<!-- signature:end -->
 
 ## Links
 

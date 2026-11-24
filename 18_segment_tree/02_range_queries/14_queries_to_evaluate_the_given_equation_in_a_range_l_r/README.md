@@ -31,13 +31,17 @@ Input: arr[] = {4, 0, 1, 2}, Q[][] = {{1, 3}}
 Output: 3
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> queriesEvaluateGivenEquationRange(List<int> arr, List<List<int>> Q)
+List<int> queriesEvaluateGivenEquationRange(List<int> arr, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `queriesEvaluateGivenEquationRange([5, 2, 3, 0], [[1, 3], [0, 2]])` → `[3, 7]`
+<!-- signature:end -->
 
 ## Links
 

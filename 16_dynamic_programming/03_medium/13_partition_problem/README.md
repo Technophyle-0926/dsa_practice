@@ -21,6 +21,7 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum sets.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ bool partitionProblem(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partitionProblem([1, 5, 11, 5])` → `true`
+<!-- signature:end -->
 
 ## Links
 

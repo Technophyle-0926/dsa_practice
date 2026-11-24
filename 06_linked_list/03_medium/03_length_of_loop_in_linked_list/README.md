@@ -26,13 +26,19 @@ Output: 0
 Explanation: There is no loop present in the Linked List.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic lengthLoopLinkedList(/* not set yet */)
+int lengthOfLoop(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** For cyclic test cases the harness links the tail to an earlier node before calling; return 0 if there is no loop.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lengthOfLoop(ListNode.fromList([1, 2, 3]))` → `0`
+<!-- signature:end -->
 
 ## Links
 

@@ -16,13 +16,19 @@ This problem can be solved by reducing it to maximum flow problem. Following are
 
 When we run Ford-Fulkerson, we reduce the capacity by a unit. Therefore, the edge can not be used again. So the maximum flow is equal to the maximum number of edge-disjoint paths.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findMaximumNumberEdgeDisjoint(/* not set yet */)
+int edgeDisjointPaths(List<List<int>> graph, int s, int t)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** graph is a directed adjacency matrix (1 = edge).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `edgeDisjointPaths([[0, 1, 1, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1], [0, 1, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0]], 0, 7)` → `2`
+<!-- signature:end -->
 
 ## Links
 

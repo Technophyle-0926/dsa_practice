@@ -18,6 +18,7 @@ Input: arr[] = {3, 5, 7}
 Output: 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int countSubsetsNotContainingAdjacent(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countSubsetsNotContainingAdjacent([2, 7])` → `3`
+<!-- signature:end -->
 
 ## Links
 

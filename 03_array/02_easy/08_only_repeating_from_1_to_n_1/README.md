@@ -20,6 +20,7 @@ Output: 1
 Explanation: The number 1 is the only repeating element.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int onlyRepeating1N1(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `onlyRepeating1N1([1, 3, 2, 3, 4])` → `3`
+<!-- signature:end -->
 
 ## Links
 

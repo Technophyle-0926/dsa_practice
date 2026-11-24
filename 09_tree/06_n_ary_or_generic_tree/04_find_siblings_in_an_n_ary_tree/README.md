@@ -30,13 +30,19 @@ Output: 20 40
 Explanation: Nodes valued 20, 30 and 40 have the same parent, i.e. the node valued 10. Therefore, nodes 20 and 40 are the siblings of the given node X( = 30).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findSiblingsNAryTree(/* not set yet */)
+List<int> findSiblingsNAryTree(int root, Map<int, List<int>> children, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Siblings in their child order; empty list if x is the root or absent. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findSiblingsNAryTree(10, {10: [20, 30, 40], 40: [90, 100, 110]}, 100)` → `[90, 110]`
+<!-- signature:end -->
 
 ## Links
 

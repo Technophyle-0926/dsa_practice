@@ -31,13 +31,19 @@ For above example, all the cycles of length 4 can be searched using only 5-(4-1)
 
 One more thing to notice is that, every vertex finds 2 duplicate cycles for every cycle that it forms. For above example 0^th vertex finds two duplicate cycle namely **0 -> 3 -> 2 -> 1 -> 0** and **0 -> 1 -> 2 -> 3 -> 0**. Hence the total count must be divided by 2 because every cycle is counted twice.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cyclesLengthN(/* not set yet */)
+int countCyclesOfLengthN(List<List<int>> graph, int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** graph is an undirected adjacency matrix; each simple cycle with n vertices is counted once.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countCyclesOfLengthN([[0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 0]], 4)` → `3`
+<!-- signature:end -->
 
 ## Links
 

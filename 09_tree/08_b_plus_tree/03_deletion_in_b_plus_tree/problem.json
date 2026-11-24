@@ -7,10 +7,24 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-in-b-tree/",
   "practice": null,
   "function": {
-    "name": "deletionBTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bPlusTreeDelete",
+    "params": [
+      {
+        "name": "order",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      },
+      {
+        "name": "toDelete",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Insert keys into a B+ tree of the given order, delete each key in toDelete (absent keys ignored), return the keys left in the leaf level in sorted order."
   },
   "example": null
 }

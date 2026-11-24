@@ -8,13 +8,15 @@ Given a string s representing a Roman numeral, find it's corresponding integer v
 Roman numerals are formed using the following symbols: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, and M = 1000.
 Numbers are typically formed by combining these symbols from left to right, adding or subtracting their values based on specific rules.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic romanInteger(/* not set yet */)
+int romanToInteger(String s)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/c-sharp/list-binarysearch-method-in-c-sharp/",
   "practice": null,
   "function": {
-    "name": "listBinarysearchC",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "listBinarySearch",
+    "params": [
+      {
+        "name": "list",
+        "type": "List<int>"
+      },
+      {
+        "name": "item",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "list is sorted; return the index of item, else the bitwise complement (~) of the index of the next larger element (or of list.length)."
   },
-  "example": null
+  "example": {
+    "call": "listBinarySearch([1, 3, 5, 7], 4)",
+    "expected": "-3"
+  }
 }

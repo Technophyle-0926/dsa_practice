@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/split-a-circular-linked-list-into-two-halves/",
   "practice": "https://www.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1",
   "function": {
-    "name": "splitCircularLinkedListInto",
+    "name": "splitCircularLinkedList",
     "params": [
       {
         "name": "head",
         "type": "ListNode?"
       }
     ],
-    "returns": "ListNode?",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "The input is a circular list: the harness links the tail back to head before calling. Return the values of the two halves (first half gets the extra node)."
   },
   "example": {
-    "call": "splitCircularLinkedListInto(ListNode.fromList([10, 4, 9]))",
-    "expected": "10->4 , 9"
+    "call": "splitCircularLinkedList(ListNode.fromList([10, 4, 9]))",
+    "expected": "[[10, 4], [9]]"
   }
 }

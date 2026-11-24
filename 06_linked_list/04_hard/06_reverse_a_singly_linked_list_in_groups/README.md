@@ -26,13 +26,19 @@ Output: 4 -> 3 -> 2 -> 1 -> 6 -> 5 -> NULL
 Explanation: Linked List is reversed in a group of size k = 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reverseSinglyLinkedListGroups(/* not set yet */)
+ListNode? reverseKGroup(ListNode? head, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The last group is reversed too even if it has fewer than k nodes.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseKGroup(ListNode.fromList([1, 2, 3, 4, 5, 6]), 2)` → `2 -> 1 -> 4 -> 3 -> 6 -> 5`
+<!-- signature:end -->
 
 ## Links
 

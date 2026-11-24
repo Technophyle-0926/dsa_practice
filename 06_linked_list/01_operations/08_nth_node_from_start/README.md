@@ -23,13 +23,19 @@ Output: -1
 Explanation: The linked list contains fewer than 6 nodes, so no node exists at index 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int nthNodeStart(int k)
+int nthNodeFromStart(ListNode? head, int k)
 ```
 
+> **Note:** k is 1-based; return -1 if the k-th node does not exist.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nthNodeFromStart(ListNode.fromList([1, 2, 3, 4, 5]), 3)` → `3`
+<!-- signature:end -->
 
 ## Links
 

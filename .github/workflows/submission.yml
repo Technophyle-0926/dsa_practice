@@ -1,0 +1,38 @@
+# Fast feedback when someone runs `dart run tool/submit.dart`.
+# Runs without secrets. The trusted "Merge submission" workflow repeats these checks before merging.
+name: Submission
+
+on:
+  push:
+    branches: ['*/solutions']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: dart-lang/setup-dart@v1
+      - name: Branch must be yours
+        env:
+          ACTOR: ${{ github.actor }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ "${BRANCH,,}" != "${ACTOR,,}/solutions" ]; then
+            echo "::error::You pushed '$BRANCH' as $ACTOR. Submit with: dart run tool/submit.dart (it uses $ACTOR/solutions)."
+            exit 1
+          fi
+      - name: Only your own solution files
+        env:
+          AUTHOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+          HEAD_SHA: ${{ github.sha }}
+        run: BASE_SHA=$(git merge-base origin/main "$HEAD_SHA") tool/ci/check_submission.sh
+      - name: Analyzer
+        env:
+          HEAD_SHA: ${{ github.sha }}
+        run: BASE_SHA=$(git merge-base origin/main "$HEAD_SHA") tool/ci/analyze_changed.sh

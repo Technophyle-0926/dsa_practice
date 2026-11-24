@@ -40,6 +40,7 @@ Below is C++ implementation for this algorithm.
 
 **Output:**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -47,6 +48,9 @@ int binPacking(List<int> weight, int c)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binPacking([4, 8, 1, 4, 2, 1], 10)` → `2`
+<!-- signature:end -->
 
 ## Links
 

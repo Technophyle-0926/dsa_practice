@@ -6,13 +6,17 @@
 
 Given two numbers, the task is to check if two numbers are equal without using Arithmetic and Comparison Operators or String functions.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkEqual(/* not set yet */)
+bool checkEqual(int a, int b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return true if a == b, without arithmetic or comparison operators (e.g. using XOR).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

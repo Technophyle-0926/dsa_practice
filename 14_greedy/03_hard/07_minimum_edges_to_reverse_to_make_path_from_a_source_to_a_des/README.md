@@ -30,13 +30,19 @@ Output: 0
 Explanation: One path already exists between 1 to 4 it is 1->2->3->4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumEdgesReverseMakePath(/* not set yet */)
+int minEdgesToReverse(int n, List<List<int>> edges, int src, int dst)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Vertices are 1-based; return -1 if no path is possible.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minEdgesToReverse(3, [[1, 2], [3, 2]], 1, 3)` → `1`
+<!-- signature:end -->
 
 ## Links
 

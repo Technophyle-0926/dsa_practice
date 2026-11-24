@@ -44,13 +44,19 @@ Node 4 points to Node 5 as its NEXT and Node 3 as its RANDOM.
 Node 5 points to NULL as its NEXT and Node 2 as its RANDOM.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cloneLinkedListRandomPointer(/* not set yet */)
+List<List<int>> cloneRandomList(List<List<int>> nodes)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** nodes[i] = [val, randomIndex] with 1-based randomIndex and 0 meaning null; build the list, deep-copy it, and return the copy in the same format.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `cloneRandomList([[1, 3], [3, 3], [5, 0], [9, 3]])` → `[[1, 3], [3, 3], [5, 0], [9, 3]]`
+<!-- signature:end -->
 
 ## Links
 

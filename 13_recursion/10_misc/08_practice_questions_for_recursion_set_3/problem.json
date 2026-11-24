@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-3/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsRecursion3",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "doublingSequence",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Implement Question 1's fun2(n) with LIMIT = 1000: return the printed values (n, 2n, 4n, ... while < LIMIT, then the same in reverse); empty list if n <= 0."
   },
-  "example": null
+  "example": {
+    "call": "doublingSequence(100)",
+    "expected": "[100, 200, 400, 800, 800, 400, 200, 100]"
+  }
 }

@@ -30,6 +30,7 @@ We use recursion to solve the problem. We first check one by one that the number
 **Time Complexity:** O(2 ^ pow(x^(1/n)))
 **Auxiliary Space:** O(pow(x^(1/n))
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ int countWaysExpressNumberAs(int x, int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countWaysExpressNumberAs(100, 2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

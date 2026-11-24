@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/",
   "practice": null,
   "function": {
-    "name": "karatsubaAlgorithmFastMultiplication",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "karatsubaMultiply",
+    "params": [
+      {
+        "name": "x",
+        "type": "String"
+      },
+      {
+        "name": "y",
+        "type": "String"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Inputs are binary strings; return the product as a decimal int."
   },
-  "example": null
+  "example": {
+    "call": "karatsubaMultiply(\"1100\", \"1010\")",
+    "expected": "120"
+  }
 }

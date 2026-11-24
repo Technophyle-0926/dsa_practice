@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/how-to-insert-strings-into-an-avl-tree/",
   "practice": null,
   "function": {
-    "name": "howInsertStringsIntoAvl",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "avlInsertStrings",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Insert strings in order (compared with String.compareTo) into an AVL tree and return its preorder traversal."
   },
-  "example": null
+  "example": {
+    "call": "avlInsertStrings([\"Tuesday\", \"Monday\", \"Thursday\", \"Saturday\", \"Sunday\", \"Friday\", \"Wednesday\"])",
+    "expected": "[\"Saturday\", \"Monday\", \"Friday\", \"Thursday\", \"Sunday\", \"Tuesday\", \"Wednesday\"]"
+  }
 }

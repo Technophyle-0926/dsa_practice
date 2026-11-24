@@ -29,6 +29,7 @@ Output: [[1], [1, 1], [1]]
 Explanation: Starting with the first element, we generate subarrays [1] and [1, 1] (including both elements). Starting from the second element, we only get the subarray [1].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<List<int>> generateAllSubarrays(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `generateAllSubarrays([1, 2, 3])` → `[[1], [1, 2], [1, 2, 3], [2], [2, 3], [3]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -14,11 +14,11 @@
         "type": "String"
       }
     ],
-    "returns": "int",
+    "returns": "String",
     "verified": true
   },
   "example": {
     "call": "stringMobileNumericKeypadSequence(\"GFG\")",
-    "expected": "43334"
+    "expected": "\"43334\""
   }
 }

@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/maximum-profit-by-buying-and-selling-a-share-at-most-twice/",
   "practice": "https://www.geeksforgeeks.org/problems/buy-and-sell-a-share-at-most-twice/1",
   "function": {
-    "name": "stockBuySellAtMost",
+    "name": "stockBuySellAtMost2",
     "params": [
       {
         "name": "prices",
@@ -18,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "stockBuySellAtMost([10, 22, 5, 75, 65, 80])",
+    "call": "stockBuySellAtMost2([10, 22, 5, 75, 65, 80])",
     "expected": "87"
   }
 }

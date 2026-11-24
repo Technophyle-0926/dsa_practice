@@ -25,6 +25,7 @@ Output: 7
 Explanation: The binary representation of 28 is 11100. The 2 bits starting at position 0 are 00, and the 2 starting at position 3 are 11. After swapping these two, the binary representation becomes 00111, which is 7 in decimal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int swapBits(int x, int p1, int p2, int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `swapBits(47, 1, 5, 3)` → `227`
+<!-- signature:end -->
 
 ## Links
 

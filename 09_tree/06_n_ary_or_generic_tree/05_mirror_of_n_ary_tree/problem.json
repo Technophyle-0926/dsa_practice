@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "mirrorNAryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Mirror the tree (reverse every child list) and return its level-order traversal, one list per level. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "mirrorNAryTree(10, {10: [2, 34, 56, 100], 34: [1], 100: [7, 8, 9]})",
+    "expected": "[[10], [100, 56, 34, 2], [9, 8, 7, 1]]"
+  }
 }

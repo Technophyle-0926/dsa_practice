@@ -43,13 +43,19 @@ For Left Right Case [3.b (ii)]and Right Left Case [3.b (iv)], swap colors of gra
 
 **Example: Creating a red-black tree with elements 3, 21, 32 and 15 in an empty tree.**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertionRedBlackTree(/* not set yet */)
+List<String> redBlackInsert(List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert keys in order with standard bottom-up red-black insertion. Each node is encoded as its value followed by its colour, e.g. "20B" or "15R"; the list is the preorder traversal of the final tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `redBlackInsert([10, 20, 30, 15, 25])` → `["20B", "10B", "15R", "30B", "25R"]`
+<!-- signature:end -->
 
 ## Links
 

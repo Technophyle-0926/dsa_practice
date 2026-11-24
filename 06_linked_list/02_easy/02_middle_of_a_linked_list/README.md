@@ -29,13 +29,19 @@ Output: 40
 Explanation: There are 6 nodes in the linked list, so we have two middle nodes: 30 and 40, but we will return the second middle node which is 40.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic middleLinkedList(/* not set yet */)
+int middleOfLinkedList(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the value of the middle node (second middle for even length).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `middleOfLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))` → `3`
+<!-- signature:end -->
 
 ## Links
 

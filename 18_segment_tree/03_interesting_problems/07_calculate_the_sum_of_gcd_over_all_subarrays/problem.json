@@ -10,11 +10,7 @@
     "name": "calculateSumGcdOverAll",
     "params": [
       {
-        "name": "N",
-        "type": "int"
-      },
-      {
-        "name": "A",
+        "name": "arr",
         "type": "List<int>"
       }
     ],
@@ -22,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "calculateSumGcdOverAll(5, [1, 2, 3, 4, 5])",
+    "call": "calculateSumGcdOverAll([1, 2, 3, 4, 5])",
     "expected": "25"
   }
 }

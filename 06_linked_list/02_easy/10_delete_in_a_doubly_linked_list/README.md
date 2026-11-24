@@ -12,13 +12,17 @@ Deleting a node in a doubly linked list is very similar to deleting a node in a 
 
 ### Deletion at the Beginning in Doubly Linked List
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deleteDoublyLinkedList(/* not set yet */)
+DListNode? deleteAtPositionDll(DListNode? head, int pos)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Delete the node at 1-based position pos (covers beginning, middle and end) and return the head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

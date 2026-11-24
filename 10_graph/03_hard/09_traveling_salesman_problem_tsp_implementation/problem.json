@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/traveling-salesman-problem-tsp-implementation/",
   "practice": "https://www.geeksforgeeks.org/problems/travelling-salesman-problem2732/1",
   "function": {
-    "name": "travelingSalesmanProblemTspImplementation",
+    "name": "travelingSalesman",
     "params": [
       {
         "name": "cost",
@@ -18,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "travelingSalesmanProblemTspImplementation([[0, 111], [112, 0]])",
+    "call": "travelingSalesman([[0, 111], [112, 0]])",
     "expected": "223"
   }
 }

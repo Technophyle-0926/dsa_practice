@@ -55,13 +55,19 @@ In this case, if parent was red, then we didn't need to recur for parent, we can
 **3.3)** If u is root, make it single black and return (Black height of complete tree reduces by 1).
 below is the C++ implementation of above approach:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletionRedBlackTree(/* not set yet */)
+List<String> redBlackDelete(List<int> keys, List<int> deleteKeys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Build the tree by bottom-up insertion of keys, then delete deleteKeys in order (two-child nodes replaced by inorder successor; absent keys ignored). Each node is encoded as its value followed by its colour, e.g. "20B" or "15R"; the list is the preorder traversal of the final tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `redBlackDelete([10, 20, 30, 15, 25], [10])` → `["20B", "15B", "30B", "25R"]`
+<!-- signature:end -->
 
 ## Links
 

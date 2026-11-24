@@ -18,13 +18,19 @@ The above tree is not AVL because the differences between the heights of the lef
 
 Below example demonstration of inserting the days of the week in the order: **{Tuesday, Monday, Thursday, Saturday, Sunday, Friday, Wednesday}**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic howInsertStringsIntoAvl(/* not set yet */)
+List<String> avlInsertStrings(List<String> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert strings in order (compared with String.compareTo) into an AVL tree and return its preorder traversal.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `avlInsertStrings(["Tuesday", "Monday", "Thursday", "Saturday", "Sunday", "Friday", "Wednesday"])` → `["Saturday", "Monday", "Friday", "Thursday", "Sunday", "Tuesday", "Wednesday"]`
+<!-- signature:end -->
 
 ## Links
 

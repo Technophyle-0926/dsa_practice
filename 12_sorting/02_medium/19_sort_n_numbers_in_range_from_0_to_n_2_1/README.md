@@ -18,6 +18,7 @@ Output: [0, 8, 12, 15, 24]
 Explanation: The array sorted in non-decreasing order is [0, 8, 12, 15, 24].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ List<int> sortNNumbersRange0(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortNNumbersRange0([40, 12, 45, 32, 33, 1, 22])` → `[1, 12, 22, 32, 33, 40, 45]`
+<!-- signature:end -->
 
 ## Links
 

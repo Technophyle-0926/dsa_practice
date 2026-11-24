@@ -22,6 +22,7 @@ Output: 3000
 Explanation: We can visit 0->1->2->0 and cost = 1000 + 1000 + 1000 = 3000.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int travelingSalesmanProblemTsp(List<List<int>> cost)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `travelingSalesmanProblemTsp([[0, 111], [112, 0]])` → `223`
+<!-- signature:end -->
 
 ## Links
 

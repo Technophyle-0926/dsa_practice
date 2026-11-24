@@ -22,6 +22,7 @@ Output: False
 Explanation: All four jobs overlap at time segment [2, 5], and can't be completed together.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ bool jobSchedulingTwoJobsAllowed(List<List<int>> jobs)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `jobSchedulingTwoJobsAllowed([[1, 2], [2, 3], [4, 5]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

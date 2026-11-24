@@ -10,7 +10,7 @@
     "name": "moreThanNKTimes",
     "params": [
       {
-        "name": "arr_",
+        "name": "arr",
         "type": "List<int>"
       },
       {

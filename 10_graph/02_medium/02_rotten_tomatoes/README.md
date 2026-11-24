@@ -28,6 +28,7 @@ Output: -1
 Explanation:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int rottenTomatoes(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rottenTomatoes([[2, 1, 0, 2, 1], [1, 0, 1, 2, 1], [1, 0, 0, 2, 1]])` → `2`
+<!-- signature:end -->
 
 ## Links
 

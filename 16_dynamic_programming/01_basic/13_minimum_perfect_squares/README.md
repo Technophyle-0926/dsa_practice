@@ -22,6 +22,7 @@ Output: 3
 Explanation: Only possible way to make sum equals to 6 is [1^2 + 1^2 + 2^2], so minimum square numbers needed is 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minimumPerfectSquares(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumPerfectSquares(100)` → `1`
+<!-- signature:end -->
 
 ## Links
 

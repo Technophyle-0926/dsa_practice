@@ -38,6 +38,7 @@ arr[3..4] = [2, 4]
 Hence, the total number of such subarrays is 9.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -45,6 +46,9 @@ int subarraysHavingDistinctCount(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `subarraysHavingDistinctCount([2, 1, 3, 2, 3])` → `5`
+<!-- signature:end -->
 
 ## Links
 

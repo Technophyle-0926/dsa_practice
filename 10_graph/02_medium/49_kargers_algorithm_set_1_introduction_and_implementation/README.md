@@ -9,13 +9,19 @@ The input graph may have parallel edges.
 
 For example consider the following example, the smallest cut has 2 edges.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic kargersAlgorithm1IntroductionImplementation(/* not set yet */)
+int minCut(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected multigraph edges [u, v]; return the exact minimum cut size (repeat Karger's randomized contraction enough times).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCut(4, [[0, 1], [0, 2], [0, 3], [1, 3], [2, 3]])` → `2`
+<!-- signature:end -->
 
 ## Links
 

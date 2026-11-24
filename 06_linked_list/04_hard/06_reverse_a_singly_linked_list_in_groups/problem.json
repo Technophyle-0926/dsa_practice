@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/reverse-a-linked-list-in-groups-of-given-size-iterative-approach/",
   "practice": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1",
   "function": {
-    "name": "reverseSinglyLinkedListGroups",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "reverseKGroup",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "The last group is reversed too even if it has fewer than k nodes."
   },
-  "example": null
+  "example": {
+    "call": "reverseKGroup(ListNode.fromList([1, 2, 3, 4, 5, 6]), 2)",
+    "expected": "2 -> 1 -> 4 -> 3 -> 6 -> 5"
+  }
 }

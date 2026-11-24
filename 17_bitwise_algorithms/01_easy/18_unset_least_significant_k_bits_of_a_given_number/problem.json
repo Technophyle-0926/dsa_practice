@@ -10,11 +10,11 @@
     "name": "unsetLeastSignificantKBits",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       },
       {
-        "name": "K",
+        "name": "k",
         "type": "int"
       }
     ],

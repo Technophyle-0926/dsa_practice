@@ -28,6 +28,7 @@ Below are some important observations.
 So the main observation is to make n such that is composes of maximum no of 4’s and the remaining can be made up by 6 and 9. We won’t need composite numbers more than that, as the composite numbers above 9 can be made up of 4, 6, and 9 if it is possible to make them up with composite numbers.
 Below is the implementation of the above approach
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int maxCompositeNumbersMakeN(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxCompositeNumbersMakeN(90)` → `22`
+<!-- signature:end -->
 
 ## Links
 

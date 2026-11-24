@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/sum-triangle-from-array/",
   "practice": null,
   "function": {
-    "name": "sumTriangleArray",
+    "name": "sumTriangle",
     "params": [
       {
-        "name": "A",
+        "name": "arr",
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Rows from the top (single sum) down to the original array."
   },
   "example": {
-    "call": "sumTriangleArray([1, 2, 3, 4, 5])",
-    "expected": "[48] [20, 28] [8, 12, 16] [3, 5, 7, 9] [1, 2, 3, 4, 5]"
+    "call": "sumTriangle([1, 2, 3, 4, 5])",
+    "expected": "[[48], [20, 28], [8, 12, 16], [3, 5, 7, 9], [1, 2, 3, 4, 5]]"
   }
 }

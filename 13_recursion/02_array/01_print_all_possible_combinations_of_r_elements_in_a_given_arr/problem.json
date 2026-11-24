@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/",
   "practice": null,
   "function": {
-    "name": "printAllPossibleCombinationsR",
+    "name": "combinationsOfR",
     "params": [
       {
         "name": "arr",
@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Combinations listed in index order as in the examples."
   },
   "example": {
-    "call": "printAllPossibleCombinationsR([1, 2, 3, 4], 2)",
-    "expected": "1 2"
+    "call": "combinationsOfR([1, 2, 3, 4], 2)",
+    "expected": "[[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]"
   }
 }

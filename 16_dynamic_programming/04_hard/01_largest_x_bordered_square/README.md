@@ -30,13 +30,17 @@ Output: 2
 Explanation: The largest square submatrix surrounded by X is the whole input matrix.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic largestXBorderedSquare(/* not set yet */)
+int largestXBorderedSquare(List<List<String>> mat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestXBorderedSquare([["X", "X", "X", "O"], ["X", "O", "X", "X"], ["X", "X", "X", "O"], ["X", "O", "X", "X"]])` → `3`
+<!-- signature:end -->
 
 ## Links
 

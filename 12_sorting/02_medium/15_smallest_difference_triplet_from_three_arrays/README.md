@@ -20,6 +20,7 @@ Output : [11, 10, 9]
 Explanation: Multiple triplets have the same minimum difference, and among them (11, 10, 9) has the smallest sum, so it is chosen.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> smallestDifferenceTripletThreeArrays(List<int> a, List<int> b, List<in
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestDifferenceTripletThreeArrays([5, 2, 8], [10, 7, 12], [9, 14, 6])` → `[7, 6, 5]`
+<!-- signature:end -->
 
 ## Links
 

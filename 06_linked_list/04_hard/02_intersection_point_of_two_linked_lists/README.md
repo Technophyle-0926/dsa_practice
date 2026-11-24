@@ -17,13 +17,17 @@ Output: 8
 Explanation: 8 is the first common node where both linked lists start sharing the same sequence of nodes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic intersectionPointTwoLinkedLists(/* not set yet */)
+int intersectionPoint(ListNode? head1, ListNode? head2)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The harness builds the Y shape (shared tail nodes); return the value of the first common node, or -1 if none.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

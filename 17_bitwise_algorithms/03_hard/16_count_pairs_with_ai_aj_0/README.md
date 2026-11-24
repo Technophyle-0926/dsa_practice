@@ -23,13 +23,17 @@ Output : 4
 Explanation : (4, 1), (1, 4), (6, 1) and (1, 6) are the pairs
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int countPairsAiAj0(List<int> A)
+int countPairsAiAj0(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countPairsAiAj0([3, 4, 2])` → `4`
+<!-- signature:end -->
 
 ## Links
 

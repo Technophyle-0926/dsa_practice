@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/insertion-in-a-b-tree/",
   "practice": null,
   "function": {
-    "name": "insertionBTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bPlusTreeInsert",
+    "params": [
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Order m (max m-1 keys per node). An overflowing leaf keeps its first m~/2 keys and copies the new right leaf's first key up; an overflowing internal node moves its key at index m~/2 up. The tree is returned level by level, left to right, one List<int> of keys per node."
   },
-  "example": null
+  "example": {
+    "call": "bPlusTreeInsert(3, [1, 4, 7, 10])",
+    "expected": "[[4, 7], [1], [4], [7, 10]]"
+  }
 }

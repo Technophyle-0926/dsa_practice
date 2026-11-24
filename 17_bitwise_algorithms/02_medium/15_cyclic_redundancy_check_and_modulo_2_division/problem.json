@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/modulo-2-binary-division/",
   "practice": null,
   "function": {
-    "name": "cyclicRedundancyCheckModulo2",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "crcEncode",
+    "params": [
+      {
+        "name": "data",
+        "type": "String"
+      },
+      {
+        "name": "key",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true,
+    "note": "Return data followed by the (key length - 1)-bit CRC remainder from modulo-2 division."
   },
-  "example": null
+  "example": {
+    "call": "crcEncode(\"100100\", \"1101\")",
+    "expected": "\"100100001\""
+  }
 }

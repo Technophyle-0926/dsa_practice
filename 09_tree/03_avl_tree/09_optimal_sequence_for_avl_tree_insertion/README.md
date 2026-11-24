@@ -16,13 +16,19 @@ Input : array = {2, 4, 1, 3, 5, 6, 7}
 Output : 4 2 6 1 3 5 7
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> optimalSequenceAvlTreeInsertion(List<int> array)
 ```
 
+> **Note:** Sort the values, build the balanced BST by recursively taking the middle element (lower middle for even length), and return its level-order traversal.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `optimalSequenceAvlTreeInsertion([1, 2, 3])` → `[2, 1, 3]`
+<!-- signature:end -->
 
 ## Links
 

@@ -25,13 +25,19 @@ In the range [3, 9], the minimum distance between 0's is 2 (Index 4 and 6).
 In the range [10, 13], the minimum distance between 0's is 3 (Index 10 and 13).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int minimumDistanceBetweenTwoZeros(List<int> arr, List<List<int>> Q)
+List<int> minimumDistanceBetweenTwoZeros(List<int> arr, List<List<int>> queries)
 ```
 
+> **Note:** One answer per query [L, R] (0-based); -1 if the range has fewer than two zeros.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumDistanceBetweenTwoZeros([1, 0, 0, 1], [[0, 2]])` → `[1]`
+<!-- signature:end -->
 
 ## Links
 

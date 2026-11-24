@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "sentinelLinearSearch",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Returns the 0-based index of key, or -1 if not present."
   },
-  "example": null
+  "example": {
+    "call": "sentinelLinearSearch([10, 20, 180, 30, 60, 50, 110, 100, 70], 180)",
+    "expected": "2"
+  }
 }

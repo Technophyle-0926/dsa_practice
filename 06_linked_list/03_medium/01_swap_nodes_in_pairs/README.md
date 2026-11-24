@@ -26,13 +26,17 @@ Output : 7 -> 8 -> 2 -> 5 -> 1
 Explanation: The list has 5 nodes, so we form pairs from the front: [8, 7], [5, 2], and 1 remains unpaired (odd node count). Swapping each pair gives: [7, 8], [2, 5], and 1 stays as is. Final list: 7 -> 8 -> 2 -> 5 -> 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic swapNodesPairs(/* not set yet */)
+ListNode? swapPairs(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `swapPairs(ListNode.fromList([1, 2, 3, 4, 5]))` → `2 -> 1 -> 4 -> 3 -> 5`
+<!-- signature:end -->
 
 ## Links
 

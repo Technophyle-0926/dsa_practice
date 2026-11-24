@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/maximum-edges-can-added-dag-remains-dag/",
   "practice": "https://www.geeksforgeeks.org/problems/max-dag-edges/1",
   "function": {
-    "name": "maximumEdgesThatCanBe",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxEdgesToAddInDag",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "maxEdgesToAddInDag([[1], [2], []])",
+    "expected": "1"
+  }
 }

@@ -20,6 +20,7 @@ Output: False
 Explanation: There is no subset that add up to 30.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool subsetSumProblem(List<int> arr, int sum)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `subsetSumProblem([3, 34, 4, 12, 5, 2], 9)` → `True`
+<!-- signature:end -->
 
 ## Links
 

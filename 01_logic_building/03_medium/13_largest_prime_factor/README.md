@@ -22,6 +22,7 @@ Output: 7
 Explanation: Prime factors are 2 and 7. The largest of them is 7.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int largestPrimeFactor(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestPrimeFactor(6)` → `3`
+<!-- signature:end -->
 
 ## Links
 

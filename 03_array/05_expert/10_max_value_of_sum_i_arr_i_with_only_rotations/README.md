@@ -26,6 +26,7 @@ Input: arr[] = [10, 1, 2, 7, 9, 3]
 Output: 105
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int maxValueSumIArr(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxValueSumIArr([4, 3, 2, 6, 1, 5])` → `60`
+<!-- signature:end -->
 
 ## Links
 

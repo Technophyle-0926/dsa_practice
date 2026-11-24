@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/different-shapes-of-avl-possible-at-height-h/",
   "practice": null,
   "function": {
-    "name": "differentShapesAvlPossibleAt",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minimalAvlShapes",
+    "params": [
+      {
+        "name": "h",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Number of distinct shapes of minimal AVL trees of height h (leaf height 0): N(0) = 1, N(1) = 2, N(h) = 2 * N(h-1) * N(h-2)."
   },
-  "example": null
+  "example": {
+    "call": "minimalAvlShapes(2)",
+    "expected": "4"
+  }
 }

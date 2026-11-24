@@ -20,13 +20,17 @@ Output: false
 Explanation: Although the characters are mostly the same, s2 contains an extra 'y' character. Since the frequency of characters differs, the strings are not anagrams.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkAnagrams(/* not set yet */)
+bool areAnagrams(String s1, String s2)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `areAnagrams("geeks", "kseeg")` → `true`
+<!-- signature:end -->
 
 ## Links
 

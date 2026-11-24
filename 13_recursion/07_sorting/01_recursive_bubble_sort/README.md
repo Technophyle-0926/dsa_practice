@@ -35,13 +35,17 @@ If we take a closer look at Bubble Sort algorithm, we can notice that in first p
 - Do One Pass of normal Bubble Sort. This pass fixes last element of current subarray.
 - Recur for all elements except last of current subarray.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recursiveBubbleSort(/* not set yet */)
+List<int> recursiveBubbleSort(List<int> arr)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recursiveBubbleSort([5, 1, 4, 2, 8])` → `[1, 2, 4, 5, 8]`
+<!-- signature:end -->
 
 ## Links
 

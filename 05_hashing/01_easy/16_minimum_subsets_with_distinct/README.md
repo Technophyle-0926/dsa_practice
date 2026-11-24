@@ -18,6 +18,7 @@ Output : 2
 Explanation : We need to create two subsets {1, 2, 3} and {3} [or {1, 3} and {2, 3}] such that both subsets have distinct elements.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int minimumSubsetsDistinct(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumSubsetsDistinct([1, 2, 3, 4])` → `1`
+<!-- signature:end -->
 
 ## Links
 

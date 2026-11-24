@@ -20,6 +20,7 @@ Output: 5
 Explanation: There are 5 pairs with absolute difference 4, the pairs are [8, 12], [8, 4], [16, 12], [12, 16], [4, 0].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int countPairsGivenDiff(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countPairsGivenDiff([1, 4, 1, 4, 5], 3)` → `4`
+<!-- signature:end -->
 
 ## Links
 

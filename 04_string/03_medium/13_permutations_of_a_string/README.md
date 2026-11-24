@@ -23,6 +23,7 @@ Input: s = "AAA"
 Output: "AAA", "AAA", "AAA", "AAA", "AAA", "AAA"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ List<String> permutationsString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `permutationsString("ABC")` → `["ABC", "ACB", "BAC", "BCA", "CAB", "CBA"]`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: 15
 Explanation:  1 + 2 + 3 + 4 + 5 = 15
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int sumNaturals(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumNaturals(3)` → `6`
+<!-- signature:end -->
 
 ## Links
 

@@ -33,13 +33,19 @@ Implementation:
 5- If not then keep checking the further blocks.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic firstFitAlgorithmMemoryManagement(List<int> blockSize, List<int> processSize)
+List<int> firstFitAllocation(List<int> blockSize, List<int> processSize)
 ```
 
+> **Note:** Return the 1-based block number allocated to each process, or -1 if not allocated.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstFitAllocation([100, 500, 200, 300, 600], [212, 417, 112, 426])` → `[2, 5, 2, -1]`
+<!-- signature:end -->
 
 ## Links
 

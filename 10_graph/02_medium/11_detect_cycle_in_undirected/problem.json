@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-undirected-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
   "function": {
-    "name": "detectCycleUndirected",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isCyclicUndirected",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "isCyclicUndirected([[1, 2], [0, 2], [0, 1, 3], [2]])",
+    "expected": "true"
+  }
 }

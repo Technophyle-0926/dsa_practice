@@ -25,13 +25,19 @@ Output: (a-(b/c))
 Explanation: The postfix expression abc/- represents a-(b/c). Therefore, its equivalent infix expression is (a-(b/c)).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic postfixInfix(String s)
+String postfixToInfix(String s)
 ```
 
+> **Note:** Every operation is fully parenthesised, as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `postfixToInfix("ab*c+")` → `((a*b)+c)`
+<!-- signature:end -->
 
 ## Links
 

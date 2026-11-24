@@ -20,6 +20,7 @@ Output: 3->4->20
 Explanation: The above linked list is sorted in non-decreasing order.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ ListNode? sortLinkedList(ListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortLinkedList(ListNode.fromList([10, 30, 20, 5]))` → `5->10->20->30`
+<!-- signature:end -->
 
 ## Links
 

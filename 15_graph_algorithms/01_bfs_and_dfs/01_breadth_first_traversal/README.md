@@ -48,13 +48,19 @@ Visit 4 - Print: 4
 Visit 5 (neighbor of 4) - Print: 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic breadthFirstTraversal(/* not set yet */)
+List<int> bfsOfGraph(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Start at 0, visit neighbours in adj order; if vertices remain unvisited, start a new BFS from the smallest unvisited vertex.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bfsOfGraph([[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]])` → `[0, 1, 2, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

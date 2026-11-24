@@ -22,6 +22,7 @@ Output: 2
 Explanation: For [1, 2, 3], there are two possible derangements [3, 1, 2] and [2, 3, 1].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int countDerangements(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countDerangements(2)` → `1`
+<!-- signature:end -->
 
 ## Links
 

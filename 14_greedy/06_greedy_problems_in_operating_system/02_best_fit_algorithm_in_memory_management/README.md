@@ -33,13 +33,19 @@ Implementation:
    the further processes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bestFitAlgorithmMemoryManagement(List<int> blockSize, List<int> processSize)
+List<int> bestFitAllocation(List<int> blockSize, List<int> processSize)
 ```
 
+> **Note:** Return the 1-based block number allocated to each process, or -1 if not allocated.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bestFitAllocation([100, 500, 200, 300, 600], [212, 417, 112, 426])` → `[4, 2, 3, 5]`
+<!-- signature:end -->
 
 ## Links
 

@@ -33,6 +33,7 @@ Output: 0
 Explanation: As there is only one matrix so, there is no cost of multiplication.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -40,6 +41,9 @@ int matrixChainMultiplication(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `matrixChainMultiplication([2, 1, 3, 4])` → `20`
+<!-- signature:end -->
 
 ## Links
 

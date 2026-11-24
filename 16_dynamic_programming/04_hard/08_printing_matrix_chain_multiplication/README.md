@@ -33,13 +33,19 @@ Explanation: There are five possible ways to multiply four matrices:
 So, the minimum costs will be occurred in the arrangement ((A(BC))D).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic printingMatrixChainMultiplication(List<int> arr)
+String printingMatrixChainMultiplication(List<int> arr)
 ```
 
+> **Note:** Matrices are named A, B, C, ...; return the optimal parenthesization string.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printingMatrixChainMultiplication([10, 20, 30])` → `"(AB)"`
+<!-- signature:end -->
 
 ## Links
 

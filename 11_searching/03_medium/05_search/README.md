@@ -26,6 +26,7 @@ Output: 1
 Explanation: 42 is found at index 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int search(List<int> arr, int key)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `search([5, 6, 7, 8, 9, 10, 1, 2, 3], 3)` → `8`
+<!-- signature:end -->
 
 ## Links
 

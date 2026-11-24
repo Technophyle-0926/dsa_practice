@@ -7,22 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-subarray-with-given-sum-in-array-of-integers/",
   "practice": "https://www.geeksforgeeks.org/problems/hopscotch4857/1",
   "function": {
-    "name": "subarrayGivenSum",
+    "name": "subarrayWithGivenSum",
     "params": [
       {
         "name": "arr",
         "type": "List<int>"
       },
       {
-        "name": "sum",
+        "name": "k",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return 0-based [start, end] of any subarray summing to k, or [-1, -1] if none."
   },
   "example": {
-    "call": "subarrayGivenSum([1, 4, 20, 3, 10, 5], 33)",
-    "expected": "Sum found between indexes 2 and 4"
+    "call": "subarrayWithGivenSum([1, 4, 20, 3, 10, 5], 33)",
+    "expected": "[2, 4]"
   }
 }

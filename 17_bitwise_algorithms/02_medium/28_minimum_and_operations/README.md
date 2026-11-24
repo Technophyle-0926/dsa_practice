@@ -26,13 +26,19 @@ Explanation : No matter how many times we perform the above mentioned operation,
 this array will never have equal element pair. So the answer is -1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumOperations(/* not set yet */)
+int minimumAndOperations(List<int> arr, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return -1 if no two elements can be made equal.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumAndOperations([1, 2, 1, 2], 6)` → `0`
+<!-- signature:end -->
 
 ## Links
 

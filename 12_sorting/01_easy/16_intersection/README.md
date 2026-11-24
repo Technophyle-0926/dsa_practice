@@ -29,6 +29,7 @@ Output: [1, 2, 3]
 Explanation: All elements are common
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<int> intersection(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `intersection([1, 1, 2, 2, 2, 4], [2, 2, 4, 4])` → `[2, 4]`
+<!-- signature:end -->
 
 ## Links
 

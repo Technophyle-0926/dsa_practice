@@ -26,6 +26,7 @@ Output: false
 Explanation: All elements are distinct, so no duplicate exists.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool duplicateWithinKDistance(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `duplicateWithinKDistance([1, 5, 4, 5, 1], 3)` → `true`
+<!-- signature:end -->
 
 ## Links
 

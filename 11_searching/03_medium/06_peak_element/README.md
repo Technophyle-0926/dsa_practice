@@ -22,6 +22,7 @@ Output: 1
 Explanation: Element 20 at index 1 is a peak since 10 < 20 > 15. Index 5 (value 90) is also a peak, but returning any one peak index is valid.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int peakElement(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `peakElement([1, 2, 4, 5, 7, 8, 3])` → `5`
+<!-- signature:end -->
 
 ## Links
 

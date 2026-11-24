@@ -6,13 +6,19 @@
 
 Huffman coding is a lossless data compression algorithm.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic huffmanCoding(/* not set yet */)
+List<String> huffmanCodes(String s, List<int> freq)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** GfG convention: repeatedly merge the two smallest nodes (first popped becomes left, ties keep insertion order); return the codes of the leaves in preorder traversal (left = 0, right = 1).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `huffmanCodes("abcdef", [5, 9, 12, 13, 16, 45])` → `[0, 100, 101, 1100, 1101, 111]`
+<!-- signature:end -->
 
 ## Links
 

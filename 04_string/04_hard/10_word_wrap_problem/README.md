@@ -36,6 +36,7 @@ Line number 3: From word no. 3 to 3
 Same explanation as above total cost = (4 - 3)^2 + (4 - 2)^2 = 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -43,6 +44,9 @@ int wordWrapProblem(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordWrapProblem([3, 2, 2, 5], 6)` → `10`
+<!-- signature:end -->
 
 ## Links
 

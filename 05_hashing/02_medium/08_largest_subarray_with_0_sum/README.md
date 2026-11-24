@@ -27,6 +27,7 @@ Output:  1
 Explanation: The longest sub-array with sum equal to 0 is [0].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int largestSubarray0Sum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestSubarray0Sum([15, -2, 2, -8, 1, 7, 10])` → `5`
+<!-- signature:end -->
 
 ## Links
 

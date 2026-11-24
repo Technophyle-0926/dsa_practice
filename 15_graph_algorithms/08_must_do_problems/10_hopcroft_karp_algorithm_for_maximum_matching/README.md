@@ -47,6 +47,7 @@ First applicant gets the 1st job.
 Second applicant gets the 2nd job
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -54,6 +55,9 @@ int hopcroftKarpAlgorithmMaximumMatching(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `hopcroftKarpAlgorithmMaximumMatching([[1, 1, 0, 1, 1], [0, 1, 0, 0, 1], [1, 1, 0, 1, 1]])` → `3`
+<!-- signature:end -->
 
 ## Links
 

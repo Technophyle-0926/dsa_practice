@@ -28,6 +28,7 @@ Output: 8
 Explanation: Since the strings have no common characters, delete all characters from both strings. The resulting empty strings are anagrams of each other.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int makeTwoStringsAnagramWithout(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `makeTwoStringsAnagramWithout("abc", "cb")` → `1`
+<!-- signature:end -->
 
 ## Links
 

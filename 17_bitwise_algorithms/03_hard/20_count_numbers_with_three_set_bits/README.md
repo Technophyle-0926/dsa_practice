@@ -25,6 +25,7 @@ Output: 3
 Explanation: There are 3 such numbers with 3 set bits in range 25 to 29. 25 -> 11001, 26 -> 11010, 28 -> 11100. So answer for this test case is 3
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int countNumbersThreeBits(int l, int r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countNumbersThreeBits(11, 19)` → `4`
+<!-- signature:end -->
 
 ## Links
 

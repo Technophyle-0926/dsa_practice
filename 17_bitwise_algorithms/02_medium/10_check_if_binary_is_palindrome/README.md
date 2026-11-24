@@ -16,13 +16,19 @@ Output: `false`
 Explanation: The binary representation of `10` is `1010`, which is not a palindrome.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkIfBinaryPalindrome(/* not set yet */)
+bool isBinaryPalindrome(int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Binary representation without leading zeros.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isBinaryPalindrome(9)` → `true`
+<!-- signature:end -->
 
 ## Links
 

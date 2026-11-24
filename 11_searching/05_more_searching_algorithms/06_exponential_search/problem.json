@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "int",
+    "verified": true,
+    "note": "Returns the 0-based index of x, or -1 if not present."
   },
   "example": {
     "call": "exponentialSearch([10, 20, 40, 45, 55], 45)",
-    "expected": "Element found at index 3"
+    "expected": "3"
   }
 }

@@ -32,6 +32,7 @@ Output: [1, 1, 1]
 Explanation: Every window of size 3 in the array [1, 1, 1, 1, 1], contains only the element 1, so the number of distinct elements in each window is 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ List<int> distinctsEveryWindowSizeK(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `distinctsEveryWindowSizeK([1, 2, 1, 3, 4, 2, 3], 4)` → `[3, 4, 4, 3]`
+<!-- signature:end -->
 
 ## Links
 

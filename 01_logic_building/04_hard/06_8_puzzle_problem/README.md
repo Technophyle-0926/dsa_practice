@@ -6,13 +6,17 @@
 
 Given a 3×3 board with 8 tiles (each numbered from 1 to 8) and one empty space, the objective is to place the numbers to match the final configuration using the empty space. We can slide four adjacent tiles (left, right, above, and below) into the empty space.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic solve8PuzzleProblem(/* not set yet */)
+int eightPuzzle(List<List<int>> board)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** board is 3x3 with 0 as the empty cell; return the minimum number of moves to reach [[1, 2, 3], [4, 5, 6], [7, 8, 0]], or -1 if unsolvable.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

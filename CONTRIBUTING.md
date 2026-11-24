@@ -7,7 +7,7 @@ inside a problem folder. Progress is calculated from those files, so there is no
 
 1. Install the Dart SDK (Flutter includes it) and git.
 2. Accept the collaborator invite (GitHub email / notifications).
-3. Clone and set your username (must match your GitHub login **exactly**, including case):
+3. Clone and set your username (it is checked against GitHub, which also fixes the capitalisation):
 
    ```sh
    git clone https://github.com/Technophyle-0926/dsa_practice.git
@@ -16,8 +16,8 @@ inside a problem folder. Progress is calculated from those files, so there is no
    dart run tool/start.dart --user <your-github-username>
    ```
 
-   Your username is stored in `.dsa_user`, which is git-ignored.
-4. Optional: install the GitHub CLI (`gh`) and run `gh auth login`; then `submit` opens pull requests for you.
+   Your username is stored in `.dsa_user`, which is git-ignored. If you ever change it, run the same
+   command again: your existing solution files are renamed for you.
 
 ## Daily loop
 
@@ -51,8 +51,12 @@ Category names can be shortened when unambiguous (`link`, `dyn`); `dp` and `ll` 
 It contains the **required function signature** (from `problem.json`) and a `main()` that runs the first
 example. Keep the function name and parameters as they are; the leaderboard will call that function.
 
-A problem counts as **solved** when your file no longer contains `TODO` or `UnimplementedError`.
-Reading items in `00_basics` use a `.md` notes file instead; they count once the `TODO` line is removed.
+A problem counts as **solved** when your file no longer contains `UnimplementedError` (the template's
+placeholder). Your own `TODO` comments are fine. Reading items in `00_basics` use a `.md` notes file instead;
+they count once the template's placeholder line is deleted.
+
+Some signatures have a **note** above them (e.g. how operations are encoded, or "return -1 if not found").
+Read it; it is part of the contract.
 
 Linked list / tree problems use the helpers in `lib/ds.dart`
 (`ListNode.fromList([1, 2, 3])`, `TreeNode.fromLevelOrder([1, 2, null, 3])`).
@@ -64,13 +68,22 @@ Linked list / tree problems use the helpers in `lib/ds.dart`
 1. picks up only your `solutions/<you>` files (anything else you changed is left alone and listed),
 2. checks them with the Dart analyzer and stops if there are errors (`--force` to send anyway),
 3. moves you to your personal branch `<you>/solutions` (created the first time),
-4. commits, merges in the latest `main` (everyone else's work), and pushes,
-5. opens a pull request with `gh`, or prints the link to open one. If your pull request is still open,
-   it is simply updated, so you can submit as often as you like.
+4. commits, merges in the latest `main` (everyone else's work), and pushes.
 
-On GitHub an automatic check confirms you only changed your own solution files and that they compile.
-Once the pull request is merged, `PROGRESS.md`, `progress/<you>.md` and the "Solved by" columns update
-automatically. Don't edit those generated files yourself.
+Then GitHub takes over, no pull request needed:
+
+- it checks that the branch is yours, that you only changed your own solution files, and that they compile;
+- if everything passes, it merges your work into `main` and updates `PROGRESS.md`, `progress/<you>.md`
+  and the "Solved by" columns (about a minute);
+- if something fails, nothing is merged and GitHub emails you the reason.
+
+Check what happened with:
+
+```sh
+dart run tool/submit.dart --status
+```
+
+Submit as often as you like. Don't edit the generated progress files yourself.
 
 Check your own progress at any time:
 
@@ -78,8 +91,7 @@ Check your own progress at any time:
 dart run tool/progress.dart --me
 ```
 
-## Signatures that are "not set yet"
+## Correctness
 
-Some problems' signatures couldn't be derived from the GfG examples (their README says *not set yet*).
-You can still solve them; pick sensible parameters. The maintainer fixes `problem.json` before the
-problem is used by the leaderboard.
+Right now "solved" means "submitted and compiles". Test cases and a leaderboard (correctness + execution
+time) are planned: solutions will still be merged when tests fail, but marked as failing and not counted.

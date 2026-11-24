@@ -22,13 +22,17 @@ Output: 0
 Explanation: Not possible to earn.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int stockBuySellAtMost(List<int> prices, int k)
+int stockBuySellAtMostK(List<int> prices, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stockBuySellAtMostK([10, 22, 5, 80], 2)` → `87`
+<!-- signature:end -->
 
 ## Links
 

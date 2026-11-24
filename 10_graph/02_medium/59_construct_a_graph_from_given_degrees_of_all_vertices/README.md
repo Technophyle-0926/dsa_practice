@@ -34,13 +34,19 @@ Approach :
 
 Based on the above explanation, below are implementations:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic constructGraphGivenDegreesAll(List<int> degrees)
+List<List<int>> constructGraphFromDegrees(List<int> degrees)
 ```
 
+> **Note:** Return the adjacency matrix built greedily: for each i in order, connect i to each later j while both still need degree.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `constructGraphFromDegrees([2, 2, 1, 1])` → `[[0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]]`
+<!-- signature:end -->
 
 ## Links
 

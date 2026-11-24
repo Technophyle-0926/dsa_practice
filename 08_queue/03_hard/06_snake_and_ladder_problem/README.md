@@ -27,6 +27,7 @@ Output: 2
 Explanation:  Move from 1 to 2 and take the ladder to 8. Then move from 8 to 9, which is the destination. Therefore, the minimum number of dice throws required is 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int snakeLadderProblem(int n, List<int> lad, List<int> sn)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `snakeLadderProblem(6, [3, 22, 5, 8, 11, 35, 20, 32], [17, 4, 19, 7, 34, 1, 21, 9])` → `3`
+<!-- signature:end -->
 
 ## Links
 

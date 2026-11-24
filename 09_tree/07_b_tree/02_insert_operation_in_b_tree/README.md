@@ -8,13 +8,19 @@ In this post, we'll discuss the insert() operation in a B-Tree. A new key is alw
 
 Unlike Binary Search Trees (BSTs), nodes in a B-Tree have a predefined range for the number of keys they can hold. Therefore, before inserting a key, we ensure the node has enough space. If the node is full, an operation called splitChild() is performed to create space by splitting the node.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertOperationBTree(/* not set yet */)
+List<List<int>> bTreeInsert(int t, List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Minimum degree t (max 2t-1 keys per node); CLRS insertion that splits full nodes proactively on the way down. The tree is returned level by level, left to right, one List<int> of keys per node.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bTreeInsert(3, [10, 20, 5, 6, 12, 30, 7, 17])` → `[[10], [5, 6, 7], [12, 17, 20, 30]]`
+<!-- signature:end -->
 
 ## Links
 

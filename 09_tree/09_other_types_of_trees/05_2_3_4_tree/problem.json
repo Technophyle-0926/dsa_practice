@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/2-3-4-tree/",
   "practice": null,
   "function": {
-    "name": "solve234Tree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "tree234Search",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Insert keys into a 2-3-4 tree in order, then return for each query whether it is present."
   },
-  "example": null
+  "example": {
+    "call": "tree234Search([10, 20, 30, 40, 50], [30, 35])",
+    "expected": "[true, false]"
+  }
 }

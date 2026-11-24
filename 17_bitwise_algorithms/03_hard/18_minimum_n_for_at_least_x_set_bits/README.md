@@ -21,6 +21,7 @@ Input: x = 20
 Output: 11
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int minimumNAtLeastX(int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumNAtLeastX(5)` → `4`
+<!-- signature:end -->
 
 ## Links
 

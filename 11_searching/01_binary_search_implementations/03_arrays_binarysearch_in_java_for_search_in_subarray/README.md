@@ -117,13 +117,19 @@ key = 5 to be searched between the range 0 to 4 in specified array.
 Output: -1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic arraysBinarysearchJavaSearchSubarray(/* not set yet */)
+int binarySearchInRange(List<int> arr, int fromIndex, int toIndex, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Search only arr[fromIndex, toIndex) (sorted); return the index of key, else -(insertionPoint) - 1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binarySearchInRange([10, 15, 20, 22, 35], 1, 4, 22)` → `3`
+<!-- signature:end -->
 
 ## Links
 

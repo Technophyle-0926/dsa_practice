@@ -29,6 +29,7 @@ Output: 2
 Explanation: In above diagram Knight takes 2 step to reach from (1, 3) to (5, 1): (1, 3) -> (3, 2) -> (5, 1)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int minKnightStepsTarget(int n, List<int> knightPos, List<int> targetPos)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minKnightStepsTarget(3, [3, 3], [1, 2])` → `1`
+<!-- signature:end -->
 
 ## Links
 

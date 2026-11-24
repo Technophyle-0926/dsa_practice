@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/given-a-string-print-all-possible-palindromic-partition/",
   "practice": "https://www.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1",
   "function": {
-    "name": "givenStringPrintAllPossible",
+    "name": "palindromicPartitions",
     "params": [
       {
         "name": "s",
@@ -15,10 +15,11 @@
       }
     ],
     "returns": "List<List<String>>",
-    "verified": true
+    "verified": true,
+    "note": "Partitions in lexicographic order of their part lists, as in the examples."
   },
   "example": {
-    "call": "givenStringPrintAllPossible(\"geeks\")",
+    "call": "palindromicPartitions(\"geeks\")",
     "expected": "[[g, e, e, k, s], [g, ee, k, s]]"
   }
 }

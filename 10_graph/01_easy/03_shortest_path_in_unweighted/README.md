@@ -18,6 +18,7 @@ Output: 2 1 0 3 4 6
 Explanation: The shortest path is 2 -> 1 -> 0 -> 3 - > 4 -> 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ List<int> shortestPathUnweighted(int V, int E, int S, int D, List<List<int>> edg
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathUnweighted(8, 10, 0, 7, [[0, 1], [1, 2], [0, 3], [3, 4], [4, 7], [3, 7], [6, 7], [4, 5], [4, 6], [5, 6]])` → `0 3 7`
+<!-- signature:end -->
 
 ## Links
 

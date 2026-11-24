@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/optimal-page-replacement-algorithm/",
   "practice": null,
   "function": {
-    "name": "programOptimalPageReplacementAlgorithm",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "optimalPageFaults",
+    "params": [
+      {
+        "name": "pages",
+        "type": "List<int>"
+      },
+      {
+        "name": "capacity",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return the number of page faults (misses) with optimal replacement and the given number of frames."
   },
   "example": null
 }

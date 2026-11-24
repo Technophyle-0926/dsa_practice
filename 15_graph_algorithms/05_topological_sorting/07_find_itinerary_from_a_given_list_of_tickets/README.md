@@ -26,13 +26,19 @@ Input: "New York" -> "Chicago"
 Output: New York -> Chicago, Chicago -> Denver, Denver -> San Francisco, San Francisco -> Los Angeles
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? findItineraryGivenListTickets(ListNode? head, ListNode? head2, ListNode? head3, ListNode? head4)
+List<List<String>> findItinerary(List<List<String>> tickets)
 ```
 
+> **Note:** tickets[i] = [from, to]; return the tickets in travel order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findItinerary([["Chennai", "Bangalore"], ["Bombay", "Delhi"], ["Goa", "Chennai"], ["Delhi", "Goa"]])` → `[["Bombay", "Delhi"], ["Delhi", "Goa"], ["Goa", "Chennai"], ["Chennai", "Bangalore"]]`
+<!-- signature:end -->
 
 ## Links
 

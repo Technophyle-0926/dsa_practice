@@ -24,6 +24,7 @@ Output:0
 Explanation: There is no rightmost set bit
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int turnOffRightmostBit(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `turnOffRightmostBit(12)` → `8`
+<!-- signature:end -->
 
 ## Links
 

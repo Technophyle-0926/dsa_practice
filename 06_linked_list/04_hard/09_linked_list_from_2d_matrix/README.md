@@ -21,13 +21,19 @@ Input: mat = [[23 28], [23 28]]
 Output:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic linkedList2dMatrix(/* not set yet */)
+List<List<int>> linkedListFrom2dMatrix(List<List<int>> mat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Build the right/down linked grid internally (no helper type exists), then return its values by walking each row via right pointers, moving between rows via down pointers.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `linkedListFrom2dMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])` → `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/design-a-stack-which-can-give-maximum-frequency-element/",
   "practice": null,
   "function": {
-    "name": "stackMaxFrequency",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxFrequencyStack",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'push' (args[i] = [x]) or 'pop' (args[i] = []); each pop removes the most frequent element (ties: closest to top) and its value is returned in order, -1 when empty."
   },
-  "example": null
+  "example": {
+    "call": "maxFrequencyStack([\"push\", \"push\", \"push\", \"push\", \"push\", \"pop\", \"pop\"], [[4], [6], [7], [6], [8], [], []])",
+    "expected": "[6, 8]"
+  }
 }

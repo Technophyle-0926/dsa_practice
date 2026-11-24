@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-find-size-doubly-linked-list/",
   "practice": null,
   "function": {
-    "name": "sizeDoublyLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sizeOfDoublyLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "sizeOfDoublyLinkedList(DListNode.fromList([1, 2, 3, 4]))",
+    "expected": "4"
+  }
 }

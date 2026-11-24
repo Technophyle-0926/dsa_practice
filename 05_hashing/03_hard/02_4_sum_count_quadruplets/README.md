@@ -31,6 +31,7 @@ Output: 1
 Explanation: There is only 1 quadruplet with sum = -3, that is [4, 3, -13, 3].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ int solve4SumCountQuadruplets(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve4SumCountQuadruplets([1, 5, 3, 1, 2, 10], 20)` → `1`
+<!-- signature:end -->
 
 ## Links
 

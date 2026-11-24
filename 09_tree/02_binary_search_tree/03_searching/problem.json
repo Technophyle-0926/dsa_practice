@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-set-1-search-and-insertion/",
   "practice": "https://www.geeksforgeeks.org/problems/search-a-node-in-bst/1",
   "function": {
-    "name": "searching",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "searchBst",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "searchBst(TreeNode.fromLevelOrder([6, 2, 8, null, null, 7, 9]), 7)",
+    "expected": "true"
+  }
 }

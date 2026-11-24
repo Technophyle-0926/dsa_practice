@@ -28,6 +28,7 @@ Output: 1
 Explanation: There are three longest common subsequences of length 1, "A", "B" and "C".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int longestCommonSubsequence(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestCommonSubsequence("ABC", "ACD")` → `2`
+<!-- signature:end -->
 
 ## Links
 

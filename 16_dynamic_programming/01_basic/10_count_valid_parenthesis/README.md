@@ -26,6 +26,7 @@ Output: 5
 Explanation: Possible valid expressions are "((()))", "()(())", "()()()", "(())()" and "(()())"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int countValidParenthesis(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countValidParenthesis(2)` → `1`
+<!-- signature:end -->
 
 ## Links
 

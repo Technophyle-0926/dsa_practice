@@ -22,6 +22,7 @@ Output: 6
 Explanation: ABC[58] The closing bracket corresponding to the opening bracket at index 3 is at index 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int indexClosingBracketGivenOpening(String s, int pos)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `indexClosingBracketGivenOpening("[ABC[23]][89]", 0)` → `8`
+<!-- signature:end -->
 
 ## Links
 

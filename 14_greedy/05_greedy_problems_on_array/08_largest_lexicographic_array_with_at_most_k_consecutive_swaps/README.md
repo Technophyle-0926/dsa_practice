@@ -25,6 +25,7 @@ Output : 5, 3, 2, 1, 1
 
 **Optimized Approach :** In this greedy approach, first find the largest element present in the array which is greater than(if the 1st position element is not the greatest) the 1st position and which can be placed at the 1st position with at-most K swaps. After finding that element, note its index. Then, swap elements of the array and update K value. Apply this procedure for other positions till k is non-zero or array becomes lexicographically largest.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ List<int> largestLexicographicArrayAtMost(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestLexicographicArrayAtMost([3, 5, 4, 1, 2], 3)` → `[5, 4, 3, 2, 1]`
+<!-- signature:end -->
 
 ## Links
 

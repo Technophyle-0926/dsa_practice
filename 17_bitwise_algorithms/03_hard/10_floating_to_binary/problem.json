@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/python/python-program-to-convert-floating-to-binary/",
   "practice": null,
   "function": {
-    "name": "floatingBinary",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "floatToBinary",
+    "params": [
+      {
+        "name": "x",
+        "type": "double"
+      }
+    ],
+    "returns": "String",
+    "verified": true,
+    "note": "Return the 32-bit IEEE 754 single-precision bit string."
   },
-  "example": null
+  "example": {
+    "call": "floatToBinary(10.75)",
+    "expected": "\"01000001001011000000000000000000\""
+  }
 }

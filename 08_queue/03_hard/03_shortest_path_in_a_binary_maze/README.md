@@ -25,6 +25,7 @@ Output:-1
 Explanation: From (0,0), the destination (3,4) cannot be reached because all possible paths are blocked by 0 cells, so no valid route exists.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int shortestPathBinaryMaze(List<List<int>> mat, List<int> src, List<int> dest)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathBinaryMaze([[1, 1, 1, 1], [1, 1, 0, 1], [1, 1, 1, 1], [1, 1, 0, 0], [1, 0, 0, 1]], [0, 1], [2, 2])` → `3`
+<!-- signature:end -->
 
 ## Links
 

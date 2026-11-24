@@ -26,13 +26,17 @@ Output: [1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 8, 9, 9]
 Explanation: Merging all elements from the 4 sorted arrays and sorting them results in:[1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 8, 9, 9] .
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mergeKSortedArrays(/* not set yet */)
+List<int> mergeKSortedArrays(List<List<int>> mat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeKSortedArrays([[1, 3, 5, 7], [2, 4, 6, 8], [0, 9, 10, 11]])` → `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]`
+<!-- signature:end -->
 
 ## Links
 

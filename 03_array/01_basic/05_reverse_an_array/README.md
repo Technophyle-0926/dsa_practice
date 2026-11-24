@@ -20,6 +20,7 @@ Output: [2, 1, 5, 4]
 Explanation: The first element 4 moves to last position, the second element 5 moves to second last and so on.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> reverseArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseArray([1, 4, 3, 2, 6, 5])` → `[5, 6, 2, 3, 4, 1]`
+<!-- signature:end -->
 
 ## Links
 

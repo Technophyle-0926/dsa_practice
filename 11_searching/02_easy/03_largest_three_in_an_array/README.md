@@ -27,6 +27,7 @@ Output: [10]
 There is only one distinct element
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<int> largestThreeArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestThreeArray([10, 4, 3, 50, 23, 90])` → `[90, 50, 23]`
+<!-- signature:end -->
 
 ## Links
 

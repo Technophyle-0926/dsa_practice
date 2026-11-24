@@ -98,13 +98,19 @@ This algorithm runs in O(n^2   ) time. For sparse graphs (that is, for small val
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic erdosRenylModelGeneratingRandom(/* not set yet */)
+double expectedEdgesGnp(int n, double p)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the expected number of edges of a G(n, p) random graph, i.e. C(n, 2) * p (tolerance 1e-6).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `expectedEdgesGnp(10, 0.5)` → `22.5`
+<!-- signature:end -->
 
 ## Links
 

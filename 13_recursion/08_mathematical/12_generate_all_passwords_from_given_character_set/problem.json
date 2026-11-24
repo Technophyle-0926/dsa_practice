@@ -7,10 +7,10 @@
   "article": "https://www.geeksforgeeks.org/dsa/generate-passwords-given-character-set/",
   "practice": null,
   "function": {
-    "name": "generateAllPasswordsGivenCharacter",
+    "name": "generatePasswords",
     "params": [
       {
-        "name": "arr",
+        "name": "chars",
         "type": "List<String>"
       },
       {
@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "All strings of length 1..len, grouped by length, in order of chars."
   },
   "example": {
-    "call": "generateAllPasswordsGivenCharacter([\"a\", \"b\"], 2)",
-    "expected": "a b aa ab ba bb"
+    "call": "generatePasswords([\"a\", \"b\"], 2)",
+    "expected": "[a, b, aa, ab, ba, bb]"
   }
 }

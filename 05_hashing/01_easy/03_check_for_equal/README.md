@@ -22,6 +22,7 @@ Output: false
 Explanation: a[] and b[] have only one common value, 2. All others elements are different so the arrays cannot be rearranged to become equal. Therefore, the output is false.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ bool checkEqual(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkEqual([1, 2, 5, 4, 0], [2, 4, 5, 0, 1])` → `true`
+<!-- signature:end -->
 
 ## Links
 

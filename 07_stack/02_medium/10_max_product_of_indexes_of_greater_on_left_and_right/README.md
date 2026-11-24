@@ -31,13 +31,19 @@ LRproduct[] = [0, 5, 8, 5, 0]. The maximum value in LRproduct is 8.
 Please note indexes are considered from 1 to n and 0 is used for filling in cases when left(i) and/or right(i) do not exist.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int maxProductIndexesGreaterLeft(List<int> arr)
+int maxLRProduct(List<int> arr)
 ```
 
+> **Note:** Indices are 1-based; a missing greater element on a side counts as index 0.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxLRProduct([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])` → `24`
+<!-- signature:end -->
 
 ## Links
 

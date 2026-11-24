@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/combinations-string-digits/",
   "practice": null,
   "function": {
-    "name": "combinationsStringDigits",
+    "name": "combinationsOfDigits",
     "params": [
       {
-        "name": "n",
-        "type": "int"
+        "name": "s",
+        "type": "String"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Each combination is the numbers joined by single spaces, in the order shown in the examples."
   },
   "example": {
-    "call": "combinationsStringDigits(123)",
-    "expected": "1 2 3"
+    "call": "combinationsOfDigits(\"123\")",
+    "expected": "[\"1 2 3\", \"1 23\", \"12 3\", \"123\"]"
   }
 }

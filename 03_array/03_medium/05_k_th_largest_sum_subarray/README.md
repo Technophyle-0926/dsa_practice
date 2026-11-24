@@ -20,6 +20,7 @@ Output: -10
 Explanation: The 6th largest sum among sum of all contiguous subarrays is -10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int kThLargestSumSubarray(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kThLargestSumSubarray([20, -5, -1], 3)` → `14`
+<!-- signature:end -->
 
 ## Links
 

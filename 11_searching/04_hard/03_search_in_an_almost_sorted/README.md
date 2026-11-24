@@ -21,6 +21,7 @@ Output: -1
 Explanation: 90 is not present in the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int searchAlmostSorted(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchAlmostSorted([10, 3, 40, 20, 50, 80, 70], 40)` → `2`
+<!-- signature:end -->
 
 ## Links
 

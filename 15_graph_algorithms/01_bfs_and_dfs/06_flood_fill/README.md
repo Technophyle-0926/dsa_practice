@@ -32,6 +32,7 @@ Output: [[0, 0, 0],
 Explanation: Starting from pixel (0, 1) which has value 1, flood fill updates all connected pixels (up, down, left, right) with value 1 to 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ List<List<int>> floodFill(int sr, int sc, int newColor, List<List<int>> img)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `floodFill(0, 1, 0, [[0, 1, 0], [0, 1, 0]])` → `[[0, 0, 0], [0, 0, 0]]`
+<!-- signature:end -->
 
 ## Links
 

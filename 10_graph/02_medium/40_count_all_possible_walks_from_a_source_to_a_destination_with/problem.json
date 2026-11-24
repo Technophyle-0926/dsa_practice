@@ -7,10 +7,30 @@
   "article": "https://www.geeksforgeeks.org/dsa/count-possible-paths-source-destination-exactly-k-edges/",
   "practice": "https://www.geeksforgeeks.org/problems/possible-paths3834/1",
   "function": {
-    "name": "countAllPossibleWalksSource",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countWalks",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "src",
+        "type": "int"
+      },
+      {
+        "name": "dest",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "countWalks([[0, 1, 1, 1], [0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 0]], 0, 3, 2)",
+    "expected": "2"
+  }
 }

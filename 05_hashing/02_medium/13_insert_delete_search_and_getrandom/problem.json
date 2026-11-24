@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/",
   "practice": null,
   "function": {
-    "name": "insertDeleteSearchGetrandom",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "randomizedSet",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'insert', 'remove', 'search' (args[i] = [x]) or 'getRandom' (args[i] = []); returns one value per op: 1/0 for insert/remove/search success, the element for getRandom."
   },
-  "example": null
+  "example": {
+    "call": "randomizedSet([\"insert\", \"insert\", \"search\", \"remove\", \"search\", \"getRandom\"], [[10], [20], [10], [10], [10], []])",
+    "expected": "[1, 1, 1, 1, 0, 20]"
+  }
 }

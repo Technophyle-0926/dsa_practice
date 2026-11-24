@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-indexed-tree-range-updates-point-queries/",
   "practice": null,
   "function": {
-    "name": "rangeUpdatesPointQueries",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "rangeUpdatePointQuery",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Array of n zeros; [1, l, r, val] adds val to [l, r]; [2, i] asks arr[i]; return type-2 answers."
   },
-  "example": null
+  "example": {
+    "call": "rangeUpdatePointQuery(5, [[1, 0, 4, 2], [2, 3], [1, 3, 4, 3], [2, 3]])",
+    "expected": "[2, 5]"
+  }
 }

@@ -19,13 +19,17 @@ Input :  1<->2
 output : 2
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic sizeDoublyLinkedList(/* not set yet */)
+int sizeOfDoublyLinkedList(DListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sizeOfDoublyLinkedList(DListNode.fromList([1, 2, 3, 4]))` → `4`
+<!-- signature:end -->
 
 ## Links
 

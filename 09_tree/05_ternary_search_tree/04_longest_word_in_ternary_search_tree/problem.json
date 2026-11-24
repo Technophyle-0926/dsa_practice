@@ -10,15 +10,16 @@
     "name": "longestWordTernarySearchTree",
     "params": [
       {
-        "name": "arr",
+        "name": "words",
         "type": "List<String>"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "int",
+    "verified": true,
+    "note": "Returns the length of the longest word stored in the tree."
   },
   "example": {
     "call": "longestWordTernarySearchTree([\"Prakriti\", \"Raghav\", \"Rashi\", \"Sunidhi\"])",
-    "expected": "Length of largest word in"
+    "expected": "8"
   }
 }

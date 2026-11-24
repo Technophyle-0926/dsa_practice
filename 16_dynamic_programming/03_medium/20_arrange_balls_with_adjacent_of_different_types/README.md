@@ -22,6 +22,7 @@ Output: 6
 Explanation: The valid arrangements are PQR, PRQ, QPR, QRP, RPQ, and RQP.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int arrangeBallsAdjacentDifferentTypes(int p, int q, int r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `arrangeBallsAdjacentDifferentTypes(2, 2, 2)` → `30`
+<!-- signature:end -->
 
 ## Links
 

@@ -77,13 +77,19 @@ Refer to this article to read more.
 - Task scheduling and project management. For example, course scheduling in universities.
 - Detects cycles in a directed graph. For example,  Deadlock detection in operating systems
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic topologicalSorting(/* not set yet */)
+List<int> topologicalSort(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Any valid topological order is accepted.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `topologicalSort([[1], [2], [], [2, 4], []])` → `[0, 3, 1, 4, 2]`
+<!-- signature:end -->
 
 ## Links
 

@@ -10,13 +10,19 @@ It calculates a*b (a multiplied b).
 
 **Question 2** : In question 1, if we replace + with * and replace return 0 with return 1, then what does the changed function do? Following is the changed function.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsRecursion7(/* not set yet */)
+int multiplyRecursive(int a, int b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implement Question 1's recursive fun(a, b) that computes a * b using repeated addition (b >= 0).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `multiplyRecursive(3, 5)` → `15`
+<!-- signature:end -->
 
 ## Links
 

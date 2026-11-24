@@ -28,13 +28,17 @@ Output: 2
 Explanation: In the given linked list  2 -> 2 -> 2 -> 2, 2 is the only element and is repeated 5 times. So we need to remove any four 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? removeDuplicatesSortedLinkedList(ListNode? Head)
+ListNode? removeDuplicatesSortedLinkedList(ListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeDuplicatesSortedLinkedList(ListNode.fromList([2, 2, 4, 5]))` → `2 -> 4 -> 5`
+<!-- signature:end -->
 
 ## Links
 

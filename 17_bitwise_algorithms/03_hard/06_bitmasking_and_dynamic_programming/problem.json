@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/bitmasking-dynamic-programming-set-2-tsp/",
   "practice": null,
   "function": {
-    "name": "bitmaskingDynamicProgramming",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minDistanceVisitAllHouses",
+    "params": [
+      {
+        "name": "grid",
+        "type": "List<List<String>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Grid cells are 'o' (start), '*' (house), 'x' (blocked), '.' (street); return min moves to visit all houses or -1."
   },
   "example": null
 }

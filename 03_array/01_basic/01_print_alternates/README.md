@@ -19,6 +19,7 @@ Input: arr[] = [-5, 1, 4, 2, 12]
 Output: -5 4 12
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ List<int> printAlternates(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printAlternates([10, 20, 30, 40, 50])` → `[10, 30, 50]`
+<!-- signature:end -->
 
 ## Links
 

@@ -37,6 +37,7 @@ Therefore, the maximum flow from vertex 1 to vertex 5 is: 2 + 3 + 2 = 7.
 
 **Note:** For an introduction to the Max Flow Problem, refer to the Max Flow Problem Introduction article.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -44,6 +45,9 @@ int fordFulkersonAlgorithmMaxFlow(int V, List<List<int>> edges)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fordFulkersonAlgorithmMaxFlow(4, [[1, 2, 8], [1, 3, 10], [2, 4, 2], [3, 4, 3]])` → `5`
+<!-- signature:end -->
 
 ## Links
 

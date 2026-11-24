@@ -25,6 +25,7 @@ Output: 9
 Explanation: The best key sequence is key 1, key 1, key 1, key 2, key 3, key4, key 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int maxAsSpecialKeyboard(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxAsSpecialKeyboard(3)` → `3`
+<!-- signature:end -->
 
 ## Links
 

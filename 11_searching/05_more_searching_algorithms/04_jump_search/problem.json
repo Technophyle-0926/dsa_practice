@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "jumpSearch",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "arr is sorted; returns the 0-based index of x, or -1 if not present."
   },
-  "example": null
+  "example": {
+    "call": "jumpSearch([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610], 55)",
+    "expected": "10"
+  }
 }

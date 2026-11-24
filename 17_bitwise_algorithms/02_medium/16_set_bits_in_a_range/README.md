@@ -19,6 +19,7 @@ Output: 11
 Explanation: Binary of x is 1000 and binary of y is 0111. In the range [1, 2], y has set bits at both positions 1 and 2. Copying these bits into x gives 1011, which is 11.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int bitsRange(int x, int y, int l, int r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bitsRange(10, 13, 2, 3)` → `14`
+<!-- signature:end -->
 
 ## Links
 

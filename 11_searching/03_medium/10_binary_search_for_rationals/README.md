@@ -26,13 +26,19 @@ Output: 0
 Explanation: The given rational number 1/2 is present at index 0 in the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic binarySearchRationals(/* not set yet */)
+int searchRational(List<List<int>> arr, List<int> x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each rational is [p, q] meaning p/q; return the index of a value equal to x, or -1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchRational([[1, 5], [2, 3], [3, 2], [13, 2]], [3, 2])` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,13 +20,19 @@ Output  10
 
 The given series represent triangular numbers which are sums of natural numbers.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic nThTerm13()
+int nthTriangularNumber(int n)
 ```
 
+> **Note:** 1-based: n = 1 gives 1.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nthTriangularNumber(3)` → `6`
+<!-- signature:end -->
 
 ## Links
 

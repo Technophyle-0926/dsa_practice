@@ -15,6 +15,7 @@ Input  : geekS
 Output : S
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -22,6 +23,9 @@ String firstUppercaseLetterStringIterative(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstUppercaseLetterStringIterative("geeksforgeeKs")` → `K`
+<!-- signature:end -->
 
 ## Links
 

@@ -65,13 +65,19 @@ Follow the below steps to solve the problem:
 
 The below code takes a string as input, encodes it, and saves it in a variable encoded string. Then it decodes it and prints the original string.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic huffmanDecoding(/* not set yet */)
+String huffmanDecode(Map<String, String> codes, String encoded)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** codes maps each character to its (prefix-free) Huffman code; decode the bit string.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `huffmanDecode({"e": "10", "f": "1100", "g": "011", "k": "00", "o": "010", "r": "1101", "s": "111"}, "01110100011111000101101011101000111")` → `"geeksforgeeks"`
+<!-- signature:end -->
 
 ## Links
 

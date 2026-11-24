@@ -28,6 +28,7 @@ Output: false
 Explanation: 1³ + 2³ + 3³ = 1 + 8 + 27 = 36
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ bool armstrongNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `armstrongNumber(153)` → `true`
+<!-- signature:end -->
 
 ## Links
 

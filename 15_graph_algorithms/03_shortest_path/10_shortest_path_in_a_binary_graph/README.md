@@ -14,13 +14,19 @@ Input:  N= 9, Source = 0, Edges: [ [0, 1, 0], [0, 7, 1], [1, 2, 1], [1, 7, 1], [
 Output:   [0, 0, 1, 1, 2, 1, 2, 1, 2]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> shortestPathBinaryGraph(int N, int Source, List<List<int>> Edges)
+List<int> shortestPathBinaryGraph(int n, int source, List<List<int>> edges)
 ```
 
+> **Note:** Undirected edges [u, v, w] with w in {0, 1}.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathBinaryGraph(9, 0, [[0, 1, 0], [0, 7, 1], [1, 2, 1], [1, 7, 1], [2, 3, 0], [2, 5, 0], [2, 8, 1], [3, 4, 1], [3, 5, 1], [4, 5, 1], [5, 6, 1], [6, 7, 1], [7, 8, 1]])` → `[0, 0, 1, 1, 2, 1, 2, 1, 2]`
+<!-- signature:end -->
 
 ## Links
 

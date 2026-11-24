@@ -8,9 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/inorder-traversal/1",
   "function": {
     "name": "inorderTraversal",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "inorderTraversal(TreeNode.fromLevelOrder([1, 2, 3]))",
+    "expected": "[2, 1, 3]"
+  }
 }

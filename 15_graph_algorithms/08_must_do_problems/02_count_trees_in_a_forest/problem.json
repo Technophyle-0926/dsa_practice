@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/count-number-trees-forest/",
   "practice": null,
   "function": {
-    "name": "countTreesForest",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countTrees",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "countTrees(5, [[0, 1], [0, 2], [3, 4]])",
+    "expected": "2"
+  }
 }

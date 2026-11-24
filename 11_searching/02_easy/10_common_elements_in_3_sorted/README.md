@@ -28,6 +28,7 @@ Output: 5
 Explanation: 5 is common in all the arrays.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> commonElements3Sorted(List<int> a, List<int> b, List<int> c)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `commonElements3Sorted([1, 5, 10, 20, 30], [5, 13, 15, 20], [5, 20])` → `5 20`
+<!-- signature:end -->
 
 ## Links
 

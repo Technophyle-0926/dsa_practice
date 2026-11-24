@@ -20,6 +20,7 @@ Output: [0, 1, 2, 3, 4, 5]
 Explanation: In range 0 to 5, all number are present.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> makeArrII(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `makeArrII([-1, -1, 6, 1, 9, 3, 2, -1, 4, -1])` → `[-1, 1, 2, 3, 4, -1, 6, -1, -1, 9]`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,13 +22,19 @@ Input : s = "geeksforgeeks"
 Output : s = "geesforgees"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic removeAllOccurrences(String s, String c)
+String removeAllOccurrences(String s, String c)
 ```
 
+> **Note:** c is a single-character string.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeAllOccurrences("geeksforgeeks", "e")` → `"gksforgks"`
+<!-- signature:end -->
 
 ## Links
 

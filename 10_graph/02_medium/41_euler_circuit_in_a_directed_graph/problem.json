@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/euler-circuit-directed-graph/",
   "practice": null,
   "function": {
-    "name": "eulerCircuitDirectedGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isEulerianDirected",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "adj[u] lists directed edges u -> v; vertices with no edges may be ignored for connectivity."
   },
-  "example": null
+  "example": {
+    "call": "isEulerianDirected([[2, 3], [0], [1], [4], [0]])",
+    "expected": "true"
+  }
 }

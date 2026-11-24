@@ -22,6 +22,7 @@ Output : [2, 4,  8]
 Explanation: In the output subset, for every pair either the first element divides second or second divides first.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> largestDivisibleSubset(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestDivisibleSubset([1, 16, 7, 8, 4])` → `[1, 4, 8, 16]`
+<!-- signature:end -->
 
 ## Links
 

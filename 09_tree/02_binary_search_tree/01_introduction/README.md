@@ -124,13 +124,19 @@ This structure enables efficient operations for searching, insertion, and deleti
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introduction(/* not set yet */)
+bool isBst(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: check the BST property (left subtree strictly smaller, right strictly greater).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isBst(TreeNode.fromLevelOrder([10, 5, 20, 1, 7]))` → `true`
+<!-- signature:end -->
 
 ## Links
 

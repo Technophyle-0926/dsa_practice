@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/java/arrays-binarysearch-java-examples-set-1/",
   "practice": null,
   "function": {
-    "name": "arraysBinarysearchJava",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "arraysBinarySearch",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "arr is sorted; return the index of key, else -(insertionPoint) - 1 like Java's Arrays.binarySearch."
   },
-  "example": null
+  "example": {
+    "call": "arraysBinarySearch([10, 15, 20, 22, 35], 22)",
+    "expected": "3"
+  }
 }

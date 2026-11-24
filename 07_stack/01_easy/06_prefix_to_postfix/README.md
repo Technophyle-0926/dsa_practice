@@ -23,13 +23,17 @@ Explanation : Prefix to Infix :  (A-(B/C))*((A/K)-L)
                          Infix to Postfix : ABC/-AK/L-*
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic prefixPostfix(/* not set yet */)
+String prefixToPostfix(String s)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `prefixToPostfix("*+AB-CD")` → `AB+CD-*`
+<!-- signature:end -->
 
 ## Links
 

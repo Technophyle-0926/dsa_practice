@@ -14,7 +14,7 @@
         "type": "String"
       }
     ],
-    "returns": "dynamic",
+    "returns": "String",
     "verified": true
   },
   "example": {

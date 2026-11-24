@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/avl-with-duplicate-keys/",
   "practice": null,
   "function": {
-    "name": "avlDuplicateKeys",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "avlWithDuplicateKeys",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Duplicates increment a per-node count instead of adding nodes; return the preorder traversal as \"key(count)\" strings."
   },
-  "example": null
+  "example": {
+    "call": "avlWithDuplicateKeys([9, 5, 10, 5, 9, 7, 17])",
+    "expected": "[\"9(2)\", \"5(2)\", \"7(1)\", \"10(1)\", \"17(1)\"]"
+  }
 }

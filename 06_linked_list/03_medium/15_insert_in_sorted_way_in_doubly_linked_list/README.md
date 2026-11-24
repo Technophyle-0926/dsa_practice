@@ -26,6 +26,7 @@ Output: 1<->4<->10<->11<->15
 Explanation: Here node 15 is inserted at end in the Doubly Linked-List.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ DListNode? insertSortedWayDoublyLinked(DListNode? head, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `insertSortedWayDoublyLinked(DListNode.fromList([3, 5, 8, 10, 12]), 9)` → `3<->5<->8<->9<->10<->12`
+<!-- signature:end -->
 
 ## Links
 

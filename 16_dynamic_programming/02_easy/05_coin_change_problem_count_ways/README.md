@@ -28,6 +28,7 @@ Output: 0
 Explanation: Since all coin denominations are greater than sum, no combination can make the target sum.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int coinChangeProblemCountWays(List<int> coins, int sum)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `coinChangeProblemCountWays([1, 2, 3], 4)` → `4`
+<!-- signature:end -->
 
 ## Links
 

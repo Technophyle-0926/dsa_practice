@@ -15,13 +15,19 @@ class Node {
 }
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cloneGraph(/* not set yet */)
+List<List<int>> cloneGraph(List<List<int>> adjList)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Build node objects from adjList, deep-clone the graph, and return the clone's adjacency list (must equal the input).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `cloneGraph([[1, 2], [0, 2], [0, 1]])` → `[[1, 2], [0, 2], [0, 1]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -28,13 +28,19 @@ Output: 2 -> 5 -> 7 -> 8 -> 99
 Explanation: After deleting the node at 6th position, the linked list is as
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletingAtGivenPosition(/* not set yet */)
+ListNode? deleteAtPosition(ListNode? head, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** x is 1-based.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteAtPosition(ListNode.fromList([1, 2, 3, 4, 5]), 4)` → `1 -> 2 -> 3 -> 5`
+<!-- signature:end -->
 
 ## Links
 

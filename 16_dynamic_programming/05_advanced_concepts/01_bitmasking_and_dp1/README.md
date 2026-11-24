@@ -20,6 +20,7 @@ Output: 4
 Explanation: There are 4 ways to choose hats: (3, 5), (5, 3), (1, 3) and (1, 5)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int bitmaskingDp1(List<List<int>> caps)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bitmaskingDp1([[3, 4], [4, 5], [5]])` → `1`
+<!-- signature:end -->
 
 ## Links
 

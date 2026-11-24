@@ -27,13 +27,19 @@ We will try to create a recurrence relation to find minimum number of nodes for 
 - Now for any height 'h', root will have two subtrees (left and right). Out of which one has to be of height h-1 and other of h-2. [root node excluded]
 - So, **n(h) = 1 + n(h-1) + n(h-2)** is the required recurrence relation for h>=2 [1 is added for the root node]
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumNodesAvlTreeGiven(int H)
+int minNodesAvlTree(int h)
 ```
 
+> **Note:** Height of a single node is 0.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minNodesAvlTree(0)` → `1`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/exchange-first-last-node-circular-linked-list/",
   "practice": null,
   "function": {
-    "name": "exchangeFirstLastNodesCircular",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "exchangeFirstLastCircular",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "The input is a circular list: the harness links the tail back to head before calling. Return the values traversed once from the new head after swapping."
   },
-  "example": null
+  "example": {
+    "call": "exchangeFirstLastCircular(ListNode.fromList([5, 4, 3, 2, 1]))",
+    "expected": "[1, 4, 3, 2, 5]"
+  }
 }

@@ -26,6 +26,7 @@ Output: 9
 Explanation: If the expression is converted into an infix expression, it will be 2 ^ 3 + 1 = 8 + 1 = 9
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int evaluationPostfixExpression(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `evaluationPostfixExpression(["2", "3", "1", "*", "+", "9", "-"])` → `-4`
+<!-- signature:end -->
 
 ## Links
 

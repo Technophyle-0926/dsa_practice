@@ -45,13 +45,19 @@ Hence for this case, inside the given range we have to count the leftmost same n
 
 For e.g.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maximumOccurrenceGivenRange(/* not set yet */)
+List<int> maxOccurrenceInRange(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted non-decreasing; each query [start, end] is 0-based inclusive.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxOccurrenceInRange([-5, -5, 2, 2, 2, 2, 3, 7, 7, 7], [[0, 9], [4, 9]])` → `[4, 3]`
+<!-- signature:end -->
 
 ## Links
 

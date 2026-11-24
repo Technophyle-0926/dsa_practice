@@ -14,13 +14,19 @@ The above function calculates and returns ⌊log_2(n)⌋. For example, if n is b
 
 **Question 3**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsRecursion2(/* not set yet */)
+int floorLog2(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implement Question 2's recursive fun1(n): returns floor(log2(n)) for n >= 1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `floorLog2(12)` → `3`
+<!-- signature:end -->
 
 ## Links
 

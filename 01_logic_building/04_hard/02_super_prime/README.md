@@ -22,6 +22,7 @@ Output: [3, 5, 11, 17]
 Explanation: The prime numbers up to 20 are [2, 3, 5, 7, 11, 13, 17, 19]. Their positions are [1, 2, 3, 4, 5, 6, 7, 8]. Since positions 2, 3, 5, and 7 are prime, 3, 5, 11, and 17 are super-primes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> superPrime(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `superPrime(5)` → `[3, 5]`
+<!-- signature:end -->
 
 ## Links
 

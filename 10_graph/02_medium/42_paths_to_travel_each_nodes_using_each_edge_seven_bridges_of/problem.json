@@ -14,11 +14,12 @@
         "type": "List<List<int>>"
       }
     ],
-    "returns": "ListNode?",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return the path as 1-based node numbers using every edge exactly once, or [-1] if none exists."
   },
   "example": {
     "call": "pathsTravelEachNodesEach([[0, 1, 0, 0, 1], [1, 0, 1, 1, 0], [0, 1, 0, 1, 0], [0, 1, 1, 0, 0], [1, 0, 0, 0, 0]])",
-    "expected": "5 -> 1 -> 2 -> 3 -> 4 -> 2"
+    "expected": "[5, 1, 2, 3, 4, 2]"
   }
 }

@@ -22,6 +22,7 @@ Output: 1
 Explanation: Binary representation of 19 is 10011, hence position of first set bit from right is 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int rightmostBit(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rightmostBit(18)` → `2`
+<!-- signature:end -->
 
 ## Links
 

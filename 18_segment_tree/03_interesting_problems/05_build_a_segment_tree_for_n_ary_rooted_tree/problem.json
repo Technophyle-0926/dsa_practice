@@ -7,10 +7,24 @@
   "article": "https://www.geeksforgeeks.org/dsa/build-a-segment-tree-for-n-ary-rooted-tree/",
   "practice": null,
   "function": {
-    "name": "buildSegmentTreeNAry",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "subtreeUpdateQueries",
+    "params": [
+      {
+        "name": "values",
+        "type": "List<int>"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Tree rooted at node 0 with undirected edges [u, v]; [1, v, x] adds x to every node in v's subtree; [2, v] asks the sum of v's subtree; return type-2 answers."
   },
   "example": null
 }

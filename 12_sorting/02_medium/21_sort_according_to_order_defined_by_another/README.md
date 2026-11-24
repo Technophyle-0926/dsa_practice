@@ -22,6 +22,7 @@ Output: [3, 3, 1, 2, 4]
 Explanation: Elements 3 and 1 come first as per a2. Others (2, 4) are sorted and placed after.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> sortAccordingOrderDefinedAnother(List<int> a1, List<int> a2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortAccordingOrderDefinedAnother([2, 1, 2, 3, 4], [2, 1, 2])` → `[2, 2, 1, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

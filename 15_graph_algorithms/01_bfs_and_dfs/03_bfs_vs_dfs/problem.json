@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/difference-between-bfs-and-dfs/",
   "practice": null,
   "function": {
-    "name": "bfsVsDfs",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bfsAndDfs",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return [BFS order, DFS order] starting from vertex 0, visiting neighbours in adj order (reachable vertices only)."
   },
   "example": null
 }

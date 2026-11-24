@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/prefix-infix-conversion/",
   "practice": "https://www.geeksforgeeks.org/problems/prefix-to-infix-conversion/1",
   "function": {
-    "name": "prefixInfix",
+    "name": "prefixToInfix",
     "params": [
       {
         "name": "s",
         "type": "String"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Every operation is fully parenthesised, as in the examples."
   },
   "example": {
-    "call": "prefixInfix(\"+A*BC\")",
+    "call": "prefixToInfix(\"+A*BC\")",
     "expected": "(A+(B*C))"
   }
 }

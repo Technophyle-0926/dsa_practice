@@ -36,13 +36,19 @@ Sum of quadruplets:
 Quadruplet having sum 19 is closest to the target.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> solve4SumAllQuadruples(List<int> arr, int target)
+List<int> closestQuadruplet(List<int> arr, int target)
 ```
 
+> **Note:** Return any 4 elements (sorted ascending) whose sum is closest to target; graded by the sum.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `closestQuadruplet([4, 5, 3, 4, 1, 2], 13)` → `[1, 3, 4, 5]`
+<!-- signature:end -->
 
 ## Links
 

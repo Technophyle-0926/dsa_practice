@@ -23,13 +23,17 @@ Output: 0 3 4 0 2 1 0
 - We have discussed the problem of finding out whether a given graph is Eulerian or not for an Undirected Graph
 - Conditions for Eulerian circuit in a Directed Grpag : (1)  All vertices belong to a single strongly connected component. (2) All vertices have same in-degree and out-degree. Note that for an undirected graph, the condition is different (all vertices have even degree)
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic hierholzersAlgorithmDirectedGraph(/* not set yet */)
+List<int> eulerCircuitDirected(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the Euler circuit as a vertex sequence starting and ending at vertex 0; any valid circuit is accepted.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -10,13 +10,19 @@ Given an array **arr[]** consisting of integers and queries **Q** of the form **
 Input: arr[] = {1, 2, 1, 2, 3, 4}, Queries[][] = {{1, 4}, {1, 5}} Output: No Yes Explanation: For the first query, the subarray is {1, 2, 1, 2}, we can see that both number have frequency 2. Therefore, the answer is No. For the second query, the subarray is {1, 2, 1, 2, 3}, we can see that 3 has frequency 1 so the answer is Yes. Input: arr[] = {1, 2, 3, 4, 5}, Queries[][] = {{1, 4}} Output: Yes Explanation: The subarray is {1, 2, 3, 4}, has all elements as frequency 1 so the answer is Yes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic queriesAnyNonRepeatingElement(/* not set yet */)
+List<String> anyNonRepeatingQueries(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Queries [L, R] are 1-based inclusive; answer "Yes" if some element occurs exactly once in the range.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `anyNonRepeatingQueries([1, 2, 1, 2, 3, 4], [[1, 4], [1, 5]])` → `["No", "Yes"]`
+<!-- signature:end -->
 
 ## Links
 

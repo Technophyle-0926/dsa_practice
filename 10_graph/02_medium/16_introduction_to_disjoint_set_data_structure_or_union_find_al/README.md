@@ -35,13 +35,19 @@ g <-> j
 Given queries like whether a is a friend of d or not.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introductionDisjointDataStructureOr(/* not set yet */)
+List<bool> unionFind(int n, List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Elements are 0..n-1; ops[i] is 'union' or 'connected' on args[i] = [x, y]; returns the result of each 'connected'.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `unionFind(10, ["union", "union", "union", "union", "union", "union", "connected"], [[0, 1], [1, 3], [2, 5], [2, 8], [9, 4], [6, 9], [0, 3]])` → `[true]`
+<!-- signature:end -->
 
 ## Links
 

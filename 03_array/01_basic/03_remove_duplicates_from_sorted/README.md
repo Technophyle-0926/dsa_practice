@@ -25,13 +25,19 @@ Output: [1, 2, 3]
 Explanation : No change as all elements are distinct.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> removeDuplicatesSorted(List<int> arr)
 ```
 
+> **Note:** Return only the distinct elements in sorted order (its length is the distinct count).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeDuplicatesSorted([2, 2, 2, 2, 2])` → `[2]`
+<!-- signature:end -->
 
 ## Links
 

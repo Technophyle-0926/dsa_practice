@@ -23,6 +23,7 @@ Input: n = 11
 Output: 20
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int countTotalBitsFirstN(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countTotalBitsFirstN(3)` → `4`
+<!-- signature:end -->
 
 ## Links
 

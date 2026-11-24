@@ -15,13 +15,19 @@ Output: [[10], [5, 18], [N, N, 12, N]]
 Explanation:  The node with value x (15) is deleted from BST.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletion(/* not set yet */)
+TreeNode? deleteBst(TreeNode? root, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** A node with two children is replaced by its inorder successor; return the tree unchanged if x is absent.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteBst(TreeNode.fromLevelOrder([10, 5, 15, null, null, 12, 18]), 15)` → `[10, 5, 18, null, null, 12]`
+<!-- signature:end -->
 
 ## Links
 

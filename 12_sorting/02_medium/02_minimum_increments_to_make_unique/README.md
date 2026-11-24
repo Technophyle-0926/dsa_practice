@@ -25,6 +25,7 @@ Output: 0
 Explanation: All elements are unique.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int minimumIncrementsMakeUnique(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumIncrementsMakeUnique([3, 2, 1, 2, 1, 7])` → `6`
+<!-- signature:end -->
 
 ## Links
 

@@ -10,13 +10,17 @@ In operating systems, whenever a new page is referred and not present in memory,
 - In practical systems, it is impossible to predict exactly which pages will be needed later.
 - It is mainly used to analyze and measure the efficiency of practical algorithms, not for actual implementation.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic programOptimalPageReplacementAlgorithm(/* not set yet */)
+int optimalPageFaults(List<int> pages, int capacity)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the number of page faults (misses) with optimal replacement and the given number of frames.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

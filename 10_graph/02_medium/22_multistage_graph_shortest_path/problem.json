@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/multistage-graph-shortest-path/",
   "practice": null,
   "function": {
-    "name": "multistageGraphShortestPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "multistageShortestPath",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Directed edges [u, v, w]; source is vertex 0 and destination is vertex n-1."
   },
-  "example": null
+  "example": {
+    "call": "multistageShortestPath(8, [[0, 1, 1], [0, 2, 2], [0, 3, 5], [1, 4, 4], [1, 5, 11], [2, 4, 9], [2, 5, 5], [2, 6, 16], [3, 6, 2], [4, 7, 18], [5, 7, 13], [6, 7, 2]])",
+    "expected": "9"
+  }
 }

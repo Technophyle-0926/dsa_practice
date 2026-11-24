@@ -20,13 +20,19 @@ Output: 128 64 32 16 8 4 2 1
 Explanation: There are total of 8 powers of 2, which are less than or equal to the given number N.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> findAllPowers2Less(int N)
+List<int> findAllPowers2Less(int n)
 ```
 
+> **Note:** Powers of two <= n in descending order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findAllPowers2Less(63)` → `[32, 16, 8, 4, 2, 1]`
+<!-- signature:end -->
 
 ## Links
 

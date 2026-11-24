@@ -29,6 +29,7 @@ Output: 1
 Explanation: Node 1 receives exits from nodes 0, 1, and 2. Its weight is 0 + 1 + 2 = 3, which is the maximum among all nodes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int maximumWeightNode(List<int> exits)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumWeightNode([2, 0, -1, 2])` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -153,13 +153,19 @@ int main()
 }
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumProductSpanningTree(/* not set yet */)
+int minProductSpanningTree(List<List<int>> graph)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** graph is a weighted adjacency matrix (0 = no edge, weights positive); return the minimum product of spanning-tree edge weights.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minProductSpanningTree([[0, 2, 0, 6, 0], [2, 0, 3, 8, 5], [0, 3, 0, 0, 7], [6, 8, 0, 0, 9], [0, 5, 7, 9, 0]])` → `180`
+<!-- signature:end -->
 
 ## Links
 

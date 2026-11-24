@@ -35,6 +35,7 @@ Explanation: Operation 1: Replace 'X' to 'K'
 Refer the below image for better understanding.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -42,6 +43,9 @@ int editDistance(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `editDistance("geek", "gesek")` → `1`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,13 +22,17 @@ Let us consider an example text "banana\0" where '\0' is string termination char
 
 If we consider all of the above suffixes as individual words and build a Trie, we get following.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic patternSearchingTrieAllSuffixes(/* not set yet */)
+List<int> searchPatternSuffixTrie(String txt, String pat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return all 0-based starting indices of pat in txt in increasing order (empty if none).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

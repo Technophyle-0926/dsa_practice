@@ -26,6 +26,7 @@ Output: 0
 Explanation: Given string is already a palindrome hence no insertions are required.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int minimumInsertionsPalindrome(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumInsertionsPalindrome("geeks")` → `3`
+<!-- signature:end -->
 
 ## Links
 

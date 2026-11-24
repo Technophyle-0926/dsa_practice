@@ -15,10 +15,11 @@
       }
     ],
     "returns": "String",
-    "verified": true
+    "verified": true,
+    "note": "Return \"$\" if every character repeats."
   },
   "example": {
     "call": "firstNonRepeatingCharacter(\"geeksforgeeks\")",
-    "expected": "'f'"
+    "expected": "\"f\""
   }
 }

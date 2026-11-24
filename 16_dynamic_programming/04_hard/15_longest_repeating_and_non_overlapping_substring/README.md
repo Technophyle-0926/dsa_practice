@@ -22,6 +22,7 @@ Output: "geeks"
 Explanation: The string "geeks" is the longest subString of s which is repeating but not overlapping.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ String longestRepeatingNonOverlappingSubstring(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestRepeatingNonOverlappingSubstring("acdcdacdc")` → `"acdc"`
+<!-- signature:end -->
 
 ## Links
 

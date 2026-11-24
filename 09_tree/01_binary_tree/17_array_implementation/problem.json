@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-tree-array-implementation/",
   "practice": null,
   "function": {
-    "name": "arrayImplementation",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "treeFromParentArray",
+    "params": [
+      {
+        "name": "parent",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "parent[i] is the parent of node i (-1 for the root); node values are indices, and of two children the smaller index becomes the left child, a single child becomes the left child."
   },
-  "example": null
+  "example": {
+    "call": "treeFromParentArray([-1, 0, 0, 1, 1, 3, 5])",
+    "expected": "[0, 1, 2, 3, 4, null, null, 5, null, null, null, 6]"
+  }
 }

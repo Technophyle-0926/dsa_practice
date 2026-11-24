@@ -28,13 +28,19 @@ Output: true
 Explanation: One possible arrangement is: {1, 3, 2, 1, 4, 6}. If you return a valid arrangement, output will be true.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-bool threeWayPartitioning(List<int> arr, int a, int b)
+List<int> threeWayPartition(List<int> arr, int a, int b)
 ```
 
+> **Note:** Return the partitioned array; any arrangement satisfying the three-part condition is accepted.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `threeWayPartition([1, 2, 3, 3, 4], 1, 2)` → `[1, 2, 3, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

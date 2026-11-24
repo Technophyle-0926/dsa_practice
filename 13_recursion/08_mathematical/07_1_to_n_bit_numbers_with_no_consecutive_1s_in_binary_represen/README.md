@@ -20,6 +20,7 @@ Output: [1, 2]
 Explanation: The binary representations of the numbers from 1 to 3 are 1, 10, and 11. Among these, 3 (11) contains consecutive 1's in its binary representation.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> solve1NBitNumbersNo(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve1NBitNumbersNo(3)` → `[1, 2, 4, 5]`
+<!-- signature:end -->
 
 ## Links
 

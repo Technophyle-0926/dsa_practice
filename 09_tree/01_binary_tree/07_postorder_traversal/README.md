@@ -26,13 +26,17 @@ Output: [4, 5, 2, 6, 3, 1]
 Explanation: Postorder Traversal visits the nodes in the following order: Left, Right, Root. Therefore resulting is 4 , 5, 2, 6, 3, 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic postorderTraversal(/* not set yet */)
+List<int> postorderTraversal(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `postorderTraversal(TreeNode.fromLevelOrder([1, 2, 3]))` → `[2, 3, 1]`
+<!-- signature:end -->
 
 ## Links
 

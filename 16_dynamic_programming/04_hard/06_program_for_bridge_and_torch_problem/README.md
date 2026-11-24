@@ -22,6 +22,7 @@ Output: 15
 Explanation: See Torch and Bridge puzzle for full explanation.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int programBridgeTorchProblem(List<int> times)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `programBridgeTorchProblem([10, 20, 30])` → `60`
+<!-- signature:end -->
 
 ## Links
 

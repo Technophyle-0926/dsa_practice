@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/querying-maximum-number-divisors-number-given-range/",
   "practice": null,
   "function": {
-    "name": "queryingMaximumNumberDivisors",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxDivisorsInRange",
+    "params": [
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query [l, r]; return the maximum divisor count of any x with l <= x <= r."
   },
   "example": null
 }

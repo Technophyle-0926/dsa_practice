@@ -6,13 +6,19 @@
 
 In Java, the **Arrays.binarySearch()** method searches the specified array of the given data type for the specified value using the binary search algorithm. The array must be sorted by the Arrays.sort() method before making this call. If it is not sorted, the results are undefined.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic arraysBinarysearchJava(/* not set yet */)
+int arraysBinarySearch(List<int> arr, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted; return the index of key, else -(insertionPoint) - 1 like Java's Arrays.binarySearch.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `arraysBinarySearch([10, 15, 20, 22, 35], 22)` → `3`
+<!-- signature:end -->
 
 ## Links
 

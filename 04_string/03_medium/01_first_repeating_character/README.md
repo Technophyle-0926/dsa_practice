@@ -20,13 +20,19 @@ Output: l
 Explanation: l is the first element that repeats
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 String firstRepeatingCharacter(String s)
 ```
 
+> **Note:** Return "-1" if no character repeats.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstRepeatingCharacter("geeksforgeeks")` → `"e"`
+<!-- signature:end -->
 
 ## Links
 

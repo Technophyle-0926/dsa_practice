@@ -26,6 +26,7 @@ Input : 20
 Output : 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1705, 3136,  5768, 10609, 19513
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> tribonacciNumbers(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `tribonacciNumbers(5)` → `0, 0, 1, 1, 2`
+<!-- signature:end -->
 
 ## Links
 

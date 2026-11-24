@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/topological-sorting/",
   "practice": null,
   "function": {
-    "name": "topologicalSorting",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "topologicalSort",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Any valid topological ordering is accepted."
   },
-  "example": null
+  "example": {
+    "call": "topologicalSort([[1], [2], [], [2, 4], []])",
+    "expected": "[0, 3, 1, 4, 2]"
+  }
 }

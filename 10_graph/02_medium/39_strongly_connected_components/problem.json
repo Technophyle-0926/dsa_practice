@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/strongly-connected-components/",
   "practice": "https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
   "function": {
-    "name": "stronglyConnectedComponents",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countScc",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "countScc([[1], [2], [0, 3], [4], [3, 5], []])",
+    "expected": "3"
+  }
 }

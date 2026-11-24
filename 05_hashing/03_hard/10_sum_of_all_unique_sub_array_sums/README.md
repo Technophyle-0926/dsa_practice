@@ -24,6 +24,7 @@ Explanation: All possible unique sub-array with their sum are as:
 (2), (4), (2), (2+4), (4+2), (2+4+2). Here only (4) and (2+4+2) are unique.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int sumAllUniqueSubArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumAllUniqueSubArray([3, 4, 5])` → `40`
+<!-- signature:end -->
 
 ## Links
 

@@ -23,6 +23,7 @@ Output: -1
 Explanation: No such x exists for fulfilling the desired conditions.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int findXMakeArrayXor(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findXMakeArrayXor([2, 4, 5])` → `1`
+<!-- signature:end -->
 
 ## Links
 

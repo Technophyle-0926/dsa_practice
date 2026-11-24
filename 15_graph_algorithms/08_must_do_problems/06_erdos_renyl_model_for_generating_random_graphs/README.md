@@ -98,13 +98,17 @@ This algorithm runs in O(n^2   ) time. For sparse graphs (that is, for small val
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic erdosRenylModelGeneratingRandom(/* not set yet */)
+double expectedEdgesErdosRenyi(int n, double p)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Random generation is not testable; return the expected number of edges of G(n, p), i.e. C(n, 2) * p.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -28,6 +28,7 @@ Output: 2
 Explanation: The subarray is [2, -2] has sum = 0, which is divisible by 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int subarraySumDivisibleK(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `subarraySumDivisibleK([2, 7, 6, 1, 4, 5], 3)` → `4`
+<!-- signature:end -->
 
 ## Links
 

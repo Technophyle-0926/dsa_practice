@@ -22,6 +22,7 @@ the sum will be S = |1 - 2| + |4 - 3| + |7 - 5| + |8 - 6| = 6.
 It can be shown that this is the minimum sum we can get.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minimumSumAbsoluteDifferencePairs(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumSumAbsoluteDifferencePairs([4, 1, 2], [2, 4, 1])` → `0`
+<!-- signature:end -->
 
 ## Links
 

@@ -118,13 +118,19 @@ As internal node cannot be empty. So now pull down the lowest data value from th
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic solve23TreesSearchInsert(/* not set yet */)
+List<bool> twoThreeTree(List<String> ops, List<int> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'insert', 'delete' or 'search' applied to key args[i] on a 2-3 tree; returns the result of each 'search'.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `twoThreeTree(["insert", "insert", "insert", "search", "delete", "search"], [10, 20, 5, 20, 20, 20])` → `[true, false]`
+<!-- signature:end -->
 
 ## Links
 

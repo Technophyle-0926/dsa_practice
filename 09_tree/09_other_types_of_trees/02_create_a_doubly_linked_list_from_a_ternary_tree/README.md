@@ -17,13 +17,19 @@ For the above example, the linked list formed for below tree should be NULL <- 3
 
 **We strongly recommend you to minimize your browser and try this yourself first.**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic createDoublyLinkedListTernary(/* not set yet */)
+List<int> ternaryTreeToDll(List<List<int>> nodes)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** nodes[i] = [val, leftIdx, midIdx, rightIdx] (-1 = no child), root is index 0; return the values of the resulting doubly linked list from head to tail.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ternaryTreeToDll([[30, 1, 2, 3], [5, 4, 5, 6], [11, 7, 8, 9], [63, 10, 11, 12], [1, -1, -1, -1], [4, -1, -1, -1], [8, -1, -1, -1], [6, -1, -1, -1], [7, -1, -1, -1], [15, -1, -1, -1], [31, -1, -1, -1], [55, -1, -1, -1], [65, -1, -1, -1]])` → `[30, 5, 1, 4, 8, 11, 6, 7, 15, 63, 31, 55, 65]`
+<!-- signature:end -->
 
 ## Links
 

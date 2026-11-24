@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "pos is 0-based."
   },
   "example": {
     "call": "removeCharacter(\"abcde\", 1)",
-    "expected": "s = \"acde\""
+    "expected": "\"acde\""
   }
 }

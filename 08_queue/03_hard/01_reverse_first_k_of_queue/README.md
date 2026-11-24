@@ -29,6 +29,7 @@ Output: [1, 2, 3, 4]
 Explanation: After reversing the first 4 elements from the given queue the resultant queue will be [1, 2, 3, 4].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<int> reverseFirstKQueue(List<int> q, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseFirstKQueue([1, 2, 3, 4, 5], 3)` → `[3, 2, 1, 4, 5]`
+<!-- signature:end -->
 
 ## Links
 

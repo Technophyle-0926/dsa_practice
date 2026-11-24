@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/lazy-propagation-in-segment-tree/",
   "practice": null,
   "function": {
-    "name": "lazyPropagation",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "lazyRangeSumQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Query [1, l, r, x] adds x to arr[l..r]; [2, l, r] asks the sum of arr[l..r] (0-based); return answers of type-2 queries."
   },
-  "example": null
+  "example": {
+    "call": "lazyRangeSumQueries([1, 3, 5, 7, 9, 11], [[2, 1, 3], [1, 1, 5, 10], [2, 1, 3]])",
+    "expected": "[15, 45]"
+  }
 }

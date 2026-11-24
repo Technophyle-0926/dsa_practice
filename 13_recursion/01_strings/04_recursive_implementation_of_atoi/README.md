@@ -42,6 +42,7 @@ Output: -12
 Explanation: Nothing is read after -12 as a non-digit character 'g' was encountered.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -49,6 +50,9 @@ int recursiveImplementationAtoi(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recursiveImplementationAtoi("-123")` → `-123`
+<!-- signature:end -->
 
 ## Links
 

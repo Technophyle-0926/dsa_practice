@@ -27,6 +27,7 @@ Output: "0"
 Explanation: Anything multiplied by 0 is equal to 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ String multiply2Strings(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `multiply2Strings("0033", "2")` → `"66"`
+<!-- signature:end -->
 
 ## Links
 

@@ -14,11 +14,12 @@
         "type": "String"
       }
     ],
-    "returns": "int",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Return the lexicographically least walk as a digit string, or \"-1\" if none exists."
   },
   "example": {
     "call": "petersonGraphProblem(\"ABB\")",
-    "expected": "016"
+    "expected": "\"016\""
   }
 }

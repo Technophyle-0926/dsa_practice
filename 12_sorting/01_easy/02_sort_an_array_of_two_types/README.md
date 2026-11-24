@@ -6,13 +6,19 @@
 
 This problem appears in multiple forms as mentioned below. If we take a closer look at the below problems, we can notice that the problem is mainly a variation of partition algorithm in QuickSort.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic sortArrayTwoTypes(/* not set yet */)
+List<int> sortArrayOfTwoTypes(List<int> arr)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Canonical form: arr contains only 0s and 1s; return it with all 0s before all 1s.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortArrayOfTwoTypes([0, 1, 0, 1, 0, 0, 1, 1, 1, 0])` → `[0, 0, 0, 0, 0, 1, 1, 1, 1, 1]`
+<!-- signature:end -->
 
 ## Links
 

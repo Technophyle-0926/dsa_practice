@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-initial-vertices-traverse-whole-matrix-given-conditions/",
   "practice": null,
   "function": {
-    "name": "minInitialVerticesTraverseMatrix",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minInitialVertices",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the [row, col] (0-based) of the minimal set of start cells, sorted by row then column."
   },
-  "example": null
+  "example": {
+    "call": "minInitialVertices([[1, 2, 3], [2, 3, 1], [1, 1, 1]])",
+    "expected": "[[0, 2], [1, 1]]"
+  }
 }

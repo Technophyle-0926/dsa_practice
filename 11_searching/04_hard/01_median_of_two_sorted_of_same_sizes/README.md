@@ -20,13 +20,17 @@ Output : 15.5
 Explanation : The merged sorted array is [10, 21]. The middle two elements are 10 and 21, so median = (10 + 21)/2 = 15.5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int medianTwoSortedSameSizes(List<int> a, List<int> b)
+double medianTwoSortedSameSizes(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `medianTwoSortedSameSizes([1, 12, 15, 26, 38], [2, 13, 17, 30, 45])` → `16.0`
+<!-- signature:end -->
 
 ## Links
 

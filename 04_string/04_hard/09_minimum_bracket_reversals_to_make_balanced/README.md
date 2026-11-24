@@ -26,13 +26,19 @@ Output: -1
 Explanation: There's no way we can balance this sequence of braces as the length is odd.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 int minimumBracketReversalsMakeBalanced(String s)
 ```
 
+> **Note:** Return -1 if balancing is impossible.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumBracketReversalsMakeBalanced("}{{}}{{{")` → `3`
+<!-- signature:end -->
 
 ## Links
 

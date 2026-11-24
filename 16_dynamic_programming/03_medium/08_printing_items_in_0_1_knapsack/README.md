@@ -22,13 +22,19 @@ Output : 200
          30 20 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic printingItems01Knapsack(List<int> val, List<int> wt, int W)
+List<int> knapsackSelectedItems(List<int> val, List<int> wt, int capacity)
 ```
 
+> **Note:** Return [maxValue, then the weights of the chosen items from the last item index to the first].
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `knapsackSelectedItems([60, 100, 120], [10, 20, 30], 50)` → `[220, 30, 20]`
+<!-- signature:end -->
 
 ## Links
 

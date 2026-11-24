@@ -14,7 +14,7 @@
         "type": "List<int>"
       },
       {
-        "name": "K",
+        "name": "k",
         "type": "int"
       }
     ],
@@ -23,6 +23,6 @@
   },
   "example": {
     "call": "maximumAllSubarraysSizeK([1, 2, 3, 1, 4, 5, 2, 3, 6], 3)",
-    "expected": "3 3 4 5 5 5 6"
+    "expected": "[3, 3, 4, 5, 5, 5, 6]"
   }
 }

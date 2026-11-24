@@ -20,13 +20,17 @@ Output: 0
 Explanation: As 10%2 = 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic modulusDivision2sPower(/* not set yet */)
+int modulusPowerOfTwo(int n, int d)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `modulusPowerOfTwo(6, 4)` → `2`
+<!-- signature:end -->
 
 ## Links
 

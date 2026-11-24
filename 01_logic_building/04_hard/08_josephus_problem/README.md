@@ -23,6 +23,7 @@ Output: 4
 Explanation: The elimination order is 3 -> 6 -> 2 -> 7 -> 5 -> 1, and the person at position 4 survives.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int josephusProblem(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `josephusProblem(5, 2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

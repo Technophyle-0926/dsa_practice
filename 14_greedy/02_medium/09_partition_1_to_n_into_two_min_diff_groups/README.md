@@ -22,6 +22,7 @@ Explanation: The sum of first and second group are 14 and 14 respectively, and t
 
 - It can be observed that numbers 1 to n, can always be divided in to two groups, such that the difference of sum of elements is either 0 or 1.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<List<int>> partition1NIntoTwo(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partition1NIntoTwo(5)` → `[ [ 2, 5 ], [ 1, 3, 4 ] ]`
+<!-- signature:end -->
 
 ## Links
 

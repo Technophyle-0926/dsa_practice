@@ -86,13 +86,19 @@ k clustering problem can be viewed as finding an MST and deleting the k-1 most e
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic applicationsMinimumSpanningTreeProblem(/* not set yet */)
+int minimumSpanningTreeWeight(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v, w]; return the MST total weight (e.g. cheapest network connecting all sites).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumSpanningTreeWeight(4, [[0, 1, 10], [0, 2, 6], [0, 3, 5], [1, 3, 15], [2, 3, 4]])` → `19`
+<!-- signature:end -->
 
 ## Links
 

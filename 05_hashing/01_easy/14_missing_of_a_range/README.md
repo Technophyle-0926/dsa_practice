@@ -18,6 +18,7 @@ Output: [50, 52, 53, 54, 55]
 Explanation: Numbers 50, 52, 53, 54 and 55 lie in the range [50, 55] but are not present in the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ List<int> missingRange(List<int> arr, int low, int high)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `missingRange([10, 12, 11, 15], 10, 15)` → `[13, 14]`
+<!-- signature:end -->
 
 ## Links
 

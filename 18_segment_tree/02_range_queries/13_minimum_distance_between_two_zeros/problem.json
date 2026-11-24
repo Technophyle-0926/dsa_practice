@@ -14,15 +14,16 @@
         "type": "List<int>"
       },
       {
-        "name": "Q",
+        "name": "queries",
         "type": "List<List<int>>"
       }
     ],
-    "returns": "int",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "One answer per query [L, R] (0-based); -1 if the range has fewer than two zeros."
   },
   "example": {
     "call": "minimumDistanceBetweenTwoZeros([1, 0, 0, 1], [[0, 2]])",
-    "expected": "1"
+    "expected": "[1]"
   }
 }

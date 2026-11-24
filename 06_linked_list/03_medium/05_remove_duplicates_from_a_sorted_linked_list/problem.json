@@ -10,7 +10,7 @@
     "name": "removeDuplicatesSortedLinkedList",
     "params": [
       {
-        "name": "Head",
+        "name": "head",
         "type": "ListNode?"
       }
     ],

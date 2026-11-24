@@ -7,22 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/multiply-two-numbers-represented-linked-lists/",
   "practice": "https://www.geeksforgeeks.org/problems/multiply-two-linked-lists/1",
   "function": {
-    "name": "multiplyTwoNumbersAsLists",
+    "name": "multiplyTwoLists",
     "params": [
       {
-        "name": "L1",
+        "name": "l1",
         "type": "ListNode?"
       },
       {
-        "name": "L2",
-        "type": "int"
+        "name": "l2",
+        "type": "ListNode?"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Digits are most significant first; return the product modulo 1000000007."
   },
   "example": {
-    "call": "multiplyTwoNumbersAsLists(ListNode.fromList([3, 2]), 2)",
+    "call": "multiplyTwoLists(ListNode.fromList([3, 2]), ListNode.fromList([2]))",
     "expected": "64"
   }
 }

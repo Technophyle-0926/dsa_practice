@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/insert-operation-in-b-tree/",
   "practice": null,
   "function": {
-    "name": "insertOperationBTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bTreeInsert",
+    "params": [
+      {
+        "name": "t",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Minimum degree t (max 2t-1 keys per node); CLRS insertion that splits full nodes proactively on the way down. The tree is returned level by level, left to right, one List<int> of keys per node."
   },
-  "example": null
+  "example": {
+    "call": "bTreeInsert(3, [10, 20, 5, 6, 12, 30, 7, 17])",
+    "expected": "[[10], [5, 6, 7], [12, 17, 20, 30]]"
+  }
 }

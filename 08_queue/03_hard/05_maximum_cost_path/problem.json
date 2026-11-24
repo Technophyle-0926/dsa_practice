@@ -10,11 +10,11 @@
     "name": "maximumCostPath",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       },
       {
-        "name": "Edges",
+        "name": "edges",
         "type": "List<List<int>>"
       },
       {
@@ -26,12 +26,13 @@
         "type": "int"
       },
       {
-        "name": "K",
+        "name": "k",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "edges[i] = [u, v, w] is a directed edge; k is the maximum number of intermediate vertices; return -1 if no such path."
   },
   "example": {
     "call": "maximumCostPath(3, [[0, 1, 100], [1, 2, 100], [0, 2, 500]], 0, 2, 0)",

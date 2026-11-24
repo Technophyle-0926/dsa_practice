@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/three-way-partitioning-of-an-array-around-a-given-range/",
   "practice": "https://www.geeksforgeeks.org/problems/three-way-partitioning/1",
   "function": {
-    "name": "threeWayPartitioning",
+    "name": "threeWayPartition",
     "params": [
       {
         "name": "arr",
@@ -22,11 +22,12 @@
         "type": "int"
       }
     ],
-    "returns": "bool",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return the partitioned array; any arrangement satisfying the three-part condition is accepted."
   },
   "example": {
-    "call": "threeWayPartitioning([1, 2, 3, 3, 4], 1, 2)",
-    "expected": "true"
+    "call": "threeWayPartition([1, 2, 3, 3, 4], 1, 2)",
+    "expected": "[1, 2, 3, 3, 4]"
   }
 }

@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/count-greater-nodes-in-avl-tree/",
   "practice": null,
   "function": {
-    "name": "countGreaterNodesAvlTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countGreaterNodes",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "countGreaterNodes(TreeNode.fromLevelOrder([9, 1, 10, 0, 5, null, 11, -1, null, 2, 6]), 5)",
+    "expected": "4"
+  }
 }

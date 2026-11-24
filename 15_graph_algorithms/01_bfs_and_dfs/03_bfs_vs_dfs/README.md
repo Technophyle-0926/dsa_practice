@@ -48,13 +48,17 @@ Please also see BFS vs DFS for Binary Tree for the differences for a Binary Tree
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bfsVsDfs(/* not set yet */)
+List<List<int>> bfsAndDfs(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return [BFS order, DFS order] starting from vertex 0, visiting neighbours in adj order (reachable vertices only).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

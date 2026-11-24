@@ -18,6 +18,7 @@ Input:  x = 3, y = 5
 Output: 6
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int xorWithoutXor(int x, int y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `xorWithoutXor(1, 2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

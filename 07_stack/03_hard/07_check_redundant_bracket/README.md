@@ -28,6 +28,7 @@ Output:  false
 Explanation: Removing any parentheses would change the order of evaluation, so none of them are redundant.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ bool checkRedundantBracket(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkRedundantBracket("((a+b))")` → `true`
+<!-- signature:end -->
 
 ## Links
 

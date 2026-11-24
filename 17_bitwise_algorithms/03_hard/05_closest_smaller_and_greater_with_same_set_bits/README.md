@@ -236,13 +236,19 @@ if __name__ == "__main__":
 # This code is contributed by ita_c
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic closestSmallerGreaterSameBits(int n)
+List<int> closestSmallerGreaterSameBits(int n)
 ```
 
+> **Note:** Return [closestGreater, closestSmaller]; use -1 for one that does not exist.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `closestSmallerGreaterSameBits(5)` → `[6, 3]`
+<!-- signature:end -->
 
 ## Links
 

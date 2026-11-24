@@ -24,6 +24,7 @@ Output :  -1
 Explanation : At least two elements are required to form a pair.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int largestPairSum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestPairSum([12, 34, 10, 6, 40])` → `74`
+<!-- signature:end -->
 
 ## Links
 

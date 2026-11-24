@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/printing-items-01-knapsack/",
   "practice": null,
   "function": {
-    "name": "printingItems01Knapsack",
+    "name": "knapsackSelectedItems",
     "params": [
       {
         "name": "val",
@@ -18,15 +18,16 @@
         "type": "List<int>"
       },
       {
-        "name": "W",
+        "name": "capacity",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return [maxValue, then the weights of the chosen items from the last item index to the first]."
   },
   "example": {
-    "call": "printingItems01Knapsack([60, 100, 120], [10, 20, 30], 50)",
-    "expected": "220 //maximum value that can be obtained"
+    "call": "knapsackSelectedItems([60, 100, 120], [10, 20, 30], 50)",
+    "expected": "[220, 30, 20]"
   }
 }

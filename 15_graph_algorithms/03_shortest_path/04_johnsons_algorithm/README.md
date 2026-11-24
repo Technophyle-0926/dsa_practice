@@ -10,13 +10,17 @@ Using Johnson's algorithm, we can find all pair shortest paths in O(V^2log V + V
 
 So using Dijkstra's single-source shortest path seems to be a better option than Floyd Warshall's Algorithm , but the problem with Dijkstra's algorithm is, that it doesn't work for negative weight edge. The idea of Johnson's algorithm is to re-weight all edges and make them all positive, then apply Dijkstra's algorithm for every vertex.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic johnsonsAlgorithm(/* not set yet */)
+List<List<int>> johnsonsAlgorithm(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Directed edges [u, v, w] (negative weights allowed, no negative cycles); return the V x V all-pairs shortest distances, 100000000 if unreachable.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

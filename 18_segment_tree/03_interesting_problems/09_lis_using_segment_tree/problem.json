@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/lis-using-segment-tree/",
   "practice": null,
   "function": {
-    "name": "lisSegmentTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "lisUsingSegmentTree",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return the length of the longest strictly increasing subsequence."
   },
   "example": null
 }

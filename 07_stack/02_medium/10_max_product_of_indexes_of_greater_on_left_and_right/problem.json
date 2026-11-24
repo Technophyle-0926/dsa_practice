@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/maximum-product-of-indexes-of-next-greater-on-left-and-right/",
   "practice": null,
   "function": {
-    "name": "maxProductIndexesGreaterLeft",
+    "name": "maxLRProduct",
     "params": [
       {
         "name": "arr",
@@ -15,10 +15,11 @@
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Indices are 1-based; a missing greater element on a side counts as index 0."
   },
   "example": {
-    "call": "maxProductIndexesGreaterLeft([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])",
+    "call": "maxLRProduct([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])",
     "expected": "24"
   }
 }

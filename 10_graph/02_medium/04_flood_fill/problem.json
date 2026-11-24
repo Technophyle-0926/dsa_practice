@@ -10,6 +10,10 @@
     "name": "floodFill",
     "params": [
       {
+        "name": "img",
+        "type": "List<List<int>>"
+      },
+      {
         "name": "sr",
         "type": "int"
       },
@@ -20,17 +24,13 @@
       {
         "name": "newColor",
         "type": "int"
-      },
-      {
-        "name": "img",
-        "type": "List<List<int>>"
       }
     ],
     "returns": "List<List<int>>",
     "verified": true
   },
   "example": {
-    "call": "floodFill(0, 1, 0, [[0, 1, 0], [0, 1, 0]])",
-    "expected": "[[0, 0, 0], [0, 0, 0]]"
+    "call": "floodFill([[1, 1, 1, 0], [0, 1, 1, 1], [1, 0, 1, 1]], 1, 2, 2)",
+    "expected": "[[2, 2, 2, 0], [0, 2, 2, 2], [1, 0, 2, 2]]"
   }
 }

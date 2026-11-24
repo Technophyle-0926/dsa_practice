@@ -29,6 +29,7 @@ Output: 3
 Explanation: The possible decodings are "ABCD", "LCD", "AWD"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int decodeWays(String digits)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `decodeWays("121")` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/convert-singly-linked-list-circular-linked-list/",
   "practice": null,
   "function": {
-    "name": "singlyCircularConversion",
+    "name": "singlyToCircular",
     "params": [
       {
         "name": "head",
         "type": "ListNode?"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Return head of the same nodes with the tail's next set to head (harness checks the cycle)."
   },
   "example": {
-    "call": "singlyCircularConversion(ListNode.fromList([1, 2, 3, 4, 5, 6]))",
-    "expected": ""
+    "call": "singlyToCircular(ListNode.fromList([1, 2, 3, 4, 5, 6]))",
+    "expected": "1 -> 2 -> 3 -> 4 -> 5 -> 6 -> (back to 1)"
   }
 }

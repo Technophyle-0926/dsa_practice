@@ -7,10 +7,10 @@
   "article": "https://www.geeksforgeeks.org/dsa/recursive-solution-count-substrings-first-last-characters/",
   "practice": null,
   "function": {
-    "name": "recursiveSolutionCountSubstringsSame",
+    "name": "countSubstringsSameFirstLast",
     "params": [
       {
-        "name": "S",
+        "name": "s",
         "type": "String"
       }
     ],
@@ -18,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "recursiveSolutionCountSubstringsSame(\"abcab\")",
+    "call": "countSubstringsSameFirstLast(\"abcab\")",
     "expected": "7"
   }
 }

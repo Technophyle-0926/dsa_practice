@@ -24,6 +24,7 @@ Input: s = "cba"
 Output: Rank = 6
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int lexicographicRankString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lexicographicRankString("acb")` → `2`
+<!-- signature:end -->
 
 ## Links
 

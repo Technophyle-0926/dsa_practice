@@ -20,6 +20,7 @@ Output: [3, 2, 1]
 Explanation: The stack is already sorted in ascending order.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> sortStackRecursion(List<int> st)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortStackRecursion([41, 3, 32, 2, 11])` → `[41, 32, 11, 3, 2]`
+<!-- signature:end -->
 
 ## Links
 

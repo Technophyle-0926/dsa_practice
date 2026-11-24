@@ -20,6 +20,7 @@ Output: 3
 Explanation: The sum of its digits are: 1 + 2 = 3
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int programSumDigitsGivenNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `programSumDigitsGivenNumber(687)` → `21`
+<!-- signature:end -->
 
 ## Links
 

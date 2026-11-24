@@ -26,6 +26,7 @@ Output: 54321
 Explanation: By reversing the digits of number, number will change into 54321.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int reverseDigits(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseDigits(122)` → `221`
+<!-- signature:end -->
 
 ## Links
 

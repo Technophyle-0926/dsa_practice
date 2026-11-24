@@ -20,6 +20,7 @@ Input : 7
 Output : 29
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int lucasNumbers(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lucasNumbers(3)` → `4`
+<!-- signature:end -->
 
 ## Links
 

@@ -21,6 +21,7 @@ Input:  grid = [[a, b, a, b], [a, b, e, b], [e, b, e, b]], word = "abe"
 Output:  [[0, 0[, [0, 2], [1, 0]]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ List<List<int>> wordSearch8DirectionsStraight(List<List<String>> grid, String wo
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordSearch8DirectionsStraight([["G", "E", "E", "K", "S", "F", "O", "R", "G", "E", "E", "K", "S"], ["G", "E", "E", "K", "S", "Q", "U", "I", "Z", "G", "E", "E", "K"], ["I", "D", "E", "Q", "A", "P", "R", "A", "C", "T", "I", "C", "E"]], "GEEKS")` → `[[0, 0], [0, 8], [1, 0]]`
+<!-- signature:end -->
 
 ## Links
 

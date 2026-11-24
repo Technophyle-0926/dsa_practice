@@ -23,13 +23,19 @@ Explanation:
 The minimum-weighted cycle is  `0 -> 1 -> 4 -> 0` with a total weight of `6`(2 + 1 + 3)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findMinimumWeightCycleUndirected(/* not set yet */)
+int minWeightCycle(List<List<List<int>>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** adj[u] holds [v, w] pairs; return -1 if the graph has no cycle.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minWeightCycle([[[1, 2], [4, 3]], [[0, 2], [2, 2], [3, 1], [4, 1]], [[1, 2], [3, 4]], [[1, 1], [2, 4]], [[1, 1], [0, 3]]])` → `6`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,6 +22,7 @@ Output: 110
 Explanation: Machine A will process tasks 8, 19, 18 while  Machine B will process tasks 7, 15, 12 and 31.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int maximumTipCalculator(int x, int y, List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumTipCalculator(3, 3, [1, 2, 3, 4, 5], [5, 4, 3, 2, 1])` → `21`
+<!-- signature:end -->
 
 ## Links
 

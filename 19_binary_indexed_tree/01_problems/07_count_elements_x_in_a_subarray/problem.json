@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/number-elements-less-equal-given-number-given-subarray/",
   "practice": null,
   "function": {
-    "name": "countElementsXSubarray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countElementsAtMostX",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query [l, r, x] (0-based inclusive) counts elements <= x in arr[l..r]."
   },
-  "example": null
+  "example": {
+    "call": "countElementsAtMostX([2, 3, 4, 5], [[0, 3, 5], [0, 2, 2]])",
+    "expected": "[4, 1]"
+  }
 }

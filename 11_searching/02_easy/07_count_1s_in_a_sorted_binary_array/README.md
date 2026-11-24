@@ -26,6 +26,7 @@ Output: 0
 Explanation: The array contains no 1s.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int count1sSortedBinaryArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `count1sSortedBinaryArray([1, 1, 0, 0, 0, 0, 0])` → `2`
+<!-- signature:end -->
 
 ## Links
 

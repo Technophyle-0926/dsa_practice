@@ -8,9 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/postorder-traversal/1",
   "function": {
     "name": "postorderTraversal",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "postorderTraversal(TreeNode.fromLevelOrder([1, 2, 3]))",
+    "expected": "[2, 3, 1]"
+  }
 }

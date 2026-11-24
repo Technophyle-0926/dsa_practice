@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-search-for-rational-numbers-without-using-floating-point-arithmetic/",
   "practice": null,
   "function": {
-    "name": "binarySearchRationals",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "searchRational",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "x",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Each rational is [p, q] meaning p/q; return the index of a value equal to x, or -1."
   },
-  "example": null
+  "example": {
+    "call": "searchRational([[1, 5], [2, 3], [3, 2], [13, 2]], [3, 2])",
+    "expected": "2"
+  }
 }

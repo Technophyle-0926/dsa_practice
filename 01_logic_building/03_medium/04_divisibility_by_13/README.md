@@ -20,6 +20,7 @@ Output: false
 Explanation: 27 / 13 ≈ 2.0769..., which is not a whole number (there is a remainder).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool divisibility13(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `divisibility13("2911285")` → `true`
+<!-- signature:end -->
 
 ## Links
 

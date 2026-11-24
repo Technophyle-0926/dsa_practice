@@ -29,6 +29,7 @@ For 4, the previous smaller element is 3
 For the last 5, the previous smaller element is 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<int> previousSmallerElement(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `previousSmallerElement([1, 6, 2])` → `[-1, 1, 1]`
+<!-- signature:end -->
 
 ## Links
 

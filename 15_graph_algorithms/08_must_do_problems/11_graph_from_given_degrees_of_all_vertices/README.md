@@ -34,13 +34,19 @@ Approach :
 
 Based on the above explanation, below are implementations:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic graphGivenDegreesAllVertices(List<int> degrees)
+List<List<int>> graphFromDegrees(List<int> degrees)
 ```
 
+> **Note:** Return the n x n 0/1 adjacency matrix built greedily as in the article (vertex i links to the next vertices j > i that still need degree).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `graphFromDegrees([2, 2, 1, 1])` → `[[0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -12,13 +12,17 @@ We know that to answer range sum queries on a 1-D array efficiently, binary inde
 
 The answer is **yes**. This is possible using a **2D BIT** which is nothing but an array of 1D BIT.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic solve2dBinaryIndexedTree(/* not set yet */)
+List<int> subMatrixSumQueries(List<List<int>> mat, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query [x1, y1, x2, y2] (0-based, inclusive corners) asks the sum of that sub-matrix.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

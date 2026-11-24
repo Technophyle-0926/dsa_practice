@@ -18,6 +18,7 @@ Output: 3
 Explanation: choose (3, 4) so cost is 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int minCostMakeSize1(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostMakeSize1([4, 3, 2])` → `4`
+<!-- signature:end -->
 
 ## Links
 

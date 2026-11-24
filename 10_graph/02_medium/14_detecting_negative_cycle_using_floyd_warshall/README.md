@@ -23,13 +23,19 @@ We have discussed Bellman Ford Algorithm based solution for this problem.
 In this post, Floyd Warshall Algorithm based solution is discussed that works for both connected and disconnected graphs.
 Distance of any node from itself is always zero. But in some cases, as in this example, when we traverse further from 4 to 1, the distance comes out to be -2, i.e. distance of 1 from 1 will become -2. This is our catch, we just have to check the nodes distance from itself and if it comes out to be negative, we will detect the required negative cycle.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic detectingNegativeCycleFloydWarshall(/* not set yet */)
+bool negCycleFloydWarshall(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Directed edges [u, v, w].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `negCycleFloydWarshall(4, [[0, 1, 1], [1, 2, -1], [2, 3, -1], [3, 0, -1]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

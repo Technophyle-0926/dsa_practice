@@ -20,6 +20,7 @@ Output: ["You", "are", "looking", "beautiful"]
 Explanation: The strings are sorted by length: "You", "are", "looking", and then "beautiful", with the shortest words appearing first and the longest last.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<String> sortStringsLengths(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortStringsLengths(["GeeksforGeeeks", "I", "from", "am"])` → `["I", "am", "from", "GeeksforGeeks"]`
+<!-- signature:end -->
 
 ## Links
 

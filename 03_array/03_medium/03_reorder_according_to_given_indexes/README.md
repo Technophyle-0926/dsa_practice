@@ -25,6 +25,7 @@ Input: arr[] = [50, 40, 70, 60, 90], index[] = [3,  0,  4,  1,  2]
 Output: 40 60 90 50 70
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ List<int> reorderAccordingGivenIndexes(List<int> arr, List<int> index)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reorderAccordingGivenIndexes([10, 11, 12], [1, 0, 2])` → `[11, 10, 12]`
+<!-- signature:end -->
 
 ## Links
 

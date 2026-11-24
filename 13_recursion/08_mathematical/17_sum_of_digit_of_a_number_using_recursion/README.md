@@ -19,6 +19,7 @@ Input: 45632
 Output: 20
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int sumDigitNumberRecursion(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumDigitNumberRecursion(12345)` → `15`
+<!-- signature:end -->
 
 ## Links
 

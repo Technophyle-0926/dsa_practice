@@ -31,6 +31,7 @@ Output: 0
 Explanation: The debts form a cycle: friend 0 owes 100 to friend 1, friend 1 owes 100 to friend 2, and friend 2 owes 100 to friend 0. The net balance of every friend is 0, so the settlement [[0, 0, 0], [0, 0, 0], [0, 0, 0]] is valid, and its total cash flow is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ int minimizeCashFlowAmongFriends(List<List<int>> transaction)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimizeCashFlowAmongFriends([[0, 100, 0], [0, 0, 200], [0, 0, 0]])` → `200`
+<!-- signature:end -->
 
 ## Links
 

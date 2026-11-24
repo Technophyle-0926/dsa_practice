@@ -26,6 +26,7 @@ Input: a = { 3, 2, 5, 2 }
 Output: 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int sumAreasRectanglesPossibleArray(List<int> a)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumAreasRectanglesPossibleArray([10, 10, 10, 10, 11, 10, 11, 10])` → `210`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-5/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsRecursion5",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "multiplyRecursive",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Implement Question 1's recursive fun(a, b) that computes a * b using repeated addition (b >= 0)."
   },
-  "example": null
+  "example": {
+    "call": "multiplyRecursive(3, 5)",
+    "expected": "15"
+  }
 }

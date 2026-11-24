@@ -20,6 +20,7 @@ Output: -1
 Explanation: The character 'z' is not present in "geeksforgeeks".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int searchCharacter(String s, String ch)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchCharacter("geeksforgeeks", "k")` → `3`
+<!-- signature:end -->
 
 ## Links
 

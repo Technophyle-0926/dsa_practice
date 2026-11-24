@@ -14,15 +14,15 @@
         "type": "List<int>"
       },
       {
-        "name": "A",
+        "name": "a",
         "type": "int"
       },
       {
-        "name": "B",
+        "name": "b",
         "type": "int"
       },
       {
-        "name": "C",
+        "name": "c",
         "type": "int"
       }
     ],

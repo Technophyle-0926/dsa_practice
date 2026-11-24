@@ -27,6 +27,7 @@ For 5, there is no greater element to its right: [0]
 For 1, there is no greater element to its right: [0]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<int> surpasserCount(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `surpasserCount([2, 7, 5, 3, 8, 1])` → `[4, 1, 1, 1, 0, 0]`
+<!-- signature:end -->
 
 ## Links
 

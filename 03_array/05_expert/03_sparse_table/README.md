@@ -17,13 +17,19 @@ Output: 0 3 12
 Explanation: The minimum in range [0, 4] is 0, in range [4, 7] is 3 and in range [7, 8] is 12.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> sparseTable(List<int> arr, List<List<int>> queries)
 ```
 
+> **Note:** Each query is [L, R] (0-based, inclusive); return the range minimum for each.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sparseTable([7, 2, 3, 0, 5, 10, 3, 12, 18], [[0, 4], [4, 7], [7, 8]])` → `[0, 3, 12]`
+<!-- signature:end -->
 
 ## Links
 

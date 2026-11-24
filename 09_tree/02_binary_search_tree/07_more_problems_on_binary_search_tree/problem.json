@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/",
   "practice": null,
   "function": {
-    "name": "moreProblemsBinarySearchTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kthSmallestBst",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Overview page; canonical task: k-th smallest key (1-based) in the BST, -1 if fewer than k nodes."
   },
-  "example": null
+  "example": {
+    "call": "kthSmallestBst(TreeNode.fromLevelOrder([20, 8, 22, 4, 12, null, null, null, null, 10, 14]), 3)",
+    "expected": "10"
+  }
 }

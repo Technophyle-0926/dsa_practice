@@ -14,12 +14,13 @@
         "type": "List<int>"
       },
       {
-        "name": "key_to_search",
+        "name": "key",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "arr is sorted; returns the 0-based index of key, or -1 if not present."
   },
   "example": {
     "call": "metaBinarySearch([-10, -5, 4, 6, 8, 10, 11], 10)",

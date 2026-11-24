@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-bitwise-and-operations-to-make-any-two-array-elements-equal/",
   "practice": null,
   "function": {
-    "name": "minimumOperations",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minimumAndOperations",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return -1 if no two elements can be made equal."
   },
-  "example": null
+  "example": {
+    "call": "minimumAndOperations([1, 2, 1, 2], 6)",
+    "expected": "0"
+  }
 }

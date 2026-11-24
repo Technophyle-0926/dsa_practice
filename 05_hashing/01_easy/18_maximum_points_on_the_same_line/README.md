@@ -20,6 +20,7 @@ Output: 4
 Explanation: The points in straight line are- (3, 2),(4, 1),(2, 3),(1, 4)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int maximumPointsSameLine(List<int> x, List<int> y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumPointsSameLine([1, 2, 3], [1, 2, 3])` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-on-trees/",
   "practice": null,
   "function": {
-    "name": "dpTrees",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxRootToLeafSum",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return the maximum sum of node values on any root-to-leaf path."
   },
   "example": null
 }

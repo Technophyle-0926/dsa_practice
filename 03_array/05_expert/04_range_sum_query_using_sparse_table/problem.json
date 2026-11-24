@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/range-sum-query-using-sparse-table/",
   "practice": null,
   "function": {
-    "name": "rangeSumQuerySparseTable",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "rangeSumQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query is [L, R] (0-based, inclusive); return the range sum for each."
   },
-  "example": null
+  "example": {
+    "call": "rangeSumQueries([3, 7, 2, 5, 8, 9], [[0, 5], [3, 5], [2, 4]])",
+    "expected": "[34, 22, 15]"
+  }
 }

@@ -29,6 +29,7 @@ A **simple solution** is to one by one divide n by 2 until it becomes 0 and incr
 
 An **efficient solution** for a fixed size integer (say 32 bits) is to one by one set bits, then add 1 so that only the bit after MSB is set. Finally right shift by 1 and return the answer. This solution does not require any condition checking.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int mostSignificantBit(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mostSignificantBit(10)` → `8`
+<!-- signature:end -->
 
 ## Links
 

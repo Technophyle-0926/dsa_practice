@@ -20,6 +20,7 @@ Output : 3
 Explanation: You can increment the first element by 2 (to make it 3) and the second element by 1 (to make it 3). This results in the array [3,3,3,4], where 3 elements are equal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int makingMaxEqualKUpdates(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `makingMaxEqualKUpdates([2, 4, 9], 3)` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/design-custom-browser-history-based-on-given-operations/",
   "practice": "https://www.geeksforgeeks.org/problems/design-browser-history/1",
   "function": {
-    "name": "designBrowserHistory",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "browserHistory",
+    "params": [
+      {
+        "name": "homepage",
+        "type": "String"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "ops[i] is 'visit' (args[i] = url), 'back' or 'forward' (args[i] = steps as a decimal string); returns the current URL after each back/forward."
   },
-  "example": null
+  "example": {
+    "call": "browserHistory(\"geeksforgeeks.org\", [\"visit\", \"back\"], [\"amazon.com\", \"2\"])",
+    "expected": "[\"geeksforgeeks.org\"]"
+  }
 }

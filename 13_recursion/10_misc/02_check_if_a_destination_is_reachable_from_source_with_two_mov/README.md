@@ -27,13 +27,17 @@ and coordinates are positive
 The problem can be solved using simple recursion. Base case would be to check if current x or y coordinate is greater than that of destination, in which case we return false. If it is not the destination point yet we make two calls for both valid movements from that point.
 If any of them yields a path we return true else return false.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkIfDestinationReachableSource(/* not set yet */)
+bool isReachable(int x1, int y1, int x2, int y2)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isReachable(2, 10, 26, 12)` → `true`
+<!-- signature:end -->
 
 ## Links
 

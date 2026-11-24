@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/auto-complete-feature-using-trie/",
   "practice": "https://www.geeksforgeeks.org/problems/search-query-auto-complete/1",
   "function": {
-    "name": "autoCompleteFeatureTrie",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "autoComplete",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      },
+      {
+        "name": "prefix",
+        "type": "String"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Return stored words starting with prefix in lexicographic order; empty list if none."
   },
-  "example": null
+  "example": {
+    "call": "autoComplete([\"abc\", \"abcd\", \"aa\", \"abbbaba\"], \"ab\")",
+    "expected": "[\"abbbaba\", \"abc\", \"abcd\"]"
+  }
 }

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/determine-whether-universal-sink-exists-directed-graph/",
   "practice": null,
   "function": {
-    "name": "determineWhetherUniversalSinkExists",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "universalSink",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "adj is an adjacency matrix; return the sink vertex or -1 if none."
   },
-  "example": null
+  "example": {
+    "call": "universalSink([[0, 0, 1, 0], [0, 0, 1, 0], [0, 0, 0, 0], [0, 0, 1, 0]])",
+    "expected": "2"
+  }
 }

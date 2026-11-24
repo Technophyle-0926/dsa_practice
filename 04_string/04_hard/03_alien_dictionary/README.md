@@ -30,6 +30,7 @@ The pair "aaa" and "aab" suggests 'a' appear before 'b' in the alien dictionary.
 So, 'c' -> 'a' -> 'b' is a valid ordering.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ String alienDictionary(List<String> words)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `alienDictionary(["baa", "abcd", "abca", "cab", "cad"])` → `"bdac"`
+<!-- signature:end -->
 
 ## Links
 

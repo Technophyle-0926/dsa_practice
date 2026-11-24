@@ -26,6 +26,7 @@ Output: false
 Explanation: We cannot divide the array into pairs such that they are multiples of 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool pairSumsDivisibleK(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pairSumsDivisibleK([9, 7, 5, 3], 6)` → `true`
+<!-- signature:end -->
 
 ## Links
 

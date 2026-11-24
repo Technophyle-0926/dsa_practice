@@ -27,13 +27,19 @@ Output: 2
 Explanation: The longest path from the root (node 4) to any leaf (nodes 5 or 7) is 2, as it only requires two levels of traversal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic depthNAryTree(/* not set yet */)
+int depthNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Depth counts nodes on the longest root-to-leaf path. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `depthNAryTree(81, {81: [26, 23, 49], 26: [95, 86]})` → `3`
+<!-- signature:end -->
 
 ## Links
 

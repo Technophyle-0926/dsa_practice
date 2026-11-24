@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/",
   "practice": "https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1",
   "function": {
-    "name": "introductionDisjointDataStructureOr",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "unionFind",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Elements are 0..n-1; ops[i] is 'union' or 'connected' on args[i] = [x, y]; returns the result of each 'connected'."
   },
-  "example": null
+  "example": {
+    "call": "unionFind(10, [\"union\", \"union\", \"union\", \"union\", \"union\", \"union\", \"connected\"], [[0, 1], [1, 3], [2, 5], [2, 8], [9, 4], [6, 9], [0, 3]])",
+    "expected": "[true]"
+  }
 }

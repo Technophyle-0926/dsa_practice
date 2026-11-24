@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/chinese-postman-route-inspection-set-1-introduction/",
   "practice": "https://www.geeksforgeeks.org/problems/chinese-postman/1",
   "function": {
-    "name": "chinesePostmanOrRouteInspection",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "chinesePostman",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Vertices are 1-based; edges[i] = [u, v, w]."
   },
-  "example": null
+  "example": {
+    "call": "chinesePostman(3, [[1, 2, 1], [2, 3, 1], [3, 1, 4]])",
+    "expected": "6"
+  }
 }

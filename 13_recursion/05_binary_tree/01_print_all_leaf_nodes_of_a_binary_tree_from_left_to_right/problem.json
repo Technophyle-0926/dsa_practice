@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-leaf-nodes-left-right-binary-tree/",
   "practice": null,
   "function": {
-    "name": "printAllLeafNodesBinary",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "leafNodesLeftToRight",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Empty list for an empty tree."
   },
-  "example": null
+  "example": {
+    "call": "leafNodesLeftToRight(TreeNode.fromLevelOrder([1, 2, 3, 4, null, 5, 8, null, null, 6, 7, 9, 10]))",
+    "expected": "[4, 6, 7, 9, 10]"
+  }
 }

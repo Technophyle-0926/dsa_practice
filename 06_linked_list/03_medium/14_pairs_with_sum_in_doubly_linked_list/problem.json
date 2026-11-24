@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-pairs-given-sum-doubly-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1",
   "function": {
-    "name": "pairsSumDoublyLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "pairsWithSumDll",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each pair is [smaller, larger]; pairs sorted by first element."
   },
-  "example": null
+  "example": {
+    "call": "pairsWithSumDll(DListNode.fromList([1, 2, 4, 5, 6, 8, 9]), 7)",
+    "expected": "[[1, 6], [2, 5]]"
+  }
 }

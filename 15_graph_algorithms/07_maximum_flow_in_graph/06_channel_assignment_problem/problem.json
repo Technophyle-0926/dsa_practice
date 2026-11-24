@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/channel-assignment-problem/",
   "practice": null,
   "function": {
-    "name": "channelAssignmentProblem",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "channelAssignment",
+    "params": [
+      {
+        "name": "m",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "m[i][j] = packets transmitter i has for receiver j; return the maximum packets sent in one slot (bipartite matching size)."
   },
-  "example": null
+  "example": {
+    "call": "channelAssignment([[0, 2, 0], [3, 0, 1], [2, 4, 0]])",
+    "expected": "3"
+  }
 }

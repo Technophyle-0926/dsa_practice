@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-find-minimum-maximum-element-array/",
   "practice": "https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
   "function": {
-    "name": "programFindMinimumOrMaximum",
+    "name": "minAndMax",
     "params": [
       {
         "name": "arr",
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Returns [minimum, maximum]."
   },
   "example": {
-    "call": "programFindMinimumOrMaximum([1, 423, 6, 46, 34, 23, 13, 53, 4])",
-    "expected": "Minimum element of array: 1"
+    "call": "minAndMax([1, 423, 6, 46, 34, 23, 13, 53, 4])",
+    "expected": "[1, 423]"
   }
 }

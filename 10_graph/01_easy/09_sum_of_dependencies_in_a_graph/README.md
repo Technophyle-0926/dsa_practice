@@ -27,6 +27,7 @@ Output: 3
 Explanation: The sum of dependencies: 3 + 0 + 0 + 0 = 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int sumDependenciesGraph(int V, int E, List<List<int>> edges)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumDependenciesGraph(4, 3, [[0, 3], [0, 2], [0, 1]])` → `3`
+<!-- signature:end -->
 
 ## Links
 

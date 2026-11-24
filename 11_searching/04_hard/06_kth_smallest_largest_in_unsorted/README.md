@@ -26,6 +26,7 @@ Input: arr[] = [1, 5, 2, 8, 3], k = 4
 Output: 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int kthSmallestLargestUnsorted(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthSmallestLargestUnsorted([7, 10, 4, 3, 20, 15], 3)` → `7`
+<!-- signature:end -->
 
 ## Links
 

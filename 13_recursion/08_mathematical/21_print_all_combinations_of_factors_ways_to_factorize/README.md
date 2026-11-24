@@ -23,13 +23,19 @@ Output : 2 2 3
 
 To solve this problem we take one array of array of integers or list of list of integers to store all the factors combination possible for the given n. So, to achieve this we can have one recursive function which can store the factors combination in each of its iteration. And each of those list should be stored in the final result list.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> printAllCombinationsFactorsWays(int n)
+List<List<int>> factorCombinations(int n)
 ```
 
+> **Note:** Each combination non-decreasing, excluding n itself; lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `factorCombinations(16)` → `[[2, 2, 2, 2], [2, 2, 4], [2, 8], [4, 4]]`
+<!-- signature:end -->
 
 ## Links
 

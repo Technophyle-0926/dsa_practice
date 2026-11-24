@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/fleurys-algorithm-for-printing-eulerian-path/",
   "practice": null,
   "function": {
-    "name": "fleurysAlgorithmPrintingEulerianPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "fleuryEulerianTrail",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the trail as a list of edges [u, v] in traversal order (start at an odd-degree vertex if any, else vertex 0); empty list if no Eulerian trail exists."
   },
   "example": null
 }

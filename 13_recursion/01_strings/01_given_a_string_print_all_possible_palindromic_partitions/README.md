@@ -20,13 +20,19 @@ Output: [[a, b, c, b, a], [a, bcb, a], [abcba]]
 Explanation: [a, b, c, b, a], [a, bcb, a] and [abcba] are the only partitions of "abcba" where each substring is a palindrome.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<List<String>> givenStringPrintAllPossible(String s)
+List<List<String>> palindromicPartitions(String s)
 ```
 
+> **Note:** Partitions in lexicographic order of their part lists, as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `palindromicPartitions("geeks")` → `[[g, e, e, k, s], [g, ee, k, s]]`
+<!-- signature:end -->
 
 ## Links
 

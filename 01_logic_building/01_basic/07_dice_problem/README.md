@@ -20,6 +20,7 @@ Output: 1
 Explanation: For dice facing number 6 opposite face will have the number 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int diceProblem(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `diceProblem(2)` → `5`
+<!-- signature:end -->
 
 ## Links
 

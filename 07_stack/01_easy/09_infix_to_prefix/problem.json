@@ -7,18 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/convert-infix-prefix-notation/",
   "practice": "https://www.geeksforgeeks.org/problems/infix-to-prefix-notation/1",
   "function": {
-    "name": "infixPrefix",
+    "name": "infixToPrefix",
     "params": [
       {
         "name": "s",
         "type": "String"
       }
     ],
-    "returns": "dynamic",
+    "returns": "String",
     "verified": true
   },
   "example": {
-    "call": "infixPrefix(\"a*(b+c)/d\")",
+    "call": "infixToPrefix(\"a*(b+c)/d\")",
     "expected": "/*a+bcd"
   }
 }

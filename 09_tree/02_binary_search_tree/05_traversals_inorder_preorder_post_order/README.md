@@ -28,13 +28,19 @@ Preorder Traversal: 22 12 8 20 30 25 40
 Postorder Traversal: 8 20 12 25 40 30 22
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic traversalsInorderPreorderPostOrder(/* not set yet */)
+List<List<int>> bstTraversals(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Returns [inorder, preorder, postorder].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bstTraversals(TreeNode.fromLevelOrder([100, 20, 200, 10, 30, 150, 300]))` → `[[10, 20, 30, 100, 150, 200, 300], [100, 20, 10, 30, 200, 150, 300], [10, 30, 20, 150, 300, 200, 100]]`
+<!-- signature:end -->
 
 ## Links
 

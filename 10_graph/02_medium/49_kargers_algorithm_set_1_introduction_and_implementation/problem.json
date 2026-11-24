@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-and-implementation-of-kargers-algorithm-for-minimum-cut/",
   "practice": null,
   "function": {
-    "name": "kargersAlgorithm1IntroductionImplementation",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minCut",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Undirected multigraph edges [u, v]; return the exact minimum cut size (repeat Karger's randomized contraction enough times)."
   },
-  "example": null
+  "example": {
+    "call": "minCut(4, [[0, 1], [0, 2], [0, 3], [1, 3], [2, 3]])",
+    "expected": "2"
+  }
 }

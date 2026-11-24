@@ -26,6 +26,7 @@ Output: "zzza"
 Explanation: All characters are 'z', so we append 'a' to make the next string.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ String lexicographicallyNextString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lexicographicallyNextString("geeks")` → `"geekt"`
+<!-- signature:end -->
 
 ## Links
 

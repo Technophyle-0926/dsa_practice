@@ -1,5 +1,5 @@
 {
-  "title": "Check for Bipartite",
+  "title": "Word Ladder",
   "number": 5,
   "category": "Graph",
   "level": "Medium",
@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/word-ladder-length-of-shortest-chain-to-reach-a-target-word/",
   "practice": "https://www.geeksforgeeks.org/problems/word-ladder/1",
   "function": {
-    "name": "checkBipartite",
+    "name": "wordLadder",
     "params": [
       {
         "name": "words",
@@ -26,7 +26,7 @@
     "verified": true
   },
   "example": {
-    "call": "checkBipartite([\"des\", \"der\", \"dfr\", \"dgt\", \"dfs\"], \"der\", \"dfs\")",
+    "call": "wordLadder([\"des\", \"der\", \"dfr\", \"dgt\", \"dfs\"], \"der\", \"dfs\")",
     "expected": "3"
   }
 }

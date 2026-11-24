@@ -20,13 +20,19 @@ Input: n = 0
 Output: 00000000000000000000000000000000
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int binaryRepresentation(int n)
+String binaryRepresentation(int n)
 ```
 
+> **Note:** Return a 32-character binary string padded with leading zeros.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryRepresentation(2)` → `"00000000000000000000000000000010"`
+<!-- signature:end -->
 
 ## Links
 

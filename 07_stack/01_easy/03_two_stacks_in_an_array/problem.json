@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/implement-two-stacks-in-an-array/",
   "practice": "https://www.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1",
   "function": {
-    "name": "twoStacksArray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "twoStacks",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'push1'/'push2' (args[i] = [x]) or 'pop1'/'pop2' (args[i] = []); returns every popped value in order, -1 when that stack is empty."
   },
-  "example": null
+  "example": {
+    "call": "twoStacks([\"push1\", \"push1\", \"push2\", \"pop1\", \"pop2\", \"pop2\"], [[2], [3], [4], [], [], []])",
+    "expected": "[3, 4, -1]"
+  }
 }

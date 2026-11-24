@@ -33,6 +33,7 @@ Output: [1, 2]
 Explanation:  There may be multiple valid original arrays that produce the same pair-sum array, such as `[1, 2]` and `[2, 1]`. Both are considered correct since they yield the same set of pairwise sums.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -40,6 +41,9 @@ List<int> constructArrayPairSums(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `constructArrayPairSums([4, 5, 3])` → `[3, 1, 2]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/check-whether-two-strings-are-anagram-of-each-other/",
   "practice": "https://www.geeksforgeeks.org/problems/anagram-1587115620/1",
   "function": {
-    "name": "checkAnagrams",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "areAnagrams",
+    "params": [
+      {
+        "name": "s1",
+        "type": "String"
+      },
+      {
+        "name": "s2",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "areAnagrams(\"geeks\", \"kseeg\")",
+    "expected": "true"
+  }
 }

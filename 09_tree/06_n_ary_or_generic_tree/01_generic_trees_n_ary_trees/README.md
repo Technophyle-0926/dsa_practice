@@ -26,13 +26,19 @@ The node representation based on this method can be written as:
 - **Memory Wastage** - All the pointers are not required in all the cases. Hence, there is lot of memory wastage.
 - **Unknown number of children** - The number of children for each node is not known in advance.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic genericTreesNAryTrees(/* not set yet */)
+int countNodesNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: count the nodes. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countNodesNAryTree(1, {1: [2, 3, 4], 2: [5, 6]})` → `6`
+<!-- signature:end -->
 
 ## Links
 

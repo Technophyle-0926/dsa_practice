@@ -21,6 +21,7 @@ Output: 8
 Explanation: The minimum rotations required for the corresponding digit pairs (2, 5), (3, 4), (4, 3), and (5, 2) are 3, 1, 1, and 3, respectively. Therefore, the minimum total rotations required are 3 + 1 + 1 + 3 = 8.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int minRotationsCircularLock(int r, int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minRotationsCircularLock(222, 333)` → `3`
+<!-- signature:end -->
 
 ## Links
 

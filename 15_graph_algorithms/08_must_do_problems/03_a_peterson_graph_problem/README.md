@@ -44,13 +44,19 @@ begin
 end
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int petersonGraphProblem(String s)
+String petersonGraphProblem(String s)
 ```
 
+> **Note:** Return the lexicographically least walk as a digit string, or "-1" if none exists.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `petersonGraphProblem("ABB")` → `"016"`
+<!-- signature:end -->
 
 ## Links
 

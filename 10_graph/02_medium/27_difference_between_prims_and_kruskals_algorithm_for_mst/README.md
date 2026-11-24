@@ -6,13 +6,19 @@
 
 **Minimum Spanning Tree (MST)** is a fundamental concept in graph theory and has various applications in network design, clustering, and optimization problems. Two of the most commonly used algorithms to find the MST of a graph are **Prim's** and **Kruskal's algorithms**. Although both algorithms achieve the same goal, they do so in different ways. In this article we are going to explore the differences between them which can help in choosing the right algorithm for specific types of graphs and applications.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic differenceBetweenPrimsKruskalsAlgorithm(/* not set yet */)
+int mstWeight(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v, w]; return the MST total weight (via Prim's or Kruskal's).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mstWeight(3, [[0, 1, 5], [1, 2, 3], [0, 2, 1]])` → `4`
+<!-- signature:end -->
 
 ## Links
 

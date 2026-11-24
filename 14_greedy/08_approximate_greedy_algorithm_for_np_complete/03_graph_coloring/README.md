@@ -11,13 +11,17 @@ We introduced graph coloring and applications in previous post. As discussed in 
 - Color first vertex with first color.
 - Do following for remaining **V-1** vertices. Consider the currently picked vertex and color it with the lowest numbered color that has not been used on any previously colored vertices adjacent to it. If all previously used colors appear on vertices adjacent to **v**, assign a new color to it.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic graphColoring(/* not set yet */)
+List<int> greedyColoring(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges; color vertices 0..V-1 in order, each with the smallest color (starting at 0) not used by an already-colored neighbour; return the colors.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

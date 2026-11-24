@@ -23,13 +23,19 @@ Solution: Delete nodes from end of key until first leaf node of longest prefix k
 - Now we want to delete string "CAT", since it is prefix of string "CATS", we cannot delete anything from the string "CAT" and we can only unmark the leaf node which will ensure that "CAT" is no longer a member string of TST.
 - Now we want to delete string "CATS", since it has a prefix string "CAT" which also is a member string of TST so we can only delete last character of string "CATS" which will ensure that string "CAT" still remains the part of TST.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic ternarySearchTreeDeletion(/* not set yet */)
+List<bool> ternarySearchTreeDelete(List<String> words, List<String> deletions, List<String> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert words, delete each word in deletions (absent ones are ignored), then report for each query whether it is still stored.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ternarySearchTreeDelete(["CAT", "CATS", "BUG", "UP"], ["CAT", "BIG"], ["CAT", "CATS", "BUG"])` → `[false, true, true]`
+<!-- signature:end -->
 
 ## Links
 

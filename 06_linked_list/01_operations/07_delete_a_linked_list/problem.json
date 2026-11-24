@@ -14,11 +14,12 @@
         "type": "ListNode?"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Unlink every node and return the (now empty) head, i.e. null."
   },
   "example": {
     "call": "deleteLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
-    "expected": "NULL"
+    "expected": "null"
   }
 }

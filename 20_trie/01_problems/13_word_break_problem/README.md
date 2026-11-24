@@ -28,6 +28,7 @@ Output: false
 Explanation: s cannot be formed using dictionary[] words.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ bool wordBreakProblem(String s, List<String> dictionary)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordBreakProblem("ilike", ["i", "like", "gfg"])` → `true`
+<!-- signature:end -->
 
 ## Links
 

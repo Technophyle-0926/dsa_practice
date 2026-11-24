@@ -28,6 +28,7 @@ Output: "abcd"
 Explanation: There are no adjacent duplicate characters
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ String removeAdjacent(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeAdjacent("geeksforgeek")` → `"gksforgk"`
+<!-- signature:end -->
 
 ## Links
 

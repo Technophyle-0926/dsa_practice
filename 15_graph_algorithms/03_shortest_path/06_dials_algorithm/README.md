@@ -27,13 +27,19 @@ The following are important observations.
 - The maximum distance between any two nodes can be at max w(V – 1) (w is maximum edge weight and we can have at max V-1 edges between two vertices).
 - In the Dijkstra algorithm, distances are finalized in non-decreasing, i.e., the distance of the closer (to given source) vertices is finalized before the distant vertices.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic dialsAlgorithm(/* not set yet */)
+List<int> dialsAlgorithm(int V, List<List<int>> edges, int src)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v, w] with small non-negative weights; return shortest distances from src (-1 if unreachable).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dialsAlgorithm(9, [[0, 1, 4], [0, 7, 8], [1, 2, 8], [1, 7, 11], [2, 3, 7], [2, 8, 2], [2, 5, 4], [3, 4, 9], [3, 5, 14], [4, 5, 10], [5, 6, 2], [6, 7, 1], [6, 8, 6], [7, 8, 7]], 0)` → `[0, 4, 12, 19, 21, 11, 9, 8, 14]`
+<!-- signature:end -->
 
 ## Links
 

@@ -34,13 +34,19 @@ Move disk 2 from rod C to rod D
 Move disk 1 from rod A to rod D
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recursiveTowerHanoi4Pegs(int n)
+List<String> towerOfHanoi4Pegs(int n)
 ```
 
+> **Note:** Moves from rod A to rod D (aux B, C) using GfG's scheme: move n-2 disks to B, then n-1 via C, n to D, n-1 to D, then n-2 from B to D; each line 'Move disk k from rod X to rod Y'.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `towerOfHanoi4Pegs(3)` → `[Move disk 1 from rod A to rod B, Move disk 2 from rod A to rod C, Move disk 3 from rod A to rod D, Move disk 2 from rod C to rod D, Move disk 1 from rod B to rod D]`
+<!-- signature:end -->
 
 ## Links
 

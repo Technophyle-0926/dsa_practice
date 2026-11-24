@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "chessboardPieces",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "All n pieces start white; [1, l, r] flips colors in [l, r]; [2, l, r] counts black pieces; return answers of type-2 queries."
   },
-  "example": null
+  "example": {
+    "call": "chessboardPieces(4, [[2, 0, 3], [1, 1, 2], [2, 0, 1], [1, 0, 3], [2, 0, 3]])",
+    "expected": "[0, 1, 2]"
+  }
 }

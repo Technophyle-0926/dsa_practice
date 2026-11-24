@@ -68,13 +68,19 @@ The new residual graph is
 
 **Third Iteration :** We run BFS and create a level graph. We also check if more flow is possible and proceed only if possible. This time there is no s-t path in residual graph, so we terminate the algorithm.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic dinicsAlgorithmMaximumFlow(/* not set yet */)
+int dinicMaxFlow(int V, List<List<int>> edges, int s, int t)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Directed edges [u, v, capacity].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dinicMaxFlow(6, [[0, 1, 10], [0, 2, 10], [1, 2, 2], [1, 3, 4], [1, 4, 8], [2, 4, 9], [3, 5, 10], [4, 3, 6], [4, 5, 10]], 0, 5)` → `19`
+<!-- signature:end -->
 
 ## Links
 

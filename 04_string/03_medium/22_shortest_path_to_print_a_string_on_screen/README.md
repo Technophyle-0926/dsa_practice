@@ -22,6 +22,7 @@ Output: 1
 Explanation: Already at 'a', only OK press is required.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int shortestPathPrintStringScreen(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathPrintStringScreen("abc")` → `5`
+<!-- signature:end -->
 
 ## Links
 

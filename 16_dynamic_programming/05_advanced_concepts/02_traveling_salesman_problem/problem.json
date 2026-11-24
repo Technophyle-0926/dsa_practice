@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/bitmasking-dynamic-programming-set-2-tsp/",
   "practice": null,
   "function": {
-    "name": "travelingSalesmanProblem",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minDistanceVisitAllHouses",
+    "params": [
+      {
+        "name": "grid",
+        "type": "List<List<String>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "grid cells are '*' house, 'x' blocked, '.' street, 'o' start; 4-directional moves; return -1 if some house is unreachable."
   },
   "example": null
 }

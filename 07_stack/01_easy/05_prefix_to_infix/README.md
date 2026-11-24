@@ -26,13 +26,19 @@ Output: ((A-(B/C))*((A/K)-L))
 Explanation: The prefix expression starts with '*', so the final operation is multiplication.  The left subexpression '-A/BC' converts to '(A-(B/C))', and the right subexpression '-/AKL' converts to '((A/K)-L)'.  Combining these two subexpressions with '*' gives the fully parenthesized infix expression: ((A-(B/C))*((A/K)-L))
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic prefixInfix(String s)
+String prefixToInfix(String s)
 ```
 
+> **Note:** Every operation is fully parenthesised, as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `prefixToInfix("+A*BC")` → `(A+(B*C))`
+<!-- signature:end -->
 
 ## Links
 

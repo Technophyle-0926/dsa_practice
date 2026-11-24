@@ -27,13 +27,19 @@ Output: Invalid k
 Explanation: K Different Number is not present the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> smallestSubarrayKDistinctNumbers(List<int> arr, int k)
 ```
 
+> **Note:** Return 0-based [l, r] (smallest l on ties), or [-1, -1] if no such subarray exists.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestSubarrayKDistinctNumbers([1, 1, 2, 2, 3, 3, 4, 5], 3)` → `[5, 7]`
+<!-- signature:end -->
 
 ## Links
 

@@ -33,13 +33,19 @@ Output: 1 -> 5 -> 2 -> 4 -> 6 -> 7
 Explanation: All distinct nodes of first list then remaining nodes of the second list.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic unionIntersection(/* not set yet */)
+ListNode? unionOfLinkedLists(ListNode? head1, ListNode? head2)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Distinct values of head1 in order, then values of head2 not already present, in order.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `unionOfLinkedLists(ListNode.fromList([9, 6, 4, 3, 8]), ListNode.fromList([1, 2, 8, 6, 2]))` → `9 -> 6 -> 4 -> 3 -> 8 -> 1 -> 2`
+<!-- signature:end -->
 
 ## Links
 

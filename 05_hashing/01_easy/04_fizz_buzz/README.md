@@ -28,6 +28,7 @@ Input: n = 20
 Output: ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<String> fizzBuzz(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fizzBuzz(3)` → `["1", "2", "Fizz"]`
+<!-- signature:end -->
 
 ## Links
 

@@ -8,13 +8,17 @@
 Binary Indexed Tree (BIT) is a data structure that allows efficient queries of a range of elements in an array and updates on individual elements in O(log n) time complexity, where n is the number of elements in the array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic searchingBitBinaryLifting(/* not set yet */)
+List<int> bitLowerBoundQueries(List<int> arr, List<int> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is non-negative; for each value v return the smallest 0-based index i with arr[0] + ... + arr[i] >= v, or -1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

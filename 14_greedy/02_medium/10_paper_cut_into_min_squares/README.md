@@ -37,13 +37,19 @@ Output: 5
 Explanation: We can cut the paper into 5 squares: 1 square of size 4x4, 2 squares of size 3x3 and 2 squares of size 3x3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic paperCutIntoMinSquares(/* not set yet */)
+int minSquaresPaperCut(int a, int b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the true minimum number of squares (e.g. 13 x 11 gives 6), not just the greedy count.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minSquaresPaperCut(5, 8)` → `5`
+<!-- signature:end -->
 
 ## Links
 

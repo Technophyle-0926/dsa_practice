@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/quicksort-on-singly-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/quick-sort-on-linked-list/1",
   "function": {
-    "name": "quicksortSinglyLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "quickSortLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "quickSortLinkedList(ListNode.fromList([30, 3, 4, 20, 5]))",
+    "expected": "3 -> 4 -> 5 -> 20 -> 30"
+  }
 }

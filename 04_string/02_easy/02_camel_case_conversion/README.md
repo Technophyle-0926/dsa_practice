@@ -18,6 +18,7 @@ Input: "here comes the garden"
 Output: "hereComesTheGarden"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ String camelCaseConversion(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `camelCaseConversion("i got intern at geeksforgeeks")` → `"iGotInternAtGeeksforgeeks"`
+<!-- signature:end -->
 
 ## Links
 

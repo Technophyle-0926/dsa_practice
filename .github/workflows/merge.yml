@@ -1,0 +1,72 @@
+# Merges a checked submission into main and updates progress.
+#
+# Security: workflow_run always uses THIS file from main (contributors can't change it), the checks
+# below run main's scripts against the pushed commit, and the deploy key lives in the "main-writer"
+# environment, which only runs on main. Contributor code is analyzed, never executed.
+name: Merge submission
+
+on:
+  workflow_run:
+    workflows: [Submission]
+    types: [completed]
+
+concurrency:
+  group: main-writer
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  merge:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    runs-on: ubuntu-latest
+    environment: main-writer
+    env:
+      ACTOR: ${{ github.event.workflow_run.actor.login }}
+      BRANCH: ${{ github.event.workflow_run.head_branch }}
+      HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+      OWNER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
+      - uses: dart-lang/setup-dart@v1
+      - name: Re-check branch owner
+        run: |
+          if [ "${BRANCH,,}" != "${ACTOR,,}/solutions" ]; then
+            echo "::error::Branch $BRANCH was pushed by $ACTOR"; exit 1
+          fi
+      - name: Re-check files (using main's script)
+        run: |
+          git fetch -q origin "$HEAD_SHA"
+          BASE_SHA=$(git merge-base origin/main "$HEAD_SHA") AUTHOR="$ACTOR" tool/ci/check_submission.sh
+      - name: Re-run analyzer on the submission
+        run: |
+          BASE_SHA=$(git merge-base origin/main "$HEAD_SHA")
+          git worktree add -q ../submission "$HEAD_SHA"
+          cp tool/ci/analyze_changed.sh ../analyze_changed.sh
+          cd ../submission && BASE_SHA="$BASE_SHA" bash ../analyze_changed.sh
+      - run: dart pub get
+      - name: Merge into main, update progress, push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin main
+            git checkout -q -B main origin/main
+            if git merge-base --is-ancestor "$HEAD_SHA" HEAD; then
+              echo "Already merged."; exit 0
+            fi
+            git merge -q --no-ff --no-edit -m "Merge solutions from $ACTOR [skip ci]" "$HEAD_SHA"
+            dart run tool/progress.dart
+            git add -A PROGRESS.md progress '*/README.md'
+            git diff --cached --quiet || git commit -q -m "chore: update progress [skip ci]"
+            if git push -q origin main; then
+              echo "Merged $BRANCH ($HEAD_SHA) into main."; exit 0
+            fi
+            echo "Push failed (main moved?), retrying…"; sleep 5
+          done
+          exit 1

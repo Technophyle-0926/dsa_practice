@@ -20,13 +20,19 @@ Input: a = 60, b = 95
 Output: 60 62 64 65 66 68 70 72 74 75 76 78 80 82 84 85 86 88 90 92 94 95
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> spaceOptimizationBitManipulations(int a, int b)
 ```
 
+> **Note:** Return the multiples of 2 or 5 in [a, b] in increasing order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `spaceOptimizationBitManipulations(2, 10)` → `[2, 4, 5, 6, 8, 10]`
+<!-- signature:end -->
 
 ## Links
 

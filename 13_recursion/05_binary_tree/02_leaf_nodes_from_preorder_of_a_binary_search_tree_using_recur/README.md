@@ -14,6 +14,7 @@ Output : 290 530 965
 Explanation: Below is the representation of BST using preorder array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -21,6 +22,9 @@ List<int> leafNodesPreorderBinarySearch(List<int> preorder)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `leafNodesPreorderBinarySearch([890, 325, 290, 530, 965])` → `290 530 965`
+<!-- signature:end -->
 
 ## Links
 

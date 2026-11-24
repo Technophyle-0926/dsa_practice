@@ -21,13 +21,19 @@ For the query 2, after an update, the array becomes [1, 6, 4, 2, 5]
 For the query 3, the maximum product in a range [0, 2] is 6 * 4 = 24.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> maximumProductPairRangeUpdates(int n, int q, List<int> arr, List<List<int>> queries)
+List<int> maximumProductPairRangeUpdates(List<int> arr, List<List<int>> queries)
 ```
 
+> **Note:** [1, L, R] asks the max product of two distinct elements in arr[L..R]; [2, i, val] sets arr[i] = val; return answers of type-1 queries.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumProductPairRangeUpdates([1, 3, 4, 2, 5], [[1, 0, 2], [2, 1, 6], [1, 0, 2]])` → `[12, 24]`
+<!-- signature:end -->
 
 ## Links
 

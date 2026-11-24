@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/euclids-algorithm-when-and-operations-are-costly/",
   "practice": null,
   "function": {
-    "name": "euclidWhenAreCostly",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "binaryGcd",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return gcd(a, b) using only shifts, bitwise ops and subtraction (no % or /)."
   },
   "example": null
 }

@@ -21,6 +21,7 @@ Explanation: Numbers having maximum occurrence i.e., 2 are
 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15. The smallest number among all are 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int maxOccurredNRanges(List<int> l, List<int> r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxOccurredNRanges([1, 2, 4, 3], [6, 4, 8, 5])` → `4`
+<!-- signature:end -->
 
 ## Links
 

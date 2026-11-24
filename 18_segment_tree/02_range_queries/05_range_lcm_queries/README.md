@@ -31,6 +31,7 @@ Explanation: The queries are processed sequentially, updating the array when req
 {2, 0, 1} --> lcm of all numbers within the given range: LCM of [5, 2] = 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ List<int> rangeLcmQueries(List<int> arr, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeLcmQueries([2, 3, 4, 6, 8, 16], [[2, 0, 2], [1, 3, 8], [2, 2, 5]])` → `[12, 16]`
+<!-- signature:end -->
 
 ## Links
 

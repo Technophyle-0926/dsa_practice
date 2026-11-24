@@ -22,6 +22,7 @@ Output: 3
 Explanation: The one possible combination of groups are [11, 1], [3, 7] and [4, 5], with the sum of their elements 12, 10, and 9 respectively.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minDiffGroupsSizeTwo(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minDiffGroupsSizeTwo([2, 6, 4, 3])` → `1`
+<!-- signature:end -->
 
 ## Links
 

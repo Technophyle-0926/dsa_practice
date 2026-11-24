@@ -34,6 +34,7 @@ Output: false
 Explanation: Two different characters 'a' and 'b' in s1 maps with same character 'x' in s2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ bool isomorphicStrings(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isomorphicStrings("aab", "xxy")` → `true`
+<!-- signature:end -->
 
 ## Links
 

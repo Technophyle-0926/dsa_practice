@@ -18,13 +18,17 @@ Here, The array elements are shifted towards the left.
 
 **In this article, we will discuss about right rotation of the array. You can refer to** **Left rotate an array by d positions** **to know about the left rotation of the array.**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rotateArray(/* not set yet */)
+List<int> rotateArray(List<int> arr, int d)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Right (clockwise) rotation by d positions, d may exceed the length; e.g. rotateArray([1, 2, 3, 4, 5, 6], 2) gives [5, 6, 1, 2, 3, 4].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

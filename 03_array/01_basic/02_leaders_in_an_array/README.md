@@ -22,13 +22,19 @@ Output: [5 2]
 Explanation: 5 is greater than all the elements to its right i.e., [2], therefore 5 is a leader. 2 has no element to its right, therefore 2 is a leader.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic leadersArray(List<int> arr)
+List<int> leadersInArray(List<int> arr)
 ```
 
+> **Note:** Leaders in their original left-to-right order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `leadersInArray([16, 17, 4, 3, 5, 2])` → `[17, 5, 2]`
+<!-- signature:end -->
 
 ## Links
 

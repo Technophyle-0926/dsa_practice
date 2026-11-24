@@ -26,6 +26,7 @@ Output: [0, 0]
 Explanation: No change in array as there are all 0s.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> zeroesEnd(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `zeroesEnd([1, 2, 0, 4, 3, 0, 5, 0])` → `[1, 2, 4, 3, 5, 0, 0, 0]`
+<!-- signature:end -->
 
 ## Links
 

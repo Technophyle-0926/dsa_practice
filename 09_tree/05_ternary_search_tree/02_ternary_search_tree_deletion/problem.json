@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/ternary-search-tree-deletion/",
   "practice": null,
   "function": {
-    "name": "ternarySearchTreeDeletion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "ternarySearchTreeDelete",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      },
+      {
+        "name": "deletions",
+        "type": "List<String>"
+      },
+      {
+        "name": "queries",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Insert words, delete each word in deletions (absent ones are ignored), then report for each query whether it is still stored."
   },
-  "example": null
+  "example": {
+    "call": "ternarySearchTreeDelete([\"CAT\", \"CATS\", \"BUG\", \"UP\"], [\"CAT\", \"BIG\"], [\"CAT\", \"CATS\", \"BUG\"])",
+    "expected": "[false, true, true]"
+  }
 }

@@ -14,11 +14,12 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Matrices are named A, B, C, ...; return the optimal parenthesization string."
   },
   "example": {
     "call": "printingMatrixChainMultiplication([10, 20, 30])",
-    "expected": "(AB)"
+    "expected": "\"(AB)\""
   }
 }

@@ -19,13 +19,19 @@ The solution will exist in any one of these:
 - Diameter of one of the children of the current node
 - Sum of Height of the highest two subtree + 1
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic diameterNAryTree(/* not set yet */)
+int diameterNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Diameter is the number of nodes on the longest path between two nodes. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `diameterNAryTree(1, {1: [2, 3, 4], 2: [5, 6], 4: [7]})` → `5`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,6 +22,7 @@ Output: 0
 Explanation: Strings are already anagrams.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int makeTwoStringsAnagram(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `makeTwoStringsAnagram("bcadeh", "hea")` → `3`
+<!-- signature:end -->
 
 ## Links
 

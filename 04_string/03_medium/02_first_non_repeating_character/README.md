@@ -26,13 +26,19 @@ Output: '$'
 Explanation: All the characters in the given string are repeating.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 String firstNonRepeatingCharacter(String s)
 ```
 
+> **Note:** Return "$" if every character repeats.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstNonRepeatingCharacter("geeksforgeeks")` → `"f"`
+<!-- signature:end -->
 
 ## Links
 

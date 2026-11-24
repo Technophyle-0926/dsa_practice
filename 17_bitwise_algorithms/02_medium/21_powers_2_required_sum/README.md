@@ -22,13 +22,19 @@ Explanation :
        2^5 + 2^7 + 2^10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> powers2RequiredSum(int n)
 ```
 
+> **Note:** Exponents of the set bits of n in increasing order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `powers2RequiredSum(71307)` → `[0, 1, 3, 7, 9, 10, 12, 16]`
+<!-- signature:end -->
 
 ## Links
 

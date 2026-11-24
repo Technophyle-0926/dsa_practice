@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/sort-array-containing-two-types-elements/",
   "practice": "https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1",
   "function": {
-    "name": "sortArrayTwoTypes",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sortArrayOfTwoTypes",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Canonical form: arr contains only 0s and 1s; return it with all 0s before all 1s."
   },
-  "example": null
+  "example": {
+    "call": "sortArrayOfTwoTypes([0, 1, 0, 1, 0, 0, 1, 1, 1, 0])",
+    "expected": "[0, 0, 0, 0, 0, 1, 1, 1, 1, 1]"
+  }
 }

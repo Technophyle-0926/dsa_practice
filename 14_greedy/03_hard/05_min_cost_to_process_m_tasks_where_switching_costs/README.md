@@ -35,6 +35,7 @@ There are 2 cores — A and B.
 Total cost: 1 + 1 + 0 + 1 + 0 + 1 = 4 units.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -42,6 +43,9 @@ int minCostProcessMTasks(int n, List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostProcessMTasks(3, [1, 2, 1, 3, 4, 1])` → `4`
+<!-- signature:end -->
 
 ## Links
 

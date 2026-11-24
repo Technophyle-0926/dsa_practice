@@ -27,6 +27,7 @@ Window size 2: minimums of [10, 20], [20,30], maximum of minimums is 20.
 Window size 3: minimums of [10,20,30], maximum of minimums is 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<int> maxMinsEveryWindowSize(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxMinsEveryWindowSize([10, 20, 30, 50, 10, 70, 30])` → `[70, 30, 20, 10, 10, 10, 10]`
+<!-- signature:end -->
 
 ## Links
 

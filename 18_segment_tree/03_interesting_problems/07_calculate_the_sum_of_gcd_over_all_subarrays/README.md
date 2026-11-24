@@ -22,13 +22,17 @@ Binary Search
 Segment Tree approach for calculating GCD in an index range
 Sparse Table for calculating GCD in an index range
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int calculateSumGcdOverAll(int N, List<int> A)
+int calculateSumGcdOverAll(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `calculateSumGcdOverAll([1, 2, 3, 4, 5])` → `25`
+<!-- signature:end -->
 
 ## Links
 

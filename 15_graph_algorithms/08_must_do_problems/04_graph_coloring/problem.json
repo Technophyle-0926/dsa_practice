@@ -8,9 +8,26 @@
   "practice": null,
   "function": {
     "name": "graphColoring",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Return true if the graph can be colored with at most m colors."
   },
-  "example": null
+  "example": {
+    "call": "graphColoring(4, [[0, 1], [1, 3], [2, 3], [3, 0], [0, 2]], 3)",
+    "expected": "true"
+  }
 }

@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/remove-brackets-algebraic-string-containing-operators/",
   "practice": null,
   "function": {
-    "name": "removeBracketsContainingOperators",
+    "name": "removeBrackets",
     "params": [
       {
         "name": "s",
@@ -15,10 +15,11 @@
       }
     ],
     "returns": "String",
-    "verified": true
+    "verified": true,
+    "note": "Return the simplified expression with all spaces removed."
   },
   "example": {
-    "call": "removeBracketsContainingOperators(\"(a - (b + c) + d)\")",
-    "expected": "\"a- b - c + d\""
+    "call": "removeBrackets(\"(a - (b + c) + d)\")",
+    "expected": "a-b-c+d"
   }
 }

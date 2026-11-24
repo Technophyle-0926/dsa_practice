@@ -29,6 +29,7 @@ Output: [5, 1, 3, 4, 2, 6]
 Explanation: When k = 1, each element in the array is its own subarray, so the output is simply the same array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<int> slidingWindowMaximum(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `slidingWindowMaximum([1, 2, 3, 1, 4, 5, 2, 3, 6], 3)` → `[3, 3, 4, 5, 5, 5, 6]`
+<!-- signature:end -->
 
 ## Links
 

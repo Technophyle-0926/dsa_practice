@@ -21,6 +21,7 @@ Output: [2, 127]
 Explanation: Picking the job with profit 100 (deadline 2) and the job with profit 27 (deadline 2); they can occupy the two available slots before deadline 2. Thus 2 jobs are scheduled for a maximum total profit of 127.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ List<int> jobSequencing(List<int> deadline, List<int> profit)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `jobSequencing([4, 1, 1, 1], [20, 10, 40, 30])` → `[2, 60]`
+<!-- signature:end -->
 
 ## Links
 

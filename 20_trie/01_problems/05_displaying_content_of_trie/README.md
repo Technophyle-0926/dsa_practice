@@ -29,13 +29,19 @@ Output: Contents of Trie:
         there
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic displayingContentTrie(/* not set yet */)
+List<String> displayTrieContents(List<String> words)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert words into a trie and return all stored keys in lexicographic order.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `displayTrieContents(["their", "there", "answer", "any", "bye"])` → `["answer", "any", "bye", "their", "there"]`
+<!-- signature:end -->
 
 ## Links
 

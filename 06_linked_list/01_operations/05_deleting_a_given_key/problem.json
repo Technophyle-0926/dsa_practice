@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-in-linked-list/",
   "practice": null,
   "function": {
-    "name": "deletingGivenKey",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteKey",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Delete the first node whose value equals key (list unchanged if absent) and return the head."
   },
   "example": null
 }

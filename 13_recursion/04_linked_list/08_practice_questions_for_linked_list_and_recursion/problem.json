@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-linked-list-and-recursion/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsLinkedListRecursion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "alternateForwardBackward",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Implements fun2: values of alternate nodes from head to end, then the same nodes from end to head."
   },
-  "example": null
+  "example": {
+    "call": "alternateForwardBackward(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "[1, 3, 5, 5, 3, 1]"
+  }
 }

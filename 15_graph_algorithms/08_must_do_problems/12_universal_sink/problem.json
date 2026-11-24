@@ -8,9 +8,15 @@
   "practice": null,
   "function": {
     "name": "universalSink",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "adj is a 0/1 adjacency matrix; return the universal sink vertex (0-based) or -1 if none."
   },
   "example": null
 }

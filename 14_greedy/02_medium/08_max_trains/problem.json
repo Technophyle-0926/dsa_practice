@@ -8,9 +8,19 @@
   "practice": "https://www.geeksforgeeks.org/problems/maximum-trains-for-which-stoppage-can-be-provided/1",
   "function": {
     "name": "maxTrains",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "trains",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "trains[i] = [arrival, departure, platform] with platforms numbered 1..m; return the max number of trains that can stop."
   },
   "example": null
 }

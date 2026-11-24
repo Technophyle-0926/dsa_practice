@@ -6,13 +6,19 @@
 
 A B+ Tree is an advanced data structure used in database systems and file systems to maintain sorted data for fast retrieval, especially from disk. It is an extended version of the B Tree, where all actual data is stored only in the leaf nodes, while internal nodes contain only keys for navigation.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introductionBTree(/* not set yet */)
+List<int> bPlusTreeRangeQuery(int order, List<int> keys, int low, int high)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: insert keys into a B+ tree, then return all keys in [low, high] in ascending order by scanning the linked leaves.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bPlusTreeRangeQuery(3, [10, 20, 5, 6, 12, 30, 7, 17], 6, 17)` → `[6, 7, 10, 12, 17]`
+<!-- signature:end -->
 
 ## Links
 

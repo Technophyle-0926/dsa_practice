@@ -19,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Each query is [L, R] (0-based, inclusive); return the range minimum for each."
   },
   "example": {
     "call": "sparseTable([7, 2, 3, 0, 5, 10, 3, 12, 18], [[0, 4], [4, 7], [7, 8]])",
-    "expected": "0 3 12"
+    "expected": "[0, 3, 12]"
   }
 }

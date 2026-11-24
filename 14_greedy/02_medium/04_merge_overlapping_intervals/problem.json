@@ -1,5 +1,5 @@
 {
-  "title": "Egyptian Fraction",
+  "title": "Merge Overlapping Intervals",
   "number": 4,
   "category": "Greedy",
   "level": "Medium",
@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/merging-intervals/",
   "practice": "https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1",
   "function": {
-    "name": "egyptianFraction",
+    "name": "mergeOverlappingIntervals",
     "params": [
       {
         "name": "arr",
@@ -18,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "egyptianFraction([[1, 3], [2, 4], [6, 8], [9, 10]])",
+    "call": "mergeOverlappingIntervals([[1, 3], [2, 4], [6, 8], [9, 10]])",
     "expected": "[[1, 4], [6, 8], [9, 10]]"
   }
 }

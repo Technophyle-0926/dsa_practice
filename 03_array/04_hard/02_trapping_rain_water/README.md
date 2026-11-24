@@ -26,6 +26,7 @@ Output: 0
 Explanation: We cannot trap water as there is no height bound on both sides
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int trappingRainWater(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `trappingRainWater([3, 0, 1, 0, 4, 0, 2])` → `10`
+<!-- signature:end -->
 
 ## Links
 

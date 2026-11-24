@@ -10,13 +10,19 @@ You are given a set of intervals, where each interval contains two variables, lo
 - Remove an interval
 - Given an interval x, find if x overlaps with any of the existing intervals.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic intervalTree(/* not set yet */)
+List<bool> intervalTree(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'add', 'remove' or 'overlap' with args[i] = [low, high] (closed intervals); returns, for each 'overlap', whether it overlaps any stored interval.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `intervalTree(["add", "add", "add", "overlap", "remove", "overlap"], [[15, 20], [10, 30], [17, 19], [6, 7], [10, 30], [21, 25]])` → `[false, false]`
+<!-- signature:end -->
 
 ## Links
 

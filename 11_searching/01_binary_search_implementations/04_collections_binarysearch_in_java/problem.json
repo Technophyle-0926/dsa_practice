@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/java/collections-binarysearch-java-examples/",
   "practice": null,
   "function": {
-    "name": "collectionsBinarysearchJava",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "collectionsBinarySearch",
+    "params": [
+      {
+        "name": "list",
+        "type": "List<int>"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      },
+      {
+        "name": "descending",
+        "type": "bool"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "list is sorted ascending (or descending if descending is true); return the index of key, else -(insertionPoint) - 1."
   },
-  "example": null
+  "example": {
+    "call": "collectionsBinarySearch([1, 2, 3, 10, 20], 10, false)",
+    "expected": "3"
+  }
 }

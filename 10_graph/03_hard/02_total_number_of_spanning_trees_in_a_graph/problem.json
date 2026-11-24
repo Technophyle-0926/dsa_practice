@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/total-number-spanning-trees-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/total-number-of-spanning-trees-in-a-graph/1",
   "function": {
-    "name": "totalNumberSpanningTreesGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countSpanningTrees",
+    "params": [
+      {
+        "name": "v",
+        "type": "int"
+      },
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "countSpanningTrees(4, [[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]])",
+    "expected": "1"
+  }
 }

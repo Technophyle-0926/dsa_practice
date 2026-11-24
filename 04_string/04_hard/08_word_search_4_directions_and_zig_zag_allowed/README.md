@@ -20,6 +20,7 @@ Output: false
 Explanation: Word "GEEK" cannot be found in the given grid.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool wordSearch4DirectionsZig(List<List<String>> mat, String word)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordSearch4DirectionsZig([["T", "E", "E"], ["S", "G", "K"], ["T", "E", "L"]], "GEEK")` → `true`
+<!-- signature:end -->
 
 ## Links
 

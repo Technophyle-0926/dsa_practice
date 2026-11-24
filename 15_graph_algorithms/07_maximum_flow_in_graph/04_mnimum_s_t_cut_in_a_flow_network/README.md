@@ -36,13 +36,19 @@ Output: 0
 Explanation: There is no path from vertex 0 to vertex 2, so the minimum cut has capacity 0 and no edges. The returned list is empty.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int mnimumSTCutFlow(List<List<int>> a, int s, int t)
+List<List<int>> minimumStCut(List<List<int>> a, int s, int t)
 ```
 
+> **Note:** Return the edges [u, v] of any minimum s-t cut, in any order; checked by validity and total capacity.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumStCut([[0, 16, 13, 0, 0, 0], [0, 0, 10, 12, 0, 0], [0, 4, 0, 0, 14, 0], [0, 0, 9, 0, 0, 20], [0, 0, 0, 7, 0, 4], [0, 0, 0, 0, 0, 0]], 0, 5)` → `[[1, 3], [4, 3], [4, 5]] (capacity 23)`
+<!-- signature:end -->
 
 ## Links
 

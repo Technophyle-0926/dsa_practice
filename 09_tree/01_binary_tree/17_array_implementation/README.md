@@ -27,13 +27,19 @@ Note: father, left_son and right_son are the values of indices of the array.
 
 **Case 2:** 1---n
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic arrayImplementation(/* not set yet */)
+TreeNode? treeFromParentArray(List<int> parent)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** parent[i] is the parent of node i (-1 for the root); node values are indices, and of two children the smaller index becomes the left child, a single child becomes the left child.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `treeFromParentArray([-1, 0, 0, 1, 1, 3, 5])` → `[0, 1, 2, 3, 4, null, null, 5, null, null, null, 6]`
+<!-- signature:end -->
 
 ## Links
 

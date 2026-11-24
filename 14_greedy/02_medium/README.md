@@ -6,7 +6,7 @@
 | 1 | [Activity Selection](01_activity_selection/README.md) | [link](https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1) |  |
 | 2 | [Jump Game](02_jump_game/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1) |  |
 | 3 | [Job Sequencing](03_job_sequencing/README.md) | [link](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) |  |
-| 4 | [Egyptian Fraction](04_egyptian_fraction/README.md) | [link](https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1) |  |
+| 4 | [Merge Overlapping Intervals](04_merge_overlapping_intervals/README.md) | [link](https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1) |  |
 | 5 | [Min Fibonacci Terms with Sum K](05_min_fibonacci_terms_with_sum_k/README.md) | [link](https://www.geeksforgeeks.org/dsa/minimum-fibonacci-terms-sum-equal-k/) |  |
 | 6 | [Minimum Platforms](06_minimum_platforms/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) |  |
 | 7 | [Min Cost to Connect n ropes](07_min_cost_to_connect_n_ropes/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1) |  |

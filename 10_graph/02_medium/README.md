@@ -7,7 +7,7 @@
 | 2 | [Rotten Tomatoes](02_rotten_tomatoes/README.md) | [link](https://www.geeksforgeeks.org/problems/rotten-oranges2536/1) |  |
 | 3 | [Islands in a Graph](03_islands_in_a_graph/README.md) | [link](https://www.geeksforgeeks.org/problems/find-the-number-of-islands/1) |  |
 | 4 | [Flood Fill](04_flood_fill/README.md) | [link](https://www.geeksforgeeks.org/problems/flood-fill-algorithm1856/1) |  |
-| 5 | [Check for Bipartite](05_check_for_bipartite/README.md) | [link](https://www.geeksforgeeks.org/problems/word-ladder/1) |  |
+| 5 | [Word Ladder](05_word_ladder/README.md) | [link](https://www.geeksforgeeks.org/problems/word-ladder/1) |  |
 | 6 | [Snakes and Ladder](06_snakes_and_ladder/README.md) | [link](https://www.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1) |  |
 | 7 | [Water Jug problem](07_water_jug_problem/README.md) | [link](https://www.geeksforgeeks.org/problems/two-water-jug-problem3402/1) |  |
 | 8 | [Shortest Path in Binary Matrix](08_shortest_path_in_binary_matrix/README.md) | [link](https://www.geeksforgeeks.org/problems/shortest-path-in-a-binary-maze-1655453161/1) |  |

@@ -26,6 +26,7 @@ Output: "a"
 Explanation: No multi-letter palindromes exist. So the first character "a" is returned as the longest palindromic substring.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ String longestPalindromicSubstring(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestPalindromicSubstring("forgeeksskeegfor")` → `"geeksskeeg"`
+<!-- signature:end -->
 
 ## Links
 

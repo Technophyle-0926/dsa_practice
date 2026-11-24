@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/",
   "practice": "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
   "function": {
-    "name": "dijkstrasShortestPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "dijkstra",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<List<int>>>"
+      },
+      {
+        "name": "src",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "adj[u] holds [v, w] pairs; return the shortest distance from src to every vertex."
   },
-  "example": null
+  "example": {
+    "call": "dijkstra([[[1, 4], [2, 8]], [[0, 4], [4, 6], [2, 3]], [[0, 8], [3, 2], [1, 3]], [[2, 2], [4, 10]], [[1, 6], [3, 10]]], 0)",
+    "expected": "[0, 4, 7, 9, 10]"
+  }
 }

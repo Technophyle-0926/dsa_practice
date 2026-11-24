@@ -22,6 +22,7 @@ Output: 6
 Explanation: The following image depicts the 6 possible ways of painting 3 posts with 2 colors:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int paintingFenceAlgorithm(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `paintingFenceAlgorithm(2, 4)` → `16`
+<!-- signature:end -->
 
 ## Links
 

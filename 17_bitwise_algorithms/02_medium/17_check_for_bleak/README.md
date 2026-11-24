@@ -22,6 +22,7 @@ There is no value of x such that x + countSetBits(x) = 4
 So, 4 is Bleak.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ bool checkBleak(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkBleak(3)` → `false`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,13 +26,19 @@ Swapping is done because the last element can be removed in O(1) time.
 - Return the array element at the randomly generated index.
 - **search(x)** Do a lookup for x in hash map.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertDeleteSearchGetrandom(/* not set yet */)
+List<int> randomizedSet(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'insert', 'remove', 'search' (args[i] = [x]) or 'getRandom' (args[i] = []); returns one value per op: 1/0 for insert/remove/search success, the element for getRandom.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `randomizedSet(["insert", "insert", "search", "remove", "search", "getRandom"], [[10], [20], [10], [10], [10], []])` → `[1, 1, 1, 1, 0, 20]`
+<!-- signature:end -->
 
 ## Links
 

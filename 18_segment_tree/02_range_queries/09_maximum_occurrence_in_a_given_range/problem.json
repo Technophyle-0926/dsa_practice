@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/maximum-occurrence-given-range/",
   "practice": null,
   "function": {
-    "name": "maximumOccurrenceGivenRange",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxOccurrenceInRange",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "arr is sorted non-decreasing; each query [start, end] is 0-based inclusive."
   },
-  "example": null
+  "example": {
+    "call": "maxOccurrenceInRange([-5, -5, 2, 2, 2, 2, 3, 7, 7, 7], [[0, 9], [4, 9]])",
+    "expected": "[4, 3]"
+  }
 }

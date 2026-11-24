@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsRecursion1",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sumFirstXPlusY",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      },
+      {
+        "name": "y",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Implement Question 1's recursive fun(x, y): returns y + (1 + 2 + ... + x)."
   },
-  "example": null
+  "example": {
+    "call": "sumFirstXPlusY(5, 2)",
+    "expected": "17"
+  }
 }

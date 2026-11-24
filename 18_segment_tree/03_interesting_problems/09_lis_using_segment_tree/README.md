@@ -30,13 +30,17 @@ Arr[] = {5, 1, 3, 9} Indices : {0, 1, 2, 3}
 Sorted_Arr[] = {1, 3, 5, 9} Original_Indices : {1, 2, 0, 3} Indices : {0, 1, 2, 3}
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic lisSegmentTree(/* not set yet */)
+int lisUsingSegmentTree(List<int> arr)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the length of the longest strictly increasing subsequence.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -40,13 +40,19 @@ Output : 5
 
 From this, it can easily be concluded that only customer 5 and customer 1 can be satisfied for total demand of 1 + 2 = 3. Rest of the customer cannot purchase the remaining rice, as their demand is greater than available amount.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maxSatisfiedCustomers(/* not set yet */)
+List<int> maxSatisfiedCustomers(int d, int a, int b, List<List<int>> demands)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** demands[i] = [packets of size a, packets of size b]; return 1-based indices of satisfied customers in order of increasing rice needed (ties by index); the count is the list length.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxSatisfiedCustomers(5, 1, 1, [[2, 0], [3, 2], [4, 4], [10, 0], [0, 1]])` → `[5, 1]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-length-of-a-linked-list-iterative-and-recursive/",
   "practice": "https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1",
   "function": {
-    "name": "lengthLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "linkedListLength",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "linkedListLength(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "5"
+  }
 }

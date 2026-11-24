@@ -23,6 +23,7 @@ Input: arr[] = {1, 2, 50, 10, 20, 2}, k = 3
 Output: TheFirst non-repeating element is 1 and the Second non-repeating element is 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int kThDistinctOrNon(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kThDistinctOrNon([1, 2, 1, 3, 4, 2], 2)` → `4`
+<!-- signature:end -->
 
 ## Links
 

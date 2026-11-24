@@ -14,13 +14,19 @@ The above function calculates and returns ⌊log_2(n)⌋. For example, if n is b
 
 **Question 3**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsRecursion1(/* not set yet */)
+int sumFirstXPlusY(int x, int y)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implement Question 1's recursive fun(x, y): returns y + (1 + 2 + ... + x).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumFirstXPlusY(5, 2)` → `17`
+<!-- signature:end -->
 
 ## Links
 

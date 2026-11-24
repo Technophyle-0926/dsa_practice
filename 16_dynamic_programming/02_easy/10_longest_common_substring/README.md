@@ -25,6 +25,7 @@ Input: s1 = "abc", s2 = ""
 Output : 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int longestCommonSubstring(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestCommonSubstring("GeeksforGeeks", "GeeksQuiz")` → `5`
+<!-- signature:end -->
 
 ## Links
 

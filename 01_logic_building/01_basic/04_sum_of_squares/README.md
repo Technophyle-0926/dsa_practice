@@ -19,6 +19,7 @@ Output: 204
 Explanation :  1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 + 8^2 = 204
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int sumSquares(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumSquares(2)` → `5`
+<!-- signature:end -->
 
 ## Links
 

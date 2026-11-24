@@ -32,13 +32,17 @@ Output:
 Explanation: After removing every 3rd node of the linked list, the resultant linked list will be: 1 -> 2 -> 4 -> 5 -> 7 -> 8 -> 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic removeEveryKThNode(/* not set yet */)
+ListNode? removeEveryKthNode(ListNode? head, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeEveryKthNode(ListNode.fromList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 3)` → `1 -> 2 -> 4 -> 5 -> 7 -> 8 -> 10`
+<!-- signature:end -->
 
 ## Links
 

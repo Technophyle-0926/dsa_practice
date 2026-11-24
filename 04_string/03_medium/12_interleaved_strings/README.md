@@ -25,6 +25,7 @@ Output: false
 Explanation: "XXY " is not interleaved of "YX" and "X".  The strings that can be formed are YXX and XYX.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool interleavedStrings(String s1, String s2, String s3)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `interleavedStrings("AAB", "AAC", "AAAABC")` → `true`
+<!-- signature:end -->
 
 ## Links
 

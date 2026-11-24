@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/function-copy-string-iterative-recursive/",
   "practice": null,
   "function": {
-    "name": "functionCopyStringIterativeRecursive",
+    "name": "copyString",
     "params": [
       {
         "name": "s1",
@@ -18,11 +18,12 @@
         "type": "String"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Returns s2 after s1 has been copied into it."
   },
   "example": {
-    "call": "functionCopyStringIterativeRecursive(\"hello\", \"geeksforgeeks\")",
-    "expected": "s2 = \"hello\""
+    "call": "copyString(\"hello\", \"geeksforgeeks\")",
+    "expected": "\"hello\""
   }
 }

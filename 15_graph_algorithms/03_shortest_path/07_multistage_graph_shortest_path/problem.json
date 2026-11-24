@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/multistage-graph-shortest-path/",
   "practice": null,
   "function": {
-    "name": "multistageGraphShortestPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "multistageShortestPath",
+    "params": [
+      {
+        "name": "graph",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "graph is an n x n weight matrix (100000000 = no edge) of a multistage graph; return the shortest distance from vertex 0 to vertex n-1."
   },
   "example": null
 }

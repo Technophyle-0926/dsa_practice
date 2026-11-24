@@ -27,6 +27,7 @@ Output: 0
 Explanation: After the first iteration, we'll have: [tom, tom]. After the second iteration: 'empty-array' . Hence, the result is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int deleteConsecutiveSameWords(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteConsecutiveSameWords(["gfg", "for", "geeks", "geeks", "for"])` → `1`
+<!-- signature:end -->
 
 ## Links
 

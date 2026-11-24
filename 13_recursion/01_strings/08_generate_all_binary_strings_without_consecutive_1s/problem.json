@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/generate-binary-strings-without-consecutive-1s/",
   "practice": null,
   "function": {
-    "name": "generateAllBinaryStringsWithout",
+    "name": "binaryStringsNoConsecutiveOnes",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Ascending lexicographic order."
   },
   "example": {
-    "call": "generateAllBinaryStringsWithout(4)",
-    "expected": "0000 0001 0010 0100 0101 1000 1001 1010"
+    "call": "binaryStringsNoConsecutiveOnes(4)",
+    "expected": "[0000, 0001, 0010, 0100, 0101, 1000, 1001, 1010]"
   }
 }

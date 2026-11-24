@@ -19,6 +19,7 @@ Input: arr[] = [20, 10, 20, 4, 100]
 Output: 100
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int largestArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestArray([10, 20, 4])` → `20`
+<!-- signature:end -->
 
 ## Links
 

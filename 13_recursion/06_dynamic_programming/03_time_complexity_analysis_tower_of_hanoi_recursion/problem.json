@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/time-complexity-analysis-tower-hanoi-recursion/",
   "practice": null,
   "function": {
-    "name": "timeComplexityAnalysisTowerHanoi",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "towerOfHanoiMoves",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Returns the number of moves T(n) = 2T(n-1) + 1 = 2^n - 1 for 3-rod Tower of Hanoi."
   },
-  "example": null
+  "example": {
+    "call": "towerOfHanoiMoves(3)",
+    "expected": "7"
+  }
 }

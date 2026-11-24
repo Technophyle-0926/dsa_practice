@@ -16,13 +16,19 @@ Output: [[A, 0], [B, 0], [C, 2], [D, 0], [E, 1], [F, 5]]
 Explanation: 'A' and 'B' are reporting to 'C', thus for 'C' the count is 2. And 'D' is reporting to 'E', thus for 'E' the count is 1. 'C' and 'E' reporting to 'F' . Thus count for 'F' is 5 ( 2 under 'C'+ 1 under 'E' + 'C' + 'E' )  . And no employees are reporting 'A', 'B', and 'D', so the count for them is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic numberEmployeesUnderEveryEmployee(List<List<String>> arr)
+Map<String, int> numberEmployeesUnderEveryEmployee(List<List<String>> arr)
 ```
 
+> **Note:** arr[i] = [employee, manager]; map each employee to the total number of employees under them.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `numberEmployeesUnderEveryEmployee([["A", "C"], ["B", "C"], ["C", "F"], ["D", "E"], ["E", "F"], ["F", "F"]])` → `{A: 0, B: 0, C: 2, D: 0, E: 1, F: 5}`
+<!-- signature:end -->
 
 ## Links
 

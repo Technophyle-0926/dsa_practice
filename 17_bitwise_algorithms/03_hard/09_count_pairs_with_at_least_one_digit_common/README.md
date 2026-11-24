@@ -14,13 +14,17 @@ Output: 2
 Explanation: Two valid pairs are (10, 12) and (12, 24) which have atleast one digit common
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int countPairsAtLeastOne(List<int> A)
+int countPairsAtLeastOne(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countPairsAtLeastOne([10, 12, 24])` → `2`
+<!-- signature:end -->
 
 ## Links
 

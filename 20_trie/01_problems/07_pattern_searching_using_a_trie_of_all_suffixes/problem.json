@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/pattern-searching-using-trie-suffixes/",
   "practice": null,
   "function": {
-    "name": "patternSearchingTrieAllSuffixes",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "searchPatternSuffixTrie",
+    "params": [
+      {
+        "name": "txt",
+        "type": "String"
+      },
+      {
+        "name": "pat",
+        "type": "String"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return all 0-based starting indices of pat in txt in increasing order (empty if none)."
   },
   "example": null
 }

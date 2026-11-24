@@ -25,6 +25,7 @@ Input: s1 = "gksrek", s2 = "geeksforgeeks"
 Output: true
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool checkSubsequence(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkSubsequence("AXY", "ADXCPY")` → `true`
+<!-- signature:end -->
 
 ## Links
 

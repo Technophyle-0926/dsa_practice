@@ -22,6 +22,7 @@ Output: true
 Explanation: Since all the meetings are held at different times, it is possible to attend all the meetings.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ bool meetingRooms(List<List<int>> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `meetingRooms([[2, 4], [1, 2], [7, 8], [5, 6], [6, 8]])` → `false`
+<!-- signature:end -->
 
 ## Links
 

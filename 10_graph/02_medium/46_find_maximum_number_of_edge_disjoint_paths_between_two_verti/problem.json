@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-edge-disjoint-paths-two-vertices/",
   "practice": null,
   "function": {
-    "name": "findMaximumNumberEdgeDisjoint",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "edgeDisjointPaths",
+    "params": [
+      {
+        "name": "graph",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "s",
+        "type": "int"
+      },
+      {
+        "name": "t",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "graph is a directed adjacency matrix (1 = edge)."
   },
-  "example": null
+  "example": {
+    "call": "edgeDisjointPaths([[0, 1, 1, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1], [0, 1, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0]], 0, 7)",
+    "expected": "2"
+  }
 }

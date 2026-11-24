@@ -15,10 +15,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Exponents of the set bits of n in increasing order."
   },
   "example": {
     "call": "powers2RequiredSum(71307)",
-    "expected": "0, 1, 3, 7, 9, 10, 12, 16"
+    "expected": "[0, 1, 3, 7, 9, 10, 12, 16]"
   }
 }

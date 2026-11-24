@@ -18,6 +18,7 @@ Output: "this 1"
 Explanation: Every word has the frequency of "1", so we return "this 1" as this occurs first in the sentence.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ String mostFrequentWord(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mostFrequentWord("the devil in the sky")` → `"the 2"`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/paths-travel-nodes-using-edgeseven-bridges-konigsberg/",
   "practice": null,
   "function": {
-    "name": "sevenBridgesKNigsberg",
+    "name": "sevenBridgesKonigsberg",
     "params": [
       {
         "name": "adj",
         "type": "List<List<int>>"
       }
     ],
-    "returns": "ListNode?",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return the Euler path as 1-based node numbers, or [-1] if none exists."
   },
   "example": {
-    "call": "sevenBridgesKNigsberg([[0, 1, 0, 0, 1], [1, 0, 1, 1, 0], [0, 1, 0, 1, 0], [0, 1, 1, 0, 0], [1, 0, 0, 0, 0]])",
-    "expected": "5 -> 1 -> 2 -> 3 -> 4 -> 2"
+    "call": "sevenBridgesKonigsberg([[0, 1, 0, 0, 1], [1, 0, 1, 1, 0], [0, 1, 0, 1, 0], [0, 1, 1, 0, 0], [1, 0, 0, 0, 0]])",
+    "expected": "[5, 1, 2, 3, 4, 2]"
   }
 }

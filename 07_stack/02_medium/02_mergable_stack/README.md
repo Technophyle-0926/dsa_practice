@@ -36,13 +36,19 @@ We can do it with a **circular linked list**. The idea is to keep track of the l
 
 The code for the above is given below:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mergableStack(/* not set yet */)
+List<int> mergableStack(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'push' (args[i] = [s, x]), 'pop' (args[i] = [s]) or 'merge' (args[i] = [s1, s2]: s2's stack is placed on top of s1's and s2 becomes empty); stacks are identified by small integer ids; returns every popped value, -1 when empty.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergableStack(["push", "push", "push", "merge", "pop", "pop"], [[0, 1], [0, 2], [1, 3], [0, 1], [0], [0]])` → `[3, 2]`
+<!-- signature:end -->
 
 ## Links
 

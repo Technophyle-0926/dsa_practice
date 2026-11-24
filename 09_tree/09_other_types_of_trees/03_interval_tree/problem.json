@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "intervalTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "ops[i] is 'add', 'remove' or 'overlap' with args[i] = [low, high] (closed intervals); returns, for each 'overlap', whether it overlaps any stored interval."
   },
-  "example": null
+  "example": {
+    "call": "intervalTree([\"add\", \"add\", \"add\", \"overlap\", \"remove\", \"overlap\"], [[15, 20], [10, 30], [17, 19], [6, 7], [10, 30], [21, 25]])",
+    "expected": "[false, false]"
+  }
 }

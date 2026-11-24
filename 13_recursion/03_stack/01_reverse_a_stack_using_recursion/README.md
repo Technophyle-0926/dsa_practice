@@ -22,6 +22,7 @@ Output: [3, 2, 1]
 Explanation:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> reverseStackRecursion(List<int> st)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseStackRecursion([1, 2, 3, 4])` → `[1, 2, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

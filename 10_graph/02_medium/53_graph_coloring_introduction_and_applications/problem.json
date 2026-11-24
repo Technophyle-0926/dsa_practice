@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/graph-coloring-applications/",
   "practice": null,
   "function": {
-    "name": "graphColoringIntroductionApplications",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "chromaticNumber",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Undirected edges [u, v]; return the minimum number of colours needed so no two adjacent vertices share a colour."
   },
-  "example": null
+  "example": {
+    "call": "chromaticNumber(4, [[0, 1], [1, 2], [2, 0], [2, 3]])",
+    "expected": "3"
+  }
 }

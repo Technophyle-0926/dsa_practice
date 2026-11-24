@@ -20,6 +20,7 @@ Output: [[1, 6], [7, 8]]
 Explanation: We will merge the overlapping intervals [[1, 5], [2, 4], [4, 6]] into a single interval [1, 6].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<List<int>> mergeOverlappingIntervals(List<List<int>> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeOverlappingIntervals([[1, 3], [2, 4], [6, 8], [9, 10]])` → `[[1, 4], [6, 8], [9, 10]]`
+<!-- signature:end -->
 
 ## Links
 

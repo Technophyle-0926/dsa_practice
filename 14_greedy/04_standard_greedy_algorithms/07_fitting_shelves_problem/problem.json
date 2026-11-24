@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/fitting-shelves-problem/",
   "practice": null,
   "function": {
-    "name": "fittingShelvesProblem",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "fittingShelves",
+    "params": [
+      {
+        "name": "w",
+        "type": "int"
+      },
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return [count of m-shelves, count of n-shelves, empty space]; minimise empty space, ties broken by using more of the larger shelf."
   },
-  "example": null
+  "example": {
+    "call": "fittingShelves(24, 3, 5)",
+    "expected": "[3, 3, 0]"
+  }
 }

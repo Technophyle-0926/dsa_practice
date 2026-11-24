@@ -32,6 +32,7 @@ Output:
 Explanation: Inorder traversal visits 40, 20, 60, 10, 30. Node 40 becomes the head of the DLL, giving the list 40 <=> 20 <=> 60 <=> 10 <=> 30.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ List<int> binaryTreeDoublyLinkedList(TreeNode? root)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryTreeDoublyLinkedList(TreeNode.fromLevelOrder([1, 2, 3]))` → `2 1 3`
+<!-- signature:end -->
 
 ## Links
 

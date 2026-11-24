@@ -28,6 +28,7 @@ Output : []
 - After incrementing third, following cases arise. a) When doesn't match, increment the second offset. b) When doesn't match, increment the first offset. c) **Note:** Once a call to check() is made after incrementing the third offset, do not alter the second or first, as those are already finalized.
 - When the end of the string is reached and the condition is satisfied, add "second" and "third" to the empty list. While rolling back the recursive stack, prepend the "first" to the list so the order is preserved.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<String> partitionGivenStringSuchManner(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partitionGivenStringSuchManner("11235813")` → `["1", "1", "2", "3", "5", "8", "13"]`
+<!-- signature:end -->
 
 ## Links
 

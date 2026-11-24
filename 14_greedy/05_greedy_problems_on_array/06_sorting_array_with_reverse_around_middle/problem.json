@@ -14,11 +14,11 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
+    "returns": "bool",
     "verified": true
   },
   "example": {
     "call": "sortingArrayReverseAroundMiddle([1, 6, 3, 4, 5, 2, 7])",
-    "expected": "Yes We can choose sub-array[3, 4, 5] on reversing this we get [1, 6, 5, 4, 3, 2, 7] again on selecting [6, 5, 4, 3, 2] and reversing this one we get [1, 2, 3, 4, 5, 6, 7] which is sorted at last thus it is possible to sort on multiple reverse operation."
+    "expected": "true"
   }
 }

@@ -24,6 +24,7 @@ Query [1, 1]: The subarray arr[1...1] contains only one element, 2. The minimum 
 Query [0, 3]: The elements in arr[0...3] are [7, 2, 9, 4]. The minimum element is 2
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> rangeMinimumQuery(List<int> arr, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeMinimumQuery([1, 2, 3, 4], [[0, 2], [2, 3]])` → `[1, 3]`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: [9, 9, 9, 2, 5]
 Explanation: The highest frequency here is 3. Element 9 has the highest frequency So 9 comes first. Now both 2 and 5 have the same frequency. So we print smaller elements first. The output is 9 9 9 2 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> sortFrequency(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortFrequency([5, 5, 4, 6, 4])` → `[4, 4, 5, 5, 6]`
+<!-- signature:end -->
 
 ## Links
 

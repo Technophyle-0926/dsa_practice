@@ -18,13 +18,17 @@ In a Directed acyclic graph many a times we can have vertices which are unrelate
 We can go through all possible ordering via backtracking , the algorithm step are as follows :
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic allTopologicalSortsDirectedAcyclic(/* not set yet */)
+List<List<int>> allTopologicalSorts(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** edges[i] = [u, v] is a directed edge u -> v (0-based); return every topological order, sorted lexicographically.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

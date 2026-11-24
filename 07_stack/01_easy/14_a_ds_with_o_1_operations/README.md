@@ -15,13 +15,19 @@ Create a customized data structure such that it has functions :-
 
 Question Source : amazon interview questions
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic dsO1Operations(/* not set yet */)
+List<int> minStackOperations(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'add' (args[i] = [x]), 'removeLast', 'getLast' or 'getMin' (args[i] = []); returns the result of every getLast and getMin call in order, -1 when empty.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minStackOperations(["add", "add", "getMin", "getLast", "removeLast", "getLast"], [[5], [3], [], [], [], []])` → `[3, 3, 5]`
+<!-- signature:end -->
 
 ## Links
 

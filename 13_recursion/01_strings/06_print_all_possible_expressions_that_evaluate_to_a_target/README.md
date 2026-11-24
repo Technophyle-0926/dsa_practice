@@ -18,13 +18,19 @@ Output : [“1*2+5”, “12-5”]
 Explanation: The two valid expressions that evaluate to 7 are (1 * 2 + 5) and (12 - 5).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic printAllPossibleExpressionsThat(String digits, int target)
+List<String> expressionsForTarget(String digits, int target)
 ```
 
+> **Note:** Return expressions sorted lexicographically; empty list if none.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `expressionsForTarget("124", 9)` → `["1+2*4"]`
+<!-- signature:end -->
 
 ## Links
 

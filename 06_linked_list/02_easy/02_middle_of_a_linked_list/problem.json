@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/write-a-c-function-to-print-the-middle-of-the-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1",
   "function": {
-    "name": "middleLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "middleOfLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return the value of the middle node (second middle for even length)."
   },
-  "example": null
+  "example": {
+    "call": "middleOfLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "3"
+  }
 }

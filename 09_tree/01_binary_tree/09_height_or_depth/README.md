@@ -26,13 +26,19 @@ Output: 3
 Explanation: The longest path from the root (node 1) to deepest leaf (node 6) has 3 edges.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic heightOrDepth(/* not set yet */)
+int treeHeight(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Height counts edges on the longest root-to-leaf path (a single node has height 0).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `treeHeight(TreeNode.fromLevelOrder([12, 8, 18, 5, 11]))` → `2`
+<!-- signature:end -->
 
 ## Links
 

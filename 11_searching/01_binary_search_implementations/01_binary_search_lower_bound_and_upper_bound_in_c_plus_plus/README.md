@@ -10,13 +10,19 @@ Binary search functions in C++ STL provide an efficient way to search and locate
 - Require the data to be sorted before use.
 - Help find the presence or position of elements.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic binarySearchLowerBoundUpper(/* not set yet */)
+List<int> lowerUpperBound(List<int> arr, int target)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted; return [lower_bound, upper_bound] indices (first index >= target, first index > target; arr.length if none).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lowerUpperBound([1, 2, 4, 4, 5], 4)` → `[2, 4]`
+<!-- signature:end -->
 
 ## Links
 

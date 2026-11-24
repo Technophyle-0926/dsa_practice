@@ -7,14 +7,15 @@
 //   dart run tool/start.dart 03_array/01_basic/05_reverse_an_array
 //   dart run tool/start.dart --user <github-username>   set/change your username
 
+import 'dart:convert';
 import 'dart:io';
 
 import 'src/repo.dart';
 import 'src/templates.dart';
 
-void main(List<String> args) {
+Future<void> main(List<String> args) async {
   if (args.length >= 2 && args[0] == '--user') {
-    _saveUser(args[1]);
+    await _saveUser(args[1]);
     return;
   }
   if (args.isEmpty || args.first == '-h' || args.first == '--help') {
@@ -26,7 +27,7 @@ void main(List<String> args) {
     exit(args.isEmpty ? 64 : 0);
   }
 
-  final user = readUser() ?? _askUser();
+  final user = readUser() ?? await _askUser();
   final problems = loadProblems();
   final matches = resolveProblems(problems, args);
   if (matches.isEmpty) {
@@ -47,19 +48,74 @@ void main(List<String> args) {
   describe(problem, createSolution(problem, user), created: !existed);
 }
 
-String _askUser() {
+Future<String> _askUser() async {
   stdout.write('Your GitHub username (used to name your solution files): ');
   final u = stdin.readLineSync()?.trim() ?? '';
   return _saveUser(u);
 }
 
-String _saveUser(String u) {
-  if (!validUser.hasMatch(u)) {
-    stderr.writeln('"$u" is not a valid GitHub username.');
+/// Saves the username after checking it on GitHub (which also fixes its capitalisation),
+/// and renames your existing solution files if you are changing it.
+Future<String> _saveUser(String typed) async {
+  if (!validUser.hasMatch(typed)) {
+    stderr.writeln('"$typed" is not a valid GitHub username.');
     exit(65);
   }
-  File('${repoRoot.path}/.dsa_user').writeAsStringSync('$u\n');
-  stdout.writeln('Saved username "$u" to .dsa_user (not committed).\n'
-      'It must match your GitHub login exactly, or the PR check will reject your files.');
-  return u;
+  var user = typed;
+  final login = await _githubLogin(typed);
+  if (login == null) {
+    stderr.writeln('GitHub has no user named "$typed". Check the spelling.');
+    exit(65);
+  } else if (login.isEmpty) {
+    stdout.writeln('Could not reach GitHub to check "$typed"; saving it as typed.\n'
+        'Make sure it matches your GitHub login exactly, including capitals.');
+  } else {
+    if (login != typed) stdout.writeln('GitHub spells it "$login"; using that.');
+    user = login;
+  }
+
+  final old = readUser();
+  File('${repoRoot.path}/.dsa_user').writeAsStringSync('$user\n');
+  stdout.writeln('Saved username "$user" to .dsa_user (not committed).');
+
+  if (old != null && old != user) {
+    var renamed = 0;
+    var skipped = 0;
+    for (final p in loadProblems()) {
+      final from = p.solutionFile(old);
+      if (!from.existsSync()) continue;
+      final to = p.solutionFile(user);
+      if (to.existsSync()) {
+        skipped++;
+        continue;
+      }
+      from.renameSync(to.path);
+      renamed++;
+    }
+    if (renamed + skipped > 0) {
+      stdout.writeln('Renamed $renamed solution file(s) from "$old" to "$user".'
+          '${skipped > 0 ? ' Skipped $skipped because a "$user" file already exists.' : ''}');
+    }
+  }
+  return user;
+}
+
+/// Returns the canonical login, null if the user doesn't exist, or '' if GitHub couldn't be reached.
+Future<String?> _githubLogin(String user) async {
+  final client = HttpClient()..connectionTimeout = const Duration(seconds: 5);
+  try {
+    final req = await client.getUrl(Uri.https('api.github.com', '/users/$user'));
+    req.headers
+      ..set(HttpHeaders.userAgentHeader, 'dsa-practice-tool')
+      ..set(HttpHeaders.acceptHeader, 'application/vnd.github+json');
+    final res = await req.close().timeout(const Duration(seconds: 8));
+    final body = await res.transform(utf8.decoder).join();
+    if (res.statusCode == 404) return null;
+    if (res.statusCode != 200) return '';
+    return (jsonDecode(body) as Map<String, dynamic>)['login'] as String? ?? '';
+  } catch (_) {
+    return '';
+  } finally {
+    client.close(force: true);
+  }
 }

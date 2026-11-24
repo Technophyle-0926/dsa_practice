@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/b-tree-insert-without-aggressive-splitting/",
   "practice": null,
   "function": {
-    "name": "bTreeInsertWithoutAggressive",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bTreeInsertLazySplit",
+    "params": [
+      {
+        "name": "t",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Split only on overflow: a node reaching 2t keys keeps the first t, sends the (t+1)-th up and moves the last t-1 to a new node. The tree is returned level by level, left to right, one List<int> of keys per node."
   },
-  "example": null
+  "example": {
+    "call": "bTreeInsertLazySplit(3, [1, 2, 3, 4, 5, 6])",
+    "expected": "[[4], [1, 2, 3], [5, 6]]"
+  }
 }

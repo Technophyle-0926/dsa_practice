@@ -20,6 +20,7 @@ Output: 4
 Explanation: Here the size of the array is 4, so the range will be [1, 5]. The missing number between 1 to 5 is 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int missingNumber(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `missingNumber([8, 2, 4, 5, 3, 7, 1])` → `6`
+<!-- signature:end -->
 
 ## Links
 

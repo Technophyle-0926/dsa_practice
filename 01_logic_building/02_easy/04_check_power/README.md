@@ -25,6 +25,7 @@ Input:  x = 10, y = 1001
 Output: false
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool checkPower(int x, int y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkPower(2, 8)` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,26 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/sorting-array-strings-words-using-trie/",
   "practice": null,
   "function": {
-    "name": "sortingArrayStringsOrWords",
+    "name": "sortWordsUsingTrie",
     "params": [
       {
-        "name": "s",
-        "type": "String"
-      },
-      {
-        "name": "s2",
-        "type": "String"
-      },
-      {
-        "name": "s3",
-        "type": "String"
+        "name": "words",
+        "type": "List<String>"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Sorted alphabetically with duplicates removed."
   },
   "example": {
-    "call": "sortingArrayStringsOrWords(\"abc\", \"xy\", \"bcd\")",
-    "expected": "abc bcd xy"
+    "call": "sortWordsUsingTrie([\"abc\", \"xy\", \"bcd\"])",
+    "expected": "[\"abc\", \"bcd\", \"xy\"]"
   }
 }

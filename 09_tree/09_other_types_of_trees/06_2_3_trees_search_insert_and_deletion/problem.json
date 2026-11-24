@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/2-3-trees-search-and-insert/",
   "practice": null,
   "function": {
-    "name": "solve23TreesSearchInsert",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "twoThreeTree",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "ops[i] is 'insert', 'delete' or 'search' applied to key args[i] on a 2-3 tree; returns the result of each 'search'."
   },
-  "example": null
+  "example": {
+    "call": "twoThreeTree([\"insert\", \"insert\", \"insert\", \"search\", \"delete\", \"search\"], [10, 20, 5, 20, 20, 20])",
+    "expected": "[true, false]"
+  }
 }

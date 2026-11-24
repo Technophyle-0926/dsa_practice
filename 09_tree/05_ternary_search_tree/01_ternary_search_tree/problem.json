@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "ternarySearchTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      },
+      {
+        "name": "queries",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Insert all words into a ternary search tree, then report for each query whether it is a stored word."
   },
-  "example": null
+  "example": {
+    "call": "ternarySearchTree([\"cat\", \"cats\", \"up\", \"bug\"], [\"cats\", \"bu\", \"cat\"])",
+    "expected": "[true, false, true]"
+  }
 }

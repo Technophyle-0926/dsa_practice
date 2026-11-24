@@ -8,13 +8,19 @@ This post explores the fundamental properties of a binary tree, covering its str
 
 **Note:** Height of root node is considered as 0.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic propertiesBinaryTree(/* not set yet */)
+int maxNodesWithHeight(int h)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: maximum number of nodes in a binary tree of height h (root has height 0), i.e. 2^(h+1) - 1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxNodesWithHeight(2)` → `7`
+<!-- signature:end -->
 
 ## Links
 

@@ -15,10 +15,11 @@
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Return -1 if balancing is impossible."
   },
   "example": {
-    "call": "minimumBracketReversalsMakeBalanced(\"][[]][[[\")",
+    "call": "minimumBracketReversalsMakeBalanced(\"}{{}}{{{\")",
     "expected": "3"
   }
 }

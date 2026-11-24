@@ -24,13 +24,19 @@ Explanation: Left smaller  ls[] = [0, 2, 4, 4, 4, 7, 2], Right smaller  rs[] = [
 Maximum Diff of abs(ls[i] - rs[i]) = 7 - 3 = 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int maxDiffBetweenNearestLeft(List<int> arr)
+int maxDiffNearestSmallers(List<int> arr)
 ```
 
+> **Note:** A missing nearest smaller element on either side counts as 0.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxDiffNearestSmallers([2, 1, 8])` → `1`
+<!-- signature:end -->
 
 ## Links
 

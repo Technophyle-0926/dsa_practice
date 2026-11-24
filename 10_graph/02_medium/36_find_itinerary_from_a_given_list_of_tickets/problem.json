@@ -7,27 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-itinerary-from-a-given-list-of-tickets/",
   "practice": null,
   "function": {
-    "name": "findItineraryGivenListTickets",
+    "name": "findItinerary",
     "params": [
       {
-        "name": "head",
-        "type": "ListNode?"
-      },
-      {
-        "name": "head2",
-        "type": "ListNode?"
-      },
-      {
-        "name": "head3",
-        "type": "ListNode?"
-      },
-      {
-        "name": "head4",
-        "type": "ListNode?"
+        "name": "tickets",
+        "type": "List<List<String>>"
       }
     ],
-    "returns": "ListNode?",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "tickets[i] = [from, to]; return the cities in travel order from the starting city to the final destination."
   },
-  "example": null
+  "example": {
+    "call": "findItinerary([[\"Chennai\", \"Bangalore\"], [\"Bombay\", \"Delhi\"], [\"Goa\", \"Chennai\"], [\"Delhi\", \"Goa\"]])",
+    "expected": "[\"Bombay\", \"Delhi\", \"Goa\", \"Chennai\", \"Bangalore\"]"
+  }
 }

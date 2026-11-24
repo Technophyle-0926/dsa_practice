@@ -16,13 +16,19 @@ Example1: The below image shows the Pascal's Triangle for n=4
 Example2: The below image shows the Pascal's Triangle for n = 6
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic pascalsTriangle(/* not set yet */)
+List<List<int>> pascalsTriangle(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the first n rows, row i having i + 1 entries.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pascalsTriangle(4)` → `[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1]]`
+<!-- signature:end -->
 
 ## Links
 

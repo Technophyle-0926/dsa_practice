@@ -16,6 +16,7 @@ Input: 5 <-> 3 <-> 2
 Output: 2 <-> 3 <-> 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -23,6 +24,9 @@ DListNode? mergeSortDoublyLinkedList(DListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeSortDoublyLinkedList(DListNode.fromList([10, 8, 4, 2]))` → `2 <-> 4 <-> 8 <-> 10`
+<!-- signature:end -->
 
 ## Links
 

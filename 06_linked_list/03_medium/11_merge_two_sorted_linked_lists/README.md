@@ -26,13 +26,17 @@ Output: 1 -> 1 -> 2 -> 4
 Explanation: Merging [1 ,1] and [2, 4] in order gives 1 -> 1 -> 2 -> 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mergeTwoSortedLinkedLists(/* not set yet */)
+ListNode? mergeTwoSortedLists(ListNode? head1, ListNode? head2)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeTwoSortedLists(ListNode.fromList([5, 10, 15, 40]), ListNode.fromList([2, 3, 20]))` → `2 -> 3 -> 5 -> 10 -> 15 -> 20 -> 40`
+<!-- signature:end -->
 
 ## Links
 

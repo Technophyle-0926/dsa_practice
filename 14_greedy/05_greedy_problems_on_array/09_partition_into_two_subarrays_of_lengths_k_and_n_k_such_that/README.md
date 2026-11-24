@@ -34,6 +34,7 @@ In this problem, we should divide the array of N numbers into two subsets of k a
 
 Now, Let's think about which of the two above cases actually gives the answer. We can easily see that a larger difference would be when more numbers are included in the group of largest numbers. Hence we could set M = max(k, N - k), find the sum of M largest numbers (let it be S1) and then the answer is S1 - (S - S1), where S is the sum of all numbers.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ int partitionIntoTwoSubarraysLengths(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partitionIntoTwoSubarraysLengths([8, 4, 5, 2, 10], 2)` → `17`
+<!-- signature:end -->
 
 ## Links
 

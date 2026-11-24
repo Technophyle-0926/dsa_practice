@@ -26,6 +26,7 @@ Output: 26
 Explanation: All possible non-empty subarrays of [8, 0, 1] are {8}, {0}, {1}, {8, 0}, {0, 1} and {8, 0, 1}. The maximum elements of the subarrays are 8, 0, 1, 8, 1, 8 respectively. The sum will be 26.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int sumMaxAllSubarrays(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumMaxAllSubarrays([1, 3, 2])` → `15`
+<!-- signature:end -->
 
 ## Links
 

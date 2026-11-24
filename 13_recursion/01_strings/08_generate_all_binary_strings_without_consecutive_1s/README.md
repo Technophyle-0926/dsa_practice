@@ -18,13 +18,19 @@ Input : n = 3
 Output : 000 001 010 100 101
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> generateAllBinaryStringsWithout(int n)
+List<String> binaryStringsNoConsecutiveOnes(int n)
 ```
 
+> **Note:** Ascending lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryStringsNoConsecutiveOnes(4)` → `[0000, 0001, 0010, 0100, 0101, 1000, 1001, 1010]`
+<!-- signature:end -->
 
 ## Links
 

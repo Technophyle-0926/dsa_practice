@@ -15,13 +15,19 @@ Input : n = 5
 Output : 00000 00100 01001 01101 01010 01110 10001 10101 10010 10110 11011 11111
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> allPossibleBinaryNumbersLength(int n)
+List<String> equalSumHalvesBinaryNumbers(int n)
 ```
 
+> **Note:** Ascending lexicographic order; for odd n the middle bit may be 0 or 1.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `equalSumHalvesBinaryNumbers(4)` → `[0000, 0101, 0110, 1001, 1010, 1111]`
+<!-- signature:end -->
 
 ## Links
 

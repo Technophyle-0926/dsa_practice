@@ -20,6 +20,7 @@ Output: [0, 2, 8, 5, 2, 1, 13]
 Explanation: The output numbers are the only Fibonacci numbers in array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> largestFibonacciSubset(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestFibonacciSubset([1, 4, 3, 9, 10, 13, 7])` → `[1, 3, 13]`
+<!-- signature:end -->
 
 ## Links
 

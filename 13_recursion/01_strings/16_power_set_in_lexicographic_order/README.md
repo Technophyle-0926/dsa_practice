@@ -15,13 +15,19 @@ Input : abc
 Output : a ab abc ac b bc c
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String powerLexicographicOrder(String s)
+List<String> powerSetLexicographic(String s)
 ```
 
+> **Note:** Non-empty subsets in lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `powerSetLexicographic("abc")` → `[a, ab, abc, ac, b, bc, c]`
+<!-- signature:end -->
 
 ## Links
 

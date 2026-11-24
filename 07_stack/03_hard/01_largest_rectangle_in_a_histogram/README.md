@@ -20,6 +20,7 @@ Output: 15
 Explanation:  We get the maximum are by picking bars 7, 5 and 9. The area is computed (smallest height) * (no. of the picked bars) = 5 * 3 = 15.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int largestRectangleHistogram(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestRectangleHistogram([60, 20, 50, 40, 10, 50, 60])` → `100`
+<!-- signature:end -->
 
 ## Links
 

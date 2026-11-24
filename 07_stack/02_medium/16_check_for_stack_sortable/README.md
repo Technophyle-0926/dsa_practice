@@ -38,6 +38,7 @@ At this point, we try to pop elements in ascending order (1, 2, 3, 4):
 Given, array arr[] is a permutation of [1, …, n] and we want the order to be number from 1 to n. We keep track of next expected number (initially 1), we pop an item when top of the stack matches the expected number, else push the item to stack. At the end, if our expected number is (n+1), our input array is stack sortable, otherwise not.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -45,6 +46,9 @@ bool checkStackSortable(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkStackSortable([4, 1, 3, 2])` → `true`
+<!-- signature:end -->
 
 ## Links
 

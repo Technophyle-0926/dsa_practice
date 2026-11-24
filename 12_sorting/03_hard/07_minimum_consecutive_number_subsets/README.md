@@ -18,6 +18,7 @@ Output: 3
 Explanation: [10], [100] and [105] are 3 subsets in which numbers are consecutive.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int minimumConsecutiveNumberSubsets(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumConsecutiveNumberSubsets([100, 56, 5, 6, 102, 58, 101, 57, 7, 103, 59])` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-in-binary-search-tree/",
   "practice": "https://www.geeksforgeeks.org/problems/delete-a-node-from-bst/1",
   "function": {
-    "name": "deletion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteBst",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "A node with two children is replaced by its inorder successor; return the tree unchanged if x is absent."
   },
-  "example": null
+  "example": {
+    "call": "deleteBst(TreeNode.fromLevelOrder([10, 5, 15, null, null, 12, 18]), 15)",
+    "expected": "[10, 5, 18, null, null, 12]"
+  }
 }

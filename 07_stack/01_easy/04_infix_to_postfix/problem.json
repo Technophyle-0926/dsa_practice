@@ -7,18 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/convert-infix-expression-to-postfix-expression/",
   "practice": "https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1",
   "function": {
-    "name": "infixPostfix",
+    "name": "infixToPostfix",
     "params": [
       {
         "name": "s",
         "type": "String"
       }
     ],
-    "returns": "dynamic",
+    "returns": "String",
     "verified": true
   },
   "example": {
-    "call": "infixPostfix(\"a*(b+c)/d\")",
+    "call": "infixToPostfix(\"a*(b+c)/d\")",
     "expected": "abc+*d/"
   }
 }

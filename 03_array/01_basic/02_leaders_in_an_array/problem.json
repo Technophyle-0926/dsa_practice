@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/leaders-in-an-array/",
   "practice": "https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1",
   "function": {
-    "name": "leadersArray",
+    "name": "leadersInArray",
     "params": [
       {
         "name": "arr",
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Leaders in their original left-to-right order."
   },
   "example": {
-    "call": "leadersArray([16, 17, 4, 3, 5, 2])",
-    "expected": "[17 5 2]"
+    "call": "leadersInArray([16, 17, 4, 3, 5, 2])",
+    "expected": "[17, 5, 2]"
   }
 }

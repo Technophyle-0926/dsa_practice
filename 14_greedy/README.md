@@ -36,7 +36,7 @@ Source: [GeeksforGeeks – Greedy Algorithms](https://www.geeksforgeeks.org/dsa/
 | Medium | 1 | [Activity Selection](02_medium/01_activity_selection/README.md) | [link](https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1) |  |
 | Medium | 2 | [Jump Game](02_medium/02_jump_game/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1) |  |
 | Medium | 3 | [Job Sequencing](02_medium/03_job_sequencing/README.md) | [link](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) |  |
-| Medium | 4 | [Egyptian Fraction](02_medium/04_egyptian_fraction/README.md) | [link](https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1) |  |
+| Medium | 4 | [Merge Overlapping Intervals](02_medium/04_merge_overlapping_intervals/README.md) | [link](https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1) |  |
 | Medium | 5 | [Min Fibonacci Terms with Sum K](02_medium/05_min_fibonacci_terms_with_sum_k/README.md) | [link](https://www.geeksforgeeks.org/dsa/minimum-fibonacci-terms-sum-equal-k/) |  |
 | Medium | 6 | [Minimum Platforms](02_medium/06_minimum_platforms/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) |  |
 | Medium | 7 | [Min Cost to Connect n ropes](02_medium/07_min_cost_to_connect_n_ropes/README.md) | [link](https://www.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1) |  |

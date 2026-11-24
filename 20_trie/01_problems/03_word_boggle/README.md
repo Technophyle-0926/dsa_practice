@@ -33,6 +33,7 @@ Explanation: "GEEKS" and "QUIZ" can be formed by traversing adjacent cells (8 di
 1 ≤ |dictionary[i]| ≤ 60
 Each dictionary[i] may contain both lowercase and uppercase English letters.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -40,6 +41,9 @@ List<String> wordBoggle(List<List<String>> board, List<String> dictionary)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordBoggle([["C", "A", "P"], ["A", "N", "D"], ["T", "I", "E"]], ["CAT"])` → `["CAT"]`
+<!-- signature:end -->
 
 ## Links
 

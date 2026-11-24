@@ -18,6 +18,7 @@ Output: false
 Explanation: No pair of intervals overlap.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ bool checkIfAnyTwoIntervals(List<List<int>> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkIfAnyTwoIntervals([[1, 3], [5, 7], [2, 4], [6, 8]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -25,13 +25,19 @@ Exponential search involves two steps:
 - Find range  of indexes where element is present
 - Do Binary Search in above found range.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic exponentialSearch(List<int> arr, int x)
+int exponentialSearch(List<int> arr, int x)
 ```
 
+> **Note:** Returns the 0-based index of x, or -1 if not present.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `exponentialSearch([10, 20, 40, 45, 55], 45)` → `3`
+<!-- signature:end -->
 
 ## Links
 

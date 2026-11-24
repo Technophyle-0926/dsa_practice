@@ -26,13 +26,17 @@ At i=0 ("b"): First non-repeating character is 'b'.
 At i=1 ("bb"): No non-repeating character, so '#'.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic firstNonRepeatingStream(String s)
+String firstNonRepeatingStream(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `firstNonRepeatingStream("aabc")` → `a#bb`
+<!-- signature:end -->
 
 ## Links
 

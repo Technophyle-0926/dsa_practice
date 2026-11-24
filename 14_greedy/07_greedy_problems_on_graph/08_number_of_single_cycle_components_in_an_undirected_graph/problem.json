@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/number-of-simple-cyclic-components-in-an-undirected-graph/",
   "practice": null,
   "function": {
-    "name": "numberSingleCycleComponentsUndirected",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countSingleCycleComponents",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Vertices are numbered 1..V; edges are undirected."
   },
-  "example": null
+  "example": {
+    "call": "countSingleCycleComponents(15, [[1, 10], [1, 5], [5, 10], [2, 9], [9, 15], [2, 15], [2, 12], [12, 15], [13, 8], [6, 14], [14, 3], [3, 7], [7, 11], [11, 6]])",
+    "expected": "2"
+  }
 }

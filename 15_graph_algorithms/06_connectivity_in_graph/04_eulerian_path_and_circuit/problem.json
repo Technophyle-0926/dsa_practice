@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/eulerian-path-and-circuit/",
   "practice": "https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1",
   "function": {
-    "name": "eulerianPathCircuit",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "eulerianPathOrCircuit",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return 2 for an Eulerian circuit, 1 for an Eulerian path only, else 0."
   },
   "example": null
 }

@@ -7,10 +7,10 @@
   "article": "https://www.geeksforgeeks.org/dsa/how-to-implement-text-auto-complete-feature-using-ternary-search-tree/",
   "practice": null,
   "function": {
-    "name": "autoCompleteFeatureTernarySearch",
+    "name": "autoCompleteTst",
     "params": [
       {
-        "name": "S",
+        "name": "words",
         "type": "List<String>"
       },
       {
@@ -18,11 +18,12 @@
         "type": "String"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Return all words having patt as a prefix in lexicographic order (TST traversal order); empty list instead of \"None\"."
   },
   "example": {
-    "call": "autoCompleteFeatureTernarySearch([\"wallstreet\", \"geeksforgeeks\", \"wallmart\", \"walmart\", \"waldomort\", \"word\"], \"wall\")",
-    "expected": "wallstreet"
+    "call": "autoCompleteTst([\"wallstreet\", \"geeksforgeeks\", \"wallmart\", \"walmart\", \"waldomort\", \"word\"], \"wall\")",
+    "expected": "[\"wallmart\", \"wallstreet\"]"
   }
 }

@@ -19,6 +19,7 @@ Output: 22
 Explanation: The price of a chocolate is 1. You can buy 15 chocolates for the amount 15. Then return 15 wrappers and get 5 more chocolates. Then you can return 3 wrappers and get 1 more chocolates. Finally, you can return 3 wrappers to get 1 more chocolate. So the total chocolates you eat will be 15 + 5 + 1  + 1 = 22.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int programChocolateWrapperPuzzle(int money, int price, int wrap)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `programChocolateWrapperPuzzle(16, 2, 2)` → `15`
+<!-- signature:end -->
 
 ## Links
 

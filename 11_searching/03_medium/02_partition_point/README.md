@@ -22,6 +22,7 @@ Output: -1
 Explanation: No such element exists.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int partitionPoint(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `partitionPoint([5, 1, 4, 3, 6, 8, 10, 7, 9])` → `6`
+<!-- signature:end -->
 
 ## Links
 

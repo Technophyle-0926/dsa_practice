@@ -20,6 +20,7 @@ Output: 1
 Explanation: There is only one possible path from the top-left cell to the bottom-right cell.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int countAllPathsGrid(int m, int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countAllPathsGrid(2, 3)` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/searching-in-binary-indexed-tree-using-binary-lifting-in-ologn/",
   "practice": null,
   "function": {
-    "name": "searchingBitBinaryLifting",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bitLowerBoundQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "arr is non-negative; for each value v return the smallest 0-based index i with arr[0] + ... + arr[i] >= v, or -1."
   },
   "example": null
 }

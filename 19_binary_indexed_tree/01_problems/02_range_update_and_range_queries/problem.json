@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-indexed-tree-range-update-range-queries/",
   "practice": null,
   "function": {
-    "name": "rangeUpdateRangeQueries",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "rangeUpdateRangeSum",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Array of n zeros; [1, l, r, val] adds val to [l, r]; [2, l, r] asks the sum of [l, r]; return type-2 answers."
   },
-  "example": null
+  "example": {
+    "call": "rangeUpdateRangeSum(5, [[1, 0, 4, 2], [1, 3, 4, 3], [2, 2, 4]])",
+    "expected": "[12]"
+  }
 }

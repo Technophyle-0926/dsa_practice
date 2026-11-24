@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/sum-elements-n-ary-tree/",
   "practice": null,
   "function": {
-    "name": "sumAllElementsNAry",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sumNAryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "sumNAryTree(11, {11: [21, 29, 90], 21: [18, 10, 12], 90: [77]})",
+    "expected": "268"
+  }
 }

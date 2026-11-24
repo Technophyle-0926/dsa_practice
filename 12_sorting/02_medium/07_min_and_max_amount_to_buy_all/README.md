@@ -21,6 +21,7 @@ Output: [1, 5]
 Explanation: For minimum cost, buy the candy costing 1. for maximum cost, buy the candy costing 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ List<int> minMaxAmountBuyAll(List<int> prices, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minMaxAmountBuyAll([3, 2, 1, 4], 2)` → `[3, 7]`
+<!-- signature:end -->
 
 ## Links
 

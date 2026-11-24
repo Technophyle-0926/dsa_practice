@@ -29,6 +29,7 @@ Output: 7
 Explanation: The length of the smallest transformation sequence from "toon" to "plea" is 7 i.e toon -> poon -> poin -> poie -> plie -> plee -> plea.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int wordLadder(List<String> words, String start, String end)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `wordLadder(["des", "der", "dfr", "dgt", "dfs"], "der", "dfs")` → `3`
+<!-- signature:end -->
 
 ## Links
 

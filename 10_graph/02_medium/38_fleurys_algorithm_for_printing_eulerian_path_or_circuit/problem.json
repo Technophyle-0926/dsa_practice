@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/fleurys-algorithm-for-printing-eulerian-path/",
   "practice": null,
   "function": {
-    "name": "fleurysAlgorithmPrintingEulerianPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "fleuryEulerTour",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the traversed edges [u, v] in order; start at the smallest odd-degree vertex (else 0), try neighbours in adj order, and return [] if no Eulerian path/circuit exists."
   },
-  "example": null
+  "example": {
+    "call": "fleuryEulerTour([[1, 2, 3], [0, 2], [0, 1], [0, 4], [3]])",
+    "expected": "[[4, 3], [3, 0], [0, 1], [1, 2], [2, 0]]"
+  }
 }

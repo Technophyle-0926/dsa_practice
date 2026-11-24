@@ -124,13 +124,19 @@ This structure enables efficient operations for searching, insertion, and deleti
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic moreProblemsBinarySearchTree(/* not set yet */)
+int kthSmallestBst(TreeNode? root, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Overview page; canonical task: k-th smallest key (1-based) in the BST, -1 if fewer than k nodes.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthSmallestBst(TreeNode.fromLevelOrder([20, 8, 22, 4, 12, null, null, null, null, 10, 14]), 3)` → `10`
+<!-- signature:end -->
 
 ## Links
 

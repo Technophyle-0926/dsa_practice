@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/union-and-intersection-of-two-linked-lists/",
   "practice": "https://www.geeksforgeeks.org/problems/union-of-two-linked-list/1",
   "function": {
-    "name": "unionIntersection",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "unionOfLinkedLists",
+    "params": [
+      {
+        "name": "head1",
+        "type": "ListNode?"
+      },
+      {
+        "name": "head2",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Distinct values of head1 in order, then values of head2 not already present, in order."
   },
-  "example": null
+  "example": {
+    "call": "unionOfLinkedLists(ListNode.fromList([9, 6, 4, 3, 8]), ListNode.fromList([1, 2, 8, 6, 2]))",
+    "expected": "9 -> 6 -> 4 -> 3 -> 8 -> 1 -> 2"
+  }
 }

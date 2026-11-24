@@ -29,6 +29,7 @@ Input: arr[] = [1, 1, 1, 1, 1, 1], target = 4
 Output: [[1, 1, 1, 1]]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<List<int>> solve4SumDistinctQuadruples(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve4SumDistinctQuadruples([10, 11, 10, 12, 11], 43)` → `[[10, 10, 11, 12]]`
+<!-- signature:end -->
 
 ## Links
 

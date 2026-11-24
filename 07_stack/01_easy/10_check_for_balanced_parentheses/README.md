@@ -24,6 +24,7 @@ Output: false
 Explanation: The expression is not balanced because there is a closing ']' before the closing '}'.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ bool checkBalancedParentheses(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkBalancedParentheses("[{()}]")` → `true`
+<!-- signature:end -->
 
 ## Links
 

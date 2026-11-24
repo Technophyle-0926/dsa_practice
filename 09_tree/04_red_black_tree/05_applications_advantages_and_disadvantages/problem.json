@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-red-black-tree/",
   "practice": null,
   "function": {
-    "name": "applicationsAdvantagesDisadvantages",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "blackHeight",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "colors",
+        "type": "Map<int, String>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tutorial; colors maps node value to \"R\"/\"B\"; return the number of black nodes on any root-to-NIL path (NIL not counted), or -1 if paths disagree."
   },
-  "example": null
+  "example": {
+    "call": "blackHeight(TreeNode.fromLevelOrder([10, 5, 20]), {10: \"B\", 5: \"R\", 20: \"R\"})",
+    "expected": "1"
+  }
 }

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/queue-using-stacks/",
   "practice": "https://www.geeksforgeeks.org/problems/queue-using-stack/1",
   "function": {
-    "name": "queueStacks",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "queueUsingStacks",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'enqueue' (args[i] = [x]), 'dequeue', 'front' or 'size' (args[i] = []); returns the result of every front and size call in order (front gives -1 on an empty queue, dequeue on empty does nothing)."
   },
-  "example": null
+  "example": {
+    "call": "queueUsingStacks([\"enqueue\", \"enqueue\", \"front\", \"dequeue\", \"size\"], [[1], [2], [], [], []])",
+    "expected": "[1, 1]"
+  }
 }

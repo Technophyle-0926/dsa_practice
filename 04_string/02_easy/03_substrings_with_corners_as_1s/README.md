@@ -26,6 +26,7 @@ Output: 3
 Explanation: Valid substrings are "11" (first and second), "11" (second and third), and "111" (entire string).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int substringsCornersAs1s(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `substringsCornersAs1s("00100101")` → `3`
+<!-- signature:end -->
 
 ## Links
 

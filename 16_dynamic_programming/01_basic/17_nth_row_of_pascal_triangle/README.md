@@ -22,6 +22,7 @@ Output: 1
 Explanation: The elements in the 1th row is 1 as shown in Pascal Triangle.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> nthRowPascalTriangle(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nthRowPascalTriangle(4)` → `1 3 3 1`
+<!-- signature:end -->
 
 ## Links
 

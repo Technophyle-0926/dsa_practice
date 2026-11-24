@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-in-red-black-tree/",
   "practice": null,
   "function": {
-    "name": "deletionRedBlackTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "redBlackDelete",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      },
+      {
+        "name": "deleteKeys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Build the tree by bottom-up insertion of keys, then delete deleteKeys in order (two-child nodes replaced by inorder successor; absent keys ignored). Each node is encoded as its value followed by its colour, e.g. \"20B\" or \"15R\"; the list is the preorder traversal of the final tree."
   },
-  "example": null
+  "example": {
+    "call": "redBlackDelete([10, 20, 30, 15, 25], [10])",
+    "expected": "[\"20B\", \"15B\", \"30B\", \"25R\"]"
+  }
 }

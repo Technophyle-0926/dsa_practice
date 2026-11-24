@@ -22,13 +22,17 @@ Output: 2
 Explanation: There are two walks from src (0) to dest (3) with exactly 2 edges: (0 → 1 → 3) and (0 → 2 → 3).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic countAllPossibleWalksSource(/* not set yet */)
+int countWalks(List<List<int>> adj, int src, int dest, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countWalks([[0, 1, 1, 1], [0, 0, 0, 1], [0, 0, 0, 1], [0, 0, 0, 0]], 0, 3, 2)` → `2`
+<!-- signature:end -->
 
 ## Links
 

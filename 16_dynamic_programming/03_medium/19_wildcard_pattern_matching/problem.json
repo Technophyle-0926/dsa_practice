@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "wildcardPatternMatching",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "t",
+        "type": "String"
+      },
+      {
+        "name": "p",
+        "type": "String"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "'.' matches any single char, '*' matches zero or more of the preceding char; match the whole text."
   },
-  "example": null
+  "example": {
+    "call": "wildcardPatternMatching(\"aaa\", \"a\")",
+    "expected": "false"
+  }
 }

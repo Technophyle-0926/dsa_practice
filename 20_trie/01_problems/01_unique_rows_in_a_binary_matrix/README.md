@@ -24,6 +24,7 @@ Explanation: Only unique row is [0, 0, 0, 1].
 1 ≤ n, m ≤ 40
 0 ≤ mat[i][j] ≤ 1
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<List<int>> uniqueRowsBinaryMatrix(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `uniqueRowsBinaryMatrix([[1, 1, 0, 1], [1, 0, 0, 1], [1, 1, 0, 1]])` → `[[1, 1, 0, 1], [1, 0, 0, 1]]`
+<!-- signature:end -->
 
 ## Links
 

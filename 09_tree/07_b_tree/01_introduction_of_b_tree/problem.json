@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-of-b-tree-2/",
   "practice": null,
   "function": {
-    "name": "introductionBTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bTreeSearch",
+    "params": [
+      {
+        "name": "t",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Tutorial; canonical task: insert keys into a B-tree of minimum degree t, then report whether each query key is present."
   },
-  "example": null
+  "example": {
+    "call": "bTreeSearch(3, [10, 20, 5, 6, 12, 30, 7, 17], [6, 15])",
+    "expected": "[true, false]"
+  }
 }

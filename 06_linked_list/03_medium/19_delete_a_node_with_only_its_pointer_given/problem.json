@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/",
   "practice": "https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1",
   "function": {
-    "name": "deleteNodeOnlyPointerGiven",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteNodeWithoutHead",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Find the node with value x, delete it using only that node (copy the next node into it), and return head; x is never the last node."
   },
-  "example": null
+  "example": {
+    "call": "deleteNodeWithoutHead(ListNode.fromList([1, 2]), 1)",
+    "expected": "2"
+  }
 }

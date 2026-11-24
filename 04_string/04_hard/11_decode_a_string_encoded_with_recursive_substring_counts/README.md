@@ -25,6 +25,7 @@ Output: "ababab"
 Explanation: The substring "ab" is repeated 3 times giving "ababab".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ String decodeStringEncodedRecursiveSubstring(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `decodeStringEncodedRecursiveSubstring("3[b2[ca]]")` → `"bcacabcacabcaca"`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,6 +26,7 @@ Output: 1
 Explanation: 26th January was a Monday.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int dayWeek(int d, int m, int y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dayWeek(30, 8, 2010)` → `1`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,31 @@
   "article": "https://www.geeksforgeeks.org/dsa/efficiently-implement-k-queues-single-array/",
   "practice": "https://www.geeksforgeeks.org/problems/implement-k-queues-in-a-single-array/1",
   "function": {
-    "name": "kQueuesArray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kQueues",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'enqueue' (args[i] = [qn, x]), 'dequeue' or 'isEmpty' (args[i] = [qn]) with 0-based queue index qn; returns every dequeue result (-1 if empty) and isEmpty result (1 = true, 0 = false) in order."
   },
-  "example": null
+  "example": {
+    "call": "kQueues(6, 2, [\"enqueue\", \"enqueue\", \"dequeue\", \"isEmpty\", \"dequeue\"], [[0, 5], [1, 7], [0], [0], [1]])",
+    "expected": "[5, 1, 7]"
+  }
 }

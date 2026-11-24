@@ -24,13 +24,19 @@ Output: 3 7 4 8
  3   4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> cartesianTreeInorderTraversal(List<int> arr)
+TreeNode? cartesianTreeFromInorder(List<int> arr)
 ```
 
+> **Note:** Build the max-heap Cartesian tree whose inorder traversal is arr; expected shown in level order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `cartesianTreeFromInorder([1, 5, 3])` → `[5, 1, 3]`
+<!-- signature:end -->
 
 ## Links
 

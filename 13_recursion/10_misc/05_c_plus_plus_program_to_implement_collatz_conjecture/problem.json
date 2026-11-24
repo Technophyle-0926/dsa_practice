@@ -7,18 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/c-program-implement-collatz-conjecture/",
   "practice": null,
   "function": {
-    "name": "cProgramImplementCollatzConjecture",
+    "name": "collatzReachesOne",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
+    "returns": "bool",
     "verified": true
   },
   "example": {
-    "call": "cProgramImplementCollatzConjecture(4)",
-    "expected": "YesInput : n = 5"
+    "call": "collatzReachesOne(4)",
+    "expected": "true"
   }
 }

@@ -10,14 +10,6 @@
     "name": "numberPrimesSubarray",
     "params": [
       {
-        "name": "n",
-        "type": "int"
-      },
-      {
-        "name": "q",
-        "type": "int"
-      },
-      {
         "name": "arr",
         "type": "List<int>"
       },
@@ -27,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "[1, l, r] counts primes in arr[l..r]; [2, i, x] sets arr[i] = x; return answers of type-1 queries."
   },
   "example": {
-    "call": "numberPrimesSubarray(6, 3, [1, 2, 3, 5, 7, 9], [[1, 0, 4], [2, 3, 6], [1, 0, 4]])",
-    "expected": "4 3"
+    "call": "numberPrimesSubarray([1, 2, 3, 5, 7, 9], [[1, 0, 4], [2, 3, 6], [1, 0, 4]])",
+    "expected": "[4, 3]"
   }
 }

@@ -26,6 +26,7 @@ Output:  false
 Explanation: 1234 is not a palindrome number because it does not read the same forward and backward.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool palindromeNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `palindromeNumber(12321)` → `true`
+<!-- signature:end -->
 
 ## Links
 

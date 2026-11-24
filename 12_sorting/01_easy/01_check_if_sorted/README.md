@@ -20,6 +20,7 @@ Output: false
 Explanation: The given array is not sorted.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool checkIfSorted(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkIfSorted([10, 20, 30, 40, 50])` → `true`
+<!-- signature:end -->
 
 ## Links
 

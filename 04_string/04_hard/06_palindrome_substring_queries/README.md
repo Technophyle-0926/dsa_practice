@@ -28,6 +28,7 @@ Explanation: Lets process all the queries one by one:
 -> [4, 6]: The substring is “aaa” which is a palindrome.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> palindromeSubstringQueries(String s, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `palindromeSubstringQueries("abaaabaaaba", [[0, 10], [5, 8], [2, 5], [5, 9]])` → `[1, 0, 0, 1]`
+<!-- signature:end -->
 
 ## Links
 

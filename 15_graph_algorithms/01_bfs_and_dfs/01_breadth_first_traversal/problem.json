@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1",
   "function": {
-    "name": "breadthFirstTraversal",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bfsOfGraph",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Start at 0, visit neighbours in adj order; if vertices remain unvisited, start a new BFS from the smallest unvisited vertex."
   },
-  "example": null
+  "example": {
+    "call": "bfsOfGraph([[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]])",
+    "expected": "[0, 1, 2, 3, 4]"
+  }
 }

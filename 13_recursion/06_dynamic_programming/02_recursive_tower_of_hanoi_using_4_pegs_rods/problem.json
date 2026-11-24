@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/recursive-tower-hanoi-using-4-pegs-rods/",
   "practice": null,
   "function": {
-    "name": "recursiveTowerHanoi4Pegs",
+    "name": "towerOfHanoi4Pegs",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Moves from rod A to rod D (aux B, C) using GfG's scheme: move n-2 disks to B, then n-1 via C, n to D, n-1 to D, then n-2 from B to D; each line 'Move disk k from rod X to rod Y'."
   },
   "example": {
-    "call": "recursiveTowerHanoi4Pegs(3)",
-    "expected": "Move disk 1 from rod A to rod B"
+    "call": "towerOfHanoi4Pegs(3)",
+    "expected": "[Move disk 1 from rod A to rod B, Move disk 2 from rod A to rod C, Move disk 3 from rod A to rod D, Move disk 2 from rod C to rod D, Move disk 1 from rod B to rod D]"
   }
 }

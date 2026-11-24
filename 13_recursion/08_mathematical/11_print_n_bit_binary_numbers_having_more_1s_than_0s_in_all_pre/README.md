@@ -29,6 +29,7 @@ Explanation: Valid numbers are those where each prefix has more 1s than 0s.
 So, the output is "111, 110, 101".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ List<String> printNBitBinaryNumbers(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printNBitBinaryNumbers(2)` → `["11", "10"]`
+<!-- signature:end -->
 
 ## Links
 

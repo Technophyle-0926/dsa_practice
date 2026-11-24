@@ -20,6 +20,7 @@ Output: 60
 Explanation: The most optimal way to paint: Painter 1 allocation : [10, 20, 30], Painter 2 allocation : [40], Job will be complete at time = 60
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int paintersPartitionProblem(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `paintersPartitionProblem([5, 10, 30, 20, 15], 3)` → `35`
+<!-- signature:end -->
 
 ## Links
 

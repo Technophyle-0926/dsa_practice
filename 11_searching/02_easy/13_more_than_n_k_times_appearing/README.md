@@ -20,13 +20,17 @@ Output: 1
 Explanation: Both 2 and 3 appear 2 times in the array, which is more than n/k.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int moreThanNKTimes(List<int> arr_, int k)
+int moreThanNKTimes(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `moreThanNKTimes([3, 4, 2, 2, 1, 2, 3, 3], 4)` → `2`
+<!-- signature:end -->
 
 ## Links
 

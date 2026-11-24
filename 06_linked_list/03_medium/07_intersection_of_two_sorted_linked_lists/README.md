@@ -23,6 +23,7 @@ Output:  2 -> 2 -> 2 -> 3 -> 4
 Explanation:  For the given two linked list, 2, 2 and 4 are the elements in the intersection.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ ListNode? intersectionTwoSortedLinkedLists(ListNode? head1, ListNode? head2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `intersectionTwoSortedLinkedLists(ListNode.fromList([1, 2, 3, 4, 6]), ListNode.fromList([2, 4, 6, 8]))` → `2 -> 4-> 6`
+<!-- signature:end -->
 
 ## Links
 

@@ -10,7 +10,7 @@
     "name": "countPairsAtLeastOne",
     "params": [
       {
-        "name": "A",
+        "name": "arr",
         "type": "List<int>"
       }
     ],

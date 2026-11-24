@@ -20,6 +20,7 @@ Output: 20
 Explanation: Since 20 occurs once, while other numbers occur twice, 20 is the answer.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int singleAmongDoubles(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `singleAmongDoubles([2, 3, 5, 4, 5, 3, 4])` → `2`
+<!-- signature:end -->
 
 ## Links
 

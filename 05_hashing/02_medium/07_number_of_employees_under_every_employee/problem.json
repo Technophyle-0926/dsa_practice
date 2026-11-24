@@ -14,11 +14,12 @@
         "type": "List<List<String>>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "Map<String, int>",
+    "verified": true,
+    "note": "arr[i] = [employee, manager]; map each employee to the total number of employees under them."
   },
   "example": {
     "call": "numberEmployeesUnderEveryEmployee([[\"A\", \"C\"], [\"B\", \"C\"], [\"C\", \"F\"], [\"D\", \"E\"], [\"E\", \"F\"], [\"F\", \"F\"]])",
-    "expected": "[[A, 0], [B, 0], [C, 2], [D, 0], [E, 1], [F, 5]]"
+    "expected": "{A: 0, B: 0, C: 2, D: 0, E: 1, F: 5}"
   }
 }

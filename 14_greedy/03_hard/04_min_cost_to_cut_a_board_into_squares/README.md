@@ -35,6 +35,7 @@ Explanation:
 So, the total cost = 3 + 3 + 3 = 9.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -42,6 +43,9 @@ int minCostCutBoardInto(int n, int m, List<int> x, List<int> y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostCutBoardInto(3, 3, [2, 1], [4, 3])` → `16`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: false
 Explanation: There is no pair with sum equals to given target.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool solve2SumFindIfThere(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve2SumFindIfThere([0, -1, 2, -3, 1], -2)` → `true`
+<!-- signature:end -->
 
 ## Links
 

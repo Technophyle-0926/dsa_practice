@@ -25,13 +25,17 @@ Input : s = “12345678”
 Output : false
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic stringAdditiveSequence(/* not set yet */)
+bool isAdditiveSequence(String s)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isAdditiveSequence("235813")` → `true`
+<!-- signature:end -->
 
 ## Links
 

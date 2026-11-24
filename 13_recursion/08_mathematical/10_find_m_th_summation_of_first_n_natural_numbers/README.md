@@ -22,13 +22,17 @@ Explanation : SUM(3, 2)
              = 21
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findMThSummationFirst(int n, int m)
+int findMThSummation(int n, int m)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findMThSummation(4, 1)` → `10`
+<!-- signature:end -->
 
 ## Links
 

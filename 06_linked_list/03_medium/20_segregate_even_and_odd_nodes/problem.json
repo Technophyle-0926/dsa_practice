@@ -8,12 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1",
   "function": {
     "name": "segregateEvenOddNodes",
-    "params": [],
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
     "returns": "ListNode?",
     "verified": true
   },
   "example": {
-    "call": "segregateEvenOddNodes()",
+    "call": "segregateEvenOddNodes(ListNode.fromList([17, 15, 8, 9, 2, 4, 6]))",
     "expected": "8 -> 2 -> 4 -> 6 -> 17 -> 15 -> 9"
   }
 }

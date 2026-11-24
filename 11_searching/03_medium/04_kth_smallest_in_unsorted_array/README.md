@@ -21,6 +21,7 @@ Output: 7
 Explanation: 3rd smallest element in the given array is 7.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int kthSmallestUnsortedArray(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthSmallestUnsortedArray([10, 5, 4, 3, 48, 6, 2, 33, 53, 10], 4)` → `5`
+<!-- signature:end -->
 
 ## Links
 

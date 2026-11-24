@@ -28,6 +28,7 @@ Output: [10, 20, 30]
 Explanation: One part is empty and the other part is whole array which is already sorted.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> sortWhenTwoHalvesAre(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortWhenTwoHalvesAre([2, 3, 8, -1, 7, 10])` → `[-1, 2, 3, 7, 8, 10]`
+<!-- signature:end -->
 
 ## Links
 

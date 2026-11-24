@@ -28,13 +28,19 @@ Output: -1
 Explanation: There is no possible path from first column to last column.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic shortestSafeRoute(/* not set yet */)
+int shortestSafeRoute(List<List<int>> mat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Route length counts the cells on the path (moves + 1); cells adjacent to a 0 are unsafe; return -1 if no route.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestSafeRoute([[1, 0, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]])` → `6`
+<!-- signature:end -->
 
 ## Links
 

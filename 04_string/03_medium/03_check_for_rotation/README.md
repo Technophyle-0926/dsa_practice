@@ -27,6 +27,7 @@ Output: false
 Explanation: Strings are not rotations of each other.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ bool checkRotation(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkRotation("abcd", "cdab")` → `true`
+<!-- signature:end -->
 
 ## Links
 

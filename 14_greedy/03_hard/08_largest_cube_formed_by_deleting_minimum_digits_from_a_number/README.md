@@ -21,6 +21,7 @@ Output: 8
 Explanation: Deleting '7' and '6' from 876 forms 8, the largest perfect cube.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int largestCubeFormedDeletingMinimum(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestCubeFormedDeletingMinimum(4125)` → `125`
+<!-- signature:end -->
 
 ## Links
 

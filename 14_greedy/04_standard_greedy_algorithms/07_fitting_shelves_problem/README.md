@@ -30,13 +30,19 @@ Output : 6 0 0
 24 - 24 = 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic fittingShelvesProblem(/* not set yet */)
+List<int> fittingShelves(int w, int m, int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return [count of m-shelves, count of n-shelves, empty space]; minimise empty space, ties broken by using more of the larger shelf.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fittingShelves(24, 3, 5)` → `[3, 3, 0]`
+<!-- signature:end -->
 
 ## Links
 

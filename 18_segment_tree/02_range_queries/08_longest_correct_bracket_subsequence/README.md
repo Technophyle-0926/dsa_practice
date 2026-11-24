@@ -28,6 +28,7 @@ Query [0, 5]: The substring is "(()())". It contains 3 matched pairs, so the ans
 Query [2, 9]: The substring is ")()))()(". It contains 2 matched pairs, so the answer is 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> longestCorrectBracketSubsequence(String s, List<List<int>> queries)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestCorrectBracketSubsequence("())(())(())(", [[3, 6], [0, 11]])` → `[4, 10]`
+<!-- signature:end -->
 
 ## Links
 

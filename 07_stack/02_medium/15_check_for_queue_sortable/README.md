@@ -39,13 +39,17 @@ Also, observe, that the stack must also be sorted at each instance i.e the eleme
 Algorithm:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-bool checkQueueSortable(List<int> Queue)
+bool checkQueueSortable(List<int> q)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkQueueSortable([5, 1, 2, 3, 4])` → `true`
+<!-- signature:end -->
 
 ## Links
 

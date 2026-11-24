@@ -38,13 +38,19 @@ Output:
 2 * 10 = 20
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic multiplicationTable(int n)
+List<String> multiplicationTable(int n)
 ```
 
+> **Note:** Return the 10 printed lines, formatted "n * i = n*i" for i = 1..10.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `multiplicationTable(5)` → `["5 * 1 = 5", "5 * 2 = 10", ..., "5 * 10 = 50"]`
+<!-- signature:end -->
 
 ## Links
 

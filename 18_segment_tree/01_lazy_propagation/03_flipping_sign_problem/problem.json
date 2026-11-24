@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/flipping-sign-problem-lazy-propagation-segment-tree/",
   "practice": null,
   "function": {
-    "name": "flippingSignProblem",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "flipSignRangeSum",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Query [1, l, r] negates arr[l..r]; [2, l, r] asks the sum of arr[l..r] (0-based); return answers of type-2 queries."
   },
-  "example": null
+  "example": {
+    "call": "flipSignRangeSum([1, 2, 3, 4, 5], [[1, 0, 2], [2, 0, 4]])",
+    "expected": "[3]"
+  }
 }

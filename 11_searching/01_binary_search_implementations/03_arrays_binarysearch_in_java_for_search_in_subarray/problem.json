@@ -7,10 +7,31 @@
   "article": "https://www.geeksforgeeks.org/java/arrays-binarysearch-in-java-with-examples-set-2-search-in-subarray/",
   "practice": null,
   "function": {
-    "name": "arraysBinarysearchJavaSearchSubarray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "binarySearchInRange",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "fromIndex",
+        "type": "int"
+      },
+      {
+        "name": "toIndex",
+        "type": "int"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Search only arr[fromIndex, toIndex) (sorted); return the index of key, else -(insertionPoint) - 1."
   },
-  "example": null
+  "example": {
+    "call": "binarySearchInRange([10, 15, 20, 22, 35], 1, 4, 22)",
+    "expected": "3"
+  }
 }

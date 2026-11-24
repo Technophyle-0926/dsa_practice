@@ -8,9 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/minimum-cost-to-destination/1",
   "function": {
     "name": "minCostPath",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "cost",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "minCostPath([[1, 2, 3], [4, 8, 2], [1, 5, 3]])",
+    "expected": "8"
+  }
 }

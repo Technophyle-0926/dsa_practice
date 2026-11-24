@@ -34,6 +34,7 @@ Output: 130
 Explanation: The first and third jobs with the time range [1, 3] and [4, 6] can be chosen to give maximum profit of 60 + 70 = 130.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ int weightedJobSchedulling(List<List<int>> jobs)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `weightedJobSchedulling([[1, 2, 50], [3, 5, 20], [6, 19, 100], [2, 100, 200]])` → `250`
+<!-- signature:end -->
 
 ## Links
 

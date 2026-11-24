@@ -18,7 +18,7 @@
     "verified": true
   },
   "example": {
-    "call": "checkBalancedParentheses(\"[[()]]\")",
+    "call": "checkBalancedParentheses(\"[{()}]\")",
     "expected": "true"
   }
 }

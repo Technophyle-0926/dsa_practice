@@ -25,13 +25,17 @@ Explanation: Cycle 1 -> 0 -> 3 -> 1 has total weight 6 + 4 + 2 = 12, which is po
 Input: V = 4, E = 4, edges[][] = [[1, 0, 4], [3, 1, -2], [1, 2, -6], [2, 3, 5]]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic detectNegativeCycle(/* not set yet */)
+bool isNegativeWeightCycle(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isNegativeWeightCycle(4, [[0, 3, 6], [1, 0, 4], [1, 2, 6], [3, 1, 2]])` → `false`
+<!-- signature:end -->
 
 ## Links
 

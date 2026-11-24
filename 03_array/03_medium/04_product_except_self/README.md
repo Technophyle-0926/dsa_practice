@@ -27,6 +27,7 @@ For i = 0, res[i] = 0.
 For i = 1, res[i] = 12.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<int> productExceptSelf(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `productExceptSelf([10, 3, 5, 6, 2])` → `[180, 600, 360, 300, 900]`
+<!-- signature:end -->
 
 ## Links
 

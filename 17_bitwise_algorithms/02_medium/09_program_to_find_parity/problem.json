@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-to-find-parity/",
   "practice": null,
   "function": {
-    "name": "programFindParity",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "getParity",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return 1 if n has an odd number of set bits (odd parity), else 0."
   },
-  "example": null
+  "example": {
+    "call": "getParity(13)",
+    "expected": "1"
+  }
 }

@@ -39,13 +39,19 @@ getMin(): Minimum element is 5
 pop(): Removes 5, stack is [10]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic stackThatSupportsGetmin(/* not set yet */)
+List<int> specialStack(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'push' (args[i] = [x]), 'pop', 'peek' or 'getMin' (args[i] = []); returns the result of every peek and getMin call in order, -1 when empty.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `specialStack(["push", "push", "peek", "pop", "getMin", "push", "getMin"], [[2], [3], [], [], [], [1], []])` → `[3, 2, 1]`
+<!-- signature:end -->
 
 ## Links
 

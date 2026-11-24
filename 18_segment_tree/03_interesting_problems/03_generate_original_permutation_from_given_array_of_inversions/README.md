@@ -25,6 +25,7 @@ Input: arr[] = {0, 1, 2}
 Output: 3 2 1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ List<int> generateOriginalPermutationGivenArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `generateOriginalPermutationGivenArray([0, 1, 1, 0, 3])` → `[4, 1, 3, 5, 2]`
+<!-- signature:end -->
 
 ## Links
 

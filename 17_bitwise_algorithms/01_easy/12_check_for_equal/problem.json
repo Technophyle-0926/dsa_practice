@@ -8,9 +8,19 @@
   "practice": null,
   "function": {
     "name": "checkEqual",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Return true if a == b, without arithmetic or comparison operators (e.g. using XOR)."
   },
   "example": null
 }

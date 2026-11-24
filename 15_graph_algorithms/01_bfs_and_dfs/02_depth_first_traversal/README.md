@@ -52,13 +52,19 @@ Start at 4: Mark as visited. Print 4.
 Move to 5: Mark as visited. Print 5. (backtrack to 4)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic depthFirstTraversal(/* not set yet */)
+List<int> dfsOfGraph(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges; neighbours in edge insertion order; start at 0 and restart from the smallest unvisited vertex for other components.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `dfsOfGraph(5, [[0, 1], [0, 2], [1, 2], [2, 3], [2, 4]])` → `[0, 1, 2, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

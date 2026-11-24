@@ -14,11 +14,12 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Return the 10 printed lines, formatted \"n * i = n*i\" for i = 1..10."
   },
   "example": {
     "call": "multiplicationTable(5)",
-    "expected": "5 * 1 = 5"
+    "expected": "[\"5 * 1 = 5\", \"5 * 2 = 10\", ..., \"5 * 10 = 50\"]"
   }
 }

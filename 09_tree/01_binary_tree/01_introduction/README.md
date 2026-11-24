@@ -38,13 +38,19 @@ Syntax to declare a Node of Binary Tree in different languages:
 
 In this example, we will explore how to create a Binary Tree with four nodes 2, 3, 4, 5.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introduction(/* not set yet */)
+int countNodes(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: build/walk a binary tree and return its number of nodes.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countNodes(TreeNode.fromLevelOrder([1, 2, 3, 4]))` → `4`
+<!-- signature:end -->
 
 ## Links
 

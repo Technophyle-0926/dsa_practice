@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/serialize-deserialize-n-ary-tree/",
   "practice": null,
   "function": {
-    "name": "serializeDeserializeNAryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "serializeNAryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      }
+    ],
+    "returns": "String",
+    "verified": true,
+    "note": "Serialize in preorder as space-separated tokens, writing \")\" after a node's children to mark the end of its child list. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "serializeNAryTree(1, {1: [2, 3], 2: [4]})",
+    "expected": "1 2 4 ) ) 3 ) )"
+  }
 }

@@ -37,6 +37,7 @@ Input: mat[][] = [[1]]
 Output: 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -44,6 +45,9 @@ int celebrityProblem(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `celebrityProblem([[1, 1, 0], [0, 1, 0], [0, 1, 1]])` → `1`
+<!-- signature:end -->
 
 ## Links
 

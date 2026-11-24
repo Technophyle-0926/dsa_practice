@@ -65,13 +65,19 @@ Now Dequeue the vertex 4 from the queue and following are the adjacent vertices 
 Similarly Dequeue the vertex 3 from the Queue and update the values for adjacent vertex. Adjacent vertices of the vertex 3 is vertex 4 and vertex 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic desopoPapeAlgorithm(/* not set yet */)
+List<int> desopoPape(int v, List<List<int>> edges, int src)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [a, b, w].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `desopoPape(5, [[0, 1, 5], [1, 2, 1], [1, 3, 2], [2, 4, 1], [4, 3, 1]], 0)` → `[0, 5, 6, 7, 7]`
+<!-- signature:end -->
 
 ## Links
 

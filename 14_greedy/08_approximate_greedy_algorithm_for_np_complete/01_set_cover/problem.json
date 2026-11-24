@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/greedy-approximate-algorithm-for-set-cover-problem/",
   "practice": null,
   "function": {
-    "name": "cover",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minCostSetCover",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "sets",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "costs",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Universe is {1..n}; return the minimum total cost of a subcollection covering it (-1 if impossible)."
   },
-  "example": null
+  "example": {
+    "call": "minCostSetCover(5, [[4, 1, 3], [2, 5], [1, 4, 3, 2]], [5, 10, 3])",
+    "expected": "13"
+  }
 }

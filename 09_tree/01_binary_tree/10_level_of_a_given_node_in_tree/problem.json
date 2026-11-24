@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/get-level-of-a-node-in-a-binary-tree/",
   "practice": "https://www.geeksforgeeks.org/problems/level-of-a-node-in-binary-tree/1",
   "function": {
-    "name": "levelGivenNodeTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "levelOfNode",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "The root is at level 1; return -1 if key is not in the tree."
   },
-  "example": null
+  "example": {
+    "call": "levelOfNode(TreeNode.fromLevelOrder([3, 2, 5, 1, 4]), 4)",
+    "expected": "3"
+  }
 }

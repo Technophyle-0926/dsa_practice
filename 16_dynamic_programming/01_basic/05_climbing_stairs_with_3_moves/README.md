@@ -20,6 +20,7 @@ Output: 4
 Explanation: There are four ways: {1, 1, 1}, {1, 2}, {2, 1}, {3}.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int climbingStairs3Moves(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `climbingStairs3Moves(4)` → `7`
+<!-- signature:end -->
 
 ## Links
 

@@ -18,11 +18,11 @@
         "type": "List<int>"
       }
     ],
-    "returns": "int",
+    "returns": "double",
     "verified": true
   },
   "example": {
     "call": "medianTwoSortedDifferentSizes([-5, 3, 6, 12, 15], [-12, -10, -6, -3, 4, 10])",
-    "expected": "3"
+    "expected": "3.0"
   }
 }

@@ -30,13 +30,19 @@ Edge (3, 4) is covered by vertex 3.
 Similarly, {2, 3} is another vertex cover of size 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic vertexCoverProblem1Introduction(/* not set yet */)
+int minVertexCover(int n, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Vertices are 1..n; return the size of a minimum vertex cover.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minVertexCover(4, [[1, 2], [1, 3], [2, 3], [3, 4]])` → `2`
+<!-- signature:end -->
 
 ## Links
 

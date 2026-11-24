@@ -41,13 +41,19 @@ At level 4:11, 12, 13 is present
 At level 5 :- 14 is present
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic levelOrderTraversalNAry(/* not set yet */)
+List<List<int>> levelOrderNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** One list per level. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `levelOrderNAryTree(1, {1: [3, 2, 4], 3: [5, 6]})` → `[[1], [3, 2, 4], [5, 6]]`
+<!-- signature:end -->
 
 ## Links
 

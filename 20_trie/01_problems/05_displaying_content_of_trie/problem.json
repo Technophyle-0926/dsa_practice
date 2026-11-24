@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/trie-display-content/",
   "practice": null,
   "function": {
-    "name": "displayingContentTrie",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "displayTrieContents",
+    "params": [
+      {
+        "name": "words",
+        "type": "List<String>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Insert words into a trie and return all stored keys in lexicographic order."
   },
-  "example": null
+  "example": {
+    "call": "displayTrieContents([\"their\", \"there\", \"answer\", \"any\", \"bye\"])",
+    "expected": "[\"answer\", \"any\", \"bye\", \"their\", \"there\"]"
+  }
 }

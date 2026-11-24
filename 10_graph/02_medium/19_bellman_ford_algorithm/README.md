@@ -30,13 +30,19 @@ Output: [-1]
 Explanation: The graph contains a negative weight cycle formed by the path 1 → 2 → 3 → 1, where the total weight of the cycle is negative.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bellmanFordAlgorithm(/* not set yet */)
+List<int> bellmanFord(int V, List<List<int>> edges, int src)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Directed edges [u, v, w]; unreachable vertices get 100000000; return [-1] if a negative cycle exists.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bellmanFord(5, [[0, 1, 5], [1, 2, 1], [1, 3, 2], [2, 4, 1], [4, 3, -1]], 0)` → `[0, 5, 6, 6, 7]`
+<!-- signature:end -->
 
 ## Links
 

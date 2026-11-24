@@ -28,6 +28,7 @@ Output: 3
 Explanation: The sum on the left of index 3 is -7 + 1 + 5 = -1 and sum on the right of index 3 is -4 + 3 + 0 = -1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int equilibriumIndex(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `equilibriumIndex([1, 2, 0, 3])` → `2`
+<!-- signature:end -->
 
 ## Links
 

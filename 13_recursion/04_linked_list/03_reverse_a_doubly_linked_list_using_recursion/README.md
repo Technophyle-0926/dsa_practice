@@ -9,13 +9,17 @@ Given a doubly linked list. Reverse it using recursion.
 We have discussed
 Iterative solution to reverse a Doubly Linked List
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reverseDoublyLinkedListRecursion(/* not set yet */)
+DListNode? reverseDoublyLinkedList(DListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseDoublyLinkedList(DListNode.fromList([1, 2, 3, 4]))` → `4 <-> 3 <-> 2 <-> 1`
+<!-- signature:end -->
 
 ## Links
 

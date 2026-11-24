@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/delete-a-node-in-a-doubly-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1",
   "function": {
-    "name": "deleteDoublyLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteAtPositionDll",
+    "params": [
+      {
+        "name": "head",
+        "type": "DListNode?"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      }
+    ],
+    "returns": "DListNode?",
+    "verified": true,
+    "note": "Delete the node at 1-based position pos (covers beginning, middle and end) and return the head."
   },
   "example": null
 }

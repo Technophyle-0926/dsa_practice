@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/clone-directed-acyclic-graph/",
   "practice": null,
   "function": {
-    "name": "cloneDirectedAcyclicGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "cloneDag",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Build node objects from adj, deep-clone the DAG, and return the clone's adjacency list (must equal the input)."
   },
-  "example": null
+  "example": {
+    "call": "cloneDag([[1, 2], [2, 3, 4], [3], [4], []])",
+    "expected": "[[1, 2], [2, 3, 4], [3], [4], []]"
+  }
 }

@@ -17,13 +17,19 @@ Output: [[0, 1, 2], [3, 4], [5]]
 Explanation: There are 3 different Strongly Connected Components. They are {0, 1, 2}, {3, 4}, {5}.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic tarjansAlgorithmStronglyConnectedComponents(/* not set yet */)
+List<List<int>> tarjanScc(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each component sorted ascending; components sorted by their smallest vertex.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `tarjanScc([[1], [2], [0, 3], [4], [3, 5], []])` → `[[0, 1, 2], [3, 4], [5]]`
+<!-- signature:end -->
 
 ## Links
 

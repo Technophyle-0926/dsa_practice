@@ -28,13 +28,17 @@ Output: 3
 Explanation: The graph has one cycle among nodes 0, 1, and 2, so removing one edge forms a spanning tree. Since the cycle has 3 edges, removing any one gives 3 possible spanning trees.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic totalSpanningTrees(/* not set yet */)
+int countSpanningTrees(int v, List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countSpanningTrees(4, [[0, 1, 0, 0], [1, 0, 1, 0], [0, 1, 0, 1], [0, 0, 1, 0]])` → `1`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,13 +26,19 @@ Output : Currency  Count
 This problem is a simple variation of coin change problem. Here Greedy approach works as the given system is canonical (Please refer this and this for details)
 Below is the program implementation to find the number of notes:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String minNotesGivenSum(int n)
+List<List<int>> minNotesGivenSum(int n)
 ```
 
+> **Note:** Return [denomination, count] pairs for denominations used (count > 0), from highest to lowest, using {2000, 500, 200, 100, 50, 20, 10, 5, 1}.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minNotesGivenSum(800)` → `[[500, 1], [200, 1], [100, 1]]`
+<!-- signature:end -->
 
 ## Links
 

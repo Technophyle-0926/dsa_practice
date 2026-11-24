@@ -39,6 +39,7 @@ For the prefix "a", the matching contacts are "alex" and "alice".
 For the prefix "al", both contacts still match. They are returned in lexicographical increasing order.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -46,6 +47,9 @@ List<List<String>> implementPhoneDirectory(List<String> contact, String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `implementPhoneDirectory(["geeikistest", "geeksforgeeks", "geeksfortest"], "geeips")` → `[["geeikistest", "geeksforgeeks", "geeksfortest"], ["geeikistest", "geeksforgeeks", "geeksfortest"], ["geeikistest", "geeksforgeeks", "geeksfortest"], ["geeikistest"], ["0"], ["0"]]`
+<!-- signature:end -->
 
 ## Links
 

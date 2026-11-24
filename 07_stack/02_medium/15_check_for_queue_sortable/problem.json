@@ -10,7 +10,7 @@
     "name": "checkQueueSortable",
     "params": [
       {
-        "name": "Queue",
+        "name": "q",
         "type": "List<int>"
       }
     ],
@@ -19,6 +19,6 @@
   },
   "example": {
     "call": "checkQueueSortable([5, 1, 2, 3, 4])",
-    "expected": "Yes"
+    "expected": "true"
   }
 }

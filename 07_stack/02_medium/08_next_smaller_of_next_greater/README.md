@@ -21,6 +21,7 @@ Input  : arr[] = [4, 8, 2, 1, 9, 5, 6, 3]
 Output :  [2,  5,  5,  5, -1,  3, -1, -1]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ List<int> nextSmallerNextGreater(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nextSmallerNextGreater([5, 1, 9, 2, 5, 1, 7])` → `[2, 2, -1, 1, -1, -1, -1]`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,6 +22,7 @@ Output: 4
 Explanation: Arithmetic Progression subsequences from the given array are: [], [10], [20], [10, 20].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int countApSubsequences(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countApSubsequences([1, 2, 3])` → `8`
+<!-- signature:end -->
 
 ## Links
 

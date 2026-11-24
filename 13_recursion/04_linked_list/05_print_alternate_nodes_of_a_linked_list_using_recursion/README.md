@@ -22,13 +22,19 @@ Output : 10
 - If flag is odd print the node
 - increase head and flag by 1, and recurse for next nodes.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? printAlternateNodesLinkedList(ListNode? head)
+List<int> alternateNodes(ListNode? head)
 ```
 
+> **Note:** Values of the 1st, 3rd, 5th, ... nodes.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `alternateNodes(ListNode.fromList([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))` → `[1, 3, 5, 7, 9]`
+<!-- signature:end -->
 
 ## Links
 

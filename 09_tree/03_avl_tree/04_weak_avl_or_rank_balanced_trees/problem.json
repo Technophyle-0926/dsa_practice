@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/weak-avl-or-rank-balanced-trees/",
   "practice": null,
   "function": {
-    "name": "weakAvlOrRankBalanced",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "buildWeakAvlTree",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "Tutorial; canonical task: insert keys in order into a weak AVL (rank-balanced) tree and return the root (with insertions only its shape equals an AVL tree's)."
   },
-  "example": null
+  "example": {
+    "call": "buildWeakAvlTree([10, 20, 30, 40, 50, 25])",
+    "expected": "[30, 20, 40, 10, 25, null, 50]"
+  }
 }

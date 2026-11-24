@@ -22,6 +22,7 @@ Output: 3
 Explanation: 100 = 10^2, 6^2 + 8^2 and 1^2 + 3^2 + 4^2 + 5^2 + 7^2 Hence total 3 possibilities.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int findWaysIntegerCanBe(int n, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findWaysIntegerCanBe(10, 2)` → `1`
+<!-- signature:end -->
 
 ## Links
 

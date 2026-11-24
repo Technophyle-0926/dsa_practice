@@ -8,9 +8,26 @@
   "practice": null,
   "function": {
     "name": "findSiblingsNAryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Siblings in their child order; empty list if x is the root or absent. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "findSiblingsNAryTree(10, {10: [20, 30, 40], 40: [90, 100, 110]}, 100)",
+    "expected": "[90, 110]"
+  }
 }

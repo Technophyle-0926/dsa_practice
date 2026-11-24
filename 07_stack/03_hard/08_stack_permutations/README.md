@@ -34,6 +34,7 @@ Output: false
 Explanation: After pushing 1, 2, and 3, we can pop 3 as required. But the next element in b[] is 1, while the stack top is 2. Since 1 is blocked under 2, this order cannot be achieved.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ bool stackPermutations(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stackPermutations([1, 2, 3], [2, 1, 3])` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/reverse-delete-algorithm-minimum-spanning-tree/",
   "practice": null,
   "function": {
-    "name": "reverseDeleteAlgorithmMinimumSpanning",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "reverseDeleteMst",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Undirected edges [u, v, w]; return the total weight of the MST built by reverse delete."
   },
-  "example": null
+  "example": {
+    "call": "reverseDeleteMst(9, [[0, 1, 4], [0, 7, 8], [1, 2, 8], [1, 7, 11], [2, 3, 7], [2, 8, 2], [2, 5, 4], [3, 4, 9], [3, 5, 14], [4, 5, 10], [5, 6, 2], [6, 7, 1], [6, 8, 6], [7, 8, 7]])",
+    "expected": "37"
+  }
 }

@@ -18,13 +18,17 @@ Input : arr[] = [5, 7, 2, 7, 5, 2, 5]
 Output : 5                                                                                                                                                                                                                 Explanation : In the second array, only 5 occurs an odd number of times (3 times), so the answer is 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic oddOccurringNumber(List<int> arr)
+int oddOccurringNumber(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `oddOccurringNumber([1, 2, 3, 2, 3, 1, 3])` → `3`
+<!-- signature:end -->
 
 ## Links
 

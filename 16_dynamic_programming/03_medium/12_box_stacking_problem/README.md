@@ -32,6 +32,7 @@ Explanation: One possible arrangement of the boxes from bottom to top is shown b
 Hence, the total height of this stack is 4 + 6 + 1 + 1 + 3 = 15. No other combination of boxes produces a height greater than this.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ int boxStackingProblem(List<int> height, List<int> width, List<int> length)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `boxStackingProblem([4, 1, 4, 10], [6, 2, 5, 12], [7, 3, 6, 32])` → `60`
+<!-- signature:end -->
 
 ## Links
 

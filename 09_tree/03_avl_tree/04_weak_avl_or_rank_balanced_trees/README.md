@@ -45,13 +45,19 @@ This rotates the subtree rooted at 8 to the right, and the subtree rooted at 6 t
 
 Weak AVL trees are similar to regular AVL trees in that they are self-balancing, but they are less strict in their balancing criteria. This can make them faster to insert into and delete from, but at the cost of potentially lower performance for certain operations.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic weakAvlOrRankBalanced(/* not set yet */)
+TreeNode? buildWeakAvlTree(List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: insert keys in order into a weak AVL (rank-balanced) tree and return the root (with insertions only its shape equals an AVL tree's).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `buildWeakAvlTree([10, 20, 30, 40, 50, 25])` → `[30, 20, 40, 10, 25, null, 50]`
+<!-- signature:end -->
 
 ## Links
 

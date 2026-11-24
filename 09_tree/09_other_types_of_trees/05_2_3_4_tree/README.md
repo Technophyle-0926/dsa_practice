@@ -8,13 +8,19 @@ A **2-3-4 tree** is a self-balancing tree. The number represents the number of c
 
 **Note:** It is a B-tree of degree four and all leaf nodes at the same level
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic solve234Tree(/* not set yet */)
+List<bool> tree234Search(List<int> keys, List<int> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert keys into a 2-3-4 tree in order, then return for each query whether it is present.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `tree234Search([10, 20, 30, 40, 50], [30, 35])` → `[true, false]`
+<!-- signature:end -->
 
 ## Links
 

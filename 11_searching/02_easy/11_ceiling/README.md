@@ -30,6 +30,7 @@ Output: 0
 Explanation: Smallest number greater than 0 is 1, whose indices are 0 and 1. The index of the first occurrence is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ int ceiling(List<int> arr, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ceiling([1, 2, 8, 10, 11, 12, 19], 5)` → `2`
+<!-- signature:end -->
 
 ## Links
 

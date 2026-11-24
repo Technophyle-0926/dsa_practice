@@ -22,13 +22,19 @@ Explanation:
 Binary representation of N is "11001". Therefore, all the required subsets are {"11001", "11000", "10001", "10000", "01001", "01000", "0001", "0000"}.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> printAllSubmasksGivenMask(int N)
+List<int> printAllSubmasksGivenMask(int n)
 ```
 
+> **Note:** All non-zero submasks of n in descending order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printAllSubmasksGivenMask(5)` → `[5, 4, 1]`
+<!-- signature:end -->
 
 ## Links
 

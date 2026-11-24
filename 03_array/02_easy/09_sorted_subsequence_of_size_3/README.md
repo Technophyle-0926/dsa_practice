@@ -21,13 +21,19 @@ Input: arr[] = [4, 3, 2, 1]
 Output: No such triplet exists.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> sortedSubsequenceSize3(List<int> arr)
 ```
 
+> **Note:** Return any valid triplet [a[i], a[j], a[k]], or [] if none exists.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortedSubsequenceSize3([12, 11, 10, 5, 6, 2, 30])` → `[5, 6, 30]`
+<!-- signature:end -->
 
 ## Links
 

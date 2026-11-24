@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/pairwise-swap-elements-of-a-given-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1",
   "function": {
-    "name": "swapNodesPairs",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "swapPairs",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "swapPairs(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "2 -> 1 -> 4 -> 3 -> 5"
+  }
 }

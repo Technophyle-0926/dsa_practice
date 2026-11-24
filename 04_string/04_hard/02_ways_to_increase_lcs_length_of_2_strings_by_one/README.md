@@ -27,6 +27,7 @@ Explanation: The LCS length of the given two strings is 3. There are 4 valid ins
 "abcabcd" -> LCS = 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int waysIncreaseLcsLength2(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waysIncreaseLcsLength2("abab", "abc")` → `3`
+<!-- signature:end -->
 
 ## Links
 

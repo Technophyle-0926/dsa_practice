@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/huffman-coding-greedy-algo-3/",
   "practice": "https://www.geeksforgeeks.org/problems/huffman-encoding3345/1",
   "function": {
-    "name": "huffmanCoding",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "huffmanCodes",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "freq",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "GfG convention: repeatedly merge the two smallest nodes (first popped becomes left, ties keep insertion order); return the codes of the leaves in preorder traversal (left = 0, right = 1)."
   },
-  "example": null
+  "example": {
+    "call": "huffmanCodes(\"abcdef\", [5, 9, 12, 13, 16, 45])",
+    "expected": "[0, 100, 101, 1100, 1101, 111]"
+  }
 }

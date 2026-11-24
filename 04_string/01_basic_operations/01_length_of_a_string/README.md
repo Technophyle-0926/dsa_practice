@@ -23,6 +23,7 @@ Input: s = ""
 Output: 0
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int lengthString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lengthString("abc")` → `3`
+<!-- signature:end -->
 
 ## Links
 

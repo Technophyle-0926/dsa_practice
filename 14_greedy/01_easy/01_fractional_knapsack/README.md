@@ -23,13 +23,19 @@ Output: 166.667
 Explanation: The capacity is 10kg, so we will take 1/3 fraction of the 30kg item. Hence, total value will be (1/3) * 500 = 166.667.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int fractionalKnapsack(List<int> val, List<int> wt, int capacity)
+double fractionalKnapsack(List<int> val, List<int> wt, int capacity)
 ```
 
+> **Note:** Returns a double; compared with a small tolerance (e.g. 1e-3).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fractionalKnapsack([60, 100, 120], [10, 20, 30], 50)` → `240.0`
+<!-- signature:end -->
 
 ## Links
 

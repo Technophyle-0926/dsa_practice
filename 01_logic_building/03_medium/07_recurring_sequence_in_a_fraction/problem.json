@@ -7,22 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-recurring-sequence-fraction/",
   "practice": "https://www.geeksforgeeks.org/problems/a-simple-fraction0921/1",
   "function": {
-    "name": "recurringSequenceFraction",
+    "name": "recurringSequence",
     "params": [
       {
-        "name": "Numerator",
+        "name": "numerator",
         "type": "int"
       },
       {
-        "name": "Denominator",
+        "name": "denominator",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Return the recurring digits of the fractional part, or \"\" if there is no recurring sequence."
   },
   "example": {
-    "call": "recurringSequenceFraction(8, 3)",
-    "expected": "Recurring sequence is 6"
+    "call": "recurringSequence(8, 3)",
+    "expected": "\"6\""
   }
 }

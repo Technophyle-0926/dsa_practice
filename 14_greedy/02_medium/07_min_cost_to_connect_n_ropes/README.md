@@ -24,6 +24,7 @@ Output: 0
 Explanation: Since there is only one rope, no connections are needed, so the cost is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int minCostConnectNRopes(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostConnectNRopes([4, 3, 2, 6])` → `29`
+<!-- signature:end -->
 
 ## Links
 

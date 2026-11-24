@@ -122,13 +122,19 @@ This algorithm provides an approximate solution to the Set Cover problem. The ap
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cover(/* not set yet */)
+int minCostSetCover(int n, List<List<int>> sets, List<int> costs)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Universe is {1..n}; return the minimum total cost of a subcollection covering it (-1 if impossible).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostSetCover(5, [[4, 1, 3], [2, 5], [1, 4, 3, 2]], [5, 10, 3])` → `13`
+<!-- signature:end -->
 
 ## Links
 

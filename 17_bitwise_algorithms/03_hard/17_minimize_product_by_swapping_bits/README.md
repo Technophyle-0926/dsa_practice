@@ -28,13 +28,19 @@ Step 2: In elements 3 = (0011) and 4 = (0100), swap 1th bit. Therefore, replace 
 Hence, the minimum product = 1*1*1*6*6*6*7 = 1512 % 1e9+7 = 1512.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int minimizeProductSwappingBits(int N)
+int minimizeProductSwappingBits(int n)
 ```
 
+> **Note:** n is a power of 2; answer modulo 10^9 + 7.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimizeProductSwappingBits(4)` → `6`
+<!-- signature:end -->
 
 ## Links
 

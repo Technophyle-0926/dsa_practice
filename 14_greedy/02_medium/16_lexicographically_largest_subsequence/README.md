@@ -29,6 +29,7 @@ Input: s = "xxyyzz", k = 2
 Output: "zz"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ String lexicographicallyLargestSubsequence(String s, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lexicographicallyLargestSubsequence("banana", 2)` → `"nn"`
+<!-- signature:end -->
 
 ## Links
 

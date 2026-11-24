@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/system-design/lru-cache-implementation/",
   "practice": null,
   "function": {
-    "name": "implementLruCache",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "lruCache",
+    "params": [
+      {
+        "name": "capacity",
+        "type": "int"
+      },
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'put' (args[i] = [key, value]) or 'get' (args[i] = [key]); returns the result of each get (-1 if missing)."
   },
-  "example": null
+  "example": {
+    "call": "lruCache(2, [\"put\", \"put\", \"put\", \"put\", \"put\", \"get\", \"put\", \"get\"], [[1, 2], [2, 3], [1, 5], [4, 5], [6, 7], [4], [1, 2], [3]])",
+    "expected": "[5, -1]"
+  }
 }

@@ -20,6 +20,7 @@ Output: [1, 2, 4, 5, 10, 20, 25, 50, 100]
 Explanation: 1, 2, 4, 5, 10, 20, 25, 50 and 100 are divisors of 100.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> allFactorOrDivisors(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `allFactorOrDivisors(10)` → `[1, 2, 5, 10]`
+<!-- signature:end -->
 
 ## Links
 

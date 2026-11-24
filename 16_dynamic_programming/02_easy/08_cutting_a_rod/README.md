@@ -28,6 +28,7 @@ Output: 3
 Explanation: There is only 1 way to pick a piece of length 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int cuttingRod(List<int> price)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `cuttingRod([1, 5, 8, 9, 10, 17, 17, 20])` → `22`
+<!-- signature:end -->
 
 ## Links
 

@@ -28,6 +28,7 @@ Output: []
 Explanation: There is no triplet with sum 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<List<int>> tripletsZeroSum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `tripletsZeroSum([0, -1, 2, -3, 1])` → `[[0, 1, 4], [2, 3, 4]]`
+<!-- signature:end -->
 
 ## Links
 

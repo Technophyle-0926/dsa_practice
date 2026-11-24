@@ -27,6 +27,7 @@ Output: [1, 4, 2, 3, 5]
 Explanation: The next lexicographically greater arrangement of the elements in the array arr[] is [1, 4, 2, 3, 5].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<int> nextPermutation(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nextPermutation([2, 4, 1, 7, 5, 0])` → `[2, 4, 5, 0, 1, 7]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-length-of-loop-in-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
   "function": {
-    "name": "lengthLoopLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "lengthOfLoop",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "For cyclic test cases the harness links the tail to an earlier node before calling; return 0 if there is no loop."
   },
-  "example": null
+  "example": {
+    "call": "lengthOfLoop(ListNode.fromList([1, 2, 3]))",
+    "expected": "0"
+  }
 }

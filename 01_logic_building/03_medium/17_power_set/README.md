@@ -26,13 +26,19 @@ Output: ["", "a"]
 Explanation: The power set contains the empty string and the string "a" itself.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<String> power(String s)
+List<String> powerSet(String s)
 ```
 
+> **Note:** Subsets keep the original character order; the list may be in any order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `powerSet("ab")` → `["", "a", "b", "ab"]`
+<!-- signature:end -->
 
 ## Links
 

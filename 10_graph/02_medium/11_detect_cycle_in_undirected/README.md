@@ -28,13 +28,17 @@ Output: false
 Explanation: There is no cycle in the given graph.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic detectCycleUndirected(/* not set yet */)
+bool isCyclicUndirected(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isCyclicUndirected([[1, 2], [0, 2], [0, 1, 3], [2]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

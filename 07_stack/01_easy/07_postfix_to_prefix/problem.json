@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/postfix-prefix-conversion/",
   "practice": "https://www.geeksforgeeks.org/problems/postfix-to-prefix-conversion/1",
   "function": {
-    "name": "postfixPrefix",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "postfixToPrefix",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "postfixToPrefix(\"AB+CD-*\")",
+    "expected": "*+AB-CD"
+  }
 }

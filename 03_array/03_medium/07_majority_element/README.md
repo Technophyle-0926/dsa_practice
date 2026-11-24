@@ -26,6 +26,7 @@ Output: -1
 Explanation: No element appears more than ⌊2/2⌋ = 1 time, so there is no majority element.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int majorityElement(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `majorityElement([1, 1, 2, 1, 3, 5, 1])` → `1`
+<!-- signature:end -->
 
 ## Links
 

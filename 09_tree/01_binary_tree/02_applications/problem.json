@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/applications-advantages-and-disadvantages-of-binary-tree/",
   "practice": null,
   "function": {
-    "name": "applications",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sumOfNodes",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tutorial; canonical task: return the sum of all node values (0 for an empty tree)."
   },
-  "example": null
+  "example": {
+    "call": "sumOfNodes(TreeNode.fromLevelOrder([1, 2, 3, 4, 5]))",
+    "expected": "15"
+  }
 }

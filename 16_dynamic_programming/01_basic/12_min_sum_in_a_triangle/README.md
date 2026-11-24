@@ -28,6 +28,7 @@ Output: 15
 Explanation: The path is 3 -> 9 -> 1 -> 2, which results in a minimum sum of 3 + 9 + 1 + 2 = 15.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int minSumTriangle(List<List<int>> triangle)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minSumTriangle([[2], [3, 7], [8, 5, 6], [6, 1, 9, 3]])` → `11`
+<!-- signature:end -->
 
 ## Links
 

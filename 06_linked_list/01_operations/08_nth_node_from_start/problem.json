@@ -7,18 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/write-a-function-to-get-nth-node-in-a-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1",
   "function": {
-    "name": "nthNodeStart",
+    "name": "nthNodeFromStart",
     "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
       {
         "name": "k",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "k is 1-based; return -1 if the k-th node does not exist."
   },
   "example": {
-    "call": "nthNodeStart(6)",
-    "expected": "-1"
+    "call": "nthNodeFromStart(ListNode.fromList([1, 2, 3, 4, 5]), 3)",
+    "expected": "3"
   }
 }

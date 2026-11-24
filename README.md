@@ -13,7 +13,7 @@ dart run tool/start.dart --user <your-github-username>   # once
 dart run tool/next.dart                 # opens your next problem (or: next array / next array easy)
 dart run tool/start.dart array basic 5  # or open a specific one (also: start reverse array)
 # ...write the solution, run it with the command it prints...
-dart run tool/submit.dart               # sends your solutions to GitHub
+dart run tool/submit.dart               # sends your solutions; GitHub checks + merges them (~1 min)
 dart run tool/progress.dart --me        # your progress
 ```
 
@@ -33,7 +33,7 @@ New here? Read **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 lib/ds.dart                      ListNode, DListNode, TreeNode helpers
 tool/start.dart                  creates your solution file from the signature
 tool/next.dart                   opens your next unsolved problem
-tool/submit.dart                 commits + pushes your solutions and opens the pull request
+tool/submit.dart                 sends your solutions; GitHub checks and merges them automatically
 tool/progress.dart               builds PROGRESS.md, progress/<user>.md and the "Solved by" columns
 ```
 

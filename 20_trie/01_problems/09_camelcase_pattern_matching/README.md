@@ -21,6 +21,7 @@ Output: []
 Explanation: None of the words matches the given pattern.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ List<String> camelcasePatternMatching(List<String> arr, String pat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `camelcasePatternMatching(["WelcomeGeek", "WelcomeToGeeksForGeeks", "GeeksForGeeks", "WayToGo"], "WTG")` → `[ "WelcomeToGeeksForGeeks", "WayToGo" ]`
+<!-- signature:end -->
 
 ## Links
 

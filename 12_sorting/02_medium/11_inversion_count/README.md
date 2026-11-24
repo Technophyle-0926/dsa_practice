@@ -28,6 +28,7 @@ Output: 0
 Explanation: There is no pair of indexes (i, j) exists in the given array such that arr[i] > arr[j] and i < j
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int inversionCount(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `inversionCount([4, 3, 2, 1])` → `6`
+<!-- signature:end -->
 
 ## Links
 

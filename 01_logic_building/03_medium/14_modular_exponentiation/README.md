@@ -20,6 +20,7 @@ Output: 4
 Explanation: 2^6 % 10 = 64 % 10 = 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int modularExponentiation(int x, int n, int M)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `modularExponentiation(3, 2, 4)` → `1`
+<!-- signature:end -->
 
 ## Links
 

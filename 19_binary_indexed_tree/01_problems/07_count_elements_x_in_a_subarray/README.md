@@ -20,13 +20,19 @@ Number of elements less than or equal to
 2 in arr[0..2] is 1 (only 2)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic countElementsXSubarray(/* not set yet */)
+List<int> countElementsAtMostX(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query [l, r, x] (0-based inclusive) counts elements <= x in arr[l..r].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countElementsAtMostX([2, 3, 4, 5], [[0, 3, 5], [0, 2, 2]])` → `[4, 1]`
+<!-- signature:end -->
 
 ## Links
 

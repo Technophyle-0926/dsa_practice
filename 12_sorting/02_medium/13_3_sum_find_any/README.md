@@ -28,6 +28,7 @@ Output: false
 Explanation:  No triplet in the array sums to 24.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ bool solve3SumFindAny(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve3SumFindAny([1, 4, 45, 6, 10, 8], 13)` → `true`
+<!-- signature:end -->
 
 ## Links
 

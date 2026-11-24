@@ -19,13 +19,17 @@ Input: s = "ab cd"
 Output: ab%20cd
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic urlifyGivenString(String s)
+String urlify(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `urlify("i love programming")` → `"i%20love%20programming"`
+<!-- signature:end -->
 
 ## Links
 

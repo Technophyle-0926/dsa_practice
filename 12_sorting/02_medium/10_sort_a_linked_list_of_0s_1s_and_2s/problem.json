@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/sort-a-linked-list-of-0s-1s-or-2s/",
   "practice": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1",
   "function": {
-    "name": "sortLinkedList0s1s",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sortLinkedList012",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "sortLinkedList012(ListNode.fromList([1, 2, 2, 1, 2, 0, 2, 2]))",
+    "expected": "0 -> 1 -> 1 -> 2 -> 2 -> 2 -> 2 -> 2"
+  }
 }

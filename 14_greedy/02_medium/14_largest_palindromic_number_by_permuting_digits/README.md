@@ -22,6 +22,7 @@ Output : ""
 Explanation: Palindrome is not possible.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ String largestPalindromicNumberPermutingDigits(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestPalindromicNumberPermutingDigits("313551")` → `"531135"`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,13 +20,17 @@ Output : YesInput : n = 5
 Output : Yes
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cProgramImplementCollatzConjecture(int n)
+bool collatzReachesOne(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `collatzReachesOne(4)` → `true`
+<!-- signature:end -->
 
 ## Links
 

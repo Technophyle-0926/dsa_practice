@@ -23,6 +23,6 @@
   },
   "example": {
     "call": "reorderAccordingGivenIndexes([10, 11, 12], [1, 0, 2])",
-    "expected": "11 10 12"
+    "expected": "[11, 10, 12]"
   }
 }

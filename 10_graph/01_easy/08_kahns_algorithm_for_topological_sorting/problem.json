@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/topological-sorting-indegree-based-solution/",
   "practice": "https://www.geeksforgeeks.org/problems/topological-sort/1",
   "function": {
-    "name": "kahnsAlgorithmTopologicalSorting",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kahnTopologicalSort",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Any valid topological ordering is accepted."
   },
-  "example": null
+  "example": {
+    "call": "kahnTopologicalSort([[1], [2], [], [2, 4], []])",
+    "expected": "[0, 3, 1, 4, 2]"
+  }
 }

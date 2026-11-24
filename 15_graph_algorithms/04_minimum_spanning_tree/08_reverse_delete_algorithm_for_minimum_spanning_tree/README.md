@@ -28,13 +28,17 @@ We continue this way and following edges remain in final MST.
 
 **Note :** In case of same weight edges, we can pick any edge of the same weight edges.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reverseDeleteAlgorithmMinimumSpanning(/* not set yet */)
+int reverseDeleteMst(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** edges[i] = [u, v, w], 0-based undirected connected graph; return the total weight of the MST found by reverse-delete.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

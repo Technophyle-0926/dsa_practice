@@ -25,6 +25,7 @@ Output: No
 Explanation: We can update or modify only 1 value but there is a need of modifying 2 characters. i.e. g and f in str 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool checkKAnagrams(String str1, String str2, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkKAnagrams("anagram", "grammar", 3)` → `true`
+<!-- signature:end -->
 
 ## Links
 

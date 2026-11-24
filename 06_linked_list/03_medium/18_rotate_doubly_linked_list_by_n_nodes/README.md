@@ -32,13 +32,19 @@ Output:
 Explanation: After rotating the list by p = 3, the new head will be the node with value 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rotateDoublyLinkedListN(/* not set yet */)
+DListNode? rotateDoublyLinkedList(DListNode? head, int p)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Rotate counter-clockwise (left) by p nodes.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rotateDoublyLinkedList(DListNode.fromList([1, 2, 3, 4, 5, 6]), 2)` → `3 <-> 4 <-> 5 <-> 6 <-> 1 <-> 2`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output : 2
 Explanation: 5^2 = 25 for k = 2. First digit is 2 in 25
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int kThDigitB(int a, int b, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kThDigitB(3, 3, 1)` → `7`
+<!-- signature:end -->
 
 ## Links
 

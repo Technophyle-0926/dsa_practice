@@ -28,6 +28,7 @@ Output: 11
 Explanation: Minimum cost to connect all the cities is 11
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int minimumCostConnectAllCities(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumCostConnectAllCities([[1, 2, 1], [1, 3, 2], [1, 4, 3], [1, 5, 4], [2, 3, 5], [2, 5, 7], [3, 4, 6]])` → `10`
+<!-- signature:end -->
 
 ## Links
 

@@ -31,13 +31,19 @@ Explanation: We need to generate all possible combinations of size 3 from an arr
 ^4C_3 = 4! / [(4 - 3)! × 3!] = 4 combinations.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> printAllPossibleCombinationsR(List<int> arr, int r)
+List<List<int>> combinationsOfR(List<int> arr, int r)
 ```
 
+> **Note:** Combinations listed in index order as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `combinationsOfR([1, 2, 3, 4], 2)` → `[[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]`
+<!-- signature:end -->
 
 ## Links
 

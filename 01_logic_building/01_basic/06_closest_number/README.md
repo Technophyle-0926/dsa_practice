@@ -20,6 +20,7 @@ Output: -18
 Explanation: Both -12 and -18 are closest to -15, but -18 has the maximum absolute value.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int closestNumber(int n, int m)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `closestNumber(13, 4)` → `12`
+<!-- signature:end -->
 
 ## Links
 

@@ -6,13 +6,19 @@
 
 A binary tree is a tree that has at most two children for any of its nodes. There are several types of binary trees. To learn more about them please refer to the article on "**Types of binary tree**"
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic applications(/* not set yet */)
+int sumOfNodes(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: return the sum of all node values (0 for an empty tree).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumOfNodes(TreeNode.fromLevelOrder([1, 2, 3, 4, 5]))` → `15`
+<!-- signature:end -->
 
 ## Links
 

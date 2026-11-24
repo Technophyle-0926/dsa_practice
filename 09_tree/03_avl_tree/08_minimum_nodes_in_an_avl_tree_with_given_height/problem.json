@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-number-of-nodes-in-an-avl-tree-with-given-height/",
   "practice": null,
   "function": {
-    "name": "minimumNodesAvlTreeGiven",
+    "name": "minNodesAvlTree",
     "params": [
       {
-        "name": "H",
+        "name": "h",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "int",
+    "verified": true,
+    "note": "Height of a single node is 0."
   },
   "example": {
-    "call": "minimumNodesAvlTreeGiven(0)",
-    "expected": "N = 1"
+    "call": "minNodesAvlTree(0)",
+    "expected": "1"
   }
 }

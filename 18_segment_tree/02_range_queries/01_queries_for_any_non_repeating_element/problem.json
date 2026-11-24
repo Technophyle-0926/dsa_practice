@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/queries-to-check-if-any-non-repeating-element-exists-within-range-l-r-of-an-array/",
   "practice": null,
   "function": {
-    "name": "queriesAnyNonRepeatingElement",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "anyNonRepeatingQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Queries [L, R] are 1-based inclusive; answer \"Yes\" if some element occurs exactly once in the range."
   },
-  "example": null
+  "example": {
+    "call": "anyNonRepeatingQueries([1, 2, 1, 2, 3, 4], [[1, 4], [1, 5]])",
+    "expected": "[\"No\", \"Yes\"]"
+  }
 }

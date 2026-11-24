@@ -26,13 +26,19 @@ Output : Less than k non-repeating characters in input.
 
 This problem is mainly an extension of the First non-repeating character problem.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 String kthNonRepeatingCharacter(String str, int k)
 ```
 
+> **Note:** k is 1-based; return "" if there are fewer than k non-repeating characters.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthNonRepeatingCharacter("geeksforgeeks", 3)` → `"r"`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,6 +22,7 @@ Output:  false
 Explanation: 5 is represented as 101 in binary and bit at position 1 is not set.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ bool checkIfKThBit(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkIfKThBit(7, 2)` → `true`
+<!-- signature:end -->
 
 ## Links
 

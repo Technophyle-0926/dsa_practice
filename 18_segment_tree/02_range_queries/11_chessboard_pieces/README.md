@@ -35,13 +35,19 @@ Output : 0
 - Query4 : Change the color to its opposite color in [0, 3], A[] = { 1, 0, 0, 1 }
 - Query5 : Number of black pieces in [0, 3] = 2
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic chessboardPieces(/* not set yet */)
+List<int> chessboardPieces(int n, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** All n pieces start white; [1, l, r] flips colors in [l, r]; [2, l, r] counts black pieces; return answers of type-2 queries.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `chessboardPieces(4, [[2, 0, 3], [1, 1, 2], [2, 0, 1], [1, 0, 3], [2, 0, 3]])` → `[0, 1, 2]`
+<!-- signature:end -->
 
 ## Links
 

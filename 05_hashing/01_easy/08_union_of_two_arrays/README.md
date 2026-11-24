@@ -22,6 +22,7 @@ Output : [1, 2, 3, 4, 5, 6]
 Explanation: 1, 2, 3, 4, 5 and 6 are the elements present in either array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> unionTwoArrays(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `unionTwoArrays([1, 2, 3, 2, 1], [3, 2, 2, 3, 3, 2])` → `[3, 2, 1]`
+<!-- signature:end -->
 
 ## Links
 

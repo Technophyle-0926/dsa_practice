@@ -14,13 +14,17 @@ IPv4 addresses are canonically represented in dot-decimal notation, which consis
 A valid IPv4 Address is of the form x1.x2.x3.x4 where 0 <= (x1, x2, x3, x4) <= 255. Thus, we can write the generalized form of an IPv4 address as (0-255).(0-255).(0-255).(0-255)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic validateIpAddress(/* not set yet */)
+bool isValidIpv4(String s)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isValidIpv4("172.16.254.1")` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -19,6 +19,7 @@ Input: n = 17
 Output: 0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9, 24, 8
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ List<int> recamansSequence(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recamansSequence(6)` → `[0, 1, 3, 6, 2, 7]`
+<!-- signature:end -->
 
 ## Links
 

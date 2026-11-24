@@ -18,11 +18,12 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Returns [a, b] after the merge."
   },
   "example": {
     "call": "mergeWithoutExtraSpace([2, 4, 7, 10], [2, 3])",
-    "expected": "a[] = [2, 2, 3, 4], b[] = [7, 10]"
+    "expected": "[[2, 2, 3, 4], [7, 10]]"
   }
 }

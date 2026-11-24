@@ -18,13 +18,19 @@ It picks the minimum weighted edge at first and the maximum weighted edge at las
 
 The graph contains 9 vertices and 14 edges. So, the minimum spanning tree formed will be having (9 - 1) = 8 edges.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic kruskalsMinimumSpanningTreeAlgorithm(/* not set yet */)
+int kruskalsMst(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v, w]; return the total MST weight.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kruskalsMst(9, [[0, 1, 4], [0, 7, 8], [1, 2, 8], [1, 7, 11], [2, 3, 7], [2, 8, 2], [2, 5, 4], [3, 4, 9], [3, 5, 14], [4, 5, 10], [5, 6, 2], [6, 7, 1], [6, 8, 6], [7, 8, 7]])` → `37`
+<!-- signature:end -->
 
 ## Links
 

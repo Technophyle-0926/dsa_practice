@@ -34,6 +34,7 @@ Output: false
 Explanation: The element 2 is not present in the array, so the output is false.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ bool ternarySearch(List<int> arr, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ternarySearch([1, 2, 3, 4, 6], 6)` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -14,15 +14,16 @@
         "type": "List<int>"
       },
       {
-        "name": "K",
+        "name": "k",
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "int",
+    "verified": true,
+    "note": "Return -1 if no two elements can be made equal."
   },
   "example": {
     "call": "minimumOrOperations([1, 9, 4, 3], 3)",
-    "expected": "1 We can OR a[0] with x, which makes it 3 which is equal to a[3]"
+    "expected": "1"
   }
 }

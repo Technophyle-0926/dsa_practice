@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-product-spanning-tree/",
   "practice": null,
   "function": {
-    "name": "minimumProductSpanningTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minProductSpanningTree",
+    "params": [
+      {
+        "name": "graph",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "graph is a weighted adjacency matrix (0 = no edge, weights positive); return the minimum product of spanning-tree edge weights."
   },
-  "example": null
+  "example": {
+    "call": "minProductSpanningTree([[0, 2, 0, 6, 0], [2, 0, 3, 8, 5], [0, 3, 0, 0, 7], [6, 8, 0, 0, 9], [0, 5, 7, 9, 0]])",
+    "expected": "180"
+  }
 }

@@ -14,13 +14,17 @@ Below are steps to solve the problem.
 - Now let's see how can we find the prime factorization of a number, we firstly build an array, **smallest_prime[]**, which stores the smallest prime divisor of **i** at **i^th** index, we divide a number by its smallest prime divisor to obtain a new number (we also have the smallest prime divisor of this new number stored), we keep doing it until the smallest prime of the number changes, when the smallest prime factor of the new number is different from the previous number's, we have k_i for the i^th prime number in the prime factorization of the given number.
 - Finally, we obtain the number of divisors for all the numbers and store these in a segment tree that maintains the maximum numbers in the segments. We respond to each query by querying the segment tree.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic queryingMaximumNumberDivisors(/* not set yet */)
+List<int> maxDivisorsInRange(List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query [l, r]; return the maximum divisor count of any x with l <= x <= r.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

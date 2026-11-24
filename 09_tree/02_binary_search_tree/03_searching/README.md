@@ -24,13 +24,17 @@ Output: false
 Explanation: 14 is not present in the BST.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic searching(/* not set yet */)
+bool searchBst(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchBst(TreeNode.fromLevelOrder([6, 2, 8, null, null, 7, 9]), 7)` → `true`
+<!-- signature:end -->
 
 ## Links
 

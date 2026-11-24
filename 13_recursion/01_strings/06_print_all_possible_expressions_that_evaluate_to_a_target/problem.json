@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-all-possible-expressions-that-evaluate-to-a-target/",
   "practice": "https://www.geeksforgeeks.org/problems/expression-add-operators/1",
   "function": {
-    "name": "printAllPossibleExpressionsThat",
+    "name": "expressionsForTarget",
     "params": [
       {
         "name": "digits",
@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Return expressions sorted lexicographically; empty list if none."
   },
   "example": {
-    "call": "printAllPossibleExpressionsThat(\"124\", 9)",
-    "expected": "[“1+2*4”]"
+    "call": "expressionsForTarget(\"124\", 9)",
+    "expected": "[\"1+2*4\"]"
   }
 }

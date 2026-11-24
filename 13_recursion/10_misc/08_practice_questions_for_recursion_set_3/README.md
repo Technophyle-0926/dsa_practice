@@ -11,13 +11,19 @@ If n is negative, the function is returned immediately.
 
 **Question 2 :** Predict the output of the following program. What does the following fun() do in general?
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsRecursion3(/* not set yet */)
+List<int> doublingSequence(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implement Question 1's fun2(n) with LIMIT = 1000: return the printed values (n, 2n, 4n, ... while < LIMIT, then the same in reverse); empty list if n <= 0.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `doublingSequence(100)` → `[100, 200, 400, 800, 800, 400, 200, 100]`
+<!-- signature:end -->
 
 ## Links
 

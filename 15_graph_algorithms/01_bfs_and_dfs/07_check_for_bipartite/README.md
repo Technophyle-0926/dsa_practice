@@ -31,13 +31,17 @@ Output: false
 Explanation: The vertices form a triangle, so it is not possible to color them using two colors without two adjacent vertices having the same color.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkBipartite(/* not set yet */)
+bool isBipartite(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isBipartite([[1], [0, 2], [1]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

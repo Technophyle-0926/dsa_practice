@@ -20,6 +20,7 @@ Output: 4
 Explanation: The steps taken are +1, +2, +3 and +4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int minimumStepsReachDestination(int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumStepsReachDestination(2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

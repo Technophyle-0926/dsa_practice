@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/delete-linked-list-using-recursion/",
   "practice": null,
   "function": {
-    "name": "deleteLinkedListRecursion",
+    "name": "deleteLinkedList",
     "params": [
       {
         "name": "head",
         "type": "ListNode?"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Delete every node recursively and return the (now empty) head, i.e. null."
   },
   "example": {
-    "call": "deleteLinkedListRecursion(ListNode.fromList([1, 2, 3, 4, 5]))",
-    "expected": "NULL"
+    "call": "deleteLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "null"
   }
 }

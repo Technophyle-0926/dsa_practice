@@ -14,12 +14,13 @@
         "type": "List<int>"
       },
       {
-        "name": "K",
+        "name": "k",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Return -1 if no two elements can be made equal."
   },
   "example": {
     "call": "minimumXorOperations([1, 9, 4, 3], 3)",

@@ -8,9 +8,19 @@
   "practice": null,
   "function": {
     "name": "johnsonsAlgorithm",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Directed edges [u, v, w] (negative weights allowed, no negative cycles); return the V x V all-pairs shortest distances, 100000000 if unreachable."
   },
   "example": null
 }

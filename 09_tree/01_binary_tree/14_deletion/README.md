@@ -28,13 +28,19 @@ Input : key = 20
 Output:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletion(/* not set yet */)
+TreeNode? deleteNodeBinaryTree(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Replace the key's value with the deepest rightmost node (last in level order) and remove that node; return the root (unchanged if key absent).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteNodeBinaryTree(TreeNode.fromLevelOrder([10, 20, 30]), 10)` → `[30, 20]`
+<!-- signature:end -->
 
 ## Links
 

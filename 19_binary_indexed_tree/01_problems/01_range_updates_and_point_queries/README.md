@@ -29,13 +29,19 @@ Explanation: Array after first update becomes
               {2, 2, 2, 5, 5}
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rangeUpdatesPointQueries(/* not set yet */)
+List<int> rangeUpdatePointQuery(int n, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Array of n zeros; [1, l, r, val] adds val to [l, r]; [2, i] asks arr[i]; return type-2 answers.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeUpdatePointQuery(5, [[1, 0, 4, 2], [2, 3], [1, 3, 4, 3], [2, 3]])` → `[2, 5]`
+<!-- signature:end -->
 
 ## Links
 

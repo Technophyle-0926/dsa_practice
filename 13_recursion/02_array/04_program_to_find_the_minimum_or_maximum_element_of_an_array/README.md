@@ -20,13 +20,19 @@ Output: Minimum element of array: 2
                Maximum element of array: 11
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic programFindMinimumOrMaximum(List<int> arr)
+List<int> minAndMax(List<int> arr)
 ```
 
+> **Note:** Returns [minimum, maximum].
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minAndMax([1, 423, 6, 46, 34, 23, 13, 53, 4])` → `[1, 423]`
+<!-- signature:end -->
 
 ## Links
 

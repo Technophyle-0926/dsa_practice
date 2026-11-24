@@ -20,6 +20,7 @@ Output: ["000", "001", "011", "010", "110", "111", "101", "100"]
 Explanation: The sequence starts with 000, and every consecutive pair of codes differs by exactly one bit.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<String> generateNBitGrayCodes(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `generateNBitGrayCodes(2)` → `["00", "01", "11", "10"]`
+<!-- signature:end -->
 
 ## Links
 

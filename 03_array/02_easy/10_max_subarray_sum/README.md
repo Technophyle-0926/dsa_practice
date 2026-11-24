@@ -26,6 +26,7 @@ Output: 25
 Explanation: The subarray [5, 4, 1, 7, 8] has the largest sum 25.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int maxSubarraySum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxSubarraySum([2, 3, -8, 7, -1, 2, 3])` → `11`
+<!-- signature:end -->
 
 ## Links
 

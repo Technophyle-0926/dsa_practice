@@ -28,13 +28,19 @@ Output: [2, 1, 3, N, N, N, 6, 4]
 Explanation: After inserting the node 4, the new tree will be [2, 1, 3, N, N, N, 6, 4].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertion(/* not set yet */)
+TreeNode? insertBst(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert as a new leaf; if key already exists return the tree unchanged.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `insertBst(TreeNode.fromLevelOrder([2, 1, 3]), 4)` → `[2, 1, 3, null, null, null, 4]`
+<!-- signature:end -->
 
 ## Links
 

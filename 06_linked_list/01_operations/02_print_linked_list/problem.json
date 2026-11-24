@@ -8,9 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/print-linked-list-elements/1",
   "function": {
     "name": "printLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "printLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "[1, 2, 3, 4, 5]"
+  }
 }

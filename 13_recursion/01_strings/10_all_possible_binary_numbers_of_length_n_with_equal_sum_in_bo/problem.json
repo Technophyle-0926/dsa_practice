@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/all-possible-binary-numbers-of-length-n-with-equal-sum-in-both-halves/",
   "practice": null,
   "function": {
-    "name": "allPossibleBinaryNumbersLength",
+    "name": "equalSumHalvesBinaryNumbers",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Ascending lexicographic order; for odd n the middle bit may be 0 or 1."
   },
   "example": {
-    "call": "allPossibleBinaryNumbersLength(4)",
-    "expected": "0000 0101 0110 1001 1010 1111"
+    "call": "equalSumHalvesBinaryNumbers(4)",
+    "expected": "[0000, 0101, 0110, 1001, 1010, 1111]"
   }
 }

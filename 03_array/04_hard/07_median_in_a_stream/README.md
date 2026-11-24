@@ -35,6 +35,7 @@ After reading 3rd element of stream - 2, 2, 2 -> median = 2
 After reading 4th element of stream - 2, 2, 2, 2 ->  median = (2+2)/2 = 2
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -42,6 +43,9 @@ List<double> medianStream(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `medianStream([5, 15, 1, 3, 2, 8])` → `[5.00, 10.00, 5.00, 4.00, 3.00, 4.00]`
+<!-- signature:end -->
 
 ## Links
 

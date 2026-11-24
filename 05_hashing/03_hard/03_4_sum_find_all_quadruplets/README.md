@@ -34,13 +34,19 @@ arr[0] + arr[2] + arr[3] + arr[4] = 4
 arr[1] + arr[2] + arr[3] + arr[4] = 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> solve4SumFindAllQuadruplets(List<int> arr, int target)
+List<List<int>> solve4SumFindAllQuadruplets(List<int> arr, int target)
 ```
 
+> **Note:** Each quadruplet is sorted indices [i, j, k, l]; quadruplets in lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve4SumFindAllQuadruplets([1, 5, 3, 1, 2, 10], 20)` → `[[1, 2, 4, 5]]`
+<!-- signature:end -->
 
 ## Links
 

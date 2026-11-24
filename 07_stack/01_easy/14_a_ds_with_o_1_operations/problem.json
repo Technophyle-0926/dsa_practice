@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/create-customized-data-structure-evaluates-functions-o1/",
   "practice": null,
   "function": {
-    "name": "dsO1Operations",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minStackOperations",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'add' (args[i] = [x]), 'removeLast', 'getLast' or 'getMin' (args[i] = []); returns the result of every getLast and getMin call in order, -1 when empty."
   },
-  "example": null
+  "example": {
+    "call": "minStackOperations([\"add\", \"add\", \"getMin\", \"getLast\", \"removeLast\", \"getLast\"], [[5], [3], [], [], [], []])",
+    "expected": "[3, 3, 5]"
+  }
 }

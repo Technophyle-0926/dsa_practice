@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/merge-sort-tree-for-range-order-statistics/",
   "practice": null,
   "function": {
-    "name": "mergeSortTreeRangeOrder",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kthSmallestInRange",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query is [start, end, k] with 1-based inclusive indices; return the k-th smallest in each range."
   },
-  "example": null
+  "example": {
+    "call": "kthSmallestInRange([3, 2, 5, 1, 8, 9], [[2, 5, 2], [1, 6, 4]])",
+    "expected": "[2, 5]"
+  }
 }

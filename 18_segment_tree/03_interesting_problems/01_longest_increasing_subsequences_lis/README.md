@@ -20,6 +20,7 @@ Output: 2
 Explanation: The length of the longest increasing subsequence is 4, and there are 2 longest increasing subsequences of length 4, i.e. {1, 3, 4, 7} and {1, 3, 5, 7}.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int longestIncreasingSubsequencesLis(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestIncreasingSubsequencesLis([2, 2, 2, 2, 2])` → `5`
+<!-- signature:end -->
 
 ## Links
 

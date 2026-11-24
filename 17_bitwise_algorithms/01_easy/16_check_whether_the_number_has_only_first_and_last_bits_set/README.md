@@ -18,6 +18,7 @@ Output: false
 Explanation: (15)_10 = (1111)_2, except first and last there are other bits also which are set.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ bool checkWhetherNumberHasOnly(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkWhetherNumberHasOnly(9)` → `true`
+<!-- signature:end -->
 
 ## Links
 

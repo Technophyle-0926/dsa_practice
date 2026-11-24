@@ -20,13 +20,17 @@ Output: 5 -> 4 -> 3 -> 2 -> 1
 Explanation: After reversing the linked list
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reverseSinglyLinkedList(/* not set yet */)
+ListNode? reverseLinkedList(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))` → `5 -> 4 -> 3 -> 2 -> 1`
+<!-- signature:end -->
 
 ## Links
 

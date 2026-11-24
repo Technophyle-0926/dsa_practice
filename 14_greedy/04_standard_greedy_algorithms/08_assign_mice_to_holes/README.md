@@ -19,6 +19,7 @@ Input : mices[] = [1, 2], holes[] = [20, 10]
 Output : 18
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int assignMiceHoles(List<int> mices, List<int> holes)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `assignMiceHoles([4, -4, 2], [4, 0, 5])` → `4`
+<!-- signature:end -->
 
 ## Links
 

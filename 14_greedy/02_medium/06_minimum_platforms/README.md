@@ -22,6 +22,7 @@ Output: 1
 Explanation: Only 1 platform is required for all the three trains because the departure time of each train is less then arrival time of next train.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minimumPlatforms(List<int> arr, List<int> dep)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumPlatforms([1000, 935, 1100], [1200, 1240, 1130])` → `3`
+<!-- signature:end -->
 
 ## Links
 

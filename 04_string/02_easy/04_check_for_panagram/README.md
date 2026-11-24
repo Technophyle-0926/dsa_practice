@@ -20,6 +20,7 @@ Output: false
 Explanation: The input string does not contain all characters from 'a' to 'z', as 'l', 'z', 'y' are missing
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool checkPanagram(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkPanagram("The quick brown fox jumps over the lazy dog")` → `true`
+<!-- signature:end -->
 
 ## Links
 

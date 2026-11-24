@@ -25,6 +25,7 @@ For the second query, from l=2 to r=4, no number has frequency at least 2.
 For the third query, from l=4 to r=4, no number has frequency at least 2
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ List<int> mosAlgorithm(List<int> arr, List<List<int>> queries, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mosAlgorithm([1, 1, 2, 1, 3], [[1, 5], [2, 4]], 1)` → `[3, 2]`
+<!-- signature:end -->
 
 ## Links
 

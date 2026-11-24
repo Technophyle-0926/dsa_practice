@@ -32,6 +32,7 @@ Output: "Cannot be rearranged"
 Explanation: It's impossible to rearrange the characters of the string such that 'a' appears more than once and still respects the required distance of 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ String rearrangeStringSoThatAll(String s, int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rearrangeStringSoThatAll("abb", 2)` → `"bab"`
+<!-- signature:end -->
 
 ## Links
 

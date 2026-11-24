@@ -12,13 +12,19 @@ The stack should support the following operations:
 push(x): Insert element x onto the top of the stack.pop(): Remove the element from the top of the stack. If the stack is empty, do nothing.top(): Return the element at the top of the stack. If the stack is empty, return -1.size(): Return the number of elements in the stack.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic stackQueues(/* not set yet */)
+List<int> stackUsingQueues(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'push' (args[i] = [x]), 'pop', 'top' or 'size' (args[i] = []); returns the result of every top and size call in order (top gives -1 on an empty stack, pop on empty does nothing).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stackUsingQueues(["push", "push", "top", "pop", "size"], [[1], [2], [], [], []])` → `[2, 1]`
+<!-- signature:end -->
 
 ## Links
 

@@ -24,13 +24,19 @@ Output: -1
 Explanation: Key is not present in the above Binary tree.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic levelGivenNodeTree(/* not set yet */)
+int levelOfNode(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The root is at level 1; return -1 if key is not in the tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `levelOfNode(TreeNode.fromLevelOrder([3, 2, 5, 1, 4]), 4)` → `3`
+<!-- signature:end -->
 
 ## Links
 

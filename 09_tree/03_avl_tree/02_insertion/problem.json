@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/insertion-in-an-avl-tree/",
   "practice": "https://www.geeksforgeeks.org/problems/avl-tree-insertion/1",
   "function": {
-    "name": "insertion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "buildAvlTree",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "Insert keys in order into an initially empty AVL tree (duplicates ignored) and return the root."
   },
-  "example": null
+  "example": {
+    "call": "buildAvlTree([10, 20, 30, 40, 50, 25])",
+    "expected": "[30, 20, 40, 10, 25, null, 50]"
+  }
 }

@@ -29,6 +29,7 @@ Output: 4
 Explanation: In the following example, all cells allow signals to propagate to both the stations.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int pacificAtlanticWaterFlow(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pacificAtlanticWaterFlow([[1, 2, 2, 3, 5], [3, 2, 3, 4, 4], [2, 4, 5, 3, 1], [6, 7, 1, 4, 5], [5, 1, 1, 2, 4]])` → `7`
+<!-- signature:end -->
 
 ## Links
 

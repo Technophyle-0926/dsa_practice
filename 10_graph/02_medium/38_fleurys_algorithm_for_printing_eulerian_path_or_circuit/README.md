@@ -38,13 +38,19 @@ Output: 0
 Before diving into this approach, it's highly recommended to explore this comprehensive article on Eulerian Path and Circuit. Please refer to this Link: **Eulerian path and circuit for undirected graph**
 The article clearly explains the fundamentals and conditions for identifying whether a graph contains an Eulerian Path or Eulerian Circuit, laying a strong foundation for the solution we’re about to implement.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic fleurysAlgorithmPrintingEulerianPath(/* not set yet */)
+List<List<int>> fleuryEulerTour(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the traversed edges [u, v] in order; start at the smallest odd-degree vertex (else 0), try neighbours in adj order, and return [] if no Eulerian path/circuit exists.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fleuryEulerTour([[1, 2, 3], [0, 2], [0, 1], [0, 4], [3]])` → `[[4, 3], [3, 0], [0, 1], [1, 2], [2, 0]]`
+<!-- signature:end -->
 
 ## Links
 

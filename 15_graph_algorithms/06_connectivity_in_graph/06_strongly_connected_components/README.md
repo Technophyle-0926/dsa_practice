@@ -22,13 +22,17 @@ Output: 1
 Explanation: All of the nodes are connected to each other. So, there's only one SCC.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic stronglyConnectedComponents(/* not set yet */)
+int countStronglyConnectedComponents(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countStronglyConnectedComponents([[1], [2], [0, 3], [4], [3, 5], []])` → `3`
+<!-- signature:end -->
 
 ## Links
 

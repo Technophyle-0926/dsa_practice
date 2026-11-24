@@ -15,6 +15,7 @@ Input : n = 15
 Output : No
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -22,6 +23,9 @@ bool recursiveProgramPrimeNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recursiveProgramPrimeNumber(11)` → `true`
+<!-- signature:end -->
 
 ## Links
 

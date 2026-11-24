@@ -18,13 +18,19 @@ Output: Minimum of [0, 4] is 0
 
 Try multiple methods: a 2D lookup table (O(n²) preprocessing), Square Root Decomposition, and Sparse Table (O(1) query).
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rangeMinimumQuery(/* not set yet */)
+List<int> rangeMinimumQuery(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query [L, R] is 0-based inclusive; array is static.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeMinimumQuery([7, 2, 3, 0, 5, 10, 3, 12, 18], [[0, 4], [4, 7], [7, 8]])` → `[0, 3, 12]`
+<!-- signature:end -->
 
 ## Links
 

@@ -42,6 +42,7 @@ After a right circular rotation by 10 positions,  it becomes: 0000001011000000,
 which is 704 in decimal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -49,6 +50,9 @@ List<int> rotateBits(int n, int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rotateBits(28, 2)` → `[112, 7]`
+<!-- signature:end -->
 
 ## Links
 

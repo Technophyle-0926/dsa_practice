@@ -38,6 +38,7 @@ We update max length by comparing the following two:
 - Current-Length + Previous-Length .
 - **Result = return max-length+1** (// add 1 for flip bit count )
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -45,6 +46,9 @@ int longestSequence1sBinaryOne(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestSequence1sBinaryOne(1775)` → `8`
+<!-- signature:end -->
 
 ## Links
 

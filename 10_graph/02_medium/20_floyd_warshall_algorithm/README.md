@@ -35,13 +35,19 @@ Explanation:
 Each cell dist[i][i] in the output shows the shortest distance from node `i` to node `j`, computed by considering all possible intermediate nodes using the Floyd-Warshall algorithm.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic floydWarshallAlgorithm(/* not set yet */)
+List<List<int>> floydWarshall(List<List<int>> dist)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** INF is 100000000 and stays 100000000 for unreachable pairs.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `floydWarshall([[0, 4, 100000000, 5, 100000000], [100000000, 0, 1, 100000000, 6], [2, 100000000, 0, 3, 100000000], [100000000, 100000000, 1, 0, 2], [1, 100000000, 100000000, 4, 0]])` → `[[0, 4, 5, 5, 7], [3, 0, 1, 4, 6], [2, 6, 0, 3, 5], [3, 7, 1, 0, 2], [1, 5, 5, 4, 0]]`
+<!-- signature:end -->
 
 ## Links
 

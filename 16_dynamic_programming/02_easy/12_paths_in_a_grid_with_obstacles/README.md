@@ -27,6 +27,7 @@ Output: 0
 Explanation: There is no possible path to reach the end.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int pathsGridObstacles(List<List<int>> grid)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pathsGridObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]])` → `2`
+<!-- signature:end -->
 
 ## Links
 

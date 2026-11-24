@@ -20,6 +20,7 @@ Output: -1
 Explanation: 3 is not present in array.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int searchSortedInfinite(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchSortedInfinite([3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170], 10)` → `4`
+<!-- signature:end -->
 
 ## Links
 

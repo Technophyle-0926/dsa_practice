@@ -36,6 +36,7 @@ Explanation:
 Binary representation is '11', so the count of the set bit is 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -43,6 +44,9 @@ int countBits(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countBits(6)` → `2`
+<!-- signature:end -->
 
 ## Links
 

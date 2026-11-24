@@ -26,6 +26,7 @@ Output: false
 Explanation: There is no pair with sum 45.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool pairSumSortedRotated(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pairSumSortedRotated([11, 15, 6, 8, 9, 10], 16)` → `true`
+<!-- signature:end -->
 
 ## Links
 

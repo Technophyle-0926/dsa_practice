@@ -25,6 +25,7 @@ Output: 2
 Explanation: 1 and 2 both appear two times, so return 2 as it's value is bigger.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int mostFrequentElement(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mostFrequentElement([1, 3, 2, 1, 4, 1])` → `1`
+<!-- signature:end -->
 
 ## Links
 

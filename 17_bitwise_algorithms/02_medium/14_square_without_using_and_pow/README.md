@@ -21,6 +21,7 @@ Output: 144
 
 A **Simple Solution** is to repeatedly add n to result.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int squareWithoutPow(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `squareWithoutPow(5)` → `25`
+<!-- signature:end -->
 
 ## Links
 

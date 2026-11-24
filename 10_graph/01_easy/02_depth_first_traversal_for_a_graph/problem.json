@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1",
   "function": {
-    "name": "depthFirstTraversalGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "dfsOfGraph",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Undirected edges; neighbours are visited in edge insertion order, starting from 0 and restarting from the smallest unvisited vertex for other components."
   },
-  "example": null
+  "example": {
+    "call": "dfsOfGraph(5, [[0, 1], [0, 2], [1, 2], [2, 3], [2, 4]])",
+    "expected": "[0, 1, 2, 3, 4]"
+  }
 }

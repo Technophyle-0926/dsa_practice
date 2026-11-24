@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/biconnected-components/",
   "practice": null,
   "function": {
-    "name": "biconnectedComponents",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countBiconnectedComponents",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "edges[i] = [u, v] undirected, 0-based; return the number of biconnected components (the article prints each component's edges)."
   },
   "example": null
 }

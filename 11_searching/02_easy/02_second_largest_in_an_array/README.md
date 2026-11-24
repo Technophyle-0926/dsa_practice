@@ -28,6 +28,7 @@ Output: -1
 Explanation: The largest element of the array is 10 there is no second largest element.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int secondLargestArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `secondLargestArray([12, 35, 1, 10, 34, 1])` → `34`
+<!-- signature:end -->
 
 ## Links
 

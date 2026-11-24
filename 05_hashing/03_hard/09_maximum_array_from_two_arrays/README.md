@@ -28,6 +28,7 @@ From b[], add remaining top element: 9.
 Resulting array: [6, 7, 5, 9].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> maximumArrayTwoArrays(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumArrayTwoArrays([9, 7, 2, 3, 6], [7, 4, 8, 0, 1])` → `[9, 7, 6, 4, 8]`
+<!-- signature:end -->
 
 ## Links
 

@@ -27,13 +27,19 @@ Output: -1
 Explanation:  Parent of the target node i.e. 1 is -1, since it is the root node.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findParent(/* not set yet */)
+int findParent(TreeNode? root, int target)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Node values are unique; return the parent's value, or -1 if target is the root (or absent).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findParent(TreeNode.fromLevelOrder([1, 2, 3, 4, 5]), 3)` → `1`
+<!-- signature:end -->
 
 ## Links
 

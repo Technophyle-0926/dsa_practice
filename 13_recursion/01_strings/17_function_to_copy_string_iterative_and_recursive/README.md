@@ -20,13 +20,19 @@ Output : s2 = "geeksforgeeks"
 
 **Iterative:** Copy every character from s1 to s2 starting from index = 0 and in each call increase the index by 1 until s1 doesn't reach to end;
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic functionCopyStringIterativeRecursive(String s1, String s2)
+String copyString(String s1, String s2)
 ```
 
+> **Note:** Returns s2 after s1 has been copied into it.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `copyString("hello", "geeksforgeeks")` → `"hello"`
+<!-- signature:end -->
 
 ## Links
 

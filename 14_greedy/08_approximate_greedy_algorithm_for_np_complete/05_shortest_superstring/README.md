@@ -27,6 +27,7 @@ Two strings are overlapping if prefix of one string is same suffix of other stri
 
 **Working of above Algorithm:**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ String shortestSuperstring(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestSuperstring(["geeks", "quiz", "for"])` → `geeksquizfor`
+<!-- signature:end -->
 
 ## Links
 

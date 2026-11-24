@@ -26,13 +26,19 @@ Following are two basic rotation operations that can be performed to balance a B
 
 ### Illustration of Insertion at AVL Tree:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertion(/* not set yet */)
+TreeNode? buildAvlTree(List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert keys in order into an initially empty AVL tree (duplicates ignored) and return the root.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `buildAvlTree([10, 20, 30, 40, 50, 25])` → `[30, 20, 40, 10, 25, null, 50]`
+<!-- signature:end -->
 
 ## Links
 

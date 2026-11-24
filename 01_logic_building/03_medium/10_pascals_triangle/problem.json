@@ -8,9 +8,18 @@
   "practice": null,
   "function": {
     "name": "pascalsTriangle",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the first n rows, row i having i + 1 entries."
   },
-  "example": null
+  "example": {
+    "call": "pascalsTriangle(4)",
+    "expected": "[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1]]"
+  }
 }

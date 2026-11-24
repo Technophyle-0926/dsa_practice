@@ -81,13 +81,19 @@ pos = lo + ((x - arr[lo]) * (hi - lo)) / (arr[hi] - arr[lo])
 - If arr[pos] < x, recursively search the right subarray; otherwise, search the left subarray.
 - Repeat until the element is found or the search range becomes invalid.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic interpolationSearch(/* not set yet */)
+int interpolationSearch(List<int> arr, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted; returns the 0-based index of x, or -1 if not present.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `interpolationSearch([10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47], 18)` → `4`
+<!-- signature:end -->
 
 ## Links
 

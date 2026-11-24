@@ -19,10 +19,11 @@
       }
     ],
     "returns": "String",
-    "verified": true
+    "verified": true,
+    "note": "k is 1-based; return \"\" if there are fewer than k non-repeating characters."
   },
   "example": {
     "call": "kthNonRepeatingCharacter(\"geeksforgeeks\", 3)",
-    "expected": "r"
+    "expected": "\"r\""
   }
 }

@@ -30,13 +30,19 @@ In the worst case, we have to do n/m jumps, and if the last checked value is gre
 Once a value greater than the target is found, perform a linear search starting from the previous step until the target is found or it is clear that the target is not in the array.
 If the target is found, return its index. If not, return -1 to indicate that the target was not found in the array.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic jumpSearch(/* not set yet */)
+int jumpSearch(List<int> arr, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted; returns the 0-based index of x, or -1 if not present.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `jumpSearch([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610], 55)` → `10`
+<!-- signature:end -->
 
 ## Links
 

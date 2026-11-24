@@ -14,11 +14,12 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Expected output comes from one left-to-right pass swapping arr[i] and arr[i-1] (1-based) whenever the condition at i fails."
   },
   "example": {
     "call": "makeEvenPositionedGreater([1, 2, 2, 1])",
-    "expected": "[1 2 1 2]"
+    "expected": "[1, 2, 1, 2]"
   }
 }

@@ -18,6 +18,7 @@ Output : 0
 Explanation: There are no common elements between the arrays.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int minimumRemovalsNoCommon(List<int> arr, List<int> arr2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumRemovalsNoCommon([2, 3, 4, 5, 8], [1, 2, 3, 4])` → `3`
+<!-- signature:end -->
 
 ## Links
 

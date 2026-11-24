@@ -18,6 +18,7 @@ Output: [1, 2, 3, 4, 5, 6]
 Explanation: The array is already sorted, so it remains unchanged.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ List<int> sortArray1N(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortArray1N([2, 1, 5, 4, 3])` → `[1, 2, 3, 4, 5]`
+<!-- signature:end -->
 
 ## Links
 

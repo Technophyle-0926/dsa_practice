@@ -24,6 +24,7 @@ Output: 0
 Explanation: It is not possible to make the sums of all three stacks equal by removing elements from their tops.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int maxEqualSumThreeStacks(List<int> s1, List<int> s2, List<int> s3)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxEqualSumThreeStacks([3, 2, 1, 1, 1], [4, 3, 2], [2, 5, 4, 1])` → `5`
+<!-- signature:end -->
 
 ## Links
 

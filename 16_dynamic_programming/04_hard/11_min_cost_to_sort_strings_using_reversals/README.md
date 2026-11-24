@@ -25,6 +25,7 @@ Output: -1
 Explanation: No combination of reversals can make the array sorted in lexicographic order. Even reversing all strings results in ["abc", "acb", "aaa"], which is also not sorted. Hence, the output is -1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int minCostSortStringsReversals(List<String> arr, List<int> cost)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostSortStringsReversals(["aa", "ba", "ac"], [1, 3, 1])` → `1`
+<!-- signature:end -->
 
 ## Links
 

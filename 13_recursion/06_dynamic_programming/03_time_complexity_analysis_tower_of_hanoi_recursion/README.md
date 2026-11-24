@@ -90,13 +90,19 @@ for 5 disks i.e. n=5 It will take 2^5-1=31 moves.
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic timeComplexityAnalysisTowerHanoi(/* not set yet */)
+int towerOfHanoiMoves(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Returns the number of moves T(n) = 2T(n-1) + 1 = 2^n - 1 for 3-rod Tower of Hanoi.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `towerOfHanoiMoves(3)` → `7`
+<!-- signature:end -->
 
 ## Links
 

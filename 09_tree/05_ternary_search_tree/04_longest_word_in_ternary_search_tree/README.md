@@ -23,13 +23,19 @@ Prerequisite : Ternary Search Tree
 The idea is to recursively search the max of left subtree, right subtree and equal tree.
 If the current character is same as the root's character increment with 1.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String longestWordTernarySearchTree(List<String> arr)
+int longestWordTernarySearchTree(List<String> words)
 ```
 
+> **Note:** Returns the length of the longest word stored in the tree.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestWordTernarySearchTree(["Prakriti", "Raghav", "Rashi", "Sunidhi"])` → `8`
+<!-- signature:end -->
 
 ## Links
 

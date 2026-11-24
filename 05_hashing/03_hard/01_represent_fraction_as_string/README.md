@@ -18,6 +18,7 @@ Output: "2.(27)"
 Explanation: 50/22 = 2.27272727... Since fractional part (27) is repeating, it is enclosed in parentheses.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ String representFractionAsString(int a, int b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `representFractionAsString(1, 2)` → `"0.5"`
+<!-- signature:end -->
 
 ## Links
 

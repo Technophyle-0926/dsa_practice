@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "depthNAryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Depth counts nodes on the longest root-to-leaf path. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "depthNAryTree(81, {81: [26, 23, 49], 26: [95, 86]})",
+    "expected": "3"
+  }
 }

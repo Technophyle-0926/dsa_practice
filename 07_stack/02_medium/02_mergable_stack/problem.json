@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "mergableStack",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'push' (args[i] = [s, x]), 'pop' (args[i] = [s]) or 'merge' (args[i] = [s1, s2]: s2's stack is placed on top of s1's and s2 becomes empty); stacks are identified by small integer ids; returns every popped value, -1 when empty."
   },
-  "example": null
+  "example": {
+    "call": "mergableStack([\"push\", \"push\", \"push\", \"merge\", \"pop\", \"pop\"], [[0, 1], [0, 2], [1, 3], [0, 1], [0], [0]])",
+    "expected": "[3, 2]"
+  }
 }

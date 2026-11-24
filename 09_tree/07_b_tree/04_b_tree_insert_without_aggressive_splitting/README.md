@@ -34,13 +34,19 @@ Note that now the root is full. If we insert 17 now, the root is not split as th
 But if we insert 31, the leaf node splits, which recursively adds new entry to root. But as root is full, it needs to be split. The tree now becomes.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bTreeInsertWithoutAggressive(/* not set yet */)
+List<List<int>> bTreeInsertLazySplit(int t, List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Split only on overflow: a node reaching 2t keys keeps the first t, sends the (t+1)-th up and moves the last t-1 to a new node. The tree is returned level by level, left to right, one List<int> of keys per node.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bTreeInsertLazySplit(3, [1, 2, 3, 4, 5, 6])` → `[[4], [1, 2, 3], [5, 6]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -14,11 +14,12 @@
         "type": "String"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Ordered by start index, then by increasing length."
   },
   "example": {
     "call": "generateAllSubstrings(\"abc\")",
-    "expected": "\"a\", \"ab\", \"abc\", \"b\", \"bc\", \"c\""
+    "expected": "[\"a\", \"ab\", \"abc\", \"b\", \"bc\", \"c\"]"
   }
 }

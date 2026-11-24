@@ -8,13 +8,19 @@ The bisect module is used to locate positions in a sorted list and insert elemen
 
 The bisect module mainly offers two types of functionalities, as listed below:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bisectPython(/* not set yet */)
+List<int> bisectLeftRight(List<int> arr, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** arr is sorted; return [bisect_left(arr, x), bisect_right(arr, x)].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bisectLeftRight([1, 3, 4, 4, 4, 6, 7], 4)` → `[2, 5]`
+<!-- signature:end -->
 
 ## Links
 

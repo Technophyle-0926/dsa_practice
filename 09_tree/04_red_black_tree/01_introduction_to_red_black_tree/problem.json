@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-red-black-tree/",
   "practice": null,
   "function": {
-    "name": "introductionRedBlackTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isRedBlackTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "colors",
+        "type": "Map<int, String>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Tutorial; colors maps each node value to \"R\" or \"B\"; check BST order, black root, no red node with a red child, and equal black count on every root-to-NIL path."
   },
-  "example": null
+  "example": {
+    "call": "isRedBlackTree(TreeNode.fromLevelOrder([10, 5, 20]), {10: \"B\", 5: \"R\", 20: \"R\"})",
+    "expected": "true"
+  }
 }

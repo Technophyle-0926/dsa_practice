@@ -32,6 +32,7 @@ Total numbers of possible solutions are 70
 1. Make a recursive function call to countSolutions(int n, int val)
 2. Call this Solution function countSolutions(n-1, val-i) until n = 1 and val >=0 and then return 1.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ int numberNonNegativeIntegralSolutions(int n, int val)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `numberNonNegativeIntegralSolutions(5, 1)` → `5`
+<!-- signature:end -->
 
 ## Links
 

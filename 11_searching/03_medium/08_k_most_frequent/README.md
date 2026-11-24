@@ -22,6 +22,7 @@ Output: [5, 11, 7, 10]
 Explanation: Frequency of 5 is 3, frequency of 11 is 2, frequency of 7 is 2, and frequency of rest is 1  but 10 is largest .
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> kMostFrequent(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kMostFrequent([3, 1, 4, 4, 5, 2, 6, 1], 2)` → `[4, 1]`
+<!-- signature:end -->
 
 ## Links
 

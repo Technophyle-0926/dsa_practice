@@ -22,6 +22,7 @@ None of the pairs on concatenation result in Pandigital
 Concatenations.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int pairsPandigitalConcatenation(List<String> numValue)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pairsPandigitalConcatenation(["123567", "098234", "14765", "19804"])` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/detect-negative-cycle-graph-bellman-ford/",
   "practice": "https://www.geeksforgeeks.org/problems/negative-weight-cycle3504/1",
   "function": {
-    "name": "negativeCycleGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isNegativeWeightCycle",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Directed edges [u, v, w]."
   },
-  "example": null
+  "example": {
+    "call": "isNegativeWeightCycle(4, [[0, 3, 6], [1, 0, 4], [1, 2, 6], [3, 1, 2]])",
+    "expected": "false"
+  }
 }

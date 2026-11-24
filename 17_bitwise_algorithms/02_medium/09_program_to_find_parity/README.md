@@ -33,13 +33,19 @@ Above solution can be optimized by using lookup table. Please refer to Bit Twidd
 
 **Another approach:** (Using built-in-function)
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic programFindParity(/* not set yet */)
+int getParity(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return 1 if n has an odd number of set bits (odd parity), else 0.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `getParity(13)` → `1`
+<!-- signature:end -->
 
 ## Links
 

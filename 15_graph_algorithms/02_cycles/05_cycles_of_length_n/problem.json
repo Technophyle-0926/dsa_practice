@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/cycles-of-length-n-in-an-undirected-and-connected-graph/",
   "practice": null,
   "function": {
-    "name": "cyclesLengthN",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countCyclesOfLengthN",
+    "params": [
+      {
+        "name": "graph",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "graph is an undirected adjacency matrix; each simple cycle with n vertices is counted once."
   },
-  "example": null
+  "example": {
+    "call": "countCyclesOfLengthN([[0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 0], [1, 0, 1, 0, 1], [0, 1, 0, 1, 0]], 4)",
+    "expected": "3"
+  }
 }

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/check-if-a-linked-list-is-circular-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/circular-linked-list/1",
   "function": {
-    "name": "checkIfCircular",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isCircular",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "For circular test cases the harness links the tail back to head before calling; an empty list counts as circular."
   },
-  "example": null
+  "example": {
+    "call": "isCircular(ListNode.fromList([2, 4, 6, 7, 5, 1]))",
+    "expected": "false"
+  }
 }

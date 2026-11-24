@@ -87,13 +87,17 @@ To read more about Deletion at the end Refer, Deletion at end (Removal of last n
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletingGivenKey(/* not set yet */)
+ListNode? deleteKey(ListNode? head, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Delete the first node whose value equals key (list unchanged if absent) and return the head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

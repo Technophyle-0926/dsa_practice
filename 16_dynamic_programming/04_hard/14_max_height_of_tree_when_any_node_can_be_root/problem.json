@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/maximum-height-of-tree-when-any-node-can-be-considered-as-root/",
   "practice": null,
   "function": {
-    "name": "maxHeightTreeWhenAny",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxHeightAnyRoot",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tree with nodes 1..n, edges[i] = [u, v]; height is counted in edges; return the max height over all choices of root."
   },
   "example": null
 }

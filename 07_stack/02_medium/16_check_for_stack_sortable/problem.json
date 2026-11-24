@@ -19,6 +19,6 @@
   },
   "example": {
     "call": "checkStackSortable([4, 1, 3, 2])",
-    "expected": "Yes"
+    "expected": "true"
   }
 }

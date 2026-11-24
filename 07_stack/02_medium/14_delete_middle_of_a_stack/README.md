@@ -22,13 +22,19 @@ Output: [40, 30, 10]
 Explanation: The bottom-most element will be 10 and the top-most element will be 40. Middle element will be element at index 2 from bottom, which is 20. Deleting 20, stack will look like [10, 30, 40].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> deleteMiddleStack(List<int> s)
 ```
 
+> **Note:** Input is listed bottom to top; return the resulting stack listed top to bottom, as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteMiddleStack([10, 20, 30, 40, 50])` → `[50, 40, 20, 10]`
+<!-- signature:end -->
 
 ## Links
 

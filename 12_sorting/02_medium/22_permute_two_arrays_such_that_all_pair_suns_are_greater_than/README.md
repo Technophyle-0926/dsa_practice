@@ -21,6 +21,7 @@ Explanation: Even after rearranging both arrays, at least one pair sum becomes l
 Hence, no valid permutation exists, and the answer is false.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ bool permuteTwoArraysSuchThat(List<int> a, List<int> b, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `permuteTwoArraysSuchThat([2, 1, 3], [7, 8, 9], 10)` → `true`
+<!-- signature:end -->
 
 ## Links
 

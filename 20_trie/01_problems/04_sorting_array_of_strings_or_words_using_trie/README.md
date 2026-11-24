@@ -21,13 +21,19 @@ Output : a be can computer data fire for geeks
 
 Trie is an efficient data structure used for storing data like strings. To print the string in alphabetical order we have to first insert in the trie and then perform preorder traversal to print in alphabetical order.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String sortingArrayStringsOrWords(String s, String s2, String s3)
+List<String> sortWordsUsingTrie(List<String> words)
 ```
 
+> **Note:** Sorted alphabetically with duplicates removed.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortWordsUsingTrie(["abc", "xy", "bcd"])` → `["abc", "bcd", "xy"]`
+<!-- signature:end -->
 
 ## Links
 

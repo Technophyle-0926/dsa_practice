@@ -26,6 +26,7 @@ Output: [2, 5]
 Explanation: 1/5 + 3/15 = 2/5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> addTwoFractions(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `addTwoFractions([1, 2], [3, 2])` → `[2, 1]`
+<!-- signature:end -->
 
 ## Links
 

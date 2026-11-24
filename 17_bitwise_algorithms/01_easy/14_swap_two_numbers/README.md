@@ -23,13 +23,19 @@ Input: a = 10, b = 10
 Output: 10 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> swapTwoNumbers(int a, int b)
 ```
 
+> **Note:** Return [a, b] after swapping, i.e. [b, a].
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `swapTwoNumbers(2, 3)` → `[3, 2]`
+<!-- signature:end -->
 
 ## Links
 

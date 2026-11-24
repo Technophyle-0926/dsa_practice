@@ -20,6 +20,7 @@ Output: "efcdba"
 Explanation: The first character a moves to last position, the second character b moves to second-last and so on.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ String reverseString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseString("GeeksforGeeks")` → `"skeeGrofskeeG"`
+<!-- signature:end -->
 
 ## Links
 

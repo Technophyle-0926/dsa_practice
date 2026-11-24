@@ -26,6 +26,7 @@ Output : true
 Explanation: 2^0 = 1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ bool powerTwo(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `powerTwo(16)` → `true`
+<!-- signature:end -->
 
 ## Links
 

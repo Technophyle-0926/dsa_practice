@@ -18,12 +18,13 @@
         "type": "int"
       },
       {
-        "name": "Edges",
+        "name": "edges",
         "type": "List<List<int>>"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Nodes are 1-based."
   },
   "example": {
     "call": "numberSinkNodesGraph(4, 2, [[2, 3], [4, 3]])",

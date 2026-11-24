@@ -20,6 +20,7 @@ Output: -40
 Explanation: The minimum product is -40, obtained by selecting the subset [4, -2, 5].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int minimumProductSubsetArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumProductSubsetArray([1, 2, 3])` → `1`
+<!-- signature:end -->
 
 ## Links
 

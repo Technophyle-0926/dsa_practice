@@ -65,13 +65,19 @@ Please refer Add two binary strings for detailed explanation and solution.
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int addBitStrings(String s1, String s2)
+String addBitStrings(String s1, String s2)
 ```
 
+> **Note:** Return the binary sum as a string without leading zeros.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `addBitStrings("1101", "111")` → `"10100"`
+<!-- signature:end -->
 
 ## Links
 

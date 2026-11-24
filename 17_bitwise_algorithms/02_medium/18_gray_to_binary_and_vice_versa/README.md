@@ -20,6 +20,7 @@ Output: 5
 Explanation: The binary representation of 7 is 111. Treating 111 as a Gray code, its corresponding binary representation is 101, whose decimal value is 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int grayBinaryViceVersa(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `grayBinaryViceVersa(4)` → `7`
+<!-- signature:end -->
 
 ## Links
 

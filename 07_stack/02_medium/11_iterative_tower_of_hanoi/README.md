@@ -28,13 +28,19 @@ Let us understand with a simple example with 3 disks:
 
 After all iterations, the destination pole holds the disks in order of size. Each time a disk (other than the smallest) is moved, the next move must involve the smallest disk, as it remains on top of the spare pole with no other options available.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic iterativeTowerHanoi(/* not set yet */)
+List<List<int>> towerOfHanoiIterative(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Poles are 1 = source, 2 = auxiliary, 3 = destination; each move is [disk, fromPole, toPole], disk 1 being the smallest.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `towerOfHanoiIterative(3)` → `[[1, 1, 3], [2, 1, 2], [1, 3, 2], [3, 1, 3], [1, 2, 1], [2, 2, 3], [1, 1, 3]]`
+<!-- signature:end -->
 
 ## Links
 

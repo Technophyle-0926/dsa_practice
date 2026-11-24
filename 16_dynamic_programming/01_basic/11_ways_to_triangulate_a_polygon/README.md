@@ -30,6 +30,7 @@ The above problem is an application of a catalan numbers. The task is to only fi
 **Time Complexity:** O(n), where **n** is nth catalan number.
 **Auxiliary Space:** O(1)
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ int waysTriangulatePolygon(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waysTriangulatePolygon(3)` → `1`
+<!-- signature:end -->
 
 ## Links
 

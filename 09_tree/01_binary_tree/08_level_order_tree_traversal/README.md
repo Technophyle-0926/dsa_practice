@@ -18,13 +18,17 @@ Level 2: [7, 14, 2]
 Level 3: [17, 23, 27, 3, 8, 11]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic levelOrderTreeTraversal(/* not set yet */)
+List<int> levelOrderTraversal(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `levelOrderTraversal(TreeNode.fromLevelOrder([5, 12, 13, 7, 14, 2, null, 17, 23, 27, 3, 8, 11]))` → `[5, 12, 13, 7, 14, 2, 17, 23, 27, 3, 8, 11]`
+<!-- signature:end -->
 
 ## Links
 

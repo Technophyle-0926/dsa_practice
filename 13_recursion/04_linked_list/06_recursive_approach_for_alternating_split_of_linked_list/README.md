@@ -20,13 +20,19 @@ Output : 1 5
 
 We have discussed Iterative splitting of linked list.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recursiveApproachAlternatingSplitLinked(/* not set yet */)
+List<List<int>> alternatingSplit(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Returns [values of odd-position nodes, values of even-position nodes].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `alternatingSplit(ListNode.fromList([1, 2, 3, 4, 5, 6, 7]))` → `[[1, 3, 5, 7], [2, 4, 6]]`
+<!-- signature:end -->
 
 ## Links
 

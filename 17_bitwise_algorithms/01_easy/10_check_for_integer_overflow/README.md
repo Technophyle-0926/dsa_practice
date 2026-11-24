@@ -27,6 +27,7 @@ Output: 0
 Explanation: The sum -100 + 100 = 0 is within the valid integer range, so no overflow occurs, and the function stores the result successfully.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int checkIntegerOverflow(int a, int b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkIntegerOverflow(1000000000, 1000000000)` → `2000000000`
+<!-- signature:end -->
 
 ## Links
 

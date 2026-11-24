@@ -24,6 +24,7 @@ Output: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
 Explanation: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2} has all 0s first, then all 1s and all 2s in last.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> sortArray0s1s2s(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortArray0s1s2s([0, 1, 2, 0, 1, 2])` → `[0, 0, 1, 1, 2, 2]`
+<!-- signature:end -->
 
 ## Links
 

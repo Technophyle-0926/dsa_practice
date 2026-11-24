@@ -8,9 +8,17 @@
   "practice": null,
   "function": {
     "name": "recursiveBubbleSort",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "recursiveBubbleSort([5, 1, 4, 2, 8])",
+    "expected": "[1, 2, 4, 5, 8]"
+  }
 }

@@ -23,6 +23,7 @@ Input: s1 = "GeeksforGeeks", s2 = "Geeks"
 Output: No
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ bool checkSame(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkSame("abc", "abc")` → `true`
+<!-- signature:end -->
 
 ## Links
 

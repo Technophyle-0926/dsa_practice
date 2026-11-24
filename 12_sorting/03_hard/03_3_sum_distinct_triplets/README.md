@@ -28,6 +28,7 @@ Output: [[10, 10, 12]]
 Explanation: Triplets with sum 32 are [10, 10, 12].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<List<int>> solve3SumDistinctTriplets(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve3SumDistinctTriplets([12, 3, 6, 1, 6, 9], 24)` → `[[3, 9, 12], [6, 6, 12]]`
+<!-- signature:end -->
 
 ## Links
 

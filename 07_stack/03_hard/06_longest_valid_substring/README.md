@@ -31,6 +31,7 @@ Output: 2
 Explanation: The longest valid parenthesis substring is "()".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ int longestValidSubstring(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestValidSubstring("((()")` → `2`
+<!-- signature:end -->
 
 ## Links
 

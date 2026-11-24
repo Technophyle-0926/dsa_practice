@@ -19,6 +19,6 @@
   },
   "example": {
     "call": "printAlternates([10, 20, 30, 40, 50])",
-    "expected": "10 30 50"
+    "expected": "[10, 30, 50]"
   }
 }

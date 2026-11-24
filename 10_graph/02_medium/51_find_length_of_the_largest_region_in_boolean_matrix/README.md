@@ -20,6 +20,7 @@ Output: 5
 Explanation: The largest region has five 1s.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int findLengthLargestRegionBoolean(List<List<int>> grid)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findLengthLargestRegionBoolean([[1, 0, 0, 0, 1, 0, 0], [0, 1, 0, 0, 1, 1, 0], [1, 1, 0, 0, 0, 0, 0], [1, 0, 0, 1, 1, 0, 0], [1, 0, 0, 1, 0, 1, 1]])` → `6`
+<!-- signature:end -->
 
 ## Links
 

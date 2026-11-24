@@ -27,6 +27,7 @@ Output: 4
 Explanation: Palindromic substrings with length greater than 1, are "bb" , "abba" , "aea", "eae".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int palindromePartitioning(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `palindromePartitioning("abaab")` → `3`
+<!-- signature:end -->
 
 ## Links
 

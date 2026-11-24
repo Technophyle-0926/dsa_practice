@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/cpp/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/",
   "practice": null,
   "function": {
-    "name": "binarySearchLowerBoundUpper",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "lowerUpperBound",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "arr is sorted; return [lower_bound, upper_bound] indices (first index >= target, first index > target; arr.length if none)."
   },
-  "example": null
+  "example": {
+    "call": "lowerUpperBound([1, 2, 4, 4, 5], 4)",
+    "expected": "[2, 4]"
+  }
 }

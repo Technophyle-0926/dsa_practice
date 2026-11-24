@@ -18,6 +18,7 @@ Output: 1
 Explanation: Policeman of 2th index catches thief  at index 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int policemenCatchThieves(List<String> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `policemenCatchThieves(["P", "T", "T", "P", "T"], 1)` → `2`
+<!-- signature:end -->
 
 ## Links
 

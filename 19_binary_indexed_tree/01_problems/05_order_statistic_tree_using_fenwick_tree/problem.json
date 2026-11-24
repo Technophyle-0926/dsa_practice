@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/order-statistic-tree-using-fenwick-tree-bit/",
   "practice": null,
   "function": {
-    "name": "orderStatisticTreeFenwickTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "orderStatisticTree",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'insert', 'delete', 'kth' or 'rank' with argument args[i]; return results of 'kth' (k-th smallest, 1-based) and 'rank' (count of elements <= x) in order."
   },
   "example": null
 }

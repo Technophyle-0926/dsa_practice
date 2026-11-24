@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each quadruplet is sorted indices [i, j, k, l]; quadruplets in lexicographic order."
   },
   "example": {
     "call": "solve4SumFindAllQuadruplets([1, 5, 3, 1, 2, 10], 20)",
-    "expected": "[1, 2, 4, 5]"
+    "expected": "[[1, 2, 4, 5]]"
   }
 }

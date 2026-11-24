@@ -14,11 +14,12 @@
         "type": "List<String>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<List<String>>",
+    "verified": true,
+    "note": "Groups ordered by first appearance, words within a group in input order; single-word groups included."
   },
   "example": {
     "call": "groupWordsSameCharacters([\"may\", \"student\", \"students\", \"dog\", \"studentssess\", \"god\", \"cat\", \"act\", \"tab\", \"bat\", \"flow\", \"wolf\", \"lambs\", \"amy\", \"yam\", \"balms\", \"looped\", \"poodle\"])",
-    "expected": "looped, poodle,"
+    "expected": "[[\"may\", \"amy\", \"yam\"], [\"student\", \"students\", \"studentssess\"], [\"dog\", \"god\"], [\"cat\", \"act\"], [\"tab\", \"bat\"], [\"flow\", \"wolf\"], [\"lambs\", \"balms\"], [\"looped\", \"poodle\"]]"
   }
 }

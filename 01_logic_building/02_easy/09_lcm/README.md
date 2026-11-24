@@ -19,6 +19,7 @@ Output :  55
 Explanation : 55 is the smallest number divisible by both 5 and 11
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int lcm(int a, int b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `lcm(10, 5)` → `10`
+<!-- signature:end -->
 
 ## Links
 

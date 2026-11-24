@@ -18,13 +18,19 @@ In above graph, following are the biconnected components:
 
 Algorithm is based on Disc and Low Values discussed in Strongly Connected Components Article.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic biconnectedComponents(/* not set yet */)
+int countBiconnectedComponents(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Undirected edges [u, v]; return the number of biconnected components (edge-based, as in Tarjan/Hopcroft).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countBiconnectedComponents(12, [[0, 1], [1, 2], [1, 3], [2, 3], [2, 4], [3, 4], [1, 5], [0, 6], [5, 6], [5, 7], [5, 8], [7, 8], [8, 9], [10, 11]])` → `5`
+<!-- signature:end -->
 
 ## Links
 

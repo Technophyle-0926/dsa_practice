@@ -31,13 +31,17 @@ Output: 7
 Explanation: The minimum-cost path is (0,0) -> (1,1), with total cost 5 + 2 = 7.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minCostPath(/* not set yet */)
+int minCostPath(List<List<int>> cost)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minCostPath([[1, 2, 3], [4, 8, 2], [1, 5, 3]])` → `8`
+<!-- signature:end -->
 
 ## Links
 

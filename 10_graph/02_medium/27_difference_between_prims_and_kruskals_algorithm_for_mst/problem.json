@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/difference-between-prims-and-kruskals-algorithm-for-mst/",
   "practice": null,
   "function": {
-    "name": "differenceBetweenPrimsKruskalsAlgorithm",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "mstWeight",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Undirected edges [u, v, w]; return the MST total weight (via Prim's or Kruskal's)."
   },
-  "example": null
+  "example": {
+    "call": "mstWeight(3, [[0, 1, 5], [1, 2, 3], [0, 2, 1]])",
+    "expected": "4"
+  }
 }

@@ -20,13 +20,19 @@ Output: [3, 2, 1]
 Explanation: The stack is already sorted in ascending order.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> sortStack(List<int> st)
 ```
 
+> **Note:** Input is listed bottom to top; return the sorted stack listed top to bottom (largest first), as in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortStack([41, 3, 32, 2, 11])` → `[41, 32, 11, 3, 2]`
+<!-- signature:end -->
 
 ## Links
 

@@ -17,6 +17,7 @@ Output: 29
 Explanation: The matrix is as follows and the green rectangle denotes the maximum sum rectangle which is equal to 29.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -24,6 +25,9 @@ int maximumSumRectangle(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumSumRectangle([[1, 2, -1, -4, -20], [-8, -3, 4, 2, 1], [3, 8, 10, 1, 3], [-4, -1, 1, 7, -6]])` → `29`
+<!-- signature:end -->
 
 ## Links
 

@@ -18,6 +18,7 @@ Output: 0
 Explanation: aabbc can be changed as: abcba or bacab without any insertion
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int minInsertionsPalindromePermutation(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minInsertionsPalindromePermutation("geeksforgeeks")` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -28,13 +28,19 @@ Output: false
 Explanation: As shown in figure this is not a circular linked list.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic checkIfCircular(/* not set yet */)
+bool isCircular(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** For circular test cases the harness links the tail back to head before calling; an empty list counts as circular.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isCircular(ListNode.fromList([2, 4, 6, 7, 5, 1]))` → `false`
+<!-- signature:end -->
 
 ## Links
 

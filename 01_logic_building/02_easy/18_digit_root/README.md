@@ -18,6 +18,7 @@ Output: 9
 Explanation: The sum of digits of 99999 is 45 which is not a single digit number, hence the sum of digits of 45 is 9 which is a single digit number.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int digitRoot(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `digitRoot(1)` → `1`
+<!-- signature:end -->
 
 ## Links
 

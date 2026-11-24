@@ -22,6 +22,7 @@ Output: 2
 Explanation: There are two common subsequences {1, 4} and {1, 3} both of length 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int longestCommonIncreasingSubsequenceLcs(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestCommonIncreasingSubsequenceLcs([3, 4, 9, 1], [5, 3, 8, 9, 10, 2, 1])` → `2`
+<!-- signature:end -->
 
 ## Links
 

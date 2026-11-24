@@ -23,6 +23,7 @@ Output: 7
 Explanation: Possible sequences: [1, 1, 2], [1, 1, 3], [1, 2, 2], [1, 2, 3], [1, 3, 3], [2, 2, 3], [2, 3, 3].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int tileStackingProblem(int n, int m, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `tileStackingProblem(3, 3, 1)` → `1`
+<!-- signature:end -->
 
 ## Links
 

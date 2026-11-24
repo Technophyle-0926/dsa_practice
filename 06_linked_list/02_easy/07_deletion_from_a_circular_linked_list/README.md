@@ -14,13 +14,17 @@ There are three main ways to delete a node from circular linked list:
 
 Now, let’s look at the methods and steps for these three deletion operations.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deletionCircularLinkedList(/* not set yet */)
+List<int> deleteFromCircularList(ListNode? head, int pos)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The input is a circular list: the harness links the tail back to head before calling. Delete the node at 1-based position pos and return the remaining values traversed once from the (new) head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

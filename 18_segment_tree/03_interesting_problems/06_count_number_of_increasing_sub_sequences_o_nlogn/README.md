@@ -24,6 +24,7 @@ Input: arr[] = {3, 2, 1}
 Output: 3
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int countNumberIncreasingSubSequences(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countNumberIncreasingSubSequences([1, 2, 3])` → `7`
+<!-- signature:end -->
 
 ## Links
 

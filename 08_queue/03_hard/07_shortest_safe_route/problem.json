@@ -8,9 +8,18 @@
   "practice": "https://www.geeksforgeeks.org/problems/find-shortest-safe-route-in-a-matrix/1",
   "function": {
     "name": "shortestSafeRoute",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Route length counts the cells on the path (moves + 1); cells adjacent to a 0 are unsafe; return -1 if no route."
   },
-  "example": null
+  "example": {
+    "call": "shortestSafeRoute([[1, 0, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]])",
+    "expected": "6"
+  }
 }

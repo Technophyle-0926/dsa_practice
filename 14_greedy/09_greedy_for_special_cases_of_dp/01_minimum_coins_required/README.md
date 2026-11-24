@@ -20,6 +20,7 @@ Output: 13
 Explanation: 121 can be formed using 12 coins of 10 rupees and 1 coin  of 1 rupees.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int minimumCoinsRequired(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumCoinsRequired(39)` → `6`
+<!-- signature:end -->
 
 ## Links
 

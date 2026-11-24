@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/types-of-binary-tree/",
   "practice": null,
   "function": {
-    "name": "tyesBinaryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "binaryTreeTypes",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<bool>",
+    "verified": true,
+    "note": "Tutorial; returns [isFull, isComplete, isPerfect] for the tree."
   },
-  "example": null
+  "example": {
+    "call": "binaryTreeTypes(TreeNode.fromLevelOrder([1, 2, 3, 4, 5]))",
+    "expected": "[true, true, false]"
+  }
 }

@@ -8,9 +8,30 @@
   "practice": null,
   "function": {
     "name": "maxSatisfiedCustomers",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "d",
+        "type": "int"
+      },
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      },
+      {
+        "name": "demands",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "demands[i] = [packets of size a, packets of size b]; return 1-based indices of satisfied customers in order of increasing rice needed (ties by index); the count is the list length."
   },
-  "example": null
+  "example": {
+    "call": "maxSatisfiedCustomers(5, 1, 1, [[2, 0], [3, 2], [4, 4], [10, 0], [0, 1]])",
+    "expected": "[5, 1]"
+  }
 }

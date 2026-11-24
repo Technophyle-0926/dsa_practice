@@ -20,6 +20,7 @@ Explanation: 9th Number whose binary representation
 is palindrome is 27 (11011)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int nThNumberWhoseBinary(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nThNumberWhoseBinary(1)` → `1`
+<!-- signature:end -->
 
 ## Links
 

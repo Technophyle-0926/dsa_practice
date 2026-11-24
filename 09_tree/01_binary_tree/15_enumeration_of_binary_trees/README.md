@@ -14,13 +14,19 @@ For n  = 2, there are two trees:
 
 For n  = 3, there are five trees:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic enumerationBinaryTrees(/* not set yet */)
+int countUnlabelledBinaryTrees(int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Number of structurally different unlabelled binary trees with n nodes (the n-th Catalan number).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countUnlabelledBinaryTrees(3)` → `5`
+<!-- signature:end -->
 
 ## Links
 

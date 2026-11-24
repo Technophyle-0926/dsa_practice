@@ -21,13 +21,19 @@ For the query 2, after an update, the array becomes [1, 2, 3, 6, 7, 9].
 For the query 3, the number of primes in range [0, 4] are 3 (2, 3, 7).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> numberPrimesSubarray(int n, int q, List<int> arr, List<List<int>> queries)
+List<int> numberPrimesSubarray(List<int> arr, List<List<int>> queries)
 ```
 
+> **Note:** [1, l, r] counts primes in arr[l..r]; [2, i, x] sets arr[i] = x; return answers of type-1 queries.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `numberPrimesSubarray([1, 2, 3, 5, 7, 9], [[1, 0, 4], [2, 3, 6], [1, 0, 4]])` → `[4, 3]`
+<!-- signature:end -->
 
 ## Links
 

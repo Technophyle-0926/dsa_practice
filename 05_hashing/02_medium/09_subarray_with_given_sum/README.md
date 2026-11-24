@@ -26,13 +26,19 @@ Output: [-1, -1]
 Explanation: There is no subarray with the given sum
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic subarrayGivenSum(List<int> arr, int sum)
+List<int> subarrayWithGivenSum(List<int> arr, int k)
 ```
 
+> **Note:** Return 0-based [start, end] of any subarray summing to k, or [-1, -1] if none.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `subarrayWithGivenSum([1, 4, 20, 3, 10, 5], 33)` → `[2, 4]`
+<!-- signature:end -->
 
 ## Links
 

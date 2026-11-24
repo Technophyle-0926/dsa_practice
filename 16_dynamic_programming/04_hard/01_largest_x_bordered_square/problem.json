@@ -8,9 +8,17 @@
   "practice": "https://www.geeksforgeeks.org/problems/largest-subsquare-surrounded-by-x0558/1",
   "function": {
     "name": "largestXBorderedSquare",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<String>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "largestXBorderedSquare([[\"X\", \"X\", \"X\", \"O\"], [\"X\", \"O\", \"X\", \"X\"], [\"X\", \"X\", \"X\", \"O\"], [\"X\", \"O\", \"X\", \"X\"]])",
+    "expected": "3"
+  }
 }

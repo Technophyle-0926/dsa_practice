@@ -20,6 +20,7 @@ Output: 0
 Explanation: No pairs give remainder 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int allPairsBArraySuch(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `allPairsBArraySuch([2, 3, 5, 4, 7], 3)` → `4`
+<!-- signature:end -->
 
 ## Links
 

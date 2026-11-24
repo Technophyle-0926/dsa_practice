@@ -20,6 +20,7 @@ Output: 0
 Explanation: There is no triplet whose sum is equal to 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int solve3SumCountAllTriplets(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve3SumCountAllTriplets([0, -1, 2, -3, 1], -2)` → `2`
+<!-- signature:end -->
 
 ## Links
 

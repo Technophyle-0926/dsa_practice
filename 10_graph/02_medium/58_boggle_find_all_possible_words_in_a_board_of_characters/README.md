@@ -27,6 +27,7 @@ Output: ["GEEKS","QUIZ"]
 Explanation: "GEEKS" and "QUIZ" can be formed by traversing adjacent cells (8 directions) without reusing any cell.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ List<String> boggleFindAllPossibleWords(List<List<String>> board, List<String> d
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `boggleFindAllPossibleWords([["C", "A", "P"], ["A", "N", "D"], ["T", "I", "E"]], ["CAT"])` → `["CAT"]`
+<!-- signature:end -->
 
 ## Links
 

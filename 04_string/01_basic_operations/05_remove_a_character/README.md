@@ -16,13 +16,19 @@ Input : s = "a",  pos = 0
 Output : s = ""
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic removeCharacter(String s, int pos)
+String removeCharacter(String s, int pos)
 ```
 
+> **Note:** pos is 0-based.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeCharacter("abcde", 1)` → `"acde"`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/difference-between-prims-and-kruskals-algorithm-for-mst/",
   "practice": null,
   "function": {
-    "name": "primsVsKruskalsAlgorithmMst",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "mstWeight",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Comparison article: compute the MST weight (Prim's or Kruskal's) of the undirected graph with edges [u, v, w]."
   },
   "example": null
 }

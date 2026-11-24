@@ -20,6 +20,7 @@ Output: 1
 Explanation: "a", "b", "c" and "d" are palindromic and all have a length 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int longestPalindromicSubsequence(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestPalindromicSubsequence("bbabcbcab")` → `7`
+<!-- signature:end -->
 
 ## Links
 

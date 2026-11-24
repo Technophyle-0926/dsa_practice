@@ -24,6 +24,7 @@ Output: true
 Explanation:  s when divided by 11 gives 0 as remainder.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ bool divisibility11(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `divisibility11("76945")` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -24,13 +24,17 @@ Output: [1, 2, 4, 5, 3, 6]
 Explanation: Preorder Traversal (Root -> Left -> Right). Visit 1 -> 2 -> 4 -> 5 -> 3 -> 6, resulting in 1 2 4 5 3 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic preorderTraversal(/* not set yet */)
+List<int> preorderTraversal(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `preorderTraversal(TreeNode.fromLevelOrder([1, 2, 3]))` → `[1, 2, 3]`
+<!-- signature:end -->
 
 ## Links
 

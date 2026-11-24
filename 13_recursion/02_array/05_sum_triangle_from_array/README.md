@@ -23,13 +23,19 @@ Here,   [48]
         [1, 2, 3, 4, 5] -->(1 + 2 = 3, 2 + 3 = 5, 3 + 4 = 7, 4 + 5 = 9)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic sumTriangleArray(List<int> A)
+List<List<int>> sumTriangle(List<int> arr)
 ```
 
+> **Note:** Rows from the top (single sum) down to the original array.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumTriangle([1, 2, 3, 4, 5])` → `[[48], [20, 28], [8, 12, 16], [3, 5, 7, 9], [1, 2, 3, 4, 5]]`
+<!-- signature:end -->
 
 ## Links
 

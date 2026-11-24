@@ -27,13 +27,19 @@ The idea is to use a recursive function, an array arr[] to store all sequences o
 1) If current sum is equal to x, then print current sequence.
 2) Place all possible numbers from 1 to x-curr_sum numbers at curr_idx in array. Here curr_sum is sum of current elements in arr[]. After placing a number, recur for curr_sum + number and curr_idx+1.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> printAllNonIncreasingSequences(int x)
+List<List<int>> nonIncreasingSequences(int x)
 ```
 
+> **Note:** Order as in the examples (lexicographic).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nonIncreasingSequences(3)` → `[[1, 1, 1], [2, 1], [3]]`
+<!-- signature:end -->
 
 ## Links
 

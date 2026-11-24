@@ -24,13 +24,17 @@ This problem looks tricky at first, but has a simple and interesting solution. A
 - Find the complement of Graph. Below is the complement graph is above shown graph. In complement, all original edges are removed. And the vertices which did not have an edge between them, now have an edge connecting them.
 - Return true if complement is Bipartite, else false. The above shown graph is Bipartite. Checking whether a Graph is Bipartite or no is discussed here.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic twoCliqueProblem(/* not set yet */)
+bool canDivideIntoTwoCliques(List<List<int>> g)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `canDivideIntoTwoCliques([[0, 1, 1, 1, 0], [1, 0, 1, 0, 0], [1, 1, 0, 0, 0], [1, 0, 0, 0, 1], [0, 0, 0, 1, 0]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

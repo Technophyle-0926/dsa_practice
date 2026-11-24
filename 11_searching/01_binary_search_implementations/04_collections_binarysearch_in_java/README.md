@@ -60,13 +60,19 @@ Note: Before using binarySearch() with a Comparator, the list must be sorted usi
 
 **Auxiliary Space:** O(1) (no extra data structures used)
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic collectionsBinarysearchJava(/* not set yet */)
+int collectionsBinarySearch(List<int> list, int key, bool descending)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** list is sorted ascending (or descending if descending is true); return the index of key, else -(insertionPoint) - 1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `collectionsBinarySearch([1, 2, 3, 10, 20], 10, false)` → `3`
+<!-- signature:end -->
 
 ## Links
 

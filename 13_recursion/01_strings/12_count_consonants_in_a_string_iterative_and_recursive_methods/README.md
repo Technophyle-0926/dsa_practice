@@ -24,6 +24,7 @@ Output : 12
 
 **2. Recursive Method**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int countConsonantsStringIterativeRecursive(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countConsonantsStringIterativeRecursive("abc de")` → `3`
+<!-- signature:end -->
 
 ## Links
 

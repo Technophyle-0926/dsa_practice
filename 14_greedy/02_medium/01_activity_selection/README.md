@@ -21,6 +21,7 @@ Output: 1
 Explanation: A person can perform at most one activity.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int activitySelection(List<int> start, List<int> finish)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `activitySelection([1, 3, 0, 5, 8, 5], [2, 4, 6, 7, 9, 9])` → `4`
+<!-- signature:end -->
 
 ## Links
 

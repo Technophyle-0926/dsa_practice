@@ -34,13 +34,17 @@ Iterate for all the x from 0 to (2^n-1) . Calculate the bitwise subsets of all t
 **Time-Complexity:** O(4^n)
 Below is the implementation of above idea:
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> sumOverSubsets(List<int> A, int n)
+List<int> sumOverSubsets(List<int> arr, int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sumOverSubsets([7, 12, 14, 16], 2)` → `[7, 19, 21, 49]`
+<!-- signature:end -->
 
 ## Links
 

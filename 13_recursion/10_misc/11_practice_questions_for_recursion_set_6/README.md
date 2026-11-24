@@ -10,13 +10,19 @@ It calculates a*b (a multiplied b).
 
 **Question 2** : In question 1, if we replace + with * and replace return 0 with return 1, then what does the changed function do? Following is the changed function.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic practiceQuestionsRecursion6(/* not set yet */)
+int powerRecursive(int a, int b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Implement Question 2's changed fun(a, b) (+ replaced by *, base case 1) that computes a^b (b >= 0).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `powerRecursive(3, 4)` → `81`
+<!-- signature:end -->
 
 ## Links
 

@@ -25,6 +25,7 @@ Explanation: The distinct substrings of "aaa" are: "a", "aa", "aaa".
 **Constraints:**
 1 ≤ s.size() ≤ 3000
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int countDistinctSubstrings(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countDistinctSubstrings("ababa")` → `9`
+<!-- signature:end -->
 
 ## Links
 

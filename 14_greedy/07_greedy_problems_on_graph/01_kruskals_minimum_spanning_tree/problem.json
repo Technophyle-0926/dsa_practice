@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
   "practice": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree-kruskals-algorithm/1",
   "function": {
-    "name": "kruskalsMinimumSpanningTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kruskalsMST",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Undirected edges [u, v, w] with vertices 0..V-1; return the total MST weight."
   },
   "example": null
 }

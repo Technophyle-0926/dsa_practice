@@ -10,7 +10,7 @@
     "name": "countPairsAiAj0",
     "params": [
       {
-        "name": "A",
+        "name": "arr",
         "type": "List<int>"
       }
     ],

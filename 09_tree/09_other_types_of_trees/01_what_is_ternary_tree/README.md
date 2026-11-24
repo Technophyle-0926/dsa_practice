@@ -6,13 +6,19 @@
 
 A **Ternary Tree** is a special type of tree data structure. Unlike a regular **binary tree** where each node can have up to two child nodes. The article explains the basic structure and properties of ternary trees, such as the number of possible children per node, tree height, and node depth. It also discusses why ternary trees can be useful, highlighting applications in areas like string searching and database indexing. It also introduces some common problems and algorithms related to ternary trees.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic whatTernaryTree(/* not set yet */)
+List<int> ternaryTreePreorder(List<List<int>> nodes)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** nodes[i] = [val, leftIdx, midIdx, rightIdx] (-1 = no child), root is index 0; return the preorder traversal (node, left, mid, right).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `ternaryTreePreorder([[1, 1, 2, 3], [2, -1, -1, -1], [3, -1, -1, -1], [4, -1, -1, -1]])` → `[1, 2, 3, 4]`
+<!-- signature:end -->
 
 ## Links
 

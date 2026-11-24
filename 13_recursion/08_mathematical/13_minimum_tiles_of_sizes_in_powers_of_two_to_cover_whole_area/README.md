@@ -19,13 +19,17 @@ Input : N = 10, M = 5.
 Output : 14
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int minimumTilesSizesPowersTwo(int N, int M)
+int minimumTilesSizesPowersTwo(int n, int m)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumTilesSizesPowersTwo(5, 6)` → `9`
+<!-- signature:end -->
 
 ## Links
 

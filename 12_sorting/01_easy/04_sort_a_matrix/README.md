@@ -30,6 +30,7 @@ Output: [[1, 2, 3],
 Explanation: Sorting the matrix gives this result:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ List<List<int>> sortMatrix(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortMatrix([[10, 20, 30, 40], [15, 25, 35, 45], [27, 29, 37, 48], [32, 33, 39, 50]])` → `[[10, 15, 20, 25], [27, 29, 30, 32], [33, 35, 37, 39], [40, 45, 48, 50]]`
+<!-- signature:end -->
 
 ## Links
 

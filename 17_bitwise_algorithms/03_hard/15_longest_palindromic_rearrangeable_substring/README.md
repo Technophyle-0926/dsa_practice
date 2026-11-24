@@ -20,6 +20,7 @@ Output: 6
 Explanation: The whole string "adbabd" can be rearranged to form a palindromic substring. One possible arrangement is "abddba". Thus, output length of the string is 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int longestPalindromicRearrangeableSubstring(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestPalindromicRearrangeableSubstring("aabe")` → `3`
+<!-- signature:end -->
 
 ## Links
 

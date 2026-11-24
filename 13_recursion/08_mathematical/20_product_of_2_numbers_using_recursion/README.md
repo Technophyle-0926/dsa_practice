@@ -73,6 +73,7 @@ Optimization : Since the number of recursive calls is proportional to y and x * 
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -80,6 +81,9 @@ int product2NumbersRecursion(int x, int y)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `product2NumbersRecursion(5, 2)` → `10`
+<!-- signature:end -->
 
 ## Links
 

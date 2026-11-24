@@ -22,13 +22,17 @@ Output: 4.5
 Explanation: The merged array is [1, 2, 4, 5, 6, 7]. The total number of elements are even, so there are two middle elements. Take the average between the two: (4 + 5) / 2 = 4.5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int medianTwoSortedDifferentSizes(List<int> a, List<int> b)
+double medianTwoSortedDifferentSizes(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `medianTwoSortedDifferentSizes([-5, 3, 6, 12, 15], [-12, -10, -6, -3, 4, 10])` → `3.0`
+<!-- signature:end -->
 
 ## Links
 

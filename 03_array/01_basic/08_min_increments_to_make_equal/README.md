@@ -31,6 +31,7 @@ Explanation: The maximum element in the array is 19. Since we can only increment
 Total operations = 5 + 4 + 0 + 1 = 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ int minIncrementsMakeEqual(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minIncrementsMakeEqual([4, 4, 4, 2], 2)` → `1`
+<!-- signature:end -->
 
 ## Links
 

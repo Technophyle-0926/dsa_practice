@@ -15,10 +15,11 @@
       }
     ],
     "returns": "String",
-    "verified": true
+    "verified": true,
+    "note": "Return \"-1\" if no character repeats."
   },
   "example": {
     "call": "firstRepeatingCharacter(\"geeksforgeeks\")",
-    "expected": "e"
+    "expected": "\"e\""
   }
 }

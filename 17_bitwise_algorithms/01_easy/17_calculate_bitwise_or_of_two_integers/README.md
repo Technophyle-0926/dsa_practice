@@ -24,13 +24,19 @@ If A and B are two positive integers such that A ^ B = 14, A & B = 1, then the p
 Therefore, (A | B) = (7 | 9) = 15.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int calculateBitwiseOrTwoIntegers(int X, int Y)
+int calculateBitwiseOrTwoIntegers(int x, int y)
 ```
 
+> **Note:** x is A ^ B and y is A & B; return A | B.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `calculateBitwiseOrTwoIntegers(5, 2)` → `7`
+<!-- signature:end -->
 
 ## Links
 

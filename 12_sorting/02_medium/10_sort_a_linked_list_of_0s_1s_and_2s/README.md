@@ -26,13 +26,17 @@ Output: 0 ->1 -> 2 -> 2
 Explanation: After arranging all the 0s, 1s and 2s in the given format, the output will be 0 -> 1 -> 2 -> 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic sortLinkedList0s1s(/* not set yet */)
+ListNode? sortLinkedList012(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortLinkedList012(ListNode.fromList([1, 2, 2, 1, 2, 0, 2, 2]))` → `0 -> 1 -> 1 -> 2 -> 2 -> 2 -> 2 -> 2`
+<!-- signature:end -->
 
 ## Links
 

@@ -31,6 +31,7 @@ Second closest element to 25 is 20.
 Third closest element to 25 is 40.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ List<int> kClosest(List<int> arr, int k, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kClosest([1, 3, 4, 10, 12], 2, 4)` → `[3, 1]`
+<!-- signature:end -->
 
 ## Links
 

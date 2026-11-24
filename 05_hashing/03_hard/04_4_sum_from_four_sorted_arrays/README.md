@@ -25,6 +25,7 @@ Input : For the same above given fours arrays
 Output : 14
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ int solve4SumFourSortedArrays(List<int> arr1, List<int> arr2, List<int> arr3, Li
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve4SumFourSortedArrays([1, 4, 5, 6], [2, 3, 7, 8], [1, 4, 6, 10], [2, 4, 7, 8], 4, 30)` → `4`
+<!-- signature:end -->
 
 ## Links
 

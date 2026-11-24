@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/tarjan-algorithm-find-strongly-connected-components/",
   "practice": "https://www.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1",
   "function": {
-    "name": "tarjansAlgorithmStronglyConnectedComponents",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "tarjanScc",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each component sorted ascending; components sorted by their smallest vertex."
   },
-  "example": null
+  "example": {
+    "call": "tarjanScc([[1], [2], [0, 3], [4], [3, 5], []])",
+    "expected": "[[0, 1, 2], [3, 4], [5]]"
+  }
 }

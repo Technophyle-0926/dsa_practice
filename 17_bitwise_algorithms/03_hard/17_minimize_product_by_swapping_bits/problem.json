@@ -10,12 +10,13 @@
     "name": "minimizeProductSwappingBits",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "n is a power of 2; answer modulo 10^9 + 7."
   },
   "example": {
     "call": "minimizeProductSwappingBits(4)",

@@ -26,6 +26,7 @@ Output: 2
 Explanation: The image below shows all the 2 islands in the graph
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int islandsGraph(List<List<String>> grid)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `islandsGraph([["L", "L", "W", "W", "W"], ["W", "L", "W", "W", "L"], ["L", "W", "W", "L", "L"], ["W", "W", "W", "W", "W"], ["L", "W", "L", "L", "W"]])` → `4`
+<!-- signature:end -->
 
 ## Links
 

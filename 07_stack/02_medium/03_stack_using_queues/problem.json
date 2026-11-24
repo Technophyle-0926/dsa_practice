@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/implement-stack-using-queue/",
   "practice": "https://www.geeksforgeeks.org/problems/stack-using-queue/1",
   "function": {
-    "name": "stackQueues",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "stackUsingQueues",
+    "params": [
+      {
+        "name": "ops",
+        "type": "List<String>"
+      },
+      {
+        "name": "args",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "ops[i] is 'push' (args[i] = [x]), 'pop', 'top' or 'size' (args[i] = []); returns the result of every top and size call in order (top gives -1 on an empty stack, pop on empty does nothing)."
   },
-  "example": null
+  "example": {
+    "call": "stackUsingQueues([\"push\", \"push\", \"top\", \"pop\", \"size\"], [[1], [2], [], [], []])",
+    "expected": "[2, 1]"
+  }
 }

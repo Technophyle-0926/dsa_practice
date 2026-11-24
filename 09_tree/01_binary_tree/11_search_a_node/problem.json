@@ -8,9 +8,21 @@
   "practice": null,
   "function": {
     "name": "searchNode",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "searchNode(TreeNode.fromLevelOrder([1, 2, 3, 4, 5, 6]), 6)",
+    "expected": "true"
+  }
 }

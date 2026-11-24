@@ -23,6 +23,7 @@ Output: 5
 Explanation: Let the set be {1, 2, 3}, there are 5 distinct ways to partition the elements into one or more non-empty subsets. Hence, the answer is 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int waysPartition(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waysPartition(2)` → `2`
+<!-- signature:end -->
 
 ## Links
 

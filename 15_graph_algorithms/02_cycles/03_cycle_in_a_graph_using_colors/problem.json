@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/detect-cycle-direct-graph-using-colors/",
   "practice": null,
   "function": {
-    "name": "cycleGraphColors",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "hasCycleUsingColors",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Directed edges [u, v]."
   },
-  "example": null
+  "example": {
+    "call": "hasCycleUsingColors(4, [[0, 1], [0, 2], [1, 2], [2, 0], [2, 3], [3, 3]])",
+    "expected": "true"
+  }
 }

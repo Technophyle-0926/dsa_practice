@@ -8,9 +8,21 @@
   "practice": "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1",
   "function": {
     "name": "searchLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "searchLinkedList(ListNode.fromList([14, 21, 5, 13, 30]), 5)",
+    "expected": "true"
+  }
 }

@@ -69,13 +69,17 @@ j exceeds number of vertices - stop scanning. Candidate sink = vertex 1 (0-based
 - Column of v2 - all 1s except diagonal
 - v2 is the universal sink.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic universalSink(/* not set yet */)
+int universalSink(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** adj is a 0/1 adjacency matrix; return the universal sink vertex (0-based) or -1 if none.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

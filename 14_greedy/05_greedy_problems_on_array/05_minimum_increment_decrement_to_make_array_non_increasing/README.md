@@ -29,6 +29,7 @@ Output : 0
 Explanation: The array is already non-increasing.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int minimumIncrementDecrementMakeArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumIncrementDecrementMakeArray([3, 1, 2, 1])` → `1`
+<!-- signature:end -->
 
 ## Links
 

@@ -24,6 +24,7 @@ Output: 5
 Explanation: After removing [1, 2, 3, 4] from the natural numbers, the remaining sequence is: 5, 6, 7, .... and so on. The 1st number in the sequence is 5, so the answer is 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int kThSmallestAfterRemoving(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kThSmallestAfterRemoving([1, 9, 5, 2], 6)` → `10`
+<!-- signature:end -->
 
 ## Links
 

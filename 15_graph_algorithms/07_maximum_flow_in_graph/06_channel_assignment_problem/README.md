@@ -26,13 +26,19 @@ T3 -> R1
 
 Note that the maximum number of packets that can be transferred in any slot is min(M, N).
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic channelAssignmentProblem(/* not set yet */)
+int channelAssignment(List<List<int>> m)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** m[i][j] = packets transmitter i has for receiver j; return the maximum packets sent in one slot (bipartite matching size).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `channelAssignment([[0, 2, 0], [3, 0, 1], [2, 4, 0]])` → `3`
+<!-- signature:end -->
 
 ## Links
 

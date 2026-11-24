@@ -139,13 +139,19 @@ int main()
 }
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? minSwapsReachGivenArray(List<int> arr)
+int minSwapsReachGivenArray(List<int> arr)
 ```
 
+> **Note:** Returns -1 when it is not possible.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minSwapsReachGivenArray([1, 2, 5, 3, 4])` → `2`
+<!-- signature:end -->
 
 ## Links
 

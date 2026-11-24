@@ -33,13 +33,19 @@ Output: 1 2 3
 **We strongly recommend minimizing the browser and trying this yourself first.**
 It's a good recursion question. The idea is to create an array of lengths k. The array stores the current sequence. For every position in the array, we check the previous element and one by one put all elements greater than the previous element. If there is no previous element (first position), we put all numbers from 1 to n.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> printAllIncreasingSequencesLength(int k, int n)
+List<List<int>> increasingSequences(int k, int n)
 ```
 
+> **Note:** Lexicographic order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `increasingSequences(2, 3)` → `[[1, 2], [1, 3], [2, 3]]`
+<!-- signature:end -->
 
 ## Links
 

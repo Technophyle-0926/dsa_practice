@@ -22,6 +22,7 @@ Output: 0
 Explanation: No subarray has a sum greater than 100. Hence, the answer is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int smallestSubarraySumGreaterThan(int x, List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestSubarraySumGreaterThan(51, [1, 4, 45, 6, 0, 19])` → `3`
+<!-- signature:end -->
 
 ## Links
 

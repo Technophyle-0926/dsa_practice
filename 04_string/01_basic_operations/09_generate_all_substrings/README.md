@@ -23,13 +23,19 @@ Input :  s = "a"
 Output :  "a"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic generateAllSubstrings(String s)
+List<String> generateAllSubstrings(String s)
 ```
 
+> **Note:** Ordered by start index, then by increasing length.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `generateAllSubstrings("abc")` → `["a", "ab", "abc", "b", "bc", "c"]`
+<!-- signature:end -->
 
 ## Links
 

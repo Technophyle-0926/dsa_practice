@@ -21,6 +21,7 @@ Output: 1
 Explanation: Permutation with 3 inversions: 321
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int permutationsKInversions(int n, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `permutationsKInversions(3, 1)` → `2`
+<!-- signature:end -->
 
 ## Links
 

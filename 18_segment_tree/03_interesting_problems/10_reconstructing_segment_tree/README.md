@@ -27,13 +27,19 @@ What we first do is iterate through the given integers counting the number of oc
 Now we maintain a queue for each possible level of the segment tree. We put the initial root of the tree (array index 0) into the queue for the max level. We then insert the smallest element into the leftmost nodes. We then detach these nodes from the main tree. As we detach a node, we create a new tree of height h - 1, where h is the height of the current node. We can see this in figure 2. We insert the root node of this new tree into the appropriate queue based on its height.
 We go through each element, getting a tree of the appropriate height based on the number of occurrences of that element. If at any point such a tree does not exist, then it is not possible to create a segment tree.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reconstructingSegmentTree(/* not set yet */)
+List<int> reconstructSegmentTree(List<int> nums)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return any valid RMQ segment tree array (root at index 0, children 2i+1/2i+2) with distinct leaves, or [-1] if impossible.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reconstructSegmentTree([1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 7, 8])` → `[1, 1, 3, 1, 2, 3, 4, 1, 5, 2, 6, 3, 7, 4, 8]`
+<!-- signature:end -->
 
 ## Links
 

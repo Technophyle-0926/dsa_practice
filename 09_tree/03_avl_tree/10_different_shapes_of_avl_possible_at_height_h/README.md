@@ -92,13 +92,19 @@ Let's apply the recurrence to the first few heights and see how the number of po
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic differentShapesAvlPossibleAt(/* not set yet */)
+int minimalAvlShapes(int h)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Number of distinct shapes of minimal AVL trees of height h (leaf height 0): N(0) = 1, N(1) = 2, N(h) = 2 * N(h-1) * N(h-2).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimalAvlShapes(2)` → `4`
+<!-- signature:end -->
 
 ## Links
 

@@ -28,6 +28,7 @@ Output: [[1, 2, 60], [3, 4, 50]]
 Explanation: There are two separate chains: 1 -> 2 and 3 -> 4. Each chain has only one pipe, so its minimum diameter is just that pipe's diameter: 60 and 50 respectively.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<List<int>> waterConnectionProblem(int n, int p, List<int> a, List<int> b, L
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waterConnectionProblem(9, 6, [7, 5, 4, 2, 9, 3], [4, 9, 6, 8, 7, 1], [98, 72, 10, 22, 17, 66])` → `[[2, 8, 22], [3, 1, 66], [5, 6, 10]]`
+<!-- signature:end -->
 
 ## Links
 

@@ -19,6 +19,7 @@ Output: 16
 Explanation: Thief will steal from house 1 and 4, total money = 5 + 11 = 16.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ int houseRobber(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `houseRobber([6, 7, 1, 3, 8, 2, 4])` → `19`
+<!-- signature:end -->
 
 ## Links
 

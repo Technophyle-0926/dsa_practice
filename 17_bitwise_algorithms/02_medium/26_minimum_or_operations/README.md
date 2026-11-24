@@ -15,13 +15,19 @@ Input : arr[] = {13, 26, 21, 15}, K = 13
 Output : -1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minimumOrOperations(List<int> arr, int K)
+int minimumOrOperations(List<int> arr, int k)
 ```
 
+> **Note:** Return -1 if no two elements can be made equal.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumOrOperations([1, 9, 4, 3], 3)` → `1`
+<!-- signature:end -->
 
 ## Links
 

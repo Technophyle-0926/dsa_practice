@@ -19,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Return the multiples of 2 or 5 in [a, b] in increasing order."
   },
   "example": {
     "call": "spaceOptimizationBitManipulations(2, 10)",
-    "expected": "2 4 5 6 8 10"
+    "expected": "[2, 4, 5, 6, 8, 10]"
   }
 }

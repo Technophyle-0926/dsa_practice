@@ -26,6 +26,7 @@ Output: 2
 Explanation: Anagrammatic substring pairs include: ["a", "a"], ["ab", "ba"]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int anagramSubstrings(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `anagramSubstrings("xyyx")` → `4`
+<!-- signature:end -->
 
 ## Links
 

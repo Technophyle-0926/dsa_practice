@@ -34,6 +34,7 @@ Output: -1
 Explanation: Not possible to make the given sum.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ int coinChangeMinimumCoinsMake(List<int> coins, int sum)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `coinChangeMinimumCoinsMake([25, 10, 5], 30)` → `2`
+<!-- signature:end -->
 
 ## Links
 

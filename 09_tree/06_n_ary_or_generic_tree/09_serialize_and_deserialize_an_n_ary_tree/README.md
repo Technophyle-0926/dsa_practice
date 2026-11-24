@@ -10,13 +10,19 @@ This post is mainly an extension of the below post. Serialize and Deserialize a 
 
 In an N-ary tree, there are no designated left and right children. An N-ary tree is represented by storing an array or list of child pointers with every node.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic serializeDeserializeNAryTree(/* not set yet */)
+String serializeNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Serialize in preorder as space-separated tokens, writing ")" after a node's children to mark the end of its child list. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `serializeNAryTree(1, {1: [2, 3], 2: [4]})` → `1 2 4 ) ) 3 ) )`
+<!-- signature:end -->
 
 ## Links
 

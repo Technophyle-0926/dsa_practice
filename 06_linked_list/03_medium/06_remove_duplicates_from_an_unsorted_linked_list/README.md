@@ -20,6 +20,7 @@ Output: 2
 Explanation: Given linked list elements are 2 -> 2 -> 2 -> 2 -> 2, in which 2 is repeated. So, we will delete the extra repeated elements 2 from the linked list and the resultant linked list will contain only 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ ListNode? removeDuplicatesUnsortedLinkedList(ListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeDuplicatesUnsortedLinkedList(ListNode.fromList([5, 2, 2, 4]))` → `5 -> 2 -> 4`
+<!-- signature:end -->
 
 ## Links
 

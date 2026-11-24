@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/identify-all-grand-parent-nodes-of-each-node-in-a-map/",
   "practice": null,
   "function": {
-    "name": "identifyAllGrandParentNodes",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "findGrandparents",
+    "params": [
+      {
+        "name": "family",
+        "type": "Map<String, Set<String>>"
+      }
+    ],
+    "returns": "Map<String, Set<String>>",
+    "verified": true,
+    "note": "family maps each person to their children; return each grandchild mapped to the set of their grandparents (only people that have grandparents appear)."
   },
-  "example": null
+  "example": {
+    "call": "findGrandparents({\"A\": {\"B\", \"C\"}, \"B\": {\"D\", \"C\"}, \"C\": {\"E\"}})",
+    "expected": "{D: {A}, C: {A}, E: {A, B}}"
+  }
 }

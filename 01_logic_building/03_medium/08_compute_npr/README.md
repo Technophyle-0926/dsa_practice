@@ -18,6 +18,7 @@ Output: 120
 Explanation: ^6P_3 = 6! / (6 - 3)!  = 120
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ int computeNpr(int n, int r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `computeNpr(5, 2)` → `20`
+<!-- signature:end -->
 
 ## Links
 

@@ -27,13 +27,19 @@ For i = 2, `arr[i] >= arr[i-1]`. So, `3 >= 1`.
 For i = 3, `arr[i] <= arr[i-1]`. So, `2 <= 3`.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic makeEvenPositionedGreater(List<int> arr)
+List<int> makeEvenPositionedGreater(List<int> arr)
 ```
 
+> **Note:** Expected output comes from one left-to-right pass swapping arr[i] and arr[i-1] (1-based) whenever the condition at i fails.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `makeEvenPositionedGreater([1, 2, 2, 1])` → `[1, 2, 1, 2]`
+<!-- signature:end -->
 
 ## Links
 

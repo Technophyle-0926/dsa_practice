@@ -30,13 +30,17 @@ Input:
 Output: 12
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic travelingSalesmanProblem(/* not set yet */)
+int minDistanceVisitAllHouses(List<List<String>> grid)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** grid cells are '*' house, 'x' blocked, '.' street, 'o' start; 4-directional moves; return -1 if some house is unreachable.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

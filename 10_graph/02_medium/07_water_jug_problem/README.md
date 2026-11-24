@@ -40,6 +40,7 @@ Output: -1
 Explanation: Not possible since gcd(2, 4) = 2 does not divide 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -47,6 +48,9 @@ int waterJugProblem(int m, int n, int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `waterJugProblem(2, 3, 1)` → `2`
+<!-- signature:end -->
 
 ## Links
 

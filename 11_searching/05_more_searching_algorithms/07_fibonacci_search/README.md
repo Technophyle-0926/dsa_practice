@@ -69,6 +69,7 @@ Compare x with the last element of the range covered by fibMm2 (variable a in th
 - **Else**  x is greater than the element, move the three Fibonacci variables one  Fibonacci down. Reset offset to index. Together these indicate the  elimination of approximately front one-third of the remaining array.
 - Since  there might be a single element remaining for comparison, check if  fibMm1 is 1. If Yes, compare x with that remaining element. If match,  return index
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -76,6 +77,9 @@ int fibonacciSearch(List<int> arr, int x)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fibonacciSearch([2, 3, 4, 10, 40], 10)` → `3`
+<!-- signature:end -->
 
 ## Links
 

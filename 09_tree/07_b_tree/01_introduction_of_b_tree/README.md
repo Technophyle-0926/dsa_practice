@@ -12,13 +12,19 @@ A B-Tree is a specialized m-way tree designed to optimize data access, especiall
 - B Trees allow faster data retrieval and updates, making them an ideal choice for systems requiring efficient and scalable data management. By maintaining a balanced structure at all times,
 - B-Trees deliver consistent and efficient performance for critical operations such as search, insertion, and deletion.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic introductionBTree(/* not set yet */)
+List<bool> bTreeSearch(int t, List<int> keys, List<int> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: insert keys into a B-tree of minimum degree t, then report whether each query key is present.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bTreeSearch(3, [10, 20, 5, 6, 12, 30, 7, 17], [6, 15])` → `[true, false]`
+<!-- signature:end -->
 
 ## Links
 

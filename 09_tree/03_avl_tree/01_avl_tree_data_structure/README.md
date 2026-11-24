@@ -78,13 +78,19 @@ An AVL tree may rotate in one of the following four ways to keep itself balanced
 
 _…continued in the article (see link below)._
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic avlTreeDataStructure(/* not set yet */)
+bool isAvlTree(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: check the tree is a BST and every node's balance factor is in [-1, 1].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isAvlTree(TreeNode.fromLevelOrder([12, 8, 18, 5, 11, 17, null, 4]))` → `true`
+<!-- signature:end -->
 
 ## Links
 

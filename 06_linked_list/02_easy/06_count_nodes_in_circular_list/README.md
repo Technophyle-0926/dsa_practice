@@ -12,13 +12,17 @@ Given a **circular linked list.** The task is to find the **length** of the link
 The idea is to start from the head node and traversing the list until it loops back to the head. Since a circular linked list has no end, the traversal continues until the current node equals the head again. Increment the counter variable during each step of the traversal of nodes. Finally return the count, which represent the count of nodes in circular linked list.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic countNodesCircularList(/* not set yet */)
+int countNodesInCircularList(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The input is a circular list: the harness links the tail back to head before calling.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

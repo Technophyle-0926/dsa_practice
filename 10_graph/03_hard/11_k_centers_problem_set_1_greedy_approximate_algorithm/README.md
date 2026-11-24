@@ -27,6 +27,7 @@ Output: 0
 Explanation: Place the ATM server in the only available city. The distance from the city to its nearest ATM server is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -34,6 +35,9 @@ int kCentersProblem1Greedy(int k, List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kCentersProblem1Greedy(1, [[0]])` → `0`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-minimum-weight-cycle-undirected-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1",
   "function": {
-    "name": "findMinimumWeightCycleUndirected",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minWeightCycle",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<List<int>>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "adj[u] holds [v, w] pairs; return -1 if the graph has no cycle."
   },
-  "example": null
+  "example": {
+    "call": "minWeightCycle([[[1, 2], [4, 3]], [[0, 2], [2, 2], [3, 1], [4, 1]], [[1, 2], [3, 4]], [[1, 1], [2, 4]], [[1, 1], [0, 3]]])",
+    "expected": "6"
+  }
 }

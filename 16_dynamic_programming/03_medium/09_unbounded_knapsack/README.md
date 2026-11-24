@@ -28,6 +28,7 @@ Output: 0
 Explanation: We can't pick any element. Hence, total profit is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int unboundedKnapsack(List<int> val, List<int> wt, int capacity)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `unboundedKnapsack([1, 1], [2, 1], 3)` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: [1, 5]
 Explanation: 1 is occurs twice and 5 is missing.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> missingRepeating(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `missingRepeating([3, 1, 3])` → `[3, 2]`
+<!-- signature:end -->
 
 ## Links
 

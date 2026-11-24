@@ -20,13 +20,19 @@ Output : 4 6 7 9 10
 Corner Cases :  For a tree with single node, the output should be the single node. And if root is null (empty tree), the output should be empty.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic findAllLeafNodes(/* not set yet */)
+List<int> leafNodes(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Leaves from left to right; empty list for an empty tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `leafNodes(TreeNode.fromLevelOrder([1, 2, 3, 4, null, 5, 8, null, null, 6, 7, 9, 10]))` → `[4, 6, 7, 9, 10]`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: "GoodMorning"
 Explanation: Joining "Good" and "Morning" results in "GoodMorning"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ String concatenatingTwoStrings(String s1, String s2)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `concatenatingTwoStrings("Hello", "World")` → `"HelloWorld"`
+<!-- signature:end -->
 
 ## Links
 

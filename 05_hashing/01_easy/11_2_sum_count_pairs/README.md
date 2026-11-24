@@ -26,6 +26,7 @@ Output:  0
 Explanation: There is no pair with sum = target
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int solve2SumCountPairs(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve2SumCountPairs([1, 5, 7, -1, 5], 6)` → `3`
+<!-- signature:end -->
 
 ## Links
 

@@ -35,13 +35,17 @@ Output: false
 Explanation: 27 is not present in the linked list.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic searchLinkedList(/* not set yet */)
+bool searchLinkedList(ListNode? head, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchLinkedList(ListNode.fromList([14, 21, 5, 13, 30]), 5)` → `true`
+<!-- signature:end -->
 
 ## Links
 

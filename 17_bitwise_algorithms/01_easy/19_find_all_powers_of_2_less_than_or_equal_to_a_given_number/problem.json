@@ -10,15 +10,16 @@
     "name": "findAllPowers2Less",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Powers of two <= n in descending order."
   },
   "example": {
     "call": "findAllPowers2Less(63)",
-    "expected": "32 16 8 4 2 1"
+    "expected": "[32, 16, 8, 4, 2, 1]"
   }
 }

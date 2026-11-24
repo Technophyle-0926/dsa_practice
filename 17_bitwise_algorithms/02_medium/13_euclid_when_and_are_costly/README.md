@@ -27,13 +27,17 @@ gcd(a, b) = gcd(a/2, b) if a is even and b is odd.
 gcd(a, b) = gcd(a, b/2) if a is odd and b is even.
 Below is C++ implementation.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic euclidWhenAreCostly(/* not set yet */)
+int binaryGcd(int a, int b)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return gcd(a, b) using only shifts, bitwise ops and subtraction (no % or /).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

@@ -1,4 +1,4 @@
-# 4. Egyptian Fraction
+# 4. Merge Overlapping Intervals
 
 **Category:** Greedy → Medium
 
@@ -20,13 +20,17 @@ Output: [[1, 6], [7, 8]]
 Explanation: We will merge the overlapping intervals [[1, 5], [2, 4], [4, 6]] into a single interval [1, 6].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<List<int>> egyptianFraction(List<List<int>> arr)
+List<List<int>> mergeOverlappingIntervals(List<List<int>> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeOverlappingIntervals([[1, 3], [2, 4], [6, 8], [9, 10]])` → `[[1, 4], [6, 8], [9, 10]]`
+<!-- signature:end -->
 
 ## Links
 
@@ -38,7 +42,7 @@ Your solution must define this function with the same name and parameters; the l
 Write your solution in `solutions/<your-github-username>.dart`. Create it with:
 
 ```sh
-dart run tool/start.dart 14_greedy/02_medium/04_egyptian_fraction
+dart run tool/start.dart 14_greedy/02_medium/04_merge_overlapping_intervals
 ```
 
 See the [solutions/](solutions/) folder for everyone's solutions.

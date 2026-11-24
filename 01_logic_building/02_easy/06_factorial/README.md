@@ -28,6 +28,7 @@ Input: n = 1
 Output: 1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int factorial(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `factorial(5)` → `120`
+<!-- signature:end -->
 
 ## Links
 

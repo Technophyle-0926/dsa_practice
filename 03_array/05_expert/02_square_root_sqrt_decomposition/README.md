@@ -22,13 +22,19 @@ Output: 26
         19
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic squareRootSqrtDecomposition(/* not set yet */)
+List<int> sqrtDecomposition(List<int> arr, List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'query' (args [l, r], 0-based inclusive sum) or 'update' (args [i, val]); returns the result of each query in order.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sqrtDecomposition([1, 5, 2, 4, 6, 1, 3, 5, 7, 10], ["query", "update", "query"], [[3, 8], [8, 0], [3, 8]])` → `[26, 19]`
+<!-- signature:end -->
 
 ## Links
 

@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "egyptianFraction",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "nr",
+        "type": "int"
+      },
+      {
+        "name": "dr",
+        "type": "int"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return the denominators of the greedy Egyptian fraction representation of nr/dr, in order."
   },
-  "example": null
+  "example": {
+    "call": "egyptianFraction(6, 14)",
+    "expected": "[3, 11, 231]"
+  }
 }

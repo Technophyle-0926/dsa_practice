@@ -1,3 +1,4 @@
+# Runs when you (the owner) push to main directly, e.g. tool or signature changes.
 name: Update progress
 
 on:
@@ -6,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: progress
+  group: main-writer
   cancel-in-progress: false
 
 permissions:
@@ -15,10 +16,11 @@ permissions:
 jobs:
   progress:
     runs-on: ubuntu-latest
+    environment: main-writer
     steps:
       - uses: actions/checkout@v4
         with:
-          # Deploy key with write access; it is on the ruleset bypass list so it can push to main.
+          # Deploy key (environment secret, main only) that is allowed to push to the protected main.
           ssh-key: ${{ secrets.PROGRESS_DEPLOY_KEY }}
       - uses: dart-lang/setup-dart@v1
       - run: dart pub get

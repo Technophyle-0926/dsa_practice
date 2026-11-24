@@ -24,6 +24,7 @@ Output: 4
 Explanation: The sequence is fully decreasing, which is allowed. Consecutive differences are 1: [10, 9, 8, 7].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int longestStrictBitonicSubsequence(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestStrictBitonicSubsequence([4, 5, 6, 5, 4, 3])` → `6`
+<!-- signature:end -->
 
 ## Links
 

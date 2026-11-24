@@ -22,6 +22,7 @@ Output: 0
 Explanation: Stock prices keep decreasing, there is no chance to sell at a higher price after buying, so no profit can be made.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int stockBuySellMultipleTransactions(List<int> prices)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stockBuySellMultipleTransactions([100, 180, 260, 310, 40, 535, 695])` → `865`
+<!-- signature:end -->
 
 ## Links
 

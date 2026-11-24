@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-binary-search-tree/",
   "practice": null,
   "function": {
-    "name": "introduction",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isBst",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Tutorial; canonical task: check the BST property (left subtree strictly smaller, right strictly greater)."
   },
-  "example": null
+  "example": {
+    "call": "isBst(TreeNode.fromLevelOrder([10, 5, 20, 1, 7]))",
+    "expected": "true"
+  }
 }

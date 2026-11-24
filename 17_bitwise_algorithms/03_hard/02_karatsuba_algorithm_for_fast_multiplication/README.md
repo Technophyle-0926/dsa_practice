@@ -26,13 +26,19 @@ What if the lengths of input strings are different and are not even? To handle t
 
 The above algorithm is called Karatsuba algorithm and it can be used for any base.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic karatsubaAlgorithmFastMultiplication(/* not set yet */)
+int karatsubaMultiply(String x, String y)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Inputs are binary strings; return the product as a decimal int.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `karatsubaMultiply("1100", "1010")` → `120`
+<!-- signature:end -->
 
 ## Links
 

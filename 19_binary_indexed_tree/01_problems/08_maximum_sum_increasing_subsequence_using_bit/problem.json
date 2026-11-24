@@ -14,11 +14,11 @@
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
+    "returns": "int",
     "verified": true
   },
   "example": {
     "call": "maximumSumIncreasingSubsequenceBit([1, 20, 4, 2, 5])",
-    "expected": "Maximum sum of increasing subsequence is = 21"
+    "expected": "21"
   }
 }

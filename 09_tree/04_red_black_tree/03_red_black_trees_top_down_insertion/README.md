@@ -12,13 +12,19 @@ The two basic operations to perform for fixing violations and balancing are-
 - Recoloring
 - Rotation
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic redBlackTreesTopDown(/* not set yet */)
+List<String> redBlackTopDownInsert(List<int> keys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert keys in order with top-down insertion (black nodes with two red children are recoloured on the way down, rotating as needed). Each node is encoded as its value followed by its colour, e.g. "20B" or "15R"; the list is the preorder traversal of the final tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `redBlackTopDownInsert([10, 20, 30, 15, 25])` → `["20B", "10B", "15R", "30B", "25R"]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-2/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsRecursion2",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "floorLog2",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Implement Question 2's recursive fun1(n): returns floor(log2(n)) for n >= 1."
   },
-  "example": null
+  "example": {
+    "call": "floorLog2(12)",
+    "expected": "3"
+  }
 }

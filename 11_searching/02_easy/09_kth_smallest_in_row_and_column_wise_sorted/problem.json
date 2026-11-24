@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/kth-smallest-element-in-a-row-wise-and-column-wise-sorted-2d-array/",
   "practice": "https://www.geeksforgeeks.org/problems/kth-element-in-matrix/1",
   "function": {
-    "name": "kthSmallestRowColumnWise",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "kthSmallest",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "kthSmallest([[10, 20, 30, 40], [15, 25, 35, 45], [24, 29, 37, 48], [32, 33, 39, 50]], 3)",
+    "expected": "20"
+  }
 }

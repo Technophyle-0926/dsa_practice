@@ -7,10 +7,22 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-page-replacement-algorithms-set-2-fifo/",
   "practice": null,
   "function": {
-    "name": "fifoPageReplacement",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "fifoPageFaults",
+    "params": [
+      {
+        "name": "pages",
+        "type": "List<int>"
+      },
+      {
+        "name": "capacity",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "fifoPageFaults([1, 3, 0, 3, 5, 6], 3)",
+    "expected": "5"
+  }
 }

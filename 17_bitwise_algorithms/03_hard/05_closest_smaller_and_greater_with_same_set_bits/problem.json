@@ -14,11 +14,12 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Return [closestGreater, closestSmaller]; use -1 for one that does not exist."
   },
   "example": {
     "call": "closestSmallerGreaterSameBits(5)",
-    "expected": "Closest Greater = 6"
+    "expected": "[6, 3]"
   }
 }

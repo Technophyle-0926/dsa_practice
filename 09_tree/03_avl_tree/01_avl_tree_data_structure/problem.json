@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/",
   "practice": null,
   "function": {
-    "name": "avlTreeDataStructure",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isAvlTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "bool",
+    "verified": true,
+    "note": "Tutorial; canonical task: check the tree is a BST and every node's balance factor is in [-1, 1]."
   },
-  "example": null
+  "example": {
+    "call": "isAvlTree(TreeNode.fromLevelOrder([12, 8, 18, 5, 11, 17, null, 4]))",
+    "expected": "true"
+  }
 }

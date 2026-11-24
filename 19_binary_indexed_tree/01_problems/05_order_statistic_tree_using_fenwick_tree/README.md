@@ -17,13 +17,17 @@ Each query should be one of the following 4 operations.
 Prerequisite: Binary Indexed Tree or Fenwick Tree
 The idea is to create a BIT of size with maximum limit. We insert an element in BIT using it as an index. When we insert an element x, we increment values of all ancestors of x by 1. To delete an element, we decrement values of ancestors by 1. We basically call standard function update() of BIT for both insert and delete. To find rank, we simply call standard function sum() of BIT. To find k-th smallest element, we do binary search in BIT.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic orderStatisticTreeFenwickTree(/* not set yet */)
+List<int> orderStatisticTree(List<String> ops, List<int> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'insert', 'delete', 'kth' or 'rank' with argument args[i]; return results of 'kth' (k-th smallest, 1-based) and 'rank' (count of elements <= x) in order.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

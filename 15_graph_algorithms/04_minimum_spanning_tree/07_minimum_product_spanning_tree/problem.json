@@ -8,9 +8,15 @@
   "practice": null,
   "function": {
     "name": "minimumProductSpanningTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "graph",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "graph is a V x V weighted adjacency matrix (0 = no edge, weights positive); return the minimum product of edge weights over all spanning trees."
   },
   "example": null
 }

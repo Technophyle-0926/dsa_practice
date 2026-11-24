@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/",
   "practice": "https://www.geeksforgeeks.org/problems/calculate-the-average-waiting-time-and-turnaround-time-using-shortest-job-first/1",
   "function": {
-    "name": "shortestJobFirstScheduling",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "sjfWaitingTimes",
+    "params": [
+      {
+        "name": "arrival",
+        "type": "List<int>"
+      },
+      {
+        "name": "burst",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Non-preemptive SJF: among arrived processes pick the smallest burst (ties by arrival, then index), CPU idles if none arrived; return each process's waiting time in input order."
   },
   "example": null
 }

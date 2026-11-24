@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/enumeration-of-binary-trees/",
   "practice": null,
   "function": {
-    "name": "enumerationBinaryTrees",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countUnlabelledBinaryTrees",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Number of structurally different unlabelled binary trees with n nodes (the n-th Catalan number)."
   },
-  "example": null
+  "example": {
+    "call": "countUnlabelledBinaryTrees(3)",
+    "expected": "5"
+  }
 }

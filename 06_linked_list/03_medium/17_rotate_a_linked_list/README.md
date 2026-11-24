@@ -26,13 +26,19 @@ Output: 30 -> 40 -> 10 -> 20
 Explanation: After rotating the list left by 6 positions, the node with value 30 becomes the new head, and the node with value 40 points to the node with value 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rotateLinkedList(/* not set yet */)
+ListNode? rotateLinkedList(ListNode? head, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Rotate left by k; k may exceed the length.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rotateLinkedList(ListNode.fromList([10, 20, 30, 40, 50]), 4)` → `50 -> 10 -> 20 -> 30 -> 40`
+<!-- signature:end -->
 
 ## Links
 

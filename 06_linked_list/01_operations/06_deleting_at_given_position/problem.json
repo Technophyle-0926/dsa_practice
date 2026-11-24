@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/delete-a-linked-list-node-at-a-given-position/",
   "practice": "https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1",
   "function": {
-    "name": "deletingAtGivenPosition",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteAtPosition",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "x is 1-based."
   },
-  "example": null
+  "example": {
+    "call": "deleteAtPosition(ListNode.fromList([1, 2, 3, 4, 5]), 4)",
+    "expected": "1 -> 2 -> 3 -> 5"
+  }
 }

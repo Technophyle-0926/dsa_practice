@@ -28,13 +28,17 @@ Input:
 Output:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mergeKSortedLists(/* not set yet */)
+ListNode? mergeKSortedLists(List<ListNode?> lists)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mergeKSortedLists([ListNode.fromList([1, 3, 7]), ListNode.fromList([2, 4, 8]), ListNode.fromList([9])])` → `1 -> 2 -> 3 -> 4 -> 7 -> 8 -> 9`
+<!-- signature:end -->
 
 ## Links
 

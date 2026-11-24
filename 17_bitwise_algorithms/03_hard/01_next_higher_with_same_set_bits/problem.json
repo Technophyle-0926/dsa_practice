@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/next-higher-number-with-same-number-of-set-bits/",
   "practice": null,
   "function": {
-    "name": "nextHigherSameBits",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "nextHigherWithSameSetBits",
+    "params": [
+      {
+        "name": "x",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "nextHigherWithSameSetBits(12)",
+    "expected": "17"
+  }
 }

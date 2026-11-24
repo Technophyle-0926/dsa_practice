@@ -10,19 +10,20 @@
     "name": "boothsMultiplicationAlgorithm",
     "params": [
       {
-        "name": "n",
-        "type": "int"
+        "name": "multiplicand",
+        "type": "String"
       },
       {
-        "name": "n2",
-        "type": "int"
+        "name": "multiplier",
+        "type": "String"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "Inputs are n-bit two's complement strings (multiplicand BR, multiplier QR); return the 2n-bit product AC+QR."
   },
   "example": {
-    "call": "boothsMultiplicationAlgorithm(0110, 0010)",
-    "expected": "qn      q[n+1]                  AC      QR     sc(step count) initial         0000   0010        4 0       0       rightShift      0000   0001        3 1       0       A = A - BR      1010 rightShift      1101   0000        2 0       1       A = A + BR      0011 rightShift      0001   1000        1 0       0       rightShift      0000   1100        0 Result=1100"
+    "call": "boothsMultiplicationAlgorithm(\"0110\", \"0010\")",
+    "expected": "\"00001100\""
   }
 }

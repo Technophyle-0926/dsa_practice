@@ -15,7 +15,8 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Input is listed bottom to top; return the sorted stack listed top to bottom (largest first), as in the examples."
   },
   "example": {
     "call": "sortStack([41, 3, 32, 2, 11])",

@@ -26,13 +26,19 @@ Output:
 Explanation: Singly linked list is converted to circular by pointing last node to head.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic singlyCircularConversion(ListNode? head)
+ListNode? singlyToCircular(ListNode? head)
 ```
 
+> **Note:** Return head of the same nodes with the tail's next set to head (harness checks the cycle).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `singlyToCircular(ListNode.fromList([1, 2, 3, 4, 5, 6]))` → `1 -> 2 -> 3 -> 4 -> 5 -> 6 -> (back to 1)`
+<!-- signature:end -->
 
 ## Links
 

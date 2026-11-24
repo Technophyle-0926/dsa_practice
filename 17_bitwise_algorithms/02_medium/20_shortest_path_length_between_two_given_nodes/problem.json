@@ -10,7 +10,7 @@
     "name": "shortestPathLengthBetweenTwo",
     "params": [
       {
-        "name": "N",
+        "name": "n",
         "type": "int"
       },
       {
@@ -23,7 +23,8 @@
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "Nodes are 1..n; edge iff the numbers differ in exactly 2 bits; return -1 if unreachable."
   },
   "example": {
     "call": "shortestPathLengthBetweenTwo(15, 15, 3)",

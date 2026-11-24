@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/construct-graph-given-degrees-vertices/",
   "practice": null,
   "function": {
-    "name": "constructGraphGivenDegreesAll",
+    "name": "constructGraphFromDegrees",
     "params": [
       {
         "name": "degrees",
         "type": "List<int>"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the adjacency matrix built greedily: for each i in order, connect i to each later j while both still need degree."
   },
   "example": {
-    "call": "constructGraphGivenDegreesAll([2, 2, 1, 1])",
-    "expected": "(0)  (1)  (2)  (3)"
+    "call": "constructGraphFromDegrees([2, 2, 1, 1])",
+    "expected": "[[0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0]]"
   }
 }

@@ -18,13 +18,19 @@ Explanation:
 Path 0 → 2: The path with maximum weight and at most 0 intermediate nodes is of weight 500.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int maximumCostPath(int N, List<List<int>> Edges, int src, int dst, int K)
+int maximumCostPath(int n, List<List<int>> edges, int src, int dst, int k)
 ```
 
+> **Note:** edges[i] = [u, v, w] is a directed edge; k is the maximum number of intermediate vertices; return -1 if no such path.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumCostPath(3, [[0, 1, 100], [1, 2, 100], [0, 2, 500]], 0, 2, 0)` → `500`
+<!-- signature:end -->
 
 ## Links
 

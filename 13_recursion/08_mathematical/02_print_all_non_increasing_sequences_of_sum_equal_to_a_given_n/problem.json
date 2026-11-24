@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-all-non-increasing-sequences-of-sum-equal-to-a-given-number/",
   "practice": null,
   "function": {
-    "name": "printAllNonIncreasingSequences",
+    "name": "nonIncreasingSequences",
     "params": [
       {
         "name": "x",
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Order as in the examples (lexicographic)."
   },
   "example": {
-    "call": "printAllNonIncreasingSequences(3)",
-    "expected": "1 1 1"
+    "call": "nonIncreasingSequences(3)",
+    "expected": "[[1, 1, 1], [2, 1], [3]]"
   }
 }

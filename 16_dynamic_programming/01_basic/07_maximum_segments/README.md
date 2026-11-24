@@ -28,6 +28,7 @@ Output: 0
 Explanation: Here the total length is 7, and the cut lengths are 8, 9, and 10. We cannot cut the segment into lengths that fully utilize the segment, so the output is 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ int maximumSegments(int n, int x, int y, int z)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumSegments(4, 2, 1, 1)` → `4`
+<!-- signature:end -->
 
 ## Links
 

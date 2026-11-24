@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/minimum-cut-in-a-directed-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/find-minimum-s-t-cut-in-a-flow-network2902/1",
   "function": {
-    "name": "mnimumSTCutFlow",
+    "name": "minimumStCut",
     "params": [
       {
         "name": "a",
@@ -22,11 +22,12 @@
         "type": "int"
       }
     ],
-    "returns": "int",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Return the edges [u, v] of any minimum s-t cut, in any order; checked by validity and total capacity."
   },
   "example": {
-    "call": "mnimumSTCutFlow([[0, 16, 13, 0, 0, 0], [0, 0, 10, 12, 0, 0], [0, 4, 0, 0, 14, 0], [0, 0, 9, 0, 0, 20], [0, 0, 0, 7, 0, 4], [0, 0, 0, 0, 0, 0]], 0, 5)",
-    "expected": "23"
+    "call": "minimumStCut([[0, 16, 13, 0, 0, 0], [0, 0, 10, 12, 0, 0], [0, 4, 0, 0, 14, 0], [0, 0, 9, 0, 0, 20], [0, 0, 0, 7, 0, 4], [0, 0, 0, 0, 0, 0]], 0, 5)",
+    "expected": "[[1, 3], [4, 3], [4, 5]] (capacity 23)"
   }
 }

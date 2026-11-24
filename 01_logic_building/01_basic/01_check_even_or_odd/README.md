@@ -20,6 +20,7 @@ Output: true
 Explanation: 44 % 2 = 0, so 44 is even.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool checkEvenOrOdd(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkEvenOrOdd(15)` → `false`
+<!-- signature:end -->
 
 ## Links
 

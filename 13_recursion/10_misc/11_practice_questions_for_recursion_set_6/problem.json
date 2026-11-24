@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/practice-questions-for-recursion-set-6/",
   "practice": null,
   "function": {
-    "name": "practiceQuestionsRecursion6",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "powerRecursive",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Implement Question 2's changed fun(a, b) (+ replaced by *, base case 1) that computes a^b (b >= 0)."
   },
-  "example": null
+  "example": {
+    "call": "powerRecursive(3, 4)",
+    "expected": "81"
+  }
 }

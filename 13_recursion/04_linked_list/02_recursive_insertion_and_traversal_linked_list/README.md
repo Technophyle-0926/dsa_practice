@@ -23,13 +23,19 @@ Input: Values to be inserted = 7, 8, 4, 11, 44, 6
 Output: 7 -> 8 -> 4 -> 11 -> 44 -> 6 -> NULL
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recursiveInsertionTraversalLinkedList(/* not set yet */)
+ListNode? buildLinkedListRecursive(List<int> values)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert each value at the end recursively and return the head.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `buildLinkedListRecursive([1, 2, 3, 4, 5])` → `1 -> 2 -> 3 -> 4 -> 5`
+<!-- signature:end -->
 
 ## Links
 

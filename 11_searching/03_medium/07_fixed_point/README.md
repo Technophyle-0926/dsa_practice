@@ -24,6 +24,7 @@ Output: -1
 Explanation: No Fixed Point
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ int fixedPoint(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fixedPoint([-10, -5, 0, 3, 7])` → `3`
+<!-- signature:end -->
 
 ## Links
 

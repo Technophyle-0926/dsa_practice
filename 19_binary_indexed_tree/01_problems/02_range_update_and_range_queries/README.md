@@ -26,13 +26,19 @@ Explanation: Array after first update becomes {2, 2, 2, 2, 2}
 Array after second update becomes {2, 2, 2, 5, 5}
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rangeUpdateRangeQueries(/* not set yet */)
+List<int> rangeUpdateRangeSum(int n, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Array of n zeros; [1, l, r, val] adds val to [l, r]; [2, l, r] asks the sum of [l, r]; return type-2 answers.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeUpdateRangeSum(5, [[1, 0, 4, 2], [1, 3, 4, 3], [2, 2, 4]])` → `[12]`
+<!-- signature:end -->
 
 ## Links
 

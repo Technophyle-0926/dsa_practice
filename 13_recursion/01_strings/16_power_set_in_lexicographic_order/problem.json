@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/powet-set-lexicographic-order/",
   "practice": null,
   "function": {
-    "name": "powerLexicographicOrder",
+    "name": "powerSetLexicographic",
     "params": [
       {
         "name": "s",
         "type": "String"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Non-empty subsets in lexicographic order."
   },
   "example": {
-    "call": "powerLexicographicOrder(\"abc\")",
-    "expected": "a ab abc ac b bc c"
+    "call": "powerSetLexicographic(\"abc\")",
+    "expected": "[a, ab, abc, ac, b, bc, c]"
   }
 }

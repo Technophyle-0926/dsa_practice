@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1",
   "function": {
-    "name": "reverseSinglyLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "reverseLinkedList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "reverseLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))",
+    "expected": "5 -> 4 -> 3 -> 2 -> 1"
+  }
 }

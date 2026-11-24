@@ -23,6 +23,7 @@ Input: a[] = [10, 5, 2, 23, 19], b = [19, 5, 3]
 Output: false
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ bool checkTorSubset(List<int> a, List<int> b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkTorSubset([11, 1, 13, 21, 3, 7], [11, 3, 7, 1])` → `true`
+<!-- signature:end -->
 
 ## Links
 

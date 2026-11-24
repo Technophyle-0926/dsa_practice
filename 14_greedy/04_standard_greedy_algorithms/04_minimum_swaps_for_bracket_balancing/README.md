@@ -22,6 +22,7 @@ Output : 0
 Explanation : The string is already balanced.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minimumSwapsBracketBalancing(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumSwapsBracketBalancing("[]][][")` → `2`
+<!-- signature:end -->
 
 ## Links
 

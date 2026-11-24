@@ -28,6 +28,7 @@ Output: [1, 3]
 Explanation: 3 equal sum segments are: arr[0...1], arr[2...3] and arr[4...7] each having sum = 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> splitArrayIntoThreeEquals(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `splitArrayIntoThreeEquals([1, 3, 4, 0, 4])` → `[1, 2]`
+<!-- signature:end -->
 
 ## Links
 

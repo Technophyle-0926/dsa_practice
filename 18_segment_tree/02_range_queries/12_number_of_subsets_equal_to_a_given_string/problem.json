@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/string-range-queries-to-find-the-number-of-subsets-equal-to-a-given-string/",
   "practice": null,
   "function": {
-    "name": "numberSubsetsEqualGivenString",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countSubsetsEqualString",
+    "params": [
+      {
+        "name": "s",
+        "type": "String"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<String>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Query [\"1\", L, x] sets s[L] = x; [\"2\", L, R, str] counts ways to pick one position in s[L..R] for each (distinct) char of str, mod 1e9+7; indices are 1-based; return type-2 answers."
   },
-  "example": null
+  "example": {
+    "call": "countSubsetsEqualString(\"geeekkksgskeegks\", [[\"2\", \"1\", \"7\", \"gek\"], [\"1\", \"2\", \"x\"], [\"2\", \"1\", \"7\", \"gek\"]])",
+    "expected": "[9, 6]"
+  }
 }

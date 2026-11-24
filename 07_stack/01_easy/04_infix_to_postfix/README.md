@@ -22,13 +22,17 @@ Output: abc*+d+
 Explanation: The expression a + b * c + d is converted by first doing b * c → bc*, then adding a → abc*+, and finally adding d → abc*+d+.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic infixPostfix(String s)
+String infixToPostfix(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `infixToPostfix("a*(b+c)/d")` → `abc+*d/`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,6 +26,7 @@ Output: 1
 Explanation: The smallest of the 3 integers is b, which is equal to 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int smallestThree(int a, int b, int c)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `smallestThree(2, 5, 7)` → `2`
+<!-- signature:end -->
 
 ## Links
 

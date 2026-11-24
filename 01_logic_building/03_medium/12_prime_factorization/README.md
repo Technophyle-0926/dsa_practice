@@ -18,6 +18,7 @@ Output: [2, 3, 5]
 Explanation: Prime factors of 60 are 2, 2, 3, 5. Unique prime factors are 2, 3 and 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ List<int> primeFactorization(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `primeFactorization(100)` → `[2, 5]`
+<!-- signature:end -->
 
 ## Links
 

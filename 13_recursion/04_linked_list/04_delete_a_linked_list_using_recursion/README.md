@@ -20,13 +20,19 @@ Output: NULL
 Explanation:  Linked List is Deleted
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String deleteLinkedListRecursion(ListNode? head)
+ListNode? deleteLinkedList(ListNode? head)
 ```
 
+> **Note:** Delete every node recursively and return the (now empty) head, i.e. null.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))` → `null`
+<!-- signature:end -->
 
 ## Links
 

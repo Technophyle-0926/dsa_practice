@@ -24,6 +24,7 @@ Output: 2.236068
 Explanation: The smallest distance is between points (-2, -2) and (-1, 0), which is 2.236068.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ double closestPairPoints(List<List<int>> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `closestPairPoints([[-1, -2], [0, 0], [1, 2], [2, 3]])` → `1.414214`
+<!-- signature:end -->
 
 ## Links
 

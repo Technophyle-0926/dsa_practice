@@ -23,6 +23,6 @@
   },
   "example": {
     "call": "policemenCatchThieves([\"P\", \"T\", \"T\", \"P\", \"T\"], 1)",
-    "expected": "2."
+    "expected": "2"
   }
 }

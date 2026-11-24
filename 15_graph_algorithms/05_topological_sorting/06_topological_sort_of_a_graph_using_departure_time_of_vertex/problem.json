@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/topological-sorting-using-departure-time-of-vertex/",
   "practice": null,
   "function": {
-    "name": "topologicalSortGraphDepartureTime",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "topologicalSortByDepartureTime",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "edges[i] = [u, v] is a directed edge u -> v; any valid topological order is accepted."
   },
-  "example": null
+  "example": {
+    "call": "topologicalSortByDepartureTime(6, [[5, 2], [5, 0], [4, 0], [4, 1], [2, 3], [3, 1]])",
+    "expected": "[5, 4, 2, 3, 1, 0]"
+  }
 }

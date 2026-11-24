@@ -20,6 +20,7 @@ Output: 4
 Explanation: No need of rearrangement. Sum of absolute difference between consecutive elements = |10 - 12| + |12 - 10| = 2 + 2 = 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int maxConsecutiveDiffSum(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxConsecutiveDiffSum([4, 2, 1, 8])` → `18`
+<!-- signature:end -->
 
 ## Links
 

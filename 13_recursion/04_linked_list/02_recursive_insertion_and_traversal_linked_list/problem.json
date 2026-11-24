@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/recursive-insertion-and-traversal-linked-list/",
   "practice": null,
   "function": {
-    "name": "recursiveInsertionTraversalLinkedList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "buildLinkedListRecursive",
+    "params": [
+      {
+        "name": "values",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Insert each value at the end recursively and return the head."
   },
-  "example": null
+  "example": {
+    "call": "buildLinkedListRecursive([1, 2, 3, 4, 5])",
+    "expected": "1 -> 2 -> 3 -> 4 -> 5"
+  }
 }

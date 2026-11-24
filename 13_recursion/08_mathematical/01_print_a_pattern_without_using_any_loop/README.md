@@ -22,6 +22,7 @@ Input: n = 10
 Output: 10, 5, 0, 5, 10
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> printPatternWithoutAnyLoop(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printPatternWithoutAnyLoop(16)` → `16, 11, 6, 1, -4, 1, 6, 11, 16`
+<!-- signature:end -->
 
 ## Links
 

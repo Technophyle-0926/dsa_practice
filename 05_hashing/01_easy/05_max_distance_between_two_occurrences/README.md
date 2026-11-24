@@ -26,6 +26,7 @@ Output: 0
 Explanation: No element has two occurrence, so maximum distance = 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int maxDistanceBetweenTwoOccurrences(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxDistanceBetweenTwoOccurrences([1, 1, 2, 2, 2, 1])` → `5`
+<!-- signature:end -->
 
 ## Links
 

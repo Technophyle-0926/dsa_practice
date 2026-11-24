@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-binary-tree/",
   "practice": null,
   "function": {
-    "name": "introduction",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countNodes",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tutorial; canonical task: build/walk a binary tree and return its number of nodes."
   },
-  "example": null
+  "example": {
+    "call": "countNodes(TreeNode.fromLevelOrder([1, 2, 3, 4]))",
+    "expected": "4"
+  }
 }

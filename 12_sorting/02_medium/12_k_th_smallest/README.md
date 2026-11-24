@@ -26,13 +26,19 @@ Output: [23]
 Explanation: 1st Largest element in the array is 23.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> kThSmallest(List<int> arr, int k)
+List<int> kLargestElements(List<int> arr, int k)
 ```
 
+> **Note:** Returns the k largest elements in decreasing order.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kLargestElements([12, 5, 787, 1, 23], 2)` → `[787, 23]`
+<!-- signature:end -->
 
 ## Links
 

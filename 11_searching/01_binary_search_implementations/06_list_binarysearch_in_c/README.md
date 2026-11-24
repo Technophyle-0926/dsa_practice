@@ -55,13 +55,19 @@ Below programs illustrate the use of the above-discussed method:
 
 **Example 2:** In this example, the List is created with some integer values and to insert a new integer using BinarySearch(T, Comparer <T>) method in the List by using a user defined function.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic listBinarysearchC(/* not set yet */)
+int listBinarySearch(List<int> list, int item)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** list is sorted; return the index of item, else the bitwise complement (~) of the index of the next larger element (or of list.length).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `listBinarySearch([1, 3, 5, 7], 4)` → `-3`
+<!-- signature:end -->
 
 ## Links
 

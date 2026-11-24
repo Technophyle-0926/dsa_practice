@@ -19,6 +19,7 @@ Output: false
 Explanation: There is no way to split the string into four non-empty substrings such that all four substrings are distinct. Therefore, the output is false.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -26,6 +27,9 @@ bool splitStringIntoFourDistinct(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `splitStringIntoFourDistinct("geeksforgeeks")` → `true`
+<!-- signature:end -->
 
 ## Links
 

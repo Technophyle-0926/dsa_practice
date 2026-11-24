@@ -22,13 +22,17 @@ Output: 4433999088
 Explanation: For 'H', press '4' two times. For 'E', press '3' two times. For 'Y', press '9' three times. For the space, press '0' one time. For 'U', press '8' two times.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int stringMobileNumericKeypadSequence(String s)
+String stringMobileNumericKeypadSequence(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stringMobileNumericKeypadSequence("GFG")` → `"43334"`
+<!-- signature:end -->
 
 ## Links
 

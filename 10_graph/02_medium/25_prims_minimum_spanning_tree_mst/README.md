@@ -21,6 +21,7 @@ Output: 5
 Explanation: Only one Spanning Tree is possible which has a weight of 5.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -28,6 +29,9 @@ int primsMinimumSpanningTreeMst(List<List<List<int>>> adj)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `primsMinimumSpanningTreeMst([[[1, 5], [2, 1]], [[0, 5], [2, 3]], [[0, 1], [1, 3]]])` → `4`
+<!-- signature:end -->
 
 ## Links
 

@@ -18,6 +18,7 @@ Input: s = "HelloWorld", c = '!', pos = 5
 Output: Hello!World
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ String insertCharacter(String s, String c, int pos)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `insertCharacter("Geeks", "A", 3)` → `GeeAks`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,13 +26,19 @@ Output: false
 Explanation: The last node of the linked list points to NULL, indicating the end of the list.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 bool detectLoopLinkedList(ListNode? head)
 ```
 
+> **Note:** For cyclic test cases the harness links the tail to an earlier node before calling.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `detectLoopLinkedList(ListNode.fromList([1, 8, 3, 4]))` → `false`
+<!-- signature:end -->
 
 ## Links
 

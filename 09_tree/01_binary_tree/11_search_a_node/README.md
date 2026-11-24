@@ -22,13 +22,17 @@ Input:
 Output: False
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic searchNode(/* not set yet */)
+bool searchNode(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `searchNode(TreeNode.fromLevelOrder([1, 2, 3, 4, 5, 6]), 6)` → `true`
+<!-- signature:end -->
 
 ## Links
 

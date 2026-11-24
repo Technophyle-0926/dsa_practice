@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/two-dimensional-binary-indexed-tree-or-fenwick-tree/",
   "practice": null,
   "function": {
-    "name": "solve2dBinaryIndexedTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "subMatrixSumQueries",
+    "params": [
+      {
+        "name": "mat",
+        "type": "List<List<int>>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query [x1, y1, x2, y2] (0-based, inclusive corners) asks the sum of that sub-matrix."
   },
   "example": null
 }

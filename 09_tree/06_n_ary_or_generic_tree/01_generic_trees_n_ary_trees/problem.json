@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/generic-treesn-array-trees/",
   "practice": null,
   "function": {
-    "name": "genericTreesNAryTrees",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countNodesNAryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "int"
+      },
+      {
+        "name": "children",
+        "type": "Map<int, List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tutorial; canonical task: count the nodes. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique."
   },
-  "example": null
+  "example": {
+    "call": "countNodesNAryTree(1, {1: [2, 3, 4], 2: [5, 6]})",
+    "expected": "6"
+  }
 }

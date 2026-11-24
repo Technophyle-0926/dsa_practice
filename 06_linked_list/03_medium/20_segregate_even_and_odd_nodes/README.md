@@ -28,13 +28,17 @@ Explanation: There is no even number, so no modification is needed.
 1 ≤ number of nodes ≤ 10^5
 1 ≤ node->data ≤ 10^5
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? segregateEvenOddNodes()
+ListNode? segregateEvenOddNodes(ListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `segregateEvenOddNodes(ListNode.fromList([17, 15, 8, 9, 2, 4, 6]))` → `8 -> 2 -> 4 -> 6 -> 17 -> 15 -> 9`
+<!-- signature:end -->
 
 ## Links
 

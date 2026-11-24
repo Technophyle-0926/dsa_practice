@@ -10,23 +10,16 @@
     "name": "sortDifferentMachines",
     "params": [
       {
-        "name": "Machine_M1",
-        "type": "List<int>"
-      },
-      {
-        "name": "Machine_M2",
-        "type": "List<int>"
-      },
-      {
-        "name": "Machine_M3",
-        "type": "List<int>"
+        "name": "machines",
+        "type": "List<List<int>>"
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "machines[i] is the sorted list of numbers held by machine i."
   },
   "example": {
-    "call": "sortDifferentMachines([30, 40, 50], [35, 45], [10, 60, 70, 80, 100])",
+    "call": "sortDifferentMachines([[30, 40, 50], [35, 45], [10, 60, 70, 80, 100]])",
     "expected": "[10, 30, 35, 40, 45, 50, 60, 70, 80, 100]"
   }
 }

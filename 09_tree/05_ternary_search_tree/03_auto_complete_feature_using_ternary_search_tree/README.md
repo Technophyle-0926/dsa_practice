@@ -36,13 +36,19 @@ If the character to be inserted is smaller than current node value, traverse the
 - Every time a node is encountered which has the **endofWord** variable set, it denotes that a suggestion has been obtained. Insert that suggestion into **words**.
 - Return **words** after generating all possible suggestions.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String autoCompleteFeatureTernarySearch(List<String> S, String patt)
+List<String> autoCompleteTst(List<String> words, String patt)
 ```
 
+> **Note:** Return all words having patt as a prefix in lexicographic order (TST traversal order); empty list instead of "None".
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `autoCompleteTst(["wallstreet", "geeksforgeeks", "wallmart", "walmart", "waldomort", "word"], "wall")` → `["wallmart", "wallstreet"]`
+<!-- signature:end -->
 
 ## Links
 

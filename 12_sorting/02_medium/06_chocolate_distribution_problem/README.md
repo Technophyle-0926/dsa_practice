@@ -23,6 +23,7 @@ Output: 7
 Explanation: If we distribute chocolate packets {3, 2, 4, 9, 7}, we will get the minimum difference, that is 9 - 2 = 7.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ int chocolateDistributionProblem(List<int> arr, int m)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `chocolateDistributionProblem([7, 3, 2, 4, 9, 12, 56], 3)` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -53,13 +53,19 @@ A BST supports operations like search, insert, delete, maximum, minimum, floor, 
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic applications(/* not set yet */)
+List<int> bstSort(List<int> arr)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; canonical task: tree sort - insert all values into a BST (duplicates kept) and return the inorder traversal.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bstSort([5, 3, 8, 1, 4])` → `[1, 3, 4, 5, 8]`
+<!-- signature:end -->
 
 ## Links
 

@@ -83,13 +83,19 @@ Let there be an error and code word received at the receiver side  100000001.
 As the remainder is not 0, hence there is some error detected in the receiver side.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cyclicRedundancyCheckModulo2(/* not set yet */)
+String crcEncode(String data, String key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return data followed by the (key length - 1)-bit CRC remainder from modulo-2 division.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `crcEncode("100100", "1101")` → `"100100001"`
+<!-- signature:end -->
 
 ## Links
 

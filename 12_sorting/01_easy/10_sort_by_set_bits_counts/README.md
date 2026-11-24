@@ -39,6 +39,7 @@ Explanation: The integers in their binary representation are:
 hence the non-increasing sorted order is {3, 5, 6}, {1, 2, 4}.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -46,6 +47,9 @@ List<int> sortBitsCounts(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortBitsCounts([5, 2, 3, 9, 4, 6, 7, 15, 32])` → `15 7 5 3 9 6 2 4 32`
+<!-- signature:end -->
 
 ## Links
 

@@ -36,13 +36,19 @@ satisfies all the conditions stated above.
 From the above examples, we can easily identify that in order to use a minimum number of positions, we have to start from the positions having the highest cell value. Therefore, we pick the positions that contain the highest value in the matrix. We take the vertices having the highest value in a separate array. We perform DFS at every vertex starting from the
 highest value. If we encounter any unvisited vertex during dfs then we have to include this vertex in our set. When all the cells have been processed, then the set contains the required vertices.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minInitialVerticesTraverseMatrix(/* not set yet */)
+List<List<int>> minInitialVertices(List<List<int>> mat)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the [row, col] (0-based) of the minimal set of start cells, sorted by row then column.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minInitialVertices([[1, 2, 3], [2, 3, 1], [1, 1, 1]])` → `[[0, 2], [1, 1]]`
+<!-- signature:end -->
 
 ## Links
 

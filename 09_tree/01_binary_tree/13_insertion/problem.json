@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/insertion-in-a-binary-tree-in-level-order/",
   "practice": null,
   "function": {
-    "name": "insertion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "insertLevelOrder",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "Insert as a child of the first node in level order that has a free slot (left before right); return the root."
   },
-  "example": null
+  "example": {
+    "call": "insertLevelOrder(TreeNode.fromLevelOrder([10, 11, 9, 7, null, 15, 8]), 12)",
+    "expected": "[10, 11, 9, 7, 12, 15, 8]"
+  }
 }

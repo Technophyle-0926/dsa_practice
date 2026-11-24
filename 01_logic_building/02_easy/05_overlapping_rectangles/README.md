@@ -25,6 +25,7 @@ Output: false
 Explanation: The rectangles do not overlap.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool overlappingRectangles(List<int> l1, List<int> r1, List<int> l2, List<int> r
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `overlappingRectangles([0, 10], [10, 0], [5, 5], [15, 0])` → `true`
+<!-- signature:end -->
 
 ## Links
 

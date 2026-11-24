@@ -7,10 +7,10 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-all-combinations-of-given-length/",
   "practice": null,
   "function": {
-    "name": "printAllPossibleStringsLength",
+    "name": "allStringsOfLengthK",
     "params": [
       {
-        "name": "setValue",
+        "name": "chars",
         "type": "List<String>"
       },
       {
@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "String",
-    "verified": true
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Strings generated in the order of chars (lexicographic by index)."
   },
   "example": {
-    "call": "printAllPossibleStringsLength([\"a\", \"b\"], 3)",
-    "expected": "aaa"
+    "call": "allStringsOfLengthK([\"a\", \"b\"], 3)",
+    "expected": "[aaa, aab, aba, abb, baa, bab, bba, bbb]"
   }
 }

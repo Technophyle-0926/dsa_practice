@@ -6,13 +6,19 @@
 
 A B Tree is a type of data structure commonly known as a Balanced Tree that stores multiple data items very easily. B Trees are one of the most useful data structures that provide ordered access to the data in the database. In this article, we will see the delete operation in the B-Tree. B-Trees are self-balancing trees.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deleteOperationBTree(/* not set yet */)
+List<List<int>> bTreeDelete(int t, List<int> keys, List<int> deleteKeys)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Build with CLRS insertion (minimum degree t), then delete deleteKeys in order with CLRS deletion (predecessor/successor/merge, borrowing on the way down); absent keys ignored. The tree is returned level by level, left to right, one List<int> of keys per node.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bTreeDelete(3, [10, 20, 5, 6, 12, 30, 7, 17], [6])` → `[[10], [5, 7], [12, 17, 20, 30]]`
+<!-- signature:end -->
 
 ## Links
 

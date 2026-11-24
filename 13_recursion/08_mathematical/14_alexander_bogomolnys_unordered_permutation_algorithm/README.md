@@ -22,13 +22,19 @@ Output : 1 2 3
          3 2 1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> alexanderBogomolnysUnorderedPermutationAlgorithm(int n)
+List<List<int>> bogomolnyPermutations(int n)
 ```
 
+> **Note:** Permutations of 1..n in the order Bogomolny's algorithm produces (see the n = 3 example).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `bogomolnyPermutations(2)` → `[[1, 2], [2, 1]]`
+<!-- signature:end -->
 
 ## Links
 

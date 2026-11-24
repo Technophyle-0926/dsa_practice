@@ -28,13 +28,19 @@ Output: [0, 4, 5, 1, 2, 3]
 Explanation: For every pair of vertex(u -> v) in the ordering, u comes before v.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic kahnsAlgorithmTopologicalSorting(/* not set yet */)
+List<int> kahnTopologicalSort(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Any valid topological ordering is accepted.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kahnTopologicalSort([[1], [2], [], [2, 4], []])` → `[0, 3, 1, 4, 2]`
+<!-- signature:end -->
 
 ## Links
 

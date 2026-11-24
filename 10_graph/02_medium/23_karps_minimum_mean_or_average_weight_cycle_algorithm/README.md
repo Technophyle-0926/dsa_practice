@@ -18,13 +18,19 @@ Input: [[0, 1, 1], [0, 2, 10], [1, 2, 3], [2, 3, 2], [3, 1, 0], [3, 0, 8]]
 Output: 1.66667
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic karpsMinimumMeanOrAverage(/* not set yet */)
+double minMeanCycle(int n, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Compared with a tolerance of 1e-5.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minMeanCycle(4, [[0, 1, 1], [0, 2, 10], [1, 2, 3], [2, 3, 2], [3, 1, 0], [3, 0, 8]])` → `1.66667`
+<!-- signature:end -->
 
 ## Links
 

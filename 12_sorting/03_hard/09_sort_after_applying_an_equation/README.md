@@ -25,13 +25,17 @@ Input: arr[] = [-1, 0, 1, 2, 3, 4], A = -1, B = 2, C = -1
 Output: [-9, -4, -4, -1, -1, 0]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> sortAfterApplyingEquation(List<int> arr, int A, int B, int C)
+List<int> sortAfterApplyingEquation(List<int> arr, int a, int b, int c)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortAfterApplyingEquation([-4, -2, 0, 2, 4], 1, 3, 5)` → `[3, 5, 9, 15, 33]`
+<!-- signature:end -->
 
 ## Links
 

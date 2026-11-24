@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-combinations-factors-ways-factorize/",
   "practice": null,
   "function": {
-    "name": "printAllCombinationsFactorsWays",
+    "name": "factorCombinations",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each combination non-decreasing, excluding n itself; lexicographic order."
   },
   "example": {
-    "call": "printAllCombinationsFactorsWays(16)",
-    "expected": "2 2 2 2"
+    "call": "factorCombinations(16)",
+    "expected": "[[2, 2, 2, 2], [2, 2, 4], [2, 8], [4, 4]]"
   }
 }

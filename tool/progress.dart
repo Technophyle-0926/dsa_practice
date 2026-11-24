@@ -5,7 +5,7 @@
 //   dart run tool/progress.dart --me     print your own progress (does not write files)
 //
 // A problem counts as solved by <user> when <problem>/solutions/<user>.dart exists
-// (.md for concept/reading items) and contains no "TODO" or "UnimplementedError".
+// and no longer contains `UnimplementedError` (for .md reading notes: the template's placeholder line is gone).
 // On GitHub this runs automatically after every merge to main; you don't need to commit its output.
 
 import 'dart:io';
@@ -14,6 +14,8 @@ import 'src/repo.dart';
 
 const _start = '<!-- progress:start -->';
 const _end = '<!-- progress:end -->';
+const _sigStart = '<!-- signature:start -->';
+const _sigEnd = '<!-- signature:end -->';
 
 void main(List<String> args) {
   final problems = loadProblems();
@@ -67,6 +69,10 @@ void main(List<String> args) {
     for (final l in levels.entries) {
       _replaceTable('${entry.key}/${l.key}/README.md', _table(l.value, solved, withLevel: false));
     }
+  }
+  // Signature section of every problem README, rendered from problem.json.
+  for (final p in problems.where((p) => !p.isConcept)) {
+    _replaceBetween('${p.path}/README.md', _sigStart, _sigEnd, _signatureSection(p));
   }
   stdout.writeln('Progress updated for ${users.length} contributor(s), ${problems.length} problems.');
 }
@@ -158,15 +164,50 @@ String _table(List<Problem> ps, Map<String, List<String>> solved, {required bool
   return b.toString().trimRight();
 }
 
-void _replaceTable(String rel, String table) {
+void _replaceTable(String rel, String table) => _replaceBetween(rel, _start, _end, table);
+
+void _replaceBetween(String rel, String startMarker, String endMarker, String content) {
   final f = File('${repoRoot.path}/$rel');
   if (!f.existsSync()) return;
   final text = f.readAsStringSync();
-  final s = text.indexOf(_start);
-  final e = text.indexOf(_end);
+  final s = text.indexOf(startMarker);
+  final e = text.indexOf(endMarker);
   if (s < 0 || e < s) return;
-  final updated = '${text.substring(0, s + _start.length)}\n$table\n${text.substring(e)}';
+  final updated = '${text.substring(0, s + startMarker.length)}\n$content\n${text.substring(e)}';
   if (updated != text) f.writeAsStringSync(updated);
+}
+
+String _signatureSection(Problem p) {
+  final fn = p.meta['function'] as Map<String, dynamic>;
+  final verified = fn['verified'] == true;
+  final params = (fn['params'] as List).cast<Map<String, dynamic>>();
+  final b = StringBuffer()
+    ..writeln('## Function Signature')
+    ..writeln()
+    ..writeln('```dart')
+    ..writeln(verified
+        ? '${fn['returns']} ${fn['name']}(${params.map((e) => '${e['type']} ${e['name']}').join(', ')})'
+        : 'dynamic ${fn['name']}(/* not set yet */)')
+    ..writeln('```')
+    ..writeln();
+  final note = fn['note'] as String?;
+  if (note != null && note.isNotEmpty) {
+    b
+      ..writeln('> **Note:** $note')
+      ..writeln();
+  }
+  b.writeln(verified
+      ? 'Your solution must define this function with the same name and parameters; the leaderboard calls it.'
+      : '_The signature for this problem has not been set yet. Pick parameters that fit the problem; '
+          'it will be fixed in `problem.json` before it joins the leaderboard._');
+  final example = p.meta['example'] as Map<String, dynamic>?;
+  if (verified && example != null) {
+    final exp = (example['expected'] as String).trim();
+    b
+      ..writeln()
+      ..writeln('**Example:** `${example['call']}`${exp.isEmpty ? '' : ' → `$exp`'}');
+  }
+  return b.toString().trimRight();
 }
 
 void _writeIfChanged(String rel, String content) {
@@ -188,7 +229,7 @@ void _printUser(String me, List<Problem> problems, Map<String, List<String>> sol
   }
   final started = problems.where((p) => p.solutionFile(me).existsSync() && !solved[p.path]!.contains(me));
   if (started.isNotEmpty) {
-    stdout.writeln('\nStarted but not finished (still has TODO / UnimplementedError):');
+    stdout.writeln('\nStarted but not finished (placeholder still there):');
     for (final p in started) {
       stdout.writeln('  ${p.path}');
     }

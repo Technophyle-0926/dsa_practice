@@ -20,6 +20,7 @@ Output: "100001"
 Explanation: the binary representation of 33 is "100001", since  1×2^5 + 0×2^4 + 0×2^3 + 0×2^2 + 0×2^1 + 1×2^0  = 33
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ String decimalBinary(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `decimalBinary(12)` → `"1100"`
+<!-- signature:end -->
 
 ## Links
 

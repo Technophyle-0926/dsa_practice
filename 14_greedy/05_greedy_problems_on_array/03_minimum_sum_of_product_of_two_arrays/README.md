@@ -79,6 +79,7 @@ Just think in the way that if applying an operation on any element decreases you
 
 Based on this observation, we consider every element as the element on which we apply all k operations and keep track of the element that reduces the result to a minimum.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -86,6 +87,9 @@ int minimumSumProductTwoArrays(List<int> a, List<int> b, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumSumProductTwoArrays([1, 2, -3], [-2, 3, -5], 5)` → `-31`
+<!-- signature:end -->
 
 ## Links
 

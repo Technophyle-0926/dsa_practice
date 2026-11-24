@@ -35,13 +35,17 @@ We use** top to bottom** approach, and use dist[] array to store the value of ov
 
 **Therefore, dist[0] will store minimum distance between from source node to target node.**
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic multistageGraphShortestPath(/* not set yet */)
+int multistageShortestPath(List<List<int>> graph)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** graph is an n x n weight matrix (100000000 = no edge) of a multistage graph; return the shortest distance from vertex 0 to vertex n-1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

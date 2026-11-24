@@ -26,13 +26,17 @@ Output: [10, 20, 30, 40, 50, 60]
 Explanation: The linked list contains 6 elements [10, 20, 30, 40, 50, 60]. The elements are printed in a single line.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic printLinkedList(/* not set yet */)
+List<int> printLinkedList(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printLinkedList(ListNode.fromList([1, 2, 3, 4, 5]))` → `[1, 2, 3, 4, 5]`
+<!-- signature:end -->
 
 ## Links
 

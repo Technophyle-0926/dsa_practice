@@ -20,6 +20,7 @@ Output: 2
 Explanation: 1^3 + 3^3 = 28 and 3^3 + 1^3 = 28
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int pairCubeCount(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pairCubeCount(9)` → `2`
+<!-- signature:end -->
 
 ## Links
 

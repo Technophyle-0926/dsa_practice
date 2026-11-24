@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/power-set/",
   "practice": "https://www.geeksforgeeks.org/problems/power-set-using-recursion/1",
   "function": {
-    "name": "power",
+    "name": "powerSet",
     "params": [
       {
         "name": "s",
@@ -15,10 +15,11 @@
       }
     ],
     "returns": "List<String>",
-    "verified": true
+    "verified": true,
+    "note": "Subsets keep the original character order; the list may be in any order."
   },
   "example": {
-    "call": "power(\"ab\")",
+    "call": "powerSet(\"ab\")",
     "expected": "[\"\", \"a\", \"b\", \"ab\"]"
   }
 }

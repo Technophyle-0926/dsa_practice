@@ -19,13 +19,19 @@ pop() -> returns 6, as 6 is the most frequent (frequency of 6 = 2 ).
 pop() -> returns 8 (6 also has the highest frequency but it is not the topmost)
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic stackMaxFrequency(/* not set yet */)
+List<int> maxFrequencyStack(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'push' (args[i] = [x]) or 'pop' (args[i] = []); each pop removes the most frequent element (ties: closest to top) and its value is returned in order, -1 when empty.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxFrequencyStack(["push", "push", "push", "push", "push", "pop", "pop"], [[4], [6], [7], [6], [8], [], []])` → `[6, 8]`
+<!-- signature:end -->
 
 ## Links
 

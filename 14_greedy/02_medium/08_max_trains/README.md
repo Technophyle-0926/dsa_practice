@@ -33,13 +33,17 @@ Output: 3
 Explanation: All three trains can be easily stopped at platform 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maxTrains(/* not set yet */)
+int maxTrains(int m, List<List<int>> trains)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** trains[i] = [arrival, departure, platform] with platforms numbered 1..m; return the max number of trains that can stop.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

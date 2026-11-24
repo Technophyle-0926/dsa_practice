@@ -28,13 +28,17 @@ Output: false
 Explanation: The graph does not contain any cycle.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic cycleDirectedGraph(/* not set yet */)
+bool isCyclicDirected(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `isCyclicDirected([[1], [2], [0, 3], []])` → `true`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,13 +26,19 @@ Output: No
 Explanation: List 1 is not present in List 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 bool sublistSearch(ListNode? list1, ListNode? list2)
 ```
 
+> **Note:** Returns true if list1 appears as a contiguous run of nodes inside list2.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sublistSearch(ListNode.fromList([10, 20]), ListNode.fromList([5, 10, 20]))` → `true`
+<!-- signature:end -->
 
 ## Links
 

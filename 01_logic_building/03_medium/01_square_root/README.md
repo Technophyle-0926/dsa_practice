@@ -20,6 +20,7 @@ Output: 3
 Explanation: The square root of 11 lies in between 3 and 4 so floor of the square root is 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int squareRoot(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `squareRoot(4)` → `2`
+<!-- signature:end -->
 
 ## Links
 

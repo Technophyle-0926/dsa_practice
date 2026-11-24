@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/erdos-renyl-model-generating-random-graphs/",
   "practice": null,
   "function": {
-    "name": "erdosRenylModelGeneratingRandom",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "expectedEdgesGnp",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "p",
+        "type": "double"
+      }
+    ],
+    "returns": "double",
+    "verified": true,
+    "note": "Return the expected number of edges of a G(n, p) random graph, i.e. C(n, 2) * p (tolerance 1e-6)."
   },
-  "example": null
+  "example": {
+    "call": "expectedEdgesGnp(10, 0.5)",
+    "expected": "22.5"
+  }
 }

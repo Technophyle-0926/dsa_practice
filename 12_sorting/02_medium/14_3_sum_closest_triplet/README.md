@@ -32,6 +32,7 @@ Explanation: All possible triplets
 Triplet [1, 4, 5] has sum = 10 which is closest to target.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -39,6 +40,9 @@ int solve3SumClosestTriplet(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve3SumClosestTriplet([-1, 2, 2, 4], 4)` → `5`
+<!-- signature:end -->
 
 ## Links
 

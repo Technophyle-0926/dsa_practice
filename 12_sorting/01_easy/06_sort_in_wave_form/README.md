@@ -22,6 +22,7 @@ Output: [4, 2, 8, 7, 10, 9]
 Explanation: Array elements after sorting it in the waveform are 4, 2, 8, 7, 10, 9.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> sortWaveForm(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortWaveForm([1, 2, 3, 4, 5])` → `[2, 1, 4, 3, 5]`
+<!-- signature:end -->
 
 ## Links
 

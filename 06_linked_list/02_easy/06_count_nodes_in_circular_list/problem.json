@@ -7,10 +7,16 @@
   "article": "https://www.geeksforgeeks.org/dsa/count-nodes-circular-linked-list/",
   "practice": null,
   "function": {
-    "name": "countNodesCircularList",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "countNodesInCircularList",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "The input is a circular list: the harness links the tail back to head before calling."
   },
   "example": null
 }

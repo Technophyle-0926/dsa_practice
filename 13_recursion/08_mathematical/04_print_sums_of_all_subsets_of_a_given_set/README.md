@@ -26,6 +26,7 @@ Output: [0, 5, 6, 7, 11, 12, 13, 18]
 Explanation: The possible subset sums are 0 (no elements), 5, 6, 7, and their combinations.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> printSumsAllSubsetsGiven(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printSumsAllSubsetsGiven([2, 3])` → `[0, 2, 3, 5]`
+<!-- signature:end -->
 
 ## Links
 

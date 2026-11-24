@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/properties-of-binary-tree/",
   "practice": null,
   "function": {
-    "name": "propertiesBinaryTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "maxNodesWithHeight",
+    "params": [
+      {
+        "name": "h",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Tutorial; canonical task: maximum number of nodes in a binary tree of height h (root has height 0), i.e. 2^(h+1) - 1."
   },
-  "example": null
+  "example": {
+    "call": "maxNodesWithHeight(2)",
+    "expected": "7"
+  }
 }

@@ -38,13 +38,17 @@ Find the maximum sum till that position using BIT and then update the BIT with N
 Step 5 :
 Returns the maximum sum which is present at last position in Binary Indexed Tree.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic maximumSumIncreasingSubsequenceBit(List<int> arr)
+int maximumSumIncreasingSubsequenceBit(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumSumIncreasingSubsequenceBit([1, 20, 4, 2, 5])` → `21`
+<!-- signature:end -->
 
 ## Links
 

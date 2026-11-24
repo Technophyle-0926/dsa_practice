@@ -31,6 +31,7 @@ Output: [0, 2, 1, -1]
 Explanation: Shortest path from 0 to 1 is 0->1 with edge weight 2. The shortest path from 0 to 2 is 0->2 with edge weight 1. There is no way we can reach 3, so it's -1 for 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -38,6 +39,9 @@ List<int> shortestPathDirectedAcyclicGraph(int V, List<List<int>> edges)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathDirectedAcyclicGraph(4, [[0, 1, 2], [0, 2, 1]])` → `[0, 2, 1, -1]`
+<!-- signature:end -->
 
 ## Links
 

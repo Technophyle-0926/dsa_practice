@@ -26,13 +26,17 @@ Output: 30
 Explanation: The sorted order is [10, 15, 20, 24, 25, 29, 30, ...]; the 7th element is 30.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic kthSmallestRowColumnWise(/* not set yet */)
+int kthSmallest(List<List<int>> mat, int k)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthSmallest([[10, 20, 30, 40], [15, 25, 35, 45], [24, 29, 37, 48], [32, 33, 39, 50]], 3)` → `20`
+<!-- signature:end -->
 
 ## Links
 

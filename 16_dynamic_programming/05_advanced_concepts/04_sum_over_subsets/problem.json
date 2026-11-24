@@ -10,7 +10,7 @@
     "name": "sumOverSubsets",
     "params": [
       {
-        "name": "A",
+        "name": "arr",
         "type": "List<int>"
       },
       {
@@ -23,6 +23,6 @@
   },
   "example": {
     "call": "sumOverSubsets([7, 12, 14, 16], 2)",
-    "expected": "7, 19, 21, 49"
+    "expected": "[7, 19, 21, 49]"
   }
 }

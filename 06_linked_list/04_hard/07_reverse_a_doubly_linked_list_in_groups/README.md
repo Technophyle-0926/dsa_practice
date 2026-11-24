@@ -20,6 +20,7 @@ Output: 4 <-> 3 <-> 2 <-> 1 <-> 6 -> 5 -> NULL.
 Explanation : Linked List is reversed in a group of size k = 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ DListNode? reverseDoublyLinkedListGroups(DListNode? head, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseDoublyLinkedListGroups(DListNode.fromList([1, 2, 3, 4, 5, 6]), 2)` → `2 <-> 1 <-> 4 <-> 3 <-> 6 <-> 5 <-> NULL.`
+<!-- signature:end -->
 
 ## Links
 

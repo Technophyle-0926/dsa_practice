@@ -22,6 +22,7 @@ Output: 0
 Explanation: All the item weights are greater than the knapsack capacity.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int solve01KnapsackProblem(int W, List<int> val, List<int> wt)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve01KnapsackProblem(4, [1, 2, 3], [4, 5, 1])` → `3`
+<!-- signature:end -->
 
 ## Links
 

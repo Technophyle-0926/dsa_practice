@@ -86,13 +86,17 @@ k clustering problem can be viewed as finding an MST and deleting the k-1 most e
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic applicationsMinimumSpanningTree(/* not set yet */)
+int minCostNetworkDesign(int V, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Network design via MST: edges[i] = [u, v, w] (0-based, undirected, connected); return the minimum total cost to connect all V offices.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

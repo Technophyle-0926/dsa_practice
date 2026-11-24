@@ -20,6 +20,7 @@ Output: 2
 Explanation: Given array has two inversions: (3,1), (3,2).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int inversionCountBit(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `inversionCountBit([8, 4, 2, 1])` → `6`
+<!-- signature:end -->
 
 ## Links
 

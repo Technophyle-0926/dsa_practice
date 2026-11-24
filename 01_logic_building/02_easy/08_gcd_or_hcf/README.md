@@ -22,6 +22,7 @@ Output: 12
 Explanation: GCD of  60 and 36 is 12.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int gcdOrHcf(int a, int b)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `gcdOrHcf(20, 28)` → `4`
+<!-- signature:end -->
 
 ## Links
 

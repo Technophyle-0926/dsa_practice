@@ -28,13 +28,19 @@ Output: 10->4->30
 Explanation: After deleting 20 from the linked list, we have remaining nodes as 10, 4, 30.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deleteNodeOnlyPointerGiven(/* not set yet */)
+ListNode? deleteNodeWithoutHead(ListNode? head, int x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Find the node with value x, delete it using only that node (copy the next node into it), and return head; x is never the last node.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteNodeWithoutHead(ListNode.fromList([1, 2]), 1)` → `2`
+<!-- signature:end -->
 
 ## Links
 

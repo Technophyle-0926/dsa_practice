@@ -27,13 +27,19 @@ Explanation :
 All words with same set of characters are printed together in a line.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic groupWordsSameCharacters(List<String> words)
+List<List<String>> groupWordsSameCharacters(List<String> words)
 ```
 
+> **Note:** Groups ordered by first appearance, words within a group in input order; single-word groups included.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `groupWordsSameCharacters(["may", "student", "students", "dog", "studentssess", "god", "cat", "act", "tab", "bat", "flow", "wolf", "lambs", "amy", "yam", "balms", "looped", "poodle"])` → `[["may", "amy", "yam"], ["student", "students", "studentssess"], ["dog", "god"], ["cat", "act"], ["tab", "bat"], ["flow", "wolf"], ["lambs", "balms"], ["looped", "poodle"]]`
+<!-- signature:end -->
 
 ## Links
 

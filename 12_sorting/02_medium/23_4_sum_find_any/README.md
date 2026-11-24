@@ -22,6 +22,7 @@ Output: []
 Explanation: No quadruplet adds up to a sum of 20.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ List<int> solve4SumFindAny(List<int> arr, int target)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `solve4SumFindAny([2, 4, 6, 8, 1, 3], 15)` → `[2, 4, 6, 3]`
+<!-- signature:end -->
 
 ## Links
 

@@ -22,13 +22,19 @@ Output: [3, 2, 1]
 Explanation:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
 List<int> reverseStackRecursion(List<int> st)
 ```
 
+> **Note:** Input and output are both listed bottom to top (last element is the top).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseStackRecursion([1, 2, 3, 4])` → `[4, 3, 2, 1]`
+<!-- signature:end -->
 
 ## Links
 

@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/insertion-in-red-black-tree/",
   "practice": null,
   "function": {
-    "name": "insertionRedBlackTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "redBlackInsert",
+    "params": [
+      {
+        "name": "keys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<String>",
+    "verified": true,
+    "note": "Insert keys in order with standard bottom-up red-black insertion. Each node is encoded as its value followed by its colour, e.g. \"20B\" or \"15R\"; the list is the preorder traversal of the final tree."
   },
-  "example": null
+  "example": {
+    "call": "redBlackInsert([10, 20, 30, 15, 25])",
+    "expected": "[\"20B\", \"10B\", \"15R\", \"30B\", \"25R\"]"
+  }
 }

@@ -21,13 +21,19 @@ Explanation: a = 15 = (1111)_2 and b= 2 = (0010)_2. The bit difference between 1
 from 2.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int shortestPathLengthBetweenTwo(int N, int a, int b)
+int shortestPathLengthBetweenTwo(int n, int a, int b)
 ```
 
+> **Note:** Nodes are 1..n; edge iff the numbers differ in exactly 2 bits; return -1 if unreachable.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `shortestPathLengthBetweenTwo(15, 15, 3)` → `1`
+<!-- signature:end -->
 
 ## Links
 

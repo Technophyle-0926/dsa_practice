@@ -7,13 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-nth-term-series-136101521/",
   "practice": null,
   "function": {
-    "name": "nThTerm13",
-    "params": [],
-    "returns": "dynamic",
-    "verified": true
+    "name": "nthTriangularNumber",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "1-based: n = 1 gives 1."
   },
   "example": {
-    "call": "nThTerm13()",
-    "expected": ""
+    "call": "nthTriangularNumber(3)",
+    "expected": "6"
   }
 }

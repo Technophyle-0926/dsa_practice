@@ -23,6 +23,7 @@ Output: false
 Explanation: These strings can't form a circle.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ bool arrayStringsCanBeChained(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `arrayStringsCanBeChained(["for", "geek", "rig", "kaf"])` → `true`
+<!-- signature:end -->
 
 ## Links
 

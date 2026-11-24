@@ -22,13 +22,17 @@ Input: arr[] = { 1, 7, 3, 4, 5, 6 }, K = 6
 Output: 4
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int longestSubarrayConsistingSameElements(List<int> arr, int K)
+int longestSubarrayConsistingSameElements(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestSubarrayConsistingSameElements([1, 2, 3], 1)` → `2`
+<!-- signature:end -->
 
 ## Links
 

@@ -26,6 +26,7 @@ Output: 0
 Explanation: There is no subarray with an equal number of 0s and 1s.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int largestSubarrayEqual0s1s(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `largestSubarrayEqual0s1s([1, 0, 1, 1, 1, 0, 0])` → `6`
+<!-- signature:end -->
 
 ## Links
 

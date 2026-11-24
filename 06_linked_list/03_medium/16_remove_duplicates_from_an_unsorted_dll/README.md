@@ -18,6 +18,7 @@ Input: Doubly Linked List = 8 <-> 4 <-> 4 <-> 6 <-> 4 <-> 8 <-> 4 <-> 10 <-> 12 
 Output: Doubly Linked List = 8 <-> 4 <-> 6 <-> 10 <-> 12
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ DListNode? removeDuplicatesUnsortedDll(DListNode? head)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeDuplicatesUnsortedDll(DListNode.fromList([1, 2, 3, 2, 4]))` → `1 <-> 2 <-> 3 <-> 4`
+<!-- signature:end -->
 
 ## Links
 

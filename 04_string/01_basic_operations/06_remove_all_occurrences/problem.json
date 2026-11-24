@@ -18,11 +18,12 @@
         "type": "String"
       }
     ],
-    "returns": "dynamic",
-    "verified": true
+    "returns": "String",
+    "verified": true,
+    "note": "c is a single-character string."
   },
   "example": {
     "call": "removeAllOccurrences(\"geeksforgeeks\", \"e\")",
-    "expected": "s = \"gksforgks\""
+    "expected": "\"gksforgks\""
   }
 }

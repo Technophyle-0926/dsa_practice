@@ -22,13 +22,19 @@ Output: 10->4 , 9->10
 Explanation: After dividing linked list into 2 parts , the first part contains 10, 4 and second part contain 9, 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-ListNode? splitCircularLinkedListInto(ListNode? head)
+List<List<int>> splitCircularLinkedList(ListNode? head)
 ```
 
+> **Note:** The input is a circular list: the harness links the tail back to head before calling. Return the values of the two halves (first half gets the extra node).
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `splitCircularLinkedList(ListNode.fromList([10, 4, 9]))` → `[[10, 4], [9]]`
+<!-- signature:end -->
 
 ## Links
 

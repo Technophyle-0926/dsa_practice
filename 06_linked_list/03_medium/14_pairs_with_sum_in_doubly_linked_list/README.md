@@ -26,13 +26,19 @@ Output: [[1, 5]]
 Explanation: There is one pairs  (1, 5) with sum 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic pairsSumDoublyLinkedList(/* not set yet */)
+List<List<int>> pairsWithSumDll(DListNode? head, int target)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each pair is [smaller, larger]; pairs sorted by first element.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `pairsWithSumDll(DListNode.fromList([1, 2, 4, 5, 6, 8, 9]), 7)` → `[[1, 6], [2, 5]]`
+<!-- signature:end -->
 
 ## Links
 

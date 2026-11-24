@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/boruvkas-algorithm-greedy-algo-9/",
   "practice": null,
   "function": {
-    "name": "boruvkasAlgorithmMinimumSpanningTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "boruvkaMst",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "edges[i] = [u, v, w], 0-based undirected connected graph; return the total weight of the MST."
   },
   "example": null
 }

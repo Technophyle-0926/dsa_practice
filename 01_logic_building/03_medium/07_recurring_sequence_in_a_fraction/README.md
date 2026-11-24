@@ -22,13 +22,19 @@ Output : No recurring sequence
 Explanation : 11/2 = 5.5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recurringSequenceFraction(int Numerator, int Denominator)
+String recurringSequence(int numerator, int denominator)
 ```
 
+> **Note:** Return the recurring digits of the fractional part, or "" if there is no recurring sequence.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recurringSequence(8, 3)` → `"6"`
+<!-- signature:end -->
 
 ## Links
 

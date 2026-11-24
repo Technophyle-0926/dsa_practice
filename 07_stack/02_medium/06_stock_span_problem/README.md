@@ -34,6 +34,7 @@ Day 6 (80): Span = 1 because the previous price (120) is greater than 80.
 Hence, the output is [1, 1, 2, 4, 5, 1].
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -41,6 +42,9 @@ List<int> stockSpanProblem(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `stockSpanProblem([100, 80, 90, 120])` → `[1, 1, 2, 4]`
+<!-- signature:end -->
 
 ## Links
 

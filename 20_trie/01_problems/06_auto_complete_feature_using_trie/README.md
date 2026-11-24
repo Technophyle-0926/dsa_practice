@@ -18,13 +18,19 @@ Given a query prefix, we search for all words having this query.
 
 Below are few implementations of the above steps.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic autoCompleteFeatureTrie(/* not set yet */)
+List<String> autoComplete(List<String> words, String prefix)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return stored words starting with prefix in lexicographic order; empty list if none.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `autoComplete(["abc", "abcd", "aa", "abbbaba"], "ab")` → `["abbbaba", "abc", "abcd"]`
+<!-- signature:end -->
 
 ## Links
 

@@ -12,13 +12,19 @@ The queue should support the following operations:
 enqueue(x): Insert element x at the end of the queue.dequeue(): Remove the element from the front of the queue. If the queue is empty, do nothing.front(): Return the element at the front of the queue. If the queue is empty, return -1.size(): Return the number of elements in the queue.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic queueStacks(/* not set yet */)
+List<int> queueUsingStacks(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'enqueue' (args[i] = [x]), 'dequeue', 'front' or 'size' (args[i] = []); returns the result of every front and size call in order (front gives -1 on an empty queue, dequeue on empty does nothing).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `queueUsingStacks(["enqueue", "enqueue", "front", "dequeue", "size"], [[1], [2], [], [], []])` → `[1, 1]`
+<!-- signature:end -->
 
 ## Links
 

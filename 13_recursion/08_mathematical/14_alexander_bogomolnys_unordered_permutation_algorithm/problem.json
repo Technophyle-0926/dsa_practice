@@ -7,18 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/alexander-bogomolnys-unordered-permutation-algorithm/",
   "practice": null,
   "function": {
-    "name": "alexanderBogomolnysUnorderedPermutationAlgorithm",
+    "name": "bogomolnyPermutations",
     "params": [
       {
         "name": "n",
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Permutations of 1..n in the order Bogomolny's algorithm produces (see the n = 3 example)."
   },
   "example": {
-    "call": "alexanderBogomolnysUnorderedPermutationAlgorithm(2)",
-    "expected": "1 2"
+    "call": "bogomolnyPermutations(2)",
+    "expected": "[[1, 2], [2, 1]]"
   }
 }

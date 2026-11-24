@@ -15,10 +15,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Return any valid triplet [a[i], a[j], a[k]], or [] if none exists."
   },
   "example": {
     "call": "sortedSubsequenceSize3([12, 11, 10, 5, 6, 2, 30])",
-    "expected": "5, 6, 30"
+    "expected": "[5, 6, 30]"
   }
 }

@@ -23,6 +23,6 @@
   },
   "example": {
     "call": "checkSame(\"abc\", \"abc\")",
-    "expected": "Yes"
+    "expected": "true"
   }
 }

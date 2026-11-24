@@ -23,13 +23,19 @@ Output: [INF, 0, 9, 10, 4]
 Explanation: The vertex 0 is not reachable from vertex 1 so its distance is INF, for 2 it is 9, for 3 it is 10, and for 4 it is 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic longestPathDirectedAcyclicGraph(/* not set yet */)
+List<int> longestPathDag(List<List<List<int>>> adj, int src)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** adj[u] holds [v, w] pairs; unreachable vertices get INT_MIN = -2147483648.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestPathDag([[[1, 1], [2, 1]], [[2, 5]], [], [[1, 2], [2, -1]]], 0)` → `[0, 1, 6, -2147483648]`
+<!-- signature:end -->
 
 ## Links
 

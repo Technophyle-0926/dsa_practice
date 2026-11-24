@@ -19,6 +19,6 @@
   },
   "example": {
     "call": "recursiveProgramPrimeNumber(11)",
-    "expected": "Yes"
+    "expected": "true"
   }
 }

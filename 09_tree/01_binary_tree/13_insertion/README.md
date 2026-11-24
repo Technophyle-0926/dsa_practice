@@ -20,13 +20,19 @@ Output:
 Explanation: Node with value 12 is inserted into the binary tree at the first position available in level order manner.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic insertion(/* not set yet */)
+TreeNode? insertLevelOrder(TreeNode? root, int key)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Insert as a child of the first node in level order that has a free slot (left before right); return the root.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `insertLevelOrder(TreeNode.fromLevelOrder([10, 11, 9, 7, null, 15, 8]), 12)` → `[10, 11, 9, 7, 12, 15, 8]`
+<!-- signature:end -->
 
 ## Links
 

@@ -16,13 +16,19 @@ Output :0
 Explanation : Already exists two same elements
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int minimumXorOperations(List<int> arr, int K)
+int minimumXorOperations(List<int> arr, int k)
 ```
 
+> **Note:** Return -1 if no two elements can be made equal.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimumXorOperations([1, 9, 4, 3], 3)` → `-1`
+<!-- signature:end -->
 
 ## Links
 

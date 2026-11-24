@@ -166,13 +166,19 @@ public class Program
 
 _…continued in the article (see link below)._
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic intervalTreeGnuTreeBased(/* not set yet */)
+List<bool> intervalTreeOps(List<String> ops, List<List<int>> args)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** ops[i] is 'add', 'remove' or 'overlap' with args[i] = [low, high] (closed intervals); returns, for each 'overlap', whether it overlaps any stored interval.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `intervalTreeOps(["add", "add", "overlap", "remove", "overlap"], [[15, 20], [10, 30], [25, 26], [10, 30], [25, 26]])` → `[true, false]`
+<!-- signature:end -->
 
 ## Links
 

@@ -8,9 +8,22 @@
   "practice": null,
   "function": {
     "name": "rangeMinimumQuery",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Each query [L, R] is 0-based inclusive; array is static."
   },
-  "example": null
+  "example": {
+    "call": "rangeMinimumQuery([7, 2, 3, 0, 5, 10, 3, 12, 18], [[0, 4], [4, 7], [7, 8]])",
+    "expected": "[0, 3, 12]"
+  }
 }

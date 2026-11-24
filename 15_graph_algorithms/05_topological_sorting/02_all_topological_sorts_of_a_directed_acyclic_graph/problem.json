@@ -7,10 +7,20 @@
   "article": "https://www.geeksforgeeks.org/dsa/all-topological-sorts-of-a-directed-acyclic-graph/",
   "practice": null,
   "function": {
-    "name": "allTopologicalSortsDirectedAcyclic",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "allTopologicalSorts",
+    "params": [
+      {
+        "name": "V",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "edges[i] = [u, v] is a directed edge u -> v (0-based); return every topological order, sorted lexicographically."
   },
   "example": null
 }

@@ -20,6 +20,7 @@ Output: 3
 Explanation: Only buildings of height 2, 5 and 8 can see the sun, hence output is 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int buildingsFacingSun(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `buildingsFacingSun([6, 2, 8, 4, 11, 13])` → `4`
+<!-- signature:end -->
 
 ## Links
 

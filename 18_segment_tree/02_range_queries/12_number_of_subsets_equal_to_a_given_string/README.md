@@ -34,13 +34,19 @@ query1 : string S is changed to gxeekkksgskeegks after second query.
 query2 : No of subsets in string S i range [1...7] that is equal to gek is 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic numberSubsetsEqualGivenString(/* not set yet */)
+List<int> countSubsetsEqualString(String s, List<List<String>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Query ["1", L, x] sets s[L] = x; ["2", L, R, str] counts ways to pick one position in s[L..R] for each (distinct) char of str, mod 1e9+7; indices are 1-based; return type-2 answers.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countSubsetsEqualString("geeekkksgskeegks", [["2", "1", "7", "gek"], ["1", "2", "x"], ["2", "1", "7", "gek"]])` → `[9, 6]`
+<!-- signature:end -->
 
 ## Links
 

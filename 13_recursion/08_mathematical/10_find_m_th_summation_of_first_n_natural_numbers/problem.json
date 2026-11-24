@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-mth-summation-first-n-natural-numbers/",
   "practice": null,
   "function": {
-    "name": "findMThSummationFirst",
+    "name": "findMThSummation",
     "params": [
       {
         "name": "n",
@@ -18,11 +18,11 @@
         "type": "int"
       }
     ],
-    "returns": "dynamic",
+    "returns": "int",
     "verified": true
   },
   "example": {
-    "call": "findMThSummationFirst(4, 1)",
-    "expected": "SUM(4, 1) = 10"
+    "call": "findMThSummation(4, 1)",
+    "expected": "10"
   }
 }

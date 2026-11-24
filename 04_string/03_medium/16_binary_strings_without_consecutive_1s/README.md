@@ -20,6 +20,7 @@ Output: 3
 Explanation: 3 strings are ("00", "01", "10").
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int binaryStringsWithoutConsecutive1s(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryStringsWithoutConsecutive1s(3)` → `5`
+<!-- signature:end -->
 
 ## Links
 

@@ -95,13 +95,19 @@ val output = findGrandparents(input)
 - GfG 160
 - System Design
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic identifyAllGrandParentNodes(/* not set yet */)
+Map<String, Set<String>> findGrandparents(Map<String, Set<String>> family)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** family maps each person to their children; return each grandchild mapped to the set of their grandparents (only people that have grandparents appear).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findGrandparents({"A": {"B", "C"}, "B": {"D", "C"}, "C": {"E"}})` → `{D: {A}, C: {A}, E: {A, B}}`
+<!-- signature:end -->
 
 ## Links
 

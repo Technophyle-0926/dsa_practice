@@ -20,6 +20,7 @@ Output: 26
 Explanation: In this case, the common difference is 5, and 26 is missing between 21 and 31.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int missingAp(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `missingAp([2, 4, 8, 10, 12, 14])` → `6`
+<!-- signature:end -->
 
 ## Links
 

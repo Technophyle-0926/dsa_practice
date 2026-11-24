@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/paper-cut-minimum-number-squares/",
   "practice": "https://www.geeksforgeeks.org/problems/min-cut-square3303/1",
   "function": {
-    "name": "paperCutIntoMinSquares",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minSquaresPaperCut",
+    "params": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "verified": true,
+    "note": "Return the true minimum number of squares (e.g. 13 x 11 gives 6), not just the greedy count."
   },
-  "example": null
+  "example": {
+    "call": "minSquaresPaperCut(5, 8)",
+    "expected": "5"
+  }
 }

@@ -10,14 +10,6 @@
     "name": "maximumProductPairRangeUpdates",
     "params": [
       {
-        "name": "n",
-        "type": "int"
-      },
-      {
-        "name": "q",
-        "type": "int"
-      },
-      {
         "name": "arr",
         "type": "List<int>"
       },
@@ -27,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "[1, L, R] asks the max product of two distinct elements in arr[L..R]; [2, i, val] sets arr[i] = val; return answers of type-1 queries."
   },
   "example": {
-    "call": "maximumProductPairRangeUpdates(5, 3, [1, 3, 4, 2, 5], [[1, 0, 2], [2, 1, 6], [1, 0, 2]])",
-    "expected": "12 24"
+    "call": "maximumProductPairRangeUpdates([1, 3, 4, 2, 5], [[1, 0, 2], [2, 1, 6], [1, 0, 2]])",
+    "expected": "[12, 24]"
   }
 }

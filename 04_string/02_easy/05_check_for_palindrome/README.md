@@ -20,6 +20,7 @@ Output: false
 Explanation: s is not a palindrome
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ bool checkPalindrome(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `checkPalindrome("abba")` → `true`
+<!-- signature:end -->
 
 ## Links
 

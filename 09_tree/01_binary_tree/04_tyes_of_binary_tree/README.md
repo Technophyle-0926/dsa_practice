@@ -6,13 +6,19 @@
 
 A binary tree is a tree data structure where each node has at most **two children**. These two children are usually referred to as the **left child** and **right child**. It is widely used in applications such as binary search trees and heaps.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic tyesBinaryTree(/* not set yet */)
+List<bool> binaryTreeTypes(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Tutorial; returns [isFull, isComplete, isPerfect] for the tree.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `binaryTreeTypes(TreeNode.fromLevelOrder([1, 2, 3, 4, 5]))` → `[true, true, false]`
+<!-- signature:end -->
 
 ## Links
 

@@ -24,13 +24,19 @@ Output: [1, 5, 10, 30, 35, 45, 90, 130]
 Explanation: Sorted Number from all Machine is [1, 5, 10, 30, 35, 45, 90, 130]
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> sortDifferentMachines(List<int> Machine_M1, List<int> Machine_M2, List<int> Machine_M3)
+List<int> sortDifferentMachines(List<List<int>> machines)
 ```
 
+> **Note:** machines[i] is the sorted list of numbers held by machine i.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortDifferentMachines([[30, 40, 50], [35, 45], [10, 60, 70, 80, 100]])` → `[10, 30, 35, 40, 45, 50, 60, 70, 80, 100]`
+<!-- signature:end -->
 
 ## Links
 

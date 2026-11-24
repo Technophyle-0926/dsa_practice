@@ -20,6 +20,7 @@ Output: 14
 Explanation: For n = 4, there are 14 distinct valid combinations of balanced parentheses that can be formed.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int nthCatalanNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nthCatalanNumber(3)` → `5`
+<!-- signature:end -->
 
 ## Links
 

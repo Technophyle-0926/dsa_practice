@@ -20,6 +20,7 @@ Output : 0
 Explanation: Range is 1-3; no elements are missing, so count = 0.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int missingMinMaxArray(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `missingMinMaxArray([4, 5, 3, 8, 6])` → `1`
+<!-- signature:end -->
 
 ## Links
 

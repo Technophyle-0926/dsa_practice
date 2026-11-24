@@ -20,13 +20,17 @@ If we take a closer look at Insertion Sort algorithm, we keep processed elements
 - Recursively sort first n-1 elements.
 - Insert last element at its correct position in sorted array.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic recursiveInsertionSort(/* not set yet */)
+List<int> recursiveInsertionSort(List<int> arr)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recursiveInsertionSort([12, 11, 13, 5, 6])` → `[5, 6, 11, 12, 13]`
+<!-- signature:end -->
 
 ## Links
 

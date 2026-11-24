@@ -33,6 +33,7 @@ Output: 1
 Explanation:  The value of  ^5C_0 is calculated as 5!/(5−0)!*0! = 5!/5!*0! = 1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -40,6 +41,9 @@ int computeNcr(int n, int r)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `computeNcr(5, 2)` → `10`
+<!-- signature:end -->
 
 ## Links
 

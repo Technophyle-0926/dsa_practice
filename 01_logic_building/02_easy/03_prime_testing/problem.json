@@ -7,10 +7,18 @@
   "article": "https://www.geeksforgeeks.org/dsa/introduction-to-primality-test-and-school-method/",
   "practice": "https://www.geeksforgeeks.org/problems/prime-number2314/1",
   "function": {
-    "name": "primeTesting",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "isPrime",
+    "params": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "bool",
+    "verified": true
   },
-  "example": null
+  "example": {
+    "call": "isPrime(7)",
+    "expected": "true"
+  }
 }

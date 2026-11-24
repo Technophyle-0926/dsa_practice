@@ -39,6 +39,7 @@ String dartTemplate(Problem p, String user) {
   if (verified) {
     b
       ..writeln('/// Required signature: keep the name and parameters, the leaderboard calls it.')
+      ..write(fn['note'] == null ? '' : '/// Note: ${fn['note']}\n')
       ..writeln('$sig {');
   } else {
     b
@@ -69,5 +70,5 @@ Read: ${p.meta['article']}
 
 ## Key points
 
-- TODO: write what you learned, then delete this TODO line to mark it done.
+$notesPlaceholder
 ''';

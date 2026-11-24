@@ -32,13 +32,17 @@ Explanation:
 Following is an eulerian path in the mentioned graph: 1 -> 0 -> 2
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic eulerianPathCircuit(/* not set yet */)
+int eulerianPathOrCircuit(List<List<int>> adj)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return 2 for an Eulerian circuit, 1 for an Eulerian path only, else 0.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

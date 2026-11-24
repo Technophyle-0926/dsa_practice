@@ -9,13 +9,19 @@ Given a Tree where every node contains variable number of children, convert the 
 **We strongly recommend you to minimize your browser and try this yourself first.**
 Node of tree is represented as a key and a variable sized array of children pointers. The idea is similar to mirror of Binary Tree. For every node, we first recur for all of its children and then reverse array of children pointers. We can also do these steps in other way, i.e., reverse array of children pointers first and then recur for children.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic mirrorNAryTree(/* not set yet */)
+List<List<int>> mirrorNAryTree(int root, Map<int, List<int>> children)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Mirror the tree (reverse every child list) and return its level-order traversal, one list per level. N-ary tree is given as root value plus a map from node value to its ordered child values (nodes missing from the map are leaves); values are unique.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `mirrorNAryTree(10, {10: [2, 34, 56, 100], 34: [1], 100: [7, 8, 9]})` → `[[10], [100, 56, 34, 2], [9, 8, 7, 1]]`
+<!-- signature:end -->
 
 ## Links
 

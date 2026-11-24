@@ -32,13 +32,19 @@ Output:
 Explanation: After reversing the given doubly linked list the new list will be 196 <-> 59 <-> 122 <-> 75.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic reverseDoublyLinkedList(/* not set yet */)
+DListNode? reverseDoublyLinkedList(DListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** prev pointers must also be correct.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `reverseDoublyLinkedList(DListNode.fromList([3, 4, 5]))` → `5 <-> 4 <-> 3`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,13 +20,19 @@ Explanation: c - `(d + e),` to get `(c - d - e) `The outer `-` flips the signs, 
 
 The approach uses a stack to track the sign context while processing the expression. Initially, the stack is set to `1` (positive context). When encountering a `-` before a parenthesis, the sign inside the parentheses is toggled by pushing `-1` onto the stack. For each operator (`+` or `-`), the stack’s top determines if the operator should be flipped. When encountering operands, they are directly appended to the result. After processing the entire string, the simplified expression is returned without parentheses and with correct signs.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-String removeBracketsContainingOperators(String s)
+String removeBrackets(String s)
 ```
 
+> **Note:** Return the simplified expression with all spaces removed.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `removeBrackets("(a - (b + c) + d)")` → `a-b-c+d`
+<!-- signature:end -->
 
 ## Links
 

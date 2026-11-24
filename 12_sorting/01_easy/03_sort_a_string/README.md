@@ -18,6 +18,7 @@ Output: "xyz"
 Explanation: characters are in ascending order in "xyz".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ String sortString(String s)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `sortString("edcab")` → `"abcde"`
+<!-- signature:end -->
 
 ## Links
 

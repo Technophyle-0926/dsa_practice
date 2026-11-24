@@ -20,6 +20,7 @@ Explanation: 2^1  + 2^3 = 2+8 = 10.
 
 We previously discussed an iterative approach in the post Program for Decimal to Binary Conversion, Now, let's focus on the recursive solution.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int decimalBinaryNumberRecursion(int d)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `decimalBinaryNumberRecursion(7)` → `111`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: [12, 13, 14, 15, 16, 17, 18, 19, 23....79, 89]
 Explanation: For n = 2, the correct sequence is 12 13 14 15 16 17 18 19 23 and so on up to 89.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ List<int> printAllNDigitStrictly(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `printAllNDigitStrictly(1)` → `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]`
+<!-- signature:end -->
 
 ## Links
 

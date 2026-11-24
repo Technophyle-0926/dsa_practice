@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/min-max-range-queries-array/",
   "practice": "https://www.geeksforgeeks.org/problems/range-min-max-queries4557/1",
   "function": {
-    "name": "minMaxRangeQueriesArray",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "minMaxRangeQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each query [qs, qe] is 0-based inclusive; return [min, max] per query."
   },
-  "example": null
+  "example": {
+    "call": "minMaxRangeQueries([1, 8, 5, 9, 6, 14, 2, 4, 3, 7], [[0, 4], [3, 7], [1, 6], [2, 5], [0, 8]])",
+    "expected": "[[1, 9], [2, 14], [2, 14], [5, 14], [1, 14]]"
+  }
 }

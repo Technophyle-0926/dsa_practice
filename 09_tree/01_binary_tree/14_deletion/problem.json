@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/deletion-binary-tree/",
   "practice": "https://www.geeksforgeeks.org/problems/deletion-in-a-binary-tree/1",
   "function": {
-    "name": "deletion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "deleteNodeBinaryTree",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      },
+      {
+        "name": "key",
+        "type": "int"
+      }
+    ],
+    "returns": "TreeNode?",
+    "verified": true,
+    "note": "Replace the key's value with the deepest rightmost node (last in level order) and remove that node; return the root (unchanged if key absent)."
   },
-  "example": null
+  "example": {
+    "call": "deleteNodeBinaryTree(TreeNode.fromLevelOrder([10, 20, 30]), 10)",
+    "expected": "[30, 20]"
+  }
 }

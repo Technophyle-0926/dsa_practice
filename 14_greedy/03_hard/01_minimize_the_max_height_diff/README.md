@@ -22,6 +22,7 @@ Output: 11
 Explanation: The array can be modified as [3+k, 9+k, 12-k, 16-k, 20-k] = [6, 12, 9, 13, 17]. The difference between the largest and the smallest is 17 - 6 = 11.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int minimizeMaxHeightDiff(int k, List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minimizeMaxHeightDiff(2, [1, 5, 8, 10])` → `5`
+<!-- signature:end -->
 
 ## Links
 

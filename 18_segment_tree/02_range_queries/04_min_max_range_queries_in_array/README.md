@@ -42,13 +42,19 @@ Output: Minimum = 1 and Maximum = 3
               Minimum = 2 and Maximum = 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic minMaxRangeQueriesArray(/* not set yet */)
+List<List<int>> minMaxRangeQueries(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query [qs, qe] is 0-based inclusive; return [min, max] per query.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minMaxRangeQueries([1, 8, 5, 9, 6, 14, 2, 4, 3, 7], [[0, 4], [3, 7], [1, 6], [2, 5], [0, 8]])` → `[[1, 9], [2, 14], [2, 14], [5, 14], [1, 14]]`
+<!-- signature:end -->
 
 ## Links
 

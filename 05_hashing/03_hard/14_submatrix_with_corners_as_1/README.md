@@ -25,6 +25,7 @@ Output: false
 Explanation: There are no valid corners.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -32,6 +33,9 @@ bool submatrixCornersAs1(List<List<int>> mat)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `submatrixCornersAs1([[1, 0, 0, 1, 0], [0, 0, 1, 0, 1], [0, 0, 0, 1, 0], [1, 0, 1, 0, 1]])` → `true`
+<!-- signature:end -->
 
 ## Links
 

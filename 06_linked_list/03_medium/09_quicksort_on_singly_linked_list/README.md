@@ -24,13 +24,17 @@ Input:
 Output:
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic quicksortSinglyLinkedList(/* not set yet */)
+ListNode? quickSortLinkedList(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `quickSortLinkedList(ListNode.fromList([30, 3, 4, 20, 5]))` → `3 -> 4 -> 5 -> 20 -> 30`
+<!-- signature:end -->
 
 ## Links
 

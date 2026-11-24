@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/find-maximum-difference-between-nearest-left-and-right-smaller-elements/",
   "practice": null,
   "function": {
-    "name": "maxDiffBetweenNearestLeft",
+    "name": "maxDiffNearestSmallers",
     "params": [
       {
         "name": "arr",
@@ -15,10 +15,11 @@
       }
     ],
     "returns": "int",
-    "verified": true
+    "verified": true,
+    "note": "A missing nearest smaller element on either side counts as 0."
   },
   "example": {
-    "call": "maxDiffBetweenNearestLeft([2, 1, 8])",
+    "call": "maxDiffNearestSmallers([2, 1, 8])",
     "expected": "1"
   }
 }

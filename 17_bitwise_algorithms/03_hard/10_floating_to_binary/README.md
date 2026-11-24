@@ -6,13 +6,19 @@
 
 The task of converting a floating-point number to its binary representation in Python involves representing the number in the IEEE 754 format, which consists of a sign bit, an exponent and a mantissa. **For example**, given the floating-point number 10.75, its IEEE 754 32-bit binary representation is "01000001001011000000000000000000".
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic floatingBinary(/* not set yet */)
+String floatToBinary(double x)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the 32-bit IEEE 754 single-precision bit string.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `floatToBinary(10.75)` → `"01000001001011000000000000000000"`
+<!-- signature:end -->
 
 ## Links
 

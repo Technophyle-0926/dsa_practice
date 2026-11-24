@@ -7,10 +7,24 @@
   "article": "https://www.geeksforgeeks.org/dsa/insertion-in-linked-list/",
   "practice": "https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1",
   "function": {
-    "name": "linkedListInsertion",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "insertAtPosition",
+    "params": [
+      {
+        "name": "head",
+        "type": "ListNode?"
+      },
+      {
+        "name": "pos",
+        "type": "int"
+      },
+      {
+        "name": "val",
+        "type": "int"
+      }
+    ],
+    "returns": "ListNode?",
+    "verified": true,
+    "note": "Insert val so it becomes the node at 1-based position pos (1 = front, length+1 = end) and return the head."
   },
   "example": null
 }

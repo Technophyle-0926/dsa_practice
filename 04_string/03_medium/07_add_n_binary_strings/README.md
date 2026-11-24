@@ -17,6 +17,7 @@ Input : arr[] = ["1", "10", "11"]
 Output : "110"
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -24,6 +25,9 @@ String addNBinaryStrings(List<String> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `addNBinaryStrings(["1101", "111"])` → `"10100"`
+<!-- signature:end -->
 
 ## Links
 

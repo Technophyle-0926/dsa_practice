@@ -22,13 +22,19 @@ Output: 1000
 Explanation: Multiplication of 100 and 10 gives 1000.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-int multiplyTwoNumbersAsLists(ListNode? L1, int L2)
+int multiplyTwoLists(ListNode? l1, ListNode? l2)
 ```
 
+> **Note:** Digits are most significant first; return the product modulo 1000000007.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `multiplyTwoLists(ListNode.fromList([3, 2]), ListNode.fromList([2]))` → `64`
+<!-- signature:end -->
 
 ## Links
 

@@ -20,6 +20,7 @@ Output: 4
 Explanation: In the subarray [6, 5, 3, 4], there are 4 elements > 2 and 0 elements <= 2, so it is the longest subarray.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ int longestSubarrayMajorityGreaterThan(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `longestSubarrayMajorityGreaterThan([1, 2, 3, 4, 1], 2)` → `3`
+<!-- signature:end -->
 
 ## Links
 

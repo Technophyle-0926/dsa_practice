@@ -26,6 +26,7 @@ Output: 6
 Explanation: The subarray [6] has maximum XOR value
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ int maxSubarrayXor(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maxSubarrayXor([1, 2, 3, 4])` → `7`
+<!-- signature:end -->
 
 ## Links
 

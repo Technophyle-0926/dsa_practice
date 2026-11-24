@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/binary-search-tree-traversal-inorder-preorder-post-order/",
   "practice": null,
   "function": {
-    "name": "traversalsInorderPreorderPostOrder",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bstTraversals",
+    "params": [
+      {
+        "name": "root",
+        "type": "TreeNode?"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Returns [inorder, preorder, postorder]."
   },
-  "example": null
+  "example": {
+    "call": "bstTraversals(TreeNode.fromLevelOrder([100, 20, 200, 10, 30, 150, 300]))",
+    "expected": "[[10, 20, 30, 100, 150, 200, 300], [100, 20, 10, 30, 200, 150, 300], [10, 30, 20, 150, 300, 200, 100]]"
+  }
 }

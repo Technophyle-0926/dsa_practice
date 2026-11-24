@@ -22,6 +22,7 @@ Output: 5
 Explanation: 5 is the 5th number of Fibonacci series.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int fibonacciNumbers(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `fibonacciNumbers(2)` → `1`
+<!-- signature:end -->
 
 ## Links
 

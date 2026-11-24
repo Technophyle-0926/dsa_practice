@@ -29,6 +29,7 @@ This problem is mainly a variation of Allocate Minimum Pages
 The idea is to use Binary Search, as we observe that the total job sum gives an upper bound, and the maximum job gives a lower bound. Using binary search between these bounds helps efficiently find the minimum feasible time. The key observation is that for a given time t, we can check if the jobs can be assigned within k assignees using a greedy approach. If it is possible, we try to minimize t further; otherwise, we increase it. This ensures an optimal partitioning of jobs while keeping time minimal.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -36,6 +37,9 @@ int minTimeFinishAllJobs(List<int> job, int k, int t)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `minTimeFinishAllJobs([10, 7, 8, 12, 6, 8], 4, 5)` → `75`
+<!-- signature:end -->
 
 ## Links
 

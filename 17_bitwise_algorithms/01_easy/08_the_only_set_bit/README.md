@@ -22,6 +22,7 @@ Output: -1
 Explanation: Binary representation of 5 is 101. There are 2 set bits, so return -1.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int onlyBit(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `onlyBit(2)` → `2`
+<!-- signature:end -->
 
 ## Links
 

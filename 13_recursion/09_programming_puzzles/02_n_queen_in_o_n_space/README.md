@@ -24,6 +24,7 @@ Output: [1]
 Explanation: Only one queen can be placed in the single cell available.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -31,6 +32,9 @@ List<int> nQueenONSpace(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `nQueenONSpace(4)` → `[2, 4, 1, 3]`
+<!-- signature:end -->
 
 ## Links
 

@@ -38,13 +38,19 @@ The subtree rooted at node 6
 Both of these subtrees appear more than once in the tree with the same structure and node values.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic duplicateSubtrees(/* not set yet */)
+List<TreeNode?> duplicateSubtrees(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return one root per distinct duplicated subtree, in any order (compared by level-order serialization).
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `duplicateSubtrees(TreeNode.fromLevelOrder([1, 2, 3, 4, null, 2, 4, null, null, 4]))` → `[[2, 4], [4]]`
+<!-- signature:end -->
 
 ## Links
 

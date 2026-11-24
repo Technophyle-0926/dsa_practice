@@ -10,19 +10,20 @@
     "name": "maximumIntervalsOverlap",
     "params": [
       {
-        "name": "Entry",
+        "name": "entry",
         "type": "List<int>"
       },
       {
-        "name": "Exit",
+        "name": "exit",
         "type": "List<int>"
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Returns [maxGuests, earliest time at which that maximum occurs]."
   },
   "example": {
     "call": "maximumIntervalsOverlap([1, 2, 9, 5, 5], [4, 5, 12, 9, 12])",
-    "expected": "3 5"
+    "expected": "[3, 5]"
   }
 }

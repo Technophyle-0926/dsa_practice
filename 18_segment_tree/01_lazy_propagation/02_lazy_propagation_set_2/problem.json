@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/lazy-propagation-in-segment-tree-set-2/",
   "practice": null,
   "function": {
-    "name": "lazyPropagation2",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "rangeAddMaxQueries",
+    "params": [
+      {
+        "name": "arr",
+        "type": "List<int>"
+      },
+      {
+        "name": "queries",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<int>",
+    "verified": true,
+    "note": "Query [1, l, r, x] adds x to arr[l..r]; [2, l, r] asks the max of arr[l..r] (0-based); return answers of type-2 queries."
   },
-  "example": null
+  "example": {
+    "call": "rangeAddMaxQueries([1, 2, 3, 4, 5], [[1, 0, 3, 4], [2, 1, 4]])",
+    "expected": "[8]"
+  }
 }

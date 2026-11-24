@@ -7,10 +7,23 @@
   "article": "https://www.geeksforgeeks.org/dsa/huffman-decoding/",
   "practice": null,
   "function": {
-    "name": "huffmanDecoding",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "huffmanDecode",
+    "params": [
+      {
+        "name": "codes",
+        "type": "Map<String, String>"
+      },
+      {
+        "name": "encoded",
+        "type": "String"
+      }
+    ],
+    "returns": "String",
+    "verified": true,
+    "note": "codes maps each character to its (prefix-free) Huffman code; decode the bit string."
   },
-  "example": null
+  "example": {
+    "call": "huffmanDecode({\"e\": \"10\", \"f\": \"1100\", \"g\": \"011\", \"k\": \"00\", \"o\": \"010\", \"r\": \"1101\", \"s\": \"111\"}, \"01110100011111000101101011101000111\")",
+    "expected": "\"geeksforgeeks\""
+  }
 }

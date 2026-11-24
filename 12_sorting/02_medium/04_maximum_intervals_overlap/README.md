@@ -44,13 +44,19 @@ Output: 2 5
 Explanation: Maximum guests are 2 at time 5
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> maximumIntervalsOverlap(List<int> Entry, List<int> Exit)
+List<int> maximumIntervalsOverlap(List<int> entry, List<int> exit)
 ```
 
+> **Note:** Returns [maxGuests, earliest time at which that maximum occurs].
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `maximumIntervalsOverlap([1, 2, 9, 5, 5], [4, 5, 12, 9, 12])` → `[3, 5]`
+<!-- signature:end -->
 
 ## Links
 

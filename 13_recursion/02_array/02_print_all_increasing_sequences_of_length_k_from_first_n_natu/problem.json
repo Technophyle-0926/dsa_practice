@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/print-increasing-sequences-length-k-first-n-natural-numbers/",
   "practice": null,
   "function": {
-    "name": "printAllIncreasingSequencesLength",
+    "name": "increasingSequences",
     "params": [
       {
         "name": "k",
@@ -18,11 +18,12 @@
         "type": "int"
       }
     ],
-    "returns": "List<int>",
-    "verified": true
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Lexicographic order."
   },
   "example": {
-    "call": "printAllIncreasingSequencesLength(2, 3)",
-    "expected": "1 2"
+    "call": "increasingSequences(2, 3)",
+    "expected": "[[1, 2], [1, 3], [2, 3]]"
   }
 }

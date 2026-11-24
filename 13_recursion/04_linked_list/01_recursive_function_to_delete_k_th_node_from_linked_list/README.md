@@ -20,6 +20,7 @@ Output : 0->0->6->2->3
 
 We recursively reduce the value of k. When k reaches 1, we delete the current node and return the next current node as a new node. When the function returns, we link the returned node to the next previous node.
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -27,6 +28,9 @@ ListNode? recursiveFunctionDeleteKTh(ListNode? head, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `recursiveFunctionDeleteKTh(ListNode.fromList([9, 8, 3, 5, 2, 1]), 4)` → `9->8->3->2->1`
+<!-- signature:end -->
 
 ## Links
 

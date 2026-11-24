@@ -7,10 +7,19 @@
   "article": "https://www.geeksforgeeks.org/dsa/bridge-in-a-graph/",
   "practice": "https://www.geeksforgeeks.org/problems/critical-connections/1",
   "function": {
-    "name": "bridgesGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "findBridges",
+    "params": [
+      {
+        "name": "adj",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Each bridge as [u, v] with u < v; list sorted ascending."
   },
-  "example": null
+  "example": {
+    "call": "findBridges([[1, 2, 3], [0, 2], [0, 1], [0, 4], [3]])",
+    "expected": "[[0, 3], [3, 4]]"
+  }
 }

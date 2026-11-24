@@ -20,13 +20,19 @@ Input  : 6 1 2 3 4 5 6 7 8 9
 Output : 9 1 2 3 4 5 6 7 8 6
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic exchangeFirstLastNodesCircular(/* not set yet */)
+List<int> exchangeFirstLastCircular(ListNode? head)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** The input is a circular list: the harness links the tail back to head before calling. Return the values traversed once from the new head after swapping.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `exchangeFirstLastCircular(ListNode.fromList([5, 4, 3, 2, 1]))` → `[1, 4, 3, 2, 5]`
+<!-- signature:end -->
 
 ## Links
 

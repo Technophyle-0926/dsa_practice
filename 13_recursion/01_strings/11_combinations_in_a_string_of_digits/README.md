@@ -224,13 +224,19 @@ public static void Main(String[] args)
 // This code is contributed by 29AjayKumar
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> combinationsStringDigits(int n)
+List<String> combinationsOfDigits(String s)
 ```
 
+> **Note:** Each combination is the numbers joined by single spaces, in the order shown in the examples.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `combinationsOfDigits("123")` → `["1 2 3", "1 23", "12 3", "123"]`
+<!-- signature:end -->
 
 ## Links
 

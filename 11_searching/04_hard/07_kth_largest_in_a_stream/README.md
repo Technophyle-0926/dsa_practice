@@ -26,6 +26,7 @@ Output: 3 4
 Explanation: After each insertion, there is at least 1 element, so the 1st largest elements are 3 and then 4.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -33,6 +34,9 @@ List<int> kthLargestStream(List<int> arr, int k)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `kthLargestStream([1, 2, 3, 4, 5, 6], 4)` → `-1 -1 -1 1 2 3`
+<!-- signature:end -->
 
 ## Links
 

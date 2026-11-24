@@ -39,13 +39,19 @@ Our result is sum of above values.
 Notice that it took only 4 actions to compute the result over a subarray of size 13.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic rangeSumQuerySparseTable(/* not set yet */)
+List<int> rangeSumQueries(List<int> arr, List<List<int>> queries)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Each query is [L, R] (0-based, inclusive); return the range sum for each.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `rangeSumQueries([3, 7, 2, 5, 8, 9], [[0, 5], [3, 5], [2, 4]])` → `[34, 22, 15]`
+<!-- signature:end -->
 
 ## Links
 

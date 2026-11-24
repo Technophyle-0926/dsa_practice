@@ -30,6 +30,7 @@ Output: 0
 Examples: No triangles are possible.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -37,6 +38,9 @@ int countPossibleTriangles(List<int> arr)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `countPossibleTriangles([4, 6, 3, 7])` → `3`
+<!-- signature:end -->
 
 ## Links
 

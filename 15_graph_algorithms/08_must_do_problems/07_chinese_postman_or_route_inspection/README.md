@@ -31,13 +31,19 @@ Explanation: The vertices 3 and 4 have odd degree, so the edge between them must
 The minimum total cost is 8 + 2 = 10.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic chinesePostmanOrRouteInspection(/* not set yet */)
+int chinesePostman(int n, List<List<int>> edges)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Vertices are 1-based; edges[i] = [u, v, w].
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `chinesePostman(3, [[1, 2, 1], [2, 3, 1], [3, 1, 4]])` → `6`
+<!-- signature:end -->
 
 ## Links
 

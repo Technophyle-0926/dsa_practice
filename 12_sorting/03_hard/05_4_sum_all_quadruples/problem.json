@@ -7,7 +7,7 @@
   "article": "https://www.geeksforgeeks.org/dsa/4-sum-find-a-quadruplet-with-closest-sum/",
   "practice": null,
   "function": {
-    "name": "solve4SumAllQuadruples",
+    "name": "closestQuadruplet",
     "params": [
       {
         "name": "arr",
@@ -19,10 +19,11 @@
       }
     ],
     "returns": "List<int>",
-    "verified": true
+    "verified": true,
+    "note": "Return any 4 elements (sorted ascending) whose sum is closest to target; graded by the sum."
   },
   "example": {
-    "call": "solve4SumAllQuadruples([4, 5, 3, 4, 1, 2], 13)",
-    "expected": "{4, 5, 3, 1}"
+    "call": "closestQuadruplet([4, 5, 3, 4, 1, 2], 13)",
+    "expected": "[1, 3, 4, 5]"
   }
 }

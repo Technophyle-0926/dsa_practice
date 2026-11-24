@@ -28,6 +28,7 @@ Output: [0]
 Explanation: Removing the vertex 0 will increase the number of disconnected components to 3.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -35,6 +36,9 @@ List<int> articulationPointsOrCutVertices(int V, List<List<int>> edges)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `articulationPointsOrCutVertices(4, [[0, 1], [0, 2]])` → `[0]`
+<!-- signature:end -->
 
 ## Links
 

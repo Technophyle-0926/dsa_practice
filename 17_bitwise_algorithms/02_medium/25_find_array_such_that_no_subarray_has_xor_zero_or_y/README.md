@@ -17,13 +17,19 @@ Input: X = 1, Y = 1
 Output: -1
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-List<int> findArraySuchThatNo(int X, int Y)
+List<int> findArraySuchThatNo(int x, int y)
 ```
 
+> **Note:** Any valid maximum-length array is accepted; return [-1] if none exists.
+
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `findArraySuchThatNo(3, 5)` → `[1, 3, 1]`
+<!-- signature:end -->
 
 ## Links
 

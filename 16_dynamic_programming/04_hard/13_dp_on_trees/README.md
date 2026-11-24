@@ -43,13 +43,17 @@ Base Case:
 If the current node is nullptr, return from the recursion (no addition to the sum is possible).
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic dpTrees(/* not set yet */)
+int maxRootToLeafSum(TreeNode? root)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Return the maximum sum of node values on any root-to-leaf path.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

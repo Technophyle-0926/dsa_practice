@@ -18,6 +18,7 @@ Output: true
 Explanation: Divisors of 6 are 1, 2 and 3. Sum of divisors is 6.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -25,6 +26,9 @@ bool perfectNumber(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `perfectNumber(15)` → `false`
+<!-- signature:end -->
 
 ## Links
 

@@ -23,6 +23,7 @@ Output: "even"
 Explanation: (9)_10 = (1001)2  binary representation has two 1-bits , parity is "even".
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -30,6 +31,9 @@ String computeParity(int n)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `computeParity(13)` → `"odd"`
+<!-- signature:end -->
 
 ## Links
 

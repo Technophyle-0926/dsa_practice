@@ -30,13 +30,17 @@ Input:
 Output: 12
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic bitmaskingDynamicProgramming(/* not set yet */)
+int minDistanceVisitAllHouses(List<List<String>> grid)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Grid cells are 'o' (start), '*' (house), 'x' (blocked), '.' (street); return min moves to visit all houses or -1.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+<!-- signature:end -->
 
 ## Links
 

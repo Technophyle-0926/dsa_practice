@@ -7,10 +7,27 @@
   "article": "https://www.geeksforgeeks.org/dsa/delete-operation-in-b-tree/",
   "practice": null,
   "function": {
-    "name": "deleteOperationBTree",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "name": "bTreeDelete",
+    "params": [
+      {
+        "name": "t",
+        "type": "int"
+      },
+      {
+        "name": "keys",
+        "type": "List<int>"
+      },
+      {
+        "name": "deleteKeys",
+        "type": "List<int>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Build with CLRS insertion (minimum degree t), then delete deleteKeys in order with CLRS deletion (predecessor/successor/merge, borrowing on the way down); absent keys ignored. The tree is returned level by level, left to right, one List<int> of keys per node."
   },
-  "example": null
+  "example": {
+    "call": "bTreeDelete(3, [10, 20, 5, 6, 12, 30, 7, 17], [6])",
+    "expected": "[[10], [5, 7], [12, 17, 20, 30]]"
+  }
 }

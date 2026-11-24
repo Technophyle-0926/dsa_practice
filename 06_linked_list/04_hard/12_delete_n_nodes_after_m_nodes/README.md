@@ -32,13 +32,19 @@ Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 Explanation: After skipping 6 nodes for the first time , we will reach of end of the linked list, so, we will get the given linked list itself.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
-dynamic deleteNNodesAfterM(/* not set yet */)
+ListNode? deleteNNodesAfterMNodes(ListNode? head, int m, int n)
 ```
 
-_The signature for this problem has not been set yet. Pick parameters that fit the problem; it will be fixed in `problem.json` before it joins the leaderboard._
+> **Note:** Repeatedly keep m nodes, then delete the next n nodes, until the end of the list.
+
+Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `deleteNNodesAfterMNodes(ListNode.fromList([9, 1, 3, 5, 9, 4, 10, 1]), 2, 1)` → `9 -> 1 -> 5 -> 9 -> 10 -> 1`
+<!-- signature:end -->
 
 ## Links
 

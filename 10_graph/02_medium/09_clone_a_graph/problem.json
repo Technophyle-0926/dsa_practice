@@ -8,9 +8,18 @@
   "practice": "https://www.geeksforgeeks.org/problems/clone-graph/1",
   "function": {
     "name": "cloneGraph",
-    "params": [],
-    "returns": "dynamic",
-    "verified": false
+    "params": [
+      {
+        "name": "adjList",
+        "type": "List<List<int>>"
+      }
+    ],
+    "returns": "List<List<int>>",
+    "verified": true,
+    "note": "Build node objects from adjList, deep-clone the graph, and return the clone's adjacency list (must equal the input)."
   },
-  "example": null
+  "example": {
+    "call": "cloneGraph([[1, 2], [0, 2], [0, 1]])",
+    "expected": "[[1, 2], [0, 2], [0, 1]]"
+  }
 }

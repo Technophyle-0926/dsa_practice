@@ -22,6 +22,7 @@ Output: 0
 Explanation: We can not assign cookies to children.
 ```
 
+<!-- signature:start -->
 ## Function Signature
 
 ```dart
@@ -29,6 +30,9 @@ int assignCookies(List<int> greed, List<int> cookie)
 ```
 
 Your solution must define this function with the same name and parameters; the leaderboard calls it.
+
+**Example:** `assignCookies([1, 10, 3], [1, 2, 3])` → `2`
+<!-- signature:end -->
 
 ## Links
 
