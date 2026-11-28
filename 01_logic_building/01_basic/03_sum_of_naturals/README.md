@@ -52,5 +52,7 @@ See the [solutions/](solutions/) folder for everyone's solutions.
 
 Test it on your computer first: `./dsa test logic_building basic 3`
 
-_No solutions yet._
+| # | Contributor | Result | Time | Extra memory | Points |
+|---|---|---|---|---|---|
+| 1 | Technophyle-0926 | ✅ 33/33 | 686 ms | 0.0 MB | 100.0 |
 <!-- results:end -->
