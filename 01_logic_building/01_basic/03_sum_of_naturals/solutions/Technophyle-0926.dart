@@ -4,11 +4,8 @@
 
 /// Required signature: keep the name and parameters, the leaderboard calls it.
 int sumNaturals(int n) {
-  int sum = 0;
-  for (int i = 1; i <= n; i++) {
-    sum += i;
-  }
-  return sum;
+  if (n <= 0) return  0;
+  return (n * (n + 1)) ~/ 2;
 }
 
 void main() {
